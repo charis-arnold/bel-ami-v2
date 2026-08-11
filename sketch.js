@@ -414,7 +414,7 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
   // war auskommentiert und noStroke() stand vom Zentrums-Punkt oben noch
   // an), wodurch die Beschriftung praktisch unsichtbar wurde.
   const beschriftungsFarbe = '#1a1a1a';
-  strokeWeight(3);
+  strokeWeight(1);
   stroke(255, 255, 255, 200);
   fill(beschriftungsFarbe);
   textAlign(CENTER, CENTER);
