@@ -149,15 +149,23 @@ function preload() {
   bgImage = loadImage('final-paris-gross-web.png');
   bgImage2 = loadImage('final-paris-gross-web-2.png');
   ch1Image = loadImage('kapitel01-qgis-karte-web.png');
-  stationenData = loadJSON('kapitel01-stationen.json');
-  kapitel03Data = loadJSON('kapitel03-stationen.json');
+
+  const kapitelDatenDateien = [
+    { nr: '01', ziel: 'stationenData' },
+    { nr: '03', ziel: 'kapitel03Data' },
+    ...WEITERE_KAPITEL_NUMMERN.map(nr => ({ nr, ziel: nr }))
+  ];
+
+  kapitelDatenDateien.forEach(({ nr, ziel }) => {
+    const datei = `kapitel${nr}-stationen.json`;
+    if (ziel === 'stationenData') stationenData = loadJSON(datei);
+    else if (ziel === 'kapitel03Data') kapitel03Data = loadJSON(datei);
+    else weitereKapitelDaten[ziel] = loadJSON(datei);
+  });
+
   fotoMarkerListe = loadJSON('fotomarker.json');
   uebersichtsRouten = loadJSON('kapitel-routen-uebersicht.json');
   kreisVergleichOrte = loadJSON('kreisvergleich-orte.json');
-
-  WEITERE_KAPITEL_NUMMERN.forEach(nr => {
-    weitereKapitelDaten[nr] = loadJSON(`kapitel${nr}-stationen.json`);
-  });
 
   Object.keys(kapitelKarten).forEach(nr => {
     if (OHNE_EIGENEN_KARTENAUSSCHNITT.includes(nr)) return;
@@ -170,11 +178,12 @@ function preload() {
 }
 
 function bereinigeEingangsdaten() {
-  stationenData = bereinigeStationenDaten(stationenData);
-  kapitel03Data = bereinigeStationenDaten(kapitel03Data);
-  WEITERE_KAPITEL_NUMMERN.forEach(nr => {
-    weitereKapitelDaten[nr] = bereinigeStationenDaten(weitereKapitelDaten[nr]);
-  });
+  [stationenData, kapitel03Data, ...WEITERE_KAPITEL_NUMMERN.map(nr => weitereKapitelDaten[nr])]
+    .filter(Boolean)
+    .forEach(daten => {
+      bereinigeStationenDaten(daten);
+    });
+
   fotoMarkerListe = bereinigeFotoMarker(fotoMarkerListe);
   uebersichtsRouten = bereinigeUebersichtsrouten(uebersichtsRouten);
   kreisVergleichOrte = bereinigeKreisVergleichOrte(kreisVergleichOrte);

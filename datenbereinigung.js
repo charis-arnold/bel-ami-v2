@@ -585,17 +585,14 @@ const SCROLL_MEILENSTEINE = {
 // ---------------------------------------------------------------------------
 
 function bereinigeStationenDaten(rohdaten) {
-  rohdaten.route = Array.isArray(rohdaten.route) ? rohdaten.route : Object.values(rohdaten.route);
-  rohdaten.gedanken = Array.isArray(rohdaten.gedanken) ? rohdaten.gedanken : Object.values(rohdaten.gedanken || {});
-  rohdaten.markierungen = Array.isArray(rohdaten.markierungen) ? rohdaten.markierungen : Object.values(rohdaten.markierungen || {});
-  rohdaten.routenPunkte = Array.isArray(rohdaten.routenPunkte) ? rohdaten.routenPunkte : Object.values(rohdaten.routenPunkte || {});
-  rohdaten.annotationen = Array.isArray(rohdaten.annotationen) ? rohdaten.annotationen : Object.values(rohdaten.annotationen || {});
-  rohdaten.ortRuns = Array.isArray(rohdaten.ortRuns) ? rohdaten.ortRuns : Object.values(rohdaten.ortRuns || {});
+  const arrayFuer = (wert) => Array.isArray(wert) ? wert : Object.values(wert || {});
 
-  // Annotationen mit "deaktiviert": true fliessen nirgends mehr ein (Route-
-  // Timing, Kreiszählungen, Spine, Gedanken) — reversibel: Feld einfach
-  // wieder entfernen oder auf false setzen, um die Annotation zurückzuholen.
-  rohdaten.annotationen = rohdaten.annotationen.filter(a => !a.deaktiviert);
+  rohdaten.route = arrayFuer(rohdaten.route);
+  rohdaten.gedanken = arrayFuer(rohdaten.gedanken);
+  rohdaten.markierungen = arrayFuer(rohdaten.markierungen);
+  rohdaten.routenPunkte = arrayFuer(rohdaten.routenPunkte);
+  rohdaten.annotationen = arrayFuer(rohdaten.annotationen).filter(a => !a.deaktiviert);
+  rohdaten.ortRuns = arrayFuer(rohdaten.ortRuns);
 
   return rohdaten;
 }
@@ -609,8 +606,7 @@ function bereinigeFotoMarker(rohdaten) {
 // numerischen Keys statt als echtes Array zurückgeben; ebenso für das
 // verschachtelte "kapitel"-Array pro Ort.
 function bereinigeKreisVergleichOrte(rohdaten) {
-  let orte = Array.isArray(rohdaten) ? rohdaten : Object.values(rohdaten || {});
-  return orte.map(ort => ({
+  return (Array.isArray(rohdaten) ? rohdaten : Object.values(rohdaten || {})).map(ort => ({
     ...ort,
     kapitel: Array.isArray(ort.kapitel) ? ort.kapitel : Object.values(ort.kapitel || {}),
   }));
