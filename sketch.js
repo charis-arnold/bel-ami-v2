@@ -1,9 +1,6 @@
 /* =============================================================================
-   sketch.js — Zeichnen (p5)
-   CAS Generative Data Design: Datenaufbereitung (Python) → Datenbereinigung
-   (D3, siehe datenbereinigung.js) → Zeichnen (hier, p5). Enthält nur noch
-   p5-Lifecycle-Funktionen und Canvas-Zeichenfunktionen; alle Konstanten und
-   reinen Datenfunktionen leben jetzt in datenbereinigung.js.
+   sketch.js — p5-Zeichnung für Bel-Ami v2
+   Datenaufbereitung und Darstellung sind getrennt gehalten.
 ============================================================================= */
 
 const HATCH_SPACING = 3;
@@ -172,7 +169,7 @@ function preload() {
   });
 }
 
-function setup() {
+function bereinigeEingangsdaten() {
   stationenData = bereinigeStationenDaten(stationenData);
   kapitel03Data = bereinigeStationenDaten(kapitel03Data);
   WEITERE_KAPITEL_NUMMERN.forEach(nr => {
@@ -181,9 +178,13 @@ function setup() {
   fotoMarkerListe = bereinigeFotoMarker(fotoMarkerListe);
   uebersichtsRouten = bereinigeUebersichtsrouten(uebersichtsRouten);
   kreisVergleichOrte = bereinigeKreisVergleichOrte(kreisVergleichOrte);
+}
+
+function setup() {
+  bereinigeEingangsdaten();
 
   stage = document.getElementById('scrollyStage');
-  heroText = document.querySelectorAll('h1, h2, lead1, lead2, .scroll-hinweis');
+  heroText = document.querySelectorAll('h1, h2, .lead, .scroll-hinweis');
   begleitTexte = document.querySelectorAll('.begleittext');
   kapitelEinstiegsTexte = document.querySelectorAll('.kapitel-einstiegstext');
 
@@ -973,7 +974,9 @@ function draw() {
   });
 
   // Hero / Marker Opacity
-  let heroOpacity = constrain(map(progress, SCROLL_MEILENSTEINE.heroFadeStart, SCROLL_MEILENSTEINE.heroFadeEnd, 1, 0), 0, 1);
+  let heroProgress = constrain(map(progress, SCROLL_MEILENSTEINE.heroFadeStart, SCROLL_MEILENSTEINE.heroFadeEnd, 0, 1), 0, 1);
+  let heroFade = heroProgress * heroProgress * heroProgress;
+  let heroOpacity = 1 - heroFade;
   heroText.forEach(el => el.style.opacity = heroOpacity);
 
   // Begleittexte: beliebig viele <p class="begleittext" data-von="…" data-bis="…">
