@@ -1,0 +1,3278 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 11,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 150,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Das Ehepaar Du Roy war seit zwei Tagen nach Paris zurückgekehrt",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "notiz": "Neutrale Erzählerangabe über die Rückkehr des Ehepaars nach Paris.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 2,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "der Journalist hatte seine alte Tätigkeit wieder aufgenommen, in der Hoffnung, bald von der Redaktion des Lokalen Teils entbunden zu werden, um endgültig das Ressort Forestiers zu übernehmen und sich ganz der Politik widmen zu können.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy denkt über seinen beruflichen Aufstieg und sozialen Status nach — inneres Erleben seiner Ambitionen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 3,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er ging abends mit frohem Herzen nach der Wohnung seines Vorgängers, um zu essen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy bewegt sich frohgemut zur Wohnung — seine positive Stimmung begleitet die Bewegung durch den städtischen Raum.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Rue Notre-Dame de Lorette, Wohnung Forestier/Du Roy",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung des Vorgängers",
+        "emotion": "frohmütiges Verlangen",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 4,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er sehnte sich nach seiner Frau, deren körperliche und seelische Reize ihn immer mehr fesselten.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Sehnsucht nach Madeleine — starkes emotionales Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 5,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Als er an einem Blumenladen am Ende der Rue Notre Dame de Lorette vorbeikam",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Neutrale Ortsangabe: Duroy passiert einen Blumenladen am Ende der Rue Notre-Dame de Lorette.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Rue Notre-Dame de Lorette (Ende)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 6,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "kam er auf die Idee, für Madeleine einen Strauß Blumen mitzunehmen und er kaufte ein großes Bund halbgeöffneter, duftender Rosenknospen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "smell",
+        "material"
+      ],
+      "notiz": "Duroy handelt aus einer spontanen, zuneigungsvollen Idee heraus und kauft duftende Rosen — sensorische Qualität inklusive.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Blumenladen, Rue Notre-Dame de Lorette",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Blumenladen Rue Notre-Dame de Lorette",
+        "emotion": "Zuneigung, Freude",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 7,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Auf jedem Treppenabsatz seiner neuen Wohnung sah er sich selbstgefällig in dem Spiegel, der ihn jedesmal an seinen ersten Besuch in diesem Hause erinnerte.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy betrachtet sich selbst und erinnert sich an seinen ersten Besuch in der Wohnung — erinnerungsgebundene Ortswahrnehmung mit selbstgefälliger Stimmung.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Wohnung Du Roy, Rue Notre-Dame de Lorette (Treppenhaus)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Treppenhaus der neuen Wohnung",
+        "emotion": "Selbstgefälligkeit, Erinnerung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 8,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er hatte seinen Schlüssel vergessen und klingelte. Der Diener, den er auf Anraten seiner Frau behalten hatte, öffnete ihm.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Situation — Duroy hat einen Diener, den er auf Madeleines Rat behielt.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Wohnung Du Roy, Rue Notre-Dame de Lorette",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 9,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Als er durchs Eßzimmer ging, wurde er stutzig, weil er drei Gedecke erblickte.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt im Esszimmer ein unerwartetes Detail wahr — das dritte Gedeck löst in ihm Befremden aus.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Esszimmer, Wohnung Du Roy",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Esszimmer der Wohnung",
+        "emotion": "Stutzen, Befremden",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 10,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Der Türvorhang zum Salon war zurückgeschlagen und er sah nebenan Madeleine, die einen Strauß ganz ähnlicher Rosen in eine Vase auf dem Kamin hineinsteckte.",
+      "tags": [
+        "space",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die räumliche Situation von aussen — der zurückgeschlagene Vorhang, der Salon, die Vase mit Rosen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Salon, Wohnung Du Roy",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 11,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er wurde verstimmt und mißvergnügt, als hätte ihn jemand um seine Idee und um die ganze Freude bestohlen, die er von dieser Aufmerksamkeit erwartete.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Stimmung kippt abrupt ins Negative — er fühlt sich um seine Geste und die erhoffte Freude beraubt.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Salon, Wohnung Du Roy",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Salon der Wohnung",
+        "emotion": "Verstimmung, Missvergnügen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 12,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Ah, sehr angenehm.«, murmelte Georges. Er blieb hinter ihr stehen, mit seinem Strauß in der Hand; er hatte Lust, ihn zu verstecken oder wegzuwerfen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Körper erstarrt hinter Madeleine, sein innerer Impuls — den Strauß zu verstecken — spiegelt seine Scham und Verstimmung wider.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Salon, Wohnung Du Roy",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Salon der Wohnung",
+        "emotion": "Scham, Unbehagen",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 13,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "er gleich wieder getröstet war",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Zustand — er ist durch Madeleines aufrichtige Freude erleichtert und getröstet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 14,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Sie nahm seine Blumen, sog den Duft ein und stellte sie dann mit der Fröhlichkeit und Lebhaftigkeit eines beglückten Kindes in eine leere Vase gegenüber der anderen.",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Reaktion auf die Blumen von aussen — Duft und Fröhlichkeit als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy/Madeleine",
+        "emotion": "Fröhlichkeit, Lebendigkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 15,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Die Klingel ertönte und kündete den Besuch des Grafen an.",
+      "tags": [
+        "sound"
+      ],
+      "notiz": "Maupassant beschreibt das Klingeln als neutrales Erzähler-Geräusch, das den Grafen ankündigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 16,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er trat ein, ruhig und sicher, als sei er bei sich zu Hause.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den Grafen Vaudrec, der den häuslichen Raum mit Selbstverständlichkeit betritt — Raumqualität durch soziale Haltung markiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy/Madeleine",
+        "emotion": "Souveränität, Vertrautheit des Grafen",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 17,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er hatte nicht mehr die steife, abweisende Art von früher, sondern sein entgegenkommendes Wesen gab deutlich zu erkennen, daß die Umstände nicht mehr die gleichen waren.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die veränderte soziale Haltung des Grafen gegenüber Duroy — Kontext der Ehe als gesellschaftliche Statusänderung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 18,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Der Journalist war überrascht, versuchte liebenswürdig zu sein",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt die veränderte Haltung des Grafen — er ist überrascht und passt sein Verhalten aktiv an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 19,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "nach wenigen Minuten hätte man glauben können, daß sie sich schon seit zehn Jahren gut kannten und schätzten.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die rasche soziale Annäherung zwischen Duroy und dem Grafen — als neutraler Erzähler-Kommentar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 20,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "sie waren so völlig einer Meinung, daß sie, wenn sie sich anblickten, ein plötzliches Freundschaftsgefühl verspürten, so sehr stimmten ihre Ideen überein.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Duroy und der Graf erleben gemeinsam ein aufflammende Sympathie — Duroys inneres Erleben ist eingeschlossen in diesem 'sie'.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy/Madeleine",
+        "emotion": "plötzliches Freundschaftsgefühl",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 21,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Das Diner war reizend intim und herzlich.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant charakterisiert die Abendgesellschaft von aussen als intim und herzlich — atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy/Madeleine",
+        "emotion": "Intimität, Herzlichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 22,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Der Graf blieb bis spät in die Nacht, so wohl fühlte er sich in diesem reizenden, neuen Haushalt.",
+      "tags": [
+        "time",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das lange Verweilen des Grafen — Tageszeit und soziale Atmosphäre des neuen Haushalts als Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy/Madeleine",
+        "emotion": "Behagen, Wohlgefühl",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 23,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er nahm die Lampe und sie gingen ins Arbeitszimmer.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung von Duroy und Madeleine ins Arbeitszimmer.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer (Wohnung Duroy/Madeleine)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 24,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Dieselben Bücher standen reihenweise im Bücherschrank, den jetzt die drei Vasen schmückten, die Forestier am Tage vor seinem Tode am Golf Juan gekauft hatte.",
+      "tags": [
+        "space",
+        "social",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt das Arbeitszimmer mit den Objekten des verstorbenen Forestier — soziale und materielle Kontinuität wird von aussen markiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer (Wohnung Duroy/Madeleine)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 25,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Unter dem Tisch lag der Fußsack des Verstorbenen für die Beine Du Roys bereit",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt das Objekt des toten Forestier, das nun Duroy dient — symbolische Übernahme der sozialen Position.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer (Wohnung Duroy/Madeleine)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 26,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "als er Platz genommen hatte, griff er zur Elfenbeinfeder, die sein Vorgänger mit seinen Zähnen an der Spitze angekaut hatte",
+      "tags": [
+        "george_duroy",
+        "material",
+        "mood"
+      ],
+      "notiz": "Duroy greift zur Feder seines Vorgängers — die materielle Qualität des Objekts (angekaut) wird implizit aus seiner Handlungsperspektive erlebbar und erzeugt eine unterschwellige Spannung zur Übernahme von Forestiers Rolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer (Wohnung Duroy/Madeleine)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitszimmer",
+        "emotion": "unterschwelliges Unbehagen / Übernahme der Identität des Vorgängers",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 27,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er hörte aufmerksam zu und machte sich einige Notizen. Als sie fertig war, erhob er einige Einwendungen; er faßte die Frage anders auf, erweiterte sie und entwickelte seinerseits einen Plan, nicht bloß zu dem Artikel, sondern zu einem Feldzug gegen das jetzige Ministerium.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "historical"
+      ],
+      "notiz": "Duroy nimmt aktiv an der journalistisch-politischen Arbeit teil und entwickelt eigene Pläne — inneres Engagement und Ehrgeiz werden sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer (Wohnung Duroy/Madeleine)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitszimmer",
+        "emotion": "Ehrgeiz, intellektuelle Aktivierung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 28,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Dieser Angriff sollte den Kampf eröffnen.",
+      "tags": [
+        "historical"
+      ],
+      "notiz": "Erzähler benennt die politische Strategie im Kontext des zeitgenössischen Ministeriumskampfes — Verweis auf das politische System der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer (Wohnung Duroy/Madeleine)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 29,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Da neigte sie sich sanft über seine Schulter und begann ihm leise die Sätze ins Ohr zu flüstern.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die körperliche Nähe Madeleines zu Duroy von aussen als atmosphärisches Bild.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Arbeitszimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 30,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Sie fand scharfe Wendungen und giftige Bosheiten, um den Ministerpräsidenten zu treffen. Sie verquickte, wie es nur eine Frau vermag, spöttische Bemerkungen über sein Gesicht mit denen über seine Politik in so komischer und geistreicher Weise, daß man lachen und zugleich die Richtigkeit und Schärfe ihrer Beobachtung billigen mußte.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die politisch-satirische Arbeit Madeleines als soziale und intellektuelle Leistung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Arbeitszimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 31,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Du Roy setzte zuweilen einige Zeilen hinzu, die die Tragweite und Wirkung des Angriffs vertieften und verschärften. Er verstand sich vortrefflich auf die Kunst, versteckte und zweideutige Bosheiten anzubringen; er hatte es gelernt, als er den Nachrichtenteil redigierte; und wenn eine Tatsache, die Madeleine für unanfechtbar hielt, ihm zweifelhaft oder gefährlich erschien, so ließ er sie nur ahnen und brachte es meisterhaft fertig, sie dem Leser im Geiste noch schärfer einzuprägen, als wenn er etwas Positives behauptet hätte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy handelt aktiv und reflektiert innerlich seine eigene journalistische Fertigkeit — inneres Erleben seiner Kompetenz.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Arbeitszimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 32,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Als der Artikel beendet war, las ihn Georges laut und pathetisch vor. Sie fanden ihn beide ausgezeichnet und lächelten sich überrascht und entzückt zu, als hätten sie sich einander offenbart.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt gemeinsam mit Madeleine ein Gefühl der gegenseitigen Entdeckung und Begeisterung — innerer emotionaler Zustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Arbeitszimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitszimmer Wohnung Duroy",
+        "emotion": "Entzücken, gegenseitige Entdeckung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 33,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Bewundernd und zärtlich sahen sie sich in die Augen und dann umarmten sie sich stürmisch, heiß und leidenschaftlich.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die leidenschaftliche Umarmung von aussen als atmosphärisches Bild ohne Duroys innere Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Arbeitszimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 34,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Du Roy nahm die Lampe: »Und nun ins Bettchen«, sagte er mit einem glühenden Blick.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Blick und Worte drücken sein begehrliches inneres Erleben aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Arbeitszimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 35,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er ging voran und sie folgte ihm ins Schlafzimmer, dabei kitzelte sie ihn mit den Fingern zwischen Nacken und Kragen, damit er rascher gehen sollte, denn diese Art Liebkosung konnte er nicht vertragen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy bewegt sich durch den Innenraum und erlebt körperlich die Berührung Madeleines — Körper als Sensor im Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (innen, Flur/Schlafzimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy, Gang zum Schlafzimmer",
+        "emotion": "körperliches Unbehagen durch Kitzeln, gemischt mit Begehren",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 36,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Der Artikel erschien mit der Unterschrift »Georges Du Roy de Cantel« und erregte großes Aufsehen. In der Kammer gab es eine stürmische Sitzung.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den politischen Widerhall von Duroys Artikel und die parlamentarische Reaktion als historisch-institutionellen Kontext.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chambre des députés (Palais Bourbon), Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 37,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Vater Walter beglückwünschte den Verfasser und übertrug ihm die politische Redaktion der Vie Française.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den sozialen Aufstieg Duroys innerhalb der Redaktionshierarchie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 38,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Es begann nunmehr in der Zeitung ein geschickter und heftiger Feldzug gegen das zuständige Ministerium. Die Angriffe waren gewandt und schlau geführt und auf Tatsachen aufgebaut, bald ironisch, bald ernst, bald humoristisch, bald giftig; sie trafen scharf und sicher, so daß alle Welt erstaunt war.",
+      "tags": [
+        "historical",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert von aussen den medialen und politischen Feldzug der Zeitung als atmosphärisches Zeitbild der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 39,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Die anderen Blätter zitierten fortwährend die Vie Française und druckten ganze Spalten ab, und die einflußreichen, politischen Machthaber erkündigten sich, ob man diesen unbekannten, erbitterten Feind nicht mit Hilfe einer Präfektur zum Schweigen bringen könnte.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die politische Wirkmacht der Zeitung im Kontext der Dritten Republik und ihrer Machtstrukturen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, politische Öffentlichkeit (Presse und Ministerien)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 40,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "In politischen Kreisen wurde Du Roy bald eine vielgenannte Persönlichkeit.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant konstatiert von aussen Duroys wachsenden sozialen Status in der politischen Welt Paris'.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, politische Kreise",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 41,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er spürte seinen wachsenden Einfluß an den Händedrücken und der Art des Hutabnehmens.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy nimmt seinen gesellschaftlichen Aufstieg körperlich-sensorisch durch soziale Gesten wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, politische Kreise (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "politische Kreise Paris",
+        "emotion": "Stolz, Bewusstsein des eigenen Einflusses",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 42,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Und seine Frau wiederum erfüllte ihn mit Staunen und Bewunderung durch den Scharfsinn ihres Geistes, die Geschicklichkeit ihrer Informationen und die Zahl ihrer Bekanntschaften.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innerlich Staunen und Bewunderung gegenüber Madeleines politischem Geschick.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "häusliche Sphäre Duroys",
+        "emotion": "Staunen und Bewunderung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 43,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Wenn er nach Hause kam, fand er stets in seinem Salon irgendeinen Senator oder Abgeordneten, einen höheren Staatsbeamten oder General, die mit Madeleine wie mit einer alten Freundin ernst und vertraulich verkehrten.",
+      "tags": [
+        "george_duroy",
+        "location",
+        "social",
+        "space"
+      ],
+      "notiz": "Duroy nimmt aus seiner Perspektive den Salon als politisch-sozialen Begegnungsraum wahr, der von Madeleines Einfluss geprägt ist.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon in Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Salon der Wohnung Duroys",
+        "emotion": "Befremden, Staunen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 44,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Wo hatte sie alle diese Leute kennengelernt? In der Gesellschaft, meinte sie. Aber wie war es ihr gelungen, ihr Vertrauen und ihre Freundschaft zu gewinnen? Das konnte er nicht begreifen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy grübelt innerlich über Madeleines unbegreifliche soziale Vernetzung und empfindet Unverständnis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 45,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Sie wäre ein schlauer und tüchtiger Diplomat«, dachte er.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Reflexion über Madeleine zeigt Bewunderung gemischt mit Ratlosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 46,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Oft kam sie zu spät zum Essen und stürzte dann außer Atem rot und erregt ins Zimmer, und ehe sie noch den Schleier abgelegt hatte, sagte sie:",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Madeleines aufgeregte Rückkehr in die häusliche Szene als Bild ihrer politischen Aktivität.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 47,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "der Abgeordnete Laroche-Mathieu, der jeden Dienstag in der Rue Fontaine zu Mittag aß",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Konkreter Strassenname als Ort des gesellschaftlichen Mittagessens.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Rue Fontaine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 48,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "nachdem Graf Vaudrec am Tage vorher den Anfang gemacht hatte",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant verweist auf die gesellschaftliche Struktur der Einladungen und den Rang der Gäste.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 49,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er hoffte sehr, auf diese Weise das Portefeuille des Auswärtigen zu ergattern, auf das er schon lange hinzielte.",
+      "tags": [
+        "historical"
+      ],
+      "notiz": "Verweis auf das Ministerium des Auswärtigen als politische Institution der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 50,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "er war eine Art von republikanischer Jesuit, ein liberaler Pilz von höchst zweifelhaftem Wesen, wie sie zu Hunderten auf dem volkstümlichen Düngerhaufen des allgemeinen Stimmrechts gedeihen.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die politische Kultur der Dritten Republik satirisch und von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 51,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Seine machiavellistische Bauernschlauheit ließ ihn unter seinen Kollegen, unter diesen entgleisten und gescheiterten Existenzen, aus denen Abgeordnete gewählt werden, als stark und gewandt erscheinen.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Erzähler charakterisiert das Milieu der Abgeordneten als gescheiterte Existenzen — soziale Aussenbeschreibung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 52,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "In der Gesellschaft hatte er Erfolg, allerdings in der ziemlich wahllos durcheinander gemischten und wenig vornehmen Gesellschaft der heutigen hohen Staatsbeamten.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Zusammensetzung der Pariser Staatsgesellschaft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 53,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er war Hauptaktionär der Zeitung des Vater Walter und war fast an allen seinen finanziellen Unternehmungen beteiligt.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Verflechtung von Presse, Finanz und Politik als strukturelles Merkmal der Dritten Republik — von aussen beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 54,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Du Roy unterstützte ihn vertrauensvoll mit etwas unklaren Hoffnungen für die spätere Zukunft.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy handelt strategisch aus innerer Hoffnung auf sozialen Aufstieg — sein Erleben und seine Erwartung werden geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": null,
+        "emotion": "unklare Hoffnung auf zukünftigen Aufstieg",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 55,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Übrigens setzte er damit nur das Werk fort, das Forestier begonnen hatte.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Erzähler stellt Kontinuität zwischen Duroy und seinem Vorgänger Forestier fest — nüchterne Aussenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 56,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Diesem hatte Laroche-Mathieu die Ehrenlegion versprochen, sobald der Tag des Sieges gekommen sei. Nun mußte der Orden auf die Brust des neuen Gatten von Madeleine übergehen.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die politische und soziale Konstellation rund um den Ehrenlegionsorden als Statussymbol.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 57,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Man empfand es so deutlich, daß sich nichts geändert hatte, daß Du Roys Kollegen ihn zu necken begannen, was ihm auf die Dauer lästig wurde. Man nannte ihn nur noch Forestier.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Dynamik im Redaktionsbüro, die Duroy durch den Spitznamen Forestier demütigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 58,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Sooft er ins Redaktionsbureau kam, rief jemand: »Sag' mal, Forestier.« Er tat so, als ob er nicht hörte und begann, die Briefe aus dem Schubkasten herauszusuchen.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys routinierte Reaktion auf den demütigenden Spitznamen im Redaktionsbüro.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 59,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Und er vernahm ein unterdrücktes Gelächter.",
+      "tags": [
+        "sound"
+      ],
+      "notiz": "Maupassant beschreibt als Erzähler das hörbare Gelächter der Kollegen als atmosphärisches Element.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 60,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Du Roy ging nach dem Bureau des Direktors",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich durch den Raum des Redaktionsgebäudes in Richtung Direktionsbüro.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 61,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Du Roy antwortete nichts, aber er wurde wütend und in seinem Herzen begann er den Toten dumpf und heftig zu hassen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innerlich aufsteigenden Zorn und Hass gegen den toten Forestier als direkte emotionale Reaktion auf die soziale Demütigung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktionsbüro",
+        "emotion": "Wut und Hass",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 62,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Der Vater Walter selbst hatte erklärt, als man sich über die schlagende Ähnlichkeit in Form und Inhalt zwischen den Aufsätzen des neuen und des alten politischen Redakteurs wunderte: »Ja, es ist Forestier, aber ein kräftigerer und energischerer Forestier.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant zitiert Walter und beschreibt von aussen die soziale Einordnung Duroys als blossen Nachfolger Forestiers.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 63,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Ein anderes Mal, als Du Roy zufällig den Bilboquetschrank öffnete, hatte man die seines Vorgängers am Stiel mit schwarzem Flor umwunden und sein eigenes, mit dem er unter Anleitung Saint-Potins zu spielen pflegte, trug ein rosa Seidenbändchen",
+      "tags": [
+        "george_duroy",
+        "material",
+        "social"
+      ],
+      "notiz": "Duroy entdeckt den mit schwarzem Flor und rosa Seidenbändchen versehenen Bilboquetschrank — ein von Kollegen inszenierter sozialer Spott, den er physisch wahrnimmt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktionsbüro",
+        "emotion": "Demütigung durch inszenierten sozialen Spott",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 64,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "auf dem Brett, auf welchem die Bilboquets der Größe nach aufgestellt wurden, war ein Zettel angeheftet, ähnlich wie im Museum, auf dem stand: »Alte Sammlung Forestier & Co. — Forestier, Du Roy Nachfolger G. m. b. H.«",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den inszenierten Museumszettel als Kulisse gesellschaftlichen Spotts gegen Duroy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbüro La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 65,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er schloß ruhig den Schrank und sagte so laut, daß es jeder hören konnte: »Neidische Dummköpfe gibt es überall.«",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Maupassant beschreibt Duroys äußere Handlung und Aussage von aussen — neutral beobachtend.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 66,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Er war tief verletzt in seinem Stolz und seiner Eitelkeit, in dieser besonders empfindlichen und nervösen und mißtrauischen Schriftstellereitelkeit, die sowohl dem kleinsten Reporter wie auch dem genialsten Dichter zu eigen ist.",
+      "tags": [
+        "mood",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Duroys verletzte Eitelkeit von aussen, generalisierend als Erzählerkommentar über Schriftstellereitelkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 67,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Dieses Wort »Forestier« kränkte sein Ohr. Er fürchtete, es zu hören, und errötete jedesmal, wenn er es doch hören mußte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "sound"
+      ],
+      "notiz": "Duroy erlebt den Namen 'Forestier' als akustisch-emotionale Kränkung — Klang und Gefühl sind untrennbar verbunden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unspezifisch",
+        "emotion": "Kränkung, Scham",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 68,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Dieser Name war für ihn bissiger Spott geworden, ja mehr als Spott, eine schwere Beleidigung. Dieser Name schrie ihm zu: »Deine Frau macht die Arbeit für dich genau so, wie sie es für den anderen gemacht hat. Ohne sie wärest du nichts.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt den Namen als innere Stimme, die seinen sozialen Status und seine Abhängigkeit anklagt — intensives inneres Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unspezifisch",
+        "emotion": "Scham, Minderwertigkeitsgefühl",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 69,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Daß Forestier ohne Madeleine nichts gewesen wäre, das wollte er gern zugeben, aber er selbst — nein, das war ganz was anderes.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy denkt über seinen eigenen Wert im Vergleich zu Forestier nach — inneres Erleben von Stolz und Selbstbehauptung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 70,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Und auch zu Hause wollte dieses bedrückende Gefühl nicht von ihm weichen. Das ganze Haus mahnte ihn jetzt an den Toten, die Möbel, die ganze Einrichtung, alles, was er anfaßte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy erlebt die häusliche Umgebung als emotional belastet — der Raum des ehemaligen Forestier-Haushalts löst Beklemmung aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (ehemals Forestiers)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Bedrückung, Unbehagen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 71,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Aber die Neckereien seiner Kollegen hatten seinem Geist eine Wunde beigebracht, die durch eine Menge bisher unbeachteter Kleinigkeiten noch weiter aufgerissen wurde.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt die Sticheleien der Kollegen als psychische Verletzung, die sein Wahrnehmen der häuslichen Umgebung verändert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 72,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er konnte nichts mehr in die Hand nehmen, ohne daß er Charles' Hand darauf zu erblicken glaubte. Er sah und gebrauchte nur Dinge, die jener auch einst benutzt hatte, Gegenstände, die er gekauft, geliebt und besessen hatte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "material",
+        "space"
+      ],
+      "notiz": "Duroy nimmt die physischen Gegenstände des Haushalts als Überreste Forestiers wahr — Objekte werden zu emotionalen Auslösern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (ehemals Forestiers)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Ekel, Unruhe, Obsession",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 73,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Und Georges begann sich schon jetzt bei dem Gedanken an die früheren Beziehungen seines alten Freundes zu seiner jetzigen Frau zu beunruhigen und zu ärgern.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy beginnt sich über die frühere Ehe Madeleines mit Forestier zu ärgern — innere Eifersucht und Unruhe als emotionaler Zustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 74,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Bisweilen wunderte er sich selbst über diese innere Empörung seines Herzens, die er sich nicht erklären konnte",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt eine innere, unerklärliche Empörung, die er selbst nicht versteht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 75,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Zum Teufel, wie kommt das nur? Ich bin doch nicht auf die Freunde Madeleines eifersüchtig; ich kümmere mich nicht darum, was sie treibt; sie kommt und geht, wie es ihr paßt und nur der Gedanke an diesen blöden Kerl, den Charles, macht mich direkt wütend.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert innerlich seine Eifersucht und Wut auf den verstorbenen Charles.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 76,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Im Grunde war er ein Idiot, und das ist es, was mich so kränkt. Ich ärgere mich, daß Madeleine so einen Schafskopf hatte heiraten können.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy grübelt über seine Kränkung und wertet Charles sozial ab.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 77,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Wie konnte diese Frau so ein Vieh nur einen Augenblick gern haben?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy wiederholt in Gedanken seine Verachtung für Charles und seine Unverständnis für Madeleines frühere Zuneigung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 78,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Und sein Haß und seine Eifersucht wurden von Tag zu Tag durch unzählige Kleinigkeiten aufgestachelt, die ihn wie Nadelstiche peinigten.",
+      "tags": [
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die wachsende Eifersucht und den Hass Duroys als andauernden Prozess.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 79,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Immerfort wurde er an den anderen erinnert. Bald durch eine Bemerkung Madeleines, bald durch ein Wort des Dieners oder des Stubenmädchens.",
+      "tags": [
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt neutral, wie Duroy stets an den Vorgänger erinnert wird.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 80,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "er schnitt ihr mit einer ungeduldigen Bewegung das Wort ab: »Ach weißt du, dieser Charles beginnt mir auf die Nerven zu gehen. Es geht ja fortwährend: Charles hier, Charles dort. Charles liebte dieses, Charles liebte jenes. Nun ist Charles krepiert, also soll man ihn endlich in Ruhe lassen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy bricht ungeduldig in Wut aus und macht seiner Eifersucht auf Charles Luft — körperliche Geste und emotionaler Ausbruch gemeinsam.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 81,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Madeleine sah ihren Mann erstaunt an. Sie begriff diesen plötzlichen Wutausbruch nicht. Doch bald ahnte sie mit ihrem scharfen Verstande, was in ihm vorging, die langsame Wühlarbeit dieser verspäteten Eifersucht, die jeden Augenblick wuchs, und durch alles genährt wurde, was ihn an den Toten erinnerte.",
+      "tags": [
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Madeleines Reaktion und ihre Erkenntnis über Duroys wachsende Eifersucht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 82,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er ärgerte sich über seine Gereiztheit, und daß er sich nicht hatte beherrschen können.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert seine eigene Gereiztheit und ärgert sich innerlich darüber.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt, häusliche Umgebung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 83,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Abends nach dem Essen arbeiteten sie wieder zusammen an einem Artikel für den nächsten Tag und er verwickelte sich in den Fußsack.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Der Erzähler schildert die gemeinsame Abendarbeit Duroys und Madeleines als neutrale Situationsbeschreibung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 84,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er konnte nicht mit den Füßen hinein, warf ihn mit einem Fußtritt beiseite und fragte lachend: »Charles hatte wohl immer kalte Füße?«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy reagiert körperlich-impulsiv auf den Fußsack und nutzt die Gelegenheit, um spöttisch über Charles zu sprechen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 85,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges zuckte die Achseln und sagte mit endloser Verachtung: »So ein Affe.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy bringt seine tiefe Verachtung für Charles durch Geste und Worte zum Ausdruck.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 86,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Seitdem war Charles für ihn ein unerschöpflicher Unterhaltungsgegenstand. Er sprach über ihn, bei jedem Anlaß und nannte ihn nur noch »dieser arme Charles« mit verächtlich mitleidigem Ton.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen Duroys wiederkehrendes Muster, Charles zu verspotten und herabzusetzen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 87,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Und wenn er von der Redaktion zurückkam, wo man ihn zwei- oder dreimal Forestier angeredet hatte, so rächte er sich dann und verfolgte den Toten bis in sein Grab mit bittersten und gehässigsten Witzen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt das Angerufen-Werden mit Forestiers Namen als Kränkung und rächt sich dafür durch gehässige Witze über den Toten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktion",
+        "emotion": "Ärger, Kränkung, Rachebedürfnis",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 88,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er spöttelte über seine Fehler, seine kleinlichen komischen Seiten, zählte sie mit Wohlbehagen auf, wobei er sie immer übertrieb und vergrößerte, als wollte er im Herzen seiner Frau den Einfluß eines gefährlichen Nebenbuhlers bekämpfen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innere Motivation wird sichtbar: Er versucht, den toten Nebenbuhler aus Madeleines Herzen zu verdrängen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 89,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Dann wollte er allerlei intime Einzelheiten über den Verstorbenen erfahren, worüber die junge Frau unwillig schwieg. Doch er war hartnäckig und bestand darauf.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy drängt hartnäckig auf intime Informationen über Charles — sein Begehren nach Kontrolle und Überlegenheit zeigt sich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 90,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Eines Abends gegen Ende Juni rauchte er am Fenster eine Zigarette.",
+      "tags": [
+        "time",
+        "location",
+        "social"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur Tageszeit und Jahreszeit, Duroy raucht am Fenster.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys/Madeleines, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 91,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Es war sehr heiß, und er bekam Lust, einen Spaziergang zu machen.",
+      "tags": [
+        "weather",
+        "mood",
+        "george_duroy"
+      ],
+      "notiz": "Duroy erlebt die Hitze körperlich und entwickelt daraus den Impuls zum Spaziergang.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys/Madeleines, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung, heiße Sommernacht",
+        "emotion": "Bewegungsdrang, Hitzeempfinden",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 92,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Sie nahmen einen offenen Wagen und fuhren über die Champs Elysée nach dem Bois de Boulogne.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Route von Duroy und Madeleine über die Champs-Élysées zum Bois de Boulogne.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées / Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 93,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Es war eine windstille Nacht, eine von diesen schwülen Nächten, wo die überheiße Luft von Paris wie Backofenglut in die Brust dringt.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die schwüle Pariser Sommernacht als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées / Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Pariser Strassen bei Nacht",
+        "emotion": "Schwüle, Drückendheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 94,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Ein Heer von Droschken führte ein ganzes Volk von verliebten Pärchen spazieren. Ein Wagen folgte dicht auf den anderen.",
+      "tags": [
+        "atmosphere",
+        "social",
+        "space"
+      ],
+      "notiz": "Erzähler beschreibt die Menge der Liebespaare in Droschken als soziales Panorama der Nacht.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées Richtung Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 95,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges und Madeleine amüsierten sich, alle diese Pärchen zu beobachten, die an ihnen vorbeifuhren, die Frauen in hellen Sommerkleidern, die Männer meist in dunklen Anzügen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Duroy beobachtet aktiv und vergnügt die vorbeifahrenden Liebespaare und ihre Kleidung.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées Richtung Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Strasse Richtung Bois de Boulogne",
+        "emotion": "Amüsement, Beobachtungslust",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 96,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Es war ein Riesenstrom von Verliebten, der unter dem heißen Sternenhimmel nach dem Bois zog.",
+      "tags": [
+        "atmosphere",
+        "space",
+        "weather"
+      ],
+      "notiz": "Maupassant beschreibt den Strom der Liebespaare unter dem Sternenhimmel als atmosphärisches Bild.",
+      "koordinaten": {
+        "lat": 48.8654,
+        "lng": 2.2769,
+        "ort_bezeichnung": "Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Bois de Boulogne",
+        "emotion": "romantische Schwüle, kollektives Verlangen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 97,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Man hörte nur das dumpfe Rollen der Räder.",
+      "tags": [
+        "sound"
+      ],
+      "notiz": "Maupassant beschreibt das Geräusch der Droschkenräder als einziges Geräusch der Nacht — atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées Richtung Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 98,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Und in jeder Droschke saß immer wieder ein Liebespaar lang hingestreckt auf den Polstern, stumm und zärtlich aneinander geschmiegt, glühend vor Begierde und leidenschaftlich in Erwartung der bevorstehenden Umarmung.",
+      "tags": [
+        "atmosphere",
+        "social",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt die körperliche Nähe und das Begehren der Liebespaare in den Droschken als atmosphärisches Bild.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées Richtung Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschken auf der Strasse nach dem Bois",
+        "emotion": "Begierde, Zärtlichkeit, Erwartung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 99,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Die warme Nacht schien von Küssen und Liebe durchtränkt zu sein. Eine zärtliche Sinnlichkeit schwebte in der Luft und machte diese noch schwüler und drückender.",
+      "tags": [
+        "atmosphere",
+        "weather",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die Nacht als von Erotik und Sinnlichkeit durchtränkten Raum — atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées Richtung Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Pariser Strassen bei Nacht",
+        "emotion": "Sinnlichkeit, erotische Schwüle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 100,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Alle diese Paare, von den gleichen Gedanken und Gefühlen eingenommen, von dem Verlangen berauscht, schienen eine glühende Leidenschaft von sich auszustrahlen. Alle diese Wagen, von Liebe beladen, über denen Liebkosungen zu flattern schienen, streuten auf die Vorüberfahrenden eine Art sinnliches Fluidum aus.",
+      "tags": [
+        "atmosphere",
+        "social",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt das kollektive erotische Fluidum der Liebespaare als Raumqualität der Nacht.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Champs-Élysées Richtung Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Pariser Strassen bei Nacht",
+        "emotion": "kollektives Begehren, sinnliche Ausstrahlung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 101,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges und Madeleine fühlten sich von der Zärtlichkeit, die in der Luft herumschwebte, angesteckt und rückten näher zueinander, ohne ein Wort zu sagen, etwas bedrückt durch die schwüle Luft und die in ihnen erwachende Erregung.",
+      "tags": [
+        "george_duroy",
+        "atmosphere",
+        "mood",
+        "weather"
+      ],
+      "notiz": "Duroy erlebt die schwüle Luft und aufkommende Erregung als atmosphärisch-körperliches Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Befestigungswall / Stadtrand Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Stadtrand Paris, Befestigungen",
+        "emotion": "Zärtlichkeit, Erregung, Bedrücktheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 102,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Als sie hinter den Befestigungen an einer Kurve vorbeifuhren, küßten sie sich",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt die Bewegung hinter den Befestigungen als neutralen Erzählerkommentar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Befestigungswall / Stadtrand Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 103,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Als sie in den Wald hineinfuhren, hatte sich der große Wagenstrom etwas zerschlagen.",
+      "tags": [
+        "location",
+        "move",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die Einfahrt in den Wald und das Ausdünnen des Wagenstroms von aussen.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.2344,
+        "ort_bezeichnung": "Bois de Boulogne, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 104,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Auf dem Wege um die Seen, den das junge Paar einschlug, fuhren die Droschken in größeren Abständen voneinander",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Erzähler beschreibt die Route um die Seen im Bois de Boulogne.",
+      "koordinaten": {
+        "lat": 48.8604,
+        "lng": 2.2342,
+        "ort_bezeichnung": "Bois de Boulogne, Seen",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 105,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "der dichte Schatten der Bäume, die etwas kühlere Luft, die unter dem weiten Sternenhimmel durch das Grün der Blätter und durch kleine Bächlein, die unter den Baumzweigen rieselten, erfrischt wurde, verlieh den Küssen der hier spazierenfahrenden Pärchen einen leidenschaftlicheren und geheimnisvolleren Reiz.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "weather",
+        "sound"
+      ],
+      "notiz": "Maupassant beschreibt die sinnliche Raumqualität des Waldes von aussen als romantische Kulisse.",
+      "koordinaten": {
+        "lat": 48.8604,
+        "lng": 2.2342,
+        "ort_bezeichnung": "Bois de Boulogne",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Bois de Boulogne",
+        "emotion": "Leidenschaft, Geheimnis",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 106,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges preßte seine Frau an sich und flüsterte: »O meine kleine Made«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt körperlich und emotional im Raum — zärtliche Geste und Zuneigungsausdruck.",
+      "koordinaten": {
+        "lat": 48.8604,
+        "lng": 2.2342,
+        "ort_bezeichnung": "Bois de Boulogne",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Bois de Boulogne",
+        "emotion": "Zärtlichkeit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 107,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Ich fühle das liebkosende Fächeln des Windes, und ich weiß genau, daß am anderen Ende Sèvres liegt.",
+      "tags": [
+        "location",
+        "weather",
+        "mood"
+      ],
+      "notiz": "Madeleine (nicht Duroy) spricht — wird nicht als figur-Annotation erfasst; Sèvres als location jedoch erzählerisch relevant.",
+      "koordinaten": {
+        "lat": 48.8218,
+        "lng": 2.1887,
+        "ort_bezeichnung": "Sèvres",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 108,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Förster — Forestier — dieser Name des Toten, der seinem Munde entquoll, überraschte ihn, als ob er aus dem dunklen, geheimnisvollen Dickicht käme, und er stockte, ergriffen von jener bohrenden, unbegreiflichen Eifersucht, die ihn seit einiger Zeit plagte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere",
+        "location_erinnerung"
+      ],
+      "notiz": "Der Waldraum löst in Duroy eine erschütternde innere Reaktion aus — der Name Forestier evoziert Eifersucht und toten Rivalen.",
+      "koordinaten": {
+        "lat": 48.8604,
+        "lng": 2.2342,
+        "ort_bezeichnung": "Bois de Boulogne",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Bois de Boulogne / dunkles Dickicht",
+        "emotion": "Eifersucht, Schrecken, Erschütterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 109,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "im Walde bei mir auf dem Lande gibt es nur Hirsche und Füchse, Rehe und zuweilen auch Wildschweine und hier und da die Hütte eines Försters",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "space"
+      ],
+      "notiz": "Duroy evoziert seinen heimatlichen Wald — eine persönliche Erinnerung an einen ihm vertrauten Ort auf dem Land.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Heimatlicher Wald Duroys (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wald in der Normandie (Heimat Duroys)",
+        "emotion": "Vertrautheit, Naturverbundenheit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 110,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Auf einmal hatte er Lust nach Hause umzukehren, es war ein Verlangen, das ihm das Herz bedrückte",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy verspürt plötzlich den inneren Drang umzukehren, der als emotionaler Druck auf sein Herz beschrieben wird.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausfahrt aus Paris, Umgebung unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausflug ausserhalb der Stadt",
+        "emotion": "Beklemmung, Verlangen nach Rückkehr",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 111,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "aber Forestiers Bild war in seinem Geiste wieder lebendig und er konnte nur noch an ihn denken und von ihm reden",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy wird von der Erinnerung an Forestier gedanklich besetzt — eine persönliche, emotional aufgeladene innere Erinnerung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "innere Erinnerung, kein konkreter Ort",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "innerer Raum / Erinnerung",
+        "emotion": "Besessenheit, Obsession mit dem Toten",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 112,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er fragte mit boshafter Stimme",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Bosheit drückt sich in seiner Stimme aus — ein emotionaler Zustand wird körperlich artikuliert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausflug, Umgebung unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 113,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er fuhr eigensinnig fort: »Donnerwetter, wenn jemand dazu geschaffen war, Hörner zu tragen, dann war er es. O ja, bestimmt. Es hätte mir so riesigen Spaß gemacht, zu erfahren, daß man dem armen Forestier Hörner aufgesetzt hatte. Was für ein blöder Schafskopf war er doch!«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy drückt mit Eigensinn und Häme seinen inneren Groll gegenüber dem toten Forestier aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausflug, Umgebung unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 114,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er merkte, daß sie lächelte, vielleicht über einige Erinnerungen aus den vergangenen Zeiten; er drang immer mehr in sie.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt Madeleines Lächeln wahr und interpretiert es — ein aktiver Wahrnehmungsmoment aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausflug, Umgebung unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 115,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er zitterte tatsächlich in der Hoffnung und dem Verlangen, daß sie den Charles, diesen verhaßten Charles, den verwünschten Toten, so lächerlich und schmachvoll betrogen hätte und doch ... doch stachelte eine andere verworrene und unbestimmte Empfindung seine Neugierde an.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys körperliches Zittern spiegelt seinen inneren emotionalen Aufruhr zwischen Verlangen, Hass und verworrener Empfindung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausflug, Umgebung unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausflug ausserhalb der Stadt",
+        "emotion": "Zittern, Verlangen, verworrene Neugierde",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 116,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Sie sagte es in einem so seltsamen Tone, daß ein Kälteschauer ihm durch die Adern rann.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroys körperliche Reaktion auf Madeleines Ton — Kälteschauer als körperlich-emotionaler Schock.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Droschke",
+        "emotion": "Schock, Kälte",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 117,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er blieb betroffen, stumm und atemlos sitzen, als hätte ihn innerlich ein Schlag getroffen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys innere Erstarrung und Sprachlosigkeit nach Madeleines Antwort — emotionaler Einschlag.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Droschke",
+        "emotion": "Betäubung, Schock",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 118,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Die Droschke fuhr jetzt an dem See entlang, in dem sich der Himmel und die Sterne abspiegelten.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die Fahrt der Droschke am See entlang im Bois de Boulogne — ruhige Naturkulisse im Kontrast zur inneren Aufruhr Duroys.",
+      "koordinaten": {
+        "lat": 48.866,
+        "lng": 2.249,
+        "ort_bezeichnung": "See im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 119,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Zwei Schwäne schwammen langsam auf dem Wasser und waren im Dunkel kaum zu sehen.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die stille, nächtliche Atmosphäre am See — Schwäne als poetisches Naturbild.",
+      "koordinaten": {
+        "lat": 48.866,
+        "lng": 2.249,
+        "ort_bezeichnung": "See im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 120,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges rief dem Kutscher zu: »Umkehren!« Und der Wagen drehte um und fuhr an den andern vorbei, die im Schritt daher kamen und deren Laternen wie große Augen durch die Nacht leuchteten.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy gibt dem Kutscher den Befehl umzukehren — Bewegung durch den nächtlichen Bois de Boulogne.",
+      "koordinaten": {
+        "lat": 48.866,
+        "lng": 2.249,
+        "ort_bezeichnung": "Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 121,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "deren Laternen wie große Augen durch die Nacht leuchteten.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Erzähler zeichnet die nächtliche Atmosphäre der vorbeifahrenden Kutschen mit Laternen als unheimliche Augen — atmosphärisches Bild.",
+      "koordinaten": {
+        "lat": 48.866,
+        "lng": 2.249,
+        "ort_bezeichnung": "Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Bois de Boulogne, Nacht",
+        "emotion": "Unheimlichkeit, Unbehagen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 122,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Wie seltsam hatte sie das gesagt.« Fragte sich Du Roy: »War das ein Geständnis?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy grübelt über Madeleines Worte nach und verdichtet seinen Verdacht zu einer inneren Frage.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 123,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Und die fast sichere Gewißheit, daß sie ihren ersten Mann hintergangen hatte, machte ihn jetzt rasend vor Wut. Er hatte Lust, sie zu schlagen, zu würgen und an den Haaren zu reißen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Wut und Gewaltfantasie — intensiver emotionaler Ausbruch aus dem Inneren der Figur.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Droschke",
+        "emotion": "Wut, Hass, Gewaltimpuls",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 124,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Unbeweglich mit gekreuzten Armen saß er jetzt da und hielt die Augen zum Himmel gerichtet.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroys erstarrte Körperhaltung spiegelt seinen inneren Kontrollverlust — äussere Unbeweglichkeit als Gegengewicht zu innerem Aufruhr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 125,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er war zu aufgeregt, um denken zu können. Er fühlte nur den Zorn und den Haß in sich wachsen, der im Herzen eines jeden Mannes gegenüber der launischen Begierde der Frau erwacht.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt unkontrollierbaren Zorn und Hass — innerer Zustand beschränkt kognitive Funktionen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Droschke",
+        "emotion": "Zorn, Hass",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 126,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er fühlte zum erstenmal die dumpfe Angst des Ehemannes, der Verdacht geschöpft hatte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt erstmals Eifersucht in der Rolle des Ehemannes — neuer emotionaler Bewusstseinszustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 127,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Kurz und gut, er war eifersüchtig. Eifersüchtig auf den Toten, für die Rechnung Forestiers.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy identifiziert seinen Gemütszustand explizit als Eifersucht — auf den verstorbenen ersten Ehemann Forestier.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 128,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Es war eine seltsame und quälende Eifersucht, in die sich ein spontaner Haß gegen Madeleine mischte. Sie hatte doch den anderen betrogen, wie konnte er noch Vertrauen zu ihr haben.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Eifersucht mischt sich mit Misstrauen und Hass auf Madeleine — innere Logik des Vertrauensverlusts.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 129,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Allmählich beruhigte er sich innerlich.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Langsame emotionale Beruhigung Duroys — innerer Zustand beginnt sich zu stabilisieren.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke im Bois de Boulogne, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 130,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er kämpfte gegen seine inneren Qualen an und dachte: »Alle Frauen sind Dirnen, man muß sie für sich ausnutzen, aber nichts von sich und von seinem Geiste ihnen geben.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy kämpft innerlich gegen Bitterkeit und Verachtung und formuliert einen zynischen Gedanken über Frauen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Wagen, Stadtrand Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 131,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er hatte Lust, seine bittere Stimmung durch Worte der Verachtung und des Ekels Ausdruck zu geben. Er bezwang sich aber und ließ sie nicht laut werden",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy unterdrückt aktiv seinen Ausbruch von Bitterkeit und Ekel — innere Selbstkontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Wagen, Stadtrand Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 132,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "immer wieder wiederholte er für sich: »Dem Starken gehört die Welt. Man muß stark und über alles erhaben sein.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy beruhigt sich mit einer Maxime über Stärke und Überlegenheit — Selbstbestätigung durch sozialen Ehrgeiz.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Wagen, Stadtrand Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 133,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen fuhr schneller. Er kam an den Stadtbefestigungen vorbei.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung des Wagens durch die Stadtbefestigungen — neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": 48.8353,
+        "lng": 2.2953,
+        "ort_bezeichnung": "Stadtbefestigungen Paris (fortifications)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 134,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Du Roy sah vor sich auf dem Himmel einen roten Schimmer, gleich dem Feuerschein, einer ungeheuren Esse.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Duroy nimmt den roten Lichtschimmer über Paris wahr — visuell erlebte Stadtsilhouette aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": 48.8353,
+        "lng": 2.2953,
+        "ort_bezeichnung": "Stadtbefestigungen Paris, Blick auf die Stadt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris von außen",
+        "emotion": "Bedrohlichkeit, Faszination",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 135,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er vernahm ein verworrenes gewaltiges, ununterbrochenes Getöse, das sich aus unzähligen, verschiedenartigen Geräuschen zusammensetzte, ein dumpfes Brausen, das bald näher, bald weiter klang, ein unbestimmtes, ungeheueres Vibrieren des Lebens, den Atem von Paris, das in dieser Sommernacht wie ein müder und erschöpfter Koloß keuchte.",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Duroy hört das Rauschen von Paris als gewaltige Klangkulisse — sensorische Wahrnehmung der Stadt in der Sommernacht.",
+      "koordinaten": {
+        "lat": 48.8353,
+        "lng": 2.2953,
+        "ort_bezeichnung": "Stadteingang Paris (Stadtbefestigungen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris von außen",
+        "emotion": "Überwältigung, Erschöpfung, Lebendigkeit",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 136,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "in dieser Sommernacht",
+      "tags": [
+        "time",
+        "weather"
+      ],
+      "notiz": "Erzähler gibt Jahreszeit und Tageszeit als neutrale atmosphärische Kulisse an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 137,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges dachte: »Ich wäre ja schön dumm, wenn ich mich ärgern würde. Jeder für sich. Der Sieg gehört dem Mutigen. Alles ist nur Egoismus. Der Egoismus und der Ehrgeiz, vorwärts zu kommen und sich ein Vermögen zu erwerben, ist mehr wert als der Ehrgeiz, eine Frau zu besitzen und zu lieben.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy beruhigt sich mit einer Philosophie des Egoismus und Ehrgeizes — inneres Umdeuten der Kränkung durch soziales Kalkül.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Wagen, Einfahrt Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 138,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Am Eingange der Stadt wurde der Triumphbogen mit seinen beiden Riesenschenkeln sichtbar.",
+      "tags": [
+        "george_duroy",
+        "location",
+        "space"
+      ],
+      "notiz": "Duroy erblickt den Arc de Triomphe beim Einfahren in die Stadt — visuelle Wahrnehmung eines Stadtwahrzeichens.",
+      "koordinaten": {
+        "lat": 48.8738,
+        "lng": 2.295,
+        "ort_bezeichnung": "Arc de Triomphe, Place de l'Étoile",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Arc de Triomphe",
+        "emotion": "Bedrohlichkeit, Monumentalität",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 139,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er glich einem gewaltigen Ungeheuer, das sich in Bewegung setzen wollte, um die breite Avenue hinabzuschreiten.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Duroy nimmt den Arc de Triomphe als bedrohliches, animalisches Wesen wahr — Emotion färbt die Raumwahrnehmung.",
+      "koordinaten": {
+        "lat": 48.8738,
+        "lng": 2.295,
+        "ort_bezeichnung": "Arc de Triomphe / Avenue des Champs-Élysées",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Arc de Triomphe",
+        "emotion": "Bedrohung, Überwältigung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 140,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Georges und Madeleine fuhren nun wieder in der langen Reihe der heimkehrenden Wagen, die die leidenschaftlichen und stummen Liebespaare nach Hause führten.",
+      "tags": [
+        "move",
+        "location",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt das Einreihen in den Wagenzug auf den Champs-Élysées — sozialer Kontrast zwischen Duroy und den liebenden Paaren.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3079,
+        "ort_bezeichnung": "Avenue des Champs-Élysées",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 141,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Ihm war, als ob die ganze Menschheit, berauscht von Liebe, Lust und Glück, an ihm vorüberfuhr.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Duroy erlebt sich als Ausgeschlossenen vom allgemeinen Liebesglück — Bitterkeit und Isolationsgefühl beim Einfahren in die Stadt.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3079,
+        "ort_bezeichnung": "Avenue des Champs-Élysées",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Champs-Élysées / Wagenzug",
+        "emotion": "Isolation, Bitterkeit, Ausgeschlossensein",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 142,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Georges Gedanken waren von Wut und Bosheit erfüllt, und er bemühte sich, sein Leben jeglicher Poesie zu entkleiden.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Zustand ist von negativen Emotionen geprägt; er versucht aktiv, romantische Illusionen abzustreifen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Im Wagen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 143,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "»Ich bin nicht so dumm,« dachte er, »um Rücksichten zu nehmen und auf irgend etwas zu verzichten, mir Sorgen und Ärger zu bereiten, wie ich es seit einiger Zeit tue.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innerer Monolog zeigt seinen Entschluss, keine Rücksicht mehr zu nehmen — soziale und emotionale Selbstbehauptung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Im Wagen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 144,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Der Gedanke an Forestier flog ihm noch einmal durch den Kopf, ohne in ihm eine Erregung auszulösen. Es war ihm, als hätten sie sich wieder ausgesöhnt, als wären sie wieder Freunde geworden.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innerlich eine emotionale Distanzierung von seiner Eifersucht gegenüber Forestier — ein Moment psychischer Ruhe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Im Wagen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 145,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Er blickte sie von der Seite an. Das helle Licht einer Gasgirlande vor einem Café-Chantant fiel auf ihr feingeschnittenes blondes Profil",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Duroy nimmt das Licht einer städtischen Gasbeleuchtung wahr, das auf Madeleines Profil fällt — sensorische Raumwahrnehmung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vor einem Café-Chantant, Paris (Boulevard, Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Café-Chantant, beleuchtet",
+        "emotion": "kühle Beobachtung, zynische Distanz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 11
+    },
+    {
+      "id": 146,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Das helle Licht einer Gasgirlande vor einem Café-Chantant fiel auf ihr feingeschnittenes blondes Profil",
+      "tags": [
+        "location",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die städtische Beleuchtung eines Café-Chantants als räumliche Kulisse — neutrale Erzählerperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Café-Chantant, Paris (Boulevard, Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 147,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "er dachte: »Sie ist doch hübsch. Um so besser! Wie du mir, so ich dir, meine schöne Gefährtin; aber daß ich mir deinetwegen Sorgen mache — nein, eher glüht der Nordpol vor Hitze!«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innerer Monolog zeigt zynischen Kalkül gegenüber Madeleine — emotionale Distanzierung und soziale Selbstbehauptung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Im Wagen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 148,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "figur",
+      "text": "Damit sie nichts merken sollte, küßte er sie.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy setzt seinen Körper bewusst ein, um Gefühle zu verbergen — körperliche Handlung als soziale Maskierung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Im Wagen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 149,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "Trotzdem lächelte er ihr wie gewöhnlich zu und reichte ihr die Hand, um ihr beim Aussteigen aus dem Wagen zu helfen.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt Duroys äußerlich höfliches Verhalten beim Aussteigen aus dem Wagen — Erzählerperspektive von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vor Tortoni oder nahe Boulevard des Capucines, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    },
+    {
+      "id": 150,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 11",
+      "perspektive": "erzaehler",
+      "text": "»Wollen wir, ehe wir nach Hause fahren, bei Tortoni ein Eis essen?«",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Tortoni, das bekannte Café am Boulevard des Italiens, wird als konkreter Ort genannt — Erzählerangabe durch indirekte Figurenrede.",
+      "koordinaten": {
+        "lat": 48.8717,
+        "lng": 2.3355,
+        "ort_bezeichnung": "Café Tortoni, Boulevard des Italiens, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 11
+    }
+  ]
+}

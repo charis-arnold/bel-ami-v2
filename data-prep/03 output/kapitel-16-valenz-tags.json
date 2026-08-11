@@ -1,0 +1,41 @@
+{
+  "kapitel": 17,
+  "beschreibung": "Gewichtete Valenz pro Tag-Kategorie — Grundlage für Kreis-Visualisierung",
+  "valenz_pro_tag": {
+    "atmosphere": {
+      "gewichtete_valenz_summe": 5,
+      "gewichtete_valenz_durchschnitt": 0.71,
+      "anzahl_annotationen": 7
+    },
+    "social": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 3
+    },
+    "material": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 0.67,
+      "anzahl_annotationen": 3
+    },
+    "george_duroy": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -0.43,
+      "anzahl_annotationen": 7
+    },
+    "mood": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 5
+    },
+    "space": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 3
+    },
+    "time": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

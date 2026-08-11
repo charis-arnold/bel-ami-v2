@@ -1,0 +1,3683 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374,
+          48.8638
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "zeile": 1,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Im dritten Stock links.",
+        "notiz": "Der Erzähler verortet Forestiers Wohnung im dritten Stock links.",
+        "ort": "Wohnhaus Forestier, dritter Stock links",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374,
+          48.8638
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "zeile": 3,
+        "tags": [
+          "move"
+        ],
+        "perspektive": "erzaehler",
+        "text": "George Duroy stieg die Treppe hinauf.",
+        "notiz": "Der Erzähler beschreibt Duroys Aufstieg die Treppe hinauf.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374,
+          48.8638
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er war ein wenig verlegen, etwas schüchtern und fühlte sich nicht sehr behaglich.",
+        "notiz": "Duroy erlebt Verlegenheit und Unbehagen beim Betreten des Hauses.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verlegenheit, Unbehagen",
+        "raum_emotion": {
+          "ort": "Treppenhaus Forestier",
+          "emotion": "Verlegenheit, Unbehagen",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374,
+          48.8638
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Zum ersten Male in seinem Leben trug er einen Frack, und das ganze Zubehör dieser Kleidung störte ih",
+        "notiz": "Duroy erlebt das Tragen des Fracks als störend und sozial unvertraute Situation.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374,
+          48.8638
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "Er fühlte, daß vieles an ihm defekt war. Seine Stiefel sahen ziemlich elegant aus, denn er hielt auf",
+        "notiz": "Duroy nimmt seine unzulängliche Kleidung aus der Innenperspektive wahr und empfindet sie als sozialen Makel.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3374,
+          48.8638
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "material",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Das Hemd hatte er sich erst vormittags für vier Francs fünfzig im Louvre gekauft, und der schmale, g",
+        "notiz": "Duroy erinnert sich an den Kauf des Hemds im Louvre-Kaufhaus und nimmt dessen schlechten Zustand wahr.",
+        "ort": "Grand Magasin du Louvre, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "Die Hosen waren ihm viel zu breit, sie paßten sich schlecht der Beinform an und schlugen über der Wa",
+        "notiz": "Duroy nimmt die schlechte Passform der geborgten oder abgenutzten Hose als sozialen Makel wahr.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "Nur der Frack saß gut, denn er hatte einen gefunden, der richtig zu seiner Figur paßte.",
+        "notiz": "Duroy registriert als einzigen Lichtblick, dass der Frack gut sitzt.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": 1,
+        "intensitaet": 1,
+        "gewichtete_valenz": 1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Langsam stieg er die Treppe hinauf. Vor Angst pochte ihm sein Herz. Vor allem quälte ihn die Furcht,",
+        "notiz": "Duroys körperliche Reaktion (pochendes Herz) und langsamer Gang spiegeln seine Angst beim Aufstieg wider.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Angst, Furcht vor Lächerlichkeit",
+        "raum_emotion": {
+          "ort": "Treppenhaus Forestier",
+          "emotion": "Angst, Furcht vor Lächerlichkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "space",
+          "material",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Plötzlich sah er gerade vor sich einen Herrn in großer Toilette, der ihn betrachtete. Sie standen so",
+        "notiz": "Duroy erschrickt vor seinem eigenen Spiegelbild und erlebt den Wandspiegel als räumliche Täuschung.",
+        "ort": "Flur des ersten Stockes im Wohnhaus Forestier",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verblüffung, Erschrecken",
+        "raum_emotion": {
+          "ort": "Flur mit Wandspiegel, Wohnhaus Forestier",
+          "emotion": "Verblüffung, Erschrecken",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "zeile": 4,
+        "tags": [
+          "space",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "einem hohen Wandspiegel, der im Flur des ersten Stockes eine lange Perspektive vortäuschte",
+        "notiz": "Der Erzähler beschreibt den Wandspiegel als raumerweiterndes Element, das eine trügerische Perspektive erzeugt.",
+        "ort": "Flur des ersten Stockes im Wohnhaus Forestier",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er zitterte vor lauter Freude, nie hätte er gedacht, daß er so vornehm und elegant aussehen könnte.",
+        "notiz": "Duroy empfindet freudige Überraschung, als er sich im Spiegel vornehm und elegant erscheint.",
+        "ort": "Flur des ersten Stockes im Wohnhaus Forestier",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Freude, Stolz",
+        "raum_emotion": {
+          "ort": "Flur mit Wandspiegel, Wohnhaus Forestier",
+          "emotion": "Freude, Stolz",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Zu Hause, in seinem kleinen Rasierspiegel, dem einzigen, den er besaß, hatte er sich nicht richtig b",
+        "notiz": "Duroy erinnert sich an seinen kleinen Rasierspiegel zuhause und die damit verbundene Verzweiflung über seine unzulängliche Toilette.",
+        "ort": "Duroys Wohnung (Erinnerung)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verzweiflung, Selbstzweifel",
+        "raum_emotion": {
+          "ort": "Duroys Wohnung (erinnert)",
+          "emotion": "Verzweiflung, Selbstzweifel",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Der Gedanke, lächerlich zu erscheinen, machte ihn verrückt.",
+        "notiz": "Duroy leidet intensiv unter der Angst, in der Gesellschaft lächerlich zu wirken.",
+        "ort": "Treppenhaus im Wohnhaus Forestier",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Als er sich aber plötzlich in dem Spiegel erblickte, hatte er sich nicht einmal erkannt, er hatte si",
+        "notiz": "Duroy erkennt sich im Spiegel nicht wieder und nimmt sich als eleganten Herrn aus besserer Gesellschaft wahr — innerer sozialer Aufstiegsmoment.",
+        "ort": "Treppenhaus, Wohnhaus eines Freundes (Paris)",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Überraschung, soziale Selbstwahrnehmung",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Überraschung, soziale Selbstwahrnehmung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Und jetzt, wo er sich sorgfältig betrachtete, fand er, daß die Gesamtwirkung tatsächlich zufriedenst",
+        "notiz": "Duroy beurteilt sein Äußeres bewusst und empfindet Zufriedenheit mit seiner Erscheinung.",
+        "ort": "Treppenhaus, Wohnhaus eines Freundes (Paris)",
+        "valenz": 1,
+        "intensitaet": 1,
+        "gewichtete_valenz": 1,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Zufriedenheit",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Zufriedenheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Darauf studierte er seine Haltung, wie ein Schauspieler, der seine Rolle lernt. Er lächelte sich zu,",
+        "notiz": "Duroy probt vor dem Spiegel soziale Gesten und Mimik, um Damen zu beeindrucken — Körper als strategisches Instrument sozialen Aufstiegs.",
+        "ort": "Treppenhaus, Wohnhaus eines Freundes (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Kalkül, Ehrgeiz, soziale Performanz",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Kalkül, Ehrgeiz, soziale Performanz",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Eine Tür ging im Treppenflur auf. Er fürchtete, überrascht zu werden, und lief hastig hinauf, aus An",
+        "notiz": "Duroy erschrickt vor Entdeckung und flieht hastig — Angst vor Blamage treibt seine Bewegung an.",
+        "ort": "Treppenhaus, Wohnhaus eines Freundes (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Scham, Angst vor Bloßstellung",
+        "raum_emotion": {
+          "ort": "Treppenhaus",
+          "emotion": "Scham, Angst vor Bloßstellung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "move",
+          "space"
+        ],
+        "perspektive": "figur",
+        "text": "Er erreichte den zweiten Stock, bemerkte einen anderen Spiegel und mäßigte seine Schritte, um sich i",
+        "notiz": "Duroy verlangsamt seine Schritte beim Anblick eines weiteren Spiegels — der Raum zieht seine Aufmerksamkeit und Bewegung an sich.",
+        "ort": "Treppenhaus, zweiter Stock, Wohnhaus eines Freundes (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Eitelkeit, Selbstbeobachtung",
+        "raum_emotion": {
+          "ort": "Treppenhaus, zweiter Stock",
+          "emotion": "Eitelkeit, Selbstbeobachtung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Seine Erscheinung kam ihm jetzt wirklich elegant vor. Sein Auftreten und seine Haltung waren gut. Un",
+        "notiz": "Duroys Selbstwahrnehmung steigert sich zu maßlosem Selbstvertrauen — innerer Aufschwung nach dem Blick in den Spiegel.",
+        "ort": "Treppenhaus, zweiter Stock, Wohnhaus eines Freundes (Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Selbstvertrauen, Übermut",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Selbstvertrauen, Übermut",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Ja, mit diesem Äußeren und mit dem festen Willen, vorwärts zu kommen, mit seiner rücksichtslosen Ene",
+        "notiz": "Duroy denkt an seine Chancen auf sozialen Aufstieg und ist von seinem Erfolg überzeugt — innere Kalkulation von Ehrgeiz und Selbstbild.",
+        "ort": "Treppenhaus, Wohnhaus eines Freundes (Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Die Treppe zum dritten Stock wäre er am liebsten hinaufgesprungen.",
+        "notiz": "Duroys Euphorie äußert sich im Impuls, die Treppe hinaufzuspringen — der Körper spiegelt die innere Hochstimmung.",
+        "ort": "Treppenhaus, drittes Stockwerk, Wohnhaus eines Freundes (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Euphorie, Tatendrang",
+        "raum_emotion": {
+          "ort": "Treppe zum dritten Stock",
+          "emotion": "Euphorie, Tatendrang",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "material",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Vor dem dritten Spiegel blieb er nochmals stehen, drehte gewohnheitsmäßig den Schnurrbart, nahm sein",
+        "notiz": "Duroy hält vor dem dritten Spiegel inne und pflegt rituell sein Äußeres — Selbstvergewisserung durch physische Geste und Ausruf.",
+        "ort": "Treppenhaus, drittes Stockwerk, Wohnhaus eines Freundes (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Selbstgefälligkeit, Zufriedenheit",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel, dritter Stock",
+          "emotion": "Selbstgefälligkeit, Zufriedenheit",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Dann streckte er die Hand aus und klingelte.",
+        "notiz": "Duroy beendet seine Selbstinszenierung und tritt in Aktion — die körperliche Geste markiert den Übergang von Vorbereitung zu Handlung.",
+        "ort": "Wohnungstür, drittes Stockwerk, Wohnhaus eines Freundes (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "zeile": 1,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Tür ging fast im selben Moment auf und er befand sich vor einem ernsthaften, glattrasierten Dien",
+        "notiz": "Maupassant beschreibt den Diener von aussen als sozialen Marker durch Kleidung und Haltung.",
+        "ort": "Wohnung der Forestiers, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "daß Duroy, ohne zu begreifen weshalb, von neuem dieselbe unerklärliche Unsicherheit und Verlegenheit",
+        "notiz": "Duroy erlebt Unsicherheit und Verlegenheit, ausgelöst durch den sozialen Vergleich mit dem Diener.",
+        "ort": "Wohnung der Forestiers, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Unsicherheit, Verlegenheit",
+        "raum_emotion": {
+          "ort": "Eingang Wohnung Forestiers",
+          "emotion": "Unsicherheit, Verlegenheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "zeile": 3,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dieser Diener, der Lackschuhe trug, nahm Duroy den Überzieher ab, den dieser auf dem Arm getragen ha",
+        "notiz": "Maupassant beschreibt die soziale Situation von aussen — Duroys Versuch, Flecken am Überzieher zu verbergen.",
+        "ort": "Wohnung der Forestiers, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Aber Duroy verließ plötzlich alle seine Würde. Er fühlte sich vor Furcht gelähmt und atmete schwer.",
+        "notiz": "Duroy erlebt körperliche Lähmung durch Furcht an der Schwelle zum Salon.",
+        "ort": "Schwelle zum Salon, Wohnung der Forestiers",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Furcht, Lähmung",
+        "raum_emotion": {
+          "ort": "Schwelle Salon Forestiers",
+          "emotion": "Furcht, Lähmung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Er stand jetzt an der Schwelle eines neuen Lebens, von dem er geträumt und auf das er gehofft hatte.",
+        "notiz": "Duroy erlebt den Moment als symbolische Schwelle zu einem ersehnten neuen Leben — persönliche Sehnsucht.",
+        "ort": "Schwelle zum Salon, Wohnung der Forestiers",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Hoffnung, Sehnsucht",
+        "raum_emotion": {
+          "ort": "Schwelle Salon Forestiers",
+          "emotion": "Hoffnung, Sehnsucht",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Trotzdem ging er weiter.",
+        "notiz": "Duroy überwindet seine Lähmung und setzt sich in Bewegung — trotz Furcht.",
+        "ort": "Eingang Salon, Wohnung der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "zeile": 7,
+        "tags": [
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Eine junge, blonde Dame stand ganz allein in einem großen hellerleuchteten Zimmer, das voller Topfpf",
+        "notiz": "Maupassant beschreibt den Salon der Forestiers als hellen, pflanzenreichen Raum — atmosphärische Kulisse.",
+        "ort": "Salon, Wohnung der Forestiers",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Ganz außer Fassung gebracht, blieb er plötzlich stehen. Wer war diese Dame, die ihn lächelnd erwarte",
+        "notiz": "Duroy verliert die Fassung beim Anblick der unbekannten Dame — inneres Erleben von Verwirrung.",
+        "ort": "Salon, Wohnung der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verwirrung, Fassungslosigkeit",
+        "raum_emotion": {
+          "ort": "Salon Forestiers",
+          "emotion": "Verwirrung, Fassungslosigkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "der Gedanke, daß diese hübsche, elegante Blondine die Frau seines Freundes war, verblüffte ihn volle",
+        "notiz": "Duroy ist verblüfft über die elegante Erscheinung von Forestiers Frau — soziale Überraschung aus innerer Perspektive.",
+        "ort": "Salon, Wohnung der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er errötete bis an die Ohren und wußte absolut nicht, was er erwidern sollte. Er fühlte sich beobach",
+        "notiz": "Duroy erlebt körperliche Scham und den sozialen Blick der anderen auf sich als bedrängend.",
+        "ort": "Salon, Wohnung der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Scham, Bedrängnis",
+        "raum_emotion": {
+          "ort": "Salon Forestiers",
+          "emotion": "Scham, Bedrängnis",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "zeile": 13,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er hatte Lust, sich zu entschuldigen, einen Grund zu erfinden, um die Nachlässigkeit seiner Kleidung",
+        "notiz": "Duroy erlebt innerlich die Scham über seine schlechte Kleidung und die soziale Unterlegenheit.",
+        "ort": "Salon, Wohnung der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Scham, soziale Unterlegenheit",
+        "raum_emotion": {
+          "ort": "Salon Forestiers",
+          "emotion": "Scham, soziale Unterlegenheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "material",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er setzte sich in einen Armsessel, den sie ihm anbot, und als er unter sich den weichen und elastisc",
+        "notiz": "Duroy spürt körperlich die Qualität des Sessels — Samt, Elastizität, umfangende Armlehnen.",
+        "ort": "Wohnung der Forestiers (Paris, nähere Adresse unbekannt)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "da war es ihm, als sei er jetzt endlich in ein neues, reizvolles Leben getreten, als hätte er was Ko",
+        "notiz": "Duroy erlebt das Sitzen im Armsessel als symbolischen Eintritt in ein neues, höheres Leben — soziale Aufwertung als inneres Erleben.",
+        "ort": "Wohnung der Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Aufstiegsgefühl, Zugehörigkeit, Eroberung",
+        "raum_emotion": {
+          "ort": "Armsessel in der Wohnung der Forestiers",
+          "emotion": "Aufstiegsgefühl, Zugehörigkeit, Eroberung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "zeile": 2,
+        "tags": [
+          "george_duroy"
+        ],
+        "perspektive": "figur",
+        "text": "er betrachtete Frau Forestier, deren Blicke unverwandt auf ihm ruhten",
+        "notiz": "Duroy nimmt Frau Forestier aktiv wahr und registriert ihre Aufmerksamkeit.",
+        "ort": "Wohnung der Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3403,
+          48.8691
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "zeile": 2,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie trug ein hellblaues Kaschmirkleid, das ihre biegsame Figur und ihre volle Brust zur Geltung brac",
+        "notiz": "Maupassant beschreibt Frau Forestiers Erscheinung von aussen — Kleid, Spitzen und Haare als soziale und materielle Marker.",
+        "ort": "Wohnung der Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3432,
+          48.8744
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Ihre Blicke beruhigten Duroy, sie erinnerten ihn, ohne daß er wußte warum, an den Blick des Mädchens",
+        "notiz": "Duroys Erinnerung an das Mädchen aus den Folies Bergère wird durch Frau Forestiers Blick ausgelöst — persönliche Erinnerung an einen konkreten Ort.",
+        "ort": "Folies Bergère",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Beruhigung, assoziative Erinnerung",
+        "raum_emotion": {
+          "ort": "Folies Bergère",
+          "emotion": "Beruhigung, assoziative Erinnerung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "zeile": 3,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Madame Forestier hatte blaugraue Augen, von einem seltsamen Ausdruck, eine schmale Nase, starke Lipp",
+        "notiz": "Maupassant beschreibt Frau Forestiers Gesicht als Erzähler von aussen — als Charakterporträt mit atmosphärischer Wirkung.",
+        "ort": "Wohnung der Forestiers (Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er gewann allmählich seine Selbstbeherrschung wieder",
+        "notiz": "Duroy erlebt das Zurückgewinnen seiner inneren Kontrolle — emotionaler Zustand aus seiner Perspektive.",
+        "ort": "Wohnung der Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "zeile": 5,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es klingelte von neuem und der Diener meldete: »Madame de Marelle.« Es war eine kleine Brünette, die",
+        "notiz": "Maupassant beschreibt von aussen die Ankunft einer neuen Figur — sozialer Rahmen der bürgerlichen Gesellschaft.",
+        "ort": "Wohnung der Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "zeile": 1,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Ihre Gestalt schien von Kopf bis zu den Füßen in ihrem ganz einfachen dunklen Kleide hervorzutreten.",
+        "notiz": "Maupassant beschreibt Madame de Marelles äußeres Erscheinungsbild von außen als sozialen Marker.",
+        "ort": "Wohnung Forestier, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "zeile": 10,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Doch die Tür ging von neuem auf und ein ganz kleiner, runder, dicker Herr erschien. Er führte am Arm",
+        "notiz": "Maupassant beschreibt das Erscheinen des Ehepaars Walter von außen, mit Betonung des sozialen Kontrasts.",
+        "ort": "Wohnung Forestier, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "zeile": 12,
+        "tags": [
+          "social",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Das war Herr Walter, Deputierter, Finanzier, Geld- und Geschäftsmann, ein südfranzösischer Jude, Dir",
+        "notiz": "Maupassant stellt Walter als politisch-ökonomische Figur der Dritten Republik vor — sozialer und historischer Kontext.",
+        "ort": "Wohnung Forestier, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "zeile": 14,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann kamen gleich nacheinander der elegante Jaques Rival und Norbert de Varenne, dessen Rockkragen u",
+        "notiz": "Maupassant beschreibt die Gäste Rival und de Varenne von außen, mit materiellen Details zur sozialen Charakterisierung.",
+        "ort": "Wohnung Forestier, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "zeile": 16,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Seine schlecht gebundene Krawatte schien er nicht das erstemal zu tragen.",
+        "notiz": "Maupassant beschreibt de Varennes Äußeres als Zeichen nachlässiger Kleidung und bohèmehafter Zugehörigkeit.",
+        "ort": "Wohnung Forestier, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "zeile": 17,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Mit der Grazie eines galanten alten Herrn küßte er Frau Forestier auf das Handgelenk und sein langes",
+        "notiz": "Maupassant schildert de Varennes galante Geste und körperliche Erscheinung von außen.",
+        "ort": "Wohnung Forestier, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "zeile": 19,
+        "tags": [
+          "location",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nun erschien auch der Hausherr und entschuldigte sich für sein spätes Erscheinen. Er sei jedoch in d",
+        "notiz": "Erwähnung der Redaktion als Arbeitsort Forestiers und Anspielung auf einen politischen/gesellschaftlichen Fall.",
+        "ort": "Redaktion der Vie Française, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "zeile": 3,
+        "tags": [
+          "move",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man ging in das Speisezimmer.",
+        "notiz": "Erzähler beschreibt die Bewegung der Gesellschaft ins Speisezimmer.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy saß bei Tisch zwischen Madame de Marelle und ihrer Tochter. Er fühlte sich von neuem verlegen,",
+        "notiz": "Duroy erlebt innere Verlegenheit aus Angst vor sozialem Versagen bei Tisch — Ausdruck seiner unterlegenen sozialen Position.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verlegenheit, Angst vor sozialem Fehler",
+        "raum_emotion": {
+          "ort": "Speisezimmer",
+          "emotion": "Verlegenheit, Angst vor sozialem Fehler",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "material",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Vier Gläser standen vor ihm, von denen eins etwas matt bläulich war. Was mochte man wohl aus diesem ",
+        "notiz": "Duroy nimmt die Gläser als verwirrende soziale Objekte wahr — ihre physische Qualität wird zu einem Zeichen seiner Unsicherheit.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verunsicherung, soziale Angst",
+        "raum_emotion": {
+          "ort": "Speisezimmer",
+          "emotion": "Verunsicherung, soziale Angst",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "zeile": 6,
+        "tags": [
+          "atmosphere",
+          "sound"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Während der Suppe herrschte Schweigen",
+        "notiz": "Maupassant beschreibt die stille Atmosphäre zu Beginn der Mahlzeit als äussere Kulisse.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "zeile": 9,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man sprach nicht darüber, wie man im Familienkreis über Ereignisse spricht, die in den Zeitungen ste",
+        "notiz": "Maupassant charakterisiert von aussen die professionell-distanzierte Gesprächskultur der Journalisten-Gesellschaft.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "zeile": 13,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es wurden dann noch andere Ereignisse diskutiert, besprochen, von allen Seiten beleuchtet und nach i",
+        "notiz": "Maupassant beschreibt von aussen die journalistische Logik des Tischgesprächs als kommerzielle Praxis.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy traute sich nicht, an der Unterhaltung teilzunehmen.",
+        "notiz": "Duroy erlebt innere Hemmung und Schüchternheit bei der gesellschaftlichen Interaktion.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er betrachtete ein paarmal seine Nachbarin, deren üppiger Busen ihn erregte.",
+        "notiz": "Duroy nimmt seine Nachbarin sinnlich wahr und erlebt körperliche Erregung.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erregung",
+        "raum_emotion": {
+          "ort": "Esszimmer Forestiers",
+          "emotion": "Erregung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "zeile": 2,
+        "tags": [
+          "material",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "An ihrem Ohr hing ein Diamant, der durch einen dünnen Goldfaden gehalten wurde, wie ein Wassertropfe",
+        "notiz": "Maupassant beschreibt von aussen den Schmuck der Nachbarin als sozialen Marker und materielles Detail.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy versuchte vergeblich, ihr irgendein Kompliment zu sagen, und da er nichts fand, beschäftigte e",
+        "notiz": "Duroy versucht soziale Unsicherheit durch aufmerksames Bedienen zu kompensieren und erlebt sein eigenes Scheitern beim Konversieren.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Unsicherheit, soziale Verlegenheit",
+        "raum_emotion": {
+          "ort": "Esszimmer Forestiers",
+          "emotion": "Unsicherheit, soziale Verlegenheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "zeile": 10,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Das Essen war vortrefflich und fand allgemeinen Beifall. Herr Walter aß wie ein hungriger Wolf, spra",
+        "notiz": "Maupassant beschreibt von aussen das gesellige Dinner und das Verhalten der Gäste als sozialen Kommentar.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "zeile": 13,
+        "tags": [
+          "atmosphere",
+          "sound"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Gesichter wurden rot, die Stimmen laut.",
+        "notiz": "Maupassant beschreibt die zunehmend ausgelassene Stimmung beim Dinner von aussen.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "zeile": 14,
+        "tags": [
+          "sound",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Alle Augenblicke flüsterte der Diener den Gästen ins Ohr: »Corton — Château Larose.«",
+        "notiz": "Maupassant beschreibt als Erzähler das diskrete Ritual des Weinreichens als atmosphärisches und soziales Detail.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "zeile": 15,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy fand den Corton nach seinem Geschmack und ließ jedesmal sein Glas füllen.",
+        "notiz": "Duroy erlebt den Wein als angenehm und handelt entsprechend — aktives sinnliches Erleben.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "zeile": 16,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur",
+          "weather"
+        ],
+        "perspektive": "figur",
+        "text": "Eine angenehme, erwärmende Fröhlichkeit erfüllte ihn, eine heiße Freude, die ihm vom Magen in den Ko",
+        "notiz": "Duroy erlebt Weinrausch als körperlich-räumliches Gefühl der Wärme und Freude, das ihn von innen durchdringt.",
+        "ort": "Wohnung Forestiers (Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Freude, Wärme, Rausch",
+        "raum_emotion": {
+          "ort": "Esszimmer Forestiers",
+          "emotion": "Freude, Wärme, Rausch",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er fühlte sich von vollkommenstem Behagen erfüllt, von einem Behagen des Lebens und Denkens, des Kör",
+        "notiz": "Duroy erlebt ein tiefes körperlich-geistiges Wohlbefinden beim Dinner.",
+        "ort": "Wohnung Walters (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "vollkommenes Behagen",
+        "raum_emotion": {
+          "ort": "Dinnergesellschaft",
+          "emotion": "vollkommenes Behagen",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Und es überkam ihn ein Verlangen, zu sprechen, sich hervorzutun, gehört und geschätzt zu werden, wie",
+        "notiz": "Duroy spürt den sozialen Ehrgeiz, sich unter den gebildeten Männern zu behaupten.",
+        "ort": "Wohnung Walters (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verlangen nach Anerkennung",
+        "raum_emotion": {
+          "ort": "Dinnergesellschaft",
+          "emotion": "Verlangen nach Anerkennung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "zeile": 3,
+        "tags": [
+          "atmosphere",
+          "sound"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Unterhaltung ging unaufhörlich, sprang von einer Ansicht zur anderen, hatte nun alle Ereignisse ",
+        "notiz": "Maupassant beschreibt die lebhafte Gesprächsatmosphäre beim Dinner von aussen.",
+        "ort": "Wohnung Walters (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "zeile": 5,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Herr Walter machte zwischen zwei Gängen ein paar scherzhafte Bemerkungen, denn er war geistreich und",
+        "notiz": "Maupassant schildert die Gesprächsbeiträge der anderen Figuren zur Kolonialfrage — Erzählerperspektive von aussen.",
+        "ort": "Wohnung Walters (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "zeile": 6,
+        "tags": [
+          "atmosphere",
+          "sound"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es folgte ein kurzes Schweigen. Man lächelte.",
+        "notiz": "Maupassant beschreibt die Gesprächspause und die soziale Reaktion der Runde von aussen.",
+        "ort": "Wohnung Walters (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "sound"
+        ],
+        "perspektive": "figur",
+        "text": "George Duroy öffnete den Mund, und erstaunt über den Klang seiner Stimme, als ob er sich selbst noch",
+        "notiz": "Duroy nimmt den Klang seiner eigenen Stimme erstaunt wahr — Selbstwahrnehmung beim ersten Redebeitrag in der Runde.",
+        "ort": "Wohnung Walters (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erstaunen über sich selbst",
+        "raum_emotion": {
+          "ort": "Dinnergesellschaft",
+          "emotion": "Erstaunen über sich selbst",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "er fühlte, wie er rot wurde",
+        "notiz": "Duroy erlebt körperliche Scham/Verlegenheit als innere Wahrnehmung.",
+        "ort": "Speisesaal bei Walters (Paris, unbekannte Adresse)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verlegenheit, Erröten",
+        "raum_emotion": {
+          "ort": "Speisesaal bei Walters",
+          "emotion": "Verlegenheit, Erröten",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er sprach mit einem gewissen Schwung; der Wein und der Wunsch zu gefallen, trieben ihn an.",
+        "notiz": "Duroy erlebt einen inneren Antrieb aus Weingenuss und sozialem Ehrgeiz — innere Wahrnehmung seines Zustands.",
+        "ort": "Speisesaal bei Walters (Paris, unbekannte Adresse)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Schwung, Ehrgeiz, Wunsch zu gefallen",
+        "raum_emotion": {
+          "ort": "Speisesaal bei Walters",
+          "emotion": "Schwung, Ehrgeiz, Wunsch zu gefallen",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "location_erinnerung",
+          "space",
+          "weather",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Er fand sogar ein paar farbige Ausdrücke zur Schilderung der weiten, gelben Wüstenebene, die unter d",
+        "notiz": "Duroy ruft die sensorische Qualität der Wüste aus der Erinnerung hervor — Hitze und Weite als erlebte Raumqualität.",
+        "ort": "Algerische Sahara / Wüstenebene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Eindruck von Weite, Öde, sengender Hitze",
+        "raum_emotion": {
+          "ort": "Wüstenebene Algerien",
+          "emotion": "Eindruck von Weite, Öde, sengender Hitze",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Papa Walter wurde plötzlich ganz ernst und nahm seine Brille ab, um Duroy noch genauer betrachten zu",
+        "notiz": "Maupassant beschreibt von aussen, wie Walter Duroy mustert — ein sozialer Bewertungsmoment.",
+        "ort": "Salon bei Papa Walter (Dinnergesellschaft)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "zeile": 3,
+        "tags": [
+          "historical",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Ich brauche den ersten Artikel schon morgen oder übermorgen, damit wir das Publikum bearbeiten könne",
+        "notiz": "Verweis auf die Kammer (Parlament) als Institution der Dritten Republik und zeitlicher Druck durch aktuelle Debatten.",
+        "ort": "Chambre des Députés, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "zeile": 4,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der alte Dichter, der erst spät zu Ansehen und Ruhm gekommen war, verabscheute Neulinge und mißtraut",
+        "notiz": "Maupassant beschreibt von aussen die soziale Haltung des alten Dichters gegenüber Aufsteigern wie Duroy.",
+        "ort": "Salon bei Papa Walter",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "zeile": 5,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Madame Forestier warf Duroy einen wohlwollenden, lächelnden Blick zu, wie ein erfahrener Kenner, der",
+        "notiz": "Maupassant beschreibt von aussen die soziale Geste Madame Forestiers, die Duroys Aufstiegspotenzial signalisiert.",
+        "ort": "Salon bei Papa Walter",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "zeile": 6,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Madame de Marelle hatte sich mehrmals zu ihm hingedreht, und der Diamant in ihrem Ohr zitterte unauf",
+        "notiz": "Maupassant beschreibt von aussen Madame de Marelles Aufmerksamkeit gegenüber Duroy und das materielle Detail des Diamanten als sozialen Marker.",
+        "ort": "Salon bei Papa Walter",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "zeile": 7,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nur die Kleine blieb unbeweglich und ernst und hielt den Kopf über ihren Teller gebeugt.",
+        "notiz": "Maupassant beschreibt von aussen die unbewegliche, ernste Haltung des kleinen Mädchens als atmosphärischen Kontrast zur geselligen Runde.",
+        "ort": "Salon bei Papa Walter",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "zeile": 1,
+        "tags": [
+          "material",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Diener ging rings um den Tisch und schenkte Johannisberger in die mattblauen Gläser",
+        "notiz": "Maupassant beschreibt die luxuriöse Tischatmosphäre aus der Außenperspektive mit sozialen Markern.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy, durch seinen Erfolg berauscht, leerte sein Glas in einem Zuge. Er hätte, so war ihm zumute, e",
+        "notiz": "Duroy erlebt einen rauschhaften Zustand des Triumphes, der sich körperlich entlädt.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Rausch, Überwältigungsgefühl",
+        "raum_emotion": {
+          "ort": "Dinnergesellschaft",
+          "emotion": "Rausch, Überwältigungsgefühl",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er fühlte übermenschliche Kraft in sich, unbesiegbare Energie und unbegrenzte Hoffnungen.",
+        "notiz": "Duroy erlebt ein inneres Hochgefühl von Stärke und Zukunftsvertrauen.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Jetzt war er inmitten dieser Menschen zu Hause, er hatte sich hier eine Stellung verschafft, seinen ",
+        "notiz": "Duroy fühlt sich sozial angekommen und nimmt seinen neuen Status bewusst wahr.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Zugehörigkeit, Triumph",
+        "raum_emotion": {
+          "ort": "Dinnergesellschaft",
+          "emotion": "Zugehörigkeit, Triumph",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Jetzt blickte er jedem einzelnen zuversichtlich ins Auge, und zum ersten Male wagte er auch seine Na",
+        "notiz": "Duroys neu gewonnenes Selbstbewusstsein äußert sich in einer veränderten Körperhaltung und sozialen Initiative.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Verwirrt durch seine eigene Kühnheit und voller Angst, ob er auch nicht eine Albernheit sage, murmel",
+        "notiz": "Duroys innerer Zustand schwankt zwischen Kühnheit und Angst vor sozialem Fehlverhalten.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Als er den Kopf herumwandte, begegnete er wieder den Augen der Frau Forestier, die ihn noch immer wo",
+        "notiz": "Duroy interpretiert den Blick von Frau Forestier und erlebt dadurch eine emotional gefärbte soziale Wahrnehmung.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Ermutigung, ambivalente Neugier",
+        "raum_emotion": {
+          "ort": "Dinnergesellschaft",
+          "emotion": "Ermutigung, ambivalente Neugier",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3477,
+          48.8655
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "zeile": 8,
+        "tags": [
+          "sound",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Herren redeten jetzt alle durcheinander, mit lebhaften Gebärden und schallender Stimme.",
+        "notiz": "Maupassant beschreibt das laute, lebhafte Gesprächsklima der Tischrunde von außen.",
+        "ort": "Dinner bei den Walters (Paris, unspezifiziert)",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "zeile": 9,
+        "tags": [
+          "historical",
+          "location",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man besprach den Riesenplan der Untergrundbahn. Der Gegenstand war auch beim Dessert noch nicht ersc",
+        "notiz": "Maupassant verweist auf aktuelle städtische Infrastrukturdebatten des Paris der 1880er Jahre als historisch-politischen Kontext.",
+        "ort": "Speisezimmer im Haus der Forestiers",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "zeile": 1,
+        "tags": [
+          "move",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann verließ man den Speisesaal, um Kaffee zu trinken.",
+        "notiz": "Der Erzähler schildert neutral den Wechsel vom Speisesaal in den Salon.",
+        "ort": "Speisesaal, Wohnung Forestier (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Duroy bot aus Scherz dem kleinen Mädchen seinen Arm an, das ihm mit ernster Miene dankte und sich au",
+        "notiz": "Der Erzähler beschreibt Duroys spielerische Geste gegenüber dem Kind von außen.",
+        "ort": "Wohnung Forestier, Übergang zum Salon (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Als er in den Salon eintrat, hatte er von neuem das Gefühl, in ein Treibhaus zu kommen.",
+        "notiz": "Duroy erlebt den Salon beim Eintreten als sinnliche Raumqualität — das Treibhaus-Gefühl kommt von innen.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "sensorisches Überwältigtsein, Eindruck von Exotik und Wärme",
+        "raum_emotion": {
+          "ort": "Salon Forestier",
+          "emotion": "sensorisches Überwältigtsein, Eindruck von Exotik und Wärme",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "zeile": 2,
+        "tags": [
+          "space",
+          "material",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Hohe Palmen öffneten ihre anmutigen Fächer in allen vier Ecken, stiegen bis zur Decke empor und verb",
+        "notiz": "Der Erzähler beschreibt die üppige Pflanzenwelt im Salon als neutrale Raumkulisse.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "zeile": 3,
+        "tags": [
+          "atmosphere",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie sahen aus, als ob sie künstlich wären und zu schön, um echt zu sein.",
+        "notiz": "Der Erzähler kommentiert das Aussehen der Sträucher mit einer wertenden Beobachtung von außen.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "zeile": 4,
+        "tags": [
+          "smell",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Luft war angenehm frisch, von einem diskreten, zarten Parfüm erfüllt, das man nicht näher bestim",
+        "notiz": "Der Erzähler beschreibt den Geruch und die Luftqualität im Salon als atmosphärische Kulisse.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy fühlte sich jetzt bedeutend sicherer und sah sich das Zimmer aufmerksam an.",
+        "notiz": "Duroy erlebt eine innere Sicherheit und nimmt den Raum nun bewusst wahrnehmend in den Blick.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": 1,
+        "intensitaet": 1,
+        "gewichtete_valenz": 1,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "wachsendes Sicherheitsgefühl, Entspannung",
+        "raum_emotion": {
+          "ort": "Salon Forestier",
+          "emotion": "wachsendes Sicherheitsgefühl, Entspannung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "space",
+          "atmosphere",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Es war nicht groß, und außer den Sträuchern war nichts darin, was den Blick besonders auf sich lenkt",
+        "notiz": "Duroy erlebt den Salon als körperlich sanft umhüllenden Raum — die Raumqualität wird als sinnliche Empfindung wahrgenommen.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Ruhe, Behaglichkeit, zärtliche Umhüllung",
+        "raum_emotion": {
+          "ort": "Salon Forestier",
+          "emotion": "Ruhe, Behaglichkeit, zärtliche Umhüllung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "zeile": 6,
+        "tags": [
+          "space",
+          "material",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Wände waren mit einem alten, violetten Stoff bespannt, mit kleinen gelblichen Pünktchen, die kle",
+        "notiz": "Der Erzähler beschreibt detailliert die Einrichtung des Salons als Ausdruck sozialen Reichtums und bürgerlichen Geschmacks.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er nahm ihr die Tasse aus der Hand, und während er sich ängstlich vorbeugte, um mit der silbernen Za",
+        "notiz": "Duroy agiert ängstlich und körperlich angespannt in der sozialen Situation.",
+        "ort": "Salon bei Familie Walter (unspezifiziert)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Ängstlichkeit, soziale Anspannung",
+        "raum_emotion": {
+          "ort": "Salon Walter",
+          "emotion": "Ängstlichkeit, soziale Anspannung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Zunächst trank er seinen Kaffee aus, weil er fürchtete, denselben womöglich noch auf den Teppich zu ",
+        "notiz": "Duroy erlebt innere Anspannung und erleichtert sich schrittweise, während er eine soziale Strategie entwickelt.",
+        "ort": "Salon bei Familie Walter (unspezifiziert)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erleichterung, soziale Berechnung",
+        "raum_emotion": {
+          "ort": "Salon Walter",
+          "emotion": "Erleichterung, soziale Berechnung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Plötzlich bemerkte er, daß sie eine leere Tasse in der Hand hielt. Sie befand sich ziemlich weit von",
+        "notiz": "Duroy nimmt die Situation wahr und nutzt sie aktiv als Anlass zur Annäherung an Frau Walter.",
+        "ort": "Salon bei Familie Walter (unspezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "zeile": 4,
+        "tags": [
+          "location_erinnerung",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Wenn Sie wüßten, gnädige Frau, welch glückliche Stunden mir die Vie Française da unten in der Wüste ",
+        "notiz": "Duroy erinnert sich an seine Zeit in der algerischen Wüste und verbindet sie mit positiven Gefühlen — persönliche Erinnerung an einen fernen Ort.",
+        "ort": "Algerische Wüste (Erinnerung Duroys)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Glück, Nostalgie",
+        "raum_emotion": {
+          "ort": "Wüste (Algerien)",
+          "emotion": "Glück, Nostalgie",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "zeile": 5,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er sprach leicht und oberflächlich mit einer reizvollen Stimme. Auch hatte er viel Anmut im Blick un",
+        "notiz": "Maupassant beschreibt Duroys äußere Erscheinung und sein soziales Auftreten von außen als objektiver Erzähler.",
+        "ort": "Salon bei Familie Walter (unspezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "zeile": 6,
+        "tags": [
+          "location",
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie unterhielten sich über Paris und seine Umgebung, über die Ufer der Seine, über die Badeorte, Som",
+        "notiz": "Maupassant nennt Paris, die Seine und ihre Umgebung als Gesprächsthemen und charakterisiert damit das oberflächliche gesellschaftliche Geplauder der Bourgeoisie.",
+        "ort": "Salon, Wohnung Forestier (Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann trat Norbert de Varenne mit einem Likörglas in der Hand heran, und Duroy zog sich diskret zurüc",
+        "notiz": "Duroy weicht Norbert de Varenne aus — eine räumliche Bewegung in der Gesellschaft.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Da sprach er mit unbestimmten Worten über seine Pläne und begann dann mit ihr genau dieselbe Unterha",
+        "notiz": "Duroy spiegelt strategisch das bereits Gehörte wider und zeigt soziales Kalkül in der Konversation.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Dabei blickte er seiner Dame fortwährend in die Augen, wie um seinen Worten einen tieferen Sinn zu g",
+        "notiz": "Duroy setzt Blickkontakt bewusst als Mittel der Verführung ein — inneres Kalkül trifft auf emotionale Präsenz.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": 1,
+        "intensitaet": 1,
+        "gewichtete_valenz": 1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er war innerlich entzückt, der jungen Frau, die sich ihm so eifrig widmete, auch körperlich nahe zu ",
+        "notiz": "Duroy erlebt körperliche Nähe zu Madame de Marelle als intensives inneres Entzücken.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Entzücken, erotische Anziehung",
+        "raum_emotion": {
+          "ort": "Salon bei Forestiers",
+          "emotion": "Entzücken, erotische Anziehung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Am liebsten hätte er um ihretwillen sofort irgendeine große Tat vollführt und ihr gestanden, daß er ",
+        "notiz": "Duroy fantasiert von heroischen Taten und Geständnissen — sein Begehren steigert sich zur Schwärmerei.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "zeile": 14,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Und Duroy empfand ein tolles Verlangen, das Kind zu küssen, als sollte auch die Mutter von diesem Ku",
+        "notiz": "Duroys Verlangen, das Kind zu küssen, ist ein verdecktes erotisches Begehren nach der Mutter — Körper und Emotion verschmelzen.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "erotisches Verlangen, sublimiert durch Zärtlichkeit",
+        "raum_emotion": {
+          "ort": "Salon bei Forestiers",
+          "emotion": "erotisches Verlangen, sublimiert durch Zärtlichkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "zeile": 19,
+        "tags": [
+          "george_duroy",
+          "material",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Duroy setzte sich sofort hin, zog Laurine auf sein Knie und streifte die zarten, wolligen Haare des ",
+        "notiz": "Maupassant beschreibt Duroys körperliche Geste von aussen — die Haptik der Kinderhaare als sinnliches Detail.",
+        "ort": "Salon bei Forestiers (Wohnung, Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er wurde rot, antwortete nichts und schaukelte mit einer leichten Bewegung das kleine Mädchen auf de",
+        "notiz": "Duroy reagiert verlegen auf das Kompliment — körperliche Schamreaktion und ruhige Geste zeigen sein inneres Erleben.",
+        "ort": "Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": -1,
+        "intensitaet": 1,
+        "gewichtete_valenz": -1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Duroy verabschiedete sich, um durch irgendein ungeschicktes Wort den guten Eindruck, den er gemacht ",
+        "notiz": "Duroy handelt strategisch, um seinen sozialen Aufstieg nicht zu gefährden — innere Kalkulation aus Selbstwahrnehmung.",
+        "ort": "Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "material",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Es fiel ihm dabei auf, daß Jaques Rivals Hand heiß und trocken war und seinen Druck herzlich erwider",
+        "notiz": "Duroy nimmt die Hände seiner Gesprächspartner taktil wahr und leitet daraus soziale und charakterliche Eindrücke ab.",
+        "ort": "Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "move",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Als er sich wieder auf der Treppe befand, war seine Freude so groß, daß er am liebsten hinabgelaufen",
+        "notiz": "Duroys überschwängliche Freude nach dem Gesellschaftsbesuch entlädt sich in körperlicher Bewegung auf der Treppe.",
+        "ort": "Treppenhaus, Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Freude, Überschwang",
+        "raum_emotion": {
+          "ort": "Treppenhaus",
+          "emotion": "Freude, Überschwang",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "space",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "Plötzlich erblickte er in dem großen Spiegel des zweiten Stockes einen übereiligen Herrn, der auf ih",
+        "notiz": "Duroy nimmt den Spiegel im Treppenhaus wahr und erblickt sich selbst — räumliche Begegnung mit dem eigenen Spiegelbild.",
+        "ort": "Treppenhaus zweites Stockwerk, Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Überraschung, Beschämung",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Überraschung, Beschämung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Beschämt blieb er stehen, als hätte man ihn auf einer Dummheit ertappt. Dann betrachtete er sich lan",
+        "notiz": "Duroy erlebt Scham und dann Selbstgefälligkeit beim Anblick seiner eigenen Spiegelreflexion — Moment narzisstischer Selbstwahrnehmung.",
+        "ort": "Treppenhaus zweites Stockwerk, Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": 0,
+        "intensitaet": 2,
+        "gewichtete_valenz": 0,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Scham, Selbstzufriedenheit, Eitelkeit",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Scham, Selbstzufriedenheit, Eitelkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "zeile": 13,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Freundlich lächelte er sich zu und verabschiedete sich dann von seinem Ebenbild mit einem tiefen, fe",
+        "notiz": "Duroy inszeniert sich vor dem Spiegel als hochgestellte Persönlichkeit — Selbstüberhöhung als Ausdruck sozialer Ambition.",
+        "ort": "Treppenhaus zweites Stockwerk, Wohnung Forestier (Paris, genaue Adresse unbekannt)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Selbstüberhöhung, Eitelkeit",
+        "raum_emotion": {
+          "ort": "Treppenhaus mit Spiegel",
+          "emotion": "Selbstüberhöhung, Eitelkeit",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    }
+  ]
+}

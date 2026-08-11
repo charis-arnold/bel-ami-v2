@@ -1,0 +1,511 @@
+{
+  "kapitel": 14,
+  "beschreibung": "F-Wert-Verteilung (Ebene 3) und Valenz-Durchschnitte (Ebene 2) pro Ort",
+  "f_verteilung_pro_ort": {
+    "Salon Madeleines, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Duroys/Madeleines, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 50.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Speisezimmer des Ministers (nicht näher bestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Normandie (imaginiert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Rue Constantinople, Paris": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 75.0,
+        "emotion_faerbt_raum": 25.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie française (näherungsweise)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbestimmt": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Seineufer bei Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Vorortzug um Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Pariser Vorstädte": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Seineufer (Erinnerung)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Pariser Strasse (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "unbestimmt, unterwegs zur Junggesellenwohnung": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung/Innenraum (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Innenraum (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "unbestimmter Innenraum": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Boulevard Malesherbes, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Innenraum, Duroys Wohnung (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbekannter Innenraum, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Juwelierladen am Boulevard, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "imaginierter Raum der Zukunft": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Rue Drouot, Paris (Umkehr Richtung Chaussée d'Antin)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnhaus Graf de Vaudrec, Chaussée d'Antin, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Duroy, Rue Notre-Dame de Lorette": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie Française, Boulevard Poissonière": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Schlafzimmer der Duroys": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    }
+  },
+  "valenz_pro_ort": {
+    "Wohnung Duroys/Madeleines, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroy/Madeleine, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "null": {
+      "gewichtete_valenz_summe": -12,
+      "gewichtete_valenz_durchschnitt": -1.71,
+      "anzahl_annotationen": 7
+    },
+    "unbestimmt": {
+      "gewichtete_valenz_summe": -18,
+      "gewichtete_valenz_durchschnitt": -1.2,
+      "anzahl_annotationen": 15
+    },
+    "Rue Constantinople, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Pariser Vorstädte": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Pariser Strasse (unbestimmt)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "unbestimmt, unterwegs zur Junggesellenwohnung": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Junggesellenwohnung Duroys, Paris": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -1.5,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung/Innenraum (unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Innenraum (unspezifisch)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Innenraum, nicht näher bezeichnet": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "unbekannt": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "unbestimmter Innenraum": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 4
+    },
+    "unbekannt, Innenraum": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 2
+    },
+    "Innenraum, Duroys Wohnung (unspezifisch)": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -1.67,
+      "anzahl_annotationen": 3
+    },
+    "unbekannter Innenraum, Paris": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -2.5,
+      "anzahl_annotationen": 2
+    },
+    "Juwelierladen am Boulevard, Paris": {
+      "gewichtete_valenz_summe": 3,
+      "gewichtete_valenz_durchschnitt": 3.0,
+      "anzahl_annotationen": 1
+    },
+    "imaginierter Raum der Zukunft": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Straße, Paris": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnhaus Graf de Vaudrec, Chaussée d'Antin, Paris": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroy, Rue Notre-Dame de Lorette": {
+      "gewichtete_valenz_summe": -10,
+      "gewichtete_valenz_durchschnitt": -1.67,
+      "anzahl_annotationen": 6
+    },
+    "unspezifisch (nach Verlassen der Redaktion)": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Schlafzimmer der Duroys": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -1.5,
+      "anzahl_annotationen": 4
+    }
+  }
+}

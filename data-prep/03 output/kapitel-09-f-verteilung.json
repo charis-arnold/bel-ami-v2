@@ -1,0 +1,767 @@
+{
+  "kapitel": 10,
+  "beschreibung": "F-Wert-Verteilung (Ebene 3) und Valenz-Durchschnitte (Ebene 2) pro Ort",
+  "f_verteilung_pro_ort": {
+    "Rue de Constantinople, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Canteleu bei Rouen": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Straße, Paris": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 33.3,
+        "emotion_faerbt_raum": 66.7,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Duroys Wohnung, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Wohnung (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Paris (allgemein)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbestimmter Innenraum": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Eisenbahnzug ab Bahnhof Saint-Lazare": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Brücke bei Asnières, Seine": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Seine bei Asnières": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Chatou, Umgebung von Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Chatou, Restaurant am Wasser": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Chatou": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Zugabteil (bei Saint-Germain-en-Laye)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Zugabteil (Richtung Rouen)": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 3
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Zug Richtung Rouen": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Strecke Paris–Rouen": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Landschaft entlang der Zugstrecke Paris–Rouen": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Landschaft zwischen Paris und Rouen (Zugfahrt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Zugabteil auf der Strecke Paris–Rouen": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Rouen (Ziel der Zugfahrt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Zugabteil auf der Fahrt nach Rouen": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Hotel am Ufer (Reiseroute nach Canteleu)": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 25.0,
+        "koerper_als_sensor": 25.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Canteleu (Elternhaus)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Canteleu (Elternhaus Duroys)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Hafen von Rouen, Seineufer": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Landstraße bei Duroys Elternhaus, Normandie": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Elternhaus Duroy, Normandie (ländlich, unspezifisch)": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Weg zum Elternhaus Duroy, Normandie (ländlich, unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Gastzimmer im Wirtshaus der Familie Duroy, Normandie": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wirtshaus der Familie Duroy, Normandie": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Elternhaus der Duroys (ländlich, Normandie)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Elternhaus und umliegende Natur (Normandie)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "ländliches Elternhaus der Duroys (Normandie)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Gaststube des Elternhauses Duroy (Normandie)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Seine-Ufer bei Croisset, Insel unter Weiden": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Esszimmer Elternhaus Duroy, Normandie": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Elternhaus Duroy, Normandie": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Umgebung Elternhaus Duroy, Normandie, Nachtspaziergang": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Elternhaus Duroys, Normandie": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Panoramablick auf Rouen und die Seine vom Hang bei Canteleu": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    }
+  },
+  "valenz_pro_ort": {
+    "unbekannt": {
+      "gewichtete_valenz_summe": -19,
+      "gewichtete_valenz_durchschnitt": -1.58,
+      "anzahl_annotationen": 12
+    },
+    "Canteleu bei Rouen": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    },
+    "unbekannt/innen": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 0.4,
+      "anzahl_annotationen": 5
+    },
+    "Canteleu (Normandie)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Straße, Paris": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 2
+    },
+    "Duroys Wohnung, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -0.67,
+      "anzahl_annotationen": 3
+    },
+    "Duroys Wohnung (unspezifisch)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 4
+    },
+    "Paris (allgemein)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "unbestimmter Innenraum": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 0.4,
+      "anzahl_annotationen": 5
+    },
+    "Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Eisenbahnzug ab Bahnhof Saint-Lazare": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Brücke bei Asnières, Seine": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Chatou, Umgebung von Paris": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Chatou, Restaurant am Wasser": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -0.5,
+      "anzahl_annotationen": 4
+    },
+    "Chatou": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Diner bei Forestier (nicht näher verortet)": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Zugabteil (Richtung Rouen)": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -1.75,
+      "anzahl_annotationen": 4
+    },
+    "Zug Richtung Rouen (Nähe Poissy)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Rouen (impliziert)": {
+      "gewichtete_valenz_summe": 7,
+      "gewichtete_valenz_durchschnitt": 1.75,
+      "anzahl_annotationen": 4
+    },
+    "Strecke Paris–Rouen": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Zugabteil, Strecke Paris–Rouen": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Zugabteil auf der Strecke Paris–Rouen": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Zugabteil auf der Fahrt nach Rouen": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Hotel am Ufer (Reiseroute nach Canteleu)": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.33,
+      "anzahl_annotationen": 3
+    },
+    "Canteleu (Elternhaus)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Hafen von Rouen, Seineufer": {
+      "gewichtete_valenz_summe": 5,
+      "gewichtete_valenz_durchschnitt": 2.5,
+      "anzahl_annotationen": 2
+    },
+    "Aussichtspunkt bei Rouen": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Landstraße bei Duroys Elternhaus, Normandie": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    },
+    "Elternhaus Duroy, Normandie (ländlich, unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wirtshaus der Familie Duroy, Normandie": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Elternhaus und umliegende Natur (Normandie)": {
+      "gewichtete_valenz_summe": 3,
+      "gewichtete_valenz_durchschnitt": 3.0,
+      "anzahl_annotationen": 1
+    },
+    "ländliches Elternhaus der Duroys (Normandie)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Saint-Denis": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Gaststube des Elternhauses Duroy (Normandie)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Seine-Ufer bei Croisset, Insel unter Weiden": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Elternhaus Duroys, Normandie": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Gut der Eltern Duroy, Canteleu": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

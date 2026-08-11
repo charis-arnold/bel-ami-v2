@@ -1,0 +1,5979 @@
+{
+  "kapitel": 8,
+  "route": [
+    {
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "lon": 7.0174,
+      "lat": 43.5528,
+      "revealIndex": 192,
+      "routeEndsHere": true
+    }
+  ],
+  "gedanken": [],
+  "markierungen": [],
+  "routenPunkte": [
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.373,
+      48.8409
+    ],
+    [
+      2.373,
+      48.8409
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ],
+    [
+      2.4,
+      48.86
+    ]
+  ],
+  "routenPfadDetail": [
+    [
+      2.3192132,
+      48.8803681
+    ],
+    [
+      2.3193915,
+      48.8803723
+    ],
+    [
+      2.3193265,
+      48.8802708
+    ],
+    [
+      2.3198743,
+      48.8800921
+    ],
+    [
+      2.3203988,
+      48.8799209
+    ],
+    [
+      2.3204039,
+      48.8799093
+    ],
+    [
+      2.3206605,
+      48.8798292
+    ],
+    [
+      2.3209218,
+      48.8797456
+    ],
+    [
+      2.3215471,
+      48.8795457
+    ],
+    [
+      2.3215589,
+      48.8795236
+    ],
+    [
+      2.3216905,
+      48.8794257
+    ],
+    [
+      2.3218189,
+      48.8793471
+    ],
+    [
+      2.3221078,
+      48.8788068
+    ],
+    [
+      2.3220855,
+      48.8787858
+    ],
+    [
+      2.3221407,
+      48.8786825
+    ],
+    [
+      2.3221698,
+      48.878674
+    ],
+    [
+      2.3224696,
+      48.8781196
+    ],
+    [
+      2.3224914,
+      48.8780202
+    ],
+    [
+      2.3225891,
+      48.8778689
+    ],
+    [
+      2.3226066,
+      48.87786
+    ],
+    [
+      2.3229356,
+      48.8772467
+    ],
+    [
+      2.3229423,
+      48.8772324
+    ],
+    [
+      2.3229786,
+      48.8771482
+    ],
+    [
+      2.3229965,
+      48.8771312
+    ],
+    [
+      2.3235857,
+      48.8760322
+    ],
+    [
+      2.3237465,
+      48.8757194
+    ],
+    [
+      2.3237774,
+      48.8755585
+    ],
+    [
+      2.324035,
+      48.8753191
+    ],
+    [
+      2.324195,
+      48.8751455
+    ],
+    [
+      2.324523,
+      48.8749346
+    ],
+    [
+      2.3246467,
+      48.8748559
+    ],
+    [
+      2.3247649,
+      48.8747757
+    ],
+    [
+      2.3248024,
+      48.8747534
+    ],
+    [
+      2.3256328,
+      48.8741634
+    ],
+    [
+      2.3258293,
+      48.8742318
+    ],
+    [
+      2.3259071,
+      48.8742146
+    ],
+    [
+      2.3260854,
+      48.8740832
+    ],
+    [
+      2.3261303,
+      48.8739972
+    ],
+    [
+      2.3261002,
+      48.8737947
+    ],
+    [
+      2.3266836,
+      48.8737158
+    ],
+    [
+      2.326764,
+      48.8736386
+    ],
+    [
+      2.3271959,
+      48.8735266
+    ],
+    [
+      2.327283,
+      48.8735363
+    ],
+    [
+      2.3280409,
+      48.8731015
+    ],
+    [
+      2.3282114,
+      48.8730031
+    ],
+    [
+      2.3282496,
+      48.8729811
+    ],
+    [
+      2.3283644,
+      48.872929
+    ],
+    [
+      2.3285926,
+      48.8727931
+    ],
+    [
+      2.3295549,
+      48.8722582
+    ],
+    [
+      2.3296754,
+      48.8721605
+    ],
+    [
+      2.3302261,
+      48.8718771
+    ],
+    [
+      2.3303695,
+      48.8716266
+    ],
+    [
+      2.3306071,
+      48.8715661
+    ],
+    [
+      2.3305997,
+      48.8715247
+    ],
+    [
+      2.3307416,
+      48.8715908
+    ],
+    [
+      2.3316175,
+      48.8711054
+    ],
+    [
+      2.3318858,
+      48.870725
+    ],
+    [
+      2.3317958,
+      48.8706816
+    ],
+    [
+      2.3318809,
+      48.8704673
+    ],
+    [
+      2.3320346,
+      48.8703323
+    ],
+    [
+      2.3320234,
+      48.8701995
+    ],
+    [
+      2.3322388,
+      48.8700682
+    ],
+    [
+      2.3323826,
+      48.8700343
+    ],
+    [
+      2.3327069,
+      48.8692758
+    ],
+    [
+      2.3327437,
+      48.8691935
+    ],
+    [
+      2.3327697,
+      48.8691563
+    ],
+    [
+      2.3328421,
+      48.8690173
+    ],
+    [
+      2.3328506,
+      48.8689669
+    ],
+    [
+      2.3329953,
+      48.8686362
+    ],
+    [
+      2.3330467,
+      48.8685039
+    ],
+    [
+      2.3330789,
+      48.8684613
+    ],
+    [
+      2.3333509,
+      48.8678051
+    ],
+    [
+      2.3334278,
+      48.8676248
+    ],
+    [
+      2.333472,
+      48.8675225
+    ],
+    [
+      2.3334782,
+      48.8673353
+    ],
+    [
+      2.3336425,
+      48.8671492
+    ],
+    [
+      2.3336627,
+      48.8671005
+    ],
+    [
+      2.3338263,
+      48.8667062
+    ],
+    [
+      2.3339197,
+      48.8663695
+    ],
+    [
+      2.3339429,
+      48.8663248
+    ],
+    [
+      2.3340264,
+      48.8661662
+    ],
+    [
+      2.3340719,
+      48.8661025
+    ],
+    [
+      2.334367,
+      48.8654322
+    ],
+    [
+      2.3345295,
+      48.8650483
+    ],
+    [
+      2.3346851,
+      48.8647001
+    ],
+    [
+      2.3346906,
+      48.8646349
+    ],
+    [
+      2.3348269,
+      48.8643861
+    ],
+    [
+      2.3348471,
+      48.8643123
+    ],
+    [
+      2.3349853,
+      48.8640126
+    ],
+    [
+      2.3349976,
+      48.8639889
+    ],
+    [
+      2.335091,
+      48.8637353
+    ],
+    [
+      2.3351385,
+      48.8636194
+    ],
+    [
+      2.3352261,
+      48.8634797
+    ],
+    [
+      2.3352572,
+      48.8632535
+    ],
+    [
+      2.3353557,
+      48.8631138
+    ],
+    [
+      2.3352125,
+      48.862865
+    ],
+    [
+      2.3354523,
+      48.862786
+    ],
+    [
+      2.336125,
+      48.8625552
+    ],
+    [
+      2.336164,
+      48.8625427
+    ],
+    [
+      2.3362165,
+      48.862527
+    ],
+    [
+      2.3362142,
+      48.8625228
+    ],
+    [
+      2.3362884,
+      48.8625023
+    ],
+    [
+      2.3366415,
+      48.8623422
+    ],
+    [
+      2.3370163,
+      48.8622194
+    ],
+    [
+      2.337099,
+      48.8621926
+    ],
+    [
+      2.3389934,
+      48.8615767
+    ],
+    [
+      2.339245,
+      48.8614248
+    ],
+    [
+      2.3405556,
+      48.8609971
+    ],
+    [
+      2.3405089,
+      48.8609301
+    ],
+    [
+      2.3406014,
+      48.8608584
+    ],
+    [
+      2.3409588,
+      48.8607737
+    ],
+    [
+      2.3412089,
+      48.860699
+    ],
+    [
+      2.3419421,
+      48.8604491
+    ],
+    [
+      2.3421206,
+      48.8603859
+    ],
+    [
+      2.3422518,
+      48.8603472
+    ],
+    [
+      2.342304,
+      48.8603336
+    ],
+    [
+      2.3424081,
+      48.8603036
+    ],
+    [
+      2.3432606,
+      48.8600317
+    ],
+    [
+      2.3433018,
+      48.8600157
+    ],
+    [
+      2.3433718,
+      48.8599916
+    ],
+    [
+      2.3434942,
+      48.859961
+    ],
+    [
+      2.3440328,
+      48.8597653
+    ],
+    [
+      2.3440722,
+      48.859767
+    ],
+    [
+      2.3446414,
+      48.8595872
+    ],
+    [
+      2.3447777,
+      48.8595228
+    ],
+    [
+      2.3448562,
+      48.8595184
+    ],
+    [
+      2.3450909,
+      48.8594312
+    ],
+    [
+      2.3451777,
+      48.8594021
+    ],
+    [
+      2.3456891,
+      48.8592435
+    ],
+    [
+      2.3462561,
+      48.859043
+    ],
+    [
+      2.3462687,
+      48.8590415
+    ],
+    [
+      2.346414,
+      48.858998
+    ],
+    [
+      2.3465352,
+      48.8589743
+    ],
+    [
+      2.3471928,
+      48.8587623
+    ],
+    [
+      2.347248,
+      48.8587188
+    ],
+    [
+      2.3475297,
+      48.8586218
+    ],
+    [
+      2.3476108,
+      48.8586253
+    ],
+    [
+      2.348032,
+      48.8584927
+    ],
+    [
+      2.3480441,
+      48.8584735
+    ],
+    [
+      2.3483252,
+      48.858389
+    ],
+    [
+      2.3490405,
+      48.8581598
+    ],
+    [
+      2.3495304,
+      48.8579974
+    ],
+    [
+      2.3496925,
+      48.8579562
+    ],
+    [
+      2.349769,
+      48.8579345
+    ],
+    [
+      2.3500952,
+      48.8578131
+    ],
+    [
+      2.350199,
+      48.8577823
+    ],
+    [
+      2.3508424,
+      48.8575818
+    ],
+    [
+      2.3508744,
+      48.8575135
+    ],
+    [
+      2.351015,
+      48.8574293
+    ],
+    [
+      2.3514009,
+      48.8574097
+    ],
+    [
+      2.3515332,
+      48.8573783
+    ],
+    [
+      2.3522467,
+      48.8572349
+    ],
+    [
+      2.3524016,
+      48.8572028
+    ],
+    [
+      2.3535014,
+      48.8569356
+    ],
+    [
+      2.3536092,
+      48.8568941
+    ],
+    [
+      2.3539151,
+      48.8568172
+    ],
+    [
+      2.3539377,
+      48.8568411
+    ],
+    [
+      2.3553342,
+      48.8565107
+    ],
+    [
+      2.3557419,
+      48.8564035
+    ],
+    [
+      2.3557684,
+      48.856401
+    ],
+    [
+      2.3564148,
+      48.8562512
+    ],
+    [
+      2.3564594,
+      48.8562298
+    ],
+    [
+      2.3566371,
+      48.856186
+    ],
+    [
+      2.3567159,
+      48.856175
+    ],
+    [
+      2.3570056,
+      48.8561092
+    ],
+    [
+      2.3569895,
+      48.8560046
+    ],
+    [
+      2.3568939,
+      48.8557765
+    ],
+    [
+      2.3569197,
+      48.8557704
+    ],
+    [
+      2.3568858,
+      48.8556993
+    ],
+    [
+      2.3573281,
+      48.8555583
+    ],
+    [
+      2.3574026,
+      48.8555321
+    ],
+    [
+      2.3574404,
+      48.855529
+    ],
+    [
+      2.3576181,
+      48.8554778
+    ],
+    [
+      2.3576674,
+      48.8554521
+    ],
+    [
+      2.3586977,
+      48.8545381
+    ],
+    [
+      2.3586883,
+      48.854516
+    ],
+    [
+      2.3588634,
+      48.8544662
+    ],
+    [
+      2.3589022,
+      48.8544741
+    ],
+    [
+      2.3590592,
+      48.8543898
+    ],
+    [
+      2.3590524,
+      48.8543669
+    ],
+    [
+      2.3591832,
+      48.8543228
+    ],
+    [
+      2.3590997,
+      48.8540468
+    ],
+    [
+      2.3591426,
+      48.8537808
+    ],
+    [
+      2.3593317,
+      48.8534924
+    ],
+    [
+      2.3594176,
+      48.8534929
+    ],
+    [
+      2.3595064,
+      48.853469
+    ],
+    [
+      2.3595185,
+      48.853368
+    ],
+    [
+      2.3600864,
+      48.8530027
+    ],
+    [
+      2.360189,
+      48.8529468
+    ],
+    [
+      2.3602075,
+      48.8529261
+    ],
+    [
+      2.3601568,
+      48.8528487
+    ],
+    [
+      2.3605553,
+      48.8526007
+    ],
+    [
+      2.3604948,
+      48.8525575
+    ],
+    [
+      2.3606403,
+      48.8524507
+    ],
+    [
+      2.360704,
+      48.852439
+    ],
+    [
+      2.3611713,
+      48.8521839
+    ],
+    [
+      2.3613761,
+      48.8520554
+    ],
+    [
+      2.3620866,
+      48.851608
+    ],
+    [
+      2.3623522,
+      48.8514376
+    ],
+    [
+      2.362414,
+      48.8513954
+    ],
+    [
+      2.3624324,
+      48.8513552
+    ],
+    [
+      2.3625364,
+      48.8512841
+    ],
+    [
+      2.3626725,
+      48.8511023
+    ],
+    [
+      2.3626995,
+      48.8511142
+    ],
+    [
+      2.3627312,
+      48.8510839
+    ],
+    [
+      2.3627166,
+      48.8509546
+    ],
+    [
+      2.3627117,
+      48.8508967
+    ],
+    [
+      2.362758,
+      48.8508624
+    ],
+    [
+      2.3626917,
+      48.8507311
+    ],
+    [
+      2.3628298,
+      48.8506167
+    ],
+    [
+      2.3630926,
+      48.8504026
+    ],
+    [
+      2.3640244,
+      48.8496794
+    ],
+    [
+      2.364099,
+      48.849609
+    ],
+    [
+      2.3641205,
+      48.8495721
+    ],
+    [
+      2.3646066,
+      48.8490103
+    ],
+    [
+      2.3646883,
+      48.8488979
+    ],
+    [
+      2.3646852,
+      48.8488689
+    ],
+    [
+      2.3649973,
+      48.848363
+    ],
+    [
+      2.3650619,
+      48.8482245
+    ],
+    [
+      2.3650827,
+      48.8481495
+    ],
+    [
+      2.3654723,
+      48.8476407
+    ],
+    [
+      2.3655843,
+      48.8476398
+    ],
+    [
+      2.365861,
+      48.847419
+    ],
+    [
+      2.3663585,
+      48.8469665
+    ],
+    [
+      2.3668146,
+      48.846639
+    ],
+    [
+      2.3670659,
+      48.8464798
+    ],
+    [
+      2.3670565,
+      48.8463925
+    ],
+    [
+      2.3675487,
+      48.8460097
+    ],
+    [
+      2.3676422,
+      48.8459868
+    ],
+    [
+      2.3678447,
+      48.8458341
+    ],
+    [
+      2.3678119,
+      48.8458126
+    ],
+    [
+      2.3685408,
+      48.8453721
+    ],
+    [
+      2.3686727,
+      48.8451803
+    ],
+    [
+      2.3692127,
+      48.8447649
+    ],
+    [
+      2.3692784,
+      48.8447106
+    ],
+    [
+      2.3693733,
+      48.8445981
+    ],
+    [
+      2.3692746,
+      48.8445496
+    ],
+    [
+      2.3693485,
+      48.8444933
+    ],
+    [
+      2.3705192,
+      48.8435833
+    ],
+    [
+      2.3705893,
+      48.8435286
+    ],
+    [
+      2.370735,
+      48.8434138
+    ],
+    [
+      2.3708369,
+      48.8433352
+    ],
+    [
+      2.3703898,
+      48.8430713
+    ],
+    [
+      2.3710708,
+      48.842565
+    ],
+    [
+      2.371646,
+      48.8420395
+    ],
+    [
+      2.3733778,
+      48.8406437
+    ],
+    [
+      2.373,
+      48.8409
+    ],
+    [
+      2.3735134,
+      48.840493
+    ],
+    [
+      2.3749527,
+      48.8392203
+    ],
+    [
+      2.3750161,
+      48.8391651
+    ],
+    [
+      2.375658,
+      48.8387248
+    ],
+    [
+      2.3761019,
+      48.8389849
+    ],
+    [
+      2.3762844,
+      48.8390829
+    ],
+    [
+      2.378756,
+      48.8404361
+    ],
+    [
+      2.3789138,
+      48.8404309
+    ],
+    [
+      2.3790738,
+      48.8406258
+    ],
+    [
+      2.3799482,
+      48.840478
+    ],
+    [
+      2.3816418,
+      48.8401902
+    ],
+    [
+      2.3821899,
+      48.8400878
+    ],
+    [
+      2.3826499,
+      48.8400115
+    ],
+    [
+      2.3878355,
+      48.8391054
+    ],
+    [
+      2.3880068,
+      48.8390548
+    ],
+    [
+      2.3881014,
+      48.8390361
+    ],
+    [
+      2.3883126,
+      48.8389964
+    ],
+    [
+      2.388563,
+      48.8390246
+    ],
+    [
+      2.3889671,
+      48.839103
+    ],
+    [
+      2.3892227,
+      48.8391879
+    ],
+    [
+      2.3893487,
+      48.839161
+    ],
+    [
+      2.3896652,
+      48.8391254
+    ],
+    [
+      2.3897711,
+      48.839133
+    ],
+    [
+      2.390029,
+      48.8391514
+    ],
+    [
+      2.3900333,
+      48.8392669
+    ],
+    [
+      2.3901392,
+      48.8392784
+    ],
+    [
+      2.3915488,
+      48.8398738
+    ],
+    [
+      2.3918619,
+      48.8400071
+    ],
+    [
+      2.3924499,
+      48.8402437
+    ],
+    [
+      2.3927779,
+      48.8401655
+    ],
+    [
+      2.3928509,
+      48.8403739
+    ],
+    [
+      2.3928979,
+      48.8409325
+    ],
+    [
+      2.3935981,
+      48.8410235
+    ],
+    [
+      2.3954843,
+      48.8411436
+    ],
+    [
+      2.3964213,
+      48.8411999
+    ],
+    [
+      2.3967656,
+      48.8412009
+    ],
+    [
+      2.3984974,
+      48.8411353
+    ],
+    [
+      2.3996908,
+      48.8411019
+    ],
+    [
+      2.4022912,
+      48.840965
+    ],
+    [
+      2.402411,
+      48.8409856
+    ],
+    [
+      2.4030752,
+      48.8409299
+    ],
+    [
+      2.4043693,
+      48.8408193
+    ],
+    [
+      2.404355,
+      48.8409
+    ]
+  ],
+  "annotationen": [
+    {
+      "id": 1,
+      "text": "Durch sein Duell war Duroy in die Reihe der Leitartikelschreiber der Vie Française aufgerückt.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Redaktion der Vie Française (Paris)",
+      "revealIndex": 0,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 2,
+      "text": "Doch bereitete es ihm unendliche Mühe, eigene Ideen zu finden; so wählte er sich als Spezialität, gegen den Niedergang der Sitten, gegen die Entartung des Charakters, gegen das Nachlassen des Patriotismus und die Anämie des französischen Ehrgefühls zu donnern.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Redaktion der Vie Française (Paris)",
+      "revealIndex": 1,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 3,
+      "text": "Das Wort Anämie war seine eigene Erfindung, auf die er sehr stolz war.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Redaktion der Vie Française (Paris)",
+      "revealIndex": 2,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 4,
+      "text": "Er wohnte jetzt in der Rue Constantinople, wohin er seine ganze Einrichtung, die aus einem Koffer, einer Bürste, dem Rasierzeug und der Seife bestand, transportiert hatte.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Rue de Constantinople, Paris",
+      "revealIndex": 3,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 5,
+      "text": "Zwei- oder dreimal in der Woche besuchte ihn dort die junge Frau schon früh am Morgen, bevor er aufgestanden war, zog sich in einer Minute aus und glitt in sein Bett, zitternd vor der draußen herrschenden Kälte.",
+      "tags": [
+        "time",
+        "weather",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Rue de Constantinople, Paris",
+      "revealIndex": 4,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 6,
+      "text": "Duroy dagegen aß jeden Donnerstag abend bei ihr und machte dem Mann den Hof, indem er mit ihm über Landwirtschaft sprach.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_hell",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Wohnung der Marelles (Paris)",
+      "revealIndex": 5,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 7,
+      "text": "Und da er selbst auch wirklich das Leben auf dem Lande liebte, so vertieften sie sich häufig so sehr in ihre Unterhaltung, daß sie gar nicht mehr auf ihre gemeinsame Frau achteten, die auf dem Sofa schlummerte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "imaginiertes Landleben",
+      "revealIndex": 6,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 8,
+      "text": "Der Februar ging zu Ende.",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Paris (allgemein)",
+      "revealIndex": 7,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 9,
+      "text": "Auf den Straßen duftete es bereits wieder nach Veilchen, wenn man morgens an den Karren der Blumenhändlerinnen vorbeikam.",
+      "tags": [
+        "smell",
+        "move",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Strassen von Paris (allgemein)",
+      "revealIndex": 8,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 10,
+      "text": "Duroy lebte wie im wolkenlosen Himmel.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Paris (allgemein)",
+      "revealIndex": 9,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 11,
+      "text": "Aber eines Abends, als er nach Hause kam, fand er einen Brief mit dem Poststempel »Cannes« vor.",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Duroys Wohnung (Paris, Nähe Rue Notre-Dame de Lorette)",
+      "revealIndex": 10,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 12,
+      "text": "Ein eigenartiges Gefühl drang wie ein Lufthauch in Georges Herz. Es war ihm, als würde er frei, als täte sich die Welt weit vor ihm auf, und er murmelte: »Gewiß, ich gehe hin.",
+      "tags": [
+        "mood",
+        "space"
+      ],
+      "valenz": 1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Duroys Wohnung (Paris)",
+      "revealIndex": 11,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 13,
+      "text": "er murmelte: »Gewiß, ich gehe hin. Der arme Charles! Jeder von uns kommt mal an die Reihe.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Rue Constantinople 127",
+      "ort": "Duroys Wohnung (Paris)",
+      "revealIndex": 12,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 14,
+      "text": "Georges Duroy gab dem Ehepaar Marelle durch ein Telegramm von seiner plötzlichen Abreise Kenntnis und fuhr am nächsten Abend um sieben Uhr mit dem Schnellzug nach Cannes.",
+      "tags": [
+        "move",
+        "time",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Bahnhof Paris (Gare de Lyon, Abfahrt nach Cannes)",
+      "ort": "Bahnhof Paris (Gare de Lyon, Abfahrt nach Cannes)",
+      "revealIndex": 13,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 15,
+      "text": "Tags darauf um vier Uhr traf er dort ein.",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Bahnhof Paris (Gare de Lyon, Abfahrt nach Cannes)",
+      "ort": "Cannes",
+      "revealIndex": 14,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 16,
+      "text": "Ein Dienstmann führte ihn zur Villa Jolie.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Villa Jolie, Cannes",
+      "revealIndex": 15,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 17,
+      "text": "Sie lag auf halber Höhe in den von weißen Villen belebten Fichtenwäldern, die sich von Le Cannet bis zum Golf Juan hinziehen.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Hänge zwischen Le Cannet und Golf Juan, Cannes",
+      "revealIndex": 16,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 18,
+      "text": "Das Haus war klein und niedrig, im italienischen Stil erbaut.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Villa Jolie, Cannes",
+      "revealIndex": 17,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 19,
+      "text": "Es lag dicht an der Straße, die im Zickzack zwischen den Bäumen hinaufführte, und bei jeder Biegung öffnete sich die wundervollste Aussicht.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Villa bei Cannes (nicht genau lokalisiert)",
+      "revealIndex": 18,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 20,
+      "text": "Der Salon, in den der junge Mann geführt wurde, hatte einen hellrosa persischen Stoffbezug mit blauen Verzierungen.",
+      "tags": [
+        "location",
+        "space",
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Salon der Villa bei Cannes",
+      "revealIndex": 19,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 21,
+      "text": "Durch das breite, hohe Fenster sah man auf die Stadt und das Meer hinaus.",
+      "tags": [
+        "space",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Villa bei Cannes, Blick auf Stadt und Meer",
+      "revealIndex": 20,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 22,
+      "text": "Duroy murmelte: »Donnerwetter! Ein herrliches Landhaus ist das hier. Wo, zum Teufel, nehmen sie das viele Geld her?«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Villa bei Cannes",
+      "revealIndex": 21,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 23,
+      "text": "Er hörte das Rauschen des Kleides und drehte sich um.",
+      "tags": [
+        "george_duroy",
+        "sound"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Salon der Villa bei Cannes",
+      "revealIndex": 22,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 24,
+      "text": "Er folgte ihr, sie öffnete eine Tür im ersten Stock und Duroy sah im hellen, roten Schein der untergehenden.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer im ersten Stock der Villa bei Cannes",
+      "revealIndex": 23,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 25,
+      "text": "Er konnte ihn nicht erkennen, er erriet nur, daß es sein Freund sein müßte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer im ersten Stock der Villa bei Cannes",
+      "revealIndex": 24,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 26,
+      "text": "Das Zimmer roch nach Fieber und nach Arzneimitteln, Äther und Teer, dem ganzen, undefinierbaren, dumpfen Geruch einer Stube, wo ein Lungenkranker atmet.",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Krankenzimmer Forestier",
+      "revealIndex": 25,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 27,
+      "text": "Duroy zwang sich zu einem Lächeln.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Krankenzimmer Forestier",
+      "revealIndex": 26,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 28,
+      "text": "Der andere murmelte: »Setz dich.« Und er ließ den Kopf sinken, als wäre er von verzweifelten Gedanken niedergedrückt.",
+      "tags": [
+        "atmosphere",
+        "sound"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Krankenzimmer Forestier",
+      "revealIndex": 27,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 29,
+      "text": "Der von Villen verdeckte Bergabhang senkte sich vor ihnen bis zur Stadt hinunter, die im Halbkreis die Bucht umgab, rechts vom Hafen mit der Altstadt, über der ein alter Wartturm thronte, bis links zur Landspitze de la Croisette gegenüber den Inseln von Lerins;",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Bucht mit Altstadt, Hafen, la Croisette und Îles de Lérins",
+      "revealIndex": 28,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 30,
+      "text": "diese Inseln waren wie zwei grüne Flecke, die auf dem tiefblauen Wasser schwammen, und von oben gesehen, schienen sie flach zu sein wie zwei riesige Blätter.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Îles de Lérins, Cannes",
+      "revealIndex": 29,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 31,
+      "text": "Und ganz in der Ferne, jenseits der Bucht und des alten Turmes, zeichnete sich auf dem flammend roten Himmel eine lange Reihe bläulicher Berge ab, bald mit runden Gipfeln, bald mit Spitzen, Zähnen und Zacken, die in einen hohen, pyramidenförmigen Berg ausliefen, der mit seinem Fuß mitten in das Meer tauchte.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Massif de l'Esterel, Côte d'Azur",
+      "revealIndex": 30,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 32,
+      "text": "Hinter den dunklen Gipfeln flammte goldenrot der Himmel. Der Glanz war so feurig, daß das Auge es kaum ertragen konnte.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Massif de l'Esterel, Côte d'Azur",
+      "revealIndex": 31,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 33,
+      "text": "Duroy empfand unwillkürlich die Pracht dieses Sonnenunterganges.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Blick auf Esterel vom Krankenzimmer",
+      "revealIndex": 32,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 34,
+      "text": "Da er keinen bildlichen Ausdruck für seine Bewunderung fand, murmelte er: »O ja, es ist fabelhaft!«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes / Küste (nicht spezifiziert)",
+      "revealIndex": 33,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 35,
+      "text": "Er machte mit der Hand eine zitternde, schwache Bewegung, die ein Faustschlag auf die Lehne des Sessels sein sollte.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Cannes / Küste (nicht spezifiziert)",
+      "revealIndex": 34,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 36,
+      "text": "Sie öffnete ganz, weit das Fenster. Der Windzug, der plötzlich hineindrang, umfing sie alle drei wie eine Liebkosung; es war ein milder, weicher, warmer Lufthauch, ein berauschender Hauch des Frühlings, erfüllt von dem Duft der Bäume und Blüten, die dort an der Küste gedeihen.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "smell"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Küste bei Cannes (nicht spezifiziert)",
+      "revealIndex": 35,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 37,
+      "text": "Besonders stark und intensiv machte sich der Harzgeruch und der Duft des Eukalyptus geltend.",
+      "tags": [
+        "smell",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Küste bei Cannes (nicht spezifiziert)",
+      "revealIndex": 36,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 38,
+      "text": "Duroy fühlte sich unbehaglich. Er hätte dem Kranken ein paar tröstende Worte gesagt, um ihn zu beruhigen, aber ihm fiel nichts Passendes ein und er sagte nur: »Es geht dir also nicht besser, seitdem du hier bist?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer bei Cannes (nicht spezifiziert)",
+      "revealIndex": 37,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 39,
+      "text": "»Es ist hier übrigens im Vergleich zu Paris einfach wunderbar. Da ist man noch mitten im Winter.«",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "weather"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 38,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 40,
+      "text": "Es schneit, hagelt, regnet, und es ist so dunkel, daß man um drei Uhr schon die Lampen anzünden muß.« »Gibt es was Neues auf der Zeitung?«",
+      "tags": [
+        "weather",
+        "time",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes (Südfrankreich, Aufenthaltsort Forestiers)",
+      "revealIndex": 39,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 41,
+      "text": "Es folgte nun ein langes, tiefes und schmerzliches Schweigen.",
+      "tags": [
+        "atmosphere",
+        "sound"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Forestiers in Cannes",
+      "revealIndex": 40,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 42,
+      "text": "Die feuerrote Glut des Sonnenunterganges erlosch nach und nach, und die Berge am Horizont wurden allmählich schwarz unter dem rötlichen Himmel, der immer dunkler wurde.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Blick auf Berge und Horizont",
+      "revealIndex": 41,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 43,
+      "text": "Farbige Schatten, der Beginn der Nacht, über die noch die letzten Lichter des Sonnenscheines zuckten, drangen in das Zimmer und schienen die Wände, Bezüge, Möbel und alle Winkel mit einer aus Tinte und Purpur gemischten Farbe zu überziehen.",
+      "tags": [
+        "atmosphere",
+        "space",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Forestiers in Cannes",
+      "revealIndex": 42,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 44,
+      "text": "Der Spiegel über dem Kamin, der den Horizont zurückstrahlte, glich einer blutigen Scheibe.",
+      "tags": [
+        "atmosphere",
+        "material",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Forestiers in Cannes",
+      "revealIndex": 43,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 45,
+      "text": "Er machte mit den Fingern beider Hände leichte, nervöse Bewegungen, als ob er auf den Armlehnen seines Sessels Klavier spielte.",
+      "tags": [
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 44,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 46,
+      "text": "Und jedes Schweigen, das seinen Worten folgte, war noch furchtbarer; man spürte deutlich, daß er währenddessen an die entsetzlichsten Dinge dachte.",
+      "tags": [
+        "atmosphere",
+        "sound"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 45,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 47,
+      "text": "Duroy mußte plötzlich daran denken, was ihm Norbert de Varenne vor wenigen Wochen gesagt hatte",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 46,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 48,
+      "text": "Damals hatte er ihn nicht verstanden, jetzt, wo er Forestier sah, verstand er alles. Und eine ihm noch unbekannte, qualvolle Angst erfaßte ihn, als sähe er dort vor sich auf dem Lehnstuhl, wo der keuchende Mann saß, die abscheuliche Gestalt des Todes.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 47,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 49,
+      "text": "Er hatte Lust, aufzustehen, fortzulaufen, um sich zu retten und schleunigst nach Paris zurückzukehren.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 48,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 50,
+      "text": "Oh, wenn er das geahnt hätte, er wäre nicht gekommen!",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 49,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 51,
+      "text": "Die Nacht erfüllte nun das ganze Zimmer, wie eine vorzeitige Trauer für den Todgeweihten.",
+      "tags": [
+        "atmosphere",
+        "weather",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 50,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 52,
+      "text": "Nur das Fenster blieb noch sichtbar und zeichnete in seinem etwas helleren Viereck den unbeweglichen Schattenumriß der jungen Frau.",
+      "tags": [
+        "space",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 51,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 53,
+      "text": "Der Schatten des Körpers verschwand vom Fenster und der laute Ton einer elektrischen Klingel klang durch das Haus.",
+      "tags": [
+        "sound",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 52,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 54,
+      "text": "Alsbald erschien der Diener und stellte eine Lampe auf den Kamin.",
+      "tags": [
+        "social",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 53,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 55,
+      "text": "Sie mußten fast eine ganze Stunde bis zum Beginn des Essens warten und blieben alle drei unbeweglich sitzen.",
+      "tags": [
+        "time",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Villa Forestier",
+      "revealIndex": 54,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 56,
+      "text": "Sie sprachen nur hin und wieder irgendein gleichgültiges, banales Wort, als brächte es eine schauderhafte Gefahr, wenn das Schweigen zu lange dauerte, damit nicht die stumme Luft, in der der Tod schon lauerte, erstarrte.",
+      "tags": [
+        "atmosphere",
+        "sound"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Haus Forestier, Cannes (Innenraum)",
+      "revealIndex": 55,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 57,
+      "text": "Das Essen kam Duroy entsetzlich lang vor.",
+      "tags": [
+        "time",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Speisezimmer, Haus Forestier, Cannes",
+      "revealIndex": 56,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 58,
+      "text": "Sie sprachen kein Wort, aßen lautlos und zerkrümelten während der Pausen das Brot.",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Speisezimmer, Haus Forestier, Cannes",
+      "revealIndex": 57,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 59,
+      "text": "Nur das Ticktack der hölzernen Wanduhr unterbrach mit regelmäßigem, mechanischem Ton die schweigende Ruhe.",
+      "tags": [
+        "sound",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Speisezimmer, Haus Forestier, Cannes",
+      "revealIndex": 58,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 60,
+      "text": "Sobald das Essen zu Ende war, begab sich Duroy, unter dem Vorwand, müde zu sein, in sein Zimmer",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Haus Forestier, Cannes (Zimmer Duroy)",
+      "revealIndex": 59,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 61,
+      "text": "schaute, gelehnt an das Fensterbrett, den Vollmond an, der wie ein riesiger Lampion mitten am Himmel stand, seinen hellen Schein auf die weißen Wände der Häuser warf und sein sanftes Licht wie Silberflitter über das Meer streute.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere",
+        "weather"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Duroy, Haus Forestier, Cannes — Blick aufs Meer",
+      "revealIndex": 60,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 62,
+      "text": "Duroy suchte nach einem Ausweg, der ihm eine möglichst schnelle Abreise gestattete. Er erfand Listen; er dachte an ein Telegramm, das er sich schicken lassen wollte, eine Rückberufung durch Herrn Walter.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Duroy, Haus Forestier, Cannes",
+      "revealIndex": 61,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 63,
+      "text": "Als er am nächsten Morgen erwachte, schienen ihm alle seine Fluchtpläne sehr schwer zu verwirklichen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Duroy, Haus Forestier, Cannes",
+      "revealIndex": 62,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 64,
+      "text": "Er sagte sich: »Ja, es ist halt langweilig; aber das läßt sich nicht ändern, es gibt nun einmal im Leben unangenehme Zeiten.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Duroy, Haus Forestier, Cannes",
+      "revealIndex": 63,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 65,
+      "text": "Der Himmel war blau, von jenem tiefen, südlichen Blau, das das Herz bei seinem Anblick mit Freude erfüllt.",
+      "tags": [
+        "george_duroy",
+        "weather",
+        "atmosphere",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Aussenraum",
+      "revealIndex": 64,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 66,
+      "text": "Duroy ging zum Meer hinunter, in der Meinung, daß es früh genug wäre, mit Forestier am Tage zusammen zu sein.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Meeresküste bei Cannes",
+      "revealIndex": 65,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 67,
+      "text": "Als er zum Frühstück zurückkam, sagte der Diener: »Herr Forestier hat schon zwei-, dreimal nach dem gnädigen Herrn gefragt.",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unterkunft in Cannes (nicht näher spezifiziert)",
+      "revealIndex": 66,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 68,
+      "text": "Er ging hinauf.",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unterkunft in Cannes (nicht näher spezifiziert)",
+      "revealIndex": 67,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 69,
+      "text": "Forestier schien in einem Sessel zu schlafen. Seine Frau lag ausgestreckt auf dem Sofa und las.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer Forestiers, Unterkunft in Cannes",
+      "revealIndex": 68,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 70,
+      "text": "Als der Landauer vorgefahren war, stieg Forestier Schritt für Schritt die Treppe hinunter, gestützt von seinem Diener.",
+      "tags": [
+        "move",
+        "koerper_als_akteur",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unterkunft in Cannes (nicht näher spezifiziert)",
+      "revealIndex": 69,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 71,
+      "text": "Sie fuhren zuerst auf den schattigen Wegen, die sich immer zwischen zwei Gärten durchziehen und die Cannes wie eine Art englischen Park erscheinen ließen.",
+      "tags": [
+        "move",
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, schattige Wege zwischen Gärten",
+      "revealIndex": 70,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 72,
+      "text": "Dann ging es auf der Straße von Antibes am Meer entlang.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Straße von Antibes, Küstenstraße bei Cannes",
+      "revealIndex": 71,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 73,
+      "text": "Forestier erklärte dem Freunde die Gegend, er zeigte die Villa des Grafen von Paris, dann, nannte er noch verschiedene andere.",
+      "tags": [
+        "location",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 72,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 74,
+      "text": "Er war lustig, aber seine Fröhlichkeit war erzwungen und gemacht wie die eines zum Tode Verurteilten.",
+      "tags": [
+        "atmosphere",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Küstenstraße bei Cannes/Antibes",
+      "revealIndex": 73,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 75,
+      "text": "dort drüben ist die Insel Sainte-Marguerite, und das ist das Schloß, aus dem Bazaine entflohen ist",
+      "tags": [
+        "location",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Île Sainte-Marguerite, Cannes",
+      "revealIndex": 74,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 76,
+      "text": "Dann fielen ihm Erinnerungen aus seiner Militärzeit ein, er nannte die Namen mehrerer Offiziere, von denen ihm noch kleine Anekdoten erinnerlich waren.",
+      "tags": [
+        "location_erinnerung",
+        "george_duroy"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Militärzeit Duroys (unspezifisch)",
+      "revealIndex": 75,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 77,
+      "text": "plötzlich bei einer Straßenbiegung tat sich der ganze Golf Juan auf mit seinem weißen Dörfchen im Hintergründe und der Landenge von Antibes am anderen Ende.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Golf Juan / Golfe-Juan",
+      "revealIndex": 76,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 78,
+      "text": "mitten in der weiten Bucht ein halbes Dutzend großer Schiffe; sie glichen Felsen, die mit Ästen bedeckt waren..",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Golf Juan, Kriegsgeschwader",
+      "revealIndex": 77,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 79,
+      "text": "Sie waren von riesiger, ungeheuerlicher Gestalt mit Auswüchsen, Türmen und Schnäbeln, die sich ins Wasser senkten, als wollten sie sich in den Meeresgrund einbohren.",
+      "tags": [
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Golf Juan, Kriegsgeschwader",
+      "revealIndex": 78,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 80,
+      "text": "Ein großer Dreimaster fuhr mit vollen Segeln, die schneeweiß und heiter leuchteten, an den Kriegsschiffen vorüber, in die hohe See hinaus.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Golf Juan",
+      "revealIndex": 79,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 81,
+      "text": "Sie gelangten zu einer großen Ausstellungshalle, auf der die Inschrift stand: »Kunstfayencen vom Golf Juan«.",
+      "tags": [
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Ausstellungshalle Kunstfayencen, Golf Juan",
+      "revealIndex": 80,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 82,
+      "text": "Der Wagen fuhr um einen Rasenplatz herum und hielt dann vor der Tür.",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Ausstellungshalle Kunstfayencen, Golf Juan",
+      "revealIndex": 81,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 83,
+      "text": "Er wählte lange und fragte bald seine Frau, bald Duroy um Rat.",
+      "tags": [
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes (Küstenort, Südfrankreich)",
+      "revealIndex": 82,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 84,
+      "text": "Sie fuhren längs der Meeresküste nach Hause.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Meeresküste (Côte d'Azur, Cannes-Umgebung)",
+      "revealIndex": 83,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 85,
+      "text": "Plötzlich traf sie ein kalter Luftzug, der aus irgendeinem Seitental kam",
+      "tags": [
+        "weather",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Küstenstraße bei Cannes",
+      "revealIndex": 84,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 86,
+      "text": "und der Kranke begann zu husten. Anfangs war es nur ein kleiner Anfall, aber er wurde stärker, das Husten wurde heftiger und hörte gar nicht mehr auf.",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Küstenstraße bei Cannes",
+      "revealIndex": 85,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 87,
+      "text": "Forestier war am Ersticken, und jedesmal, wenn er aufatmen wollte, zerriß ihm der Husten, der aus seiner Brust herauskam, die Kehle.",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Küstenstraße bei Cannes",
+      "revealIndex": 86,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 88,
+      "text": "und der Kranke mußte aus dem Wagen in sein Zimmer hinaufgetragen werden.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unterkunft in Cannes (Zimmer)",
+      "revealIndex": 87,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 89,
+      "text": "Duroy hielt seine Beine und fühlte bei jedem krampf der Lungen das Zucken seiner Füße.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unterkunft in Cannes",
+      "revealIndex": 88,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "f_wert": "koerper_als_sensor"
+    },
+    {
+      "id": 90,
+      "text": "Auch das warme Bett brachte keine Linderung und der Anfall dauerte bis Mitternacht an.",
+      "tags": [
+        "time",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer in Cannes",
+      "revealIndex": 89,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 91,
+      "text": "Endlich gelang es durch Betäubungsmittel den tödlichen Hustenkrampf einigermaßen zu beruhigen. Und der Kranke blieb bis zum Morgen mit offenen Augen im Bett sitzen.",
+      "tags": [
+        "time",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer in Cannes",
+      "revealIndex": 90,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 92,
+      "text": "Er stand zu diesem Zwecke auf, mußte aber sofort wieder ins Bett gelegt werden, und er begann so kurz und rauh und mühsam zu atmen, daß Frau Forestier in ihrer Angst Duroy, der sich zu Bett gelegt hatte, sofort wecken ließ und ihn bat, einen Arzt zu holen.",
+      "tags": [
+        "george_duroy",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Zimmer in Cannes",
+      "revealIndex": 91,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 93,
+      "text": "Er erschien kurze Zeit darauf mit dem Doktor Gavaut, der eine Arzenei verschrieb und ein paar Ratschläge erteilte.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes (Unterkunft und Umgebung)",
+      "revealIndex": 92,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 94,
+      "text": "Als ihn Duroy hinausbegleitete und ihn nach seiner Meinung fragte",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 93,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 95,
+      "text": "Duroy ließ Frau Forestier rufen. »Er wird sterben. Der Doktor rät, nach einem Priester zu schicken. Was wollen Sie tun?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Wohnung Forestier",
+      "revealIndex": 94,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 96,
+      "text": "Der junge Mann brachte einen liebenswürdigen, alten Geistlichen mit, der sich den Umständen anzupassen wußte.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Wohnung Forestier",
+      "revealIndex": 95,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 97,
+      "text": "Frau Forestier ging hinaus und setzte sich mit Duroy in das Zimmer nebenan.",
+      "tags": [
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Nebenzimmer in der Wohnung Forestier",
+      "revealIndex": 96,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 98,
+      "text": "Sie hörte die Stimme des Priesters; er sprach etwas laut, denn er war schwerhörig.",
+      "tags": [
+        "sound"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Nebenzimmer in der Wohnung Forestier",
+      "revealIndex": 97,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 99,
+      "text": "Was Forestier antwortete, konnten sie nicht hören.",
+      "tags": [
+        "sound",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Nebenzimmer in der Wohnung Forestier",
+      "revealIndex": 98,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 100,
+      "text": "Es folgte ein langes Schweigen.",
+      "tags": [
+        "atmosphere",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes (Haus Forestier)",
+      "revealIndex": 99,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 101,
+      "text": "Die junge Frau und Duroy rührten sich nicht mehr. Sie fühlten sich seltsam verwirrt und von einer ängstlichen Spannung ergriffen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes (Haus Forestier)",
+      "revealIndex": 100,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 102,
+      "text": "Sie gingen und setzten sich auf eine Bank vor der Tür, unter einem blühenden Rosenstrauch, hinter einem Nelkenbeet, das seinen starken, süßen Duft ausströmte.",
+      "tags": [
+        "location",
+        "space",
+        "smell"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Garten des Hauses Forestier in Cannes",
+      "revealIndex": 101,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 103,
+      "text": "Nach einer minutenlangen Pause fragte Duroy: »Wird es lange dauern, bis Sie nach Paris zurückkehren?« »O nein,« antwortete sie, »sobald hier alles zu Ende ist, fahre ich zurück.«",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 102,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 104,
+      "text": "Sie schauten beide einem Schmetterling zu, der auf den Nelken seine Nahrung suchte; er flog von einer Blüte zur andern und flatterte hastig mit den Flügeln, die sich jedoch langsam bewegten, wenn er auf einer Blume saß.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 103,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 105,
+      "text": "Sie saßen und schwiegen eine lange Zeit.",
+      "tags": [
+        "time",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 104,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 106,
+      "text": "Sie gingen zusammen hinauf.",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 105,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 107,
+      "text": "Forestier schien seit gestern noch magerer geworden zu sein.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 106,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 108,
+      "text": "Er weinte. Große Tränen rannen aus seinen Augen über die fleischlosen Backen, und die eingefallenen Falten seines Mundes verzogen sich wie die eines betrübten kleinen Kindes.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 107,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 109,
+      "text": "Und nun sanken seine Hände auf das Bett und bewegten sich hier fortwährend langsam und regelmäßig, als ob sie auf der Decke etwas suchten.",
+      "tags": [
+        "material",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 108,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 110,
+      "text": "Forestier atmete so schnell wie ein Hund, der eben gelaufen ist. Die Atemzüge gingen so hastig, daß man sie kaum zählen konnte, und so leise, daß, man sie kaum vernehmen konnte.",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 109,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 111,
+      "text": "Er starrte vor sich hin und sah etwas, was für die andern unsichtbar blieb, etwas Furchtbares, denn in seinen unbeweglichen Augen spiegelte sich das entsetzlichste Grauen wieder.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 110,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 112,
+      "text": "Seine beiden Hände fuhren mit ihrer schrecklichen, ermüdenden Gebärde fort.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 111,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 113,
+      "text": "Plötzlich überfiel ihn ein furchtbarer Krampf, der seinen Körper von Kopf bis zu Fuß erbeben ließ.",
+      "tags": [
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 112,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 114,
+      "text": "Er sprach nichts mehr und blieb unbeweglich, verstört und röchelnd liegen.",
+      "tags": [
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 113,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 115,
+      "text": "Die Zeit verging; die Uhr eines nahegelegenen Klosters schlug zwölf.",
+      "tags": [
+        "time",
+        "sound",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 114,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 116,
+      "text": "Duroy verließ das Zimmer, um etwas zu essen.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 115,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 117,
+      "text": "Nach einer Stunde war er wieder da.",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 116,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 118,
+      "text": "Der Kranke hatte sich nicht gerührt. Er fuhr noch immer mit seinen mageren Fingern über die Bettdecke, als ob er sein Gesicht berühren wollte.",
+      "tags": [
+        "material",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 117,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 119,
+      "text": "Die junge Frau saß in einem Lehnstuhl am Fuße des Bettes. Duroy nahm sich einen anderen und setzte sich neben sie; beide warteten schweigend.",
+      "tags": [
+        "space",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 118,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 120,
+      "text": "Duroy begann auch schläfrig zu werden, als er plötzlich das Gefühl hatte, daß etwas geschehen müßte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 119,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 121,
+      "text": "Er öffnete die Augen gerade noch früh genug, um zu sehen, wie Forestier die seinen wie zwei erlöschende Lichter schloß, ein kurzes Schlucken bewegte die Kehle des Sterbenden, und in den Mundwinkeln wurden zwei Blutfäden sichtbar, die dann langsam auf das Hemd herabtropften.",
+      "tags": [
+        "george_duroy",
+        "atmosphere",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 120,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 122,
+      "text": "Georges machte vor Schreck und Entsetzen mechanisch das Zeichen des Kreuzes.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 121,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 123,
+      "text": "Duroy, der seine Kaltblütigkeit wiedergewonnen hatte, murmelte mit einem Seufzer der Erleichterung: »Das hat nicht solange gedauert, wie ich dachte.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 122,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 124,
+      "text": "Als die erste Bestürzung vorüber war und die ersten Tränen geflossen waren, beschäftigte man sich mit all den Schritten, die bei einem Todesfall erforderlich sind.",
+      "tags": [
+        "time",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 123,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 125,
+      "text": "Als er heimkehrte, war er sehr hungrig.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 124,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "f_wert": "koerper_als_sensor"
+    },
+    {
+      "id": 126,
+      "text": "Dann setzten sie sich beide in das Trauergemach, um an der Leiche zu wachen. Zwei Kerzen brannten auf dem Nachttisch neben einer Schale, in der ein Büschel Mimosen schwamm, denn den üblichen Buchsbaumzweig hatte man nirgends auftreiben können.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "material",
+        "smell"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 125,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 127,
+      "text": "Sie saßen jetzt allein, der junge Mann und die junge Frau neben ihm, der nicht mehr auf dieser Welt war.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 126,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 128,
+      "text": "Georges besonders, den die Finsternis um die Leiche beängstigte, konnte den Blick nicht von ihr wenden.",
+      "tags": [
+        "george_duroy",
+        "atmosphere",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 127,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 129,
+      "text": "Seine Augen und seine Gedanken wurden angezogen und fasziniert von diesem fleischlosen Gesicht, das in dem zitternden Lichtschein der Kerzen noch hohler erschien.",
+      "tags": [
+        "george_duroy",
+        "material",
+        "atmosphere",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 128,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 130,
+      "text": "Das war sein Freund Charles Forestier, der gestern noch mit ihm gesprochen hatte! Wie unbegreiflich und grauenvoll war doch das Ende eines menschlichen Wesens.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 129,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 131,
+      "text": "Oh, jetzt dachte er an die Worte Norbert de Varennes, den die Furcht vor dem Tode so quälte",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 130,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 132,
+      "text": "Ein dumpfes, unendliches Grauen lastete vernichtend auf der Seele Duroys, der Schrecken vor dem grenzenlosen, unvermeidlichen Nichts, das unaufhörlich jedes kurzlebige und schwache Lebewesen zerstört.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 131,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 133,
+      "text": "Und er beugte schon die Stirn vor dieser entsetzlichen dauernden Drohung.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 132,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "f_wert": "koerper_als_sensor"
+    },
+    {
+      "id": 134,
+      "text": "Er dachte an die Fliegen, die ein paar Stunden leben, an die Tiere, die Tage, an die Menschen, die ein paar Jahre, und an die Welten, die ein paar Jahrhunderte leben.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 133,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 135,
+      "text": "Er wandte die Augen ab, um die Leiche nicht mehr sehen zu müssen.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 134,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 136,
+      "text": "Madame Forestier saß mit gesenktem Kopf da und schien ebenfalls in schmerzliche Gedanken versunken zu sein.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 135,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 137,
+      "text": "Ihre blonden Haare über dem traurigen Gesicht sahen so schön und reizvoll aus, daß eine süße Empfindung, eine aufblühende Hoffnung das Herz des jungen Mannes berührte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 136,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 138,
+      "text": "Warum verzweifeln, wenn man noch so viele Jahre vor sich hatte? Er betrachtete sie aufmerksam.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 137,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 139,
+      "text": "Er sagte sich: »Das einzig Gute und Schöne im Leben ist: die Liebe! Ein geliebtes Weib in seinen Armen zu halten — das ist das höchste Menschenglück auf dieser Erde.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 138,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 140,
+      "text": "Welches Glück hatte der Tote gehabt, daß er eine so kluge und reizende Kameradin gefunden hatte. Wie mochten sie sich wohl kennengelernt haben?",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 139,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 141,
+      "text": "Er erinnerte sich an alle Gerüchte über den Grafen de Vaudrec, der sie angeblich ausgestattet und verheiratet hatte.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 140,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 142,
+      "text": "Was würde sie nun anfangen? Wen würde sie heiraten? Einen Abgeordneten, wie Madame de Marelle meinte, oder einen jungen Mann mit Zukunft, einen neuen verbesserten Forestier?",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 141,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 143,
+      "text": "Er dachte darüber nach und es wurde ihm klar, daß seine Beunruhigung aus jenen dunklen, verborgenen Gedanken kam, die man vor sich selbst geheimhält und dann entdeckt, wenn man tief ins Innerste seiner Seele eindringt.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 142,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 144,
+      "text": "warum sollte er nicht versuchen, sie zu erobern? Wie stark und unüberwindlich würde er an ihrer Seite sein?",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 143,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 145,
+      "text": "Er wußte ganz genau, daß er ihr gefiel, daß sie mehr für ihn empfand als bloß Sympathie, daß sie eine Neigung für ihn hegte, wie sie zwischen zwei gleichgearteten Naturen entsteht und ebensosehr auf einem gegenseitigen Gefallen wie auf einem geheimen Einvernehmen beruht.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 144,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 146,
+      "text": "Eine ungeduldige Neugier quälte ihn, er wollte sie befragen, ihre Absichten kennenlernen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 145,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 147,
+      "text": "Übermorgen würde er abreisen, denn er konnte nicht allein in einem Hause mit dieser Frau wohnen. Er mußte sich beeilen, er mußte noch vor seiner Rückkehr nach Paris ihre Absichten geschickt und feinfühlig ergründen, er durfte sie nicht zurückkehren lassen, damit sie nicht auf Drängen eines anderen nachgäbe und sich endgültig binde.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 146,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 148,
+      "text": "Tiefes Schweigen herrschte im Zimmer. Man hörte nur das metallische, regelmäßige Ticken der Uhr, die auf dem Kamin stand.",
+      "tags": [
+        "space",
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 147,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 149,
+      "text": "Der Ton ihrer Stimme klang so seltsam in diesem düsteren Raum, daß sie beide erstaunt waren.",
+      "tags": [
+        "sound",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 148,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 150,
+      "text": "Und sie blickten plötzlich das Antlitz des Toten an, als hätten sie erwartet, daß er sich bewegte, sie anredete, wie er es noch vor wenigen Stunden tat.",
+      "tags": [
+        "atmosphere",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 149,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 151,
+      "text": "Er hatte ihre Hand ergriffen und behielt sie in der seinen. Er preßte sie mit dem heißen Verlangen, sie zu küssen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 150,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 152,
+      "text": "Endlich entschloß er sich dazu, näherte sie langsam seinem Munde und drückte die zarte, etwas heiße, parfümierte und fieberische Hand an seine Lippen.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "material",
+        "smell"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 151,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "f_wert": "koerper_als_sensor"
+    },
+    {
+      "id": 153,
+      "text": "Als er dann fühlte, daß dieser zärtliche Freundschaftskuß etwas zu lange dauerte, ließ er die kleine Hand wieder fallen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 152,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 154,
+      "text": "Er wußte nicht recht, wie er es ihr begreiflich machen sollte, daß er sehr glücklich sein würde, wenn sie seine Frau werden wollte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 153,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 155,
+      "text": "Gewiß konnte er es ihr zu dieser Stunde angesichts dieses Toten nicht sagen, doch er hoffte, eine jener vielsagenden, doppelsinnigen, anständigen Redensarten zu finden, die alles durchblicken lassen, ohne etwas direkt auszusprechen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": 0,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 154,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 156,
+      "text": "Doch die Leiche genierte ihn, die starre, kalte Leiche, die vor ihm lag, und die sie zwischen sich fühlten.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere",
+        "material"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 155,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 157,
+      "text": "Übrigens glaubte er seit einiger Zeit zu bemerken, daß die Luft des geschlossenen Zimmers einen verdächtigen Geruch annahm, der aus jener stillen, zusammengesunkenen Brust zu kommen schien, der erste Hauch der Verwesung, den die Toten auf die Überlebenden ausströmen, der schreckliche Duft, mit dem sie dann bald den engen Raum ihres Sarges erfüllen.",
+      "tags": [
+        "george_duroy",
+        "smell",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 156,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 158,
+      "text": "Er ging zum Fenster und öffnete es.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 157,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 159,
+      "text": "Ein Hauch der frischen, duftigen Nacht wehte herein und ließ die beiden Kerzen neben dem Bett flackern.",
+      "tags": [
+        "smell",
+        "weather",
+        "atmosphere",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 158,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 160,
+      "text": "Draußen breitete wie am Tage vorher der Mond sein ruhig flutendes Licht auf die weißen Mauern der Villen und die breite, leuchtende Fläche des Meeres.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "weather",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 159,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 161,
+      "text": "Duroy atmete tief; er fühlte sich jetzt von neuen Hoffnungen erfüllt und belebt vom Herannahen des Glücks.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 160,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 162,
+      "text": "»Kommen Sie doch etwas frische Luft schöpfen,« sagte er, »es ist herrlich draußen.«",
+      "tags": [
+        "george_duroy",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 161,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    },
+    {
+      "id": 163,
+      "text": "Sehen Sie ... ich bin ein armer Teufel, ich besitze kein Vermögen, und meine Stellung muß ich mir noch erkämpfen, das wissen Sie.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 162,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 164,
+      "text": "übermorgen schon muß ich Sie verlassen, und wenn Sie nach Paris zurückkommen, wird es vielleicht zu spät sein.",
+      "tags": [
+        "george_duroy",
+        "time",
+        "location"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Unbestimmt (Kapitel 08)",
+      "revealIndex": 163,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 165,
+      "text": "Er hatte gesprochen, ohne sie anzublicken, als streue er seine Worte in die Nacht hinaus.",
+      "tags": [
+        "george_duroy",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 164,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 166,
+      "text": "Und sie schien ihn nicht gehört zu haben, so unbeweglich war sie geblieben, und sie starrte mit ruhigem Blick in die weite Mondlandschaft hinaus.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 165,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 167,
+      "text": "So blieben sie lange nebeneinander, Schulter an Schulter, schweigsam und nachdenklich stehen.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "valenz": 0,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 166,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 168,
+      "text": "Wie er näher herantrat, merkte er, daß der Körper Forestiers tatsächlich Leichengeruch ausströmte.",
+      "tags": [
+        "george_duroy",
+        "smell",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 167,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 169,
+      "text": "Er rückte seinen Sessel weiter ab, denn lange hätte er diesen Geruch nicht ertragen können.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "smell",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 168,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "f_wert": "koerper_als_sensor"
+    },
+    {
+      "id": 170,
+      "text": "Sie blickten jetzt nicht so oft zu ihm hinüber, sie hatten sich an die Tatsache gewöhnt, daß er nun tot sei, und begannen, sich in Gedanken schon mit seinem Verschwinden abzufinden, mit dem, was sie eben noch so schmerzlich ergriffen und entsetzt hatte, weil sie auch nur sterbliche Menschen waren.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "valenz": 0,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 169,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 171,
+      "text": "Sie sprachen jetzt nicht mehr und fuhren fort, auf anständige Weise an der Leiche zu wachen, und versuchten, nicht einzuschlafen.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 170,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 172,
+      "text": "Aber gegen Mitternacht schlief Duroy doch ein.",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Sterbezimmer Forestier",
+      "revealIndex": 171,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 173,
+      "text": "Als er aufwachte, sah er, daß Madame Forestier gleichfalls schlummerte.",
+      "tags": [
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Krankenzimmer / Sterbehaus Forestier (Cannes oder Umgebung)",
+      "revealIndex": 172,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 174,
+      "text": "Er setzte sich dann möglichst bequem zurecht, schloß die Augen wieder und brummte: »O Gott, im Bett ist es doch bequemer.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 173,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 175,
+      "text": "Ein plötzliches Geräusch ließ ihn auffahren. Die Wärterin trat ein; es war heller Tag.",
+      "tags": [
+        "sound",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 174,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 176,
+      "text": "Duroy warf einen Blick auf den Toten und rief jetzt zitternd: »Oh! Sein Bart!«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 175,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 177,
+      "text": "Der Bart war allerdings in seinem entstellten Gesicht in wenigen Stunden um so viel gewachsen, wie sonst nicht an mehreren Tagen.",
+      "tags": [
+        "material",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 176,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 178,
+      "text": "Starr und verblüfft standen sie angesichts dieses Lebens nach dem Tode, wie vor einem grauenhaften Wunder, als drohe ihnen hier eine übernatürliche Macht mit der Auferstehung vom Tode, einer naturwidrigen und entsetzlichen Erscheinung, die den Verstand verwirrt und unbegreiflich bleibt.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 177,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 179,
+      "text": "Sie gingen alle beide bis elf zur Ruhe. Dann wurde Charles in den Sarg gelegt und sofort fühlten sie sich erleichtert und beruhigt.",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 178,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 180,
+      "text": "Während sie sich beim Frühstück gegenübersaßen, hatten sie beide Lust, von tröstenden, froheren Dingen zu reden und ins Leben zurückzukehren, denn den Todesfall hatten sie nun hinter sich.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 179,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 181,
+      "text": "Durch die weitgeöffneten Fenster drang die milde, warme Frühlingsluft herein und trug den Duft der Nelken mit sich, die vor der Tür blühten.",
+      "tags": [
+        "weather",
+        "smell",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Sterbehaus Forestier",
+      "revealIndex": 180,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 182,
+      "text": "sie wanderten langsam um die kleinen Rasenplätze herum und atmeten entzückt die milde Luft ein, die nach Tannenbäumen und Eukalyptus duftete.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "smell",
+        "weather",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Garten des Sterbehauses Forestier",
+      "revealIndex": 181,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "f_wert": "koerper_als_sensor"
+    },
+    {
+      "id": 183,
+      "text": "Er küßte ihr lange die Hand und ging, ohne ein Wort zu sagen.",
+      "tags": [
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Wohnort der Forestiers",
+      "revealIndex": 182,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 184,
+      "text": "Abends trafen sie sich nur zur Mahlzeit. Dann gingen sie auf ihre Zimmer, denn sie waren beide ganz zerschlagen vor Müdigkeit.",
+      "tags": [
+        "time",
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_hell",
+      "ortBasis": "Cannes",
+      "ort": "Cannes, Wohnort der Forestiers",
+      "revealIndex": 183,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 185,
+      "text": "Charles Forestier wurde am nächsten Morgen ohne jeden Prunk auf dem Friedhof von Cannes beerdigt.",
+      "tags": [
+        "location",
+        "time",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Friedhof von Cannes",
+      "revealIndex": 184,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 186,
+      "text": "Georges Duroy wollte den Schnellzug nach Paris nehmen, der um halb zwei abfuhr.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof Cannes",
+      "revealIndex": 185,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 187,
+      "text": "Madame Forestier hatte ihn zur Bahn begleitet. In Erwartung des Zuges gingen sie ruhig auf dem Bahnsteig auf und ab und unterhielten sich von gleichgültigen Dingen.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (Cannes oder Nizza, nicht spezifiziert)",
+      "revealIndex": 186,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 188,
+      "text": "Der Zug lief ein. Er war ganz kurz; ein richtiger Schnellzug, der nur fünf Wagen hatte.",
+      "tags": [
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "revealIndex": 187,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 189,
+      "text": "Er wurde plötzlich traurig; er bedauerte schmerzlich, sie verlassen zu müssen, als ob er sie für immer verlieren könnte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "revealIndex": 188,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 190,
+      "text": "Duroy stieg ins Kupee und lehnte sich zur Tür hinaus, um ihr noch ein paar Worte sagen zu können.",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "category": "gold_dunkel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "revealIndex": 189,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 191,
+      "text": "Die Lokomotive pfiff und der Zug setzte sich langsam in Bewegung.",
+      "tags": [
+        "sound",
+        "move"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "revealIndex": 190,
+      "station": null,
+      "perspektive": "erzaehler",
+      "hasFwert": false,
+      "fWertType": null,
+      "f_wert": null
+    },
+    {
+      "id": 192,
+      "text": "Der junge Mann lehnte sich zum Wagenfenster hinaus und sah die junge Frau, die unbeweglich auf dem Bahnsteig stand und ihm nachblickte.",
+      "tags": [
+        "george_duroy",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "revealIndex": 191,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "f_wert": "ort_loest_emotion_aus"
+    },
+    {
+      "id": 193,
+      "text": "Und plötzlich, als er sie fast aus seinen Augen verloren hatte, warf er ihr mit beiden Händen eine Kußhand zu.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "category": "gold_mittel",
+      "ortBasis": "Cannes",
+      "ort": "Bahnhof (nicht spezifiziert)",
+      "revealIndex": 192,
+      "station": null,
+      "perspektive": "figur",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "f_wert": "emotion_faerbt_raum"
+    }
+  ],
+  "halteorte": [],
+  "zwischenPunkte": [],
+  "ortRuns": [
+    {
+      "ort": "Rue Constantinople 127",
+      "revealIndex": 0,
+      "lon": 2.3192132,
+      "lat": 48.8803681,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 3
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 2,
+          "neutral": 0,
+          "unrated": 5
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 3
+        }
+      }
+    },
+    {
+      "ort": "Bahnhof Paris (Gare de Lyon, Abfahrt nach Cannes)",
+      "revealIndex": 13,
+      "lon": 2.373,
+      "lat": 48.8409,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Cannes",
+      "revealIndex": 15,
+      "lon": 2.404355,
+      "lat": 48.8409,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 78
+        },
+        "gold_mittel": {
+          "neg": 41,
+          "pos": 11,
+          "neutral": 5,
+          "unrated": 24
+        },
+        "gold_hell": {
+          "neg": 4,
+          "pos": 2,
+          "neutral": 0,
+          "unrated": 13
+        }
+      }
+    }
+  ],
+  "routenPfadKumulativ": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    246,
+    246,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289,
+    289
+  ]
+}

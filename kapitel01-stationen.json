@@ -1,0 +1,5001 @@
+{
+  "kapitel": 1,
+  "route": [
+    {
+      "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+      "lon": 2.3346,
+      "lat": 48.8796,
+      "revealIndex": 3
+    },
+    {
+      "ort": "Strassen von Paris (Übergang zur Madeleine)",
+      "lon": 2.3434,
+      "lat": 48.8681,
+      "revealIndex": 67
+    },
+    {
+      "ort": "Madeleine-Umgebung / Strassencafés",
+      "lon": 2.3244,
+      "lat": 48.87,
+      "revealIndex": 131
+    },
+    {
+      "ort": "Boulevard Poissonière (dunkle Straßenecke)",
+      "lon": 2.3467,
+      "lat": 48.8722,
+      "revealIndex": 138,
+      "deaktiviert": true
+    },
+    {
+      "ort": "Boulevard des Capucines, Umgebung",
+      "lon": 2.3355,
+      "lat": 48.8717,
+      "revealIndex": 146,
+      "deaktiviert": true
+    },
+    {
+      "ort": "Café Américain, 4 Boulevard des Capucines",
+      "lon": 2.3279435,
+      "lat": 48.8700758,
+      "revealIndex": 153
+    },
+    {
+      "ort": "Place de l'Opéra",
+      "lon": 2.3316,
+      "lat": 48.872,
+      "revealIndex": 165
+    },
+    {
+      "ort": "Boulevard Poissonière (Weg zur Redaktion)",
+      "lon": 2.3467,
+      "lat": 48.8722,
+      "revealIndex": 196
+    },
+    {
+      "ort": "Redaktion La Vie Française (Innenraum)",
+      "lon": 2.3467,
+      "lat": 48.8722,
+      "revealIndex": 227
+    },
+    {
+      "ort": "Café Napolitain, Boulevard des Capucines",
+      "lon": 2.3355,
+      "lat": 48.8717,
+      "revealIndex": 232
+    },
+    {
+      "ort": "Richtung Madeleine, Paris",
+      "lon": 2.3247,
+      "lat": 48.87,
+      "revealIndex": 236,
+      "deaktiviert": true
+    },
+    {
+      "ort": "Rue du Faubourg-Montmartre",
+      "lon": 2.3447,
+      "lat": 48.8738,
+      "revealIndex": 241
+    },
+    {
+      "ort": "Folies Bergère (Vorplatz/Aussenraum)",
+      "lon": 2.3432,
+      "lat": 48.8744,
+      "revealIndex": 264,
+      "routeEndsHere": true
+    },
+    {
+      "ort": "Folies Bergère (Innenraum)",
+      "lon": 2.3432,
+      "lat": 48.8744,
+      "revealIndex": 264
+    }
+  ],
+  "gedanken": [
+    {
+      "ort": "Champs-Élysées / Avenue du Bois de Boulogne",
+      "nachStation": 1
+    },
+    {
+      "ort": "Afrika (Erinnerung, Militärdienst)",
+      "nachStation": 3
+    },
+    {
+      "ort": "Bois de Boulogne, Paris",
+      "nachStation": 10
+    },
+    {
+      "ort": "Parc Monceau, Paris",
+      "nachStation": 10
+    },
+    {
+      "ort": "imaginierter Sommergarten, Paris",
+      "nachStation": 10
+    }
+  ],
+  "markierungen": [
+    {
+      "ort": "Bal Musard, Paris (historisch)",
+      "lon": 2.33874,
+      "lat": 48.87325,
+      "nachStation": 10,
+      "revealIndex": 250
+    },
+    {
+      "ort": "Folies Bergère (Wunsch)",
+      "lon": 2.3432,
+      "lat": 48.8744,
+      "nachStation": 10,
+      "revealIndex": 250,
+      "deaktiviert": true
+    }
+  ],
+  "routenPunkte": [
+    [
+      2.3348999,
+      48.879317
+    ],
+    [
+      2.3347626,
+      48.8793634
+    ],
+    [
+      2.3348804,
+      48.87934
+    ],
+    [
+      2.3348999,
+      48.879317
+    ],
+    [
+      2.3367942,
+      48.8789504
+    ],
+    [
+      2.3368665,
+      48.8788975
+    ],
+    [
+      2.3369249,
+      48.8788246
+    ],
+    [
+      2.3371413,
+      48.8786587
+    ],
+    [
+      2.3373969,
+      48.8784606
+    ],
+    [
+      2.3373916,
+      48.8783343
+    ],
+    [
+      2.3374619,
+      48.8782876
+    ],
+    [
+      2.3375794,
+      48.8782693
+    ],
+    [
+      2.3376105,
+      48.8782751
+    ],
+    [
+      2.3379936,
+      48.8778744
+    ],
+    [
+      2.3381156,
+      48.8779214
+    ],
+    [
+      2.339145,
+      48.8768993
+    ],
+    [
+      2.3392031,
+      48.8768982
+    ],
+    [
+      2.3393127,
+      48.8768695
+    ],
+    [
+      2.3394187,
+      48.876743
+    ],
+    [
+      2.3395736,
+      48.8766993
+    ],
+    [
+      2.3396319,
+      48.8766213
+    ],
+    [
+      2.3396172,
+      48.876608
+    ],
+    [
+      2.3401254,
+      48.8761392
+    ],
+    [
+      2.3402341,
+      48.8761132
+    ],
+    [
+      2.3403434,
+      48.8760321
+    ],
+    [
+      2.3404634,
+      48.8759355
+    ],
+    [
+      2.340564,
+      48.8757807
+    ],
+    [
+      2.3405184,
+      48.875763
+    ],
+    [
+      2.3410052,
+      48.8752017
+    ],
+    [
+      2.3410685,
+      48.875208
+    ],
+    [
+      2.3411912,
+      48.8750854
+    ],
+    [
+      2.341137,
+      48.8750569
+    ],
+    [
+      2.3413405,
+      48.8748612
+    ],
+    [
+      2.3413707,
+      48.8748638
+    ],
+    [
+      2.3414346,
+      48.8747917
+    ],
+    [
+      2.3423065,
+      48.8741752
+    ],
+    [
+      2.3423329,
+      48.8741791
+    ],
+    [
+      2.3424046,
+      48.8741248
+    ],
+    [
+      2.3424466,
+      48.8740819
+    ],
+    [
+      2.3425237,
+      48.8740087
+    ],
+    [
+      2.3425134,
+      48.8739885
+    ],
+    [
+      2.3430856,
+      48.8732062
+    ],
+    [
+      2.3431194,
+      48.8731575
+    ],
+    [
+      2.3431617,
+      48.8730714
+    ],
+    [
+      2.3431302,
+      48.8730459
+    ],
+    [
+      2.343169,
+      48.8729136
+    ],
+    [
+      2.3432294,
+      48.8727182
+    ],
+    [
+      2.3448579,
+      48.8724789
+    ],
+    [
+      2.3448951,
+      48.8724937
+    ],
+    [
+      2.3450312,
+      48.8724641
+    ],
+    [
+      2.3460209,
+      48.8723071
+    ],
+    [
+      2.3462094,
+      48.8722789
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3462094,
+      48.8722789
+    ],
+    [
+      2.3462147,
+      48.8722127
+    ],
+    [
+      2.3461691,
+      48.8721982
+    ],
+    [
+      2.3460082,
+      48.8722114
+    ],
+    [
+      2.3456624,
+      48.8711873
+    ],
+    [
+      2.3454775,
+      48.8712213
+    ],
+    [
+      2.3437009,
+      48.871508
+    ],
+    [
+      2.3432636,
+      48.8715758
+    ],
+    [
+      2.3431939,
+      48.8716002
+    ],
+    [
+      2.3429897,
+      48.8716375
+    ],
+    [
+      2.3429308,
+      48.8716429
+    ],
+    [
+      2.342664,
+      48.871685
+    ],
+    [
+      2.3419053,
+      48.8717956
+    ],
+    [
+      2.3402555,
+      48.8720522
+    ],
+    [
+      2.3401728,
+      48.8721058
+    ],
+    [
+      2.3400073,
+      48.8721295
+    ],
+    [
+      2.3399294,
+      48.8721349
+    ],
+    [
+      2.3399177,
+      48.872104
+    ],
+    [
+      2.339515,
+      48.8721683
+    ],
+    [
+      2.3394788,
+      48.8720522
+    ],
+    [
+      2.3394569,
+      48.8719822
+    ],
+    [
+      2.339264,
+      48.8719829
+    ],
+    [
+      2.3389732,
+      48.871984
+    ],
+    [
+      2.3389729,
+      48.8719336
+    ],
+    [
+      2.3386941,
+      48.8718878
+    ],
+    [
+      2.3383603,
+      48.8718295
+    ],
+    [
+      2.338203,
+      48.871802
+    ],
+    [
+      2.3380261,
+      48.871771
+    ],
+    [
+      2.3379862,
+      48.8717641
+    ],
+    [
+      2.3375075,
+      48.8716804
+    ],
+    [
+      2.3372731,
+      48.8716255
+    ],
+    [
+      2.3372463,
+      48.8716216
+    ],
+    [
+      2.3371068,
+      48.8716006
+    ],
+    [
+      2.3368586,
+      48.8715632
+    ],
+    [
+      2.3366971,
+      48.871521
+    ],
+    [
+      2.3366593,
+      48.8715153
+    ],
+    [
+      2.3360054,
+      48.8714028
+    ],
+    [
+      2.3358936,
+      48.8713952
+    ],
+    [
+      2.3349102,
+      48.8712119
+    ],
+    [
+      2.3348238,
+      48.8711976
+    ],
+    [
+      2.334707,
+      48.871178
+    ],
+    [
+      2.3341992,
+      48.8710926
+    ],
+    [
+      2.3340134,
+      48.8710614
+    ],
+    [
+      2.3339537,
+      48.8710513
+    ],
+    [
+      2.3327325,
+      48.8708461
+    ],
+    [
+      2.3325847,
+      48.8709012
+    ],
+    [
+      2.3323199,
+      48.8708527
+    ],
+    [
+      2.3322366,
+      48.8708148
+    ],
+    [
+      2.3321494,
+      48.8707754
+    ],
+    [
+      2.3318858,
+      48.870725
+    ],
+    [
+      2.3317958,
+      48.8706816
+    ],
+    [
+      2.3302507,
+      48.8704198
+    ],
+    [
+      2.3301597,
+      48.8704192
+    ],
+    [
+      2.3297669,
+      48.8703468
+    ],
+    [
+      2.3297441,
+      48.8703418
+    ],
+    [
+      2.3290827,
+      48.8702262
+    ],
+    [
+      2.3281923,
+      48.8700626
+    ],
+    [
+      2.3280917,
+      48.8700934
+    ],
+    [
+      2.3279435,
+      48.8700758
+    ],
+    [
+      2.3278463,
+      48.8700515
+    ],
+    [
+      2.3276377,
+      48.8700123
+    ],
+    [
+      2.3276082,
+      48.8700065
+    ],
+    [
+      2.3275036,
+      48.8700559
+    ],
+    [
+      2.3266131,
+      48.8699063
+    ],
+    [
+      2.3265877,
+      48.8698447
+    ],
+    [
+      2.3264287,
+      48.8698045
+    ],
+    [
+      2.3259553,
+      48.86973
+    ],
+    [
+      2.3257979,
+      48.8697068
+    ],
+    [
+      2.3257621,
+      48.8696901
+    ],
+    [
+      2.3254917,
+      48.8696471
+    ],
+    [
+      2.3252664,
+      48.8696113
+    ],
+    [
+      2.3252082,
+      48.8696266
+    ],
+    [
+      2.3250804,
+      48.8695843
+    ],
+    [
+      2.3247914,
+      48.869408
+    ],
+    [
+      2.3244477,
+      48.8693451
+    ],
+    [
+      2.3244843,
+      48.8693987
+    ],
+    [
+      2.3240246,
+      48.8694329
+    ],
+    [
+      2.3242356,
+      48.8697175
+    ],
+    [
+      2.3242356,
+      48.8697175
+    ],
+    [
+      2.3242356,
+      48.8697175
+    ],
+    [
+      2.3242356,
+      48.8697175
+    ],
+    [
+      2.3240246,
+      48.8694329
+    ],
+    [
+      2.3244843,
+      48.8693987
+    ],
+    [
+      2.3244477,
+      48.8693451
+    ],
+    [
+      2.3247914,
+      48.869408
+    ],
+    [
+      2.3250804,
+      48.8695843
+    ],
+    [
+      2.3252082,
+      48.8696266
+    ],
+    [
+      2.3252664,
+      48.8696113
+    ],
+    [
+      2.3254917,
+      48.8696471
+    ],
+    [
+      2.3257621,
+      48.8696901
+    ],
+    [
+      2.3257979,
+      48.8697068
+    ],
+    [
+      2.3259553,
+      48.86973
+    ],
+    [
+      2.3264287,
+      48.8698045
+    ],
+    [
+      2.3265877,
+      48.8698447
+    ],
+    [
+      2.3266131,
+      48.8699063
+    ],
+    [
+      2.3275036,
+      48.8700559
+    ],
+    [
+      2.3276082,
+      48.8700065
+    ],
+    [
+      2.3276377,
+      48.8700123
+    ],
+    [
+      2.3278463,
+      48.8700515
+    ],
+    [
+      2.3279435,
+      48.8700758
+    ],
+    [
+      2.3280917,
+      48.8700934
+    ],
+    [
+      2.3281923,
+      48.8700626
+    ],
+    [
+      2.3290827,
+      48.8702262
+    ],
+    [
+      2.3297441,
+      48.8703418
+    ],
+    [
+      2.3297669,
+      48.8703468
+    ],
+    [
+      2.3301597,
+      48.8704192
+    ],
+    [
+      2.3302507,
+      48.8704198
+    ],
+    [
+      2.3317958,
+      48.8706816
+    ],
+    [
+      2.3318858,
+      48.870725
+    ],
+    [
+      2.3305997,
+      48.8715247
+    ],
+    [
+      2.3307416,
+      48.8715908
+    ],
+    [
+      2.3309047,
+      48.8717062
+    ],
+    [
+      2.3308552,
+      48.8717914
+    ],
+    [
+      2.3308284,
+      48.8718608
+    ],
+    [
+      2.3308284,
+      48.8718608
+    ],
+    [
+      2.3308284,
+      48.8718608
+    ],
+    [
+      2.3308284,
+      48.8718608
+    ],
+    [
+      2.3308284,
+      48.8718608
+    ],
+    [
+      2.3308552,
+      48.8717914
+    ],
+    [
+      2.3309047,
+      48.8717062
+    ],
+    [
+      2.3317134,
+      48.8712517
+    ],
+    [
+      2.3318314,
+      48.8712357
+    ],
+    [
+      2.3321279,
+      48.8710417
+    ],
+    [
+      2.3322319,
+      48.8710607
+    ],
+    [
+      2.3323199,
+      48.8708527
+    ],
+    [
+      2.3325847,
+      48.8709012
+    ],
+    [
+      2.3327325,
+      48.8708461
+    ],
+    [
+      2.3339537,
+      48.8710513
+    ],
+    [
+      2.3340134,
+      48.8710614
+    ],
+    [
+      2.3341992,
+      48.8710926
+    ],
+    [
+      2.334707,
+      48.871178
+    ],
+    [
+      2.3348238,
+      48.8711976
+    ],
+    [
+      2.3349102,
+      48.8712119
+    ],
+    [
+      2.3358936,
+      48.8713952
+    ],
+    [
+      2.3360054,
+      48.8714028
+    ],
+    [
+      2.3366593,
+      48.8715153
+    ],
+    [
+      2.3366971,
+      48.871521
+    ],
+    [
+      2.3368586,
+      48.8715632
+    ],
+    [
+      2.3371068,
+      48.8716006
+    ],
+    [
+      2.3372463,
+      48.8716216
+    ],
+    [
+      2.3372731,
+      48.8716255
+    ],
+    [
+      2.3375075,
+      48.8716804
+    ],
+    [
+      2.3379862,
+      48.8717641
+    ],
+    [
+      2.3380261,
+      48.871771
+    ],
+    [
+      2.338203,
+      48.871802
+    ],
+    [
+      2.3383603,
+      48.8718295
+    ],
+    [
+      2.3386941,
+      48.8718878
+    ],
+    [
+      2.3389729,
+      48.8719336
+    ],
+    [
+      2.3389732,
+      48.871984
+    ],
+    [
+      2.339264,
+      48.8719829
+    ],
+    [
+      2.3394569,
+      48.8719822
+    ],
+    [
+      2.3394788,
+      48.8720522
+    ],
+    [
+      2.339515,
+      48.8721683
+    ],
+    [
+      2.3399177,
+      48.872104
+    ],
+    [
+      2.3399294,
+      48.8721349
+    ],
+    [
+      2.3400073,
+      48.8721295
+    ],
+    [
+      2.3401728,
+      48.8721058
+    ],
+    [
+      2.3402555,
+      48.8720522
+    ],
+    [
+      2.3419053,
+      48.8717956
+    ],
+    [
+      2.342664,
+      48.871685
+    ],
+    [
+      2.3429308,
+      48.8716429
+    ],
+    [
+      2.3429897,
+      48.8716375
+    ],
+    [
+      2.3431939,
+      48.8716002
+    ],
+    [
+      2.3432636,
+      48.8715758
+    ],
+    [
+      2.3437009,
+      48.871508
+    ],
+    [
+      2.3454775,
+      48.8712213
+    ],
+    [
+      2.3456624,
+      48.8711873
+    ],
+    [
+      2.3460082,
+      48.8722114
+    ],
+    [
+      2.3461691,
+      48.8721982
+    ],
+    [
+      2.3462147,
+      48.8722127
+    ],
+    [
+      2.3462094,
+      48.8722789
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3461691,
+      48.8721982
+    ],
+    [
+      2.3456624,
+      48.8711873
+    ],
+    [
+      2.3437017553967108,
+      48.87150786195979
+    ],
+    [
+      2.345683947896798,
+      48.87125111492514
+    ],
+    [
+      2.3440389425586172,
+      48.871453448158526
+    ],
+    [
+      2.342350406262124,
+      48.871730714336906
+    ],
+    [
+      2.340657588858999,
+      48.871989661509744
+    ],
+    [
+      2.3391067127544307,
+      48.87170616215346
+    ],
+    [
+      2.337419967888243,
+      48.87141018750537
+    ],
+    [
+      2.3357325109208453,
+      48.8711182563951
+    ],
+    [
+      2.3339079,
+      48.8707626
+    ],
+    [
+      2.3339079,
+      48.8707626
+    ],
+    [
+      2.332586727312926,
+      48.870558228536765
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.331462,
+      48.870622
+    ],
+    [
+      2.3325623714411337,
+      48.87055385868395
+    ],
+    [
+      2.3339974863271884,
+      48.87081107105397
+    ],
+    [
+      2.3354330004365664,
+      48.871066026685526
+    ],
+    [
+      2.3368695435274196,
+      48.87131513637035
+    ],
+    [
+      2.3383060623714056,
+      48.87156435202191
+    ],
+    [
+      2.3397417586427807,
+      48.87181829879605
+    ],
+    [
+      2.3403902478210568,
+      48.872943070697694
+    ],
+    [
+      2.340899160878789,
+      48.87414304346433
+    ],
+    [
+      2.3423065,
+      48.8741752
+    ],
+    [
+      2.342820716113843,
+      48.8740794087129
+    ],
+    [
+      2.343371493948988,
+      48.87407598739194
+    ],
+    [
+      2.343922276379302,
+      48.87407337165874
+    ],
+    [
+      2.3444687307959025,
+      48.874079019599556
+    ],
+    [
+      2.3448971,
+      48.8740806
+    ],
+    [
+      2.3448971,
+      48.8740806
+    ]
+  ],
+  "annotationen": [
+    {
+      "id": 1,
+      "text": "Die Kassiererin gab auf sein 5-Francs-Stück das Geld heraus und Georges Duroy verließ das Lokal.",
+      "revealIndex": 0,
+      "ort": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "ortBasis": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "tags": [
+        "social",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "vorRoutenstart": true,
+      "station": 0,
+      "deaktiviert": true
+    },
+    {
+      "id": 2,
+      "text": "Stattlich gewachsen, richtete er sich auf mit der Haltung eines ehemaligen Unteroffiziers und drehte schneidig-militärisch seinen Schnurrbart zwischen den Fingern.",
+      "revealIndex": 3,
+      "ort": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "ortBasis": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "vorRoutenstart": true,
+      "station": 0
+    },
+    {
+      "id": 3,
+      "text": "Er warf auf die übriggebliebenen Gäste einen schnellen, flüchtigen Blick; einen jener Blicke des schönen Burschen, die unfehlbar treffen, wie der Raubvogel seine Beute.",
+      "revealIndex": 3,
+      "ort": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "ortBasis": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 0
+    },
+    {
+      "id": 4,
+      "text": "Die Frauen blickten ihm neugierig nach: es waren drei kleine Nähmädchen, eine Musiklehrerin unbestimmten Alters, schlecht gekämmt, nachlässig gekleidet mit einem alten, verstaubten Hut und einem Kleid, das niemals sitzen wollte. Dazu zwei bürgerliche Frauen mit ihren Männern, Stammgäste des kleinen Lokals mit »festen Preisen«.",
+      "revealIndex": 3,
+      "ort": "Lokal mit festen Preisen nahe Rue Notre-Dame de Lorette",
+      "ortBasis": "Lokal mit festen Preisen nahe Rue Notre-Dame de Lorette",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 5,
+      "text": "Es war der 28. Juni — in der Tasche blieben ihm 3 Francs 40 Centimes für den Rest des Monats übrig.",
+      "revealIndex": 3,
+      "ort": "Straße nahe Rue Notre-Dame de Lorette",
+      "ortBasis": "Straße nahe Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "social",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 6,
+      "text": "Dafür konnte er sich zwei Mittagessen leisten, dann allerdings kein Frühstück, oder umgekehrt. Er überlegte sich, daß ein Frühstück nur 22 Sous, ein Mittagessen dagegen 30 kostete. Begnügte er sich bloß mit dem Frühstück, so würden ihm 1 Francs 20 Centimes verbleiben, das bedeutete zweimal Würstchen mit Brot und zwei Glas Bier auf dem Boulevard.",
+      "revealIndex": 3,
+      "ort": "Boulevard (unspezifisch)",
+      "ortBasis": "Boulevard",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 7,
+      "text": "Dies war sein kostspieliges Vergnügen, das er sich abends gönnte.",
+      "revealIndex": 3,
+      "ort": "Boulevard (unspezifisch)",
+      "ortBasis": "Boulevard",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 8,
+      "text": "Daraufhin ging er die Rue Notre-Dame de Lorette hinunter.",
+      "revealIndex": 10,
+      "ort": "Rue Notre-Dame de Lorette",
+      "ortBasis": "Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 9,
+      "text": "So schritt er dahin, wie zur Zeit, als er die Husarenuniform trug, in strammer Haltung mit etwas gespreizten Beinen, wie ein Reiter, der eben vom Pferde gestiegen ist.",
+      "revealIndex": 10,
+      "ort": "Rue Notre-Dame de Lorette",
+      "ortBasis": "Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "location_erinnerung"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 10,
+      "text": "Ohne auf jemand Rücksicht zu nehmen, ging er seinen Weg durch die Straßenmenge. Er stieß die Passanten und wollte niemandem ausweichen.",
+      "revealIndex": 10,
+      "ort": "Rue Notre-Dame de Lorette",
+      "ortBasis": "Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "move",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 0
+    },
+    {
+      "id": 11,
+      "text": "Seinen alten Zylinderhut rückte er etwas auf das eine Ohr, und laut klangen seine Schritte auf dem Pflaster.",
+      "revealIndex": 10,
+      "ort": "Rue Notre-Dame de Lorette",
+      "ortBasis": "Rue Notre-Dame de Lorette",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "sound",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 0
+    },
+    {
+      "id": 12,
+      "text": "Verächtlich und herausfordernd betrachtete er die Menschen, die Häuser, die ganze Stadt: er — der schicke, schneidige Soldat, der zufällig Zivilist war.",
+      "revealIndex": 10,
+      "ort": "Rue Notre-Dame de Lorette / Paris",
+      "ortBasis": "Rue Notre-Dame de Lorette / Paris",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 0
+    },
+    {
+      "id": 13,
+      "text": "Sein fertiggekaufter Anzug kostete nur 60 Francs, trotzdem trug er eine gewisse betont knallige Eleganz zur Schau; etwas ordinär, dafür echt und eindrucksvoll.",
+      "revealIndex": 12,
+      "ort": "Rue Notre-Dame de Lorette",
+      "ortBasis": "Rue Notre-Dame de Lorette",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 15,
+      "text": "Es war ein heißer Sommertag.",
+      "revealIndex": 21,
+      "ort": "Paris",
+      "ortBasis": "Rue La Fayette",
+      "tags": [
+        "time",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 16,
+      "text": "Kein frischer Luftzug regte sich in Paris. Die Stadt glühte wie ein Kessel und erstickte in der schwülen Nacht.",
+      "revealIndex": 30,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Rue La Fayette",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 3,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 100
+    },
+    {
+      "id": 17,
+      "text": "Die Straßenkanäle hauchten üblen Duft aus ihren Granitrachen, und aus den Küchen und Kellerräumen drangen ekle Gerüche von Spülwasser und alten Speiseresten auf die Straße.",
+      "revealIndex": 40,
+      "ort": "Strassen von Paris (allgemein)",
+      "ortBasis": "Rue La Fayette",
+      "tags": [
+        "smell",
+        "space",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 18,
+      "text": "Unter den Haustoren saßen die »concierges« (Hauswarte) in Hemdsärmeln rittlings auf ihren Strohsesseln und rauchten die Pfeife. Träge schlichen die Menschen dahin, mit entblößtem Kopf, den Hut in der Hand tragend.",
+      "revealIndex": 49,
+      "ort": "Strassen von Paris (allgemein)",
+      "ortBasis": "Rue La Fayette",
+      "tags": [
+        "atmosphere",
+        "social",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 19,
+      "text": "Als Georges Duroy den Boulevard erreichte, blieb er stehen, unschlüssig, was er nun tun sollte.",
+      "revealIndex": 58,
+      "ort": "Boulevard Poissonnière (Näherung)",
+      "ortBasis": "Boulevard Poissonnière",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 100
+    },
+    {
+      "id": 20,
+      "text": "Er hatte Lust, in die Champs Elysée und die Avenue du Bois de Boulogne zu gehen, um unter den Bäumen etwas frische Luft zu schöpfen.",
+      "revealIndex": 67,
+      "ort": "Champs-Élysées / Avenue du Bois de Boulogne",
+      "ortBasis": "Champs-Élysées / Avenue du Bois de Boulogne",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "mood",
+        "weather"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "persoenliche_sehnsucht",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "persoenliche_sehnsucht",
+      "station": 100
+    },
+    {
+      "id": 21,
+      "text": "Aber ein anderes Verlangen regte sich in ihm, und zwar nach einem Liebesabenteuer. Wie ihm so ein Abenteuer in den Weg laufen sollte, davon hatte er keine Ahnung, aber seit drei Monaten wartete er darauf jeden Tag und jeden Abend.",
+      "revealIndex": 76,
+      "ort": "unspezifisch",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 22,
+      "text": "Dank seiner schönen, stattlichen Erscheinung hatte er wohl hier und da ein bißchen Liebe kosten dürfen; genügen tat ihm das nicht, er hoffte immer auf mehr und auf Besseres.",
+      "revealIndex": 85,
+      "ort": "unspezifisch",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 23,
+      "text": "Mit heißem Blut aber leerer Tasche erregten ihn die Dirnen, die ihm an den Straßenecken zumurmelten: »Komm mit, feiner Junge«, doch er getraute sich nicht, ihnen zu folgen, denn bezahlen konnte er nicht, und dann träumte er auch von anderem, von etwas vornehmerer Liebe und minder gemeinen Küssen.",
+      "revealIndex": 94,
+      "ort": "Strassenecken von Paris (allgemein)",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "koerper_als_akteur",
+        "sound"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 100
+    },
+    {
+      "id": 24,
+      "text": "Trotzdem liebte er die Orte, wo es von jenen öffentlichen Mädchen wimmelte; er suchte gern ihre Ballokale, ihre Cafés, ihre Straßen auf.",
+      "revealIndex": 104,
+      "ort": "Ballokale, Cafés, Straßen (unspezifisch, Paris)",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 100
+    },
+    {
+      "id": 25,
+      "text": "Er liebte, sie anzusprechen, sie zu duzen, ihre aufdringlichen Parfüms einzuatmen und ihre Nähe zu fühlen.",
+      "revealIndex": 113,
+      "ort": "unspezifisch",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "smell",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 100
+    },
+    {
+      "id": 26,
+      "text": "Verachten tat er sie nicht, so wie jeder Mann sie verachtete, der im Schoß der Familie aufgewachsen ist.",
+      "revealIndex": 122,
+      "ort": "unspezifisch",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 27,
+      "text": "Er lenkte seine Schritte nach der Madeleinekirche und folgte dem Menschenstrom, der sich, von der Hitze bedrückt, schwerfällig dahinwälzte.",
+      "revealIndex": 131,
+      "ort": "Église de la Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 1
+    },
+    {
+      "id": 28,
+      "text": "Die Cafés waren überfüllt, dichtgedrängt saßen die Menschen am Bürgersteig, im grellen, blendenden Licht der erleuchteten Fenster.",
+      "revealIndex": 131,
+      "ort": "Cafés nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "space",
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 1
+    },
+    {
+      "id": 29,
+      "text": "Vor ihnen auf kleinen runden oder viereckigen Tischen standen Gläser mit roten, gelben, grünen und in allen Farben schillernden Flüssigkeiten, und in den Karaffen sah man große, durchsichtige Eisstücke glänzen, die das schöne, klare Wasser kühlten.",
+      "revealIndex": 131,
+      "ort": "Cafés nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "material",
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 1
+    },
+    {
+      "id": 30,
+      "text": "Duroys Schritte wurden langsamer, und das Verlangen nach einem erfrischenden Getränk trocknete ihm die Kehle.",
+      "revealIndex": 132,
+      "ort": "Cafés nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 31,
+      "text": "Ihn packte ein glühender Durst, ein Durst eines heißen Sommerabends; er dachte immerfort an das köstliche Gefühl, wenn ihm etwas Kaltes durch die Kehle rinnt.",
+      "revealIndex": 133,
+      "ort": "Straße nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "weather",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 101
+    },
+    {
+      "id": 32,
+      "text": "Wenn er sich aber heute auch nur zwei Glas Bier gestattete, dann war es morgen mit seinem kargen Abendbrot vorbei, und die Stunden des Hungers am Monatsende waren ihm nur zu wohl bekannt.",
+      "revealIndex": 134,
+      "ort": "unspezifisch",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 33,
+      "text": "Er sagte sich: »Bis zehn Uhr muß ich aushalten, und dann trinke ich einen Bock à l'Americain. Donnerwetter, habe ich jetzt einen Durst!«",
+      "revealIndex": 136,
+      "ort": "Café à l'Americain (unspezifisch)",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 34,
+      "text": "Und er blickte all diese Menschen an, die an den Tischen saßen, tranken und ihren Durst löschen konnten, soviel sie wollten.",
+      "revealIndex": 137,
+      "ort": "Cafés nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 35,
+      "text": "Und während er äußerlich keck und zuversichtlich an den Cafés vorüberging, taxierte er mit raschem Blick nach dem Aussehen und der Kleidung eines jeden Gastes, wieviel Geld er wohl mit sich trug.",
+      "revealIndex": 138,
+      "ort": "Cafés nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "move",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 36,
+      "text": "Eine Wut ergriff ihn gegen diese ruhig dasitzenden Leute.",
+      "revealIndex": 139,
+      "ort": "Cafés nahe Madeleine, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 37,
+      "text": "Wenn man ihre Taschen durchsuchte, so würde man Gold, Silber und Kleingeld finden.",
+      "revealIndex": 140,
+      "ort": "unspezifisch",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 38,
+      "text": "Durchschnittlich mußte jeder wohl zwei Zwanzigfrancsstücke bei sich haben, etwa hundert Menschen saßen in jedem Café, und hundertmal zweimal zwanzig macht viertausend Francs.",
+      "revealIndex": 141,
+      "ort": "Boulevard Poissonière, Paris (Näherung)",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 39,
+      "text": "»Schweinehunde!« murmelte er vor sich hin und ging mit wiegenden Schritten weiter.",
+      "revealIndex": 143,
+      "ort": "Boulevard Poissonière, Paris (Näherung)",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 40,
+      "text": "Hätte er nur einen an irgendeiner dunklen Straßenecke fassen können, würde er ihm weiß Gott ohne Bedenken den Hals umgedreht haben, wie er es mit den Dorfhühnern an den Tagen der großen Manöver tat.",
+      "revealIndex": 144,
+      "ort": "imaginierte dunkle Straßenecke, Paris",
+      "ortBasis": "Place de la Madeleine",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 41,
+      "text": "Er dachte an seine zwei Dienstjahre in Afrika und an die Art und Weise, wie man in den kleinen Vorposten im Süden den Arabern das Geld abnahm. Ein grausames, zufriedenes Lächeln glitt über seine Lippen, als er eines Streiches gedachte, der drei Männern vom Stamme der Uled-Alan das Leben kostete und ihm und seinen Kameraden zwanzig Hühner, zwei Schafe und Gold einbrachte und heiteren Gesprächsstoff für sechs Monate.",
+      "revealIndex": 145,
+      "ort": "Afrika (Erinnerung, Militärdienst)",
+      "ortBasis": "Afrika",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 101
+    },
+    {
+      "id": 44,
+      "text": "In Paris war das anders. Hier konnte man nicht mit dem Säbel an der Seite und dem Revolver in der Faust, fern vom wachsamen Auge der bürgerlichen Gerichtsbarkeit, in voller Freiheit herumplündern.",
+      "revealIndex": 146,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Afrika",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "social",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 46,
+      "text": "Er hatte sich Besseres erhofft, als er heimkehrte. Und nun ... Ach ja, jetzt hatte er, was er wollte!",
+      "revealIndex": 147,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Afrika",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 47,
+      "text": "Er schnalzte mit der Zunge, als wollte er konstatieren, wie völlig ausgedörrt sein Mund schon wäre.",
+      "revealIndex": 148,
+      "ort": "Boulevard Poissonière, Paris (Näherung)",
+      "ortBasis": "Boulevard des Capucines",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 101
+    },
+    {
+      "id": 48,
+      "text": "Langsam und müde schob sich die Menge an ihm vorüber, und er dachte immer noch: »Dieses Pack! All diese Idioten haben Geld in der Westentasche!«",
+      "revealIndex": 150,
+      "ort": "Boulevard Poissonière, Paris (Näherung)",
+      "ortBasis": "Boulevard des Capucines",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 101
+    },
+    {
+      "id": 49,
+      "text": "Er rempelte die Menschen an und pfiff dazu eine lustige Melodie.",
+      "revealIndex": 151,
+      "ort": "Boulevard Poissonière, Paris (Näherung)",
+      "ortBasis": "Boulevard des Capucines",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "sound"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 50,
+      "text": "Männer, die er geschubst hatte, drehten sich schimpfend um, und die Frauen riefen entrüstet: »Ungezogener Lümmel!«",
+      "revealIndex": 152,
+      "ort": "Boulevard Poissonière, Paris (Näherung)",
+      "ortBasis": "Boulevard des Capucines",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 101
+    },
+    {
+      "id": 51,
+      "text": "Er ging am Vaudeville vorbei und blieb vor dem Café Americain stehen.",
+      "revealIndex": 153,
+      "ort": "Café Américain, Boulevard des Capucines, Paris",
+      "ortBasis": "Boulevard des Capucines",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 52,
+      "text": "Er fragte sich, ob er nicht doch ein Glas Bier trinken sollte, so quälte ihn der Durst.",
+      "revealIndex": 153,
+      "ort": "Unbekannte Strasse in Paris, Nähe Boulevard des Capucines",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 2
+    },
+    {
+      "id": 53,
+      "text": "Ehe er sich entschloß, sah er auf die beleuchtete Uhr mitten auf dem Fahrdamm. Es war ein Viertel nach neun.",
+      "revealIndex": 153,
+      "ort": "Fahrdamm in Paris, Nähe Place de l'Opéra",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 54,
+      "text": "Er kannte sich zu genau: sobald das Glas Bier vor ihm stünde, würde er es mit einem Zug hinunterschlucken. Was sollte er dann bis elf Uhr anfangen?",
+      "revealIndex": 153,
+      "ort": "Strasse in Paris, Nähe Place de l'Opéra",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 2
+    },
+    {
+      "id": 55,
+      "text": "Er überlegte: »Ich gehe noch bis zur Madeleine und kehre dann langsam zurück.«",
+      "revealIndex": 153,
+      "ort": "La Madeleine, Paris",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 56,
+      "text": "Als er an die Ecke des Place de l'Opera kam, begegnete er einem dicken jungen Manne, dessen Gesicht ihm irgendwie bekannt erschien.",
+      "revealIndex": 165,
+      "ort": "Place de l'Opéra, Paris",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 57,
+      "text": "Er folgte ihm und suchte sich zu erinnern, während er halblaut vor sich hinsprach: »Zum Teufel, wo kenne ich diesen Kerl her?«",
+      "revealIndex": 165,
+      "ort": "Place de l'Opéra, Paris",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 58,
+      "text": "Er ging und grübelte, ohne daß es ihm einfiel; dann plötzlich erschien ihm derselbe Mensch durch einen eigentümlichen Vorgang des Gedächtnisses weniger dick, jünger, in Husarenuniform.",
+      "revealIndex": 165,
+      "ort": "Place de l'Opéra, Paris",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 3
+    },
+    {
+      "id": 59,
+      "text": "»Halt, Forestier!« rief er laut, beschleunigte seine Schritte und klopfte dem vor ihm Gehenden auf die Schulter.",
+      "revealIndex": 165,
+      "ort": "Place de l'Opéra, Paris",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 60,
+      "text": "Duroy lachte: »Erkennst du mich nicht?«",
+      "revealIndex": 165,
+      "ort": "Place de l'Opéra, Paris",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 61,
+      "text": "Duroy war überrascht und sah ihn erstaunt an.",
+      "revealIndex": 169,
+      "ort": "Boulevard Poissonière (Näherung, Kontext)",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 62,
+      "text": "Forestier hatte sich sehr verändert, er war reifer geworden. Sein Gebaren, seine Haltung zeigten den gesetzten, selbstsicheren Mann und sein Bäuchlein wußte von guten Diners zu erzählen.",
+      "revealIndex": 172,
+      "ort": "Boulevard Poissonière (Näherung, Kontext)",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 63,
+      "text": "Früher war er mager, klein und schlank, ein ausgelassener Lebemann und streitsüchtiger Radaumacher, stets angeheitert. Die drei Jahre in Paris hatten aus ihm einen ganz anderen, einen beliebten und ernsthaften Menschen gemacht, der schon einige weiße Haare an den Schläfen hatte, obgleich er nicht mehr als siebenundzwanzig Jahre zählte.",
+      "revealIndex": 176,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "social",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 64,
+      "text": "»Nirgends. Ich mache einen Spaziergang, bevor ich nach Hause gehe.«",
+      "revealIndex": 180,
+      "ort": "Boulevard Poissonière (Näherung, Kontext)",
+      "ortBasis": "Place de l'Opéra",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 65,
+      "text": "Und Arm in Arm gingen sie weiter mit der leichten Vertraulichkeit, die zwischen Schulkameraden und Waffengefährten herrscht.",
+      "revealIndex": 183,
+      "ort": "Boulevard Poissonière (Näherung, Kontext)",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "move",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 66,
+      "text": "»Kurz gesagt, ich krepiere vor Hunger. Als meine Dienstzeit vorbei war, wollte ich hierher kommen, um ... um mein Glück zu machen, oder vielmehr, um in Paris leben zu können. Seit sechs Monaten bin ich bei der Verwaltung der Nordbahn angestellt. Ich verdiene fünfzehnhundert Francs im Jahr, keinen Centime mehr.«",
+      "revealIndex": 187,
+      "ort": "Boulevard Poissonière (Näherung, Kontext)",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 102
+    },
+    {
+      "id": 67,
+      "text": "»Das glaube ich. Aber was soll ich sonst anfangen? Ich bin allein, ich kenne niemanden und habe keine Protektion.«",
+      "revealIndex": 191,
+      "ort": "Boulevard Poissonière (Näherung, Kontext)",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 102
+    },
+    {
+      "id": 68,
+      "text": "Sein Freund betrachtete ihn vom Kopf bis zu den Füßen, wie ein praktischer Mensch, der einen Gegenstand abschätzt",
+      "revealIndex": 194,
+      "ort": "unbekannt, Gesprächssituation",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 69,
+      "text": "Ich habe überall gesucht und nichts gefunden. Augenblicklich habe ich zwar etwas in Aussicht, man bietet mir eine Stelle als Stallmeister in der Reitbahn von Pellerin an. Da bekomme ich mindestens dreitausend Francs.",
+      "revealIndex": 198,
+      "ort": "unbekannt, Gesprächssituation Paris",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 102
+    },
+    {
+      "id": 70,
+      "text": "Forestier blieb plötzlich stehen",
+      "revealIndex": 201,
+      "ort": "unbekannt, Strasse Paris",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102,
+      "deaktiviert": true
+    },
+    {
+      "id": 71,
+      "text": "wo ganz Paris verkehrt",
+      "revealIndex": 205,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 72,
+      "text": "Er schwieg, dachte einige Sekunden nach und fragte",
+      "revealIndex": 209,
+      "ort": "unbekannt, Gesprächssituation",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 73,
+      "text": "Nein, ich bin zweimal durchgefallen.",
+      "revealIndex": 212,
+      "ort": "unbekannt, Gesprächssituation",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 74,
+      "text": "Wenn von Cicero oder Tiberius die Rede ist, dann weißt du ungefähr, wer das ist?",
+      "revealIndex": 216,
+      "ort": "unbekannt",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 75,
+      "text": "Er sprach in ruhig spöttischem Tone, wie einer, der die Welt kennt und blickte dabei lächelnd auf die vorübergehende Menge.",
+      "revealIndex": 220,
+      "ort": "Boulevard Poissonière, Paris",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 76,
+      "text": "Sie waren jetzt am Boulevard Poissonière und standen vor einer großen Glastür, die von innen mit einer Zeitung beklebt war.",
+      "revealIndex": 223,
+      "ort": "Boulevard Poissonière, Paris",
+      "ortBasis": "Boulevard des Italiens",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 77,
+      "text": "Über dem Tor stand in großen Buchstaben aus Gasflammen der Name der Zeitung: »La Vie Française« geschrieben.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française, Boulevard Poissonière, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "location",
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 78,
+      "text": "Und die Passanten, die plötzlich in das grelle Licht dieser drei Worte traten, wurden nun auf einmal deutlich sichtbar wie am hellichten Tage, um dann sofort wieder im Dunkel zu verschwinden.",
+      "revealIndex": 227,
+      "ort": "Boulevard Poissonière vor der Redaktion, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "atmosphere",
+        "space",
+        "sound"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 79,
+      "text": "Duroy ging hinein, stieg eine pomphafte, schmutzige Treppe hinauf, die man von der Straße aus ganz überblicken konnte, ging durch das Vorzimmer, in dem zwei Bureaudiener seinen Gefährten grüßten, bis er in einen Warteraum gelangte.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française, Boulevard Poissonière, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 80,
+      "text": "Die Räume waren verstaubt und abgenutzt, mit Tapeten aus schmutzigem, unechtem, grünem Samt, die voller Flecken und hier und da durchlöchert waren, als hätten die Mäuse sie angeknabbert.",
+      "revealIndex": 227,
+      "ort": "Warteraum der Redaktion La Vie Française, Boulevard Poissonière, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "space",
+        "material",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 81,
+      "text": "Der seltsame, eigentümliche, unbeschreibliche Geruch eines Redaktionsbureaus erfüllte den Raum. Duroy blieb unbeweglich, etwas eingeschüchtert und überrascht sitzen.",
+      "revealIndex": 227,
+      "ort": "Warteraum der Redaktion La Vie Française, Boulevard Poissonière, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "smell",
+        "mood",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 82,
+      "text": "Von Zeit zu Zeit liefen Leute an ihm vorbei; sie kamen aus einer Tür und verschwanden durch die andere, noch ehe er Zeit hatte, sie anzusehen.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 83,
+      "text": "Bald waren es junge, sehr junge Leute mit geschäftigem Gesichtsausdruck, die in der Hand ein Blatt Papier trugen, das bei ihrem Laufen im Winde flatterte.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 84,
+      "text": "Manchmal waren es auch Setzer, unter deren von Tinte beschmutzten Leinenkitteln man reinweiße Hemdkragen und eine elegante Tuchhose von modernem Schnitt sah.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 85,
+      "text": "Vorsichtig trugen sie bedruckte Papierstreifen, frische, noch feuchte Korrekturfahnen.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 86,
+      "text": "Bisweilen trat ein kleiner Herr mit einer etwas auffallenden Eleganz, mit einer etwas zu engen Taille, mit Beinkleidern, die zu eng anlagen, und mit übermäßig spitzen Schnabelschuhen, ein, irgendein Reporter, der Neuigkeiten aus der Lebewelt brachte.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 87,
+      "text": "Auch andere kamen, ernste, gewichtige Persönlichkeiten. Sie trugen Zylinderhüte mit ganz flachen Rändern, als ob sie sich durch diese Form von der ganzen übrigen Menschheit unterscheiden wollten.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 88,
+      "text": "Forestier erschien wieder, Arm in Arm mit einem hochgewachsenen, mageren Mann in den dreißiger Jahren. Dieser war in einen Frack, mit weißer Krawatte, gekleidet, hatte dunkles Haar, einen Schnurrbart mit scharfgedrehten Spitzen und eine dreiste, selbstbewußte Miene.",
+      "revealIndex": 227,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 91,
+      "text": "Beim Weitergehen begegneten sie einem kleinen dicken Herrn mit langen Haaren und unsauberem Äußeren, der schweratmend die Treppe hinaufkam.",
+      "revealIndex": 232,
+      "ort": "Redaktion La Vie Française (Paris, unbekannte Adresse)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 105
+    },
+    {
+      "id": 92,
+      "text": "Kaum hatten sie sich an den Tisch gesetzt, als Forestier rief: »Zwei Bier!« und dann sein Glas mit einem Zuge herunterstürzte, während Duroy das Bier mit langsamen Schlucken trank und sorgsam auskostete, wie eine wundervolle und seltene Kostbarkeit.",
+      "revealIndex": 240,
+      "ort": "Café Napolitain, Boulevard des Capucines",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "george_duroy",
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 93,
+      "text": "Duroy das Bier mit langsamen Schlucken trank und sorgsam auskostete, wie eine wundervolle und seltene Kostbarkeit.",
+      "revealIndex": 240,
+      "ort": "Café Napolitain, Boulevard des Capucines",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "social",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 5
+    },
+    {
+      "id": 94,
+      "text": "Forestier grüßte sehr tief: »Norbert de Varenne,« sagte er, »der Dichter der ,Erloschenen Sonne', auch ein hochbezahlter Mann. Jede Erzählung, die er herausgibt, kostet dreihundert Francs und die allerlängsten haben noch nicht zweihundert Zeilen«",
+      "revealIndex": 240,
+      "ort": "Café Napolitain, Boulevard des Capucines",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 96,
+      "text": "Duroy zögerte, errötete und wurde verwirrt. Endlich murmelte er: »Es ist nur ... ich habe keinen passenden Anzug ...«",
+      "revealIndex": 240,
+      "ort": "Café Napolitain, Boulevard des Capucines",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 5
+    },
+    {
+      "id": 97,
+      "text": "In Paris kann man ein Bett vielleicht entbehren, einen Frack nie.",
+      "revealIndex": 240,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "social",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 98,
+      "text": "Dann griff er plötzlich in seine Westentasche, zog eine Handvoll Geld hervor und legte zwei Zwanzigfrancsstücke vor seinen alten Freund hin, wobei er in einem herzlichen und vertrauten Ton sagte: »Du gibst sie mir wieder, wenn du kannst. Leihe oder kaufe dir die nötigen Kleidungsstücke, indem du eine Anzahlung gibst.«",
+      "revealIndex": 240,
+      "ort": "Café Napolitain, Boulevard des Capucines",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 100,
+      "text": "Duroy war verwirrt, aber er nahm das Geld und stammelte: »Du bist wirklich zu liebenswürdig, ich danke dir herzlich ... Verlaß dich darauf, ich werde es nie vergessen.«",
+      "revealIndex": 240,
+      "ort": "Folies Bergère / Umgebung, Paris",
+      "ortBasis": "Café Napolitain",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 5
+    },
+    {
+      "id": 101,
+      "text": "Und sie brachen auf und gingen in der Richtung nach Madeleine",
+      "revealIndex": 241,
+      "ort": "Richtung Madeleine, Paris",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 102,
+      "text": "Duroy war noch immer verlegen und wußte nicht, was er vorschlagen sollte.",
+      "revealIndex": 244,
+      "ort": "Richtung Madeleine, Paris",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 5
+    },
+    {
+      "id": 103,
+      "text": "Eine Fahrt ins Bois macht nur Spaß, wenn noch ein Weib dabei ist",
+      "revealIndex": 245,
+      "ort": "Bois de Boulogne, Paris",
+      "ortBasis": "Bois de Boulogne",
+      "tags": [
+        "location",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 104,
+      "text": "Man müßte hier einen Sommergarten haben, wie den Park Monceau, der nachts geöffnet wäre, wo man ausgezeichnete Musik hörte und unter den Bäumen Erfrischungen nehmen könnte.",
+      "revealIndex": 246,
+      "ort": "Parc Monceau, Paris",
+      "ortBasis": "Parc Monceau",
+      "tags": [
+        "location",
+        "atmosphere",
+        "sound"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 105,
+      "text": "Man sollte da auf kiesbestreuten Fußwegen herumspazieren können, die elektrisch beleuchtet wären, und sich setzen können, wenn man Lust hätte, um von fern und nah Musik anzuhören.",
+      "revealIndex": 247,
+      "ort": "imaginierter Sommergarten, Paris",
+      "ortBasis": "imaginierter Sommergarten",
+      "tags": [
+        "space",
+        "sound",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 106,
+      "text": "So etwas gab es früher bei Muzard, aber das war zu sehr Ballokal, zuviel Tanzmusik und zuwenig Platz, zuwenig Schatten und Dunkelheit.",
+      "revealIndex": 248,
+      "ort": "Bal Musard, Paris (historisch)",
+      "ortBasis": "Bal Musard",
+      "tags": [
+        "location",
+        "sound",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 5
+    },
+    {
+      "id": 107,
+      "text": "Endlich entschloß er sich: »Ich kenne die Folies Bergère noch gar nicht, da möchte ich ganz gern einmal hin.«",
+      "revealIndex": 249,
+      "ort": "Folies Bergère",
+      "ortBasis": "Café Américain",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 5
+    },
+    {
+      "id": 108,
+      "text": "Sie gingen wieder zurück, um die Rue du Faubourg-Montmartre zu erreichen.",
+      "revealIndex": 258,
+      "ort": "Rue du Faubourg-Montmartre",
+      "ortBasis": "Rue du Faubourg-Montmartre",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 103
+    },
+    {
+      "id": 109,
+      "text": "Die erleuchtete Fassade des Theaters warf grellen Schein auf die vier Straßen, die sich an dieser Stelle kreuzten.",
+      "revealIndex": 263,
+      "ort": "Folies Bergère, Umgebung",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 110,
+      "text": "Eine Reihe von Droschken wartete auf den Schluß der Vorstellung.",
+      "revealIndex": 263,
+      "ort": "Folies Bergère, Vorplatz",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 111,
+      "text": "Forestier ging hinein, Duroy hielt ihn zurück: »Wir haben ja noch keine Billetts.«",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Eingang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 112,
+      "text": "Als er sich den drei Kontrolleuren näherte, grüßten sie ihn, und dem mittelsten reichte er die Hand.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Eingang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 113,
+      "text": "Er nahm den Zettel, der ihm gereicht wurde, öffnete die gepolsterte, kupferbeschlagene Tür, und sie befanden sich im Theaterraum.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Innenraum",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "location",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 114,
+      "text": "Tabakdunst verschleierte wie ein leichter Nebel den Hintergrund, die Bühne und die entfernten Teile des Theaters.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Innenraum",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 115,
+      "text": "Dieser Nebel, der ununterbrochen in feinen bläulichen Streifen aus sämtlichen Zigarren und Zigaretten der Besucher emporstieg, ballte sich an der Decke und bildete unter der mächtigen Wölbung einen Wolkenhimmel von Rauch um den Kronleuchter und über der dicht mit Zuschauern besetzten Galerie.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Innenraum",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "smell",
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 116,
+      "text": "In der geräumigen Vorhalle am Eingang, die zu den Wandelgängen führte, schweiften aufgeputzte Mädchen inmitten einer Menge dunkelgekleideter Männer umher, eine Gruppe von Frauen wartete auf die Ankömmlinge, und hinter den drei Schanktischen thronten drei geschminkte, welke Verkäuferinnen von Getränken und Liebe.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Vorhalle",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "location",
+        "social",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 117,
+      "text": "In den hohen Scheiben hinter ihnen spiegelten sich ihre Rücken und die Gesichter der Vorübergehenden.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Vorhalle",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 118,
+      "text": "Forestier drängte sich schnell durch alle diese Gruppen und schritt rasch vorwärts, wie ein Mann, auf den man Rücksicht zu nehmen hat.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Vorhalle",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 119,
+      "text": "Er trat an die Logenschließerin heran und sagte: »Loge siebzehn!«",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 120,
+      "text": "Sie wurden in einen kleinen hölzernen Kasten eingeschlossen, der keine Decke hatte, rot tapeziert war und vier Stühle gleicher Farbe enthielt, die so eng aneinander standen, daß man sich kaum zwischen ihnen hindurchschieben konnte.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Theaterloge Nr. 17",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 121,
+      "text": "Nach rechts und links schlossen sich in weitem Bogen, dessen Enden auf die Bühne stießen, eine lange Reihe ähnlicher Kästen an, wo gleichfalls Menschen saßen, von denen man nur Kopf und Brust sehen konnte.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Zuschauerraum",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 122,
+      "text": "Auf der Bühne machten drei junge Männer in eng anliegenden Trikots, ein großer, ein mittlerer und ein ganz kleiner, abwechselnd Trapezkunststücke.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Bühne",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 123,
+      "text": "Zunächst trat der große mit kurzen, schnellen Schritten an die Rampe vor, lächelte und grüßte mit einer Kußhand. Unter dem Trikot sah man die Muskeln seiner Arme und Beine arbeiten; er drückte seine Brust möglichst kräftig heraus, um seinen etwas zu dicken Bauch zu verbergen. Sein Gesicht glich dem eines Friseurgehilfen, und ein tadelloser Scheitel teilte sein Haar genau in der Mitte des Kopfes.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Bühne",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 124,
+      "text": "Bisweilen hing er mit ausgestreckten Armen und steifem Körper unbeweglich wagerecht in der leeren Luft, indem er sich allein durch die Kraft seiner Handgelenke festhielt.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Bühne",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "material",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 125,
+      "text": "Duroy hatte wenig Interesse für die Darbietung. Er wandte seinen Kopf und beobachtete unaufhörlich die hinter ihm vorbeiflutende Menge von Männern und Kokotten.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Theaterloge",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 126,
+      "text": "In den Logen sitzen die Stammgäste der Boulevards, einige Künstler und Halbweltdamen, hinter uns findest du die seltsamste Mischung, die es in Paris geben kann.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "location",
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 127,
+      "text": "Da sind die Kommis, Bankangestellte, Beamte, Verkäufer, ferner Reporter, Zuhälter, Offiziere in Zivil, Bummler im Frack, die grade im Restaurant gegessen haben und von der Großen Oper zu den Italienern rennen, und schließlich noch eine ganze Menge verdächtiger Individuen, aus denen man nicht recht klug wird.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 128,
+      "text": "von der Großen Oper zu den Italienern rennen",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 129,
+      "text": "Was die Frauen angeht, so gibt es hier nur eine Art: die Halbwelt vom Americain. Sie verkaufen sich für ein oder zwei Goldstücke, wobei sie von Fremden auch fünf nehmen, und winken ihren ständigen Kunden zu, wenn sie frei sind.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social",
+        "location",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 130,
+      "text": "Man kennt sie alle seit zehn Jahren, man sieht sie jeden Abend das ganze Jahr hindurch in denselben Lokalen, mit Ausnahme, wenn sie einmal eine heilsame Kur im Frauengefängnis von St. Lazare oder im Lourcine durchmachen.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "time",
+        "social",
+        "location",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 131,
+      "text": "Duroy hörte nicht mehr zu.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 132,
+      "text": "Eins von diesen Mädchen lehnte sich über die Loge und sah ihn an.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 133,
+      "text": "Es war eine üppige Brünette mit weißgeschminktem Gesicht und schwarzen Augen, die mit dem Farbstift unterstrichen waren, und riesigen, angemalten Augenbrauen. Über ihrer allzu starken Brust spannte sich die dunkle Seide ihres Kleides, und ihre geschminkten, blutroten Lippen gaben ihr etwas Tierisches, Sinnliches, Wildes, das aber trotzdem anziehend wirkte.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 134,
+      "text": "das aber trotzdem anziehend wirkte",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 135,
+      "text": "mechanisch tastete er nach den zwei Goldstücken in seiner Westentasche",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 136,
+      "text": "Der Vorhang fiel und das Orchester begann einen Walzer zu spielen.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 137,
+      "text": "Wollen wir nicht auch einmal durch den Wandelgang gehen?",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Wandelgang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 138,
+      "text": "Sie verließen ihre Loge und waren sofort von dem Strom der Menge umgeben.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Wandelgang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "move",
+        "space"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 139,
+      "text": "Gedrückt, gepreßt, hin und her gestoßen, gingen sie weiter und ein Wald von Hüten wogte vor ihren Augen.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Wandelgang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "space",
+        "koerper_als_akteur"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 140,
+      "text": "Zwischen Ellenbogen, Brüsten und Rücken der Männer drängten sich behend paarweise die Kokotten hindurch, die sich hier so recht in ihrem Element, wie Fische im Wasser, zu fühlen schienen.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Wandelgang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 141,
+      "text": "Duroy war entzückt. Er ließ sich treiben und wurde von der stickigen Luft, die durch Tabak, Menschenausdünstungen und Dirnenparfüms verpestet war, berauscht.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Wandelgang",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "smell",
+        "atmosphere",
+        "koerper_als_akteur"
+      ],
+      "valenz": 1,
+      "intensitaet": 3,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": null
+    },
+    {
+      "id": 142,
+      "text": "Sie wandten sich nach links und kamen in eine Art Wintergarten, wo zwei geschmacklose Fontänen ein bißchen kühle Luft schafften.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Wintergarten/Garten",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "move",
+        "location",
+        "space",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 143,
+      "text": "Unter den paar Taxusbäumen und Thujas saßen Männer und Frauen an Zinktischen und tranken.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Garten",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "social",
+        "atmosphere",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 144,
+      "text": "Sie setzten sich und beobachteten das Publikum.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Garten",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "atmosphere"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 145,
+      "text": "Sie bildeten wirklich ein hübsches, gut ausgesuchtes Frauenpaar. Sobald sie Duroy erblickte, lächelte sie, als hätten sich ihre Augen schon vertraute und verschwiegene Dinge gesagt.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère, Garten",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 146,
+      "text": "Sie nahm einen Stuhl und setzte sich ruhig ihm gegenüber und ließ ihre Freundin auch Platz nehmen.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 147,
+      "text": "Duroy wußte vor Verlegenheit nicht, was er sagen sollte. Er drehte an seinem wohlgepflegten Schnurrbart und lächelte nichtssagend vor sich hin.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 148,
+      "text": "Dann gingen sie fort, sich in den Hüften wiegend.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 150,
+      "text": "Sie drückten sich die Hände, und der Journalist ging fort.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 151,
+      "text": "Sobald er fort war, fühlte Duroy sich frei.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 152,
+      "text": "Er tastete vergnügt von neuem nach den beiden Goldstücken in seiner Westentasche.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "material"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": null
+    },
+    {
+      "id": 153,
+      "text": "Dann erhob er sich und mischte sich unter die Menge, die er suchend durchforschte.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": null
+    },
+    {
+      "id": 154,
+      "text": "Bald erblickte er die beiden Mädchen, die Brünette und die Rothaarige, die immer noch in stolzer Haltung durch die Menge zogen.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "space",
+        "social"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": null
+    },
+    {
+      "id": 155,
+      "text": "Er ging direkt auf sie zu. Als er ihnen ganz nahe war, verlor er wieder den Mut.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 156,
+      "text": "Er zitterte vor Begierde",
+      "revealIndex": 264,
+      "ort": "Folies Bergère (Näherung)",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 157,
+      "text": "»Ja, aber ich habe nur ein Goldstück in der Tasche.«",
+      "revealIndex": 264,
+      "ort": "Folies Bergère (Näherung)",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 158,
+      "text": "Alle drei blieben stehen und hielten die Bewegung der Spaziergänger auf, die einen Wirbel um sie bildeten.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère (Näherung)",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "space",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 159,
+      "text": "Als sie das Lokal verließen, überlegte er, daß er sich mit den andern zwanzig Francs ohne Schwierigkeiten für den nächsten Abend einen Frack leihen könnte.",
+      "revealIndex": 264,
+      "ort": "Folies Bergère (Näherung)",
+      "ortBasis": "Folies Bergère",
+      "tags": [
+        "george_duroy",
+        "move",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    }
+  ],
+  "halteorte": [
+    {
+      "name": "Wohnung",
+      "revealIndex": 3
+    },
+    {
+      "name": "Madeleine",
+      "revealIndex": 131
+    },
+    {
+      "name": "Café Américain",
+      "revealIndex": 153
+    },
+    {
+      "name": "Opera",
+      "revealIndex": 165
+    },
+    {
+      "name": "Redaktion",
+      "revealIndex": 227
+    },
+    {
+      "name": "Zwischenhalt",
+      "revealIndex": 237
+    },
+    {
+      "name": "Folies Bergère",
+      "revealIndex": 263
+    }
+  ],
+  "zwischenPunkte": [
+    {
+      "id": 100,
+      "name": "Wohnung → Madeleine",
+      "revealIndex": 67,
+      "lon": 2.3402555,
+      "lat": 48.8720522,
+      "vonHalt": 0,
+      "nachHalt": 1
+    },
+    {
+      "id": 101,
+      "name": "Madeleine → Café Américain",
+      "revealIndex": 142,
+      "lon": 2.3254917,
+      "lat": 48.8696471,
+      "vonHalt": 1,
+      "nachHalt": 2
+    },
+    {
+      "id": 104,
+      "name": "Café Américain → Opéra",
+      "revealIndex": 159,
+      "lon": 2.3301597,
+      "lat": 48.8704192,
+      "vonHalt": 2,
+      "nachHalt": 3,
+      "deaktiviert": true
+    },
+    {
+      "id": 102,
+      "name": "Opéra → Redaktion",
+      "revealIndex": 196,
+      "lon": 2.3379862,
+      "lat": 48.8717641,
+      "vonHalt": 3,
+      "nachHalt": 4
+    },
+    {
+      "id": 105,
+      "name": "Redaktion → Boulevard",
+      "revealIndex": 232,
+      "lon": 2.3461691,
+      "lat": 48.8721982,
+      "vonHalt": 4,
+      "nachHalt": 5
+    },
+    {
+      "id": 103,
+      "name": "Zwischenhalt → Folies",
+      "revealIndex": 247,
+      "lon": 2.3424046,
+      "lat": 48.8741248,
+      "vonHalt": 5,
+      "nachHalt": 6
+    }
+  ],
+  "ortRuns": [
+    {
+      "ort": "Lokal in der Nähe der Rue Notre-Dame de Lorette",
+      "revealIndex": 0,
+      "lon": 2.3348999,
+      "lat": 48.879317,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 2,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Lokal mit festen Preisen nahe Rue Notre-Dame de Lorette",
+      "revealIndex": 3,
+      "lon": 2.338082,
+      "lat": 48.877975,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Straße nahe Rue Notre-Dame de Lorette",
+      "revealIndex": 3,
+      "lon": 2.338082,
+      "lat": 48.877975,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Boulevard",
+      "revealIndex": 3,
+      "lon": 2.338082,
+      "lat": 48.877975,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 2,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Rue Notre-Dame de Lorette",
+      "revealIndex": 3,
+      "lon": 2.3374619,
+      "lat": 48.8782876,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 4
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Rue Notre-Dame de Lorette / Paris",
+      "revealIndex": 3,
+      "lon": 2.338082,
+      "lat": 48.877975,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Rue La Fayette",
+      "revealIndex": 21,
+      "lon": 2.34107,
+      "lat": 48.87509,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 4
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Boulevard Poissonnière",
+      "revealIndex": 58,
+      "lon": 2.3456624,
+      "lat": 48.8711873,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Champs-Élysées / Avenue du Bois de Boulogne",
+      "revealIndex": 67,
+      "lon": 2.3402555,
+      "lat": 48.8720522,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Boulevard des Italiens",
+      "revealIndex": 76,
+      "lon": 2.337,
+      "lat": 48.87145,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 6
+        },
+        "gold_mittel": {
+          "neg": 4,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 4
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        }
+      }
+    },
+    {
+      "ort": "Place de la Madeleine",
+      "revealIndex": 131,
+      "lon": 2.3242356,
+      "lat": 48.8697175,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 3,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 5
+        },
+        "gold_mittel": {
+          "neg": 5,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Afrika",
+      "revealIndex": 145,
+      "lon": 2.3259553,
+      "lat": 48.86973,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 2,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Boulevard des Capucines",
+      "revealIndex": 148,
+      "lon": 2.327996,
+      "lat": 48.869944,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Café Américain",
+      "revealIndex": 153,
+      "lon": 2.331462,
+      "lat": 48.870622,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 3,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 1,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Place de l'Opéra",
+      "revealIndex": 165,
+      "lon": 2.3309047,
+      "lat": 48.8717062,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 5
+        },
+        "gold_mittel": {
+          "neg": 1,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        }
+      }
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "revealIndex": 227,
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 2,
+          "pos": 1,
+          "neutral": 1,
+          "unrated": 8
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Café Napolitain",
+      "revealIndex": 240,
+      "lon": 2.3339079,
+      "lat": 48.8707626,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 3
+        },
+        "gold_mittel": {
+          "neg": 2,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        }
+      }
+    },
+    {
+      "ort": "Bois de Boulogne",
+      "revealIndex": 245,
+      "lon": 2.3432636,
+      "lat": 48.8715758,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Parc Monceau",
+      "revealIndex": 246,
+      "lon": 2.3432636,
+      "lat": 48.8715758,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "imaginierter Sommergarten",
+      "revealIndex": 247,
+      "lon": 2.3432636,
+      "lat": 48.8715758,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Bal Musard",
+      "revealIndex": 248,
+      "lon": 2.33874,
+      "lat": 48.87325,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Rue du Faubourg-Montmartre",
+      "revealIndex": 258,
+      "lon": 2.3423065,
+      "lat": 48.8741752,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Folies Bergère",
+      "revealIndex": 263,
+      "lon": 2.3448971,
+      "lat": 48.8740806,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 4,
+          "pos": 2,
+          "neutral": 2,
+          "unrated": 24
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 4,
+          "neutral": 1,
+          "unrated": 8
+        },
+        "gold_hell": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 4
+        }
+      }
+    }
+  ],
+  "poi_labels": [
+    {
+      "name": "Rome",
+      "typ": "bahnhof",
+      "lat": 48.8823012,
+      "lon": 2.3213298,
+      "wichtigkeit": 4.0,
+      "winkel": null
+    },
+    {
+      "name": "Bourse",
+      "typ": "bahnhof",
+      "lat": 48.8686539,
+      "lon": 2.3414383,
+      "wichtigkeit": 4.0,
+      "winkel": null
+    },
+    {
+      "name": "Richelieu - Drouot",
+      "typ": "bahnhof",
+      "lat": 48.8719671,
+      "lon": 2.3392504,
+      "wichtigkeit": 4.0,
+      "winkel": null
+    },
+    {
+      "name": "Aumonerie",
+      "typ": "kirche",
+      "lat": 48.8775729,
+      "lon": 2.3417115,
+      "wichtigkeit": 4.0,
+      "winkel": null
+    },
+    {
+      "name": "Temple Milton",
+      "typ": "kirche",
+      "lat": 48.8772515086516,
+      "lon": 2.3404456997144996,
+      "wichtigkeit": 4.0,
+      "winkel": null
+    },
+    {
+      "name": "Chapelle expiatoire",
+      "typ": "kirche",
+      "lat": 48.87369858326821,
+      "lon": 2.322760705959782,
+      "wichtigkeit": 4.0,
+      "winkel": null
+    },
+    {
+      "name": "Colonne Vendôme",
+      "typ": "denkmal",
+      "lat": 48.86747262144628,
+      "lon": 2.3294383873205753,
+      "wichtigkeit": 3.0,
+      "winkel": null
+    },
+    {
+      "name": "Place Lili et Nadia Boulanger",
+      "typ": "platz",
+      "lat": 48.88218687563553,
+      "lon": 2.3288668706243167,
+      "wichtigkeit": 3.0,
+      "winkel": null
+    },
+    {
+      "name": "Place André Breton",
+      "typ": "platz",
+      "lat": 48.88216516986745,
+      "lon": 2.333658699460632,
+      "wichtigkeit": 3.0,
+      "winkel": null
+    },
+    {
+      "name": "Place de la Madeleine",
+      "typ": "strasse",
+      "lat": 48.87079947718416,
+      "lon": 2.3250337976453985,
+      "wichtigkeit": 3.0,
+      "winkel": 160.54930577477276
+    },
+    {
+      "name": "Boulevard des Capucines",
+      "typ": "strasse",
+      "lat": 48.870663155637175,
+      "lon": 2.3323064121766395,
+      "wichtigkeit": 3.0,
+      "winkel": -171.7950229944968
+    },
+    {
+      "name": "Boulevard Malesherbes",
+      "typ": "strasse",
+      "lat": 48.873180632737096,
+      "lon": 2.3210624477245183,
+      "wichtigkeit": 3.0,
+      "winkel": 125.04512914113863
+    },
+    {
+      "name": "Boulevard de Clichy",
+      "typ": "strasse",
+      "lat": 48.88299001040579,
+      "lon": 2.3357550231439443,
+      "wichtigkeit": 3.0,
+      "winkel": 163.59674476825631
+    },
+    {
+      "name": "Boulevard Haussmann",
+      "typ": "strasse",
+      "lat": 48.8733007798334,
+      "lon": 2.330621279979205,
+      "wichtigkeit": 3.0,
+      "winkel": 172.43219570657266
+    },
+    {
+      "name": "Boulevard Marguerite de Rochechouart",
+      "typ": "strasse",
+      "lat": 48.88219493979117,
+      "lon": 2.340012891439549,
+      "wichtigkeit": 3.0,
+      "winkel": -172.85221259318746
+    },
+    {
+      "name": "Square Montholon",
+      "typ": "park",
+      "lat": 48.87697240601214,
+      "lon": 2.346486507716275,
+      "wichtigkeit": 2.0,
+      "winkel": null
+    }
+  ]
+}

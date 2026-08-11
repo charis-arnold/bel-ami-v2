@@ -1,0 +1,326 @@
+{
+  "kapitel": 15,
+  "beschreibung": "F-Wert-Verteilung (Ebene 3) und Valenz-Durchschnitte (Ebene 2) pro Ort",
+  "f_verteilung_pro_ort": {
+    "Kirche (nicht spezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Bureau des Notars Lamaneur, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Notariatsbüro Paris": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 66.7,
+        "emotion_faerbt_raum": 33.3,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Duroy/Madeleine, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 50.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung Duroys (Innenraum, Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung Duroys (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 5,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 80.0,
+        "emotion_faerbt_raum": 20.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbekannt / Wohnung Duroys": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung der Duroys (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung Duroy/Madeleine (innen)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Straße in Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Juwelierladen, Paris": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Boulevard des Capucines / Théâtre du Vaudeville, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung von Madame de Marelle, Paris (unspezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Restaurant / Théâtre du Vaudeville, Paris (unspezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Treppenhaus, Wohnung Duroy, Paris (unspezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Treppenhaus, erster Stock, Wohnung Duroy, Paris (unspezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbekannter Innenraum (Spiegel)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 50.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    }
+  },
+  "valenz_pro_ort": {
+    "Weg nach Hause (nicht spezifiziert)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung der Duroys (nicht näher spezifiziert)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Bureau des Notars Lamaneur, Paris": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Notariatsbüro Paris": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung Duroy/Madeleine, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroys (Innenraum, Paris)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung Duroys (Paris, unspezifisch)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -1.33,
+      "anzahl_annotationen": 3
+    },
+    "unbekannt / Wohnung Duroys": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -1.8,
+      "anzahl_annotationen": 5
+    },
+    "Wohnung der Duroys (Paris, unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroy/Madeleine (innen)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    },
+    "unbekannt": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Straße in Paris": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 0.67,
+      "anzahl_annotationen": 3
+    },
+    "Restaurant / Théâtre du Vaudeville, Paris (unspezifiziert)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Treppenhaus, Wohnung Duroy, Paris (unspezifiziert)": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Treppenhaus, erster Stock, Wohnung Duroy, Paris (unspezifiziert)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "unbekannter Innenraum (Spiegel)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

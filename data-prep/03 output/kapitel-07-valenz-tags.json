@@ -1,0 +1,71 @@
+{
+  "kapitel": 7,
+  "beschreibung": "Gewichtete Valenz pro Tag-Kategorie — Grundlage für Kreis-Visualisierung",
+  "valenz_pro_tag": {
+    "move": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -2.25,
+      "anzahl_annotationen": 4
+    },
+    "koerper_als_akteur": {
+      "gewichtete_valenz_summe": -66,
+      "gewichtete_valenz_durchschnitt": -1.83,
+      "anzahl_annotationen": 36
+    },
+    "george_duroy": {
+      "gewichtete_valenz_summe": -207,
+      "gewichtete_valenz_durchschnitt": -1.36,
+      "anzahl_annotationen": 152
+    },
+    "mood": {
+      "gewichtete_valenz_summe": -218,
+      "gewichtete_valenz_durchschnitt": -1.49,
+      "anzahl_annotationen": 146
+    },
+    "social": {
+      "gewichtete_valenz_summe": -20,
+      "gewichtete_valenz_durchschnitt": -0.91,
+      "anzahl_annotationen": 22
+    },
+    "time": {
+      "gewichtete_valenz_summe": -30,
+      "gewichtete_valenz_durchschnitt": -2.14,
+      "anzahl_annotationen": 14
+    },
+    "location_erinnerung": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -0.3,
+      "anzahl_annotationen": 10
+    },
+    "weather": {
+      "gewichtete_valenz_summe": -14,
+      "gewichtete_valenz_durchschnitt": -1.4,
+      "anzahl_annotationen": 10
+    },
+    "space": {
+      "gewichtete_valenz_summe": -15,
+      "gewichtete_valenz_durchschnitt": -1.07,
+      "anzahl_annotationen": 14
+    },
+    "atmosphere": {
+      "gewichtete_valenz_summe": -19,
+      "gewichtete_valenz_durchschnitt": -1.27,
+      "anzahl_annotationen": 15
+    },
+    "sound": {
+      "gewichtete_valenz_summe": -22,
+      "gewichtete_valenz_durchschnitt": -1.83,
+      "anzahl_annotationen": 12
+    },
+    "koerper_als_sensor": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    },
+    "material": {
+      "gewichtete_valenz_summe": -12,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 6
+    }
+  }
+}

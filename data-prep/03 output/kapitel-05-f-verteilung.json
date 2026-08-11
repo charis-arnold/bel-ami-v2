@@ -1,0 +1,1281 @@
+{
+  "kapitel": 5,
+  "beschreibung": "F-Wert-Verteilung (Ebene 3) und Valenz-Durchschnitte (Ebene 2) pro Ort",
+  "f_verteilung_pro_ort": {
+    "unbestimmt": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 75.0,
+        "emotion_faerbt_raum": 25.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Forestier (nicht lokalisiert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Salon, Rue de Verneuil": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Zimmer einer Frau (nicht näher spezifiziert)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Forestier (erinnert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Madame de Marelle (unbekannte Adresse, Paris)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unspezifisch, Paris (folgender Tag)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 50.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung Madame de Marelle (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung der Frau": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Restaurant-Separé, Boulevard Poissonière (Näherung)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Privates Separée-Restaurant (nicht näher spezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Privates Restaurant-Separée": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Forestier (Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Restaurant-Privatraum (unspezifiziert)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Privates Dinner, Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Restaurant (unspezifisch, Paris)": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 75.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 25.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Droschke, Paris": {
+      "gesamt_f_annotationen": 5,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 40.0,
+        "emotion_faerbt_raum": 20.0,
+        "koerper_als_sensor": 40.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Vor dem Hauseingang, Paris (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Hauseingang, Paris (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Strasse, Paris (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Paris (allgemein)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "imaginierter Raum (Vision)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Wohnung der Madame de Marelle, Paris (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung von Madame de Marelle (Paris, Näherung)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Salon der Wohnung von Madame de Marelle (Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Salon/Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Salon der Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 3
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 25.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 75.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Esszimmer der Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Madame de Marelles (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie française / Duroys Zimmer (unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer (unbestimmt, Paris)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Duroys Zimmer (genaue Adresse unbekannt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Duroys Zimmer": {
+      "gesamt_f_annotationen": 6,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 66.7,
+        "emotion_faerbt_raum": 16.7,
+        "koerper_als_sensor": 16.7
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Rue de Rome, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer / Treppe": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Mietwohnung (genaue Adresse unbekannt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Rue de Constantinople 127, Paris — Pförtnerloge": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Rue de Constantinople 127, Paris — Schlafzimmer der Wohnung": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Rue de Constantinople 127, Paris — Wohnung": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "gemietetes Zimmer / Liebesnest (Ort unbekannt)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbestimmt, Innenraum": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "äußere Boulevards": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Weinstube, Boulevard (unspezifisch, Lorette-Viertel)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Tanzkneipe 'Weiße Königin', Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Ballokal, Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Spelunken, Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Einfaches Lokal, Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Schwelle eines einfachen Lokals, Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unspezifisch": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie française (ungefähre Lage)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbekannt": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Luxembourg (Restaurant/Quartier)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Garküche (unbekannte Lage, Nähe Redaktion)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Wohnung (innen)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Duroys Wohnung (innen), am Kamin": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Innenraum, Wohnung (nicht spezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Duroys (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Weg nach Hause, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Straße, Paris (Nähe Duroys Wohnung)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Straße mit Restaurants, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Straße, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "unspezifisch, Paris": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbekanntes Lokal/Café, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "verdächtige Lokale, Paris (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Folies-Bergère, Wandelgänge": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Folies-Bergère, Loge": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Folies Bergère, Paris": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 66.7,
+        "emotion_faerbt_raum": 33.3,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Vor den Folies Bergère, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Fahrende Droschke, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Droschke (Paris, unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Straße (Paris, unbestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    }
+  },
+  "valenz_pro_ort": {
+    "unbestimmt": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -0.75,
+      "anzahl_annotationen": 8
+    },
+    "unspezifisch": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Forestier (nicht lokalisiert)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Salon, Rue de Verneuil": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Zimmer einer Frau (nicht näher spezifiziert)": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung Forestier (erinnert)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Madame de Marelle (unbekannte Adresse, Paris)": {
+      "gewichtete_valenz_summe": 5,
+      "gewichtete_valenz_durchschnitt": 2.5,
+      "anzahl_annotationen": 2
+    },
+    "unspezifisch, Paris (folgender Tag)": {
+      "gewichtete_valenz_summe": 5,
+      "gewichtete_valenz_durchschnitt": 2.5,
+      "anzahl_annotationen": 2
+    },
+    "Salon der Wohnung, Rue Notre-Dame de Lorette (Näherung)": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "unbekannt": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -0.6,
+      "anzahl_annotationen": 5
+    },
+    "Wohnung der Frau": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Privates Separée-Restaurant (nicht näher spezifiziert)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Privates Restaurant-Separée": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Restaurant-Separé, Paris (unspezifisch)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Paris (allgemein, gesellschaftliches Milieu)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Restaurant-Privatraum (unspezifiziert)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Privates Dinner, Paris (unspezifisch)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Restaurant (unspezifisch, Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Droschke, Paris": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -1.25,
+      "anzahl_annotationen": 4
+    },
+    "Erinnerung an Forestiers Wohnung": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Vor Madame de Marelles Wohnung, Paris": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Droschke / vor Wohnung Madame de Marelle, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Vor dem Hauseingang, Paris (unbestimmt)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Esszimmer der Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "Salon der Wohnung Madame de Marelles (Paris, unspezifisch)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung Madame de Marelles (unbestimmt)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Redaktion La Vie française / Duroys Zimmer (unbestimmt)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (unbestimmt, Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (genaue Adresse unbekannt)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -0.5,
+      "anzahl_annotationen": 8
+    },
+    "Rue de Constantinople 127, Paris — Wohnung": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "gemietetes Zimmer / Liebesnest (Ort unbekannt)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 4
+    },
+    "unbestimmt, Innenraum": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "äußere Boulevards": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Weinstube, Boulevard (unspezifisch, Lorette-Viertel)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Restaurant/Lokal, Nähe 'Weiße Königin'": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Restaurant/Lokal, Paris": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -1.8,
+      "anzahl_annotationen": 5
+    },
+    "Tanzkneipe 'Weiße Königin', Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Spelunken, Paris (unspezifisch)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Einfaches Lokal, Paris (unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Schwelle eines einfachen Lokals, Paris (unspezifisch)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Straße vor der gemeinsamen Wohnung": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Wohnung (innen)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "Innenraum, Wohnung (nicht spezifiziert)": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroys (unspezifisch)": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -1.25,
+      "anzahl_annotationen": 4
+    },
+    "Straße mit Restaurants, Paris": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Straße, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "unspezifisch, Paris": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -1.75,
+      "anzahl_annotationen": 4
+    },
+    "unbekanntes Lokal/Café, Paris": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -2.5,
+      "anzahl_annotationen": 2
+    },
+    "Folies Bergère, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Fahrende Droschke, Paris": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Droschke (Paris, unbestimmt)": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 3
+    },
+    "Straße (Paris, unbestimmt)": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 3
+    }
+  }
+}

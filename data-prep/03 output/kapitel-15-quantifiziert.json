@@ -1,0 +1,4352 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 16,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 178,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Seit zwei Monaten war die Eroberung Marokkos vollzogen.",
+      "tags": [
+        "historical",
+        "time"
+      ],
+      "notiz": "Maupassant setzt den historisch-politischen Rahmen: Die Annexion Marokkos als zeitliche Verortung der Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Marokko",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 2,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Frankreichs Herrschaft dehnte sich von Tanger, das es besetzt hatte, über die ganze afrikanische Mittelmeerküste bis nach Tripolis, und es hatte die Schulden der annektierten Gebiete anerkannt und garantiert.",
+      "tags": [
+        "historical",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt den kolonialen Expansionsraum als geopolitische Kulisse der Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Tanger / Afrikanische Mittelmeerküste / Tripolis",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 3,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Man erzählte, daß zwei Minister dabei gegen zwanzig Millionen verdient hätten und man nannte ganz laut den Namen Laroche-Mathieus.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Erzähler schildert die öffentliche Korruptionsrede als gesellschaftlich-politischen Kontext.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 4,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Was Vater Walter anging, so wußte ganz Paris, daß er ein doppelt vorteilhaftes Geschäft gemacht hatte. Er hatte sich dreißig bis vierzig Millionen an der Anleihe in die Tasche gesteckt und etwa 8 bis 10 Millionen an den Kupfer- und Erzbergwerken verdient, indem er unermeßliche Ländereien noch vor der Eroberung für ein Spottgeld gekauft und gleich nach der französischen Okkupation an Kolonialgesellschaften wieder verkauft hatte.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt Walters kolonialen Profitmechanismus als gesellschaftliche Tatsache, die ganz Paris bekannt ist.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 5,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Er war binnen weniger Tage zu einem der Herrscher der Welt geworden, einer jener allmächtigen Finanzmänner, die mächtiger sind als die Könige, vor denen sich die Köpfe verbeugen, vor denen die Zungen stammelnd reden, und vor denen alles zutage tritt, was an Gemeinheit, Feigheit und Niedertracht im tiefen Menschenherzen überhaupt verborgen ist.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler kommentiert Walters sozialen Aufstieg mit moralisierender Beobachterperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 6,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Er war nicht mehr der Jude Walter, Direktor einer zweifelhaften kleinen Bank, der Herausgeber einer verdächtigen Zeitung, ein Abgeordneter, der sich mit schmutzigen Börsenmanövern abgab. Jetzt war er Herr Walter, der reiche Israelit.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Erzähler markiert Walters sozialen Wandel durch Benennung und antisemitische Kategorisierung als zeitgeschichtliches Dokument.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 7,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Er erfuhr, daß der Prinz von Carlsbourg, der Besitzer des schönsten Schlosses im Faubourg-Saint-Honoré, mit einem Garten nach den Champs-Elysées, sich in Geldverlegenheit befand.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Erzähler benennt konkret das Schloss im Faubourg-Saint-Honoré als Objekt von Walters sozialem Aufstieg.",
+      "koordinaten": {
+        "lat": 48.8738,
+        "lng": 2.3085,
+        "ort_bezeichnung": "Faubourg-Saint-Honoré / Champs-Élysées, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 8,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Er schlug ihm vor, in vierundzwanzig Stunden dieses Grundstück nebst Gebäude abzukaufen, wobei er auch die gesamten Möbel übernehmen würde, ohne daß auch nur ein Sessel von seinem Platz gerührt werden dürfte. Er bot drei Millionen an. Der Prinz ließ sich durch die hohe Summe verleiten und nahm das Angebot an.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt Walters Kauf des Schlosses inklusive Mobiliar als demonstrative Geste sozialen Aufstiegs.",
+      "koordinaten": {
+        "lat": 48.8738,
+        "lng": 2.3085,
+        "ort_bezeichnung": "Schloss im Faubourg-Saint-Honoré, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 9,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Am nächsten Tage zog Herr Walter in sein neues Palais ein.",
+      "tags": [
+        "time",
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant markiert den Einzug Walters in sein neues Palais als zeitlichen und sozialen Wendepunkt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Neues Palais von Herrn Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 10,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "der Einfall eines Eroberers, der Paris einnehmen will nach der Art eines Bonapartes",
+      "tags": [
+        "historical",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant vergleicht Walters Aufstiegsstrategie mit napoleonischer Conquista — historisch-politische Referenz auf den Ersten bzw. Dritten Napoleon.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 11,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die ganze Stadt ging damals zum Kunstgelehrten Jacques Lenoble, um ein Gemälde des ungarischen Malers Karl Markowitsch, »Jesus auf dem Meere schreitend«, zu besichtigen.",
+      "tags": [
+        "location",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den kollektiven Kunstkonsum der Pariser Gesellschaft als sozialen Rahmen für Walters Coup.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Galerie des Kunstgelehrten Jacques Lenoble, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 12,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Walter kaufte es für 500000 Francs und ließ es abholen; so schnitt er von heute auf morgen den Strom der Neugierde des Publikums und der Kunstliebhaber ab und zwang ganz Paris, von ihm zu sprechen, ihn zu beneiden, zu tadeln oder zu loben.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert von aussen Walters sozialen Machtzug und seine Wirkung auf die Pariser Öffentlichkeit.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 13,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Dann ließ er durch die Zeitungen verkünden, er würde bekannte Mitglieder der Pariser Gesellschaft einladen, um das Meisterwerk des ausländischen Künstlers zu bewundern, damit man nicht sagen könne, er habe das Kunstwerk hinter Schloß und Riegel gesetzt.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Walters mediale Inszenierungsstrategie gegenüber der Pariser Gesellschaft.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 14,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "»Herr und Frau Walter beehren sich, Sie zum 30. Dezember, zwischen neun Uhr und Mitternacht, zur Besichtigung des Gemäldes von Karl Markowitsch, Jesus auf dem Wasser schreitend, bei elektrischer Beleuchtung, ergebenst einzuladen.«",
+      "tags": [
+        "time",
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant zitiert die Einladungskarte als soziales Dokument und gibt ein konkretes Datum und eine Uhrzeit als Erzählerangabe an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 15,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Als Postskriptum stand dahinter in ganz kleinen Buchstaben: »Nach Mitternacht wird getanzt.«",
+      "tags": [
+        "time",
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt das gesellschaftliche Kalkül in der Einladungsgestaltung — das Tanzen als sozialer Anreiz zum Bleiben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 16,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Diejenigen, die bleiben wollten, konnten also bleiben, und aus diesen Gästen wollten sich Walters ihren Bekanntenkreis für die Zukunft auswählen.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant erklärt die soziale Selektionsstrategie der Walters — wer bleibt, gehört zum auserwählten Kreis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 17,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die anderen würden das Kunstwerk, das Haus und seine Eigentümer mit hochfeiner, gleichgültiger oder neidischer und unverschämter Neugierde betrachten und dann wieder gehen, wie sie gekommen waren.",
+      "tags": [
+        "social",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Differenzierung der Besucher im Raum des neuen Palais.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Palais Walter",
+        "emotion": "Neid, Neugierde, soziale Distanz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 18,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Und Papa Walter wußte ganz genau, daß sie später doch wiederkommen würden, genau so, wie sie mit seinen israelitischen Stammesgenossen verkehrten, die auch so wie er es zu Reichtum gebracht hatten.",
+      "tags": [
+        "social",
+        "historical",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant verweist auf das antisemitisch gefärbte Sozialmilieu der Dritten Republik und die gesellschaftliche Integration jüdischer Aufsteiger als historisch-politischen Kontext.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 19,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Zunächst mußten alle gescheiterten Würdenträger und bekannte vornehme Namen, die in den Zeitungen genannt wurden, sein Haus besuchen; sie würden kommen, um das Gesicht des Mannes zu sehen, der binnen sechs Wochen fünfzig Millionen verdient hatte",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Dynamik rund um Walters Einladung und seinen Reichtum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 20,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "weil er so viel guten Geschmack und Gewandtheit gezeigt hatte, sie zur Bewunderung eines religiös-christlichen Gemäldes einzuladen — er, der doch ein Sohn Israels war",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Erzähler beschreibt die gesellschaftliche Ironie von Walters antisemitisch konnotierten Einladung aus einer externen Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 21,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "»Sehen Sie, ich habe 500000 Francs für das Meisterwerk religiöser Kunst von Markowitsch, Jesus auf dem Meere schreitend, gezahlt. Und dieses Meisterwerk bleibt jetzt bei mir, vor meinen Augen, im Hause des Juden Walter.«",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Erzähler zitiert Walters implizite Botschaft über Kunstbesitz und sozialen Status als äussere Beobachtung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 22,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "In den vornehmen Gesellschaftskreisen, in den Kreisen der Herzoginnen und des Jockeiklubs, hatte man über diese Einladungen, die doch zu gar nichts verpflichteten, hin und her geredet.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt das Gesellschaftsklima und die Reaktion der Pariser Oberschicht auf Walters Einladung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Pariser Gesellschaft (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 23,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Man würde hingehen, wie man bei Herrn Petit die Aquarelle besichtigte.",
+      "tags": [
+        "social",
+        "location"
+      ],
+      "notiz": "Erzähler nennt als Vergleich den Ausstellungsort bei Herrn Petit als Referenzpunkt für gesellschaftliche Kunstereignisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "bei Herrn Petit (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 24,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Walters besaßen ein Meisterwerk, und nun öffneten sie für einen Abend die Türen ihres Hauses, damit alle Welt es bewundern könnte.",
+      "tags": [
+        "social",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt neutral das Öffnen des Hauses Walter als gesellschaftliches Ereignis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 25,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die Vie Française brachte seit vierzehn Tagen jeden Morgen eine Notiz über diese Soiree vom 30. Dezember und gab sich alle Mühe, die Neugierde des Publikums möglichst zu steigern.",
+      "tags": [
+        "time",
+        "historical",
+        "location"
+      ],
+      "notiz": "Erzähler nennt das konkrete Datum und die Zeitung als neutrale Erzählerangabe zur zeitlichen Einbettung des Ereignisses.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion Vie Française (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 26,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy raste innerlich gegen den Triumph seines Herrn Direktors.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Wut über Walters Erfolg wird aus seiner Perspektive beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Walters gesellschaftlicher Triumph",
+        "emotion": "Wut, Neid",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 27,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er hatte sich mit seinen 500000 Francs für unermeßlich reich gehalten, die er seiner Frau abgepreßt hatte, und nun kam er sich so arm, so bettelarm im Vergleich zu dem Millionenregen vor, der ringsumher niedergefallen war, ohne daß er davon etwas hatte auffangen können.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt seinen eigenen Reichtum im Vergleich zu Walter als Armut — inneres soziales Schamgefühl aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "sozialer Raum des Pariser Reichtums",
+        "emotion": "Gefühl der Armut, Ausgeschlossensein",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 28,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Seine grimmige Wut und sein Neid nahmen täglich zu: er haßte alle Welt, die Walters., zu denen er jetzt überhaupt nicht mehr hinging, seine Frau, die sich von Laroche beschwatzen ließ und ihm abgeraten hatte, die marokkanische Anleihe zu kaufen, und vor allen Dingen grollte er gegen den Minister, der ihn hereingelegt und ausgenutzt hatte",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys wachsende Wut und Neid auf alle Welt — innerer Zustand der Verbitterung über soziale und finanzielle Benachteiligung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 29,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "wenn er nach seinem Diktat schrieb, empfand er oft eine wahnsinnige Lust, diesen triumphierenden, wichtigtuenden Gecken zu erdrosseln",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt beim Schreiben nach Diktat einen impulsiven Gewaltimpuls gegenüber Laroche — extremer innerer Affekt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 30,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Doch Du Roy spürte dieses Gold an dem hochmütigen Tone des emporgekommenen Rechtsanwalts, an seinem frechen Auftreten, an seinen selbstsicheren Behauptungen und seinem unbeschreiblichen Selbstvertrauen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt Laroches neu gewonnenen Reichtum durch dessen Verhalten wahr — sensorisch-soziale Wahrnehmung von Statusunterschied.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unspezifisch",
+        "emotion": "Neid, Verbitterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 31,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Laroche regierte jetzt im Hause Du Roys, wo er die Stelle des Grafen de Vaudrec eingenommen hatte sowie seine Besuchstage; und er sprach mit den Dienstboten, als ob er der zweite Hausherr wäre.",
+      "tags": [
+        "location",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen, wie Laroche das Haus Duroys dominiert und symbolisch die Stelle Vaudrecs eingenommen hat.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Du Roy (Wohnung Madeleine und Georges)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 32,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Georges duldete ihn zähneknirschend, wie ein Hund, der beißen will, es aber nicht wagt.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperlich-emotional unterdrückter Zorn gegenüber Laroche — Körper als Ausdrucksmedium verdrängter Aggression.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 33,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Er war jetzt öfters hart und rücksichtslos gegen Madeleine, die mit den Achseln zuckte und ihn als ein unartiges Kind behandelte.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys Verhalten gegenüber Madeleine und ihre Reaktion darauf.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 34,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er hatte zunächst erklärt, er ginge nicht zum Fest beim Chef; er denke nicht daran, mit diesem schmutzigen Juden zu verkehren.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy lehnt die Einladung zum Fest bei Walter innerlich ab — Ausdruck von Neid, Hass und sozialer Ablehnung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 35,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Seit zwei Monaten schrieb ihm Frau Walter täglich Briefe und bat ihn, zu ihr zu kommen oder ihr ein Rendezvous zu bestimmen, wo es ihm paßte, um ihm, wie sie sagte, die 70000 Francs auszuhändigen, die sie für ihn gewonnen hatte.",
+      "tags": [
+        "social",
+        "time"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Briefe Frau Walters und den finanziellen Kontext der Beziehung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 36,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er antwortete überhaupt nicht und warf alle diese verzweifelten Briefe ins Feuer. Nicht etwa weil er auf seinen Gewinnanteil verzichtet hätte, sondern er wollte sie verrückt machen, sie auf die Knie zwingen, und sie spüren lassen, wie verächtlich er sie behandele.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy handelt aus innerem Machtkalkül und Verachtung — sein innerer Zustand wird explizit dargelegt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 37,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Sie war zu reich! Er wollte sich stolz zeigen!",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys inneres Erleben seiner eigenen sozialen Lage gegenüber der reichen Frau Walter treibt sein Handeln.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unspezifisch",
+        "emotion": "Stolz, Neid, Machtstreben",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 38,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Dann, nach dem Abendessen, erklärte er plötzlich: »Es wird wohl trotzdem besser sein, wenn wir uns dieser langweiligen Pflicht unterziehen. Ziehe dich schnell an.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys plötzlicher Sinneswandel offenbart seine innere Unentschlossenheit und Ambivalenz.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 39,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er kleidete sich brummend an, und noch in der Droschke fuhr er fort, seiner Galle freien Lauf zu lassen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich zur Veranstaltung, dabei äussert er seinen inneren Unmut körperlich und verbal.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Droschke auf dem Weg zum Palais Carlsbourg",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 40,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die Hofeinfahrt zum Palais Carlsbourg war durch vier Bogenlampen, die wie vier kleine bläuliche Monde aussahen, von allen vier Ecken hell beleuchtet.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die imposante Beleuchtung des Palais Carlsbourg als äussere Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Carlsbourg (fiktiv)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 41,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Ein prachtvoller Teppich lag auf den Stufen der hohen Freitreppe und auf jeder Stufe stand, unbeweglich wie eine Bildsäule, ein Diener in Livree.",
+      "tags": [
+        "social",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert von aussen den prunkvollen Empfang als Zeichen sozialer Macht und Reichtum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Carlsbourg (fiktiv)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 42,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy brummte: »Diese Protzerei!« Er zuckte die Achseln, verzehrt von Neid und Eifersucht.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy reagiert körperlich und emotional auf den Prunk des Palais — Neid und Eifersucht als explizit benannte Gefühle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Carlsbourg (fiktiv)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Palais Carlsbourg",
+        "emotion": "Neid, Eifersucht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 43,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie traten ein und ließen sich ihre schweren Abendmäntel von den Dienern abnehmen, die auf sie zutraten.",
+      "tags": [
+        "move",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das Betreten des Palais und den Empfang durch die Diener.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Carlsbourg (fiktiv)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 44,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Man hörte ringsumher flüstern: »Wie herrlich, wie wunderschön.«",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant gibt die bewundernden Flüsterlaute der Gäste als atmosphärische Kulisse wieder.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Carlsbourg (fiktiv)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 45,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die gewaltige Vorhalle war mit Gobelins behängt, welche den Liebesmythus des Mars und der Venus darstellten.",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die prächtige Ausstattung der Eingangshalle als Zeichen von Reichtum und Kunstsinn.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Carlsbourg (fiktiv)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 46,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Rechts und links stiegen die beiden Teile der prunkhaften, monumentalen Treppe empor, die im ersten Stock zusammenliefen.",
+      "tags": [
+        "space",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die imposante Treppenanlage des Hauses Walter von aussen als räumliche Struktur.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (privates Stadtpalais)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 47,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Das eiserne Geländer war ein Meisterwerk der Schmiedekunst; seine alte verblaßte Vergoldung warf einen zarten und sanften Schimmer auf die roten marmornen Treppenstufen.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die materielle Pracht des Geländers und der Treppenstufen als Zeichen sozialen Reichtums.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (Treppenhaus)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 48,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Am Eingange zu den Salons standen zwei kleine Mädchen, die eine in Rosa, die andere in Blau gekleidet und überreichten den Damen Blumensträuße.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert die aufwendige gesellschaftliche Inszenierung des Empfangs bei Walter von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (Eingang zu den Salons)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 49,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "In den Sälen befanden sich schon eine ganze Menge Besucher. Die meisten Frauen waren in Straßentoilette erschienen, um damit zu betonen, daß sie hierher nur so gekommen waren wie zu jeder anderen privaten Kunstausstellung.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beobachtet das gesellschaftliche Verhalten der Gäste als aussenstehender Erzähler.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (Salons)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 50,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Frau Walter hielt sich, umgeben von Freundinnen, im zweiten Säle auf und begrüßte die Gäste.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant nennt einen konkreten Raum im Haus Walter und beschreibt Frau Walters Rolle als Gastgeberin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (zweiter Salon)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 51,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Georges ließ seine Frau neben der Frau Direktor stehen und mischte sich unter die Menge, um sich boshafte Bemerkungen anzuhören, die hier sicherlich nicht fehlen dürften.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy handelt aus einem inneren Kalkül heraus — er sucht bewusst die Menge auf, um gesellschaftliche Schadenfreude zu erlauschen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (Salons)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Palais Walter, Salons",
+        "emotion": "boshafte Neugier, soziale Berechnung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 52,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Fünf Salons folgten einer auf den anderen, sie waren mit kostbaren Stoffen tapeziert, mit alten italienischen Stickereien oder orientalischen Teppichen in allen Farben und Stilarten geschmückt; darüber hingen an den Wänden Gemälde alter berühmter Meister.",
+      "tags": [
+        "space",
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die Raumfolge des Palais Walter als Ausdruck grossbürgerlichen Reichtums und Repräsentationswillens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (Raumfolge der fünf Salons)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 53,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Vor allem bewunderte man einen kleinen Salon im Stil Louis XVI., eine Art von Boudoir, das ganz mit hellblauer Seide mit ausgestickten Rosensträußen tapeziert war. Die Möbel aus vergoldetem Holz waren mit dem gleichen Stoff bezogen; die ganze Einrichtung war von einer wunderbaren Feinheit.",
+      "tags": [
+        "space",
+        "material",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant hebt das Louis-XVI.-Boudoir als besonders erlesenen Raum hervor — eine Kulissenbeschreibung des sozialen Glanzes.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (Louis-XVI.-Boudoir)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 54,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Georges erkannte in der Menge die Pariser Berühmtheiten, die Herzogin de Terracine, den Grafen und die Gräfin Ravenel, den General Prinz d'Andremont, die bildschöne Marquise des Dunes, und dann alle die Herren und Damen, die man gewöhnlich bei Premieren sieht.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy nimmt die gesellschaftlichen Eliten wahr und ordnet sie in die Pariser Premierenwelt ein.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon / Ausstellungsraum (Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 55,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er war entzückt, sie wieder zu sehen und drückte ihr offenherzig die Hand.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet echte Freude beim Wiedersehen mit Suzanne Walter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon / Ausstellungsraum (Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 56,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie gingen langsam durch die Menge. Man drehte sich um und blickte diesem schönen jungen Mann und dieser entzückenden Puppe nach.",
+      "tags": [
+        "move",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das Aufsehen, das Duroy und Suzanne in der Gesellschaft erregen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon / Ausstellungsraum (Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 57,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Ein bekannter Maler meinte: »Dieses Paar ist tatsächlich sehr hübsch und reizend.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Erzähler gibt die Fremdwahrnehmung eines Malers wieder, der das Paar von aussen beurteilt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon / Ausstellungsraum (Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 58,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Georges dachte: »Wenn ich wirklich stark wäre, müßte ich die heiraten. Es wäre doch möglich. Warum habe ich nie daran gedacht? Wie konnte ich nur die andere nehmen? Wie töricht! Man handelt immer zu schnell und denkt nie genügend nach.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert innerlich über eine verpasste Aufstiegsmöglichkeit durch Heirat mit Suzanne Walter und bereut seine bisherigen Entscheidungen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon / Ausstellungsraum (Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Salon der Walters",
+        "emotion": "Neid, Bedauern, Ehrgeiz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 59,
+      "zeile": 21,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Und der Neid, der bittere Neid, fiel tropfenweise in sein Herz wie Galle, die ihm alle seine Freude verdarb und sein ganzes Leben verhaßt machte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Zustand wird durch eine körperliche Metapher des Neids beschrieben, der seine gesamte Wahrnehmung vergällt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon / Ausstellungsraum (Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Salon der Walters",
+        "emotion": "bitterer Neid, Lebensverdruss",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 60,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er folgte noch immer seinem Gedankengang",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy ist innerlich abgelenkt und folgt seinen eigenen Gedanken, nicht dem Gespräch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon/Festsaal (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 61,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er lächelte ironisch und hochmütig und begann die Namen der Vorübergebenden zu nennen, alles sehr vornehme Leute, die ihre verrosteten Adelsschilder an Töchter reicher Finanzleute so gern verkauft hatten, die nun mit ihren Frauen oder auch ohne sie lebten, jedenfalls frei, unverschämt und doch bekannt und geachtet.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy beobachtet ironisch-hochmütig die soziale Klasse der Vorübergehenden und denkt über Adelstitel und Geld nach.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon/Festsaal (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Salon mit vornehmen Gästen",
+        "emotion": "ironische Verachtung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 62,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er fuhr fort: »Es vergehen keine sechs Monate und Sie haben auf diesen Köder angebissen. Sie werden Marquise, Herzogin oder Fürstin, und Sie werden dann auf mich von oben herabblicken, mein liebes Fräulein.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert seinen eigenen sozialen Status im Vergleich zu Suzanne und zeigt bittere Ironie über gesellschaftliche Aufstiegswege.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon/Festsaal (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 63,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er stieß mitleidig ein »Oh« aus. »Sprechen wir nicht davon, kaum 20000 im Jahr. Das ist nicht viel heutzutage.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet sein Einkommen als unzulänglich und äußert das mit gespielter Selbstmitleidigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon/Festsaal (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 64,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "»Ja, es war eine Million für uns beide. 40000 Francs Einkommen. Wir können uns damit nicht mal eine Equipage leisten.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy beklagt das Unvermögen, mit dem gemeinsamen Erbe den gewünschten Lebensstandard zu erreichen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Salon/Festsaal (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 65,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie gelangten in den letzten Saal, vor ihnen tat sich ein großer Wintergarten auf, mit hochragenden, tropischen Bäumen und einer Menge seltener Blumen.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Der Erzähler beschreibt den Übergang in den Wintergarten als konkreten Ort mit exotischer Vegetation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Salon (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 66,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Über dieses dunkle Grün glitt das Licht in silbernen Wogen",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Der Erzähler beschreibt die Lichtstimmung im Wintergarten als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Salon (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 67,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "man atmete die laue Frische der feuchten Erde und die verschiedensten Wohlgerüche ein",
+      "tags": [
+        "smell",
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt die Geruchskulisse des Wintergartens aus der unpersönlichen Außenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Salon (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 68,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Man hatte dabei ein seltsames, gesundes, aber angenehmes und bezauberndes Empfinden der künstlichen, reizvollen und entnervten Natur.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Der Erzähler charakterisiert die ambivalente Stimmung des Wintergartens als artifizielle Natur, die gleichzeitig belebend und entnervend wirkt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Salon (Kontext Wanderley-Empfang)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten",
+        "emotion": "bezauberndes, aber entnervtes Empfinden künstlicher Natur",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 69,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Man schritt auf Teppichen, die weich wie das Moos waren, zwischen dichten Beeten mit Gebüschen und Blattpflanzen.",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den luxuriösen Innenraum von aussen als üppige, weiche Umgebung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 70,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Plötzlich erblickte Du Roy zur Linken unter einer weiten Wölbung von Palmen ein riesiges Marmorbassin, so groß, daß man darin baden konnte.",
+      "tags": [
+        "george_duroy",
+        "space"
+      ],
+      "notiz": "Duroy nimmt aktiv den prunkvollen Raum wahr — sein Blick fällt auf das imposante Bassin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Marmorbassin unter Palmen",
+        "emotion": "Staunen, Begehren",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 71,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Am Rande standen vier weiße Delfter Porzellanschwäne, aus deren halbgeöffneten Schnäbeln das Wasser in das Becken floß. Der Boden des Bassins war mit Goldsand bestreut, und man sah im Wasser ein paar große rote Fische schwimmen, seltsame chinesische Ungetüme mit hervorstehenden Augen, mit blau geränderten Schuppen, eine Art Mandarine der Fluten; sie schwammen über den goldenen Grund und sahen wie seltsame lebende Stickereien aus.",
+      "tags": [
+        "material",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den dekadenten Luxus des Bassins als soziales Statussymbol von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 72,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Der Journalist blieb stehen; sein Herz klopfte.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliche Reaktion auf den Luxus — das Herzklopfen zeigt emotionale Überwältigung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Marmorbassin, Luxusinterieur",
+        "emotion": "körperliche Erregung, Begehren",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 73,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er dachte: »Das ist ein Luxus! In solchen Häusern lohnt es zu leben. Anderen ist das gelungen, warum sollte ich es nicht so weit bringen können.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy vergleicht seinen sozialen Status mit dem der Reichen und entwickelt Aufstiegsambitionen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Luxuriöses Stadtpalais",
+        "emotion": "Begehren, sozialer Neid, Ehrgeiz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 74,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sann über die Möglichkeit und über die Mittel nach, fand aber keine und ärgerte sich über seine Ohnmacht.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert seinen sozialen Aufstieg und erlebt Frustration über seine eigene Machtlosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Luxuriöses Stadtpalais",
+        "emotion": "Ärger, Ohnmacht, sozialer Ehrgeiz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 75,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er betrachtete sie von der Seite und dachte noch einmal: »Es genügt doch, einfach diese lebende Puppe zu heiraten.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy kalkuliert kühl die Möglichkeit, Suzanne zu heiraten als Mittel zum sozialen Aufstieg.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Luxuriöses Stadtpalais",
+        "emotion": "kaltes Kalkül, sozialer Ehrgeiz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 76,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Sie stieß Georges durch eine Gruppe von Menschen, die ihnen im Wege standen und führte ihn plötzlich nach rechts.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy wird körperlich durch den Raum geführt — Bewegung aus seiner Perspektive als passiver Akteur.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 77,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Mitten in einem Gebüsch von seltsamen Pflanzen, deren zitternde Blätter gespreizten Händen mit langen, dünnen Fingern glichen, sah man einen Mann, der unbeweglich auf dem Meere stand.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die szenische Inszenierung des Gemäldes im Pflanzendickicht von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 78,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Der Eindruck war überwältigend. Die Ränder des Bildes waren durch das bewegliche Grün verdeckt und so erschien es wie eine dunkle Öffnung, durch die man in der phantastischen märchenhaften Ferne eine ergreifende Gestalt sah.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die atmosphärische Wirkung des Gemäldes als Erzähler von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 3,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 79,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Man mußte das Gemälde sehr genau betrachten, um es zu verstehen. Der Rahmen durchschnitt gerade die Mitte des Kahnes, in dem die Apostel saßen. Sie waren nur schwach durch die schrägen Strahlen einer Laterne beleuchtet.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant erläutert das Gemälde und seine Komposition neutral als Erzähler.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Luxuriöses Stadtpalais / Empfangsräume (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 80,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Einer von ihnen, der am Rande des Kahnes saß, ließ das helle Licht auf Jesus fallen. Christus näherte sich und trat auf eine Woge; man sah, wie sie sich überschlug und ergeben und zärtlich glättete vor dem göttlichen Fuß, der sie niedertrat. Rings um den Gottessohn war alles dunkel. Nur die Sterne glänzten am Himmel. Die Gesichter der Apostel waren unbestimmt beleuchtet durch ein Licht, das der eine in der Hand trug und auf den Heiland zeigte. Sie schienen vor Staunen erstarrt zu sein.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Der Erzähler beschreibt ein Gemälde (Christus auf dem Wasser) mit atmosphärischer Detailgenauigkeit — Licht, Dunkel, Figuren.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 81,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Das war wirklich das mächtige, unverhoffte Kunstwerk eines Meisters, eine jener Schöpfungen, die uns im Innersten ergreifen und uns jahrelang davon träumen lassen.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler kommentiert die Wirkungsmacht des Gemäldes aus auktorialer Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum",
+        "emotion": "Ergriffenheit, Staunen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 3,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 82,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die Menschen, die dieses Werk betrachteten, blieben zunächst stumm und unbeweglich stehen, dann gingen sie nachdenklich weiter und sprachen nachher nur vom Bild und der wundervollen Malerei.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Der Erzähler beschreibt das kollektive Verhalten des Publikums vor dem Gemälde von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 83,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy besah es sich eine Weile und erklärte: »Es muß doch hübsch sein, sich solche Kostbarkeiten leisten zu können.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy betrachtet das Gemälde und reagiert nicht mit ästhetischem Staunen, sondern mit einem sozialen Reflex auf Besitz und Reichtum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum",
+        "emotion": "soziales Begehren, Neid auf Reichtum",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 84,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Aber die Menge drängte sich um ihn und stieß ihn, um sehen zu können.",
+      "tags": [
+        "koerper_als_akteur",
+        "space",
+        "social"
+      ],
+      "notiz": "Der Erzähler beschreibt die physische Bedrängnis der Menge um Duroy herum von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 85,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er ging weiter, ohne die Hand Suzannes, die auf seinem Arm ruhte und die er leicht an sich preßte, loszulassen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy bewegt sich durch den Ausstellungsraum und hält Suzannes Hand — physische Nähe als bewusste Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 86,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "sie schritten langsam durch alle Räume.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space"
+      ],
+      "notiz": "Duroy und Suzanne bewegen sich gemeinsam durch die Räume der Ausstellung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 87,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die Menge schwoll mehr und mehr an. Diese elegante, unbekümmerte, lärmende Menge, wie sie bei allen öffentlichen Festlichkeiten zu sehen ist.",
+      "tags": [
+        "atmosphere",
+        "social",
+        "sound",
+        "space"
+      ],
+      "notiz": "Der Erzähler beschreibt das Anwachsen der eleganten, lärmenden Festgesellschaft als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum",
+        "emotion": "Lärm, Unbekümmertheit, gesellschaftliche Leichtigkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 88,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Plötzlich glaubte Du Roy zu hören, wie eine Stimme sagte: »Das ist Laroche und Madame Du Roy.« Diese Worte streiften leise sein Ohr wie ein weit entferntes Geräusch.",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt aus der Menge einen Satz wahr, der seinen Namen und den seiner Frau enthält — ein auditiver Schock im Gedränge.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum",
+        "emotion": "Schrecken, Desorientierung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 89,
+      "zeile": 21,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Woher kamen sie? Er sah sich nach allen Seiten um und erblickte in der Tat seine Frau, die am Arm des Ministers vorbeiging.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space"
+      ],
+      "notiz": "Duroy sucht desorientiert nach der Quelle der Stimme und entdeckt seine Frau mit dem Minister — räumliche Wahrnehmung als emotionaler Schock.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum",
+        "emotion": "Schock, Eifersucht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 90,
+      "zeile": 23,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er glaubte zu bemerken, daß man bei ihrem Anblick sich etwas zuflüsterte, er empfand das brutale und törichte Verlangen, auf die beiden loszustürzen und sie mit Fäusten niederzuschlagen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur",
+        "social"
+      ],
+      "notiz": "Duroy spürt die soziale Beschämung durch das Getuschel der Menge und reagiert mit einem impulsiven, körperlich-aggressiven Verlangen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum (Kunstausstellung, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum",
+        "emotion": "Wut, Eifersucht, soziale Scham",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 91,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Sie machte ihn lächerlich; er dachte an Forestier. Vielleicht sagt man schon: »Dieser betrogene Ehemann Du Roy.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy fühlt sich durch seine Frau blamiert und denkt an seinen Vorgänger Forestier — inneres Erleben von Scham und sozialem Statusverlust.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 92,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Wer war sie denn eigentlich? Eine kleine Frau dunkler Herkunft, ziemlich geschickt emporgekommen, aber mit kleinen Mitteln und ohne besondere Begabung. Man besuchte ihn, weil man ihn und seinen Einfluß fürchtete, weil er stark war, aber man sprach sicher ungeniert über diese Journalistenehe.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy wertet seine Frau innerlich ab und grübelt über das gesellschaftliche Ansehen der Ehe — inneres Selbstmitleid und Statusdenken.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 93,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Mit dieser Frau könnte er es nie weit bringen, die sein Haus stets verdächtig erscheinen ließ, sie kompromittierte sich selbst und ihn, und man sah an ihrem Auftreten und Benehmen, daß sie eine Intrigantin war. Sie war jetzt ein Gewicht, das er am Fuße schleppte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erlebt seine Frau als Last, die seinen Aufstieg hemmt — die Metapher des Gewichts am Fuß verknüpft sozialen Druck mit körperlichem Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 94,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Ach, wenn er geahnt hätte, wenn er es im voraus gewußt: hätte! Dann würde er ein etwas kühneres und größeres Spiel gespielt haben! Oh, was er für eine schöne Partie gewinnen könnte, wenn er auf Suzanne gesetzt hätte! Wie konnte er so blind sein und dieses alles nicht gesehen haben?",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy phantasiert über eine verpasste Chance mit Suzanne Walter — innere Reue und Kalkulation über eine bessere Heiratsstrategie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 95,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Oh, was er für eine schöne Partie gewinnen könnte, wenn er auf Suzanne gesetzt hätte!",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy stellt sich Suzanne als ideale Partie vor — persönliche Sehnsucht nach sozialem Aufstieg durch Heirat.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 96,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie kamen jetzt in den Speisesaal. Es war eine riesige Halle mit Marmorwänden. An den Wänden hingen alte Gobelins.",
+      "tags": [
+        "location",
+        "space",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt den prunkvollen Speisesaal des Hauses Walter mit Marmor und Gobelins als repräsentativen Gesellschaftsraum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisesaal im Hause Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 97,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Walter erblickte seinen Redakteur und stürzte auf ihn zu, um ihm die Hände zu drücken. Er war berauscht vor Freude",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Erzähler schildert Walters überschwängliche Begrüßung Duroys von aussen — Festfreude als gesellschaftliche Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisesaal im Hause Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 98,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Dann wandte er sich zum Senator Rissolin, der seine stumpfsinnig aussehende Frau mit sich schleppte; sie war aufgeputzt wie eine Jahrmarktspuppe.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt das Paar Rissolin von aussen — sozialer Schein und gesellschaftliches Auftreten als Zeitbild der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisesaal im Hause Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 99,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Ein Herr grüßte Suzanne, ein hochgewachsener, schlanker, junger Mann mit blondem Backenbart, etwas kahlköpfig und mit weltmännischen Manieren, wie man sie sofort erkennen kann.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler stellt den Marquis de Cazolles durch äussere Beschreibung als aristokratischen Gesellschaftstyp vor.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisesaal im Hause Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 100,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Georges hörte seinen Namen nennen: Marquis de Cazolles; und er fühlte plötzlich, wie er auf diesen Mann eifersüchtig wurde.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt den Marquis wahr und empfindet sofortige Eifersucht — emotionale Reaktion auf einen vermeintlichen Rivalen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisesaal im Hause Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Speisesaal im Hause Walter",
+        "emotion": "Eifersucht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 101,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Seit wann kannte sie ihn? Wahrscheinlich, seitdem sie so reich war? Er vermutete einen Nebenbuhler.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy denkt über die Verbindung zwischen Suzannes Reichtum und dem Marquis nach — Eifersucht vermischt mit sozialem Kalkül.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisesaal im Hause Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 102,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Der alte Dichter wanderte mit seinem fettigen Haar in seinem alten Frack durch die großen Räume umher, mit einem gleichgültigen und müden Gesichtsausdruck.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den alten Dichter und die großen Räume des Festes von außen — sozialer Kontrast zwischen schäbiger Erscheinung und prächtigem Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal (großes Empfangszimmer, Ort nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 103,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Georges hörte ihm nicht mehr zu. Er suchte Suzanne, die eben mit dem Marquis de Cazolles verschwunden war; er ließ Norbert de Varenne plötzlich allein stehen und machte sich an die Verfolgung des jungen Mädchens.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy bricht das Gespräch ab und beginnt Suzanne zu verfolgen — seine innere Unruhe und Zielgerichtetheit werden sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal (Empfangsräume, Ort nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Festsaal",
+        "emotion": "Ungeduld, Begehren",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 104,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Eine dichte Menge, die das Büfett umlagerte, hielt ihn auf.",
+      "tags": [
+        "space",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Die dichte Menge blockiert Duroys Weg — der Raum wird zur physischen Barriere.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büfett im Festsaal",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Büfett",
+        "emotion": "Behinderung, Drängen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 105,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Als er sich durchgedrängt hatte, stieß er auf das Ehepaar de Marelle.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy kämpft sich durch die Menge und trifft das Ehepaar de Marelle — körperliche Handlung im überfüllten Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal (Nähe Büfett)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Festsaal",
+        "emotion": "Überraschung, Begegnung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 106,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er traf sich regelmäßig mit der Frau, aber den Mann hatte er seit längerer Zeit nicht gesehen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "time"
+      ],
+      "notiz": "Duroy reflektiert innerlich seine verdeckte Beziehung zu Clotilde und das Ausbleiben des Ehemannes — sozialer Subtext.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 107,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die Männer, die herumstanden, drehten sich um und blickten der hübschen, eleganten Brünette nach.",
+      "tags": [
+        "social",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von außen die soziale Aufmerksamkeit der umstehenden Männer für Clotilde de Marelle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 108,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die beiden jungen Leute mischten sich unter die Menge, und der Ehemann folgte ihnen.",
+      "tags": [
+        "move",
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von außen das Untertauchen Duroys und Clotildes in der Menge — der Ehemann als beobachtende Figur im Hintergrund.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal (Empfangsräume)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Festsaal",
+        "emotion": "soziale Verstellung, Heimlichkeit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 109,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sagte nichts. Es ärgerte ihn, seine eigenen Gedanken von einem anderen aussprechen zu hören.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet Ärger darüber, dass Clotilde seine eigenen Überlegungen zu Suzannes Mitgift laut ausspricht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 110,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Sie hatte das Gemälde noch nicht gesehen. Er schlug ihr vor, sie dort hinzuführen.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich mit Clotilde durch den Raum, um ihr das Gemälde zu zeigen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 111,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Sie fanden Vergnügen daran, Bosheiten über die Leute zu sagen und sich über unbekannte Gesichter lustig zu machen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy und Clotilde erleben gemeinsam boshafte Freude auf dem Empfang.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 112,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Saint-Potin kam an ihnen vorüber; sein Frack war dicht mit Orden besteckt, was sie sehr belustigte. Ihm folgte ein früherer Botschafter mit einer kleineren Ordensschnalle.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die gesellschaftliche Dekoration der Gäste als sozialen Marker.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 113,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy erklärte: »Was für eine buntgemischte Gesellschaft.«",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy bewertet aus seiner Perspektive die soziale Zusammensetzung der Gesellschaft abfällig.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 114,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Boisrenard, der ihm die Hand schüttelte, hatte auch sein Knopfloch mit dem grüngelben Bändchen geschmückt, das er auch an dem Duelltage getragen hatte.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Boisrenards Ordensband als sozialen Marker und Verweis auf einen früheren Anlass.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 115,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Die Vicomtesse de Percemur, ungeheuer auffallend gekleidet, unterhielt sich mit einem Herzog in dem kleinen Louis-XVI-Boudoir.",
+      "tags": [
+        "location",
+        "social",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen einen konkreten Raum (Louis-XVI-Boudoir) und die soziale Szenerie darin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Louis-XVI-Boudoir im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 116,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "»Ein galantes tête-à-tête«, sagte Georges leise; als er durch den Wintergarten ging, sah er seine Frau mit Laroche-Mathieu hinter einem Palmenbusch halb versteckt sitzen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space",
+        "mood"
+      ],
+      "notiz": "Duroy durchquert den Wintergarten und nimmt dabei die verdächtige Situation seiner Frau mit Laroche-Mathieu wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten",
+        "emotion": "stille Feindseligkeit, Eifersucht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 117,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie schienen zu sagen: »Wir haben uns hier ein Rendezvous gegeben, ein öffentliches Rendezvous. Und pfeifen auf die Meinung der Gesellschaft.«",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die provokative soziale Haltung des Paares im öffentlichen Rahmen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 118,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Madame de Marelle fand den »Jesus« von Markowitsch überraschend schön, und sie ging wieder zurück.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy und Clotilde kehren nach der Betrachtung des Gemäldes wieder zurück — Bewegung im Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Galerieraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 119,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er antwortete nicht. Aber diese plötzliche Feindseligkeit des kleinen Mädchens bedrückte ihn und stimmte ihn traurig.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet Bedrücktheit und Trauer über Laurines anhaltende Feindseligkeit ihm gegenüber.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Empfang bei den Walters (Innenraum)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 120,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie glitten durch das dichte Menschengewühl und verschwanden in der Menge.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Der Erzähler beschreibt das dichte Gedränge im Festsaal als sozialen Raum aus der Aussenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal im Haus Walter (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 121,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er antwortete hochmütig: »Meinetwegen. Ich werde in zehn Minuten an dem verabredeten Ort sein.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert hochmütig und selbstbewusst auf Frau Walters Forderung — sein innerer Zustand der Überlegenheit zeigt sich in Haltung und Worten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal im Haus Walter (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 122,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Dann trennten sie sich, doch Jacques Rival hielt ihn auf, so daß er beinahe zu spät gekommen wäre. Er nahm ihn beim Arm und erzählte ihm sehr aufgeregt eine Menge Geschichten.",
+      "tags": [
+        "koerper_als_akteur"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen, wie Rival Duroy körperlich festhält und aufhält.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal im Haus Walter (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 123,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er mußte noch aufpassen, daß er nicht von seiner Frau und Laroche gesehen würde.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt innerlich Anspannung und Vorsicht — er muss sich verstecken, um seine geheime Verabredung zu schützen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal im Haus Walter (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Festsaal",
+        "emotion": "Anspannung, Vorsicht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 124,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Dieses gelang ihm, denn die beiden schienen sehr animiert zu sein, und endlich war er im Garten.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Der Erzähler beschreibt neutral Duroys Bewegung in den Garten als Ortsveränderung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Garten im Haus Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 125,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Die kalte Luft durchschauerte ihn wie ein eiskaltes Bad. »O Gott,« dachte er, »ich werde mich hier noch erkälten.«",
+      "tags": [
+        "george_duroy",
+        "weather",
+        "mood",
+        "koerper_als_sensor"
+      ],
+      "notiz": "Duroy spürt die Kälte körperlich und reagiert mit einem Gedanken der Besorgnis — Wetter als sensorisches Erlebnis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Garten im Haus Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Garten",
+        "emotion": "Schauder, Besorgnis",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 126,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er legte sich sein Taschentuch wie eine Krawatte um den Hals und ging langsamen Schrittes die Allee entlang.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy reagiert auf die Kälte mit einer körperlichen Handlung und bewegt sich langsam durch den Garten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gartenallee im Haus Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 127,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sah schlecht nach der hellen Beleuchtung der Säle und konnte in der Dunkelheit kaum den Weg finden.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Duroy erlebt den dunklen Garten als desorientierenden Raum — der Kontrast zur Helligkeit der Festsäle beeinträchtigt seine Wahrnehmung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gartenallee im Haus Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Gartenallee",
+        "emotion": "Desorientierung, Unsicherheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 128,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Rechts und links unterschied er allmählich das kahle Gebüsch, dessen Zweige von der Kälte zu zittern schienen.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "weather"
+      ],
+      "notiz": "Duroy nimmt den winterlichen Garten mit kahlem Gebüsch wahr — sensorische Raumwahrnehmung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Garten eines Schlosses (nicht Paris, vermutlich Landsitz)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlossgarten bei Nacht",
+        "emotion": "Kälte, Unheimlichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 129,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Ein grauer Lichtschimmer fiel aus den Fenstern des Schlosses auf den entlaubten Garten.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt atmosphärisch das Schloss und den winterlichen Garten von aussen als Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlossgarten (Landsitz, nicht Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlossgarten",
+        "emotion": "Kälte, Düsterheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 130,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sah vor sich, mitten auf dem Wege, etwas Weißes; Frau Walter stand da mit nacktem Halse und nackten Armen",
+      "tags": [
+        "george_duroy",
+        "space"
+      ],
+      "notiz": "Duroy nimmt Frau Walter im Garten wahr — visuelle Wahrnehmung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlossgarten (Landsitz)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 131,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er erwiderte ruhig: »Ich bitte dich, ohne Szenen, oder ich gehe sofort weg.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Kälte und Kontrolle zeigen sich in seiner ruhigen, distanzierten Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlossgarten (Landsitz)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 132,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er versuchte sie zurückzustoßen: »Das letztemal, als wir zusammen waren, hast du deine Haare an meinen Knöpfen befestigt, es hat deshalb beinahe einen Bruch zwischen meiner Frau und mir gegeben.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy versucht sich zu entziehen und nennt soziale Konsequenzen als Argument — inneres Kalkül und soziale Kontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlossgarten (Landsitz)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 133,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sah sie erstaunt an.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert mit Erstaunen auf Frau Walters leidenschaftliche Liebeserklärung — sein Gefühlszustand wird kurz sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlossgarten (Landsitz)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 134,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Es war nicht das dicke, halbverrückte Schulmädchen von vorhin, es war eine Frau, die kopflos und verzweifelt zu allem fähig war.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant charakterisiert die Frau von aussen als emotional unkontrolliert und gefährlich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 135,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Ein unbestimmter Plan entwickelte sich inzwischen in seinem Hirn.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy entwickelt innerlich eine strategische Absicht — sein Innenleben wird sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 136,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie legte ihre beiden nackten Arme auf Georges Frack und flüsterte",
+      "tags": [
+        "material",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt die körperliche Geste der Frau von aussen — nackte Arme auf dem Frack als physischer Kontrast.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 137,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie wandte sich ab und trocknete ihre Tränen. Dann zog sie aus dem Ausschnitt ihres Kleides ein Päckchen Papier, das mit einem rosa Seidenbändchen verschnürt war und reichte es Du Roy.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Übergabe eines Geldpäckchens — Kleidung und Objekt als soziale Marker.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 138,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er nahm das kleine Paket und ließ es in seine Tasche verschwinden.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy akzeptiert das Geld — eine aktive, folgenreiche Handlung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 139,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "»Wir müssen zurück,« sagte er, »du holst dir sonst noch eine Lungenentzündung,«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy drängt zur Rückkehr — eine kalkulierte, sachliche Reaktion, die seinen inneren Abstand zeigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 140,
+      "zeile": 23,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie ergriff seine Hand und küßte sie leidenschaftlich, rasend und verzweifelt. Dann stürzte sie ins Haus zurück.",
+      "tags": [
+        "atmosphere",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt den verzweifelten Abgang der Frau von aussen — Bewegung und Emotion als szenischer Abschluss.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 141,
+      "zeile": 24,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er folgte ihr langsam und nachdenklich.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroys langsames, nachdenkliches Folgen zeigt sein inneres Verarbeiten der Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Eingang zum Haus",
+        "emotion": "Nachdenklichkeit, Kalkül",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 142,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Dann trat er stolz und lächelnd in den Wintergarten ein.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy betritt den Wintergarten in selbstzufriedener, stolzer Stimmung — inneres Erleben und Bewegung verbunden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Haus Forestier/Walter (Salon)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten",
+        "emotion": "Stolz, Selbstzufriedenheit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 143,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "in den Wintergarten ein",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant nennt den Wintergarten als konkreten Ort des gesellschaftlichen Geschehens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Palais Walter (Paris, fiktiver Ort)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 144,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Seine Frau und Laroche waren nicht mehr da. Sehr viel Gäste waren schon fort. Offenbar wollten die meisten nicht zum Ball bleiben.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die schwindende Gesellschaft auf dem Fest als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten/Festsaal im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 145,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sah Suzanne, die Arm in Arm mit ihrer Schwester ging.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy nimmt die beiden Schwestern aktiv wahr — seine Perspektive der Beobachtung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten/Festsaal im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 146,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er war überrascht.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innere Überraschung — kurzer emotionaler Zustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten/Festsaal im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 147,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy nahm vertraulich das junge Mädchen, das neben ihm stand, am Arm und sagte mit zärtlicher Stimme",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy agiert körperlich und mit strategischer Zärtlichkeit gegenüber Suzanne — sein Körper als soziales Instrument.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten/Festsaal im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 148,
+      "zeile": 38,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Aber er weigerte sich, fest entschlossen, sofort nach Hause zu gehen. Er wollte allein sein, um denken zu können. Zuviel neue Dinge gingen ihm durch den Kopf",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move"
+      ],
+      "notiz": "Duroy trifft eine innere Entscheidung, sich zu entziehen — emotionaler Überwältigungszustand und Reflexionsbedürfnis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Festsaal",
+        "emotion": "mentale Überforderung, Entschluss zur Einsamkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 149,
+      "zeile": 40,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "er suchte nach seiner Frau.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich durch den Raum auf der Suche nach seiner Frau.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Festsaal/Wintergarten im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 150,
+      "zeile": 41,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Nach kurzer Zeit erblickte er sie, sie stand am Büfett und trank Schokolade mit zwei unbekannten Herren.",
+      "tags": [
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy nimmt seine Frau am Büfett wahr — seine aktive Wahrnehmung eines konkreten Ortes innerhalb des Festsaals.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büfett im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 151,
+      "zeile": 42,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie stellte ihren Mann vor, ohne die Namen der beiden zu nennen.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen eine soziale Geste — die fehlende gegenseitige Vorstellung signalisiert sozialen Distinktionsmechanismus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büfett im Palais Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 152,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie nahm ihn beim Arm und sie schritten durch die Säle, die schon ziemlich leer waren.",
+      "tags": [
+        "move",
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen, wie das Paar die bereits leeren Festsäle durchschreitet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ballsaal (Walters Fest, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 153,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Lieber nicht. Sie wird darauf bestehen, daß wir zum Ball bleiben und ich habe genug.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy äussert Überdruss am gesellschaftlichen Anlass — innere Stimmungslage.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ballsaal (Walters Fest, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ballsaal",
+        "emotion": "Überdruss, Erschöpfung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 154,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Während sie nach Hause fuhren, saßen sie schweigend nebeneinander",
+      "tags": [
+        "move",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die schweigsame Heimfahrt des Paares.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Fahrt durch Paris (Richtung Wohnung Duroys)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kutsche/Fahrt durch Paris",
+        "emotion": "Schweigen, Distanz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 155,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "sobald sie in ihrem Zimmer waren, sagte Madeleine lächelnd, noch bevor sie ihren Schleier abgelegt hatte",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant nennt den Ort (Zimmer/Wohnung) als neutrale Kulisse für die folgende Szene.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 156,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er öffnete sie gleichgültig und erblickte darin das Kreuz der Ehrenlegion.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "material"
+      ],
+      "notiz": "Duroy nimmt das Geschenk gleichgültig wahr — sein innerer Zustand kontrastiert mit der Bedeutung des Ordens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 157,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er wurde blaß, dann lächelte er",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliche Reaktion auf den Orden zeigt kurzen Schock, der sich in Kälte auflöst.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 158,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Ich hätte zehn Millionen vorgezogen. Das hier wird ihn nicht viel gekostet haben.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy denkt über den materiellen Wert des Ordens nach — inneres Erleben seiner sozialen und finanziellen Lage.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 159,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Dieser Mann bezahlt nur seine Schulden. Tatsächlich schuldet er mir viel mehr.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert sein Verhältnis zu Laroche und seinen eigenen Anspruch auf mehr — soziales Kalkül aus seiner Innenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 160,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Ich könnte jetzt viel mehr besitzen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äussert seinen Anspruch auf höheren sozialen Status — innere Überzeugung seiner Überlegenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 161,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er nahm das Kästchen, stellte es offen auf den Kamin hin und betrachtete einige Augenblicke das Kreuz, das darin blitzte, schloß es wieder, und ging dann achselzuckend zu Bett.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "material",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys achselzuckendes Verhalten zeigt demonstrative Gleichgültigkeit gegenüber dem Orden — körperliche Handlung als Ausdruck innerer Haltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 162,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Der Officiel vom 1. Januar verkündete tatsächlich die Ernennung des Schriftstellers Herrn Prosper-Georges Du Roy zum Ritter der Ehrenlegion »wegen außergewöhnlicher Verdienste«.",
+      "tags": [
+        "historical",
+        "social",
+        "time"
+      ],
+      "notiz": "Maupassant berichtet als Erzähler von Duroys offizieller Ernennung durch das Amtsblatt — institutionelles Ereignis der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (offizielles Amtsblatt, Journal officiel)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 163,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Der Name war in zwei Worten geschrieben und das machte Georges mehr Freude als der Orden selbst.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy empfindet mehr Freude über die aristokratische Schreibweise seines Namens als über die Auszeichnung selbst — innerer sozialer Aufstiegswunsch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung/privater Raum",
+        "emotion": "Eitelkeit, soziale Ambition",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 164,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Eine Stunde später, nachdem er diese Nachricht gelesen hatte, erhielt er einen Brief von der Frau Direktor, worin sie ihn bat, denselben Abend noch zum Essen zu kommen, um die Auszeichnung zu feiern.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutral erzählte Zeitangabe ohne emotionalen Bezug zu Duroy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 165,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er zögerte eine Weile, dann warf er den in zweideutigen Ausdrücken geschriebenen Brief ins Feuer und sagte zu Madeleine: »Wir wollen heute bei Walters essen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy zögert innerlich, entscheidet sich dann aber bewusst — innerer Zustand und Handlung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 166,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er sagte leise: »Ich habe es mir anders überlegt.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys knappe Antwort deutet auf eine bewusste innere Umorientierung hin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 167,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Als sie erschienen, saß Frau Walter allein in dem kleinen Louis-XVI-Boudoir, das für den intimeren Verkehr bestimmt war.",
+      "tags": [
+        "location",
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den Empfangsraum im Hause Walter als sozialen und intimen Rückzugsort.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Boudoir",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 168,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie war in Schwarz gekleidet und hatte ihr Haar gepudert, was ihr sehr gut stand. Von weitem sah sie alt, von nahe jung aus, und wenn man sie genau betrachtete, so wirkte sie wie ein schönes Bild.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Frau Walter von aussen als soziale und ästhetische Erscheinung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Boudoir",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 169,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy dachte: »Wie lange wird sie wohl bei dem Entschluß bleiben?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert innerlich ironisch-skeptisch über Frau Walters emotionalen Entschluss.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Boudoir",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 170,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Das Diner verlief etwas langweilig. Nur Suzanne schwatzte unaufhörlich. Rose schien verstimmt zu sein. Man beglückwünschte den Journalisten.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant schildert die Stimmung beim Abendessen von aussen — gedämpfte Atmosphäre, soziale Oberflächlichkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Speisesaal",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haus Walter, Speisesaal",
+        "emotion": "Langeweile, gedämpfte Stimmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 171,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Abends spazierte man durch die Säle und den Wintergarten und unterhielt sich.",
+      "tags": [
+        "location",
+        "move",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die Bewegung der Gesellschaft durch die repräsentativen Räume des Hauses Walter von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Säle und Wintergarten",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 172,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Du Roy ging mit der Frau Direktor als letzter; sie hielt ihn am Arm zurück.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy bewegt sich mit Frau Walter und wird körperlich zurückgehalten — räumliche und körperliche Interaktion aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Salon/Durchgang",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 173,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie ergriff seine Hand, preßte sie krampfhaft und drückte ihre Nägel in sein Fleisch.",
+      "tags": [
+        "koerper_als_akteur",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die körperliche Handlung Madame Walters gegenüber Duroy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum mit dem Gemälde 'Jesus über die Fluten schreitend'",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 174,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "figur",
+      "text": "Er antwortete ruhig: »Schön. Es ist unnütz, darüber wieder Worte zu verlieren. Sie sehen doch, ich bin heute gleich auf Ihren Brief gekommen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert ruhig und distanziert, was seinen inneren Gefühlszustand der Kälte gegenüber Madame Walter zeigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ausstellungsraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 175,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Walter ging mit den beiden jungen Mädchen und Madeleine voran und wartete auf Du Roy vor dem Bilde »Jesus über die Fluten schreitend«.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Bewegung der Gruppe zur Gemäldeposition.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vor dem Gemälde 'Jesus über die Fluten schreitend', Ausstellungsraum Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 176,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Madame Walter erwiderte mit fester Stimme, die jedoch einer gewissen zitternden Erregung nicht entbehrte: »Dieser Christus wird meine Seele retten. Er gibt mir Mut und Kraft jedesmal, wenn ich ihn ansehe.«",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Madame Walters emotionale und religiöse Reaktion auf das Gemälde.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vor dem Gemälde 'Jesus über die Fluten schreitend'",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum vor dem Gemälde",
+        "emotion": "religiöse Ergriffenheit, Halt suchend",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 177,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Sie wollte, daß er sich neben das Bild stellte, und alle erkannten tatsächlich, daß beide Gesichter miteinander Ähnlichkeit hatten.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den Moment der kollektiven Erkenntnis der Ähnlichkeit zwischen Duroy und dem Christusbild.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vor dem Gemälde 'Jesus über die Fluten schreitend'",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 16,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 178,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 16",
+      "perspektive": "erzaehler",
+      "text": "Alles war überrascht. Walter fand die Sache sehr seltsam. Madeleine meinte lächelnd, daß Jesus männlicher aussehe. Frau Walter rührte sich nicht, unbeweglich und mit starrem Blick betrachtete sie das Gesicht ihres Geliebten neben dem des Heilands. Sie war fast so weiß geworden wie ihr weißes Haar.",
+      "tags": [
+        "atmosphere",
+        "mood",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die kollektive Reaktion der Gruppe und Madame Walters Erstarrung beim Anblick der Ähnlichkeit zwischen Duroy und dem Christus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vor dem Gemälde 'Jesus über die Fluten schreitend'",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ausstellungsraum vor dem Gemälde",
+        "emotion": "Erschütterung, Erstarrung, emotionale Überwältigung Madame Walters",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 16,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    }
+  ]
+}

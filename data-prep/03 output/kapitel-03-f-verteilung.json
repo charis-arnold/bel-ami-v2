@@ -1,0 +1,719 @@
+{
+  "kapitel": 3,
+  "beschreibung": "F-Wert-Verteilung (Ebene 3) und Valenz-Durchschnitte (Ebene 2) pro Ort",
+  "f_verteilung_pro_ort": {
+    "Straße (unspezifisch, Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Treppenhaus, Rue Boursault, Paris 17e": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnhaus, Rue Boursault, Paris 17e": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Tunneleinfahrt Westbahn, Batignolles, Paris 17e": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Richtung Asnières, von Batignolles aus": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer, Nähe Bahntrasse (Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer (Paris)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Algier (Algerien, erinnert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer (möbliertes Zimmer, Paris)": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Algier / Afrika (imaginiert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Duroys Zimmer/Unterkunft": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Canteleu, Normandie (bei Rouen)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Paris (allgemein)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "die Straße (imaginiert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "nächtliche Umgebung (unspezifisch Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Duroys Zimmer (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Blick aus Duroys Fenster (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Straße nahe Duroys Wohnung (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Äußere Boulevards Paris (Nähe Batignolles/Clichy)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Parc Monceau, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Parc Monceau, Umgebung, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Haustür von Forestiers Wohnhaus, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Treppenhaus/Eingang des Forestier-Hauses": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Treppenhaus des Forestier-Hauses": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Vorzimmer der Wohnung Forestier": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Arbeitszimmer der Wohnung Forestier": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Forestier, Paris": {
+      "gesamt_f_annotationen": 6,
+      "absolut": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 16.7,
+        "koerper_als_sensor": 33.3
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Algerien (erinnert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Algier": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Algerien, unbekannter Militärstandort": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Zimmer (Wohnung Madame de Marelles, Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Forestier (Nähe Rue Notre-Dame de Lorette)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Strasse vor der Wohnung Forestier, Nähe Rue Notre-Dame de Lorette": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "unbekannt": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie Française, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie française (Redaktionssaal)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Direktionszimmer der Redaktion (La Vie Française)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wartezimmer Redaktion La Vie Française": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Treppenhaus der Redaktion (La Vie Française, näherungsweise)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    }
+  },
+  "valenz_pro_ort": {
+    "Straße (unspezifisch, Paris)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "Treppenhaus, Rue Boursault, Paris 17e": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnhaus, Rue Boursault, Paris 17e": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Tunneleinfahrt Westbahn, Batignolles, Paris 17e": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Richtung Asnières, von Batignolles aus": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer, Nähe Bahntrasse (Paris)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (Paris)": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 5
+    },
+    "Heimatort Duroys (Frankreich, nicht Paris)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Einschiffungsort (Frankreich/Algerien, nicht spezifiziert)": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Algier (Algerien, erinnert)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (möbliertes Zimmer, Paris)": {
+      "gewichtete_valenz_summe": -8,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 4
+    },
+    "Duroys Zimmer/Unterkunft": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 3
+    },
+    "Canteleu, Normandie (bei Rouen)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Paris (allgemein)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Straße nahe Duroys Wohnung (unspezifisch)": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Parc Monceau, Paris": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 2
+    },
+    "Haustür von Forestiers Wohnhaus, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Treppenhaus/Eingang des Forestier-Hauses": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Treppenhaus des Forestier-Hauses": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.5,
+      "anzahl_annotationen": 2
+    },
+    "Eingang der Wohnung Forestier": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Vorzimmer der Wohnung Forestier": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Forestier, Paris": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.25,
+      "anzahl_annotationen": 4
+    },
+    "Wohnung Forestier (Paris, nähere Lage unbekannt)": {
+      "gewichtete_valenz_summe": -5,
+      "gewichtete_valenz_durchschnitt": -1.67,
+      "anzahl_annotationen": 3
+    },
+    "Algerien (erinnert, nicht Paris)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Algerien (erinnert)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Algier, Algerien": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Zimmer (Wohnung Madame de Marelles, Paris)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 2
+    },
+    "Wohnung Forestier (Nähe Rue Notre-Dame de Lorette)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Strasse vor der Wohnung Forestier, Nähe Rue Notre-Dame de Lorette": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "unbekannt": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -1.33,
+      "anzahl_annotationen": 3
+    },
+    "Wartesaal der Redaktion (La Vie Française)": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 1
+    },
+    "Direktionszimmer der Redaktion (La Vie Française)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 3
+    },
+    "Redaktion La Vie Française": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

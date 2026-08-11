@@ -1,0 +1,56 @@
+{
+  "kapitel": 2,
+  "beschreibung": "Gewichtete Valenz pro Tag-Kategorie — Grundlage für Kreis-Visualisierung",
+  "valenz_pro_tag": {
+    "george_duroy": {
+      "gewichtete_valenz_summe": 8,
+      "gewichtete_valenz_durchschnitt": 0.23,
+      "anzahl_annotationen": 35
+    },
+    "mood": {
+      "gewichtete_valenz_summe": 11,
+      "gewichtete_valenz_durchschnitt": 0.37,
+      "anzahl_annotationen": 30
+    },
+    "social": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.06,
+      "anzahl_annotationen": 18
+    },
+    "material": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -1.17,
+      "anzahl_annotationen": 6
+    },
+    "location_erinnerung": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 4
+    },
+    "space": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 1.0,
+      "anzahl_annotationen": 4
+    },
+    "koerper_als_akteur": {
+      "gewichtete_valenz_summe": 6,
+      "gewichtete_valenz_durchschnitt": 0.75,
+      "anzahl_annotationen": 8
+    },
+    "atmosphere": {
+      "gewichtete_valenz_summe": 12,
+      "gewichtete_valenz_durchschnitt": 1.33,
+      "anzahl_annotationen": 9
+    },
+    "sound": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "smell": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

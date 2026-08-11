@@ -1,0 +1,2519 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 17,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 116,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "In der zweiten Hälfte des Winters ging das Ehepaar Du Roy oft zu den Walters.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Neutrale Erzählerangabe über die winterliche Zeitperiode und das gesellschaftliche Verkehren des Ehepaars Du Roy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 2,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Georges selbst war sehr häufig dort zu Tisch, während Madeleine erklärte, müde zu sein, und es vorzog, zu Hause zu bleiben.",
+      "tags": [
+        "social",
+        "george_duroy"
+      ],
+      "notiz": "Erzähler beschreibt von aussen das unterschiedliche Sozialverhalten von Georges und Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 3,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Sein fester Tag war Freitag, und die Frau Direktor lud an diesem Tage nie jemand anders ein. Er gehörte dem Bel-Ami, ihm allein.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt die gesellschaftliche Sonderstellung Duroys im Haushalt der Walters.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 4,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Nach dem Essen spielte man Karten, fütterte die chinesischen Fische, kurz man lebte und amüsierte sich im Familienkreise.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler schildert die häusliche Atmosphäre im Salon der Walters von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Salon der Walters",
+        "emotion": "Behaglichkeit, familiäre Wärme",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 5,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Es gelang Frau Walter mehrere Male hinter einer Tür oder hinter einem dichten Gebüsch im Wintergarten oder in einer dunklen Ecke den jungen Mann stürmisch zu umarmen.",
+      "tags": [
+        "space",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die versteckten Räume im Haus der Walters, in denen heimliche Begegnungen stattfinden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten/dunkle Ecke",
+        "emotion": "Heimlichkeit, Bedrängnis",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 6,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Gegen Ende März sprach man plötzlich von der bevorstehenden Heirat der beiden Schwestern.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Erzähler gibt neutral die Jahreszeit und das gesellschaftliche Ereignis der geplanten Heiraten an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 7,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Rose sollte sich mit dem Grafen Latour-Yvelin und Suzanne mit dem Marquis de Cazolles vermählen. Beide Herren waren Hausfreunde geworden; man behandelte sie mit einer besonderen Gunst und Rücksicht und erwies ihnen merkliche Vorrechte.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die sozialen Verhältnisse und standesgemässen Heiratsverbindungen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 8,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Georges und Suzanne verkehrten ganz frei und mit einer brüderlichen Vertrautheit miteinander; sie plauderten stundenlang zusammen, machten sich über alle Welt lustig und schienen sehr gut zueinander zu stehen.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die ungezwungene Vertrautheit zwischen Duroy und Suzanne.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 9,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Er sprach nicht mehr über eine etwaige Heirat des jungen Mädchens, noch über die einzelnen Bewerber, die in Frage kämen.",
+      "tags": [
+        "social",
+        "george_duroy"
+      ],
+      "notiz": "Erzähler stellt von aussen Duroys auffälliges Schweigen über Suzannes Heirat fest.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 10,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Eines Tages hatte der Direktor Du Roy zum Frühstück mitgebracht, Frau Walter mußte gleich nach dem Essen fort, um mit einem Lieferanten etwas zu besprechen.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Erzähler schildert neutral die Abwesenheit Frau Walters und die Situation nach dem Essen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 11,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges sagte zu Suzanne: »Kommen Sie, wollen wir die Fische füttern?«",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy ergreift aktiv die Initiative und schlägt Suzanne einen gemeinsamen Gang in den Wintergarten vor.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Speisezimmer im Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 12,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Jeder nahm sich vom Tisch ein großes Stück Brot und sie gingen in den Wintergarten.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung von Duroy und Suzanne in den Wintergarten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten im Haus der Walters, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 13,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Rings um das riesige Becken lagen Kissen auf dem Fußboden, so daß man bequem niederknien, und die schwimmenden Tiere aus der Nähe beobachten konnte.",
+      "tags": [
+        "space",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt den Innenraum mit dem Fischbecken von außen als neutrale Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Privathaus mit Wintergarten/Salon (Walter-Villa)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 14,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Die jungen Leute nahmen sich jeder eins und legten sich nebeneinander, dann beugten sie sich über das Wasser und begannen Brotkügelchen hineinzuwerfen, die sie zwischen den Fingern drehten.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Erzähler beschreibt die gemeinsame Handlung von Georges und Suzanne am Becken von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Privathaus mit Wintergarten/Salon (Walter-Villa)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 15,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Als die Fische das merkten, drängten sie sich sofort heran, sie zuckten mit den Schwänzen und schlugen mit den Flossen das Wasser, rollten ihre großen hervorstehenden Augen, drehten sich herum und tauchten dann unter, um die versinkenden Kügelchen zu haschen, dann stiegen sie gleich wieder zur Oberfläche empor, um noch mehr Futter zu fordern.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt das Verhalten der Fische detailliert als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Privathaus mit Wintergarten/Salon (Walter-Villa)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 16,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Ausdruck ihrer Mäuler war irgendwie seltsam und komisch; ihre Bewegungen waren schroff und hastig, und sie sahen wie kleine märchenhafte Ungetüme aus.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Erzähler charakterisiert die Fische mit märchenhafter, leicht spielerischer Atmosphäre.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Privathaus mit Wintergarten/Salon (Walter-Villa)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 17,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Vom Goldsandgrunde hoben sie sich feuerrot ab, sie schossen wie Flammen durch das durchsichtige Wasser oder standen still und zeigten dabei die blauen Säume ihrer Schuppen.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant malt die visuelle Qualität der Fische und des Wassers als ästhetische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Privathaus mit Wintergarten/Salon (Walter-Villa)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 18,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Georges und Suzanne sahen ihre umgekehrten Gesichter im Wasser und lächelten ihren Spiegelbildern zu.",
+      "tags": [
+        "george_duroy",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die gemeinsame Spiegelszene der beiden Figuren von außen — intim-spielerische Stimmung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Privathaus mit Wintergarten/Salon (Walter-Villa)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Becken im Salon",
+        "emotion": "spielerische Intimität",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 19,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Ich ... Ich ... Ich habe ... Ich bin eifersüchtig auf ihn.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy gesteht seiner inneren Erregung nach und spricht seine Eifersucht aus — ein intensiver emotionaler Ausbruch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt (Innenraum, Aquarium/Fischteich)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 20,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Ich weiß es wohl, daß ich verrückt bin. Sollte ich Ihnen so etwas gestehen, ich, ein verheirateter Mann? Ich bin mehr als verrückt, ich tue unrecht, ich bin beinahe ehrlos. Mir bleibt keine Hoffnung und ich verliere den Verstand, wenn ich daran denke.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy ist sich seiner sozialen und moralischen Lage bewusst und erlebt seine Leidenschaft als innerlich zerreißend.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt (Innenraum, Aquarium/Fischteich)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 21,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Und wenn ich höre, daß Sie heiraten werden, überfällt mich eine Wut, so daß ich imstande bin, jemanden umzubringen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Eifersucht steigert sich zur Rage — die Vorstellung von Suzannes Heirat löst einen extremen emotionalen Zustand aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt (Innenraum, Aquarium/Fischteich)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannt",
+        "emotion": "Wut, Eifersucht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 22,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Er schwieg, und die Fische, die kein Futter mehr bekamen, standen unbeweglich in einer Reihe wie englische Soldaten und blickten die gesenkten Gesichter der beiden Menschen an, die sich nicht mehr um sie kümmerten.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die Szene von aussen: Der Raum um die Figuren erstarrt, die Fische als stille Zeugen verstärken die angespannte Atmosphäre.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt (Innenraum, Aquarium/Fischteich)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannt",
+        "emotion": "Stille, Erstarrung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 23,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er wandte sich plötzlich zu ihr um und sagte ihr ganz nahe ins Gesicht: »Und wenn ich frei wäre, würden Sie mich dann heiraten?«",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroy wendet sich körperlich zu Suzanne — seine Bewegung ist impulsiv und emotional aufgeladen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt (Innenraum, Aquarium/Fischteich)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 24,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er stand auf und stammelte: »Ich danke Ihnen ... danke ... ich flehe Sie an, geben Sie niemandem Ihr Jawort. Warten Sie eine Weile. Ich bitte Sie darum.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erhebt sich und seine stammelnde Reaktion zeigt die überwältigende emotionale Erleichterung und Hoffnung nach Suzannes Geständnis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt (Innenraum, Aquarium/Fischteich)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 25,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Du Roy warf ein großes Stück Brot, das er noch in seinen Händen hielt, ins Wasser und eilte hinaus, ohne sich zu verabschieden, als hätte er den Kopf verloren.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy verlässt abrupt die Szene — sein impulsives Verhalten wird vom Erzähler von aussen beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bassin/Teich, unspezifizierter Ort",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 26,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Alle Fische stürzten sich gierig auf den Brotklumpen, der herumschwamm, ohne von den Fingern geknetet zu sein, und sie zerrten daran mit ihren gefräßigen Mäulern. Sie schleppten es an die andere Seite des Bassins, sprangen und wirbelten um ihn herum und bildeten eine Art lebendiger Blume, die kopfüber ins Wasser gefallen war.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt das Treiben der Fische im Bassin als atmosphärische Nachszene nach Duroys Abgang.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bassin/Teich, unspezifizierter Ort",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 27,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Journalist war fort. Er ging in voller Ruhe nach Hause und fragte Madeleine, die gerade einen Brief schrieb",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy kehrt ruhig nach Hause zurück — der Erzähler beschreibt seine Bewegung von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy, unspezifizierter Ort in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 28,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Dann nahm er seinen Hut und ging sofort wieder weg.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy verlässt erneut die Wohnung — neutrale Handlungsbeschreibung durch den Erzähler.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy, unspezifizierter Ort in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 29,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Seit langem spürte er ihr nach, überwachte und beobachtete sie, so daß er genau wußte, mit wem sie verkehrte und was sie trieb. Die Stunde, auf die er wartete, war endlich gekommen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy erlebt innerlich den langen Zeitraum der Überwachung und den Moment der Erfüllung seines Plans — Zeit ist emotional aufgeladen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifiziert, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unspezifiziert",
+        "emotion": "Erwartung, kalte Entschlossenheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 30,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Der Ton, mit dem sie »Ich bleibe lieber zu Hause« antwortete, hatte ihn nicht getäuscht.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "sound"
+      ],
+      "notiz": "Duroy interpretiert den Ton von Madeleines Antwort als Bestätigung seines Verdachts — akustische Wahrnehmung mit emotionaler Deutung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy, unspezifizierter Ort in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroy",
+        "emotion": "Misstrauen, Bestätigung des Verdachts",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 31,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Die folgenden Tage benahm er sich sehr nett und liebenswürdig ihr gegenüber. Er schien sogar heiter zu sein, was er jetzt im allgemeinen nicht mehr war",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt Duroys geheucheltes Verhalten in den Folgetagen von aussen — Kontrast zwischen Schein und innerer Berechnung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy, unspezifizierter Ort in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 32,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Am Freitag zog er sich frühzeitig an, um, wie er behauptete, noch ein paar Besorgungen zu erledigen, noch bevor er zum Chef ging. Dann verließ er um 6 Uhr seine Wohnung, gab seiner Frau einen Kuß",
+      "tags": [
+        "george_duroy",
+        "time",
+        "move"
+      ],
+      "notiz": "Der Erzähler schildert Duroys Aufbruch am Freitagabend um 6 Uhr — neutrale Zeitangabe mit Handlungsbeschreibung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy, unspezifizierter Ort in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 33,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "suchte sich eine Droschke auf der Place Notre Dame de Lorette.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Duroy nimmt auf dem Place Notre-Dame-de-Lorette eine Droschke — konkrete Ortsnennung durch den Erzähler.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3346,
+        "ort_bezeichnung": "Place Notre-Dame-de-Lorette, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 34,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Er sagte dem Kutscher: »Fahren Sie nach der Rue Fontaine und halten Sie gegenüber der Nummer 17. Sie bleiben da stehen, bis ich Ihnen zurufe, weiterzufahren.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Duroy gibt dem Kutscher die genaue Adresse in der Rue Fontaine — konkrete Ortsnennung als Teil seines Überwachungsplans.",
+      "koordinaten": {
+        "lat": 48.8815,
+        "lng": 2.3358,
+        "ort_bezeichnung": "Rue Fontaine 17, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 35,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Dann bringen Sie mich nach dem Restaurant Coq-Faisan, rue Lafayette.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Duroy nennt dem Kutscher das Zieldestination — konkrete Ortsnennung.",
+      "koordinaten": {
+        "lat": 48.8762,
+        "lng": 2.3437,
+        "ort_bezeichnung": "Rue Lafayette, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 36,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen setzte sich langsam trabend in Bewegung und Du Roy zog die Vorhänge herunter.",
+      "tags": [
+        "move",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Bewegung im Wagen und seine Handlung mit den Vorhängen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, Nähe Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 37,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Sobald er gegenüber seiner Wohnung angelangt war, ließ er keinen Blick mehr von seiner Haustür.",
+      "tags": [
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy beobachtet aktiv und angespannt seine Haustür — innere Wachheit und Kontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haustür der Wohnung",
+        "emotion": "Wachheit, Kontrollbedürfnis",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 38,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Nachdem er zehn Minuten gewartet hatte, sah er, wie Madeleine das Haus verließ und in der Richtung nach den äußeren Boulevards ging.",
+      "tags": [
+        "george_duroy",
+        "time",
+        "move"
+      ],
+      "notiz": "Duroy wartet und beobachtet — das Zeiterleben ist mit Spannung und Lauern verbunden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Nähe Wohnung Duroys, Richtung äußere Boulevards, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haustür / Straße vor der Wohnung",
+        "emotion": "Anspannung, lauerndes Warten",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 39,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Sobald er sie aus dem Auge verloren hatte, steckte er seinen Kopf durch die Fenster und rief: »Weiterfahren!«",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy handelt unmittelbar sobald Madeleine verschwunden ist — kontrollierte Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Nähe Wohnung Duroys, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 40,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Die Droschke fuhr weiter und setzte ihn vor dem Coq-Faisan ab, einem in jener Stadtgegend bekannten bürgerlichen Restaurant.",
+      "tags": [
+        "location",
+        "move",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt Ankunft beim Restaurant Coq-Faisan und charakterisiert es als bürgerlich.",
+      "koordinaten": {
+        "lat": 48.8762,
+        "lng": 2.3437,
+        "ort_bezeichnung": "Restaurant Coq-Faisan, Rue Lafayette, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 41,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Georges betrat den großen Speisesaal und aß in aller Ruhe und sah dabei von Zeit zu Zeit auf seine Uhr.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "time"
+      ],
+      "notiz": "Erzähler beschreibt Duroys scheinbare Gelassenheit, während er die Zeit im Blick behält.",
+      "koordinaten": {
+        "lat": 48.8762,
+        "lng": 2.3437,
+        "ort_bezeichnung": "Restaurant Coq-Faisan, Rue Lafayette, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 42,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Er trank seinen Kaffee aus, nahm zwei Glas Kognak, rauchte langsam eine gute Zigarre und verließ halb acht das Lokal",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt Duroys kontrolliertes Ritual des Wartens mit bürgerlichen Genussmitteln.",
+      "koordinaten": {
+        "lat": 48.8762,
+        "lng": 2.3437,
+        "ort_bezeichnung": "Restaurant Coq-Faisan, Rue Lafayette, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 43,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "er hielt eine vorbeifahrende leere Droschke an und ließ sich nach der Rue La Rochefoucauld fahren.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Weiterfahrt zur Rue La Rochefoucauld.",
+      "koordinaten": {
+        "lat": 48.8789,
+        "lng": 2.333,
+        "ort_bezeichnung": "Rue La Rochefoucauld, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 44,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Ohne den Concierge was zu fragen, stieg er in dem angegebenen Hause drei Treppen hinauf",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space"
+      ],
+      "notiz": "Erzähler beschreibt Duroys entschlossenes Eintreten ohne zu zögern — räumliche Bewegung nach oben.",
+      "koordinaten": {
+        "lat": 48.8789,
+        "lng": 2.333,
+        "ort_bezeichnung": "Rue La Rochefoucauld, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 45,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Er wurde in einen Salon geführt, wo er eine kurze Zeit wartete, dann erschien ein hochgewachsener Herr mit Ordensband in militärischer Haltung und mit grauen Haaren, obwohl er noch ziemlich jung war.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt das Interieur und den Polizeikommissar als soziale Figur.",
+      "koordinaten": {
+        "lat": 48.8789,
+        "lng": 2.333,
+        "ort_bezeichnung": "Wohnung des Polizeikommissars, Rue La Rochefoucauld, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 46,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges begrüßte ihn dann und sagte: »Wie ich vorausgesehen habe, Herr Polizeikommissar, ist meine Frau mit ihrem Geliebten in einer möblierten Wohnung, die sie sich in der Rue des Martyrs gemietet haben.«",
+      "tags": [
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy benennt die Rue des Martyrs als Tatort — er handelt planmäßig und kühl.",
+      "koordinaten": {
+        "lat": 48.8815,
+        "lng": 2.3408,
+        "ort_bezeichnung": "Rue des Martyrs, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 47,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges fuhr fort: »Wir haben bis neun Uhr Zeit, nicht wahr? Nach dieser Zeit dürfen Sie nicht mehr in eine private Wohnung eindringen, um einen Ehebruch festzustellen.«",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "notiz": "Duroy erlebt die Zeit als strategische Ressource — er plant den richtigen Moment für die Intervention.",
+      "koordinaten": {
+        "lat": 48.8789,
+        "lng": 2.333,
+        "ort_bezeichnung": "Wohnung des Polizeikommissars, Rue La Rochefoucauld, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Salon des Polizeikommissars",
+        "emotion": "kühle Berechnung, strategisches Zeitbewusstsein",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 48,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "»Nein, mein Herr, bis 7 Uhr im Winter, bis 9 Uhr im Sommer; heute ist der 5.",
+      "tags": [
+        "time",
+        "historical"
+      ],
+      "notiz": "Erzähler gibt durch den Kommissar eine rechtliche und zeitliche Kontextualisierung der Szene.",
+      "koordinaten": {
+        "lat": 48.8789,
+        "lng": 2.333,
+        "ort_bezeichnung": "Wohnung des Polizeikommissars, Rue La Rochefoucauld, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 49,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Kommissar ging hinaus und kam wieder zurück. Er hatte einen Überrock an, der seinen dreifarbigen breiten Gurt verdeckte.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt den Kommissar von aussen, dessen Dienstzeichen durch den Überrock verdeckt wird — sozialer und materieller Hinweis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Polizeibüro, Paris (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 50,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er trat beiseite, um Du Roy den Vortritt zu lassen, doch der Journalist, dessen Gedanken ganz woanders schweiften, weigerte sich, zuerst hinauszugehen",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Gedanken sind abgelenkt — sein innerer Zustand der Zerstreutheit wird spürbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Polizeibüro, Paris (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Polizeibüro",
+        "emotion": "Zerstreutheit, innere Abwesenheit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 51,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Sie fuhren zuerst nach der Polizeiwache und nahmen drei Schutzleute in Zivil mit, die auf sie warteten, denn Georges hatte im Laufe des Tages angegeben, daß das Abfassen des Pärchens am selben Abend stattfinden würde.",
+      "tags": [
+        "move",
+        "location",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Fahrt zur Polizeiwache und die Vorbereitung der Razzia.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Polizeiwache, Paris (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 52,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Einer der Schutzleute setzte sich auf den Bock neben den Kutscher. Die zwei anderen stiegen in die Droschke, die nach der Rue des Martyrs fuhr.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt neutral die Fahrt zur Rue des Martyrs.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3393,
+        "ort_bezeichnung": "Rue des Martyrs, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 53,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Du Roy sagte: »Ich habe den Plan der Wohnung. Sie liegt im zweiten Stock. Wir kommen zuerst in ein kleines Vorzimmer, dann in das Speisezimmer und dann in das Schlafzimmer. Alle drei Zimmer liegen der Reihe nach, eins nach dem anderen. Es gibt keinen zweiten Ausgang, der die Flucht ermöglichte. In der Nähe wohnt ein Schlosser; er hält sich bereit für den Fall, daß Sie ihn kommen lassen.«",
+      "tags": [
+        "george_duroy",
+        "space"
+      ],
+      "notiz": "Duroy schildert den Grundriss der Wohnung aus seiner Planung heraus — er hat die räumliche Kontrolle über die Situation.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3393,
+        "ort_bezeichnung": "Rue des Martyrs, Wohnung im zweiten Stock",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung in der Rue des Martyrs",
+        "emotion": "Kontrolle, Kalkulation",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 54,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Als sie vor das betreffende Haus kamen, war es erst ein viertel nach acht; sie warteten schweigend auf der Straße noch etwa zwanzig Minuten.",
+      "tags": [
+        "location",
+        "time",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt neutral das Warten vor dem Haus — Atmosphäre des Schweigens und der Spannung.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3393,
+        "ort_bezeichnung": "Rue des Martyrs, vor dem Haus",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße vor dem Haus, Rue des Martyrs",
+        "emotion": "Anspannung, gedämpfte Erwartung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 55,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Doch als Georges feststellte, daß es schon dreiviertel neun Uhr schlug, sagte er: »Jetzt los, gehen wir.«",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt die Uhrzeit wahr und handelt entschlossen — die Zeit löst seine Aktion aus.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3393,
+        "ort_bezeichnung": "Rue des Martyrs, vor dem Haus",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße vor dem Haus, Rue des Martyrs",
+        "emotion": "Entschlossenheit, Handlungsbereitschaft",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 56,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Sie stiegen die Treppe hinauf, ohne sich beim Portier zu melden, der sie auch gar nicht bemerkt hatte. Einer von den Beamten blieb auf der Straße, um den Eingang zu überwachen.",
+      "tags": [
+        "move",
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das heimliche Betreten des Hauses und die räumliche Aufstellung der Gruppe.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3393,
+        "ort_bezeichnung": "Rue des Martyrs, Hauseingang und Treppe",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 57,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Die vier Männer blieben im Flur des zweiten Stockwerks stehen.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Erzähler lokalisiert die Gruppe im Flur eines Gebäudes im zweiten Stockwerk.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur im zweiten Stockwerk einer möblierten Wohnung (unbekannter Ort, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 58,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges preßte zunächst sein Ohr gegen die Tür, dann hielt er seine Augen an das Schlüsselloch.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "sound"
+      ],
+      "notiz": "Duroy nutzt seinen Körper aktiv als Wahrnehmungsinstrument, indem er lauscht und späht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur vor der Wohnungstür",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Flur vor der Wohnungstür",
+        "emotion": "Anspannung, aktive Suche",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 59,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er hörte nichts und sah auch nichts.",
+      "tags": [
+        "george_duroy",
+        "sound"
+      ],
+      "notiz": "Duroy nimmt aus seiner Perspektive Stille und Leere wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur vor der Wohnungstür",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Flur vor der Wohnungstür",
+        "emotion": "Anspannung durch Stille",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 60,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Sie hörten im Inneren der Wohnung ein Geräusch. Dann näherte sich ein leiser, kaum hörbarer Schritt.",
+      "tags": [
+        "george_duroy",
+        "sound"
+      ],
+      "notiz": "Duroy nimmt Geräusche aus dem Wohnungsinneren wahr, die auf eine versteckte Präsenz hinweisen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur vor der Wohnungstür",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Flur vor der Wohnungstür",
+        "emotion": "Erregung, Entdeckungsmoment",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 61,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Der Journalist klopfte nun heftig mit seinem gekrümmten Finger gegen die hölzerne Täfelung der Tür.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "material"
+      ],
+      "notiz": "Duroy handelt körperlich aggressiv und setzt seinen Finger als Druckmittel gegen die Holztür ein.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur vor der Wohnungstür",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 62,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Du Roy rief: »Ich bin es. Es ist zwecklos, uns entrinnen zu wollen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy tritt selbstbewusst und drohend auf, was seine innere Entschlossenheit offenbart.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur vor der Wohnungstür",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 63,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er drückte die Türklinke aus Messing nieder und stemmte mit seiner Schulter gegen die Tür.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "material"
+      ],
+      "notiz": "Duroy setzt seinen Körper physisch ein, um die Tür aufzubrechen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur vor der Wohnungstür",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 64,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "stieß er so heftig und gewaltsam dagegen, daß das alte Schloß dieser möblierten Wohnung nicht standhielt und nachgab. Die Schrauben flogen aus dem Holz",
+      "tags": [
+        "material",
+        "space"
+      ],
+      "notiz": "Erzähler beschreibt die materielle Beschaffenheit des alten Schlosses und den Moment des Aufbrechens von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Eingangstür einer möblierten Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 65,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "der junge Mann wäre beinahe auf Madeleine gefallen, die nur mit Hemd und Unterrock bekleidet, mit nackten Beinen und zerzaustem, aufgelöstem Haar im Vorraum mit einer Kerze in der Hand stand.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy trifft überraschend auf Madeleine in kompromittierender Situation — ein Moment emotionaler Aufladung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Vorraum der möblierten Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Vorraum der möblierten Wohnung",
+        "emotion": "Schock, Triumph",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 66,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "»Da ist sie, wir haben sie.« Und er stürzte in die Wohnung hinein.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move"
+      ],
+      "notiz": "Duroys Ausruf und rasches Eindringen zeigen seinen triumphierenden Gemütszustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "möblierte Wohnung",
+        "emotion": "Triumph, Erregung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 67,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Kommissar nahm seinen Hut ab und folgte ihm. Die junge Frau schritt verwirrt und erschrocken hinter ihnen her und beleuchtete ihnen den Weg.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler schildert die Szene von aussen: Madeleines erschrockene Haltung und die formale Geste des Kommissars erzeugen eine aufgeladene soziale Atmosphäre.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "möblierte Wohnung",
+        "emotion": "Bedrängnis, gesellschaftliche Entblössung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 68,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Sie gingen durch das Speisezimmer, der Tisch war noch nicht abgedeckt und die Reste der Mahlzeit standen darauf; leere Champagnerflaschen, eine offene Gänseleberpastete, Hühnerknochen und zur Hälfte aufgegessene Brotstücke.",
+      "tags": [
+        "space",
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den unaufgeräumten Speisezimmertisch mit Speiseresten als sozialen und materiellen Raum von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Paris (unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 69,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Auf dem Anrichtetisch standen zwei Teller mit leeren Austernschalen.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt die Reste des üppigen Mahls als soziales Zeichen von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Paris (unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 70,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Im Schlafzimmer war alles durcheinander geworfen, als wenn ein Kampf stattgefunden hätte. Ein Damenkleid lag über einer Stuhllehne. Ein paar männliche Unterhosen hingen auf dem Arm eines Lehnstuhls, ein Bein rechts, eins links. Vier Stiefel, zwei große und zwei kleine, lagert auf der Seite neben dem Bett herum.",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt das chaotische Schlafzimmer mit durcheinander geworfenen Kleidungsstücken als atmosphärisches Raumbild eines Ehebruchs.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Schlafzimmer, Paris (unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer der möblierten Wohnung",
+        "emotion": "Unordnung, Enthüllung, impliziter Skandal",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 71,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Es war ein Schlafzimmer einer möblierten Wohnung mit ganz gewöhnlichen Möbeln; ein widriger und fader Geruch eines Hotelzimmers schwebte in der Luft, ein Geruch, der aus den Gardinen, aus den Matratzen, aus den Wänden und aus den Polstermöbeln zu dringen schien; ein Menschendunst aller derer, die in dieser öffentlichen Schlafstelle geschlafen oder gewohnt hatten, sei es nur einen Tag oder ein halbes Jahr, und die von ihrem eigenen Geruch etwas zurückgelassen hatten; und diese Ausdünstungen erzeugten, gemischt mit denen ihrer Vorgänger, letzten Endes einen undefinierbaren süßlichen und unausstehlichen Gestank, der in allen solchen Schlupfwinkeln derselbe ist.",
+      "tags": [
+        "smell",
+        "space",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den charakteristischen widrigen Geruch eines Hotelzimmers als atmosphärische Kulisse, die soziale Anonymität und moralischen Verfall evoziert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Schlafzimmer, Paris (unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer der möblierten Wohnung",
+        "emotion": "Widerwille, moralische Degradierung, Anonymität",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 72,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Ein Teller mit Kuchen, eine Flasche Chartreuse und zwei noch halbvolle Gläschen standen auf dem Kamin. Eine bronzene Standuhr war mit einem Herrenhut verdeckt.",
+      "tags": [
+        "material",
+        "space",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt die Details des Kamins als materielle Zeichen eines heimlichen Stelldicheins in der möblierten Wohnung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "möblierte Wohnung, Schlafzimmer, Paris (unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 73,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Man sah im Bett die Gestalt eines menschlichen Körpers, die sich unter der Bettdecke verborgen hielt.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die verhüllte Gestalt im Bett als Teil der Ehebruchszene.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 74,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Kommissar trat heran und rief: »Mein Herr.« Der Mann im Bett rührte sich nicht. Er schien den Anwesenden den Rücken zu drehen, den Kopf unterm Kissen vergraben.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert die unbewegliche Haltung des Mannes im Bett als atmosphärische Beschreibung von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer",
+        "emotion": "Starre, Verlegenheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 75,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Du Roy trat hastig ans Bett, zog die Decke zurück und riß das Kopfkissen fort",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt aktiv und körperlich — er greift selbst ein und deckt den Liebhaber auf.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer",
+        "emotion": "Handlungsdrang, Wut",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 76,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "das totenblasse Gesicht Laroche-Mathieus wurde sichtbar.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt das entlarvte Gesicht Laroche-Mathieus von aussen — ein Moment sozialer Demaskierung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 77,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er neigte sich über ihn und sagte mit zusammengepreßten Zähnen, zitternd vor Begierde, ihn an der Kehle zu packen und zu erdrosseln: »Haben Sie wenigstens den Mut, Ihre Gemeinheit einzugestehen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erlebt tierische Wut und den körperlichen Impuls, den Rivalen zu würgen — sein Körper ist Ausdruck extremer Emotion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer",
+        "emotion": "Wut, Verachtung, Gewaltimpuls",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 78,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges schrie zitternd vor tierischer Wut: »So antworten Sie doch, Sie Memme, oder ich nenne Ihren Namen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Körper ist von tierischer Wut beherrscht — er verliert die Kontrolle und schreit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer",
+        "emotion": "unkontrollierte Wut",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 79,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Er hielt die Bettdecke fest gegen seinen Hals gedrückt und rollte seine verstörten Augen. Sein hochgedrehter kleiner Schnurrbart schien ganz schwarz im Vergleich zu seinem bleichen Gesicht.",
+      "tags": [
+        "material",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die physische Erscheinung und Panik Laroche-Mathieus von aussen — ein Bild sozialer Entblössung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schlafzimmer (Tatort der Ehescheidungsszene)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schlafzimmer",
+        "emotion": "Panik, Entblössung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 80,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Du Roy grinste, hob ein Hemd auf, das auf der Diele herumlag, warf es auf das Bett und schrie: »Los ... stehen Sie auf ... Sie haben sich vor meiner Frau ausgezogen, Sie können sich dann vor mir anziehen.«",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroy handelt aktiv und aggressiv, seine Geste und sein Ausruf zeigen Dominanz und Wut.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotelzimmer, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer",
+        "emotion": "Wut, Dominanz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 81,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Dann drehte er ihm den Rücken und ging zum Kamin.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich im Raum zum Kamin und wendet dem Mann den Rücken — eine bewusste Geste der Verachtung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotelzimmer, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 82,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Madeleine hatte ihre Kaltblütigkeit wiedergewonnen. Sie sah ein, daß nichts mehr zu retten war und war bereit, alles zu wagen. Ihre Augen blitzten höhnisch und übermütig, sie rollte in den Händen ein Stück Papier zusammen, steckte es am Kamin an und zündete wie für einen gesellschaftlichen Empfang die zehn Lichter an, die in den schäbigen Leuchtern auf dem Kamin standen.",
+      "tags": [
+        "social",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Haltung und das ärmliche Ambiente des Zimmers von aussen — die schäbigen Leuchter kontrastieren mit ihrer kühnen Geste.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotelzimmer, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer mit schäbigen Leuchtern",
+        "emotion": "Spott, soziale Degradierung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 83,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Sie lehnte sich mit dem Rücken an das Marmorsims, hob einen ihrer nackten Füße und streckte ihn gegen das erlöschende Feuer.",
+      "tags": [
+        "atmosphere",
+        "material",
+        "weather"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Körperhaltung und das erlöschende Feuer als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotelzimmer, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 84,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Dann nahm sie aus einer rosa Pappschachtel eine Zigarette, zündete sie an und begann zu rauchen.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Geste mit der Zigarette als sozialen Marker einer selbstbewussten Haltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotelzimmer, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 85,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Du Roy stürzte sich auf ihn, als wollte er ihn niederschlagen, dann brüllte er ihm ins Gesicht: »Aber Sie sind auf frischer Tat ertappt worden ...",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroy handelt impulsiv und aggressiv — sein Körper wird zum Akteur, Wut und Kontrollverlust dominieren.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotelzimmer, Paris (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer",
+        "emotion": "Wut, Kontrollverlust",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 86,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Du Roy wurde leichenblaß.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt Duroys körperliche Reaktion auf die Demütigung von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 87,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Mit einer heftigen Handbewegung riß er aus seinem Knopfloch das kurze rote Bändchen heraus und warf es in den Kamin.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt impulsiv aus Wut und Stolz heraus — er wirft das Ehrenkreuz in den Kamin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung, Paris",
+        "emotion": "Wut, Stolz, Demütigung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 88,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "»So! Das ist eine Auszeichnung wert, die von einem Trottel wie Sie herkommt.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äussert verächtlich seinen inneren Zustand — Ablehnung der sozialen Auszeichnung durch den Minister.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 89,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Zähneknirschend standen sie einander gegenüber. Aufs äußerste erregt, mit geballten Fäusten, der eine mager mit langgezogenem Schnurrbart, der andere dick mit hochgedrehtem Schnurrbart.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die körperliche Konfrontation der zwei Männer von aussen, kontrastierend ihre Erscheinung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung, Paris",
+        "emotion": "Wut, Spannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 90,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Dieser Mann heißt Laroche-Mathieu und ist Minister des Äußeren.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Der Minister des Äußeren als Figur der Dritten Republik — Verweis auf die politische Institution.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, Frankreich",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 91,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Madeleine stand noch immer unbeweglich und rauchte lächelnd die Zigarette weiter.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines gleichgültige Haltung als atmosphärischen Kontrast zur Spannung der Szene.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 92,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Dann machte sich der Beamte einige Notizen über den Zustand der Wohnung.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt die behördliche Handlung in der Wohnung von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung (Schauplatz des Ehebruchs)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 93,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Du Roy wandte sich um und sagte mit dreistem, zynischem Lächeln: »Warum denn? Wir sind fertig. Sie können sich wieder hinlegen, mein Herr. Wir werden Sie jetzt allein lassen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy agiert mit gespielter Überlegenheit und Ironie — innerer Zustand der Triumphgefühle zeigt sich in Mimik und Worten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung (Schauplatz des Ehebruchs)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung des Ministers",
+        "emotion": "Triumph, Zynismus",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 94,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Dann legte er einen Finger auf den Arm des Polizeibeamten und sagte: »Gehen wir, Herr Polizeikommissar. Wir haben hier jetzt nichts mehr zu suchen;«",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy nimmt körperlich die Führungsrolle ein — er berührt den Beamten und bestimmt die Bewegungsrichtung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung (Schauplatz des Ehebruchs)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 95,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Beamte folgte ihm etwas erstaunt; doch an der Türschwelle blieb Georges stehen, um ihn vorbei zu lassen.",
+      "tags": [
+        "space"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Geste an der Türschwelle — räumlicher Übergang als Machtspiel.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Türschwelle der Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 96,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Da machte der Journalist eine Verbeugung und versetzte mit ironischer Höflichkeit: »Jetzt sind Sie an der Reihe, Herr Polizeikommissar, ich bin hier beinahe zu Hause.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy beansprucht mit ironischer Geste symbolische Hausherrenschaft — inneres Überlegenheitsgefühl zeigt sich im sozialen Machtspiel.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Türschwelle der Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Türschwelle der Wohnung des Ministers",
+        "emotion": "ironische Überlegenheit, Machtgefühl",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 97,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Dann zog er leise mit einer diskreten Bewegung die Tür hinter sich zu.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy schliesst die Tür mit betonter Bedächtigkeit — bewusste körperliche Geste als Inszenierung seiner eigenen Würde.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Türschwelle der Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 98,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Eine Stunde später erschien Du Roy im Redaktionsbureau der Vie Française.",
+      "tags": [
+        "location",
+        "time",
+        "move"
+      ],
+      "notiz": "Erzähler gibt Zeitangabe und Ortsveränderung Duroys zur Redaktion der Vie Française an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 99,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Herr Walter war noch da, denn er fuhr fort, sorgfältig und gewissenhaft seine Zeitung, die jetzt einen riesigen Aufschwung genommen hatte und seine immer größer werdenden Bankoperationen begünstigte, zu leiten und zu überwachen.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Erzähler beschreibt Walters wachsenden wirtschaftlichen und medialen Einfluss — gesellschaftlich-politischer Kontext der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 100,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Der junge Mann, der des Effekts seiner Mitteilung bewußt war, erklärte, indem, er jedes Wort betonte: »Ich habe eben den Minister des Äußeren gestürzt.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy ist sich seiner Wirkung bewusst — inneres Triumphgefühl und kalkulierte Selbstinszenierung im sozialen Aufstiegskontext.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktion der Vie Française",
+        "emotion": "Triumph, Selbstbewusstsein",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 101,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Der Alte war verblüfft und dachte, daß sein Redakteur beschwipst sei.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Walters Reaktion von aussen und markiert damit die soziale Hierarchie in der Redaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 102,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Ich habe eben Laroche-Mathieu mit meiner Frau auf frischer Tat beim Ehebruch ertappt. Der Polizeikommissar hat die Sache zu Protokoll genommen. Der Minister ist futsch.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy teilt Walter triumphierend und emotional aufgeladen mit, was er entdeckt hat — inneres Erleben von Macht und Empörung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 103,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Ich will die Sache sogar gleich in die Zeitung bringen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy äussert aktiv seinen Willen zur sofortigen Publikation — Entschlossenheit und Machtgefühl.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 104,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Diesen elenden Schurken und öffentlichen Missetäter stürzen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy formuliert sein Ziel mit moralisch aufgeladener Verachtung — Racheimpuls als innere Haltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 105,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges legte seinen Hut auf einen Lehnstuhl und sprach weiter: »Wehe denen, die sich mir in den Weg stellen. Ich verzeihe nie.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys gestische Handlung (Hut ablegen) und seine Drohung zeigen körperlich-räumliche Machtdemonstration im Büro.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktion La Vie Française",
+        "emotion": "Macht, Unversöhnlichkeit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 17
+    },
+    {
+      "id": 106,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Vater Walter schien die Sache noch immer nicht ganz zu begreifen. Er stotterte",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Walters Fassungslosigkeit von aussen als atmosphärisches Detail der Szene.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 107,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Ich reiche morgen früh die Scheidungsklage ein. Soll sie wieder die Witwe Forestier werden.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy kündigt die Scheidung an — inneres Erleben von Kontrolle und sozialem Kalkül.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 108,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Sie hat mich lächerlich gemacht. Doch ich war gezwungen, den Dummen zu spielen, um sie zu erwischen. Nun hab' ich sie. Jetzt bin ich Herr der Lage.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert seine strategische Täuschung und erlebt jetzt Triumph über seine Frau — starkes inneres Machtgefühl.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 109,
+      "zeile": 27,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "erzaehler",
+      "text": "Herr Walter konnte noch immer nicht zu sich kommen; er sah Du Roy mit verstörten Augen an und dachte: »Donnerwetter, mit dem Jungen soll man sich in acht nehmen.«",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Walters Reaktion und innere Einschätzung Duroys von aussen — soziale Machtverschiebung wird sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 110,
+      "zeile": 30,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Nun bin ich frei. Ich habe ein gewisses Vermögen, und bei den Neuwahlen im Oktober werde ich mich in meiner Heimat, wo ich gut bekannt bin, als Kandidat aufstellen lassen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "historical"
+      ],
+      "notiz": "Duroy formuliert seinen politischen Aufstiegsplan — Freiheit, Vermögen und politischer Ambitionen verbinden sich zu einem inneren Lebensentwurf.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Heimat Duroys (Normandie, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 111,
+      "zeile": 33,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Mit dieser Frau, die in den Augen aller Welt für eine verdächtige Person galt, konnte ich weder eine gute Stellung noch Achtung gewinnen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert den sozialen Schaden, den seine Frau seinem Ansehen zugefügt hat — inneres soziales Kalkül.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 112,
+      "zeile": 35,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Sie hat mich wie einen richtigen Dummkopf betört und bestrickt. Doch seitdem ich ihr Spiel durchschaut, habe ich diese Dirne überwacht.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erinnert sich an seine Überwachungsstrategie — Mischung aus Kränkung, Verachtung und Triumph.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 113,
+      "zeile": 38,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er lachte und setzte hinzu: »Dieser arme Forestier trug Hörner... sie betrog ihn, ohne daß er es ahnte; er blieb immer vertrauensvoll und ruhig. Endlich bin ich die Bürde los, die er mir vererbt hatte.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy lacht und erinnert sich an Forestier — Erleichterung und Verachtung für den verstorbenen Vorgänger als inneres Gefühl.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Erinnerung an Forestier (kein konkreter Ort)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 114,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Nun habe ich beide Hände frei, und ich werde es weit bringen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äußert innere Überzeugung und sozialen Aufstiegswillen nach einer Befreiung von Verpflichtungen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 115,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Er setzte sich rittlings auf einen Stuhl und wiederholte wie in Gedanken: »Jetzt werde ich es weit bringen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliche Haltung (rittlings auf dem Stuhl) spiegelt seinen selbstbewussten, aufstrebenden inneren Zustand wider.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    },
+    {
+      "id": 116,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 17",
+      "perspektive": "figur",
+      "text": "Georges stand auf: »Ich werde gleich eine Notiz über den Vorfall schreiben, sie muß diskret gehalten werden. Aber wissen Sie, für den Minister wird sie schrecklich sein. Der Mann ist erledigt, ihm wird nicht mehr zu helfen sein. Die Vie Française hat kein Interesse mehr, ihn zu schonen.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy agiert strategisch und machtbewusst, indem er seinen Plan zur politischen Vernichtung des Ministers darlegt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 17
+    }
+  ]
+}

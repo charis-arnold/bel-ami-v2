@@ -1,0 +1,6336 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "zeile": 1,
+        "tags": [
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Herbst war gekommen.",
+        "notiz": "Neutrale Erzählerangabe zur Jahreszeit.",
+        "ort": "Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "zeile": 1,
+        "tags": [
+          "location",
+          "social",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Du Roys waren den ganzen Sommer in Paris geblieben und führten während der kurzen Kammerferien e",
+        "notiz": "Maupassant beschreibt von aussen das politische Engagement der Du Roys in Paris während der Sommerpause.",
+        "ort": "Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "zeile": 2,
+        "tags": [
+          "time",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Zwar war es erst Anfang Oktober; aber die Kammer hatte bereits ihre Sitzungen wieder aufgenommen, de",
+        "notiz": "Erzähler gibt neutrales Datum und politischen Kontext der Marokkoaffäre an.",
+        "ort": "Paris (Kammer)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "zeile": 3,
+        "tags": [
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Eigentlich glaubte ja niemand an die Expedition nach Tanger.",
+        "notiz": "Erzähler kommentiert die allgemeine politische Stimmung zur geplanten Kolonialexpedition.",
+        "ort": "Tanger",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "zeile": 3,
+        "tags": [
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "wie einst nach Tunis, schon der Symmetrie wegen, wie man zwei Vasen auf einen Kamin stellt.",
+        "notiz": "Historisch-politischer Verweis auf die Tunis-Expedition als kolonialen Präzedenzfall.",
+        "ort": "Tunis",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er trat energisch für eine militärische Expedition ein, obwohl er überzeugt war, daß sie niemals sta",
+        "notiz": "Erzähler beschreibt Duroys öffentliche Haltung im Widerspruch zu seiner inneren Überzeugung — von aussen kommentiert.",
+        "ort": "Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er gebärdete sich überpatriotisch und überschüttete Spanien mit allen möglichen beleidigenden und ve",
+        "notiz": "Maupassant beschreibt von aussen Duroys performativen Nationalismus als soziopolitische Strategie.",
+        "ort": "Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "zeile": 1,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Vie Française hatte durch die Beziehung zu der herrschenden Staatsgewalt außerordentliches Anseh",
+        "notiz": "Maupassant beschreibt von aussen den politischen Aufstieg der Zeitung Vie Française und ihre Verbindung zur Staatsmacht.",
+        "ort": "Redaktion der Vie Française (Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "zeile": 2,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie brachte die politischen Neuigkeiten früher als die maßgebenden altbewährten Blätter und legte di",
+        "notiz": "Erzähler beschreibt die wachsende Machtstellung der Vie Française im Pariser Pressewesen der Dritten Republik.",
+        "ort": "Paris (allgemein)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "zeile": 3,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie war nicht mehr das verdächtige Organ einer Gruppe politisierender Börsenspekulanten, sondern das",
+        "notiz": "Maupassant beschreibt den Wandel des Blattes von einem dubiosen Spekulantenorgan zu einem respektierten Regierungsblatt.",
+        "ort": "Paris (allgemein)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Laroche-Mathieu war die Seele der Zeitung und Du Roy sein Sprachrohr.",
+        "notiz": "Erzähler ordnet Duroy von aussen als politisches Sprachrohr Laroche-Mathieus ein.",
+        "ort": "Paris (allgemein)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "zeile": 6,
+        "tags": [
+          "location",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Salon Madeleines war zu einem einflußreichen Mittelpunkt geworden, wo man allwöchentlich einige ",
+        "notiz": "Erzähler beschreibt Madeleines Salon als politisch bedeutsamen Gesellschaftsmittelpunkt in Paris.",
+        "ort": "Salon Madeleines, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "politische Macht und gesellschaftlicher Einfluss",
+        "raum_emotion": {
+          "ort": "Salon Madeleines",
+          "emotion": "politische Macht und gesellschaftlicher Einfluss",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "zeile": 7,
+        "tags": [
+          "social",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Ministerpräsident hatte sogar zweimal bei ihr gespeist, und die Frauen der Staatsmänner, die frü",
+        "notiz": "Erzähler schildert den gesellschaftlichen Aufstieg Madeleines als Gastgeberin des politischen Establishments.",
+        "ort": "Wohnung Duroys/Madeleines, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "zeile": 8,
+        "tags": [
+          "social",
+          "location",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Minister des Äußeren war beinahe Herr bei ihr im Hause geworden. Er kam zu jeder Tageszeit, brac",
+        "notiz": "Erzähler beschreibt die Dominanz des Ministers in Duroys Haushalt als soziale Machtverschiebung.",
+        "ort": "Wohnung Duroys/Madeleines, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "zeile": 9,
+        "tags": [
+          "social",
+          "george_duroy"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er diktierte sie bald dem Manne, bald der Frau des Hauses, als wären sie beide seine Sekretäre.",
+        "notiz": "Erzähler beschreibt Duroy und Madeleine von aussen als untergeordnete Werkzeuge des Ministers.",
+        "ort": "Wohnung Duroys/Madeleines, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Blieb Du Roy, nachdem der Minister fortgegangen war, mit seiner Frau allein, so ging er mit drohende",
+        "notiz": "Duroys innere Verachtung und verletzter Stolz gegenüber dem Minister kommen in seinem aggressiven Verhalten seiner Frau gegenüber zum Ausdruck.",
+        "ort": "Wohnung Duroys/Madeleines, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "verletzter Stolz, Verachtung, Ohnmacht",
+        "raum_emotion": {
+          "ort": "Wohnung Duroys/Madeleines",
+          "emotion": "verletzter Stolz, Verachtung, Ohnmacht",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er drehte seinen Schnurrbart und warf auf sie von der Seite einen Blick.",
+        "notiz": "Duroys körperliche Geste des Schnurrbartdrehens und der seitliche Blick drücken seine unterdrückte Wut und Ohnmacht aus.",
+        "ort": "Wohnung Duroys/Madeleines, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "unterdrückte Wut, Ohnmacht",
+        "raum_emotion": {
+          "ort": "Wohnung Duroys/Madeleines",
+          "emotion": "unterdrückte Wut, Ohnmacht",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "zeile": 3,
+        "tags": [
+          "time",
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Am Morgen der Wiedereröffnung der Kammer lag die junge Frau noch im Bett und gab ihrem Gatten, der s",
+        "notiz": "Der Erzähler situiert die Szene zeitlich (Wiedereröffnung der Kammer) und kontextualisiert den politischen Hintergrund mit dem Staatsminister Laroche-Mathieu.",
+        "ort": "Wohnung Duroy/Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "zeile": 3,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "um noch vor Beginn der Sitzung von ihm die nötigen Instruktionen für den Leitartikel einzuholen, der",
+        "notiz": "Der Erzähler beschreibt die politisch-mediale Verflechtung zwischen dem Kabinett und der Vie Française als historisch-institutionellen Kontext.",
+        "ort": "Redaktion Vie Française / Kammer, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er wurde nervös und ungeduldig.",
+        "notiz": "Duroy empfindet innere Ungeduld gegenüber Madeleines Instruktionen — sein emotionaler Zustand wird aus seiner Perspektive benannt.",
+        "ort": "Wohnung Duroy/Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er drehte sich zu ihr um und lächelte höhnisch",
+        "notiz": "Duroy wendet sich körperlich zu Madeleine und drückt durch ein höhnisches Lächeln seinen inneren Spott aus.",
+        "ort": "Wohnung Duroy/Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "zeile": 13,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Er schwieg und sagte dann nach einer kurzen Pause: »Wenn ich unter deinen Verehrern zu wählen hätte,",
+        "notiz": "Duroy äußert seine innere Haltung gegenüber den Männern um Madeleine und zeigt ein emotional gefärbtes Zeiterleben — acht Tage ohne Vaudrec werden als relevant empfunden.",
+        "ort": "Wohnung Duroy/Madeleine, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "zeile": 1,
+        "tags": [
+          "george_duroy"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er war mit seiner Toilette zu Ende, setzte seinen Hut auf und suchte herum, ob er nichts vergessen h",
+        "notiz": "Der Erzähler beschreibt Duroys Abschluss seiner Morgentoilette und Aufbruchsvorbereitungen von aussen.",
+        "ort": "Duroys Wohnung (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er fand nichts, näherte sich seiner Frau und gab ihr einen Kuß auf die Stirn",
+        "notiz": "Duroy handelt aktiv im Raum — er nähert sich und vollzieht eine körperliche Geste des Abschieds.",
+        "ort": "Duroys Wohnung (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "zeile": 3,
+        "tags": [
+          "move"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann ging er fort.",
+        "notiz": "Kurze Erzählerangabe zur Ortsveränderung Duroys — er verlässt seine Wohnung.",
+        "ort": "Duroys Wohnung (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "zeile": 4,
+        "tags": [
+          "time",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Herr Laroche-Mathieu erwartete ihn bereits, denn an diesem Tage frühstückte er um zehn Uhr.",
+        "notiz": "Neutrale Erzählerangabe zu Uhrzeit und Situation bei Laroche-Mathieu.",
+        "ort": "Wohnung/Residenz von Laroche-Mathieu (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "zeile": 5,
+        "tags": [
+          "time",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Ministerrat sollte um zwölf, noch vor der Parlamentseröffnung, zusammentreten.",
+        "notiz": "Erzähler verankert die Szene im politisch-historischen Kontext der Dritten Republik — Ministerrat und Parlamentseröffnung als institutionelle Ereignisse.",
+        "ort": "Paris, politische Institutionen (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "zeile": 6,
+        "tags": [
+          "social",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Frau Laroche-Mathieu wollte zur gewohnten Zeit frühstücken, und so war außer ihnen beiden nur noch d",
+        "notiz": "Der Erzähler beschreibt die soziale Konstellation am Frühstückstisch von aussen — Ministersgattin, Sekretär und Duroy als gesellschaftliche Gruppe.",
+        "ort": "Wohnung/Residenz von Laroche-Mathieu (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "zeile": 7,
+        "tags": [
+          "george_duroy"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy begann von seinem Artikel zu sprechen, gab dessen Richtlinien an, stellte dem Minister einige",
+        "notiz": "Duroy handelt aktiv — er steuert das Gespräch und notiert Informationen für seinen Artikel.",
+        "ort": "Wohnung/Residenz von Laroche-Mathieu (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "zeile": 10,
+        "tags": [
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann sprach man über die bevorstehende Eröffnung der Kammer.",
+        "notiz": "Erzähler verweist auf die Parlamentseröffnung als politisch-institutionelles Ereignis der Dritten Republik.",
+        "ort": "Paris, Palais Bourbon (nicht explizit genannt)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "zeile": 11,
+        "tags": [
+          "social",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Laroche-Mathieu begann nun zu reden; er wollte die Wirkung der Phrasen ausprobieren, die er sich vor",
+        "notiz": "Der Erzähler charakterisiert Laroche-Mathieu von aussen als politisch kalkulierenden Redner — soziale Inszenierung der Macht.",
+        "ort": "Wohnung/Residenz von Laroche-Mathieu (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "zeile": 1,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er schwang dabei die rechte Hand, in der er bald die Gabel, bald das Messer, bald ein Stückchen Brot",
+        "notiz": "Maupassant beschreibt den Minister von aussen — Gestik, Rhetorik und äussere Erscheinung als soziale Charakterisierung.",
+        "ort": "Speisezimmer des Ministers (nicht näher bestimmt)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "zeile": 2,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sein winziger hochgedrehter Schnurrbart endete mit zwei Spitzen, und sein Haar, das in der Mitte ges",
+        "notiz": "Maupassant beschreibt das äussere Erscheinungsbild des Ministers als sozialen Marker — provinziell, aufgebläht.",
+        "ort": "Speisezimmer des Ministers (nicht näher bestimmt)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy jedoch, dem der Neid auf den errungenen Erfolg am Herzen nagte, dachte dabei: »Du altes Kamel",
+        "notiz": "Duroy empfindet Neid auf den Minister und verachtet innerlich die politische Klasse — intensives emotionales Erleben.",
+        "ort": "Speisezimmer des Ministers (nicht näher bestimmt)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Neid, Verachtung",
+        "raum_emotion": {
+          "ort": "Speisezimmer des Ministers",
+          "emotion": "Neid, Verachtung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Sein eigener Wert kam ihm im Vergleich zu der geschwätzigen Wichtigtuerei des Ministers um so mehr z",
+        "notiz": "Duroy imaginiert sich als Deputierten in der Normandie — persönliche Sehnsucht nach politischem Aufstieg, gefärbt durch Neid und Selbstüberschätzung.",
+        "ort": "Normandie (imaginiert)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Sehnsucht, Selbstüberhebung, Neid",
+        "raum_emotion": {
+          "ort": "Normandie (imaginiert)",
+          "emotion": "Sehnsucht, Selbstüberhebung, Neid",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "zeile": 5,
+        "tags": [
+          "time",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Herr Laroche-Mathieu redete bis zum Kaffee. Dann sah er, daß es spät wurde, er klingelte, ließ sein ",
+        "notiz": "Maupassant markiert das Ende des Essens neutral als zeitlichen Übergang — Abschluss des gesellschaftlichen Rituals.",
+        "ort": "Speisezimmer des Ministers (nicht näher bestimmt)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3339,
+          48.86775
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "move",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy ging langsam auf die Redaktion, um seinen Artikel aufzusetzen, denn er hatte sonst bis vier U",
+        "notiz": "Duroy bewegt sich zur Redaktion — die Zeitangabe (bis vier Uhr) ist Teil seiner inneren Planung.",
+        "ort": "Weg zur Redaktion (Paris, nicht näher bestimmt)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8789
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "location_erinnerung",
+          "time",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Um vier sollte er sich in der Rue Constantinople mit Madame de Marelle treffen, mit der er regelmäßi",
+        "notiz": "Duroy denkt an das geplante Treffen mit Madame de Marelle in der Rue Constantinople — Ort wird als fester Teil seiner intimen Lebensgestaltung benannt.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Vertrautheit, Routine",
+        "raum_emotion": {
+          "ort": "Rue Constantinople",
+          "emotion": "Vertrautheit, Routine",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31545,
+          48.8789
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "zeile": 8,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Doch als er auf die Redaktion kam, überreichte man ihm eine geschlossene Depesche.",
+        "notiz": "Maupassant verortet die Szene neutral in der Redaktion — Ankunft Duroys und Empfang der Depesche.",
+        "ort": "Redaktion (Paris, nicht näher bestimmt)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3153,
+          48.8789
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "zeile": 1,
+        "tags": [
+          "location",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Erwarte mich um zwei Uhr in der Rue Constantinople.",
+        "notiz": "Erzähler gibt den konkreten Treffpunkt und die Uhrzeit aus dem Telegramm wieder.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er schimpfte: »Donnerwetter, dieses klebrige Weib.«",
+        "notiz": "Duroy reagiert innerlich ärgerlich auf das Telegramm und drückt seine Abneigung aus.",
+        "ort": "Redaktion La Vie française (näherungsweise)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Und in einem Anfall schlechter Laune verließ er sofort die Redaktion; denn er war zu aufgeregt, um w",
+        "notiz": "Duroys schlechte Laune treibt ihn aus der Redaktion — Stimmung motiviert Bewegung.",
+        "ort": "Redaktion La Vie française (näherungsweise)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "schlechte Laune, Aufgeregtheit",
+        "raum_emotion": {
+          "ort": "Redaktion",
+          "emotion": "schlechte Laune, Aufgeregtheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "zeile": 4,
+        "tags": [
+          "time",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Seit sechs Wochen versuchte er vergebens, mit ihr zu brechen. Doch sie klammerte sich mit zäher Anhä",
+        "notiz": "Erzähler gibt rückblickend die Dauer der Beziehungskrise und das Verhalten Madame de Marelles an.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "zeile": 5,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Gleich nach ihrem Fehltritt hatte sie furchtbare Gewissensbisse gehabt und bei den drei aufeinanderf",
+        "notiz": "Erzähler schildert neutral die emotionale Dynamik der früheren Begegnungen.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Ihm wurden diese Szenen langweilig, denn er war dieser überreifen und dramatischen Frau sehr schnell",
+        "notiz": "Duroy erlebt Überdruss und Langeweile gegenüber der Frau und versucht die Beziehung passiv zu beenden.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "zeile": 7,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nun aber hing sie sich an ihn und stürzte sich wie wahnsinnig in diese Liebe, wie man sich in einen ",
+        "notiz": "Erzähler charakterisiert von aussen die verzweifelte Leidenschaft der Frau mit einer Metapher.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Aus Schwäche, Gutmütigkeit und Rücksicht hatte er sich wieder mit ihr eingelassen.",
+        "notiz": "Duroy reflektiert — aus seiner Perspektive — die inneren Motive für sein Nachgeben.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 1,
+        "gewichtete_valenz": -1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "zeile": 9,
+        "tags": [
+          "location",
+          "space",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und nun umgab sie ihn mit einer zügellosen ermüdenden Leidenschaft und verfolgte ihn mit ihren Zärtl",
+        "notiz": "Erzähler beschreibt von aussen das Muster der Verfolgung durch urbane Begegnungsorte — Straßenecken, Warenhäuser, Anlagen als soziale Raumkategorie.",
+        "ort": "Straßenecken, Warenhäuser und öffentliche Anlagen in Paris (unspezifisch)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "zeile": 10,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Immer wieder sagte sie ihm dieselben Phrasen, daß sie ihn anbete und vergöttere und verließ ihn alsd",
+        "notiz": "Erzähler schildert das stereotype Liebesritual der Frau von aussen.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 1,
+        "gewichtete_valenz": -1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Sie erwies sich ganz anders, als er je geträumt hätte, und versuchte ihn mit kindlichen Zärtlichkeit",
+        "notiz": "Duroy bewertet das Verhalten der Frau als nicht seinem Bild entsprechend und empfindet ihre Zärtlichkeiten als lächerlich.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "zeile": 12,
+        "tags": [
+          "atmosphere",
+          "social",
+          "weather"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Da sie bis dahin vollständig anständig geblieben war, innerlich keusch, jedem Gefühl verschlossen, u",
+        "notiz": "Erzähler charakterisiert von aussen die emotionale und sinnliche Geschichte der Frau mit einer atmosphärisch-jahreszeitlichen Metapher.",
+        "ort": null,
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "zeile": 1,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nun entstand bei ihr durch dieses Abenteuer eine Art von zweitem welkem Frühling mit kleinen, verküm",
+        "notiz": "Maupassant beschreibt von aussen die emotionale Verfassung Madame de Marelles als zweiten, verspäteten Frühling der Liebe.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "zeile": 2,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie schrieb zehn Briefe am Tage, alberne und verrückte Briefe in einem verworrenen, poetischen, läch",
+        "notiz": "Maupassant beschreibt von aussen das übertriebene Briefeschreiben der Frau als Ausdruck naiver Verliebtheit.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "zeile": 3,
+        "tags": [
+          "social",
+          "material",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sobald sie allein waren, umarmte sie ihn mit schwerfälliger Zärtlichkeit, wie ein großes Kind, verzo",
+        "notiz": "Maupassant beschreibt von aussen das körperlich-unbeholfene Liebesverhalten der Frau als soziales und physisches Phänomen.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er war geradezu verzweifelt, wenn sie ihn »Mein Mäuschen«, »Mein Hündchen«, »Mein Kätzchen«, »Mein S",
+        "notiz": "Duroy erlebt innerlich Verzweiflung über die kindischen Kosenamen, die die Frau für ihn verwendet.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "zeile": 5,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "und, wenn sie sich hingab, immer wieder eine kindisch-schamhafte Komödie spielte, mit ängstlichen Be",
+        "notiz": "Maupassant beschreibt von aussen das gespielte, alterswidrige Liebesgebaren der Frau.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "dann quälte sie ihn, bis er ganz nervös und blaß wurde.",
+        "notiz": "Duroy reagiert körperlich-emotional auf die Quälereien der Frau — er wird nervös und blass.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Sie mußte doch fühlen, so schien es ihm, daß zur Liebe etwas Takt, Gewandtheit, Vorsicht und entspre",
+        "notiz": "Duroy reflektiert innerlich über die seiner Meinung nach fehlende Würde und soziale Angemessenheit im Liebesverhalten der Frau.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "sound"
+        ],
+        "perspektive": "figur",
+        "text": "Er konnte es nicht mehr hören, wie sie ihn »mein Kleiner« oder »mein Kindchen« nannte, ohne daß er L",
+        "notiz": "Duroy erlebt den Klang der Kosenamen als unerträglichen Reiz und hat den inneren Impuls, aggressiv zu kontern.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "erregten und ärgerten Georges auf das höchste",
+        "notiz": "Duroy reagiert emotional auf Madame Walters Worte mit Erregung und Ärger.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "brachte ihn die Ungeschicklichkeit ihrer Liebkosungen zur Verzweiflung",
+        "notiz": "Duroy empfindet Verzweiflung über die Ungeschicklichkeit seiner Geliebten.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "daß Du Roy darüber am liebsten gelacht hätte und an alte Leute denken mußte, die lesen und schreiben",
+        "notiz": "Duroy erlebt innerlich Belustigung und distanzierte Abneigung gegenüber ihrer Ungeschicklichkeit.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 1,
+        "gewichtete_valenz": -1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3136,
+          48.879
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "spürte dann ein unwiderstehliches Verlangen, zu fluchen, seinen Hut zu nehmen, fortzugehen und die T",
+        "notiz": "Duroy verspürt den inneren Impuls zur Flucht und zum Abbruch der Begegnung.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Ekel und Fluchtimpuls",
+        "raum_emotion": {
+          "ort": "unbestimmt",
+          "emotion": "Ekel und Fluchtimpuls",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3119,
+          48.8791
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "zeile": 5,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "In der ersten Zeit waren sie oft in der Rue Constantinople zusammen",
+        "notiz": "Die Rue Constantinople wird als früherer Treffpunkt der Liebenden genannt.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3119,
+          48.8791
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "doch Du Roy fürchtete ein Zusammentreffen mit Madame de Marelle und er fand jetzt eine Menge Ausrede",
+        "notiz": "Duroy meidet die Rue Constantinople aus Furcht vor einer unerwünschten Begegnung und sucht aktiv Ausreden.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Furcht vor Entdeckung",
+        "raum_emotion": {
+          "ort": "Rue Constantinople",
+          "emotion": "Furcht vor Entdeckung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "zeile": 7,
+        "tags": [
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und nun mußte er fast täglich zu ihr kommen; bald zum Frühstück, bald zum Mittagessen.",
+        "notiz": "Der Erzähler beschreibt den regelmässigen, fast täglichen Rhythmus der Zusammenkünfte als äussere Tatsache.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Doch er fand viel mehr Vergnügen daran, mit Suzanne zu spielen, über deren witzige Einfälle er oft l",
+        "notiz": "Duroy empfindet echte Freude im Umgang mit Suzanne, im Kontrast zur Qual mit ihrer Mutter.",
+        "ort": "unbestimmt",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Georges reizte sie an, stachelte ihre Ironie auf und sie verstanden sich vortrefflich.",
+        "notiz": "Duroy erlebt eine harmonische, spielerische Verbindung mit Laurine (Tochter) und empfindet Freude daran.",
+        "ort": "unbestimmt",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Er ließ sofort die Mutter im Stich und eilte zu der Tochter.",
+        "notiz": "Duroy wendet sich aktiv von der Mutter ab und bewegt sich zur Tochter — eine bewusste soziale Abkehr.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Inzwischen war er der Liebe der Mutter so überdrüssig geworden, daß er bald einen unüberwindlichen W",
+        "notiz": "Duroy erlebt intensiven emotionalen Ekel und Wut gegenüber Frau Walter — starker innerer Zustand.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 3,
+        "gewichtete_valenz": -3,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "zeile": 4,
+        "tags": [
+          "location",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "spürte ihm nach, verfolgte ihn, lauerte auf ihn in einer Droschke mit heruntergezogenen Vorhängen am",
+        "notiz": "Maupassant beschreibt von aussen, wie Frau Walter Duroy vor der Redaktion auflauert — konkreter städtischer Ort.",
+        "ort": "Eingang der Redaktion (La Vie Française), Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "zeile": 5,
+        "tags": [
+          "location",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "vor seiner Haustür und in den Straßen, wo sie ihm zu begegnen hoffte",
+        "notiz": "Maupassant beschreibt die städtischen Räume — Haustür und Straßen — als Schauplätze der Verfolgung.",
+        "ort": "Straßen rund um Duroys Wohnung, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er hatte Lust, sie zu mißhandeln, zu beschimpfen, sie zu verprügeln und ihr einfach ins Gesicht zu s",
+        "notiz": "Duroys innerer Gewaltimpuls gegen Frau Walter — starke emotionale Aggression als imaginierter körperlicher Akt.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Aber im Hinblick auf die Vie Française mußte er auf sie doch einige Rücksichten nehmen",
+        "notiz": "Duroy denkt kalkulierend über seine soziale und berufliche Abhängigkeit von der Vie Française nach.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31305,
+          48.8788
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Er lebte unaufhörlich in der Furcht, daß die beiden Frauen eines Tages an der Tür aufeinanderstoßen ",
+        "notiz": "Duroy empfindet anhaltende Angst vor einem räumlichen Zusammentreffen der zwei Frauen — Emotion bezogen auf konkreten Ort.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Furcht, Angst vor Entdeckung",
+        "raum_emotion": {
+          "ort": "Rue Constantinople",
+          "emotion": "Furcht, Angst vor Entdeckung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3142,
+          48.8785
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "zeile": 9,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie erfand alle möglichen Listen und Vorwände, um sich mit ihm in der Rue Constantinople zu treffen",
+        "notiz": "Maupassant nennt die Rue Constantinople als konkreten Treffpunkt — Ortsangabe durch den Erzähler.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Seine Neigung zu Madame de Marelle war aber im Gegenteil im Laufe des Sommers noch stärker geworden.",
+        "notiz": "Duroy erlebt im Laufe des Sommers eine wachsende emotionale Zuneigung zu Madame de Marelle — positiver innerer Zustand.",
+        "ort": "unbestimmt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "zeile": 1,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie waren beide im Grunde Abenteurer, sie waren Nomaden des großen städtischen Lebens, die, ohne es ",
+        "notiz": "Maupassant charakterisiert Duroy und Clotilde von aussen als soziale Abenteurer des urbanen Lebens.",
+        "ort": "Paris (allgemein)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "zeile": 2,
+        "tags": [
+          "location",
+          "move"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie fuhren zum Frühstück nach Argenteuil, nach Bougival, nach Maisons und Poissy heraus",
+        "notiz": "Maupassant nennt konkrete Ausflugsorte rund um Paris, die das Paar regelmässig aufsucht.",
+        "ort": "Argenteuil, Bougival, Maisons, Poissy",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "zeile": 3,
+        "tags": [
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "blieben stundenlang im Boot, um an den Ufern entlang Blumen zu pflücken",
+        "notiz": "Maupassant beschreibt idyllische Freizeitgestaltung auf der Seine als stimmungsvolle Kulisse.",
+        "ort": "Seineufer bei Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Idylle, Freiheit",
+        "raum_emotion": {
+          "ort": "Seineufer",
+          "emotion": "Idylle, Freiheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "zeile": 4,
+        "tags": [
+          "smell",
+          "sound",
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie liebte sehr gebackene Seinefische, Kaninchen und Fischfrikassee, sie schwärmte für die Lauben in",
+        "notiz": "Maupassant beschreibt Clotildes Vorlieben als sensorische Kulisse des gemeinsamen Sommerlebens.",
+        "ort": "Seineufer-Kneipen bei Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood",
+          "weather"
+        ],
+        "perspektive": "figur",
+        "text": "Es machte ihm Spaß, mit ihr an einem heiteren Sommertage auf dem Verdeck eines Vorortzuges hinauszuf",
+        "notiz": "Duroy erlebt die Ausflüge mit Clotilde als freudige Bewegung durch den städtischen Randraum.",
+        "ort": "Vorortzug um Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Spaß, Leichtigkeit",
+        "raum_emotion": {
+          "ort": "Pariser Vorortfelder",
+          "emotion": "Spaß, Leichtigkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "zeile": 6,
+        "tags": [
+          "space",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "auf denen die scheußlichen Villen der Spießbürger wie Pilze aus der Erde schießen",
+        "notiz": "Duroy nimmt die Vorstadtarchitektur abwertend wahr und ordnet sie einem verachteten Milieu zu.",
+        "ort": "Pariser Vorstädte",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verachtung, Abneigung",
+        "raum_emotion": {
+          "ort": "Pariser Vorstädte",
+          "emotion": "Verachtung, Abneigung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3149,
+          48.87845
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Und als er wieder zurück mußte, um bei Frau Walter zu essen, da haßte er die alte zähe Geliebte und ",
+        "notiz": "Duroy vergleicht innerlich die beiden Frauen und empfindet Hass auf Frau Walter im Kontrast zur Erinnerung an Clotilde an den Flussufern.",
+        "ort": "Seineufer (Erinnerung)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Begehren, Hass, Sehnsucht",
+        "raum_emotion": {
+          "ort": "Seineufer",
+          "emotion": "Begehren, Hass, Sehnsucht",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8784
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "location"
+        ],
+        "perspektive": "figur",
+        "text": "Er fühlte sich nun endlich von der Frau seines Chefs etwas befreit, denn er hatte, als er ihr Telegr",
+        "notiz": "Duroy empfindet Erleichterung über die angestrebte Trennung von Frau Walter; die Rue Constantinople wird als Ort des Rendezvous genannt.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Befreiung, Entschlossenheit",
+        "raum_emotion": {
+          "ort": "Rue Constantinople",
+          "emotion": "Befreiung, Entschlossenheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Er las es im Gehen noch einmal durch",
+        "notiz": "Duroy liest das Telegramm während er geht — Bewegung im Stadtraum verbunden mit Lektüre.",
+        "ort": "Pariser Strasse (unbestimmt)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Er dachte: »Was will sie noch von mir, die alte Gans? Ich wette, sie hat mir gar nichts mitzuteilen.",
+        "notiz": "Duroy räsoniert innerlich über das Rendezvous mit Frau Walter und erlebt dabei eine zeitliche Spannung zwischen den Verabredungen.",
+        "ort": "Pariser Strasse (unbestimmt)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Ungeduld, Kalkül, leichte Verachtung",
+        "raum_emotion": {
+          "ort": "Pariser Strasse",
+          "emotion": "Ungeduld, Kalkül, leichte Verachtung",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Ich muß die erste spätestens um drei los werden. O Gott! Daß sie sich nur nicht begegnen! Oh, diese ",
+        "notiz": "Duroy denkt innerlich nervös über die Koordination seiner Beziehungen nach — Zeitdruck und emotionale Belastung.",
+        "ort": "unbestimmt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er überlegte sich, daß seine Frau die einzige war, die ihm immer seine Ruhe gönnte. Sie lebte an sei",
+        "notiz": "Duroy reflektiert innerlich über seine Frau und bewertet sie positiv im Vergleich zu seinen anderen Beziehungen.",
+        "ort": "unbestimmt",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "zeile": 3,
+        "tags": [
+          "move",
+          "george_duroy"
+        ],
+        "perspektive": "figur",
+        "text": "Er ging mit langsamen Schritten seiner Junggesellenwohnung zu",
+        "notiz": "Duroy bewegt sich langsam in Richtung seiner Junggesellenwohnung.",
+        "ort": "Junggesellenwohnung Duroys, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "versetzte sich innerlich immer mehr gegen die Frau seines Chefs in Wut: »Ah, ich werde sie schon ric",
+        "notiz": "Duroy steigert sich innerlich in Wut gegen Frau Walter und plant eine aggressive Reaktion ihr gegenüber.",
+        "ort": "unbestimmt, unterwegs zur Junggesellenwohnung",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Wut, Entschlossenheit",
+        "raum_emotion": {
+          "ort": "Straße zur Junggesellenwohnung",
+          "emotion": "Wut, Entschlossenheit",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Er trat ein, um auf Frau Walter zu warten.",
+        "notiz": "Duroy betritt seine Junggesellenwohnung und wartet auf Frau Walter.",
+        "ort": "Junggesellenwohnung Duroys, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er machte ein böses Gesicht: »Jawohl, ich fand sie auf der Redaktion in dem Augenblick, als ich zur ",
+        "notiz": "Duroy reagiert mit demonstrativer Verärgerung auf Frau Walters Ankunft und verweist auf seinen unterbrochenen Plan, zur Kammer zu gehen.",
+        "ort": "Junggesellenwohnung Duroys, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31735,
+          48.8706
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "zeile": 7,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "auf der Redaktion",
+        "notiz": "Nennung der Redaktion als Ort, an dem Duroy die Depesche fand.",
+        "ort": "Redaktion, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3191,
+          48.8628
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "zeile": 8,
+        "tags": [
+          "location",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "zur Kammer gehen wollte",
+        "notiz": "Verweis auf die Kammer als politische Institution, wohin Duroy unterwegs war.",
+        "ort": "Chambre des députés (Palais Bourbon), Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er brummte: »Fängst du schon wieder an?«",
+        "notiz": "Duroy reagiert mit verdrießlichem Unwillen auf Frau Walters emotionale Annäherung.",
+        "ort": "Junggesellenwohnung Duroys, Paris",
+        "valenz": -1,
+        "intensitaet": 1,
+        "gewichtete_valenz": -1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er stampfte wütend mit den Füßen",
+        "notiz": "Duroys körperlicher Ausdruck von Wut und Ungeduld im Raum.",
+        "ort": "Wohnung/Innenraum (unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Wut",
+        "raum_emotion": {
+          "ort": "Innenraum",
+          "emotion": "Wut",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Ich bin dir dafür sehr dankbar, aber ich fühle mich gar nicht verpflichtet, bis zum Tode an deinen R",
+        "notiz": "Duroy reflektiert seine emotionale und soziale Lage gegenüber der Frau — inneres Erleben seiner Ungebundenheit.",
+        "ort": "Innenraum (unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "move",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "Als er die Tränen fließen sah, ergriff er seinen Hut, der auf der Ecke des Kamins lag",
+        "notiz": "Duroy nimmt die Tränen wahr und reagiert mit einer Bewegung — er greift nach dem Hut als Zeichen des Aufbruchs.",
+        "ort": "Innenraum (unspezifisch)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Gleichgültigkeit/Kälte",
+        "raum_emotion": {
+          "ort": "Innenraum",
+          "emotion": "Gleichgültigkeit/Kälte",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Ach, du willst weinen! Dann guten Abend. Du hast mich also nur für dieses Theater herbestellt?",
+        "notiz": "Duroy äußert zynische Ungeduld und emotionale Kälte gegenüber der weinenden Frau.",
+        "ort": "Innenraum (unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy legte seinen Hut auf einen Stuhl und wartete jetzt sehr gespannt.",
+        "notiz": "Duroy reagiert körperlich und emotional auf die enthüllenden Informationen — er ist gespannt und abwartend.",
+        "ort": "Innenraum, nicht näher bezeichnet",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "zeile": 2,
+        "tags": [
+          "george_duroy"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und er setzte sich selbst in einen Lehnstuhl.",
+        "notiz": "Maupassant beschreibt Duroys Handlung von aussen — er setzt sich in einen Lehnstuhl.",
+        "ort": "Innenraum, nicht näher bezeichnet",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "zeile": 3,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie aber zog ein niedriges Taburett heran und ließ sich zwischen den Beinen des jungen Mannes nieder",
+        "notiz": "Maupassant beschreibt die körperliche Nähe der Frau zu Duroy als soziale Geste der Vertrautheit und Schmeichelei — von aussen beobachtet.",
+        "ort": "Innenraum, nicht näher bezeichnet",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "zeile": 5,
+        "tags": [
+          "social",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es handelte sich um ein richtiges Geschäft, das im stillen vorbereitet wurde.",
+        "notiz": "Maupassant beschreibt von aussen das verdeckte Finanzgeschäft im Zusammenhang mit kolonialpolitischen Manövern.",
+        "ort": "nicht näher bezeichnet",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 110,
+        "zeile": 6,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie lächelte und freute sich über ihre Schlauheit und Gewandtheit. Sie wurde aufgeregt, sie sprach a",
+        "notiz": "Maupassant schildert von aussen die soziale Welt der Finanzspekulation und deren verheerende Wirkung auf kleine Bürger — ein kritisches Gesellschaftsbild.",
+        "ort": "nicht näher bezeichnet",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 111,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Er wurde ungeduldig über die lange Vorrede: »Los, weiter! Sag' schnell!«",
+        "notiz": "Duroy erlebt Ungeduld über die zögernde Enthüllung — Zeit wird emotional als Verzögerung wahrgenommen.",
+        "ort": "unbekannt",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 112,
+        "zeile": 2,
+        "tags": [
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Also höre zu. Die Tangerexpedition war zwischen ihnen beschlossen, schon seit dem Tage, wo Laroche d",
+        "notiz": "Maupassant schildert die politisch-koloniale Hintergrundgeschichte der Marokko-Expedition — historisch-politischer Kontext der Dritten Republik.",
+        "ort": "Tanger / Marokko (historisch-politisch)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 113,
+        "zeile": 3,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie haben selbst die Rothschilds getäuscht, die sich über die Nachfrage nach Marokkanern sehr wunder",
+        "notiz": "Verweis auf das Bankhaus Rothschild als Akteur im politisch-finanziellen Gefüge — sozialer und historischer Kontext der Dritten Republik.",
+        "ort": "Börse / Paris (implizit)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 114,
+        "zeile": 4,
+        "tags": [
+          "historical",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und nun wird man die Expedition unternehmen, und sobald wir da unten Fuß gefaßt haben, garantiert de",
+        "notiz": "Maupassant beschreibt das koloniale Spekulationsgeschäft als historisch-politisches Faktum — Verbindung von Kolonialexpedition und Finanzgewinn.",
+        "ort": "Marokko (historisch-politisch)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 115,
+        "zeile": 5,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie lehnte ihren Kopf gegen seine Weste und legte die Arme auf seine Knie; sie schmiegte sich an ihn",
+        "notiz": "Maupassant beschreibt von aussen das Kalkül der Frau im Umgang mit Duroy — soziale und emotionale Dynamik der Szene.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 116,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er erklärte darauf: »Es ist wirklich großartig. Was aber diesen Lump Laroche angeht, den will ich am",
+        "notiz": "Duroy reagiert mit Empörung und Machtgefühl — sein inneres Erleben wechselt von Staunen zu aggressiver Entschlossenheit gegenüber Laroche.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 117,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er soll mir nur mit seinem Ministergetue zwischen die Finger kommen!«",
+        "notiz": "Duroy äussert innere Wut und Empörung über eine (politische) Figur.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 118,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Dann dachte er nach und murmelte: »Man müßte davon auch etwas profitieren.«",
+        "notiz": "Duroy denkt kalkulierend über den eigenen Vorteil aus der Situation nach — inneres soziales Kalkül.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 119,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "»Nein, ausgeschlossen!«",
+        "notiz": "Duroy lehnt das Angebot schroff ab — emotional und impulsiv.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 120,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er wiederholte: »Nein, nein, solche Kombinationen mache ich nicht mit.«",
+        "notiz": "Duroy bekräftigt seine Ablehnung finanzieller Verstrickungen — innerer Widerstand gegen soziale Abhängigkeit.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 121,
+        "zeile": 13,
+        "tags": [
+          "social",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nun begann sie, ihre Gründe auseinanderzusetzen und versuchte, ihn mit Vernunft zu überreden. Sie be",
+        "notiz": "Maupassant beschreibt von aussen die Argumentation der Frau und verweist auf Duroys politische Rolle bei der Vie Française — historisch-politischer Kontext der Dritten Republik.",
+        "ort": "La Vie Française (Redaktion)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 122,
+        "zeile": 16,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er zauderte.",
+        "notiz": "Duroys inneres Zögern markiert den Moment des Schwankens zwischen Ablehnung und Zustimmung.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 123,
+        "zeile": 19,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "»Also gut, meinetwegen,« sagte er, »wir machen mit dir die Sache halb und halb.«",
+        "notiz": "Duroy willigt widerstrebend ein — innere Kapitulation vor dem finanziellen Kalkül.",
+        "ort": "unbekannt",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 124,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "fiel ihm dann ein, daß die andere bald kommen mußte und daß, wenn er nachgeben, er Zeit verlieren wü",
+        "notiz": "Duroy kalkuliert innerlich, seine Leidenschaft zu schonen — emotionale Zeitwahrnehmung und strategisches Begehren.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "strategische Zurückhaltung des Begehrens",
+        "raum_emotion": {
+          "ort": "unbestimmter Innenraum",
+          "emotion": "strategische Zurückhaltung des Begehrens",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 125,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er wies sie sanft zurück.",
+        "notiz": "Duroy handelt körperlich-strategisch, indem er Mme. de Marelle sanft zurückweist.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 126,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er zögerte, wagte aber nicht, abzulehnen.",
+        "notiz": "Duroys inneres Zögern zeigt seinen sozialen Kalkül und seine emotionale Unentschlossenheit.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 127,
+        "zeile": 4,
+        "tags": [
+          "material",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Mit regelmäßiger sanfter Bewegung rieb sie langsam ihre Wange an seiner Brust und eins ihrer langen ",
+        "notiz": "Maupassant beschreibt von aussen die sinnliche Geste und das physische Detail des hängengebliebenen Haares.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 128,
+        "zeile": 5,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie merkte es und ein toller, halbverrückter, abergläubischer Gedanke ging ihr durch den Kopf, ein G",
+        "notiz": "Erzählerkommentar über weibliche Psychologie — Maupassant tritt als allwissender Beobachter auf.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 129,
+        "zeile": 6,
+        "tags": [
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie begann, dieses Haar langsam um einen seiner Knöpfe zu wickeln. Dann wickelte sie ein anderes Haa",
+        "notiz": "Maupassant beschreibt von aussen die rituelle, beschwörende Handlung der Frau mit dem Haar.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 130,
+        "zeile": 7,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sollte er nun aufstehen, so würde er sie alle herausreißen. Er würde ihr weh tun. Welches Glück! Er ",
+        "notiz": "Maupassant schildert die magisch-abergläubische Logik der Frauenfigur aus der Aussenperspektive — ein symbolisches Bindungsritual.",
+        "ort": "unbestimmter Innenraum",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31425,
+          48.8712
+        ]
+      },
+      "properties": {
+        "id": 131,
+        "zeile": 1,
+        "tags": [
+          "move"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie trennten sich; er bog nach rechts ein, sie nach links.",
+        "notiz": "Maupassant beschreibt von aussen die Trennung und die entgegengesetzten Richtungen der beiden Figuren.",
+        "ort": "unbekannter Treffpunkt, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3094,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 132,
+        "zeile": 2,
+        "tags": [
+          "move",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Du Roy ging bis zum äußeren Boulevard, dann ging er langsam den Boulevard Malesherbes entlang.",
+        "notiz": "Maupassant beschreibt Duroys Weg zum Boulevard Malesherbes als neutrale Ortsangabe von aussen.",
+        "ort": "Boulevard Malesherbes, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": [
+          [
+            2.3092356,
+            48.8794788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3094,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 133,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Als er an einer Kuchenbäckerei vorbeikam, sah er in einer Glasschale im Schaufenster kandierte Kasta",
+        "notiz": "Duroy nimmt aktiv das Schaufenster wahr, während er am Boulevard Malesherbes entlanggeht.",
+        "ort": "Kuchenbäckerei am Boulevard Malesherbes, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": [
+          [
+            2.3092356,
+            48.8794788
+          ],
+          [
+            2.3093637,
+            48.879054
+          ],
+          [
+            2.3096004,
+            48.8786438
+          ],
+          [
+            2.3097786,
+            48.8784002
+          ],
+          [
+            2.309883,
+            48.8782242
+          ],
+          [
+            2.3103021,
+            48.8776777
+          ],
+          [
+            2.3104975,
+            48.8777248
+          ],
+          [
+            2.310721,
+            48.8776595
+          ],
+          [
+            2.3109716,
+            48.8776025
+          ],
+          [
+            2.3109898,
+            48.8774894
+          ],
+          [
+            2.3109534,
+            48.8774551
+          ],
+          [
+            2.3125663,
+            48.8767168
+          ],
+          [
+            2.3126676,
+            48.8767319
+          ],
+          [
+            2.3128152,
+            48.8767456
+          ],
+          [
+            2.3128797,
+            48.8767263
+          ],
+          [
+            2.3129824,
+            48.8766651
+          ],
+          [
+            2.3130368,
+            48.8766217
+          ],
+          [
+            2.3130837,
+            48.8765096
+          ],
+          [
+            2.3131122,
+            48.8764633
+          ],
+          [
+            2.3147645,
+            48.8757162
+          ],
+          [
+            2.3153453,
+            48.8755441
+          ],
+          [
+            2.3156714,
+            48.8754487
+          ],
+          [
+            2.3157183,
+            48.8754522
+          ],
+          [
+            2.3158559,
+            48.8754303
+          ],
+          [
+            2.3158923,
+            48.8754104
+          ],
+          [
+            2.315911,
+            48.8751568
+          ],
+          [
+            2.31633,
+            48.8751038
+          ],
+          [
+            2.3166116,
+            48.8750697
+          ],
+          [
+            2.3184008,
+            48.8748339
+          ],
+          [
+            2.3184269,
+            48.8748254
+          ],
+          [
+            2.3185778,
+            48.8748086
+          ],
+          [
+            2.3192207,
+            48.8747173
+          ],
+          [
+            2.3194991,
+            48.8747071
+          ],
+          [
+            2.3195975,
+            48.8747223
+          ],
+          [
+            2.3197735,
+            48.8746787
+          ],
+          [
+            2.3201208,
+            48.8748113
+          ],
+          [
+            2.3204591,
+            48.8747761
+          ],
+          [
+            2.3205265,
+            48.8747432
+          ],
+          [
+            2.3212378,
+            48.8746509
+          ],
+          [
+            2.3216588,
+            48.8746084
+          ],
+          [
+            2.3226496,
+            48.8744662
+          ],
+          [
+            2.3227095,
+            48.8744709
+          ],
+          [
+            2.3228362,
+            48.8744512
+          ],
+          [
+            2.322854,
+            48.87444
+          ],
+          [
+            2.3237854,
+            48.874309
+          ],
+          [
+            2.3238297,
+            48.874324
+          ],
+          [
+            2.3239845,
+            48.8743057
+          ],
+          [
+            2.3240435,
+            48.8742663
+          ],
+          [
+            2.3245197,
+            48.8742159
+          ],
+          [
+            2.3245841,
+            48.8742283
+          ],
+          [
+            2.3247457,
+            48.8741824
+          ],
+          [
+            2.3247537,
+            48.8741701
+          ],
+          [
+            2.3256328,
+            48.8741634
+          ],
+          [
+            2.3258293,
+            48.8742318
+          ],
+          [
+            2.3259071,
+            48.8742146
+          ],
+          [
+            2.3268026,
+            48.8742351
+          ],
+          [
+            2.3268112,
+            48.8742572
+          ],
+          [
+            2.3270327,
+            48.8742596
+          ],
+          [
+            2.3270708,
+            48.8742242
+          ],
+          [
+            2.3283951,
+            48.8742443
+          ],
+          [
+            2.3296616,
+            48.8742625
+          ],
+          [
+            2.3312494,
+            48.8742913
+          ],
+          [
+            2.3312689,
+            48.8743109
+          ],
+          [
+            2.3313718,
+            48.8743119
+          ],
+          [
+            2.3313939,
+            48.8742956
+          ],
+          [
+            2.3326168,
+            48.8743137
+          ],
+          [
+            2.3326246,
+            48.8743323
+          ],
+          [
+            2.3327588,
+            48.8743615
+          ],
+          [
+            2.3327755,
+            48.8743442
+          ],
+          [
+            2.3352134,
+            48.8742774
+          ],
+          [
+            2.335233,
+            48.874297
+          ],
+          [
+            2.3353453,
+            48.8742972
+          ],
+          [
+            2.3353688,
+            48.8742752
+          ],
+          [
+            2.3370513,
+            48.8742229
+          ],
+          [
+            2.3371156,
+            48.8742302
+          ],
+          [
+            2.3372438,
+            48.8742315
+          ],
+          [
+            2.3374263,
+            48.8742484
+          ],
+          [
+            2.3375035,
+            48.8741159
+          ],
+          [
+            2.3375794,
+            48.8741349
+          ],
+          [
+            2.3380132,
+            48.8741105
+          ],
+          [
+            2.3381191,
+            48.8740946
+          ],
+          [
+            2.3381647,
+            48.8741189
+          ],
+          [
+            2.3390016,
+            48.8740898
+          ],
+          [
+            2.3390142,
+            48.8740652
+          ],
+          [
+            2.3391592,
+            48.8740611
+          ],
+          [
+            2.3391994,
+            48.8740774
+          ],
+          [
+            2.3396414,
+            48.874067
+          ],
+          [
+            2.3396835,
+            48.8740561
+          ],
+          [
+            2.3397882,
+            48.874055
+          ],
+          [
+            2.3398196,
+            48.874071
+          ],
+          [
+            2.3406294,
+            48.8740456
+          ],
+          [
+            2.3406498,
+            48.8740289
+          ],
+          [
+            2.3407779,
+            48.8740232
+          ],
+          [
+            2.3408141,
+            48.8740417
+          ],
+          [
+            2.3423074,
+            48.8739998
+          ],
+          [
+            2.3423389,
+            48.8739862
+          ],
+          [
+            2.3425179,
+            48.8738098
+          ],
+          [
+            2.3429424,
+            48.8731817
+          ],
+          [
+            2.3429994,
+            48.8730238
+          ],
+          [
+            2.3431302,
+            48.8730459
+          ],
+          [
+            2.343169,
+            48.8729136
+          ],
+          [
+            2.3432294,
+            48.8727182
+          ],
+          [
+            2.3448579,
+            48.8724789
+          ],
+          [
+            2.3448951,
+            48.8724937
+          ],
+          [
+            2.3450312,
+            48.8724641
+          ],
+          [
+            2.3460209,
+            48.8723071
+          ],
+          [
+            2.3462094,
+            48.8722789
+          ],
+          [
+            2.3466305,
+            48.8722361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3094,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 134,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er dachte: »Ich werde ein Pfund für Clotilde mitnehmen.«",
+        "notiz": "Duroy denkt an Clotilde und fasst den Entschluss, ihr kandierte Kastanien mitzubringen — ein Zeichen affektiver Zuwendung.",
+        "ort": "Boulevard Malesherbes, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Zuneigung zu Clotilde",
+        "raum_emotion": {
+          "ort": "Boulevard Malesherbes",
+          "emotion": "Zuneigung zu Clotilde",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3094,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 135,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er kaufte sich ein Päckchen voll von diesen Früchten, die sie wahnsinnig liebte.",
+        "notiz": "Maupassant beschreibt von aussen den Kauf als Geste der Zuneigung für Clotilde.",
+        "ort": "Kuchenbäckerei am Boulevard Malesherbes, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 136,
+        "zeile": 6,
+        "tags": [
+          "time",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Um vier war er wieder zurück und wartete auf seine junge Geliebte.",
+        "notiz": "Neutrale Zeitangabe — Duroy wartet um vier Uhr auf Clotilde; Maupassant beschreibt die Situation von aussen.",
+        "ort": "Duroys Wohnung oder gemeinsamer Aufenthaltsort, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 137,
+        "zeile": 7,
+        "tags": [
+          "social",
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie verspätete sich etwas, denn ihr Mann war auf acht Tage nach Paris gekommen.",
+        "notiz": "Maupassant erklärt von aussen die soziale Situation (Ehemann in Paris) als Grund für Clotildes Verspätung.",
+        "ort": "Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 138,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er zeigte ihr das Päckchen auf dem Kamin: »Ich habe für dich kandierte Kastanien mitgebracht.«",
+        "notiz": "Maupassant beschreibt Duroys Handlung mit dem Päckchen auf dem Kamin von aussen.",
+        "ort": "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 139,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er lächelte und setzte sich hin. Sie ließ sich zwischen seinen gespreizten Schenkeln nieder, wie Fra",
+        "notiz": "Maupassant beschreibt die körperliche Positionierung beider Figuren von aussen, mit Vergleich zu Frau Walter.",
+        "ort": "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 140,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er lachte, amüsierte sich über die Geschichten, ließ sie Unsinn reden, alle möglichen Kindereien und",
+        "notiz": "Duroy empfindet Vergnügen und Leichtigkeit bei Clotildes Geplapper — inneres Erleben der Heiterkeit.",
+        "ort": "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Heiterkeit, Amüsement",
+        "raum_emotion": {
+          "ort": "Wohnung Madame de Marelles",
+          "emotion": "Heiterkeit, Amüsement",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 141,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Dieses alles fand er entzückend im Munde Madame de Marelles, während dasselbe im Munde Frau Walters ",
+        "notiz": "Duroy nimmt den Kontrast zwischen den beiden Frauen wahr — Clotildes Worte entzücken ihn, während dieselben Worte aus Frau Walters Mund ihn quälen würden.",
+        "ort": "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Entzücken vs. Verzweiflung (kontrastiv)",
+        "raum_emotion": {
+          "ort": "Wohnung Madame de Marelles",
+          "emotion": "Entzücken vs. Verzweiflung (kontrastiv)",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 142,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Clotilde nannte ihn auch: »Mein Liebling«, »mein Kleiner«, »mein Kätzchen«. Diese Worte schienen ihm",
+        "notiz": "Duroy erlebt Clotildes Kosewörter als angenehm und zärtlich — inneres Wohlgefühl.",
+        "ort": "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Süsse, Wohlgefühl",
+        "raum_emotion": {
+          "ort": "Wohnung Madame de Marelles",
+          "emotion": "Süsse, Wohlgefühl",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 143,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Wenn sie aber die andere vorhin gebrauchte, wurde er nervös und wütend.",
+        "notiz": "Duroy erinnert sich an Frau Walters Verwendung derselben Worte und erlebt dabei Nervosität und Wut — innerer Kontrast.",
+        "ort": "Interieur, Wohnung Madame de Marelles (Paris, unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Nervosität, Wut",
+        "raum_emotion": {
+          "ort": "Wohnung Madame de Marelles",
+          "emotion": "Nervosität, Wut",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 144,
+        "zeile": 13,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Denn Liebesworte, die stets dieselben sind, nehmen bekanntlich den Geschmack der Lippen an, die sie ",
+        "notiz": "Maupassant formuliert eine allgemeine Sentenz über die Natur von Liebesworten — erzählerische Reflexion von aussen.",
+        "ort": "erzählerische Reflexion, kein konkreter Ort",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 145,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Aber trotzdem ihn diese Tollheiten erheiterten, dachte er immerfort an die 70000 Francs, die er gewi",
+        "notiz": "Duroy ist innerlich abgelenkt vom Gedanken an den finanziellen Gewinn, obwohl er äusserlich amüsiert ist.",
+        "ort": "unbekannt, Innenraum",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 146,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "plötzlich unterbrach er das Geschwätz seiner Freundin, indem er ihr mit dem Finger zwei leichte Klap",
+        "notiz": "Duroy unterbricht die Freundin mit einer körperlichen Geste, die seine Dominanz und Entschlossenheit im Raum markiert.",
+        "ort": "unbekannt, Innenraum",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 147,
+        "zeile": 4,
+        "tags": [
+          "historical"
+        ],
+        "perspektive": "figur",
+        "text": "Sag' ihm von mir, daß die Tangerexpedition schon beschlossen ist und daß der französische Staat die ",
+        "notiz": "Duroy verweist auf eine kolonial-politische Entscheidung (Tangerexpedition, Marokko) als Teil des historisch-politischen Kontexts der Dritten Republik.",
+        "ort": "Tanger / Marokko (politischer Verweis)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 148,
+        "zeile": 8,
+        "tags": [
+          "material",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Inzwischen hatte sie alle Kastanien aufgegessen, zerknüllte die Tüte und warf sie in den Kamin.",
+        "notiz": "Maupassant beschreibt von aussen eine alltägliche Handlung der Freundin im häuslichen Innenraum.",
+        "ort": "unbekannt, Innenraum",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 149,
+        "zeile": 10,
+        "tags": [
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und ohne aufzustehen, begann sie Georges Weste aufzuknöpfen. Plötzlich hielt sie inne und zog mit zw",
+        "notiz": "Maupassant beschreibt von aussen die Entdeckung eines Haares an Duroys Kleidung — ein physisches Detail mit sozialer Sprengkraft.",
+        "ort": "unbekannt, Innenraum",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 150,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er lächelte.",
+        "notiz": "Duroys Lächeln als innere Reaktion auf die Entdeckung des schwarzen Haares — ambivalente Emotion, Überlegenheit oder Verschlossenheit.",
+        "ort": "unbekannt, Innenraum",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 151,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er war erstaunt und stammelte: »Aber nein, du bist verrückt!«",
+        "notiz": "Duroy reagiert erstaunt und verlegen auf Clotildes Entdeckung.",
+        "ort": "Innenraum, Duroys Wohnung (unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 1,
+        "gewichtete_valenz": -1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 152,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Auf einmal fiel es ihm ein, er begriff es; nun wurde er verlegen, dann leugnete er lachend, denn er ",
+        "notiz": "Duroy erlebt innerlich einen Moment des Erkennens, Verlegenheit und heimlichen Stolzes über seinen Erfolg bei Frauen.",
+        "ort": "Innenraum, Duroys Wohnung (unspezifisch)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 153,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er wollte sie zurückhalten; er fühlte sich beschämt und stammelte: »Aber nein ... Clo ... du bist du",
+        "notiz": "Duroy fühlt Scham und versucht körperlich wie sprachlich, Clotilde zurückzuhalten.",
+        "ort": "Innenraum, Duroys Wohnung (unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 154,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er wollte sie festhalten; mit einem heftigen Schwung gab sie ihm eine Ohrfeige, und während er betör",
+        "notiz": "Duroy steht betört und handlungsunfähig da, nachdem Clotilde ihm eine Ohrfeige gegeben hat und geflüchtet ist.",
+        "ort": "Innenraum, Duroys Wohnung (unspezifisch)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Betäubung, Verwirrung",
+        "raum_emotion": {
+          "ort": "Zimmer/Tür",
+          "emotion": "Betäubung, Verwirrung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 155,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Sobald er allein, ergriff ihn eine rasende Wut gegen die alte Schachtel, die Mama Walter.",
+        "notiz": "Duroy erlebt intensive Wut gegen Frau Walter — starkes inneres Gefühl.",
+        "ort": "unbekannter Innenraum, Paris",
+        "valenz": -1,
+        "intensitaet": 3,
+        "gewichtete_valenz": -3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "rasende Wut",
+        "raum_emotion": {
+          "ort": "unbekannter Raum",
+          "emotion": "rasende Wut",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 156,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Oh, jetzt würde er sie fühlen lassen, und zwar gründlich. Er kühlte sich seine rote Wange mit Wasser",
+        "notiz": "Duroy plant Rache und kühlt seine gerötete Wange — körperliche Reaktion auf die Wut.",
+        "ort": "unbekannter Innenraum, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Wut, Rachewunsch",
+        "raum_emotion": {
+          "ort": "unbekannter Raum",
+          "emotion": "Wut, Rachewunsch",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32805,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 157,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Dann ging er auch hinaus und überlegte sich seine Rache.",
+        "notiz": "Duroy verlässt den Raum und sinnt auf Rache — Bewegung verbunden mit innerem Plan.",
+        "ort": "Ausgang eines Gebäudes, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3467,
+          48.8722
+        ]
+      },
+      "properties": {
+        "id": 158,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "move",
+          "location"
+        ],
+        "perspektive": "figur",
+        "text": "Er ging langsam den Boulevard herunter und blieb vor einem Juwelierladen stehen.",
+        "notiz": "Duroy bewegt sich langsam den Boulevard entlang und bleibt vor einem Juwelierladen stehen.",
+        "ort": "Boulevard Poissonière (Näherung), Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": [
+          [
+            2.3466305,
+            48.8722361
+          ],
+          [
+            2.3467663,
+            48.873017
+          ],
+          [
+            2.3467549,
+            48.8730243
+          ],
+          [
+            2.3467626,
+            48.8731191
+          ],
+          [
+            2.3467914,
+            48.8731351
+          ],
+          [
+            2.3469101,
+            48.8739809
+          ],
+          [
+            2.3464296,
+            48.8740003
+          ],
+          [
+            2.3464527,
+            48.8740639
+          ],
+          [
+            2.3464878,
+            48.8740742
+          ],
+          [
+            2.3471074,
+            48.8757986
+          ],
+          [
+            2.3471012,
+            48.8758043
+          ],
+          [
+            2.3471237,
+            48.875883
+          ],
+          [
+            2.3464474,
+            48.8759262
+          ],
+          [
+            2.3466077,
+            48.8764581
+          ],
+          [
+            2.3466769,
+            48.8764797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3467,
+          48.8722
+        ]
+      },
+      "properties": {
+        "id": 159,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "social",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "Er betrachtete im Schaufenster einen Chronometer, den er sich schon lange wünschte. Er kostete 1800 ",
+        "notiz": "Duroy betrachtet begehrten Chronometer im Schaufenster — soziales Begehren und materielle Wahrnehmung.",
+        "ort": "Juwelierladen am Boulevard, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Begehren, sozialer Aufstiegswunsch",
+        "raum_emotion": {
+          "ort": "Juwelierladen",
+          "emotion": "Begehren, sozialer Aufstiegswunsch",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3467,
+          48.8722
+        ]
+      },
+      "properties": {
+        "id": 160,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Plötzlich begann sein Herz vor Freude zu klopfen und er dachte: »Wenn ich die 70000 Francs verdiene,",
+        "notiz": "Duroys Herz klopft vor Freude beim Gedanken an den zukünftigen Reichtum — körperlich erlebte Euphorie.",
+        "ort": "Juwelierladen am Boulevard, Paris",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Freude, Aufstiegseuphorie",
+        "raum_emotion": {
+          "ort": "Juwelierladen",
+          "emotion": "Freude, Aufstiegseuphorie",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3468,
+          48.8742
+        ]
+      },
+      "properties": {
+        "id": 161,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Und er begann zu träumen, was er alles mit seinen 70000 Francs tun könnte. Zunächst würde er sich zu",
+        "notiz": "Duroy träumt von Reichtum, politischem Aufstieg und Konsum — innere Wunschfantasie.",
+        "ort": "imaginierter Raum der Zukunft",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Träumerei, Aufstiegssehnsucht",
+        "raum_emotion": {
+          "ort": "imaginierter Raum",
+          "emotion": "Träumerei, Aufstiegssehnsucht",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3468,
+          48.8742
+        ]
+      },
+      "properties": {
+        "id": 162,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er wollte nicht auf die Redaktion gehen, er zog es vor, mit Madeleine die Sache zu besprechen, bevor",
+        "notiz": "Duroy entscheidet sich gegen den Weg zur Redaktion und geht nach Hause — bewusste Routenwahl.",
+        "ort": "Boulevard, Paris (Weg nach Hause)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3469,
+          48.8762
+        ]
+      },
+      "properties": {
+        "id": 163,
+        "zeile": 9,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Als er die Rue Drouot erreichte, blieb er plötzlich stehen.",
+        "notiz": "Erzähler nennt die Rue Drouot als konkreten Ort in Paris, an dem Duroy anhält.",
+        "ort": "Rue Drouot, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8757
+        ]
+      },
+      "properties": {
+        "id": 164,
+        "zeile": 10,
+        "tags": [
+          "george_duroy",
+          "location"
+        ],
+        "perspektive": "figur",
+        "text": "Er hatte vergessen, sich nach dem Befinden des Grafen de Vaudrec zu erkundigen; er wohnte in der Cha",
+        "notiz": "Duroy erinnert sich, dass er Vaudrec besuchen wollte — Ortsnennung Chaussée d'Antin aus seiner Perspektive.",
+        "ort": "Chaussée d'Antin, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3469,
+          48.8762
+        ]
+      },
+      "properties": {
+        "id": 165,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er kehrte langsam um und dachte in glücklicher Träumerei an tausend angenehme und schöne Sachen, an ",
+        "notiz": "Duroy kehrt um und schwelgt in Gedanken an Reichtum und Rache — Bewegung begleitet von innerer Euphorie.",
+        "ort": "Rue Drouot, Paris (Umkehr Richtung Chaussée d'Antin)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "glückliche Träumerei, Aufstiegseuphorie",
+        "raum_emotion": {
+          "ort": "Straße",
+          "emotion": "glückliche Träumerei, Aufstiegseuphorie",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": [
+          [
+            2.3466769,
+            48.8764797
+          ],
+          [
+            2.3466077,
+            48.8764581
+          ],
+          [
+            2.3464548,
+            48.8764338
+          ],
+          [
+            2.3460203,
+            48.8763487
+          ],
+          [
+            2.3459556,
+            48.8764806
+          ],
+          [
+            2.345979,
+            48.8765128
+          ],
+          [
+            2.3459425,
+            48.8765431
+          ],
+          [
+            2.3459116,
+            48.8766186
+          ],
+          [
+            2.3444968,
+            48.8765926
+          ],
+          [
+            2.3444713,
+            48.8766129
+          ],
+          [
+            2.3443003,
+            48.8765622
+          ],
+          [
+            2.3442788,
+            48.8765525
+          ],
+          [
+            2.3425267,
+            48.8765648
+          ],
+          [
+            2.3423409,
+            48.8765578
+          ],
+          [
+            2.3415374,
+            48.8765821
+          ],
+          [
+            2.3415289,
+            48.8766063
+          ],
+          [
+            2.3412409,
+            48.8766024
+          ],
+          [
+            2.3412,
+            48.8765928
+          ],
+          [
+            2.3405022,
+            48.8766443
+          ],
+          [
+            2.3403737,
+            48.8766478
+          ],
+          [
+            2.3403477,
+            48.8766314
+          ],
+          [
+            2.3395736,
+            48.8766993
+          ],
+          [
+            2.3394187,
+            48.876743
+          ],
+          [
+            2.3393127,
+            48.8768695
+          ],
+          [
+            2.3392031,
+            48.8768982
+          ],
+          [
+            2.339145,
+            48.8768993
+          ],
+          [
+            2.3381156,
+            48.8779214
+          ],
+          [
+            2.3379936,
+            48.8778744
+          ],
+          [
+            2.3376105,
+            48.8782751
+          ],
+          [
+            2.3375794,
+            48.8782693
+          ],
+          [
+            2.3374619,
+            48.8782876
+          ],
+          [
+            2.3373916,
+            48.8783343
+          ],
+          [
+            2.3373969,
+            48.8784606
+          ],
+          [
+            2.3371413,
+            48.8786587
+          ],
+          [
+            2.3369249,
+            48.8788246
+          ],
+          [
+            2.3368665,
+            48.8788975
+          ],
+          [
+            2.3367942,
+            48.8789504
+          ],
+          [
+            2.3348999,
+            48.879317
+          ],
+          [
+            2.3348804,
+            48.87934
+          ],
+          [
+            2.3347626,
+            48.8793634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33955,
+          48.87595
+        ]
+      },
+      "properties": {
+        "id": 166,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Übrigens machte ihm Clotildes Zorn weiter keine Sorge, denn er wußte wohl, daß sie ihm bald verzeihe",
+        "notiz": "Duroy ist wegen Clotildes Zorn unbesorgt — innere Gewissheit über ihre Vergebung.",
+        "ort": "Straße, Paris",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8757
+        ]
+      },
+      "properties": {
+        "id": 167,
+        "zeile": 13,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Im Hause, wo Graf de Vaudrec wohnte, fragte er den Portier",
+        "notiz": "Erzähler verortet Duroy im Wohnhaus des Grafen de Vaudrec — Gebäude in der Chaussée d'Antin.",
+        "ort": "Wohnhaus Graf de Vaudrec, Chaussée d'Antin, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8757
+        ]
+      },
+      "properties": {
+        "id": 168,
+        "zeile": 14,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy war so betroffen, daß er nicht wußte, was er anfangen sollte! Vaudrec am Sterben! Wirre Gedan",
+        "notiz": "Duroy ist erschüttert von der Nachricht über Vaudrecs Sterben — innere Bestürzung und verdrängte Gedanken.",
+        "ort": "Wohnhaus Graf de Vaudrec, Chaussée d'Antin, Paris",
+        "valenz": -1,
+        "intensitaet": 3,
+        "gewichtete_valenz": -3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Bestürzung, wirre Gedanken",
+        "raum_emotion": {
+          "ort": "Wohnhaus Vaudrec",
+          "emotion": "Bestürzung, wirre Gedanken",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3334,
+          48.87765
+        ]
+      },
+      "properties": {
+        "id": 169,
+        "zeile": 1,
+        "tags": [
+          "move",
+          "george_duroy"
+        ],
+        "perspektive": "figur",
+        "text": "Dann nahm er eine Droschke und fuhr nach Hause.",
+        "notiz": "Duroy bewegt sich per Droschke von einem nicht näher bezeichneten Ort nach Hause.",
+        "ort": "Fahrt nach Hause (Nähe Rue Notre-Dame de Lorette)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 170,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er stürzte in ihr Zimmer und sagte: »Weißt du das nicht, Vaudrec liegt im Sterben!«",
+        "notiz": "Duroy stürzt aufgewühlt in Madeleines Zimmer — seine Bewegung drückt emotionale Erregung aus.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erschütterung, Dringlichkeit",
+        "raum_emotion": {
+          "ort": "Wohnung Duroy",
+          "emotion": "Erschütterung, Dringlichkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": [
+          [
+            2.3347626,
+            48.8793634
+          ],
+          [
+            2.3348804,
+            48.87934
+          ],
+          [
+            2.3348999,
+            48.879317
+          ],
+          [
+            2.3367942,
+            48.8789504
+          ],
+          [
+            2.3368665,
+            48.8788975
+          ],
+          [
+            2.3369249,
+            48.8788246
+          ],
+          [
+            2.3371413,
+            48.8786587
+          ],
+          [
+            2.3373969,
+            48.8784606
+          ],
+          [
+            2.3373916,
+            48.8783343
+          ],
+          [
+            2.3374619,
+            48.8782876
+          ],
+          [
+            2.3375794,
+            48.8782693
+          ],
+          [
+            2.3376105,
+            48.8782751
+          ],
+          [
+            2.3379936,
+            48.8778744
+          ],
+          [
+            2.3381156,
+            48.8779214
+          ],
+          [
+            2.339145,
+            48.8768993
+          ],
+          [
+            2.3392031,
+            48.8768982
+          ],
+          [
+            2.3393127,
+            48.8768695
+          ],
+          [
+            2.3394187,
+            48.876743
+          ],
+          [
+            2.3395736,
+            48.8766993
+          ],
+          [
+            2.3396319,
+            48.8766213
+          ],
+          [
+            2.3396172,
+            48.876608
+          ],
+          [
+            2.3401254,
+            48.8761392
+          ],
+          [
+            2.3402341,
+            48.8761132
+          ],
+          [
+            2.3403434,
+            48.8760321
+          ],
+          [
+            2.3404634,
+            48.8759355
+          ],
+          [
+            2.340564,
+            48.8757807
+          ],
+          [
+            2.3405184,
+            48.875763
+          ],
+          [
+            2.3410052,
+            48.8752017
+          ],
+          [
+            2.3410685,
+            48.875208
+          ],
+          [
+            2.3411912,
+            48.8750854
+          ],
+          [
+            2.341137,
+            48.8750569
+          ],
+          [
+            2.3413405,
+            48.8748612
+          ],
+          [
+            2.3413707,
+            48.8748638
+          ],
+          [
+            2.3414346,
+            48.8747917
+          ],
+          [
+            2.3423065,
+            48.8741752
+          ],
+          [
+            2.3423329,
+            48.8741791
+          ],
+          [
+            2.3424046,
+            48.8741248
+          ],
+          [
+            2.3424466,
+            48.8740819
+          ],
+          [
+            2.3425237,
+            48.8740087
+          ],
+          [
+            2.3425134,
+            48.8739885
+          ],
+          [
+            2.3430856,
+            48.8732062
+          ],
+          [
+            2.3431194,
+            48.8731575
+          ],
+          [
+            2.3431617,
+            48.8730714
+          ],
+          [
+            2.3431302,
+            48.8730459
+          ],
+          [
+            2.343169,
+            48.8729136
+          ],
+          [
+            2.3432294,
+            48.8727182
+          ],
+          [
+            2.3448579,
+            48.8724789
+          ],
+          [
+            2.3448951,
+            48.8724937
+          ],
+          [
+            2.3450312,
+            48.8724641
+          ],
+          [
+            2.3460209,
+            48.8723071
+          ],
+          [
+            2.3462094,
+            48.8722789
+          ],
+          [
+            2.3466305,
+            48.8722361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 171,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "»Was denkst du zu tun?«",
+        "notiz": "Duroys knappe Frage deutet auf innere Kalkulation hin — er denkt über die Situation nach.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 172,
+        "zeile": 4,
+        "tags": [
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie stand auf, leichenblaß, vor Erregung; über ihre Wangen lief ein nervöses Zittern. Dann fing sie ",
+        "notiz": "Maupassant beschreibt Madeleines Reaktion von aussen — nicht Duroys Wahrnehmung.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 173,
+        "zeile": 5,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie drückten sich die Hände, und sie ging so schnell, daß sie vergaß, ihre Handschuhe mitzunehmen.",
+        "notiz": "Maupassant beschreibt Madeleines überstürzten Abgang von aussen — das vergessene Accessoire signalisiert extreme Erregung.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 174,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "historical"
+        ],
+        "perspektive": "figur",
+        "text": "Nach dem Essen setzte sich Georges hin und schrieb einen Artikel. Er schrieb ihn genau so, wie der M",
+        "notiz": "Duroy schreibt einen politisch abgestimmten Artikel zur Marokko-Expedition — Verweis auf koloniale Tagespolitik der 1880er Jahre.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3467,
+          48.8722
+        ]
+      },
+      "properties": {
+        "id": 175,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood",
+          "location"
+        ],
+        "perspektive": "figur",
+        "text": "Dann brachte er das Manuskript auf die Redaktion, plauderte da mit seinem Chef und mit leichtem, fre",
+        "notiz": "Duroy bringt das Manuskript zur Redaktion und verlässt sie in leichter, freudiger Stimmung.",
+        "ort": "Redaktion La Vie Française, Boulevard Poissonière",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Leichtigkeit, Freude",
+        "raum_emotion": {
+          "ort": "Redaktion La Vie Française",
+          "emotion": "Leichtigkeit, Freude",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.34065,
+          48.8759
+        ]
+      },
+      "properties": {
+        "id": 176,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Weswegen ihm so zumute war, konnte er nicht ergründen.",
+        "notiz": "Duroy bemerkt seine eigene unerklärliche Leichtigkeit — innere Reflexion über seinen emotionalen Zustand.",
+        "ort": "unspezifisch (nach Verlassen der Redaktion)",
+        "valenz": 1,
+        "intensitaet": 1,
+        "gewichtete_valenz": 1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 177,
+        "zeile": 9,
+        "tags": [
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Seine Frau war noch nicht zurück. Er legte sich zu Bett und schlief ein.",
+        "notiz": "Maupassant beschreibt neutral den Abend — Madeleine ist abwesend, Duroy schläft ein.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 178,
+        "zeile": 10,
+        "tags": [
+          "time"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es war gegen Mitternacht, als Madeleine zurückkam.",
+        "notiz": "Neutrale Erzählerangabe der Uhrzeit — Madeleine kehrt gegen Mitternacht zurück.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 179,
+        "zeile": 11,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Georges wachte plötzlich auf und setzte sich im Bett auf. »Nun?« fragte er.",
+        "notiz": "Duroy erwacht abrupt und fragt sofort nach — seine Unruhe schlägt durch.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 180,
+        "zeile": 12,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er hatte sie noch nie so bleich und so erregt gesehen.",
+        "notiz": "Duroy nimmt Madeleines Erscheinung wahr — seine Beobachtung ist aus seiner Perspektive formuliert.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 181,
+        "zeile": 13,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Georges dachte nach. Tausend Fragen gingen ihm durch den Kopf, die er nicht zu stellen wagte.",
+        "notiz": "Duroy grübelt und hält sich mit seinen Fragen zurück — innere Zerrissenheit zwischen Neugier und Vorsicht.",
+        "ort": "Wohnung Duroy, Rue Notre-Dame de Lorette",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 182,
+        "zeile": 1,
+        "tags": [
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie lagen wach, in Gedanken versunken nebeneinander.",
+        "notiz": "Maupassant beschreibt von aussen die stille, schlaflose Lage der beiden Figuren nebeneinander.",
+        "ort": "Schlafzimmer der Duroys",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 183,
+        "zeile": 2,
+        "tags": [
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Er konnte nicht mehr schlafen.",
+        "notiz": "Duroy erlebt Schlaflosigkeit als inneren Zustand — emotional aufgewühlt.",
+        "ort": "Schlafzimmer der Duroys",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 184,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Die versprochenen 70000 Francs von Frau Walter kamen ihm unbedeutend vor.",
+        "notiz": "Duroy relativiert innerlich eine bedeutende Summe angesichts des möglichen Erbes — soziales Kalkül aus seiner Perspektive.",
+        "ort": "Schlafzimmer der Duroys",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Gier, Kalkulation",
+        "raum_emotion": {
+          "ort": "Schlafzimmer",
+          "emotion": "Gier, Kalkulation",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 185,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Plötzlich war es ihm, als ob Madeleine weinte.",
+        "notiz": "Duroy nimmt wahr — oder glaubt wahrzunehmen — dass seine Frau weint: innere Wahrnehmung aus seiner Perspektive.",
+        "ort": "Schlafzimmer der Duroys",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 186,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Georges, der nicht einschlafen konnte, näherte sich seiner Frau und küßte ihr leise das Ohr.",
+        "notiz": "Duroys körperliche Annäherung an Madeleine trotz emotionaler Spannung — Körper als Handlung im intimen Raum.",
+        "ort": "Schlafzimmer der Duroys",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3346,
+          48.8796
+        ]
+      },
+      "properties": {
+        "id": 187,
+        "zeile": 6,
+        "tags": [
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er antwortete nichts, drehte sich zur Wand, schloß die Augen und schlief allmählich ein.",
+        "notiz": "Maupassant beschreibt von aussen Duroys Rückzug und das Einschlafen — neutraler Abschluss der Szene.",
+        "ort": "Schlafzimmer der Duroys",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    }
+  ]
+}

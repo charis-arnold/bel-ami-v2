@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bel-Ami: Topografie der Gefühle</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://unpkg.com/@strudel/web@1.0.3"></script>
+</head>
+
+<body>
+
+  <div class="scrolly" id="scrolly">
+    <div class="scrolly-stage" id="scrollyStage">
+      <h1>Topografie der Gefühle</h1>
+      <h2>Die Route eines Aufsteigers</h2>
+      <lead1>Eine literarische Kartografie von<br>Guy de Maupassant «Bel-Ami»</lead1>
+      <lead2>Lesendes Gehen als generative Zeichnung<br>städtischen Raums.</lead2>
+      <p class="begleittext" data-von="0.034001" data-bis="0.166610">1885 wächst Paris explosionsartig. <br> Ein junger Mann ohne Geld, ohne Namen,<br>flaniert durch die Stadt an der Seine.<br>Was folgt, ist die Route seines Aufstiegs –<br>Etappe für Etappe, Ort für Ort, <br>Gefühl für Gefühl.</p>
+      <p class="begleittext begleittext-dunkel" data-von="0.166610" data-bis="0.266350" data-kapitel="01">«Georges Duroy zählt die Münzen in seiner Tasche und die Frauenblicke auf dem Boulevard. Er kennt den Wert beider genau – und weiß doch nicht, welcher ihn weiterbringen wird. Die Stadt riecht nach Absinth und Pferdedung, nach Geld, das er nicht hat, und nach Möglichkeiten, die er noch nicht sehen kann.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="02">«Eine zufällige Begegnung, ein altes Regimentsband – und plötzlich öffnet sich eine Tür, hinter der Kristall glänzt und Namen fallen, die man kennen muss. Duroy tritt über eine Schwelle, die sein Leben teilt: davor der Chasseur d'Afrique ohne Zukunft, danach der Mann, dem eine Zukunft zugetraut wird.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="03">«Ein Redaktionsauftrag, ein weißes Blatt, ein Stift, der sich weigert zu schreiben. Duroy scheitert an Worten, wie er nie an Mut gescheitert ist. Erst eine fremde Hand, die seine Sätze ordnet, macht aus seinen Erinnerungen eine Geschichte, die Paris lesen will.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="04">«Wer schreiben will, muss gehen. Duroy lernt die Stadt neu: als Terrain, als Quelle, als Bühne für Zufälle, die keine sind. Jede Tür, die sich öffnet, führt zu einer nächsten – und irgendwo dazwischen beginnt er zu begreifen, dass Beziehungen mehr wert sind als Tatsachen.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="05">«Eine Wohnung, ein Vorhang, ein Nachmittag, der nicht auf der Uhr steht. Mit Clotilde de Marelle entdeckt Duroy, dass Nähe eine Währung ist wie jede andere – und dass er gelernt hat, mit ihr zu bezahlen wie zu kassieren.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="06">«Ein anderes Haus, ein anderer Glanz: hier zählt nicht Zärtlichkeit, sondern Einfluss. Am Tisch der Walters misst Duroy zum ersten Mal, wie weit die Distanz zwischen dem, was er ist, und dem, was er werden will, tatsächlich reicht.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="07">«Die Luft wird dünn in Forestiers Zimmer, während draußen die Stadt weiterlärmt, gleichgültig. Duroy sitzt am Bett eines Freundes, der stirbt, und spürt zum ersten Mal, wie sich Mitgefühl und Berechnung in seiner Brust die Waage halten – und wie die Waage kippt.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="08">«Fern von Paris, am Mittelmeer, endet ein Leben und beginnt eine Kalkulation. Duroy steht am Grab seines Freundes und denkt bereits an die Witwe. Die Trauer ist echt; der Plan ist es auch. Beides passt in denselben Mann.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="09">«Zurück in Paris, in einem Salon, der noch nach Forestier riecht, spricht Duroy die Worte, auf die er lange gewartet hat, ohne es zu wissen. Madeleine hört zu, prüft, entscheidet. Aus dem Werben wird ein Vertrag – unterschrieben mit einem Kuss.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="10">«Ein Bindestrich, ein kleines Wort – "Du Roy" – und aus dem Mittellosen wird ein Herr. Die Hochzeit ist eine Grenze, die er überschreitet, ohne sich umzudrehen. Wer er war, bleibt auf der anderen Seite der Kirchentür zurück.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="11">«Politik, Presse, Kurse an der Börse: Paris verhandelt seine Zukunft in Hinterzimmern, und Du Roy sitzt inzwischen mit am Tisch. Was als Information beginnt, wird zu Kapital. Was als Kapital beginnt, wird zu Macht.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="12">«Ein Brief, ein Name, ein Blick zu lang gehalten. Du Roy beginnt, seine eigene Frau zu lesen wie ein Manuskript, das ihm nicht mehr gehört. Zwischen den Zeilen findet er Laroche-Mathieu – und eine Wut, die ihm neu ist.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="13">«Eine Frau, die eigentlich zu ehrbar ist, um zu fallen, fällt dennoch. Du Roy verfolgt sie nicht aus Verlangen, sondern aus Prinzip: Es gibt nichts in dieser Stadt, das ihm verschlossen bleiben darf.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="14">«Was er erobert hat, zermalmt er. Madame Walters Zuneigung wird zur Last, ihre Liebe zur Peinlichkeit, die er in aller Öffentlichkeit von sich schiebt. Nähe war für Du Roy nie ein Ziel – nur ein Mittel, das man entsorgt, wenn es aufgebraucht ist.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="15">«Ein neuer Palast, ein Gemälde von Christus über den Wellen – und ein Gesicht darin, das dem seinen gleicht. Madame Walter kniet davor wie in einer Kapelle, verzehrt von einer Liebe, die sie nicht mehr verbergen kann. Du Roy sieht zu, unberührt, während sie an einem Gift stirbt, das er selbst eingeflößt hat.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="16">«Ein möbliertes Zimmer in der Rue des Martyrs, ein Kommissar, eine aufgebrochene Tür. Du Roy stellt die Falle, in die er selbst einst hätte tappen können, und Madeleine antwortet mit derselben kalten Fassung, mit der sie ihn einst gewann. Am nächsten Morgen reicht er die Scheidung ein – frei, und mit beiden Händen bereit für mehr.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="17">«Die Tochter, nicht die Mutter. Jung, unschuldig, ein Name mit noch mehr Gewicht als der ihrer Eltern. Du Roy verändert das Ziel seiner Jagd kein einziges Mal – nur ihre Richtung, immer eine Etage höher.»</p>
+      <p class="kapitel-einstiegstext" data-kapitel="18">«Glocken, Menschenmengen, ein roter Teppich, der bis zur Kirchentür reicht. Georges Du Roy, einst mittellos, tritt hinaus ins Licht von Paris – Ehemann, Erbe, Aufsteiger. Die Stadt, die ihn einst nicht kannte, liegt jetzt zu seinen Füßen. Die Route ist zu Ende. Der Name ist gemacht.»</p>
+      <div class="scroll-hinweis"><span class="scroll-hinweis-arrow">&#8964;</span><span class="scroll-hinweis-text">Scrollen</span></div>
+
+      <div class="ort-marker" id="ortMarker">
+        <div class="dot"></div>
+        <div class="label">Georges Duroys Wohnung</div>
+      </div>
+
+      <div class="annotation-box" id="annotationBox">
+        <div class="annotation-inner" id="annotationInner">
+          <span class="annotation-tag" id="annotationTag"></span>
+          <p class="annotation-text" id="annotationText"></p>
+          <div class="annotation-bar" id="annotationBar"></div>
+        </div>
+      </div>
+
+      <div class="gedanken-column" id="gedankenColumn"></div>
+
+      <div class="karten-markierungen" id="kartenMarkierungen"></div>
+    </div>
+    <div class="scroll-track" style="height:8823vh;"></div>
+  </div>
+
+  <div class="kapitel-register" id="kapitelRegister"></div>
+
+  <div class="orte-ohne-adresse" id="orteOhneAdresse"></div>
+
+  <div class="legende-box" id="legendeBox"></div>
+
+  <div class="scroll-fortschritt" id="scrollFortschritt">
+    <div class="scroll-fortschritt-fuellung" id="scrollFortschrittFuellung"></div>
+  </div>
+  <button class="grafik-play-button" id="grafikPlayButton" type="button" aria-label="Wachstums-Animation abspielen">&#9654;</button>
+
+  <div class="foto-popup" id="fotoPopup">
+    <div class="foto-popup-inner">
+      <button class="foto-popup-close" id="fotoPopupClose" aria-label="Schliessen">&times;</button>
+      <div class="foto-popup-lieu">
+        <span class="foto-popup-titel" id="fotoPopupTitel"></span>
+        <span class="foto-popup-plz" id="fotoPopupPlz"></span>
+      </div>
+      <img class="foto-popup-bild" id="fotoPopupBild" src="" alt="">
+      <p class="foto-popup-beschreibung" id="fotoPopupBeschreibung"></p>
+    </div>
+  </div>
+
+  <script src="datenbereinigung.js"></script>
+  <script src="sketch.js"></script>
+  <script src="sonifikation.js"></script>
+</body>
+
+</html>

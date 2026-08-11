@@ -1,0 +1,1169 @@
+{
+  "kapitel": 7,
+  "beschreibung": "F-Wert-Verteilung (Ebene 3) und Valenz-Durchschnitte (Ebene 2) pro Ort",
+  "f_verteilung_pro_ort": {
+    "Wohnung Duroys (Nähe Rue Notre-Dame de Lorette)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Duroys": {
+      "gesamt_f_annotationen": 8,
+      "absolut": {
+        "ort_loest_emotion_aus": 6,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 75.0,
+        "emotion_faerbt_raum": 12.5,
+        "koerper_als_sensor": 12.5
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Pariser Straße beim Zeitungskiosk": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Zeitungskiosk (Paris, unspezifisch)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Weg vom Kiosk nach Hause (Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Hof des elterlichen Hauses (Kindheitserinnerung, unbekannter Ort)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Keller im Haus von Jaques Rival, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Schießkeller / Schießstand (unbekannter Ort in Paris)": {
+      "gesamt_f_annotationen": 6,
+      "absolut": {
+        "ort_loest_emotion_aus": 5,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 83.3,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 16.7
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Erinnerung an Gespräch mit de Varenne (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Restaurant in der Nähe der Redaktion": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer, Rue Notre-Dame de Lorette": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 33.3,
+        "emotion_faerbt_raum": 66.7,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Rue Montmartre 176, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer (unspezifisch)": {
+      "gesamt_f_annotationen": 10,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 4
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 40.0,
+        "emotion_faerbt_raum": 20.0,
+        "koerper_als_sensor": 40.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Wohnung (unspezifisch)": {
+      "gesamt_f_annotationen": 8,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 3
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 12.5,
+        "koerper_als_sensor": 37.5
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Wohnung (nicht näher spezifiziert)": {
+      "gesamt_f_annotationen": 5,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 4
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 20.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 80.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "imaginierter Kampfplatz": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer (Innenraum, Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Blick aus dem Fenster, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer, Paris": {
+      "gesamt_f_annotationen": 5,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 40.0,
+        "emotion_faerbt_raum": 20.0,
+        "koerper_als_sensor": 40.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Landauer vor Duroys Unterkunft, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Kutsche": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Waldweg bei Paris (Duellort)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Lichtung im Wald (Duellort bei Paris)": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 33.3,
+        "emotion_faerbt_raum": 33.3,
+        "koerper_als_sensor": 33.3
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duellplatz (nicht näher lokalisiert)": {
+      "gesamt_f_annotationen": 6,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 3
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 33.3,
+        "emotion_faerbt_raum": 16.7,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Duellplatz (außerhalb Paris, nicht näher spezifiziert)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duellplatz (nicht genau benannt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duelplatz (nicht genau benannt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Rue Constantinople, Paris — Zimmer": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys alte Wohnung (Paris, nicht näher bestimmt)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Weg zur Redaktion der Vie Française (Paris, Näherung)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Redaktionssaal der Vie Française": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion La Vie Française": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Redaktion (La Vie Française, unbekannte Adresse in Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Weg von der Redaktion nach Hause": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wohnung Duroy": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Zeitungskiosk, Paris": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 33.3,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 66.7
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Duroys Wohnung (Näherung: Rue Notre-Dame de Lorette)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Richtung Redaktion (Näherung: Boulevard Poissonière)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Kindheitshof (Erinnerungsort, nicht verortet)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Schiesskeller, Paris": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 25.0,
+        "emotion_faerbt_raum": 50.0,
+        "koerper_als_sensor": 25.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "unbekannter Innenraum (Warteort vor dem Duell)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbekannter Warteraum": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer (unbestimmter Ort in Paris)": {
+      "gesamt_f_annotationen": 8,
+      "absolut": {
+        "ort_loest_emotion_aus": 4,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 2
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 25.0,
+        "koerper_als_sensor": 25.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Zimmer, Fenster (unspezifisch)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Kampfplatz (imaginiert, unspezifisch)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Wohnung (innen)": {
+      "gesamt_f_annotationen": 4,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 3
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 25.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 75.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Eisenbahneinschnitt bei Duroys Wohnung, Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duroys Wohnung, Blick aus dem Fenster": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Im Landauer, vor Duroys Unterkunft (Paris)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Im Landauer (fahrend)": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 50.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wald außerhalb von Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Wagen auf dem Weg zum Duellplatz": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 100.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Waldweg zum Duellplatz": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Lichtung im Bois de Boulogne (erschlossen)": {
+      "gesamt_f_annotationen": 7,
+      "absolut": {
+        "ort_loest_emotion_aus": 5,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 71.4,
+        "emotion_faerbt_raum": 14.3,
+        "koerper_als_sensor": 14.3
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Duellplatz (unbestimmter Ort ausserhalb von Paris)": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 66.7,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 33.3
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "Rue Constantinople, Paris": {
+      "gesamt_f_annotationen": 2,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 1,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 50.0,
+        "emotion_faerbt_raum": 50.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    },
+    "unbestimmt (Duellort)": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 0,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 1
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 0.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 100.0
+      },
+      "dominant": "koerper_als_sensor"
+    },
+    "Wohnung (genaue Adresse unbekannt, Paris)": {
+      "gesamt_f_annotationen": 3,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 2,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 33.3,
+        "emotion_faerbt_raum": 66.7,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "emotion_faerbt_raum"
+    },
+    "Weg zur Redaktion (La Vie Française), Paris": {
+      "gesamt_f_annotationen": 1,
+      "absolut": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0
+      },
+      "prozent": {
+        "ort_loest_emotion_aus": 100.0,
+        "emotion_faerbt_raum": 0.0,
+        "koerper_als_sensor": 0.0
+      },
+      "dominant": "ort_loest_emotion_aus"
+    }
+  },
+  "valenz_pro_ort": {
+    "Rue de l'Ecureuil 18, Montmartre, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroys": {
+      "gewichtete_valenz_summe": -22,
+      "gewichtete_valenz_durchschnitt": -1.69,
+      "anzahl_annotationen": 13
+    },
+    "nicht verortbar (Erinnerung)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Pariser Straße beim Zeitungskiosk": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Zeitungskiosk (Paris, unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Weg vom Kiosk nach Hause (Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Wohnung (Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Keller im Haus von Jaques Rival, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Schießkeller / Schießstand (unbekannter Ort in Paris)": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -1.2,
+      "anzahl_annotationen": 5
+    },
+    "Erinnerung an Gespräch mit de Varenne (unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Restaurant in der Nähe der Redaktion": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (unspezifisch)": {
+      "gewichtete_valenz_summe": -32,
+      "gewichtete_valenz_durchschnitt": -2.13,
+      "anzahl_annotationen": 15
+    },
+    "Duroys Wohnung (unspezifisch)": {
+      "gewichtete_valenz_summe": -28,
+      "gewichtete_valenz_durchschnitt": -2.15,
+      "anzahl_annotationen": 13
+    },
+    "Duroys Wohnung (nicht näher spezifiziert)": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -1.29,
+      "anzahl_annotationen": 7
+    },
+    "imaginierter Kampfplatz": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (Innenraum, Paris)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Paris, früher Morgen": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Eisenbahnschuppen bei Duroys Zimmer, Paris": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Paris, Umgebung des Zimmers": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Blick aus dem Fenster, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Landauer vor Duroys Unterkunft, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Kutsche": {
+      "gewichtete_valenz_summe": -8,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 4
+    },
+    "Wald bei Paris (Duellszene)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Waldweg bei Paris (Duellort)": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Lichtung im Wald (Duellort bei Paris)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Duellplatz (nicht näher lokalisiert)": {
+      "gewichtete_valenz_summe": -14,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 7
+    },
+    "Duellplatz (außerhalb Paris, nicht näher spezifiziert)": {
+      "gewichtete_valenz_summe": 6,
+      "gewichtete_valenz_durchschnitt": 1.5,
+      "anzahl_annotationen": 4
+    },
+    "Boulevard (Paris, nicht näher spezifiziert)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 3
+    },
+    "Rue Constantinople, Paris — Zimmer": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung der Gesprächspartnerin (Paris, nicht näher bestimmt)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 3
+    },
+    "Weg zur Redaktion der Vie Française (Paris, Näherung)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "Redaktion der Vie Française, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Redaktionssaal der Vie Française": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    },
+    "Redaktion La Vie Française": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Rue de l'Écureuil 18, Montmartre, Paris": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung der alten Frau (unbekannter Ort in Paris)": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 0.5,
+      "anzahl_annotationen": 2
+    },
+    "Redaktion (La Vie Française, unbekannte Adresse in Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung Duroy": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -1.75,
+      "anzahl_annotationen": 4
+    },
+    "Pariser Strassen, Nähe Zeitungskiosk": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Zeitungskiosk, Paris": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -0.67,
+      "anzahl_annotationen": 3
+    },
+    "Duroys Wohnung (Näherung: Rue Notre-Dame de Lorette)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Wohnung": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "Rivals Wohnung": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Kindheitshof (Erinnerungsort, nicht verortet)": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "Schiesskeller, Paris": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -2.25,
+      "anzahl_annotationen": 4
+    },
+    "unbekannter Innenraum (Warteort vor dem Duell)": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -3.0,
+      "anzahl_annotationen": 1
+    },
+    "unbekannter Warteraum": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "Restaurant in der Nähe des Warteorts": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Redaktion (La Vie Française, Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Algerien (Militäreinsatz)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Duroys Zimmer (unbestimmter Ort in Paris)": {
+      "gewichtete_valenz_summe": -26,
+      "gewichtete_valenz_durchschnitt": -2.17,
+      "anzahl_annotationen": 12
+    },
+    "Duroys Zimmer, Fenster (unspezifisch)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Kampfplatz (imaginiert, unspezifisch)": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "Duroys Wohnung (innen)": {
+      "gewichtete_valenz_summe": -13,
+      "gewichtete_valenz_durchschnitt": -2.17,
+      "anzahl_annotationen": 6
+    },
+    "Duroys Wohnung, Blick aus dem Fenster": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Im Landauer, vor Duroys Unterkunft (Paris)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Im Landauer (fahrend durch Paris/Umgebung)": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 1
+    },
+    "Im Landauer (fahrend)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Boulevard (unspezifisch, Paris)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "Duellplatz, unbekannt": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    },
+    "Rue Constantinople, Paris": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 1.33,
+      "anzahl_annotationen": 3
+    },
+    "unbestimmt (Erzählung über Duellort)": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 1
+    },
+    "unbestimmt (Duellort)": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "Wohnung (genaue Adresse unbekannt, Paris)": {
+      "gewichtete_valenz_summe": 3,
+      "gewichtete_valenz_durchschnitt": 0.5,
+      "anzahl_annotationen": 6
+    },
+    "nicht spezifiziert": {
+      "gewichtete_valenz_summe": 3,
+      "gewichtete_valenz_durchschnitt": 1.5,
+      "anzahl_annotationen": 2
+    },
+    "Weg zur Redaktion, Paris": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "kapitel": 1,
+  "wachstumsMetrik": "anzahlAnnotationen",
+  "stationen": [
+    {
+      "station": 0,
+      "revealIndexMin": 0,
+      "revealIndexMax": 12,
+      "wegstreckeVorherM": 0.0,
+      "wegstreckeEigenM": 270.2,
+      "ort": "Rue Notre-Dame de Lorette",
+      "anzahlAnnotationen": 13,
+      "summeIntensitaet": 11,
+      "fWertAnteile": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 4,
+        "koerper_als_sensor": 0,
+        "keine": 6
+      },
+      "valenzVerteilung": {
+        "neg": 3,
+        "pos": 1,
+        "neutral": 0,
+        "unrated": 9
+      }
+    },
+    {
+      "station": 1,
+      "revealIndexMin": 131,
+      "revealIndexMax": 131,
+      "wegstreckeVorherM": 2932.5,
+      "wegstreckeEigenM": 0.0,
+      "ort": "Place de la Madeleine",
+      "anzahlAnnotationen": 3,
+      "summeIntensitaet": 4,
+      "fWertAnteile": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0,
+        "keine": 2
+      },
+      "valenzVerteilung": {
+        "neg": 0,
+        "pos": 0,
+        "neutral": 0,
+        "unrated": 3
+      }
+    },
+    {
+      "station": 2,
+      "revealIndexMin": 153,
+      "revealIndexMax": 153,
+      "wegstreckeVorherM": 355.2,
+      "wegstreckeEigenM": 0.0,
+      "ort": "Café Américain",
+      "anzahlAnnotationen": 5,
+      "summeIntensitaet": 6,
+      "fWertAnteile": {
+        "ort_loest_emotion_aus": 2,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 2,
+        "keine": 1
+      },
+      "valenzVerteilung": {
+        "neg": 3,
+        "pos": 0,
+        "neutral": 0,
+        "unrated": 2
+      }
+    },
+    {
+      "station": 3,
+      "revealIndexMin": 165,
+      "revealIndexMax": 165,
+      "wegstreckeVorherM": 459.4,
+      "wegstreckeEigenM": 0.0,
+      "ort": "Place de l'Opéra",
+      "anzahlAnnotationen": 5,
+      "summeIntensitaet": 1,
+      "fWertAnteile": {
+        "ort_loest_emotion_aus": 1,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0,
+        "keine": 4
+      },
+      "valenzVerteilung": {
+        "neg": 0,
+        "pos": 1,
+        "neutral": 0,
+        "unrated": 4
+      }
+    },
+    {
+      "station": 4,
+      "revealIndexMin": 227,
+      "revealIndexMax": 227,
+      "wegstreckeVorherM": 1390.1,
+      "wegstreckeEigenM": 0.0,
+      "ort": "Redaktion La Vie Française",
+      "anzahlAnnotationen": 12,
+      "summeIntensitaet": 17,
+      "fWertAnteile": {
+        "ort_loest_emotion_aus": 3,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0,
+        "keine": 9
+      },
+      "valenzVerteilung": {
+        "neg": 2,
+        "pos": 1,
+        "neutral": 1,
+        "unrated": 8
+      }
+    },
+    {
+      "station": 5,
+      "revealIndexMin": 240,
+      "revealIndexMax": 249,
+      "wegstreckeVorherM": 1337.2,
+      "wegstreckeEigenM": 182.0,
+      "ort": "Café Napolitain",
+      "anzahlAnnotationen": 14,
+      "summeIntensitaet": 23,
+      "fWertAnteile": {
+        "ort_loest_emotion_aus": 5,
+        "emotion_faerbt_raum": 0,
+        "koerper_als_sensor": 0,
+        "keine": 9
+      },
+      "valenzVerteilung": {
+        "neg": 3,
+        "pos": 2,
+        "neutral": 0,
+        "unrated": 9
+      }
+    }
+  ]
+}

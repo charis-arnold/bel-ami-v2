@@ -1,0 +1,3612 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8802
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "zeile": 1,
+        "tags": [
+          "location",
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es war dunkel in der kleinen Wohnung auf der Rue Constantinople",
+        "notiz": "Maupassant beschreibt die kleine, dunkle Wohnung auf der Rue Constantinople als Schauplatz der Szene.",
+        "ort": "Rue Constantinople, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Dunkelheit als Stimmungsbild",
+        "raum_emotion": {
+          "ort": "Rue Constantinople",
+          "emotion": "Dunkelheit als Stimmungsbild",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8802
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "zeile": 1,
+        "tags": [
+          "move",
+          "george_duroy"
+        ],
+        "perspektive": "figur",
+        "text": "Georges Du Roy und Clotilde de Marelle hatten sich am Eingang getroffen und waren schnell hineingetr",
+        "notiz": "Duroy und Clotilde betreten gemeinsam und hastig die Wohnung — Bewegung durch den Raum.",
+        "ort": "Rue Constantinople, Paris — Eingang der Wohnung",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": [
+          [
+            2.3155266,
+            48.8801012
+          ],
+          [
+            2.3165614,
+            48.8805954
+          ],
+          [
+            2.3166651,
+            48.8804914
+          ],
+          [
+            2.3170413,
+            48.8806444
+          ],
+          [
+            2.3170656,
+            48.8806441
+          ],
+          [
+            2.3173797,
+            48.8803136
+          ],
+          [
+            2.3180829,
+            48.8795666
+          ],
+          [
+            2.3180752,
+            48.8795445
+          ],
+          [
+            2.3181613,
+            48.8794615
+          ],
+          [
+            2.3185033,
+            48.8792142
+          ],
+          [
+            2.3199505,
+            48.8781215
+          ],
+          [
+            2.3215412,
+            48.8768908
+          ],
+          [
+            2.3214908,
+            48.8768415
+          ],
+          [
+            2.3214502,
+            48.8767599
+          ],
+          [
+            2.3214591,
+            48.8767278
+          ],
+          [
+            2.3216395,
+            48.8767193
+          ],
+          [
+            2.3216941,
+            48.8767508
+          ],
+          [
+            2.3227711,
+            48.875887
+          ],
+          [
+            2.3229203,
+            48.8759738
+          ],
+          [
+            2.3230398,
+            48.8758311
+          ],
+          [
+            2.3237432,
+            48.8755465
+          ],
+          [
+            2.3237774,
+            48.8755585
+          ],
+          [
+            2.324035,
+            48.8753191
+          ],
+          [
+            2.324195,
+            48.8751455
+          ],
+          [
+            2.324523,
+            48.8749346
+          ],
+          [
+            2.3246467,
+            48.8748559
+          ],
+          [
+            2.3247649,
+            48.8747757
+          ],
+          [
+            2.3248024,
+            48.8747534
+          ],
+          [
+            2.3256328,
+            48.8741634
+          ],
+          [
+            2.3258293,
+            48.8742318
+          ],
+          [
+            2.3259071,
+            48.8742146
+          ],
+          [
+            2.3260854,
+            48.8740832
+          ],
+          [
+            2.3261303,
+            48.8739972
+          ],
+          [
+            2.3267486,
+            48.8739129
+          ],
+          [
+            2.3268009,
+            48.8739242
+          ],
+          [
+            2.3271938,
+            48.8738962
+          ],
+          [
+            2.327387,
+            48.8738121
+          ],
+          [
+            2.3277425,
+            48.8737632
+          ],
+          [
+            2.3278045,
+            48.8737558
+          ],
+          [
+            2.3283547,
+            48.8736817
+          ],
+          [
+            2.328452,
+            48.8736686
+          ],
+          [
+            2.3286733,
+            48.8736605
+          ],
+          [
+            2.3291871,
+            48.8735712
+          ],
+          [
+            2.3294398,
+            48.8735732
+          ],
+          [
+            2.3296395,
+            48.8735474
+          ],
+          [
+            2.3297683,
+            48.8735307
+          ],
+          [
+            2.3302364,
+            48.8734703
+          ],
+          [
+            2.3309849,
+            48.8733653
+          ],
+          [
+            2.331064,
+            48.8733575
+          ],
+          [
+            2.3310972,
+            48.8733542
+          ],
+          [
+            2.3313011,
+            48.8733339
+          ],
+          [
+            2.3317921,
+            48.8732378
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8802
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er gab es sanft zu und sagte dann: »Wußtest denn du das gar nicht?«",
+        "notiz": "Duroy gibt die Heiratspläne sanft zu — seine innere Haltung zeigt Kalkül und Überlegenheit.",
+        "ort": "Rue Constantinople, Paris — Wohnung",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8802
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy grinste, trotzdem war er etwas verlegen. Er legte seinen Hut auf eine Kaminecke und setzte si",
+        "notiz": "Duroys Körpersprache — Grinsen, Verlegen-Sein, ruhiges Ablegen des Huts und Hinsetzen — zeigt sein gespieltes Gleichmut als inneren Zustand.",
+        "ort": "Rue Constantinople, Paris — Wohnung",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8802
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "»Wieso?« fragte er. »Ich hatte eine Frau, die mich betrog, ich habe sie überrascht. Ich habe die Sch",
+        "notiz": "Duroy rechtfertigt seine Handlungen kalt und berechnend — inneres Selbstverständnis als gesellschaftlicher Aufsteiger.",
+        "ort": "Rue Constantinople, Paris — Wohnung",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3156,
+          48.8802
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er begann wieder zu lächeln: »Natürlich. Die Dummen und die Schwachköpfe fallen immer herein.«",
+        "notiz": "Duroy lächelt zynisch und zeigt seine innere Überzeugung, dass sein Kalkül legitim ist — soziale Überlegenheit als Selbstbild.",
+        "ort": "Rue Constantinople, Paris — Wohnung",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er nahm eine würdevolle Miene an",
+        "notiz": "Duroy inszeniert sich körperlich durch eine aufgesetzte würdevolle Haltung.",
+        "ort": "Wohnung, Paris (nicht näher bezeichnet)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er stand auf und sagte mit bebenden Lippen: »Schweig, oder ich werfe dich hinaus!«",
+        "notiz": "Duroys körperliche Erregung (bebende Lippen) zeigt seine innere Aufgewühltheit und Wut.",
+        "ort": "Wohnung, Paris (nicht näher bezeichnet)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Wut, Kontrollverlust",
+        "raum_emotion": {
+          "ort": "Wohnung",
+          "emotion": "Wut, Kontrollverlust",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er packte sie an den Schultern und schüttelte sie",
+        "notiz": "Duroy greift körperlich ein — sein Zorn entlädt sich in physischer Gewalt.",
+        "ort": "Wohnung, Paris (nicht näher bezeichnet)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "unkontrollierbare Wut",
+        "raum_emotion": {
+          "ort": "Wohnung",
+          "emotion": "unkontrollierbare Wut",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er hätte vieles sich gefallen lassen, doch diese Unwahrheit brachte ihn außer sich. Die Wahrheiten, ",
+        "notiz": "Duroys innere Unterscheidung zwischen erträglichen Wahrheiten und unerträglicher Lüge über Suzanne spiegelt seine komplexe emotionale Lage und steigert seinen Zorn bis zum körperlichen Schlagimpuls.",
+        "ort": "Wohnung, Paris (nicht näher bezeichnet)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Zorn, Verlangen zu schlagen",
+        "raum_emotion": {
+          "ort": "Wohnung",
+          "emotion": "Zorn, Verlangen zu schlagen",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "zeile": 1,
+        "tags": [
+          "koerper_als_akteur",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er ließ sie los und gab ihr solch einen Schlag ins Gesicht, daß sie gegen die Wand taumelte.",
+        "notiz": "Maupassant beschreibt die physische Gewalt Duroys gegen Madeleine von aussen.",
+        "ort": "Wohnung Duroy (Innenraum, Paris)",
+        "valenz": -1,
+        "intensitaet": 3,
+        "gewichtete_valenz": -3,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "zeile": 2,
+        "tags": [
+          "koerper_als_akteur"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Da stürzte er sich über sie, und während sie unter ihm lag, schlug er auf sie los wie auf einen Mann",
+        "notiz": "Erzähler beschreibt Duroys brutalen körperlichen Angriff auf Madeleine von aussen.",
+        "ort": "Wohnung Duroy (Innenraum, Paris)",
+        "valenz": -1,
+        "intensitaet": 3,
+        "gewichtete_valenz": -3,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "zeile": 3,
+        "tags": [
+          "space",
+          "sound"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie rührte sich nicht. Sie hatte ihr Gesicht in der Ecke zwischen Wand und Parkett versteckt und sti",
+        "notiz": "Erzähler beschreibt den Zustand Madeleines am Boden — räumlich und akustisch.",
+        "ort": "Wohnung Duroy (Innenraum, Paris)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "move",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Endlich ließ er sie los und richtete sich auf. Dann machte er ein paar Schritte durch das Zimmer, um",
+        "notiz": "Duroy versucht nach der Gewalt durch Bewegung im Raum seine innere Fassung zurückzugewinnen.",
+        "ort": "Wohnung Duroy (Zimmer, Paris)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Kaltblütigkeit / innere Kontrolle",
+        "raum_emotion": {
+          "ort": "Zimmer der Wohnung",
+          "emotion": "Kaltblütigkeit / innere Kontrolle",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "move",
+          "location",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Es fiel ihm etwas ein, er ging ins Schlafzimmer, goß kaltes Wasser in das Waschbecken und tauchte se",
+        "notiz": "Duroy wechselt den Raum und nutzt das kalte Wasser als körperliche Selbstregulation.",
+        "ort": "Schlafzimmer der Wohnung Duroy, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Kühlung, Beruhigung nach Gewaltausbruch",
+        "raum_emotion": {
+          "ort": "Schlafzimmer / Waschbecken",
+          "emotion": "Kühlung, Beruhigung nach Gewaltausbruch",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "move",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nachher wusch er sich die Hände und ging zurück, um zu sehen, was sie nun machte. Währenddessen troc",
+        "notiz": "Erzähler beschreibt Duroys routinierte Geste des Händewaschens nach der Gewalt — sachlich, von aussen.",
+        "ort": "Wohnung Duroy (Schlafzimmer/Zimmer), Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "space"
+        ],
+        "perspektive": "figur",
+        "text": "Er stand mitten im Zimmer, fühlte sich etwas verlegen und beschämt neben diesem ausgestreckten Körpe",
+        "notiz": "Duroy erlebt im zentralen Raum des Zimmers Verlegenheit und Scham angesichts des am Boden liegenden Körpers.",
+        "ort": "Wohnung Duroy (Zimmer, Paris)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verlegenheit, Scham",
+        "raum_emotion": {
+          "ort": "Zimmer der Wohnung",
+          "emotion": "Verlegenheit, Scham",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "time"
+        ],
+        "perspektive": "figur",
+        "text": "Dann faßte er plötzlich einen Entschluß, nahm den Hut vom Kamin und sagte: »Guten Abend. Übergib den",
+        "notiz": "Duroy fasst innerlich einen Entschluss und bereitet seinen Abgang vor — Ungeduld und emotionale Kälte.",
+        "ort": "Wohnung Duroy (Zimmer, Paris)",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Entschlossenheit, emotionale Kälte",
+        "raum_emotion": {
+          "ort": "Zimmer der Wohnung",
+          "emotion": "Entschlossenheit, emotionale Kälte",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Er ging hinaus, schloß die Tür und suchte den Portier auf.",
+        "notiz": "Duroy verlässt die Wohnung und bewegt sich zum Portier — Ortsveränderung aus seiner Perspektive.",
+        "ort": "Wohnhaus Duroy (Hausflur/Portiersloge), Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "zeile": 10,
+        "tags": [
+          "time",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "»Sagen Sie dem Hausbesitzer, daß ich zum 1. Oktober kündige. Wir haben den 16.«",
+        "notiz": "Erzähler gibt durch Duroys Aussage ein konkretes Datum (16. des Monats, Kündigung zum 1. Oktober) als neutrale Zeitangabe.",
+        "ort": "Portiersloge, Wohnhaus Duroy, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "move"
+        ],
+        "perspektive": "figur",
+        "text": "Er entfernte sich schnell, denn er hatte verschiedene dringende Besorgungen zu erledigen und die let",
+        "notiz": "Duroy handelt aktiv und entfernt sich eilig, um Besorgungen zu erledigen.",
+        "ort": "Paris, unbestimmter Ort",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.32015,
+          48.8751
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "zeile": 3,
+        "tags": [
+          "time",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Hochzeitstag war auf den 20. Oktober festgesetzt, nach der Wiedereröffnung der Kammern.",
+        "notiz": "Erzähler nennt ein konkretes Datum und verweist auf das politische Institutionsgefüge der Dritten Republik.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3247,
+          48.87
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "zeile": 4,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Trauung sollte in der Madeleinekirche stattfinden.",
+        "notiz": "Erzähler nennt die Madeleine als konkreten Ort der geplanten Trauung.",
+        "ort": "Église de la Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33845,
+          48.8633
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "zeile": 5,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es wurde viel hin und her geredet, ohne daß man die Wahrheit genau wußte. Verschiedene Geschichten l",
+        "notiz": "Erzähler beschreibt die soziale Gerüchtekultur rund um Duroys Hochzeit von aussen.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33845,
+          48.8633
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "zeile": 7,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Nach Angabe der Dienstboten sprach Frau Walter überhaupt nicht mehr mit ihrem zukünftigen Schwiegers",
+        "notiz": "Erzähler schildert von aussen den gesellschaftlichen und körperlichen Verfall Frau Walters als Folge der Hochzeitsentscheidung.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33845,
+          48.8633
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "zeile": 12,
+        "tags": [
+          "time",
+          "social",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "In den ersten Septembertagen meldete die Vie Française, daß der Baron Du Roy de Cantel Chefredakteur",
+        "notiz": "Erzähler setzt Duroys Aufstieg zeitlich und institutionell in den Kontext der Pariser Presselandschaft.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33845,
+          48.8633
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "zeile": 13,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Jetzt wurde ein ganzer Stab bekannter Feuilletonisten, politischer Redakteure, Kunst- und Theaterkri",
+        "notiz": "Erzähler beschreibt die soziale Dynamik des Pariser Pressebetriebs und den Aufstieg der Vie Française von aussen.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33845,
+          48.8633
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "zeile": 15,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die älteren, achtbaren, ernsten Journalisten zuckten nicht mehr mit den Achseln, wenn man von der Vi",
+        "notiz": "Erzähler beobachtet den gesellschaftlichen Wandel in der Wahrnehmung der Vie Française durch die journalistische Elite.",
+        "ort": null,
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "zeile": 17,
+        "tags": [
+          "social",
+          "atmosphere",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Hochzeit des Chefredakteurs war ein sogenanntes großes Pariser Ereignis. Georges Du Roy und Walt",
+        "notiz": "Erzähler rahmt Duroys Hochzeit als öffentliches Pariser Stadtgespräch und gesellschaftliches Grossereignis.",
+        "ort": "Paris (allgemein)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "gesellschaftliche Aufmerksamkeit und Prestige",
+        "raum_emotion": {
+          "ort": "Paris",
+          "emotion": "gesellschaftliche Aufmerksamkeit und Prestige",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3375,
+          48.86095
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "zeile": 1,
+        "tags": [
+          "time",
+          "weather"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dieses Ereignis fand an einem sonnigen Herbsttage statt.",
+        "notiz": "Maupassant setzt den zeitlichen und atmosphärischen Rahmen der Hochzeitsszene neutral.",
+        "ort": "Paris (unspezifisch)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "zeile": 1,
+        "tags": [
+          "time",
+          "location",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Um acht Uhr morgens beschäftigte sich das gesamte Kirchenpersonal damit, einen breiten roten Teppich",
+        "notiz": "Maupassant nennt die Rue Royale als konkreten Schauplatz der Hochzeitsvorbereitungen.",
+        "ort": "Rue Royale / Église de la Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "zeile": 2,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Passanten waren stehengeblieben, und das Volk von Paris wußte, daß eine sehr feierliche Zeremoni",
+        "notiz": "Maupassant beschreibt von aussen die öffentliche Wahrnehmung der Feierlichkeit durch die Pariser Stadtbevölkerung.",
+        "ort": "Rue Royale / Église de la Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Feierlichkeit, Neugierde",
+        "raum_emotion": {
+          "ort": "Rue Royale / Madeleine",
+          "emotion": "Feierlichkeit, Neugierde",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "zeile": 2,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Beamten, die zu ihren Bureaus gingen, die kleinen Arbeiterinnen und Kommis gafften, bewunderten ",
+        "notiz": "Maupassant beschreibt von aussen den sozialen Kontrast zwischen den staunenden einfachen Leuten und dem demonstrierten Reichtum.",
+        "ort": "Rue Royale / Église de la Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Bewunderung, sozialer Neid, diffuses Träumen",
+        "raum_emotion": {
+          "ort": "Rue Royale / Madeleine",
+          "emotion": "Bewunderung, sozialer Neid, diffuses Träumen",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "zeile": 3,
+        "tags": [
+          "time",
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Um 10 Uhr begannen die Neugierigen sich anzusammeln. Sie blieben dort einige Minuten stehen, in der ",
+        "notiz": "Maupassant schildert neutral das Auf- und Abebben der Menschenmenge vor der Kirche.",
+        "ort": "Église de la Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "zeile": 4,
+        "tags": [
+          "time",
+          "social",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Um 11 Uhr kam ein Trupp Stadtpolizisten und forderten die Menge auf weiter zu gehen, denn es bildete",
+        "notiz": "Die Stadtpolizei als Ordnungsmacht im öffentlichen Raum — Maupassant beschreibt eine zeitgenössische urbane Ordnungsszene.",
+        "ort": "Église de la Madeleine, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "zeile": 4,
+        "tags": [
+          "social",
+          "space",
+          "atmosphere",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die ersten Gäste erschienen bald, die die besten Plätze einnehmen wollten, von wo man alles übersehe",
+        "notiz": "Maupassant beschreibt von aussen die Gesellschaftsschicht der Hochzeitsgäste durch Kleidung und Auftreten.",
+        "ort": "Église de la Madeleine, Innenraum",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Feierlichkeit, gesellschaftliche Würde",
+        "raum_emotion": {
+          "ort": "Kircheninnenraum Madeleine",
+          "emotion": "Feierlichkeit, gesellschaftliche Würde",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "zeile": 5,
+        "tags": [
+          "space",
+          "atmosphere",
+          "weather"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Allmählich füllte sich die Kirche. Ein heller Sonnenstrahl drang durch das weitgeöffnete Kirchenport",
+        "notiz": "Maupassant beschreibt als Kulisse die Lichtqualität im Kirchenraum durch einfallende Sonne.",
+        "ort": "Église de la Madeleine, Innenraum",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Feierliche Helligkeit, Glanz",
+        "raum_emotion": {
+          "ort": "Kircheninnenraum Madeleine",
+          "emotion": "Feierliche Helligkeit, Glanz",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "zeile": 6,
+        "tags": [
+          "space",
+          "atmosphere",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Am Chor sah es dunkel aus; der Altar, der mit brennenden Kerzen besteckt war, schien mit einem gelbl",
+        "notiz": "Maupassant kontrastiert das dämmrige Kerzenlicht am Chor mit dem grellen Tageslicht des Portals — atmosphärische Raumschilderung von aussen.",
+        "ort": "Église de la Madeleine, Chor und Altar",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Feierliche Spannung zwischen Dunkel und Licht",
+        "raum_emotion": {
+          "ort": "Kircheninnenraum Madeleine",
+          "emotion": "Feierliche Spannung zwischen Dunkel und Licht",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3228,
+          48.8653
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "zeile": 7,
+        "tags": [
+          "social",
+          "atmosphere",
+          "sound"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man erkannte sich, man begrüßte sich durch Zeichen und man stand in Gruppen herum. Die Literaten, di",
+        "notiz": "Maupassant beschreibt von aussen das gesellige Treiben und die sozialen Distinktionen unter den Hochzeitsgästen.",
+        "ort": "Église de la Madeleine, Innenraum",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33295,
+          48.876
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "zeile": 1,
+        "tags": [
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Norbert de Varenne schien einen Freund zu suchen und erblickte Jacques Rival, der in der Mitte der S",
+        "notiz": "Maupassant beschreibt von aussen die räumliche Situation der Figuren im Kirchenraum.",
+        "ort": "Kirchenraum (Hochzeitsfeier)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3431,
+          48.8867
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "zeile": 5,
+        "tags": [
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie lebt ganz zurückgezogen, so hat man mir erzählt, in dem Stadtviertel von Montmartre.",
+        "notiz": "Erzählerischer Verweis auf Montmartre als Wohnort der früheren Frau Duroys.",
+        "ort": "Montmartre, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "zeile": 6,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "seit einiger Zeit lese ich in der 'Feder' die politischen Artikel, die denen von Forestier und Du Ro",
+        "notiz": "Maupassant beschreibt von aussen die soziale und berufliche Kontinuität im Pariser Zeitungsmilieu.",
+        "ort": "Pariser Pressemilieu",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "zeile": 10,
+        "tags": [
+          "sound",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Lärm der wachsenden Menge wurde immer lauter, man vernahm Stimmen, die ganz laut sprachen.",
+        "notiz": "Maupassant beschreibt als Erzähler die akustische Atmosphäre des Hochzeitsraums von aussen.",
+        "ort": "Kirchenraum (Hochzeitsfeier)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "zeile": 1,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man zeigte auf die berühmten Persönlichkeiten, die vor dem Publikum posierten und zufrieden waren, b",
+        "notiz": "Maupassant beschreibt von aussen die soziale Selbstinszenierung der Oberschicht bei einer Feierlichkeit.",
+        "ort": "Kirchenraum (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "zeile": 6,
+        "tags": [
+          "sound",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Kollegen kamen heran und drückten ihnen die Hände; man hörte abgerissene Sätze aus politischen G",
+        "notiz": "Maupassant beschreibt als Erzähler das soziale Treiben der Anwesenden mit akustischer Kulisse.",
+        "ort": "Kirchenraum (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "zeile": 7,
+        "tags": [
+          "sound",
+          "space",
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und formlos wie das entfernte Rauschen des Meeres drang mit dem Sonnenlicht das Wogen der Volksmasse",
+        "notiz": "Maupassant beschreibt den Kontrast zwischen der Volksmasse draussen und dem erlesenen Publikum innen als atmosphärisches Raumklangbild.",
+        "ort": "Kirchenraum und Kirchenportal (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "feierliche Spannung, sozialer Kontrast",
+        "raum_emotion": {
+          "ort": "Kirchenraum mit offenem Portal",
+          "emotion": "feierliche Spannung, sozialer Kontrast",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "zeile": 8,
+        "tags": [
+          "sound",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Plötzlich klopfte der Schweizer mit der hölzernen Spitze der Hellebarde dreimal auf die steinernen F",
+        "notiz": "Erzähler schildert das akustische Ritualsignal des Kirchendieners auf den steinernen Fliesen.",
+        "ort": "Kirchenraum (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "zeile": 9,
+        "tags": [
+          "sound",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die ganze Versammlung wandte sich nun mit lautem Kleiderrauschen und Rücken der Stühle dem Eingange ",
+        "notiz": "Maupassant beschreibt als Erzähler die kollektive körperliche Bewegung der Menge mit ihrem akustischen Begleitklang.",
+        "ort": "Kirchenraum (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "zeile": 10,
+        "tags": [
+          "social",
+          "material",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die junge Frau erschien am Arm ihres Vaters in dem hellen Licht am Portal. Sie sah immer noch wie ei",
+        "notiz": "Maupassant beschreibt von aussen das Erscheinen der Braut am Portal — soziale Inszenierung und äussere Qualität ihres Erscheinungsbilds.",
+        "ort": "Kirchenportal (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "feierliche Inszenierung, Schein über Sein",
+        "raum_emotion": {
+          "ort": "Kirchenportal im hellen Licht",
+          "emotion": "feierliche Inszenierung, Schein über Sein",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.33755,
+          48.8808
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "zeile": 11,
+        "tags": [
+          "move",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie blieb einige Augenblicke an der Schwelle stehen und tat dann ihren ersten Schritt in das mittler",
+        "notiz": "Erzähler schildert den symbolischen Übergang der Braut von der Schwelle in den Kirchenraum.",
+        "ort": "Kirchenschwelle / mittleres Kirchenschiff (nicht spezifiziert)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "zeile": 1,
+        "tags": [
+          "sound",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "In dem Moment verkündete die Orgel mit ihrem mächtigen metallenen Klang den Eintritt der Vermählten.",
+        "notiz": "Maupassant beschreibt den Orgelklang als akustische Kulisse des Hochzeitseinzugs.",
+        "ort": "Église de la Madeleine, Paris (Hochzeitskirche im Kontext)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "feierliche Stimmung",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "feierliche Stimmung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "zeile": 2,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie schritt mit gesenktem Kopf, doch ohne Scheu, etwas aufgeregt, zierlich, reizend wie eine Miniatu",
+        "notiz": "Maupassant beschreibt die Braut von aussen — ihre Erscheinung und Haltung als soziales Bild.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "zeile": 4,
+        "tags": [
+          "sound",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die Frauen lächelten und murmelten, als sie an ihnen vorüberging. Die Männer flüsterten sich zu: »En",
+        "notiz": "Maupassant schildert das murmelnde Publikum als soziale Kulisse der Hochzeitsgesellschaft.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "zeile": 6,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Herr Walter schritt etwas übertrieben würdevoll mit dem Kneifer auf der Nase.",
+        "notiz": "Maupassant charakterisiert Walter durch seine äussere Haltung und seinen Kneifer als soziales Statussymbol.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "zeile": 7,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Ihnen folgten vier Brautjungfrauen, alle vier hübsch und in Rosa gekleidet und bildeten den Hof dies",
+        "notiz": "Maupassant beschreibt die Brautjungfern als soziales Tableau der Hochzeitsgesellschaft.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "zeile": 10,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann erschien Frau Walter am Arm des Vaters ihres anderen Schwiegersohnes, des zweiundsiebzigjährige",
+        "notiz": "Maupassant beschreibt Frau Walters körperlichen und seelischen Zusammenbruch von aussen als soziales Bild des Leidens.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Qual und innerer Zusammenbruch",
+        "raum_emotion": {
+          "ort": "Kirchenschiff beim Einzug",
+          "emotion": "Qual und innerer Zusammenbruch",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "zeile": 12,
+        "tags": [
+          "atmosphere",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man sah, daß sie ihre Beine mit großer Mühe bewegte, daß ihr Herz in ihrer Brust so heftig klopfte, ",
+        "notiz": "Maupassant schildert Frau Walters körperliche Not durch einen Vergleich mit einem gefangenen Tier — beobachtend, von aussen.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "zeile": 14,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie war mager geworden. Ihre weißen Haare ließen ihr Gesicht noch blasser und eingefallener erschein",
+        "notiz": "Maupassant beschreibt Frau Walters äusseres Erscheinungsbild als Zeichen ihres inneren Verfalls — beobachtend.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "zeile": 16,
+        "tags": [
+          "mood",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sie sah vor sich hin, um niemanden zu sehen und vielleicht auch um nicht über das nachzudenken, was ",
+        "notiz": "Maupassant deutet Frau Walters innere Qual durch ihre Blickvermeidung — von aussen erzählt.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Qual und Verdrängung",
+        "raum_emotion": {
+          "ort": "Kirchenschiff",
+          "emotion": "Qual und Verdrängung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "zeile": 18,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann erschien Georges Du Roy mit einer unbekannten alten Dame. Er trug den Kopf hoch und sah gleichf",
+        "notiz": "Maupassant beschreibt Duroys Auftritt und Körperhaltung von aussen — als soziales Bild des aufgestiegenen Mannes.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "zeile": 20,
+        "tags": [
+          "george_duroy",
+          "koerper_als_akteur",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Sein Schnurrbart schien sich über seiner Lippe zu sträuben, Alle fanden ihn sehr schön. Er hatte ein",
+        "notiz": "Maupassant schildert Duroys äussere Erscheinung und die Reaktion der Gesellschaft auf ihn — beobachtend von aussen.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "zeile": 22,
+        "tags": [
+          "social",
+          "material",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Frack saß gut und das rote Bändchen der Ehrenlegion glänzte daran wie ein Blutstropfen.",
+        "notiz": "Maupassant beschreibt Duroys Frack und das Ehrenlegionsbändchen als Zeichen seines sozialen Aufstiegs — materiell und institutionell verankert.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.332,
+          48.8749
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "zeile": 24,
+        "tags": [
+          "social",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann kamen die Verwandten, Rose mit dem Senator Rissolin. Sie war seit sechs Wochen verheiratet. Der",
+        "notiz": "Maupassant beschreibt den Zug der Verwandten als soziales Tableau der gehobenen Gesellschaft — beobachtend.",
+        "ort": "Kirche, Hochzeitsszene",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "zeile": 1,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Endlich kam ein seltsamer bunter Zug von Bundesgenossen und Freunden Du Roys, die er in seiner neuen",
+        "notiz": "Maupassant beschreibt von aussen die soziale Zusammensetzung der Hochzeitsgesellschaft — Pariser Halbwelt und dekadente Aristokratie.",
+        "ort": "Kirche zur Hochzeit Duroys, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "zeile": 2,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es waren: Herr de Belvigne, der Marquis de Banjolin, der Graf und die Gräfin de Revenel, der Herzog ",
+        "notiz": "Aufzählung der aristokratischen Hochzeitsgäste als sozialer Spiegel des neuen Milieus, das Duroy durch die Heirat betritt.",
+        "ort": "Kirche zur Hochzeit Duroys, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "zeile": 3,
+        "tags": [
+          "social",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Einige Verwandte von Frau Walter zeigten in diesem eleganten großstädtischen Zuge ein vornehmes Prov",
+        "notiz": "Kontrast zwischen großstädtischem Flair und provinzieller Herkunft — von aussen beschrieben.",
+        "ort": "Kirche zur Hochzeit Duroys, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "zeile": 4,
+        "tags": [
+          "sound",
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und immerfort spielte die Orgel und erfüllte die weiten Hallen mit dem mächtigen melodischen und rhy",
+        "notiz": "Maupassant beschreibt Orgelklang und Kirchenraum als atmosphärische Kulisse — von aussen, sensorisch-räumlich.",
+        "ort": "Kirche zur Hochzeit Duroys, Paris",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "feierliche Erhabenheit",
+        "raum_emotion": {
+          "ort": "Kirchenhalle",
+          "emotion": "feierliche Erhabenheit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "zeile": 5,
+        "tags": [
+          "space",
+          "atmosphere",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man schloß die schweren Flügel des Portals, und auf einmal wurde es dunkel, als hätte man der Sonne ",
+        "notiz": "Das Schliessen des Kirchenportals erzeugt plötzliche Dunkelheit — Raumveränderung von aussen erzählt.",
+        "ort": "Kirchenportal, Hochzeitskirche Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Abschliessung, Ausschluss des Lichts",
+        "raum_emotion": {
+          "ort": "Kirchenportal",
+          "emotion": "Abschliessung, Ausschluss des Lichts",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Georges kniete im Chor neben seiner Frau vor dem erleuchteten Altar.",
+        "notiz": "Neutrale Positionsbeschreibung Duroys im Kirchenraum — Erzählerperspektive ohne inneres Erleben.",
+        "ort": "Chor der Hochzeitskirche, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "zeile": 7,
+        "tags": [
+          "location",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der neue Bischof von Tanger mit dem Krummstab in der Hand und der Mitra auf dem Kopf, kam aus der Sa",
+        "notiz": "Der Bischof von Tanger — kolonialgeographischer Verweis auf Nordafrika — tritt als kirchliche Autoritätsfigur auf.",
+        "ort": "Sakristei, Hochzeitskirche Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "zeile": 8,
+        "tags": [
+          "atmosphere",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Er stellte die üblichen Fragen, wechselte die Ringe, sprach die Worte, die wie Fesseln binden, und r",
+        "notiz": "Maupassant beschreibt den Trauungsritus ironisch distanziert — die Eheworte werden als Fesseln charakterisiert.",
+        "ort": "Hochzeitskirche, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "zeile": 9,
+        "tags": [
+          "social",
+          "material"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Es war ein dicker, hochgewachsener Mann, einer jener schönen Prälaten mit einem majestätischen Bäuch",
+        "notiz": "Ironische Körperbeschreibung des Bischofs — Maupassant von aussen, soziale Kritik an kirchlicher Würdenträgerfigur.",
+        "ort": "Hochzeitskirche, Paris",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "zeile": 10,
+        "tags": [
+          "sound",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Man hörte plötzlich ein heftiges Schluchzen und einige Köpfe drehten sich um. Frau Walter weinte, da",
+        "notiz": "Das Schluchzen Frau Walters durchbricht die Feierlichkeit — von aussen erzählt, emotional aufgeladen.",
+        "ort": "Hochzeitskirche, Paris",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Verzweiflung, erzwungene Kapitulation",
+        "raum_emotion": {
+          "ort": "Kirchenraum",
+          "emotion": "Verzweiflung, erzwungene Kapitulation",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "zeile": 1,
+        "tags": [
+          "location",
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und nun wurden sie von einem Bischof getraut, ihre Tochter und ihr Geliebter, in der Kirche in Gegen",
+        "notiz": "Maupassant beschreibt die Trauungssituation in der Kirche von aussen als gesellschaftliches Ereignis.",
+        "ort": "Kirche (nicht näher spezifiziert)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Du Roy hörte diesen Worten zu und war von Stolz berauscht.",
+        "notiz": "Duroy erlebt die Worte des Bischofs innerlich als Rausch aus Stolz.",
+        "ort": "Kirche (Trauungsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Stolz, Berauschung",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Stolz, Berauschung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Ein Prälat der römischen Kirche, der so zu ihm sprach.",
+        "notiz": "Duroy reflektiert innerlich die Bedeutung der bischöflichen Ansprache für seinen sozialen Aufstieg.",
+        "ort": "Kirche (Trauungsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Stolz, Selbsterhöhung",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Stolz, Selbsterhöhung",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "space",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Und er fühlte hinter seinem Rücken die Menge, eine vornehme, erlauchte Menge, die seinetwegen gekomm",
+        "notiz": "Duroy nimmt die versammelte Menge als Raumqualität wahr, die seinen Aufstieg bestätigt.",
+        "ort": "Kirche (Trauungsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Stolz, Selbstwertgefühl",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Stolz, Selbstwertgefühl",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Und es war ihm, als trüge und erhöbe ihn eine geheimnisvolle Kraft.",
+        "notiz": "Duroy erlebt eine innere Erhöhung durch die Atmosphäre des Moments — die Kirche und Menge als Kraftquelle.",
+        "ort": "Kirche (Trauungsszene)",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erhöhung, Omnipotenzgefühl",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Erhöhung, Omnipotenzgefühl",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er wurde nun einer der Herren dieser Erde.",
+        "notiz": "Duroy reflektiert seinen sozialen Aufstieg als innere Gewissheit — Höhepunkt seines Selbstgefühls.",
+        "ort": "Kirche (Trauungsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Triumph, soziale Selbstvergewisserung",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Triumph, soziale Selbstvergewisserung",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "zeile": 1,
+        "tags": [
+          "location_erinnerung",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Er, der Sohn zweier armer Bauern aus Canteleu.",
+        "notiz": "Duroy verweist auf seine Herkunft aus Canteleu — persönliche Erinnerung an seinen Ursprungsort als Kontrast zum gegenwärtigen Triumph.",
+        "ort": "Canteleu (Normandie)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Kontrastierende Herkunftserinnerung, Stolz auf Aufstieg",
+        "raum_emotion": {
+          "ort": "Canteleu",
+          "emotion": "Kontrastierende Herkunftserinnerung, Stolz auf Aufstieg",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "zeile": 1,
+        "tags": [
+          "location_erinnerung",
+          "george_duroy"
+        ],
+        "perspektive": "figur",
+        "text": "Und er sah sie plötzlich in ihrer niedrigen Wirtsstube, hoch oben auf dem Bergkamm über dem Tal von ",
+        "notiz": "Duroy erinnert sich an das elterliche Wirtshaus im Tal von Rouen — persönliche Erinnerung an einen realen Ort seiner Herkunft.",
+        "ort": "Wirtsstube im Tal von Rouen",
+        "valenz": -1,
+        "intensitaet": 2,
+        "gewichtete_valenz": -2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erinnerung an Herkunft",
+        "raum_emotion": {
+          "ort": "Wirtsstube Rouen",
+          "emotion": "Erinnerung an Herkunft",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er hatte ihnen 5000 Francs geschickt, als er den Grafen de Vaudrec beerbte. Nun würde er ihnen 50000",
+        "notiz": "Duroy denkt über seinen sozialen Aufstieg und seine finanzielle Macht gegenüber der Familie nach — inneres Erleben seiner veränderten Lage.",
+        "ort": "Gedanklicher Raum / Kirche",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Zufriedenheit, Stolz",
+        "raum_emotion": {
+          "ort": "innerer Gedankenraum",
+          "emotion": "Zufriedenheit, Stolz",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "zeile": 5,
+        "tags": [
+          "social"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Bischof hatte seine Ansprache beendet. Ein Priester in goldbestickter Stola stieg die Stufen zum",
+        "notiz": "Maupassant beschreibt den liturgischen Ablauf und die Kleiderinsignien von aussen als soziale Kulisse.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "zeile": 6,
+        "tags": [
+          "sound",
+          "atmosphere",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Und die Orgel verkündete wieder die Herrlichkeit der Neuvermählten. Es waren langgezogene, gewaltige",
+        "notiz": "Maupassant beschreibt den Orgelklang als gewaltige akustische Raumfüllung — atmosphärische Kulisse von aussen.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Erhabenheit, Triumphgefühl",
+        "raum_emotion": {
+          "ort": "Kirchenraum",
+          "emotion": "Erhabenheit, Triumphgefühl",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "zeile": 8,
+        "tags": [
+          "sound",
+          "atmosphere",
+          "space"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Ihre bebenden Klänge erfüllten die ganze Kirche und ließen die Herzen erzittern.",
+        "notiz": "Der Orgelklang wird als raumfüllende, emotional wirkende Kraft von aussen beschrieben.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "kollektives Erschüttertwerden",
+        "raum_emotion": {
+          "ort": "Kirchenraum",
+          "emotion": "kollektives Erschüttertwerden",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "zeile": 9,
+        "tags": [
+          "sound",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Auf einmal wurden sie stiller, und leichte, flüchtige Klänge schwebten in der Luft und berührten das",
+        "notiz": "Maupassant beschreibt die Dynamik des Orgelklangs als atmosphärische Kulisse — ohne direkte Perspektive Duroys.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "zeile": 11,
+        "tags": [
+          "sound",
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Dann erhoben sich menschliche Stimmen und glitten über die gebeugten Köpfe der Versammelten dahin. V",
+        "notiz": "Maupassant benennt Opernsänger und beschreibt den Gesang als Teil des gehobenen sozialen Rahmens der Hochzeitsfeier.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "zeile": 12,
+        "tags": [
+          "smell",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Weihrauch verbreitete einen zarten Harzduft und auf dem Altar wurde das Meßopfer vollzogen.",
+        "notiz": "Maupassant beschreibt den Weihrauchdoft als sensorische Kulisse des Kirchenraums — erzählerische Aussenperspektive.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 1,
+        "gewichtete_valenz": 1,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "zeile": 13,
+        "tags": [
+          "social",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Der Gottesmensch stieg auf den Ruf des Priesters auf die Erde hinab, um den Triumph des Barons Georg",
+        "notiz": "Maupassant rahmt Duroys Hochzeit ironisch als göttlich legitimierten Triumph — erzählerische Aussenperspektive.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "zeile": 14,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Bel-Ami kniete mit gesenktem Kopf neben Suzanne. In diesem Augenblick fühlte er sich beinahe gläubig",
+        "notiz": "Duroy erlebt in der Kniehaltung einen seltenen Moment innerer Frömmigkeit und Dankbarkeit — Körperhaltung und Emotion sind verschränkt.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Dankbarkeit, beinahe Frömmigkeit",
+        "raum_emotion": {
+          "ort": "Kirchenraum",
+          "emotion": "Dankbarkeit, beinahe Frömmigkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "zeile": 15,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Und ohne recht zu wissen, an wen er sein Gebet richtete, dankte er für seinen Erfolg.",
+        "notiz": "Duroy empfindet diffuse Dankbarkeit für seinen gesellschaftlichen Aufstieg — inneres Erleben ohne klares religiöses Objekt.",
+        "ort": "Kirche (Hochzeitsfeier, Paris)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Triumph, ungerichtete Dankbarkeit",
+        "raum_emotion": {
+          "ort": "Kirchenraum",
+          "emotion": "Triumph, ungerichtete Dankbarkeit",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "zeile": 16,
+        "tags": [
+          "move",
+          "location"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Als der Gottesdienst zu Ende war, richtete er sich auf, reichte seiner Gemahlin den Arm und ging mit",
+        "notiz": "Maupassant beschreibt Duroys Bewegung aus der Kirchenmitte in die Sakristei als neutralen Abschluss des Gottesdienstes.",
+        "ort": "Sakristei der Hochzeitskirche, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Georges war wahnsinnig vor Freude und hielt sich für einen König, dem das Volk zujauchzte.",
+        "notiz": "Duroy erlebt einen Zustand euphorischer Selbsterhöhung — inneres Erleben überwältigender Freude.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Königsgefühl, Euphorie",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Königsgefühl, Euphorie",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "sound",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Plötzlich erblickte er Madame de Marelle, und die Erinnerung an all die Küsse, die er ihr gegeben un",
+        "notiz": "Duroy erinnert sich sinnlich an Madame de Marelle — Erinnerung löst körperliches Begehren aus.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Begehren, erotische Erinnerung",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Begehren, erotische Erinnerung",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social"
+        ],
+        "perspektive": "figur",
+        "text": "Sie war hübsch, elegant, mit ihrer kecken Art und ihren lebhaften Augen. Georges dachte: »Aber sie i",
+        "notiz": "Duroy bewertet Madame de Marelle innerlich — sein Blick ist begehrend und reflektierend zugleich.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "material",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Da fühlte er den leisen Lockruf der Frauenfinger, den sanften Druck, der verzeiht, und alles wieder ",
+        "notiz": "Duroy spürt den Händedruck als körperlich-emotionales Signal der Versöhnung und Anziehung.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Verführung, Versöhnung",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Verführung, Versöhnung",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "zeile": 5,
+        "tags": [
+          "space",
+          "atmosphere"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Die anderen drängten heran. Die Menge rollte an ihm vorüber wie ein Strom. Endlich lichtete sie sich",
+        "notiz": "Maupassant beschreibt die Menge als Raumkraft — von aussen, als atmosphärische Kulisse der Hochzeitsgesellschaft.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "zeile": 6,
+        "tags": [
+          "location",
+          "space",
+          "move"
+        ],
+        "perspektive": "erzaehler",
+        "text": "Georges bot Suzanne wieder den Arm, um durch die Kirche hinauszugehen. Sie war voll von Menschen, de",
+        "notiz": "Maupassant beschreibt den Auszug aus der Kirche als räumliche Bewegung durch einen vollbesetzten Innenraum.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": null,
+        "intensitaet": 1,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "zeile": 7,
+        "tags": [
+          "george_duroy",
+          "move",
+          "koerper_als_akteur",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er ging langsam, mit ruhigen Schritten und mit erhobenem Haupt, die Augen fest auf die sonnenbeleuch",
+        "notiz": "Duroys Gang durch die Kirche ist bewusst inszeniert — Körperhaltung als Ausdruck von Triumph und innerer Stärke.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Triumph, Selbstbewusstsein",
+        "raum_emotion": {
+          "ort": "Portal der Kirche",
+          "emotion": "Triumph, Selbstbewusstsein",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "zeile": 8,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "koerper_als_akteur"
+        ],
+        "perspektive": "figur",
+        "text": "Er fühlte, wie immer wieder ein Schauer über seine Haut lief, der kalte Schauer des unendlichen groß",
+        "notiz": "Duroy erlebt Glück als körperlichen Schauer — der Körper als Sensor des emotionalen Höhepunkts.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "überwältigendes Glück",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "überwältigendes Glück",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3321,
+          48.8741
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "zeile": 9,
+        "tags": [
+          "george_duroy",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Er sah niemanden, er dachte nur an sich.",
+        "notiz": "Duroy ist vollständig in seine eigene Wahrnehmung versunken — absolute narzisstische Selbstbezogenheit im Moment des Triumphs.",
+        "ort": "Kirche (Hochzeitsszene)",
+        "valenz": 0,
+        "intensitaet": 1,
+        "gewichtete_valenz": 0,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Narzissmus, Triumph",
+        "raum_emotion": {
+          "ort": "Kirche",
+          "emotion": "Narzissmus, Triumph",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8733
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "zeile": 1,
+        "tags": [
+          "george_duroy",
+          "sound",
+          "atmosphere"
+        ],
+        "perspektive": "figur",
+        "text": "Als er auf die Schwelle trat, blickte er auf die dicht gedrängte, schwarze, lärmende Menge, die sein",
+        "notiz": "Duroy nimmt die Menge sensorisch wahr — visuell und akustisch — und erlebt sie als auf ihn bezogen.",
+        "ort": "Madeleine-Kirche, Paris",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "ort_loest_emotion_aus",
+        "f_emotion": "Stolz, Bewusstsein der öffentlichen Aufmerksamkeit",
+        "raum_emotion": {
+          "ort": "Madeleine-Kirche",
+          "emotion": "Stolz, Bewusstsein der öffentlichen Aufmerksamkeit",
+          "richtung": "ort_loest_emotion_aus"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8733
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "zeile": 2,
+        "tags": [
+          "george_duroy",
+          "social",
+          "mood"
+        ],
+        "perspektive": "figur",
+        "text": "Ihn, Georges Du Roy, betrachtete das Volk von Paris, ihn beneidete es auch.",
+        "notiz": "Duroy erlebt sich als Mittelpunkt des Pariser Volkes — inneres Erleben von sozialem Aufstieg und Neid.",
+        "ort": "Madeleine-Kirche, Paris",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Überlegenheitsgefühl, Selbstbestätigung",
+        "raum_emotion": {
+          "ort": "Madeleine-Kirche",
+          "emotion": "Überlegenheitsgefühl, Selbstbestätigung",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3212,
+          48.8656
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "zeile": 3,
+        "tags": [
+          "george_duroy",
+          "location"
+        ],
+        "perspektive": "figur",
+        "text": "Dann hob er die Augen und sah dort jenseits der Place de la Concorde die Abgeordnetenkammer.",
+        "notiz": "Duroy blickt von der Madeleine über die Place de la Concorde zum Palais Bourbon — ein visueller Machtbogen aus seiner Perspektive.",
+        "ort": "Palais Bourbon / Abgeordnetenkammer, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3212,
+          48.8656
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "zeile": 3,
+        "tags": [
+          "location",
+          "historical"
+        ],
+        "perspektive": "erzaehler",
+        "text": "jenseits der Place de la Concorde die Abgeordnetenkammer",
+        "notiz": "Erzähler verankert die Szene topografisch und politisch — Place de la Concorde und Abgeordnetenkammer als Institutionen der Dritten Republik.",
+        "ort": "Place de la Concorde / Palais Bourbon, Paris",
+        "valenz": null,
+        "intensitaet": 2,
+        "gewichtete_valenz": null,
+        "f_wert": null,
+        "f_emotion": null,
+        "raum_emotion": null,
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8733
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "zeile": 4,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "social",
+          "space"
+        ],
+        "perspektive": "figur",
+        "text": "Und es war ihm, als brauchte er nur noch einen Sprung, um vom Tor der Madeleinekirche zum Tor des Pa",
+        "notiz": "Duroy imaginiert einen symbolischen Sprung zur politischen Macht — die urbane Topografie wird zum Spiegel seiner Ambitionen.",
+        "ort": "Madeleine-Kirche / Palais Bourbon, Paris",
+        "valenz": 1,
+        "intensitaet": 3,
+        "gewichtete_valenz": 3,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Machtgefühl, Ambition",
+        "raum_emotion": {
+          "ort": "Achse Madeleine–Palais Bourbon",
+          "emotion": "Machtgefühl, Ambition",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8733
+        ]
+      },
+      "properties": {
+        "id": 107,
+        "zeile": 5,
+        "tags": [
+          "george_duroy",
+          "move",
+          "koerper_als_akteur",
+          "space"
+        ],
+        "perspektive": "figur",
+        "text": "Er ging langsam zwischen zwei lebendigen Mauern von Zuschauern die Stufen des hohen Kirchenaufganges",
+        "notiz": "Duroy bewegt sich langsam durch den menschengefüllten Raum — die Menge als lebendige räumliche Struktur, die seinen Gang rahmt.",
+        "ort": "Stufen der Madeleine-Kirche, Paris",
+        "valenz": null,
+        "intensitaet": null,
+        "gewichtete_valenz": null,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Triumph, Selbstinszenierung",
+        "raum_emotion": {
+          "ort": "Treppenaufgang Madeleine",
+          "emotion": "Triumph, Selbstinszenierung",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8733
+        ]
+      },
+      "properties": {
+        "id": 108,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "mood",
+          "weather",
+          "location_erinnerung"
+        ],
+        "perspektive": "figur",
+        "text": "Doch er sah nichts, seine Gedanken flogen jetzt zurück und vor seinen Augen, die von der strahlenden",
+        "notiz": "Duroy wird von der Sonne geblendet und gleitet in eine innere Erinnerung an Madame de Marelle — sensorische Wahrnehmung löst affektive Abwesenheit aus.",
+        "ort": "Madeleine-Kirche, Paris",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "koerper_als_sensor",
+        "f_emotion": "Zerstreutheit, Sehnsucht, Erinnerung",
+        "raum_emotion": {
+          "ort": "Madeleine-Kirche (Außentreppe)",
+          "emotion": "Zerstreutheit, Sehnsucht, Erinnerung",
+          "richtung": "koerper_als_sensor"
+        },
+        "route": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3322,
+          48.8733
+        ]
+      },
+      "properties": {
+        "id": 109,
+        "zeile": 6,
+        "tags": [
+          "george_duroy",
+          "location_erinnerung",
+          "mood",
+          "material"
+        ],
+        "perspektive": "figur",
+        "text": "wie sie vor dem Spiegel ihre frisierten Löckchen an den Schläfen zurecht ordnete, die jedesmal zerza",
+        "notiz": "Duroys Erinnerung an eine intime häusliche Szene mit Madame de Marelle — persönliche Sehnsucht inmitten des öffentlichen Triumphmoments.",
+        "ort": "Wohnung / Zimmer von Madame de Marelle (nicht lokalisierbar)",
+        "valenz": 1,
+        "intensitaet": 2,
+        "gewichtete_valenz": 2,
+        "f_wert": "emotion_faerbt_raum",
+        "f_emotion": "Sehnsucht, Zärtlichkeit",
+        "raum_emotion": {
+          "ort": "erinnerte Intimsphäre",
+          "emotion": "Sehnsucht, Zärtlichkeit",
+          "richtung": "emotion_faerbt_raum"
+        },
+        "route": null
+      }
+    }
+  ]
+}

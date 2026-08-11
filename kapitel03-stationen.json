@@ -1,0 +1,5119 @@
+{
+  "kapitel": 3,
+  "route": [
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 0
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 5
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 32
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 66
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 94
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 120
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 146
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 159
+    }
+  ],
+  "gedanken": [
+    {
+      "ort": "Canteleu, Normandie (Heimat/Kindheit)",
+      "nachStation": 0
+    },
+    {
+      "ort": "Militärzeit & Ankunft in Paris (Rückblick)",
+      "nachStation": 0
+    },
+    {
+      "ort": "Erträumtes Liebesabenteuer",
+      "nachStation": 0
+    },
+    {
+      "ort": "Algerien (Artikelinhalt, fiktiv)",
+      "nachStation": 2
+    }
+  ],
+  "markierungen": [],
+  "routenPunkte": [
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3235,
+      48.8865
+    ],
+    [
+      2.3235,
+      48.8865
+    ],
+    [
+      2.3235,
+      48.8865
+    ],
+    [
+      2.3096,
+      48.8796
+    ],
+    [
+      2.3096,
+      48.8796
+    ],
+    [
+      2.3096,
+      48.8796
+    ],
+    [
+      2.3096,
+      48.8796
+    ],
+    [
+      2.3096,
+      48.8796
+    ],
+    [
+      2.3218873,
+      48.8805337
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.34065,
+      48.8759
+    ],
+    [
+      2.3467,
+      48.8722
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ]
+  ],
+  "annotationen": [
+    {
+      "id": 2,
+      "text": "Er hatte Lust zu laufen, zu träumen, immerfort zu gehen, an seine Zukunft zu denken und die milde Nachtluft einzuatmen;",
+      "revealIndex": 0,
+      "ort": "Straße (unspezifisch, Paris)",
+      "ortBasis": "Unbestimmt (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "weather"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 3,
+      "text": "doch der Gedanke an die Artikelserie, die Vater Walter bestellt hatte, gab ihm keine Ruhe, und er beschloß, sofort nach Hause zu gehen und sich an die Arbeit zu setzen.",
+      "revealIndex": 0,
+      "ort": "Straße (unspezifisch, Paris)",
+      "ortBasis": "Unbestimmt (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 4,
+      "text": "Mit eiligen Schritten ging er weiter, erreichte den äußeren Boulevard und gelangte endlich in die Rue Boursault, wo er wohnte.",
+      "revealIndex": 0,
+      "ort": "Rue Boursault, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 5,
+      "text": "Seine Wohnung befand sich in einem sechsstöckigen Haus, das von etwa zwanzig Arbeiter- und Kleinbürgerfamilien bevölkert war.",
+      "revealIndex": 0,
+      "ort": "Rue Boursault, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 6,
+      "text": "Er stieg die Treppe hinauf und beleuchtete mit Wachsstreichhölzern die schmutzigen Stufen, auf denen Papierfetzen, Zigarrenstummel und Küchenabfälle herumlagen.",
+      "revealIndex": 0,
+      "ort": "Treppenhaus, Rue Boursault, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "move",
+        "material",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 7,
+      "text": "Er empfand ein widerwärtiges Gefühl und einen Drang, so rasch als möglich von hier fortzukommen und so zu wohnen, wie es die reichen Leute tun, in sauberen Wohnungen mit schönen Teppichen.",
+      "revealIndex": 0,
+      "ort": "Treppenhaus, Rue Boursault, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "location_erinnerung"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 8,
+      "text": "Ein schwerer Geruch von Speiseresten, Unrat und unsauberer Menschlichkeit, ein stagnierender Duft von Fett und Mauern, den kein frischer Luftzug vertreiben konnte, erfüllte das Haus von oben bis unten.",
+      "revealIndex": 0,
+      "ort": "Wohnhaus, Rue Boursault, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "smell",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 0
+    },
+    {
+      "id": 9,
+      "text": "Das Zimmer des jungen Mannes lag im fünften Stock und ging wie auf einen tiefen Abgrund, auf den weiten Einschnitt der Westbahn, gerade oberhalb der Tunneleinfahrt, vor dem Bahnhof Batignolles, hinaus.",
+      "revealIndex": 0,
+      "ort": "Bahnhof Batignolles (Tunneleinfahrt Westbahn), Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 10,
+      "text": "Duroy öffnete das Fenster und lehnte sich auf das verrostete, eiserne Fensterbrett.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer, Rue Boursault, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "material",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 11,
+      "text": "Unter ihm glühten in der Tiefe der finsteren Wölbung drei rote, unbewegliche Signallaternen wie große, feurige Raubtieraugen, und weiter, immer weiter, sah er immer noch andere Lichter.",
+      "revealIndex": 0,
+      "ort": "Tunneleinfahrt Westbahn, Batignolles, Paris 17e",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 12,
+      "text": "Fortwährend gellten lange und kurze Pfiffe durch die Nacht, die einen nahe, die andern kaum hörbar in der Richtung nach Asnieres.",
+      "revealIndex": 0,
+      "ort": "Richtung Asnières, von Batignolles aus",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "atmosphere",
+        "location"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 13,
+      "text": "Einer kam näher und näher, sein klagender Ton klang von Sekunde zu Sekunde lauter; plötzlich blitzte ein großes gelbes Licht auf, das lärmend dahinrollte, und Duroy sah die lange Wagenreihe in der Tunnelmündung verschwinden.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer, Nähe Bahntrasse (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "space"
+      ],
+      "valenz": 0,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 14,
+      "text": "Dann sagte er zu sich: »Also an die Arbeit«, und stellte das Licht auf den Tisch.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 15,
+      "text": "doch wie er sich hinsetzen wollte, um zu schreiben, bemerkte er erst, daß er nur eine Schachtel Briefpapier hatte.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 16,
+      "text": "Er tauchte die Feder in die Tinte und schrieb mit seiner schönen Handschrift auf den Kopf des ersten Bogens die Worte: »Erinnerungen eines afrikanischen Jägers.«",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 17,
+      "text": "Er saß, den Kopf auf die Hände gestützt, die Augen auf das weiße Papier gerichtet, das sich vor ihm ausbreitete.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 18,
+      "text": "Plötzlich fiel ihm ein: »Ich muß mit meiner Abreise aus der Heimat beginnen.« Und er schrieb: »Es war ungefähr am 15.",
+      "revealIndex": 0,
+      "ort": "Heimatort Duroys (Frankreich, nicht Paris)",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 21,
+      "text": "beschloß er, diesen einleitenden Teil auf den nächsten Morgen zu verschieben und einstweilen mit der Beschreibung von Algier zu beginnen.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 23,
+      "text": "Aber er fand keinen Ausdruck für das, was er gesehen und empfunden hatte.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 24,
+      "text": "Mit vieler Mühe und Anstrengung schrieb er weiter",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 25,
+      "text": "Dann warf er seine Feder auf den Tisch und stand auf.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 26,
+      "text": "Auf seinem schmalen, eisernen Bett, in das sein Körper ein Loch eingedrückt hatte, sah er seine Werktagskleider herumliegen, schäbig, abgerissen, wie Lumpen aus der Morgue.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 27,
+      "text": "Auf dem Strohstuhl stand sein Seidenzylinder, der einzige Hut, den er besaß, und schien hilfsbedürftig mit der Öffnung nach oben um ein Almosen zu bitten.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 28,
+      "text": "Die graue Tapete mit blauen Blumensträußen hatte ebensoviel Schmutz als Blumen, alte, verdächtig aussehende Flecke unbestimmter Herkunft, totgedrückte Insekten und Ölkleckse, fettige Fingerabdrücke und Seifenschaumspuren, die während des Waschens angespritzt waren.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 29,
+      "text": "Das alles roch nach dem nacktesten Elend, nach dem Elend eines möblierten Zimmers.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "smell",
+        "social",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 0
+    },
+    {
+      "id": 30,
+      "text": "Und eine Erbitterung ergriff ihn gegen die Armseligkeit seines bisherigen Lebens. Er sagte sich, daß er sofort schon morgen aus ihr hinaus müßte, um endlich diesem kümmerlichen Dasein ein Ende zu machen.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 31,
+      "text": "Plötzlich überkam ihn ein neuer Arbeitseifer, er setzte sich wieder an den Tisch und suchte wieder nach Worten, um den eigenartigen und reizvollen Eindruck von Algier zu schildern, dieses Eingangstor in das geheimnisvolle und tiefe Afrika, in das Land umherstreifender Araber und unbekannter Negerstämme, in das unerforschte und verlockende Afrika, dessen unwahrscheinliche Tierwelt uns bisweilen in den öffentlichen Gärten gezeigt wird; ganz merkwürdige Tiere, wie aus dem Märchenlande: Strauße, Riesenhühner, Gazellen, prächtige Ziegen, groteske Giraffen, schwere, ernste Kamele, ungeheuerliche Nilpferde, plumpe Rhinozerosse und Gorillas, diese abscheulichen Ebenbilder der Menschen.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 33,
+      "text": "Unbestimmte Gedanken schweiften in seinem Kopf; er hätte sie vielleicht erzählen können, aber er vermochte sie nicht in geschriebene Sätze zu fassen.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 0
+    },
+    {
+      "id": 34,
+      "text": "Seine Blicke fielen auf die Rechnung der Waschfrau, die der Concierge ihm heraufgebracht hatte, und von neuem überfiel ihn eine grenzenlose Verzweiflung.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer/Unterkunft",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 35,
+      "text": "Seine Freude war im Augenblick dahin und mit ihr sein Selbstvertrauen und die Hoffnung auf seine Zukunft.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer/Unterkunft",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 3,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 36,
+      "text": "Er trat an das Fenster und blickte hinunter.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer/Unterkunft",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 37,
+      "text": "Ein Zug kam mit tosendem Lärm aus dem Tunnel heraus, um über Felder und Ebenen nach der Meeresküste zu fahren.",
+      "revealIndex": 0,
+      "ort": "Eisenbahntunnel / Gleise bei Duroys Unterkunft",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "sound",
+        "space",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 38,
+      "text": "Und Erinnerung an seine Eltern erfüllte das Herz Duroys.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer/Unterkunft",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 39,
+      "text": "Er sah es wieder, dieses kleine Häuschen am Eingange des Dorfes Canteleu, oben auf dem Abhang, der Rouen und das weite Tal der Seine beherrschte.",
+      "revealIndex": 0,
+      "ort": "Canteleu, Normandie (bei Rouen)",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "location_erinnerung",
+        "space",
+        "george_duroy"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 40,
+      "text": "Sein Vater und seine Mutter hatten eine kleine Schenke, ein Wirtshaus, wo die Einwohner des kleinen Vororts Sonntags zu frühstücken pflegten.",
+      "revealIndex": 0,
+      "ort": "Wirtshaus 'Zur schönen Aussicht', Canteleu",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "location",
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 41,
+      "text": "Sie hatten aus ihrem Sohn einen »Herrn« machen wollen und schickten ihn aufs Gymnasium. Nach Beendigung seiner Studienzeit fiel er beim Examen durch und hatte sich zum Militärdienst gemeldet, in der Absicht, Offizier, Oberst, General zu werden.",
+      "revealIndex": 0,
+      "ort": "unspezifisch / Rückblick",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 42,
+      "text": "Doch das Soldatenleben hatte ihn nicht befriedigt, und so war er, ehe er seine fünf Jahre Dienstzeit absolviert hatte, nach Paris gegangen, um dort sein Glück zu machen.",
+      "revealIndex": 0,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "location",
+        "move",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 43,
+      "text": "So war er hierhergekommen trotz der Bitten seiner Eltern, die ihn, als sie den Fehlschlag ihrer Hoffnungen einsahen, bei sich behalten wollten.",
+      "revealIndex": 0,
+      "ort": "Paris (allgemein)",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 44,
+      "text": "Schon im Regiment hatte er immer Glück bei Frauen gehabt und hatte in besseren Kreisen ein paar Abenteuer gehabt.",
+      "revealIndex": 0,
+      "ort": "Regiment / unspezifisch",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 45,
+      "text": "Er hatte die Tochter des Steuereinnehmers verführt, die alles im Stich lassen wollte, um ihm zu folgen, und dann die Frau eines Anwalts, die, als er sie verlassen hatte, sich aus Verzweiflung zu ertränken versuchte.",
+      "revealIndex": 0,
+      "ort": "unbekannt / unspezifisch",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 47,
+      "text": "Doch der Drang, Karriere zu machen, beherrschte alles andere.",
+      "revealIndex": 0,
+      "ort": "unbekannt / unspezifisch",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 48,
+      "text": "Ohne dessen bewußt zu sein, war er wieder in Träumereien versunken, wie das allabendlich geschah.",
+      "revealIndex": 0,
+      "ort": "unbekannt / unspezifisch",
+      "ortBasis": "Erinnerung (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 49,
+      "text": "Er träumte von einem Liebesabenteuer, das ihm mit einem Schlage die Erfüllung aller seiner Hoffnungen bringen sollte.",
+      "revealIndex": 0,
+      "ort": "die Straße (imaginiert)",
+      "ortBasis": "Phantasie (Kapitel 03)",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "location_erinnerung"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": null
+    },
+    {
+      "id": 50,
+      "text": "Der schneidende Pfiff einer einzelnen Lokomotive, die ganz allein, wie ein großes Kaninchen aus seinem Bau, aus dem Tunnel hervorkam und mit vollem Dampf über die Schienen nach dem Maschinenschuppen lief, erweckte ihn aus seinen Träumen.",
+      "revealIndex": 0,
+      "ort": "Bahngelände / Tunnel (unspezifisch Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "sound",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 51,
+      "text": "Die etwas verwirrten Gedanken an diese frohen Hoffnungen, die sein ganzes Innere erfüllten, hatten ihn erfrischt, und er warf einen Kuß in die Nacht hinaus, einen Liebesgruß an das Bild der ersehnten Frau, einen Kuß des Verlangens nach dem Glück, das er begehrte.",
+      "revealIndex": 0,
+      "ort": "nächtliche Umgebung (unspezifisch Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 0
+    },
+    {
+      "id": 52,
+      "text": "Dann schloß er das Fenster und begann sich auszukleiden, wobei er murmelte: »Ach was, morgen früh werde ich besser aufgelegt sein.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (unspezifisch)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 54,
+      "text": "Er wachte frühzeitig auf, wie man an Tagen lebhafter Hoffnungen oder großer Sorgen aufwacht, sprang aus dem Bett und öffnete das Fenster, um einen Schluck frischer Luft zu nehmen, wie er zu sagen pflegte.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (unspezifisch)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 55,
+      "text": "Die Häuser in der Rue de Rome gerade gegenüber, jenseits des breiten Eisenbahndammes, leuchteten im hellen Schein der Morgensonne, als wären sie mit Licht weiß gemalt.",
+      "revealIndex": 0,
+      "ort": "Rue de Rome, Paris",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "location",
+        "space",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 56,
+      "text": "Rechts in der Ferne sah er den Hügel von Argenteuil, die Höhen von Sannois und die Mühlen von Orgemont in leichtem, bläulichem Dunste, wie hinter einem dünnen, durchsichtigen Schleier, der auf den Horizont geworfen war.",
+      "revealIndex": 0,
+      "ort": "Argenteuil / Sannois / Orgemont (Stadtrand Paris)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere",
+        "weather"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 57,
+      "text": "Ein paar Minuten blieb Duroy in der Betrachtung der weiten Landschaft versunken und murmelte: »Es wäre doch verdammt schön da draußen an einem solchen Tag wie diesem.«",
+      "revealIndex": 0,
+      "ort": "Blick aus Duroys Fenster (unspezifisch)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 58,
+      "text": "Dann fiel ihm ein, daß er arbeiten müßte, und zwar sofort, und daß er für zehn Sous den Jungen des Concierge zu seinem Bureau schicken müßte, um sich krank zu melden.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (unspezifisch)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 59,
+      "text": "Er setzte sich an den Tisch, tauchte die Feder in das Tintenfaß, stützte den Kopf mit der Hand und suchte nach Einfällen.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (unspezifisch)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 60,
+      "text": "Trotzdem verlor er nicht den Mut. Er dachte: »Es ist nicht so schlimm, ich bin eben nicht daran gewöhnt.",
+      "revealIndex": 0,
+      "ort": "Duroys Zimmer (unspezifisch)",
+      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 0
+    },
+    {
+      "id": 62,
+      "text": "Als er auf der Straße war, dachte er, daß; es wohl noch zu früh sei, sich schon seinem Freunde vorzustellen, denn er pflegte lange zu schlafen.",
+      "revealIndex": 0,
+      "ort": "Straße nahe Duroys Wohnung (unspezifisch)",
+      "ortBasis": "Boulevard des Batignolles, Paris",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 0
+    },
+    {
+      "id": 63,
+      "text": "Er ging langsam unter den Bäumen der äußeren Boulevards auf und ab.",
+      "revealIndex": 5,
+      "ort": "Äußere Boulevards Paris (Nähe Batignolles/Clichy)",
+      "ortBasis": "Boulevard des Batignolles, Paris",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 100
+    },
+    {
+      "id": 64,
+      "text": "Es war noch nicht neun Uhr.",
+      "revealIndex": 5,
+      "ort": "unbekannt",
+      "ortBasis": "Boulevard des Batignolles, Paris",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 100
+    },
+    {
+      "id": 65,
+      "text": "Er erreichte den Park Monceau",
+      "revealIndex": 32,
+      "ort": "Parc Monceau, Paris",
+      "ortBasis": "Parc Monceau",
+      "tags": [
+        "move",
+        "george_duroy",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 1
+    },
+    {
+      "id": 66,
+      "text": "der vom frischen Tau noch ganz feucht war",
+      "revealIndex": 32,
+      "ort": "Parc Monceau, Paris",
+      "ortBasis": "Parc Monceau",
+      "tags": [
+        "weather",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 1
+    },
+    {
+      "id": 67,
+      "text": "Er setzte sich auf eine Bank und begann wieder zu träumen.",
+      "revealIndex": 32,
+      "ort": "Parc Monceau, Paris",
+      "ortBasis": "Parc Monceau",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 1
+    },
+    {
+      "id": 68,
+      "text": "Ein sehr eleganter, junger Mann ging vor ihm auf und ab, offenbar in Erwartung einer Frau. Endlich kam sie, verschleiert, mit hastigen Schritten, und nach einem kurzen Händedruck nahm er sie beim Arm und verschwand.",
+      "revealIndex": 32,
+      "ort": "Parc Monceau, Paris",
+      "ortBasis": "Parc Monceau",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 1
+    },
+    {
+      "id": 69,
+      "text": "Ein stürmischer Trieb nach Liebe schoß durch Duroys Herz, ein heißes Verlangen nach einem vornehmen, parfümierten, zarten Liebesabenteuer.",
+      "revealIndex": 32,
+      "ort": "Parc Monceau, Paris",
+      "ortBasis": "Parc Monceau",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "smell"
+      ],
+      "valenz": 1,
+      "intensitaet": 3,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 1
+    },
+    {
+      "id": 70,
+      "text": "Er stand auf, setzte seinen Weg fort und dachte dabei an Forestier. Hatte der Glück gehabt!",
+      "revealIndex": 32,
+      "ort": "Parc Monceau, Umgebung, Paris",
+      "ortBasis": "Unterwegs zu Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 1
+    },
+    {
+      "id": 72,
+      "text": "Duroy war verlegen, daß er ihn gerade beim Aufbruch störte und stotterte",
+      "revealIndex": 66,
+      "ort": "Haustür von Forestiers Wohnhaus, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 73,
+      "text": "Duroy wurde plötzlich wieder verlegen, er zögerte und getraute sich nicht.",
+      "revealIndex": 66,
+      "ort": "Treppenhaus/Eingang des Forestier-Hauses",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 74,
+      "text": "Forestier packte ihn bei der Schulter, drehte ihn herum und schob ihn die Treppe hinauf",
+      "revealIndex": 66,
+      "ort": "Treppenhaus des Forestier-Hauses",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "koerper_als_akteur",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 75,
+      "text": "Da entschloß sich endlich Duroy.",
+      "revealIndex": 66,
+      "ort": "Treppenhaus des Forestier-Hauses",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 76,
+      "text": "Forestier ging schnell davon, während Duroy langsam Stufe für Stufe die Treppe hinaufstieg",
+      "revealIndex": 66,
+      "ort": "Treppenhaus des Forestier-Hauses",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 77,
+      "text": "denn er wußte nicht recht, was er oben sagen sollte, und war nicht sicher, wie er empfangen würde.",
+      "revealIndex": 66,
+      "ort": "Treppenhaus des Forestier-Hauses",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 78,
+      "text": "Der Diener öffnete; er trug eine blaue Schürze und hielt einen Besen in der Hand.",
+      "revealIndex": 66,
+      "ort": "Eingang der Wohnung Forestier",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 79,
+      "text": "Duroy ließ sich nicht abweisen.",
+      "revealIndex": 66,
+      "ort": "Eingang der Wohnung Forestier",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 80,
+      "text": "Dann wartete er.",
+      "revealIndex": 66,
+      "ort": "Vorzimmer der Wohnung Forestier",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 81,
+      "text": "Sie saß auf einem Schreibtischsessel in einem kleinen Zimmer, dessen Wände durch schwarze Bücherregale mit wohlgeordneten Büchern gänzlich verdeckt waren.",
+      "revealIndex": 66,
+      "ort": "Arbeitszimmer der Wohnung Forestier",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "location",
+        "space",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 82,
+      "text": "Nur die Einbände mit ihren bunten Farben, rot, blau, gelb, grün und violett, brachten Frohsinn in diese einförmigen Bücherreihen.",
+      "revealIndex": 66,
+      "ort": "Arbeitszimmer der Wohnung Forestier",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 83,
+      "text": "Bekleidet mit einem weißen, spitzenbedeckten Morgenkleid, wandte sie sich ihm lächelnd zu, und als sie ihm die Hand reichte, sah er unter dem weit geöffneten Ärmel ihren nackten Arm.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 84,
+      "text": "»Oh, Madame, ich wollte gar nicht heraufkommen. Doch ich traf unten Ihren Herrn Gemahl, er zwang mich dazu.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 85,
+      "text": "Sie hielt zwischen den Fingern eine Gänsefeder, die sie geschickt herumdrehte, und vor ihr lag ein halb beschriebener Bogen Papier.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "material",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 86,
+      "text": "Ein leichtes Parfüm entstieg dem Morgenrock, der frische Duft der eben beendeten Toilette. Und Duroy suchte den jungen, weißen, warmen Frauenkörper durch die Falten des weichen Stoffes zu erraten.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "smell",
+        "george_duroy",
+        "mood",
+        "material"
+      ],
+      "valenz": 1,
+      "intensitaet": 3,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 2
+    },
+    {
+      "id": 87,
+      "text": "Zögernd murmelte er: »Also ... aber wirklich ... ich wage es gar nicht zu sagen ... Ich habe gestern bis spät in die Nacht gearbeitet ...",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 89,
+      "text": "Er setzte sich, nahm eine Feder, breitete ein Blatt Papier vor sich aus und wartete.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Paris, nähere Lage unbekannt)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 90,
+      "text": "Er blickte erstaunt zu ihr auf.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Paris, nähere Lage unbekannt)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 91,
+      "text": "Er blieb verwirrt, endlich sagte er zögernd:",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Paris, nähere Lage unbekannt)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 93,
+      "text": "Er wußte aber nicht, wo er anfangen sollte",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Paris, nähere Lage unbekannt)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 96,
+      "text": "Sie machte eine Pause, um die ausgegangene Zigarette wieder anzuzünden, und sofort hörte das kritzelnde Geräusch der Gänsefeder auf dem Papier auf.",
+      "revealIndex": 66,
+      "ort": "Unbekannter Innenraum (Kontext: Redaktion oder Privatwohnung)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "sound",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 98,
+      "text": "Algier ist das Tor, das weiße, bezaubernde Eingangstor dieses seltsamen Kontinents.",
+      "revealIndex": 66,
+      "ort": "Algier",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "location",
+        "atmosphere",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": null
+    },
+    {
+      "id": 102,
+      "text": "Sie rieb sich die Hände, höchst zufrieden mit ihrem Einfall. Dann stand sie auf, ging im Zimmer auf und ab, steckte sich eine neue Zigarette an und diktierte weiter.",
+      "revealIndex": 66,
+      "ort": "Zimmer (Wohnung Madame de Marelles, Paris)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 103,
+      "text": "Sie blies den Rauch vor sich hin, der zuerst aus dem kleinen runden Loch zwischen ihren zusammengepreßten Lippen kerzengerade emporstieg, dann wurden die Rauchringe immer breiter und verflüchtigten sich in der Luft als graue, durchsichtige Nebelstreifen, ähnlich einem Spinngewebe.",
+      "revealIndex": 66,
+      "ort": "Zimmer (Wohnung Madame de Marelles, Paris)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "smell",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 104,
+      "text": "Bisweilen zerstörte sie die leichten, übriggebliebenen Streifen mit einer schnellen Bewegung der flachen Hand, bisweilen durchschnitt sie dieselben langsam mit dem Zeigefinger und sah dann nachdenklich zu, wie die beiden Hälften allmählich verschwanden.",
+      "revealIndex": 66,
+      "ort": "Zimmer (Wohnung Madame de Marelles, Paris)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 105,
+      "text": "Duroy verfolgte jede ihrer Bewegungen, jede Stellung ihres Körpers, jede Veränderung in ihrem Gesichtsausdruck, die dies mechanische, gedankenlose Spiel bei ihr hervorrief.",
+      "revealIndex": 66,
+      "ort": "Zimmer (Wohnung Madame de Marelles, Paris)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 106,
+      "text": "Sie erfand jetzt Reiseerlebnisse, schilderte selbst erfundene Reisegefährten und entwarf eine Liebesgeschichte mit der Frau eines Infanteriehauptmanns, die ihrem Manne nachreiste.",
+      "revealIndex": 66,
+      "ort": "Zimmer (Wohnung Madame de Marelles, Paris)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "atmosphere"
+      ],
+      "valenz": 0,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 110,
+      "text": "Frau Forestier erzählte von dem nächtlichen Stelldichein in dem steinigen, kahlen Gebirge, wo inmitten von Felsblöcken Schakale, Hyänen und arabische Hunde heulten, schrien und bellten.",
+      "revealIndex": 66,
+      "ort": "Algerisches Gebirge (fiktiver Artikelinhalt)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "location_erinnerung",
+        "sound",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": null
+    },
+    {
+      "id": 111,
+      "text": "Da begann er zu lachen und schrieb unten auf den Rand der letzten Seite: »Georges Duroy.«",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 112,
+      "text": "Er war glücklich, in ihrer Nähe zu sein; erfüllt von Dankbarkeit, genoß er das sinnliche Glück ihrer wachsenden Vertraulichkeit.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 113,
+      "text": "Ihm war, als ob alles, was sie umgab, ein Teil ihrer selbst war, alles bis zu den bücherbedeckten Wänden.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere",
+        "smell",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 2
+    },
+    {
+      "id": 114,
+      "text": "die von Tabak durchtränkte Luft",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "smell",
+        "atmosphere"
+      ],
+      "valenz": 0,
+      "intensitaet": 2,
+      "f_wert": "koerper_als_sensor",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "koerper_als_sensor",
+      "station": 2
+    },
+    {
+      "id": 115,
+      "text": "Er wollte hinzufügen: »Aber doch nicht so entzückend wie Sie.« Doch er wagte das nicht.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 116,
+      "text": "Duroy war erstaunt, zu hören, daß Madame de Marelle verheiratet sei, obgleich das eine ganz natürliche Sache war.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier, Paris",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 117,
+      "text": "Duroy dachte überhaupt nicht mehr ans Fortgehen. Ihm war zumute, als müßte er immer hierbleiben, als wäre er hier zu Hause.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Nähe Rue Notre-Dame de Lorette)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 118,
+      "text": "Da ging die Tür geräuschlos auf und ein großer Herr trat unangemeldet ein.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Nähe Rue Notre-Dame de Lorette)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "sound",
+        "space"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 119,
+      "text": "Die beiden Männer grüßten sich und betrachteten sich genau. Duroy verabschiedete sich gleich darauf. Sie hielt ihn nicht zurück.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Nähe Rue Notre-Dame de Lorette)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 2
+    },
+    {
+      "id": 120,
+      "text": "Er stotterte noch einige Dankesworte, drückte die hingestreckte Hand der jungen Frau, verbeugte sich vor dem Grafen, der das kühle und ernste Gesicht eines Mannes aus der besten Gesellschaft bewahrte, und ging in höchster Verwirrung fort, als ob er eben eine Dummheit begangen hätte.",
+      "revealIndex": 66,
+      "ort": "Wohnung Forestier (Nähe Rue Notre-Dame de Lorette)",
+      "ortBasis": "Wohnung Forestier, Paris",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 2
+    },
+    {
+      "id": 121,
+      "text": "Auch auf der Straße fühlte er sich bedrückt und unbehaglich und hatte die dunkle Empfindung eines verborgenen Kummers.",
+      "revealIndex": 94,
+      "ort": "Strasse vor der Wohnung Forestier, Nähe Rue Notre-Dame de Lorette",
+      "ortBasis": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move",
+        "space"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 122,
+      "text": "Er schritt vor sich hin und fragte sich nach dem Grund dieser plötzlichen Schwermut. Er fand keinen, aber die ernste Gestalt des schon etwas alten Grafen de Vaudrec mit dem grauen Haar und dem ruhigen, anmaßenden Gesicht eines unabhängigen, sehr reifen Mannes, trat ihm immer wieder vor die Augen.",
+      "revealIndex": 94,
+      "ort": "Strasse vor der Wohnung Forestier, Nähe Rue Notre-Dame de Lorette",
+      "ortBasis": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 101
+    },
+    {
+      "id": 123,
+      "text": "Es wurde ihm klar, daß der Eintritt dieses Fremden nicht bloß das reizende Zusammensein gestört hatte, an das sein Herz sich schon zu gewöhnen begann, sondern in ihm auch diesen Eindruck von Kälte und Verzweiflung hervorgerufen hatte, wie es oft ein aufgefangenes Wort oder der flüchtige Anblick von Elend oder sonst irgendeine Kleinigkeit in uns auslöst.",
+      "revealIndex": 120,
+      "ort": "unbekannt",
+      "ortBasis": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 3
+    },
+    {
+      "id": 124,
+      "text": "Außerdem schien ihm auch, ohne daß er sagen konnte, warum, als ob dieser Mann unzufrieden gewesen sei, ihn dort zu treffen.",
+      "revealIndex": 120,
+      "ort": "unbekannt",
+      "ortBasis": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 125,
+      "text": "Bis drei Uhr hatte er nichts mehr zu tun, und es war noch nicht Mittag.",
+      "revealIndex": 120,
+      "ort": "unbekannt",
+      "ortBasis": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 126,
+      "text": "Er hatte noch 6 Francs 50 in der Tasche.",
+      "revealIndex": 120,
+      "ort": "unbekannt",
+      "ortBasis": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": -1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 127,
+      "text": "Er ging in die Bouillon Duval frühstücken.",
+      "revealIndex": 120,
+      "ort": "Bouillon Duval (Paris)",
+      "ortBasis": "Bouillon Duval",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 3
+    },
+    {
+      "id": 128,
+      "text": "Dann trieb er sich auf dem Boulevard herum",
+      "revealIndex": 146,
+      "ort": "Boulevard (Paris, näherungsweise Boulevard Poissonnière)",
+      "ortBasis": "Boulevard (Richtung Redaktion)",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 102
+    },
+    {
+      "id": 129,
+      "text": "Punkt drei Uhr stieg er die große prunkhafte Treppe zur Vie Française hinauf.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location",
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 130,
+      "text": "Die Laufburschen saßen mit gekreuzten Armen auf einer Bank und warteten, während hinter einem kleinen Katheder ein Beamter die soeben angekommene Post sortierte.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 131,
+      "text": "Die ganze Aufmachung war vortrefflich und mußte jedem Besucher imponieren. Alles hatte Haltung und Würde, wie es sich für den Warteraum einer großen Zeitung gebührt.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "space",
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 132,
+      "text": "Man sah dort ernste, würdige Männer mit Ordensband, und auch etwas vernachlässigte Gestalten mit unsichtbarer Wäsche, deren bis zum Halse zugeknöpfte Röcke eine wahre Landkarte von Flecken zeigten.",
+      "revealIndex": 159,
+      "ort": "Wartezimmer Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 133,
+      "text": "Zwischen den Wartenden befanden sich drei Frauen; eine von ihnen war hübsch, elegant und lächelte freundlich; es schien eine Kokotte zu sein.",
+      "revealIndex": 159,
+      "ort": "Wartezimmer Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 134,
+      "text": "Ihre Nachbarin blickte düster, ihr Gesicht war voller Runzeln; auch sie war besser gekleidet, doch sie hatte etwas Verbrauchtes, künstlich Erhaltenes, wie man es manchmal bei alternden Schauspielern sieht, eine Art falscher, abgestandener Jugend, die an ranzig gewordenes Parfüm d'Amour erinnert.",
+      "revealIndex": 159,
+      "ort": "Wartezimmer Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "atmosphere",
+        "smell",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 135,
+      "text": "Duroy hielt sie für eine Bittstellerin.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Wartezimmer)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 136,
+      "text": "Indessen wurde niemand vorgelassen, obgleich über zwanzig Minuten verstrichen waren.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Wartezimmer)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "time"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 137,
+      "text": "Da hatte Duroy eine gute Idee; er ging nochmals zum Diener hinaus und sagte: »Herr Walter hat mich um drei Uhr herbestellt.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Eingangsbereich)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 138,
+      "text": "Man führte ihn jetzt durch einen langen Flur in einen großen Saal, in dem vier Herren um einen großen grünen Tisch saßen und schrieben.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Redaktionssaal)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "location",
+        "space",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 139,
+      "text": "Forestier stand vor dem Kamin, rauchte eine Zigarette und spielte Bilboquet (Fangball). Er war ein vortrefflicher Spieler und fing die Kugel aus gelbem Buchsbaum mit der kleinen Holzspitze fast jedesmal richtig auf.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Redaktionssaal)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 142,
+      "text": "Da er seinen 37. Wurf verfehlt hatte, öffnete er den Schrank, in dem Duroy gegen zwanzig wunderbare Bilboquets sah, die alle geordnet und numeriert waren, wie Kostbarkeiten aus einer Kunstsammlung.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Redaktionssaal)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 143,
+      "text": "Forestier stellte das Instrument auf seinen richtigen Platz und wiederholte die Frage: »Wo steckt dieses Kleinod?«",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie française (Redaktionssaal)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 145,
+      "text": "Sie gingen wieder durch den Wartesaal, wo dieselben Personen genau in derselben Reihenfolge saßen.",
+      "revealIndex": 159,
+      "ort": "Wartesaal der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "location",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 146,
+      "text": "trotzdem sie sich ganz leise unterhielten, hörte Duroy, daß er beide duzte.",
+      "revealIndex": 159,
+      "ort": "Wartesaal der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "sound"
+      ],
+      "valenz": 1,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 147,
+      "text": "Dann stießen sie zwei Polstertüren auf und kamen zum Direktor.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 148,
+      "text": "Die wichtige Konferenz, die schon eine Stunde dauerte, bestand in einer Partie Écarté mit einigen Herren, die Duroy gestern wegen ihrer flachen Zylinderhüte aufgefallen waren.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 149,
+      "text": "Herr Walter spielte mit angespannter Aufmerksamkeit und vorsichtigen, abgemessenen Bewegungen, während sein Gegner die leichten, bunten Blätter mit Gewandtheit, Geschicklichkeit und Anmut eines geübten Spielers nahm, ausspielte und durch seine Finger gleiten ließ.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 150,
+      "text": "Norbert de Varenne saß im großen Lehnstuhl des Direktors und schrieb einen Artikel, Jaques Rival lag mit geschlossenen Augen lang ausgestreckt auf einem Sofa und rauchte eine Zigarre.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 151,
+      "text": "Es roch hier in dem abgeschlossenen Zimmer nach dem Leder der Möbel, nach altem Tabak und nach Druckerschwärze.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "smell",
+        "space",
+        "atmosphere"
+      ],
+      "valenz": -1,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 152,
+      "text": "Man spürte den eigenartigen Duft der Redaktionszimmer, der jedem Journalisten bekannt ist.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "social"
+      ],
+      "valenz": 0,
+      "intensitaet": 1,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 153,
+      "text": "Auf dem schwarzen, kupferbeschlagenen Tisch lag ein gewaltiger Papierhaufen, Briefe, Karten, Zeitungen, Rechnungen der Lieferanten, Drucksachen aller Art.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "material",
+        "space",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 154,
+      "text": "Forestier schüttelte den Wettenden, die hinter den Spielern standen, die Hand und sah dann schweigend der Partie zu.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 155,
+      "text": "Der Chef warf über die Gläser seiner Brille einen raschen Blick auf den jungen Mann",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 156,
+      "text": "Duroy zog die zusammengefalteten Blätter aus der Tasche.",
+      "revealIndex": 159,
+      "ort": "Direktionszimmer der Redaktion (La Vie Française)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 157,
+      "text": "Der Chef schien entzückt und sagte lächelnd: »Sehr schön, sehr schön. Sie halten Wort. Sie müssen mir das wohl durchsehen, Forestier.«",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "atmosphere"
+      ],
+      "valenz": 1,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 158,
+      "text": "Der Direktor erhielt eben die Karten von einem großen, mageren Herrn, einem Abgeordneten des linken Zentrums.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 159,
+      "text": "Der Journalist nahm seinen Freund beim Arm und zog ihn fort, während Herr Walter weiterspielte.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 160,
+      "text": "Norbert de Varenne hatte nicht den Kopf erhoben; er schien Duroy nicht gesehen oder nicht wiedererkannt zu haben.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 161,
+      "text": "Sie gingen wieder durch das Wartezimmer. Alle blickten auf",
+      "revealIndex": 159,
+      "ort": "Wartezimmer Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "space",
+        "george_duroy"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 162,
+      "text": "Dann ging er rasch weiter mit wichtiger und eiliger Miene, als wollte er eine Depesche von äußerster Wichtigkeit redigieren.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 163,
+      "text": "Als sie wieder in dem großen Redaktionssaal anlangten, griff Forestier sofort wieder zu seinem Bilboquet, vertiefte sich in das Spiel und sagte zu Duroy, indem er zwischen den Worten die Treffer zählte: »Also:",
+      "revealIndex": 159,
+      "ort": "Großer Redaktionssaal La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "location",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 164,
+      "text": "du kommst jeden Tag um drei Uhr hierher und ich werde dir sagen, welche Gänge und Besuche du am Tage, am Abend und am nächsten Morgen machen mußt.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "time",
+        "location",
+        "move"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 165,
+      "text": "Dann kümmerte er sich nur noch um sein Spiel und fuhr langsam fort zu zählen.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 166,
+      "text": "Einer der Redakteure, der mit seiner Arbeit fertig war, nahm jetzt ebenfalls ein Bilboquet aus dem Schrank.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 167,
+      "text": "Es war ein winziger Mensch mit einem Kindergesicht, obgleich er schon 35 Jahre zählte.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 168,
+      "text": "Mehrere andere Journalisten kamen auch herein und gingen einer nach dem andern zum Schrank, um das Spielzeug zu holen, das ihnen gehörte.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "move",
+        "social",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 169,
+      "text": "Bald waren es sechs, die mit den Rücken gegen die Wand nebeneinander standen und mit der gleichen regelmäßigen Bewegung die je nach der Holzart roten, gelben und schwarzen Kugeln in die Luft warfen.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": "ort_loest_emotion_aus",
+      "perspektive": "erzaehler",
+      "category": "gold_dunkel",
+      "hasFwert": true,
+      "fWertType": "ort_loest_emotion_aus",
+      "station": 4
+    },
+    {
+      "id": 170,
+      "text": "Es begann ein Wettkampf, und die beiden anderen Redakteure, die noch arbeiteten, standen auch auf, um als Schiedsrichter die Treffer zu zählen.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 171,
+      "text": "Forestier gewann mit 11 Points.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 1,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 172,
+      "text": "Der kleine Mann mit dem Kindergesicht hatte verloren. Er klingelte und rief dem eintretenden Boten zu: »Neun Bier!«.",
+      "revealIndex": 159,
+      "ort": "Redaktion La Vie Française, Paris",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 173,
+      "text": "Dann begannen sie wieder zu spielen, in Erwartung des erfrischenden Getränks.",
+      "revealIndex": 159,
+      "ort": "Redaktion der Zeitung (La Vie Française, näherungsweise)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": 2,
+      "f_wert": null,
+      "perspektive": "erzaehler",
+      "category": "gold_mittel",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 174,
+      "text": "Duroy trank ein Glas Bier mit seinen neuen Kollegen",
+      "revealIndex": 159,
+      "ort": "Redaktion der Zeitung (La Vie Française, näherungsweise)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 175,
+      "text": "Duroy schüttelte allen die Hände, ohne die Namen der dazu gehörenden Personen zu kennen",
+      "revealIndex": 159,
+      "ort": "Redaktion der Zeitung (La Vie Française, näherungsweise)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": null,
+      "perspektive": "figur",
+      "category": "gold_hell",
+      "hasFwert": false,
+      "fWertType": null,
+      "station": 4
+    },
+    {
+      "id": 176,
+      "text": "stieg dann wieder mit frohem Mute und leichtem Herzen die schöne Treppe hinab",
+      "revealIndex": 159,
+      "ort": "Treppenhaus der Redaktion (La Vie Française, näherungsweise)",
+      "ortBasis": "Redaktion La Vie Française",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "space"
+      ],
+      "valenz": null,
+      "intensitaet": null,
+      "f_wert": "emotion_faerbt_raum",
+      "perspektive": "figur",
+      "category": "gold_mittel",
+      "hasFwert": true,
+      "fWertType": "emotion_faerbt_raum",
+      "station": 4
+    }
+  ],
+  "halteorte": [],
+  "zwischenPunkte": [
+    {
+      "id": 100,
+      "name": "Wohnung → Parc Monceau",
+      "revealIndex": 5,
+      "lon": 2.32,
+      "lat": 48.883,
+      "vonHalt": 0,
+      "nachHalt": 1
+    },
+    {
+      "id": 101,
+      "name": "Forestier → Bouillon Duval",
+      "revealIndex": 94,
+      "lon": 2.3346,
+      "lat": 48.8796,
+      "vonHalt": 2,
+      "nachHalt": 3
+    },
+    {
+      "id": 102,
+      "name": "Bouillon Duval → Redaktion",
+      "revealIndex": 146,
+      "lon": 2.3467,
+      "lat": 48.8722,
+      "vonHalt": 3,
+      "nachHalt": 4
+    }
+  ],
+  "ortRuns": [
+    {
+      "ort": "Unbestimmt (Kapitel 03)",
+      "revealIndex": 0,
+      "lon": 2.3198,
+      "lat": 48.8839,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 1,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Wohnung Duroy, Rue Boursault",
+      "revealIndex": 2,
+      "lon": 2.3198,
+      "lat": 48.8839,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 6,
+          "pos": 0,
+          "neutral": 1,
+          "unrated": 17
+        },
+        "gold_mittel": {
+          "neg": 7,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 5
+        },
+        "gold_hell": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        }
+      }
+    },
+    {
+      "ort": "Erinnerung (Kapitel 03)",
+      "revealIndex": 16,
+      "lon": 2.3198,
+      "lat": 48.8839,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 3,
+          "neutral": 1,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 4
+        }
+      }
+    },
+    {
+      "ort": "Phantasie (Kapitel 03)",
+      "revealIndex": 42,
+      "lon": 2.3198,
+      "lat": 48.8839,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Boulevard des Batignolles, Paris",
+      "revealIndex": 53,
+      "lon": 2.3235,
+      "lat": 48.8865,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Parc Monceau",
+      "revealIndex": 56,
+      "lon": 2.3096,
+      "lat": 48.8796,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Unterwegs zu Forestier, Paris",
+      "revealIndex": 61,
+      "lon": 2.3218873,
+      "lat": 48.8805337,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Wohnung Forestier, Paris",
+      "revealIndex": 62,
+      "lon": 2.3341746,
+      "lat": 48.8814675,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 2,
+          "pos": 1,
+          "neutral": 2,
+          "unrated": 15
+        },
+        "gold_mittel": {
+          "neg": 7,
+          "pos": 3,
+          "neutral": 1,
+          "unrated": 6
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        }
+      }
+    },
+    {
+      "ort": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "revealIndex": 100,
+      "lon": 2.3374123,
+      "lat": 48.87868375,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 3,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 1,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Bouillon Duval",
+      "revealIndex": 106,
+      "lon": 2.34065,
+      "lat": 48.8759,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Boulevard (Richtung Redaktion)",
+      "revealIndex": 107,
+      "lon": 2.3467,
+      "lat": 48.8722,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 0
+        }
+      }
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "revealIndex": 108,
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 1,
+          "pos": 1,
+          "neutral": 1,
+          "unrated": 24
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 7
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 9
+        }
+      }
+    }
+  ],
+  "routenPfadDetail": [
+    [
+      2.3198,
+      48.8839
+    ],
+    [
+      2.3194983,
+      48.8844155
+    ],
+    [
+      2.3195756,
+      48.884443
+    ],
+    [
+      2.3196129,
+      48.8844852
+    ],
+    [
+      2.3207337,
+      48.8849735
+    ],
+    [
+      2.3207495,
+      48.8849698
+    ],
+    [
+      2.3208819,
+      48.8850305
+    ],
+    [
+      2.3208746,
+      48.8850474
+    ],
+    [
+      2.3216289,
+      48.8857039
+    ],
+    [
+      2.3216601,
+      48.8857029
+    ],
+    [
+      2.3217214,
+      48.8857566
+    ],
+    [
+      2.3217235,
+      48.8857812
+    ],
+    [
+      2.3223408,
+      48.8863148
+    ],
+    [
+      2.3223884,
+      48.8863353
+    ],
+    [
+      2.3224491,
+      48.8863806
+    ],
+    [
+      2.3224435,
+      48.886404
+    ],
+    [
+      2.3230339,
+      48.8869168
+    ],
+    [
+      2.323057,
+      48.8869187
+    ],
+    [
+      2.3235,
+      48.8865
+    ],
+    [
+      2.3230339,
+      48.8869168
+    ],
+    [
+      2.3229734,
+      48.8869495
+    ],
+    [
+      2.3229468,
+      48.8869744
+    ],
+    [
+      2.3222002,
+      48.8874076
+    ],
+    [
+      2.3221723,
+      48.8874239
+    ],
+    [
+      2.3220224,
+      48.8875117
+    ],
+    [
+      2.3210832,
+      48.888067
+    ],
+    [
+      2.3210182,
+      48.8880618
+    ],
+    [
+      2.320308,
+      48.8876504
+    ],
+    [
+      2.3202057,
+      48.8877014
+    ],
+    [
+      2.3201857,
+      48.887701
+    ],
+    [
+      2.3200743,
+      48.8876496
+    ],
+    [
+      2.320073,
+      48.8876263
+    ],
+    [
+      2.319387,
+      48.8872266
+    ],
+    [
+      2.3193643,
+      48.8872257
+    ],
+    [
+      2.3192748,
+      48.8871725
+    ],
+    [
+      2.3192715,
+      48.8871616
+    ],
+    [
+      2.3184777,
+      48.8866893
+    ],
+    [
+      2.3184421,
+      48.8866924
+    ],
+    [
+      2.3183713,
+      48.8866381
+    ],
+    [
+      2.3181166,
+      48.8864752
+    ],
+    [
+      2.3180766,
+      48.8864564
+    ],
+    [
+      2.3179793,
+      48.8864063
+    ],
+    [
+      2.3179158,
+      48.8863688
+    ],
+    [
+      2.3177518,
+      48.8862739
+    ],
+    [
+      2.3177276,
+      48.8862724
+    ],
+    [
+      2.3176198,
+      48.8862103
+    ],
+    [
+      2.3176188,
+      48.8861947
+    ],
+    [
+      2.3168829,
+      48.8857604
+    ],
+    [
+      2.3168594,
+      48.8857714
+    ],
+    [
+      2.3166854,
+      48.8856782
+    ],
+    [
+      2.3166886,
+      48.8856532
+    ],
+    [
+      2.3162465,
+      48.885387
+    ],
+    [
+      2.3162098,
+      48.885385
+    ],
+    [
+      2.3161157,
+      48.8853423
+    ],
+    [
+      2.31608,
+      48.8852917
+    ],
+    [
+      2.315503,
+      48.8849578
+    ],
+    [
+      2.3154738,
+      48.8849609
+    ],
+    [
+      2.3154068,
+      48.8849182
+    ],
+    [
+      2.3153911,
+      48.8848874
+    ],
+    [
+      2.3148284,
+      48.8845789
+    ],
+    [
+      2.3147302,
+      48.8845173
+    ],
+    [
+      2.3147103,
+      48.8844945
+    ],
+    [
+      2.3144393,
+      48.8843334
+    ],
+    [
+      2.3143379,
+      48.8842732
+    ],
+    [
+      2.3140192,
+      48.884085
+    ],
+    [
+      2.3136803,
+      48.8838727
+    ],
+    [
+      2.313611,
+      48.8838653
+    ],
+    [
+      2.3135178,
+      48.8838193
+    ],
+    [
+      2.3135049,
+      48.8837728
+    ],
+    [
+      2.3130815,
+      48.8835334
+    ],
+    [
+      2.3130264,
+      48.8835227
+    ],
+    [
+      2.312932,
+      48.8834659
+    ],
+    [
+      2.3127566,
+      48.8833447
+    ],
+    [
+      2.3127233,
+      48.8833556
+    ],
+    [
+      2.312547,
+      48.8833177
+    ],
+    [
+      2.3125164,
+      48.8832969
+    ],
+    [
+      2.3125049,
+      48.8831978
+    ],
+    [
+      2.312511,
+      48.8831961
+    ],
+    [
+      2.3118005,
+      48.8825173
+    ],
+    [
+      2.3117655,
+      48.8825131
+    ],
+    [
+      2.3116874,
+      48.882434
+    ],
+    [
+      2.3115411,
+      48.882299
+    ],
+    [
+      2.3115149,
+      48.8822756
+    ],
+    [
+      2.3112877,
+      48.8820592
+    ],
+    [
+      2.3110901,
+      48.881915
+    ],
+    [
+      2.3110476,
+      48.8818619
+    ],
+    [
+      2.3110273,
+      48.8818272
+    ],
+    [
+      2.3110324,
+      48.8818033
+    ],
+    [
+      2.3095571,
+      48.8807105
+    ],
+    [
+      2.3093364,
+      48.8806777
+    ],
+    [
+      2.3094093,
+      48.8803637
+    ],
+    [
+      2.3092347,
+      48.8803444
+    ],
+    [
+      2.3091194,
+      48.880094
+    ],
+    [
+      2.3091617,
+      48.8799238
+    ],
+    [
+      2.3092356,
+      48.8794788
+    ],
+    [
+      2.309624,
+      48.8794924
+    ],
+    [
+      2.3096,
+      48.8796
+    ],
+    [
+      2.309688,
+      48.8794946
+    ],
+    [
+      2.3101447,
+      48.8795095
+    ],
+    [
+      2.310351,
+      48.8795204
+    ],
+    [
+      2.3111881,
+      48.8795704
+    ],
+    [
+      2.3118032,
+      48.879636
+    ],
+    [
+      2.3120101,
+      48.879692
+    ],
+    [
+      2.3133746,
+      48.8799548
+    ],
+    [
+      2.3134297,
+      48.8799121
+    ],
+    [
+      2.3139977,
+      48.8794683
+    ],
+    [
+      2.3140608,
+      48.8794029
+    ],
+    [
+      2.3141586,
+      48.8793125
+    ],
+    [
+      2.3142604,
+      48.8792466
+    ],
+    [
+      2.3145604,
+      48.8794126
+    ],
+    [
+      2.3149664,
+      48.8790802
+    ],
+    [
+      2.3154164,
+      48.8791457
+    ],
+    [
+      2.3154298,
+      48.8791592
+    ],
+    [
+      2.3155602,
+      48.8791817
+    ],
+    [
+      2.3155737,
+      48.879171
+    ],
+    [
+      2.317083,
+      48.879397
+    ],
+    [
+      2.3170892,
+      48.8794232
+    ],
+    [
+      2.3172657,
+      48.8794373
+    ],
+    [
+      2.3173076,
+      48.879424
+    ],
+    [
+      2.3180752,
+      48.8795445
+    ],
+    [
+      2.3180829,
+      48.8795666
+    ],
+    [
+      2.3182121,
+      48.8795868
+    ],
+    [
+      2.3182857,
+      48.8795643
+    ],
+    [
+      2.3204039,
+      48.8799093
+    ],
+    [
+      2.3203988,
+      48.8799209
+    ],
+    [
+      2.3204732,
+      48.8800164
+    ],
+    [
+      2.3202323,
+      48.880106
+    ],
+    [
+      2.3212433,
+      48.8803861
+    ],
+    [
+      2.3218873,
+      48.8805337
+    ],
+    [
+      2.3214298,
+      48.8800375
+    ],
+    [
+      2.3214766,
+      48.8799439
+    ],
+    [
+      2.3216391,
+      48.8796561
+    ],
+    [
+      2.3218851,
+      48.8796512
+    ],
+    [
+      2.3219913,
+      48.8795203
+    ],
+    [
+      2.3230714,
+      48.8791822
+    ],
+    [
+      2.3234781,
+      48.8792563
+    ],
+    [
+      2.3236487,
+      48.8791963
+    ],
+    [
+      2.3237456,
+      48.8791423
+    ],
+    [
+      2.3253953,
+      48.8794374
+    ],
+    [
+      2.3255554,
+      48.8794585
+    ],
+    [
+      2.3267438,
+      48.8796637
+    ],
+    [
+      2.3268261,
+      48.8796069
+    ],
+    [
+      2.3268557,
+      48.8795568
+    ],
+    [
+      2.326958,
+      48.879571
+    ],
+    [
+      2.3270782,
+      48.8795697
+    ],
+    [
+      2.3270897,
+      48.8796
+    ],
+    [
+      2.3270871,
+      48.8796816
+    ],
+    [
+      2.329103,
+      48.8797401
+    ],
+    [
+      2.3290353,
+      48.8799245
+    ],
+    [
+      2.329152,
+      48.8799509
+    ],
+    [
+      2.3291828,
+      48.8799287
+    ],
+    [
+      2.3305668,
+      48.8801128
+    ],
+    [
+      2.3306969,
+      48.8801275
+    ],
+    [
+      2.3313217,
+      48.8801832
+    ],
+    [
+      2.3313572,
+      48.8802108
+    ],
+    [
+      2.3314099,
+      48.8806939
+    ],
+    [
+      2.3315162,
+      48.8806929
+    ],
+    [
+      2.3316136,
+      48.8811575
+    ],
+    [
+      2.3316584,
+      48.8812374
+    ],
+    [
+      2.3316408,
+      48.8812651
+    ],
+    [
+      2.3316914,
+      48.8815598
+    ],
+    [
+      2.3318511,
+      48.8820905
+    ],
+    [
+      2.333028,
+      48.8821126
+    ],
+    [
+      2.3333689,
+      48.8821262
+    ],
+    [
+      2.3336331,
+      48.8821255
+    ],
+    [
+      2.333871,
+      48.8818835
+    ],
+    [
+      2.3339772,
+      48.8819247
+    ],
+    [
+      2.333931,
+      48.8820127
+    ],
+    [
+      2.3341952,
+      48.8819125
+    ],
+    [
+      2.3343615,
+      48.8818451
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341952,
+      48.8819125
+    ],
+    [
+      2.333931,
+      48.8820127
+    ],
+    [
+      2.3339772,
+      48.8819247
+    ],
+    [
+      2.3350844,
+      48.8805322
+    ],
+    [
+      2.3351081,
+      48.8805296
+    ],
+    [
+      2.3351482,
+      48.8804499
+    ],
+    [
+      2.3351456,
+      48.8804251
+    ],
+    [
+      2.3352841,
+      48.880336
+    ],
+    [
+      2.3353262,
+      48.8803297
+    ],
+    [
+      2.3353954,
+      48.8802736
+    ],
+    [
+      2.3354575,
+      48.8802139
+    ],
+    [
+      2.3367778,
+      48.8791258
+    ],
+    [
+      2.3368207,
+      48.8791268
+    ],
+    [
+      2.3369254,
+      48.8790224
+    ],
+    [
+      2.336986,
+      48.8789504
+    ],
+    [
+      2.3375009,
+      48.8785233
+    ],
+    [
+      2.3374123,
+      48.87868375
+    ],
+    [
+      2.3376999,
+      48.8784825
+    ],
+    [
+      2.337718,
+      48.8783247
+    ],
+    [
+      2.3380424,
+      48.878008
+    ],
+    [
+      2.3381098,
+      48.8779418
+    ],
+    [
+      2.3381156,
+      48.8779214
+    ],
+    [
+      2.339145,
+      48.8768993
+    ],
+    [
+      2.3392031,
+      48.8768982
+    ],
+    [
+      2.3393127,
+      48.8768695
+    ],
+    [
+      2.3394187,
+      48.876743
+    ],
+    [
+      2.3395736,
+      48.8766993
+    ],
+    [
+      2.3396319,
+      48.8766213
+    ],
+    [
+      2.3396172,
+      48.876608
+    ],
+    [
+      2.3401254,
+      48.8761392
+    ],
+    [
+      2.3402341,
+      48.8761132
+    ],
+    [
+      2.3403434,
+      48.8760321
+    ],
+    [
+      2.3404634,
+      48.8759355
+    ],
+    [
+      2.34065,
+      48.8759
+    ],
+    [
+      2.340564,
+      48.8757807
+    ],
+    [
+      2.3405184,
+      48.875763
+    ],
+    [
+      2.3410052,
+      48.8752017
+    ],
+    [
+      2.3410685,
+      48.875208
+    ],
+    [
+      2.3411912,
+      48.8750854
+    ],
+    [
+      2.341137,
+      48.8750569
+    ],
+    [
+      2.3413405,
+      48.8748612
+    ],
+    [
+      2.3413707,
+      48.8748638
+    ],
+    [
+      2.3414346,
+      48.8747917
+    ],
+    [
+      2.3423065,
+      48.8741752
+    ],
+    [
+      2.3423329,
+      48.8741791
+    ],
+    [
+      2.3424046,
+      48.8741248
+    ],
+    [
+      2.3424466,
+      48.8740819
+    ],
+    [
+      2.3425237,
+      48.8740087
+    ],
+    [
+      2.3425134,
+      48.8739885
+    ],
+    [
+      2.3430856,
+      48.8732062
+    ],
+    [
+      2.3431194,
+      48.8731575
+    ],
+    [
+      2.3431617,
+      48.8730714
+    ],
+    [
+      2.3431302,
+      48.8730459
+    ],
+    [
+      2.343169,
+      48.8729136
+    ],
+    [
+      2.3432294,
+      48.8727182
+    ],
+    [
+      2.3448579,
+      48.8724789
+    ],
+    [
+      2.3448951,
+      48.8724937
+    ],
+    [
+      2.3450312,
+      48.8724641
+    ],
+    [
+      2.3460209,
+      48.8723071
+    ],
+    [
+      2.3462094,
+      48.8722789
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ],
+    [
+      2.3467,
+      48.8722
+    ],
+    [
+      2.3466305,
+      48.8722361
+    ]
+  ],
+  "routenPfadKumulativ": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    18,
+    18,
+    18,
+    96,
+    96,
+    96,
+    96,
+    96,
+    128,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    170,
+    187,
+    187,
+    187,
+    187,
+    187,
+    187,
+    204,
+    232,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233,
+    233
+  ]
+}

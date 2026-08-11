@@ -1,0 +1,1495 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 15,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 67,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Die Kirche war ganz mit Schwarz bezogen, und ein großes Wappenschild über dem Portal mit einer Krone darüber verkündete den Passanten, daß hier ein Edelmann beigesetzt wird.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die Kirche als Trauerort mit aristokratischen Insignien — neutraler Erzählerblick von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirche",
+        "emotion": "Trauer, aristokratische Würde",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 2,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Die Trauerfeier war zu Ende und die Gäste gingen langsam vor dem Sarge am Neffen des Grafen vorbei; er drückte ihnen die Hände und erwiderte ihre Grüße.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt das Ende der Trauerfeier als gesellschaftliches Ritual — von aussen beobachtend.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 3,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Als Georges Du Roy und seine Frau die Kirche verlassen hatten, gingen sie langsam, schweigend nach Hause.",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Bewegung vom Kirchenausgang nach Hause — sachliche Ortsveränderung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (nicht spezifiziert), Weg nach Hause",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 4,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "»Daß Vaudrec uns nichts vererbt hat!«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äussert innerlich empfundene Enttäuschung über die ausgebliebene Erbschaft — soziale und finanzielle Erwartungshaltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg nach Hause (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 5,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er überlegte und sagte: »Ja, das ist möglich, weil wir doch seine besten Freunde waren, wir beide. Zweimal in der Woche war er bei uns zu Tisch und kam zu jeder Stunde. Er war bei uns wie zu Hause. Er liebte dich wie ein Vater und er hatte keine Familie, keine Kinder, keine Geschwister, nur einen Neffen, einen entfernten Neffen. Ja, es muß ein Testament da sein. Ich verlange nichts Großes von ihm, nur eine Kleinigkeit, etwas, was uns beweisen wird, daß er uns liebte und an uns gedacht hatte und die Neigung zu schätzen wußte, die wir für ihn hatten. Er schuldet uns einen Beweis seiner Freundschaft.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy rationalisiert seine Erwartung an ein Testament — inneres Kalkül zwischen Freundschaft und sozialem Nutzen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg nach Hause (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 6,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Als sie nach Hause kamen, reichte der Diener Madeleine einen Brief.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Maupassant registriert die Ankunft zu Hause und die Übergabe eines Briefes — neutrale Erzählerhandlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 7,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Herr Lamaneur Notar 17, rue des Vosges",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Konkreter Pariser Ort — Adresse des Notars Lamaneur in der Rue des Vosges.",
+      "koordinaten": {
+        "lat": 48.8553,
+        "lng": 2.3644,
+        "ort_bezeichnung": "Rue des Vosges 17, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 8,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges errötete und sagte: »Das wird es sein. Es ist merkwürdig, daß er dich auffordert und nicht mich, der eigentlich der gesetzliche Familienvorstand ist.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy errötet — körperliche Reaktion auf den Inhalt des Briefs — und zeigt innere Erregung sowie Besorgnis um seinen sozialen Status als Familienoberhaupt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Duroys (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 9,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Sobald sie gefrühstückt hatten, machten sie sich auf den Weg.",
+      "tags": [
+        "move",
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe über den Aufbruch der beiden nach dem Frühstück.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Duroys (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 10,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Als sie in das Bureau des Herrn Lamaneur kamen, erhob sich der Bureauvorsteher mit einer auffallenden Dienstfertigkeit und führte sie zu seinem Chef.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das Büro des Notars Lamaneur als sozialen Raum mit hierarchischen Strukturen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau des Notars Lamaneur, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 11,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Der Notar war ein kleiner, vollkommen runder Mann. Sein Kopf glich einer Kugel, die auf einer anderen größeren Kugel aufgesetzt war, diese zweite Kugel wurde von zwei Beinen getragen, die ihrerseits so klein und kurz waren, daß sie auch wie zwei runde Kugeln aussahen.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den Notar von aussen mit karikaturhafter Genauigkeit seiner körperlichen Erscheinung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau des Notars Lamaneur, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 12,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges konnte sich nicht enthalten und flüsterte: »So hab' ich's mir auch gedacht.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy kann seine innere Reaktion nicht unterdrücken — er bestätigt seinen Verdacht, dass das Testament Madeleine betrifft, was seinen inneren Erregungszustand zeigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau des Notars Lamaneur, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Bureau des Notars Lamaneur",
+        "emotion": "Bestätigung eines gefürchteten Verdachts, kaum verhaltene Erregung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 13,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Er nahm aus einer Mappe, die vor ihm lag, einen Bogen heraus und las: »Ich, Endesunterzeichneter, Paul-Emile-Cyprien-Gontran Comte de Vaudrec, gesund an Körper und Seele, bestimme hiermit meinen letzten Willen.«",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Maupassant gibt als neutraler Erzähler den Testamentstext wieder, der auf die gesellschaftliche Stellung des Grafen Vaudrec verweist.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau des Notars Lamaneur, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 14,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Da ich keine direkten Erben habe, hinterlasse ich mein gesamtes Vermögen, bestehend aus Wertpapieren in Höhe von ca. 600000 Francs und aus Immobilien in Höhe von ca. 500000 Francs, Madame Claire-Madeleine Du Roy als ihr unbelastetes freies Eigentum.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant gibt das Testament wieder, das die enorme Vermögensübertragung an Madeleine dokumentiert und soziale Verhältnisse der Zeit spiegelt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau des Notars Lamaneur, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 15,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Madeleine wurde blaß und blickte hinunter auf ihre Füße.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Reaktion auf das Testament von außen — kein inneres Erleben Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Notariatsbüro Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 16,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges drehte nervös seinen Schnurrbart zwischen den Fingern.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliche Nervosität verrät seinen inneren Aufruhr angesichts des Testaments.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Notariatsbüro Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Notariatsbüro",
+        "emotion": "Nervosität, Anspannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 17,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Du Roy stand auf und sagte in trocknem Tone: »Ich bitte um Bedenkzeit.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys trockener Ton ist Ausdruck seiner emotional kontrollierten, aber angespannten inneren Haltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Notariatsbüro Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Notariatsbüro",
+        "emotion": "beherrschte Anspannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 18,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges verbeugte sich: »Gut, Herr Lamaneur.« Dann verabschiedete er sich feierlich, ließ seine Frau, die gar nichts mehr sagte, vorangehen und verließ das Bureau in so steifer und gemessener Weise, daß der Notar nicht mehr lächelte.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "move"
+      ],
+      "notiz": "Duroys steifer, gemessener Abgang ist eine körperliche Inszenierung sozialer Würde — eine performative Reaktion auf die demütigende Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Notariatsbüro Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Notariatsbüro",
+        "emotion": "gekränkte Würde, beherrschte Wut",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 19,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Sobald sie nach Hause gekommen waren, schloß Du Roy heftig die Tür hinter sich und warf seinen Hut aufs Bett.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Das heftige Türschließen und Hutwerfen sind körperliche Ausdrücke von Duroys aufgestauter Wut, die sich nach dem Verlassen des Büros entlädt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung",
+        "emotion": "aufgestaute Wut, Eifersucht",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 20,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "»Du bist Vaudrecs Geliebte gewesen?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys direkte Anklage verrät seinen Eifersucht und seinen Verdacht — ein emotionaler Ausbruch nach der kontrollierten Haltung beim Notar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung",
+        "emotion": "Eifersucht, Wut",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 21,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges stand vor ihr und beobachtete sie, wie ein Untersuchungsrichter, der die geringsten Schwächen des Angeklagten zu entdecken sucht.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy beobachtet Madeleine mit kühler, berechnender Haltung — innere Wachheit und Kontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 22,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er erwiderte, indem er jedes Wort betonte: »Ja ... mir hätte er was hinterlassen können, mir, deinem Gatten ... mir, seinem Freunde ... verstehst du ... Dir doch nicht ... dir, seiner Freundin ... dir, meiner Gattin ... Der Unterschied ist sehr wesentlich und sogar ausschlaggebend vom Standpunkt der öffentlichen Meinung ... in den Augen der Gesellschaft ...«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy denkt laut über sozialen Status und gesellschaftliche Wahrnehmung nach — inneres Erleben seiner eigenen Lage im Verhältnis zur Erbschaft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 23,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges ging mit großen Schritten im Zimmer auf und ab",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys unruhiges Auf-und-ab-Gehen im Zimmer spiegelt seinen inneren Erregungszustand wider.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Innenraum, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zimmer in der Wohnung",
+        "emotion": "Erregung, Ungeduld",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 24,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Er blieb vor ihr stehen und sie sahen sich Auge in Auge.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die körperliche Konfrontation zwischen Duroy und Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 25,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Sie wollten beide bis ins tiefste Geheimnis ihres Herzens eindringen und ihre innersten Gedanken ergründen. Es war ein Seelenkampf zweier Menschen, die Seite an Seite lebten und sich doch nicht kannten, die sich beargwöhnten, ausspürten und belauerten und nie in den tiefen, schlammigen Grund der Seele hineingeschaut hatten.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den psychologischen Kampf zwischen den Eheleuten als atmosphärisches Bild des Misstrauens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Misstrauen, Entfremdung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 26,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Plötzlich schleuderte er ihr mit dumpfer Stimme ins Gesicht: »Gestehe doch, daß du die Geliebte von Vaudrec warst.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy handelt aus einer inneren Anspannung heraus und konfrontiert Madeleine mit seinem Verdacht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Eifersucht, Anklage",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 27,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er stampfte mit dem Fuß. »Du lügst, es kann nicht möglich sein.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Körper drückt seine innere Erregung und seinen Unglauben aus — der Fuß stampft als körperlicher Ausdruck des emotionalen Zustands.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Wut, Unglaube",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 28,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er begann wieder auf und ab zu gehen, dann blieb er stehen",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroys rastlose Bewegung im Raum spiegelt seine innere Unruhe und seinen Versuch, die Situation zu verarbeiten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Unruhe, Anspannung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 29,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Sie sprach so natürlich und so ruhig, daß Georges zu zaudern begann.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Zweifel wächst durch die ruhige Überzeugungskraft Madeleines — er beginnt zu schwanken.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Zögern, Unsicherheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 30,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Das ist egal. Wir können die Erbschaft unter solchen Bedingungen unmöglich annehmen. Das würde den schlechtesten Eindruck erwecken. Alle Welt würde daran glauben, das Schlimmste vermuten und sich über mich lustig machen. Meine Kollegen sind sowieso schon neidisch auf mich und lauern auf die Gelegenheit, mich anzugreifen. Ich muß mehr als jeder andere auf meine Ehre und auf meinen Ruf bedacht sein.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert seine gesellschaftliche Position und den Ruf, den er zu wahren hat — inneres Erleben sozialer Bedrohung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 31,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Ich kann unmöglich zugeben, daß meine Frau eine derartige Erbschaft von einem Mann annimmt, den das Gerücht schon zu ihrem Liebhaber gestempelt hat. Vielleicht hätte sich das Forestier gefallen lassen, ich aber nicht.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy vergleicht sich mit Forestier und betont seine Unbereitschaft, den sozialen Makel zu akzeptieren — innerer Stolz und Ehrgeiz.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 32,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er ging noch immer auf und ab und begann laut zu denken; er sprach zu seiner Frau, ohne das Wort direkt an sie zu richten.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroys rastloses Auf-und-ab-Gehen spiegelt seine innere Unruhe und sein lautes Nachdenken wider.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Unruhe, Erregung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 33,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Nun ja! eine Million ... um so schlimmer ... Er hat ja eben bei der Abfassung des Testaments nicht begriffen, was für einen Taktfehler und was für einen Verstoß gegen die gesellschaftlichen Konventien er damit begangen hatte. Er hatte nicht gedacht, in welche schiefe und lächerliche Lage er mich bringen würde.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy denkt laut über die gesellschaftliche Peinlichkeit nach, die das Testament verursacht — inneres Erleben sozialer Beschämung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 34,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er hätte mir die Hälfte hinterlassen sollen und alles wäre in bester Ordnung gewesen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy spekuliert über eine alternative Lösung, die seinen Ruf gewahrt hätte — pragmatisches Kalkül verbunden mit sozialem Statusdenken.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 35,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Er setzte sich, schlug die Beine übereinander und zupfte an den Spitzen seines Schnurrbartes, wie er das in den Stunden der Sorge, der Langweile und des schweren Nachdenkens zu tun pflegte.",
+      "tags": [
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys typische Körpergeste in Momenten der inneren Anspannung und Sorge.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 36,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Die Welt wird nie begreifen können, daß Vaudrec dich zu seiner Universalerbin eingesetzt hat und daß ich so etwas geduldet habe.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy sorgt sich um das Urteil der Gesellschaft über seine Duldsamkeit gegenüber dem Testament — inneres Erleben sozialer Demütigung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt / Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 37,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Dann stand er auf und ging wieder auf und ab, er schien wieder zu schwanken und vermied jetzt den scharf beobachtenden Blick seiner Frau.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy bewegt sich rastlos im Raum, sein inneres Schwanken drückt sich in der körperlichen Bewegung aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung der Duroys",
+        "emotion": "Unentschlossenheit, innere Zerrissenheit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 38,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "»Nein, in keinem Fall« sagte er. »Vielleicht soll man überhaupt verzichten ... es ist würdiger, korrekter, ehrenhafter ... Übrigens auf diese Weise könnte man uns auch nicht das Geringste nachsagen. Die gewissenhaftesten Leute könnten sich nur davor verbeugen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy wägt laut denkend moralische und soziale Konsequenzen ab, inneres Kalkül zwischen Gier und gesellschaftlichem Ansehen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 39,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er blieb vor Madeleine stehen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Bewegung endet in einer körperlich-räumlichen Konfrontation mit seiner Frau.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Duroys (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung der Duroys",
+        "emotion": "Anspannung, Konfrontation",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 40,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Er nahm seinen Hut und sagte beim Weggehen:",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Der Erzähler beschreibt Duroys Aufbruch — eine neutrale, äusserliche Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 41,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er wurde rot und stotterte: »Du hast recht, ich gehe.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert beschämt und verlegen auf Madeleines ungeduldige Unterbrechung — ein innerer Zustand der Niederlage.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung",
+        "emotion": "Beschämung, Verlegenheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 42,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "»Ich werde versuchen, den Neffen mit fünfzigtausend Francs abzufinden, nicht wahr?«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy denkt kalkulierend über Geld und sozialen Vorteil nach — er versucht, die Erbschaft mit minimalem Aufwand zu regeln.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroy/Madeleine (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 43,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Plötzlich schämte er sich und sagte: »Nein, wir werden uns das teilen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet Scham und korrigiert seinen ersten Impuls, was seinen inneren moralischen Konflikt zeigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 44,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Am folgenden Tag unterzeichneten sie eine Schenkung zu Lebzeiten von fünfhunderttausend Francs, die Madeleine Du Roy ihrem Gatten abtrat.",
+      "tags": [
+        "social",
+        "time"
+      ],
+      "notiz": "Maupassant beschreibt den Rechtsakt der Vermögensübertragung neutral von außen als gesellschaftliches Ereignis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Notariat, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 45,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Dann, als sie das Bureau verlassen hatten, schlug Georges Du Roy vor, bei dem schönen Wetter einen Spaziergang zu machen.",
+      "tags": [
+        "move",
+        "location",
+        "weather"
+      ],
+      "notiz": "Maupassant beschreibt das Verlassen des Notarbüros und den Vorschlag zum Spaziergang als äußere Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Notariat, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 46,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Er war sehr liebenswürdig und aufmerksam gegen seine Frau. Er sah außerordentlich vergnügt aus und lachte, während sie nachdenklich und etwas ernst blieb.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Stimmung und Verhalten von außen im Kontrast zu Madeleines Ernsthaftigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 47,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Es war ein kühler Herbsttag.",
+      "tags": [
+        "weather",
+        "time"
+      ],
+      "notiz": "Maupassant setzt den atmosphärischen Rahmen mit einer neutralen Wettercharakterisierung als Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 48,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Die vorübergehende Menge schien es eilig zu haben und die Passanten schritten hastig dahin.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "sound"
+      ],
+      "notiz": "Maupassant beschreibt das urbane Treiben der Passanten als atmosphärische Außenperspektive auf den städtischen Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "belebte Straße Paris",
+        "emotion": "Geschäftigkeit, Hast",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 49,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Du Roy führte seine Frau vor den Laden, in dessen Schaufenster er den Chronometer bewundert hatte.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy erinnert sich an einen früheren Moment der Bewunderung vor dem Schaufenster und lenkt bewusst dorthin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schaufenster Juwelierladen",
+        "emotion": "Bewunderung, Begehren",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 50,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Sie traten in den Juwelierladen herein.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt das Eintreten in den Juwelierladen als neutrale Ortsbewegung von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 51,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Beim Anblicken der Schmuckstücke und Juwelen konnte sie ihre absichtlich angenommene kühle Haltung nicht mehr bewahren und ihre Augen liefen funkelnd und neugierig über all die Kostbarkeiten in den Glaskästen.",
+      "tags": [
+        "social",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Reaktion auf den Luxus im Juwelierladen von außen — ihr Begehren bricht durch die gespielte Distanz.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Juwelierladen",
+        "emotion": "Begehren, Neugier",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 52,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Es war eine eigenartig geformte Kette. Jedes einzelne Glied trug einen anderen Stein.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt das Armband als materielles Luxusobjekt mit formaler Besonderheit — neutrale Außenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 53,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges fragte: »Was kostet dieses Armband?«",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy handelt aktiv, indem er den Preis erfragt — Zeichen seines neu gewonnenen finanziellen Selbstbewusstseins.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 54,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "»Wenn Sie es mir für zwei fünf lassen, so ist das Geschäft gemacht.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy verhandelt selbstsicher den Preis — sein neues Vermögen ermöglicht ihm eine neue soziale Haltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 55,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "»Also dann geben Sie mir den Chronometer für 1500 Francs dazu; das macht zusammen 4000, die ich Ihnen in bar bezahle.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy verbindet den Kauf des Armbands mit dem lang ersehnten Chronometer — eine Kombination aus Großzügigkeit und eigenem Begehren, finanziert durch das neue Vermögen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juwelierladen, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Juwelierladen",
+        "emotion": "Begehren, Selbstbewusstsein, Genuss",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 56,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Der Journalist gab seine Adresse und fügte hinzu: »Auf den Chronometer lassen Sie meine Initialen G. R. C. in verschlungenen Buchstaben eingravieren, und darüber setzen Sie die Baronskrone.«",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy lässt sich eine Baronskrone eingravieren — sozialer Aufstieg als materialisiertes Statussymbol.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juweliergeschäft, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 57,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Madeleine lächelte überrascht. Und als sie hinausgingen, schmiegte sie sich mit einer gewissen Zärtlichkeit an seinen Arm. Sie fand ihn wirklich schlau, gewandt und stark.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Reaktion auf Duroys Statussymbolik von aussen — andere Figur, kein Annotationsobjekt für Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Juweliergeschäft, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 58,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Sie gingen am Vaudeville vorbei.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Erzähler nennt das Théâtre du Vaudeville als konkreten Ort, den das Paar passiert.",
+      "koordinaten": {
+        "lat": 48.8717,
+        "lng": 2.3355,
+        "ort_bezeichnung": "Théâtre du Vaudeville, Boulevard des Capucines, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 59,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Er war glücklich wie ein König, und zerbrach sich den Kopf, was sie sonst noch unternehmen könnte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys inneres Glücksgefühl und seine aktive Suche nach weiteren Unternehmungen.",
+      "koordinaten": {
+        "lat": 48.8717,
+        "lng": 2.3355,
+        "ort_bezeichnung": "Boulevard des Capucines / Théâtre du Vaudeville, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Boulevard / Vaudeville",
+        "emotion": "Glück, Hochgefühl",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 60,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Georges, der sich vor einem Zusammentreffen mit seiner Geliebten fürchtete, war es ganz recht, daß seine Frau dabei war, um jede Auseinandersetzung unmöglich zu machen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innere Furcht vor einer Konfrontation mit Clotilde und seine kalkulierte Nutzung der sozialen Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung von Madame de Marelle, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung de Marelle",
+        "emotion": "Furcht, Erleichterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 61,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Das Diner war lustig und der Abend entzückend.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant fasst die gesellschaftliche Stimmung des Abends aus der Erzählerperspektive zusammen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Restaurant / Théâtre du Vaudeville, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Restaurant / Theater",
+        "emotion": "Heiterkeit, Genuss",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 62,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Georges und Madeleine kamen spät nach Hause zurück.",
+      "tags": [
+        "move",
+        "time"
+      ],
+      "notiz": "Erzähler beschreibt die späte Heimkehr des Paares als neutrale Zeitangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Heimweg / Wohnung Duroy, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 63,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Das Gas brannte nicht mehr.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die Dunkelheit des Treppenhauses als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Treppenhaus, Wohnung Duroy, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Treppenhaus",
+        "emotion": "Dunkelheit, Intimität",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 64,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Um die Stufen zu beleuchten, zündete der Journalist von Zeit zu Zeit Wachsstreichhölzer an.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "material"
+      ],
+      "notiz": "Duroys aktive Handlung im dunklen Treppenhaus — Wachsstreichhölzer als physisches Hilfsmittel.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Treppenhaus, Wohnung Duroy, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 15
+    },
+    {
+      "id": 65,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Als sie den ersten Stock erreicht hatten, beleuchtete die Flamme, die plötzlich durch die Reibung entstand, ihre beiden Gesichter, inmitten der Dunkelheit des Treppenhauses.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die flüchtige Lichtszene im dunklen Treppenhaus als atmosphärisches Bild von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Treppenhaus, erster Stock, Wohnung Duroy, Paris (unspezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Treppenhaus",
+        "emotion": "Intimität, Dunkelheit, Enthüllung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 66,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "erzaehler",
+      "text": "Sie sahen wie zwei Gespenster aus, die auftauchten und sofort wieder bereit waren, in der Finsternis zu verschwinden.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die gespenstische, flüchtige Erscheinung der beiden Figuren im Spiegel als atmosphärisches Stimmungsbild.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannter Innenraum (Spiegel)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Spiegelraum",
+        "emotion": "gespenstische Flüchtigkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 15
+    },
+    {
+      "id": 67,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 15",
+      "perspektive": "figur",
+      "text": "Du Roy erhob seine Hand, um ihre Spiegelbilder heller zu beleuchten und sagte lächelnd und triumphierend: »Da gehen die beiden Millionäre!«.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy handelt aktiv und erlebt in diesem Moment Triumph und Selbstgefälligkeit angesichts seines neugewonnenen sozialen Status als Millionär.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannter Innenraum (Spiegel)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Spiegelraum",
+        "emotion": "Triumph, Stolz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 15
+    }
+  ]
+}

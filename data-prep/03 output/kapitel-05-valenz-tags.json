@@ -1,0 +1,76 @@
+{
+  "kapitel": 5,
+  "beschreibung": "Gewichtete Valenz pro Tag-Kategorie — Grundlage für Kreis-Visualisierung",
+  "valenz_pro_tag": {
+    "mood": {
+      "gewichtete_valenz_summe": -47,
+      "gewichtete_valenz_durchschnitt": -0.75,
+      "anzahl_annotationen": 63
+    },
+    "time": {
+      "gewichtete_valenz_summe": -8,
+      "gewichtete_valenz_durchschnitt": -0.89,
+      "anzahl_annotationen": 9
+    },
+    "social": {
+      "gewichtete_valenz_summe": -64,
+      "gewichtete_valenz_durchschnitt": -1.49,
+      "anzahl_annotationen": 43
+    },
+    "george_duroy": {
+      "gewichtete_valenz_summe": -64,
+      "gewichtete_valenz_durchschnitt": -0.9,
+      "anzahl_annotationen": 71
+    },
+    "space": {
+      "gewichtete_valenz_summe": -14,
+      "gewichtete_valenz_durchschnitt": -1.08,
+      "anzahl_annotationen": 13
+    },
+    "location_erinnerung": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 4
+    },
+    "atmosphere": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -0.24,
+      "anzahl_annotationen": 25
+    },
+    "material": {
+      "gewichtete_valenz_summe": 4,
+      "gewichtete_valenz_durchschnitt": 0.67,
+      "anzahl_annotationen": 6
+    },
+    "smell": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 3
+    },
+    "koerper_als_akteur": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.08,
+      "anzahl_annotationen": 13
+    },
+    "sound": {
+      "gewichtete_valenz_summe": -3,
+      "gewichtete_valenz_durchschnitt": -0.38,
+      "anzahl_annotationen": 8
+    },
+    "location": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 2
+    },
+    "weather": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "move": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 2
+    }
+  }
+}

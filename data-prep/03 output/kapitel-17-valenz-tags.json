@@ -1,0 +1,71 @@
+{
+  "kapitel": 18,
+  "beschreibung": "Gewichtete Valenz pro Tag-Kategorie — Grundlage für Kreis-Visualisierung",
+  "valenz_pro_tag": {
+    "george_duroy": {
+      "gewichtete_valenz_summe": -23,
+      "gewichtete_valenz_durchschnitt": -1.53,
+      "anzahl_annotationen": 15
+    },
+    "mood": {
+      "gewichtete_valenz_summe": -38,
+      "gewichtete_valenz_durchschnitt": -1.81,
+      "anzahl_annotationen": 21
+    },
+    "social": {
+      "gewichtete_valenz_summe": -8,
+      "gewichtete_valenz_durchschnitt": -1.33,
+      "anzahl_annotationen": 6
+    },
+    "weather": {
+      "gewichtete_valenz_summe": 0,
+      "gewichtete_valenz_durchschnitt": 0.0,
+      "anzahl_annotationen": 2
+    },
+    "atmosphere": {
+      "gewichtete_valenz_summe": -41,
+      "gewichtete_valenz_durchschnitt": -1.71,
+      "anzahl_annotationen": 24
+    },
+    "sound": {
+      "gewichtete_valenz_summe": -4,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 4
+    },
+    "time": {
+      "gewichtete_valenz_summe": -10,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 5
+    },
+    "koerper_als_akteur": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -1.5,
+      "anzahl_annotationen": 4
+    },
+    "space": {
+      "gewichtete_valenz_summe": -14,
+      "gewichtete_valenz_durchschnitt": -1.75,
+      "anzahl_annotationen": 8
+    },
+    "move": {
+      "gewichtete_valenz_summe": -6,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 3
+    },
+    "smell": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -2.33,
+      "anzahl_annotationen": 3
+    },
+    "material": {
+      "gewichtete_valenz_summe": -10,
+      "gewichtete_valenz_durchschnitt": -2.5,
+      "anzahl_annotationen": 4
+    },
+    "location_erinnerung": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

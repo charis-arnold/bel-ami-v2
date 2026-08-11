@@ -1,0 +1,3317 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 13,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 121,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Der Platz vor der Trinité-Kirche lag menschenleer in der glühenden Julisonne.",
+      "tags": [
+        "location",
+        "weather"
+      ],
+      "notiz": "Erzähler benennt den Platz vor der Trinité-Kirche als konkreten Schauplatz und beschreibt die Hitze als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Place de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 2,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Eine drückende Hitze lastete über Paris, als wenn die schwere Luft von dort oben verbrannt und auf die Stadt herabgefallen wäre; es war eine dicke, schwüle; und versengende Luft, die den Lungen weh tat.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Erzähler beschreibt die sommerliche Hitzeatmosphäre über Paris als bedrückende urbane Raumqualität.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Bedrückung, Erstickung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 3,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 3,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Das Wasser im Springbrunnen rieselte lässig herab. Es schien ermattet vom Springen, schlaff und müde, und das Wasser in dem Bassin, in dem Blätter und Papierfetzen herumschwammen, sah blaugrün, schwer und trübe aus.",
+      "tags": [
+        "atmosphere",
+        "material",
+        "space"
+      ],
+      "notiz": "Erzähler beschreibt den Brunnen als erschöpft und trüb — Stimmungsbild der sommerlichen Lethargie.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Springbrunnen am Platz vor der Trinité-Kirche",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Springbrunnen Place de la Trinité",
+        "emotion": "Erschöpfung, Trägheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 4,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Ein Hund, der auf den steinernen Rand gesprungen war, badete in dieser verdächtigen Flüssigkeit. Ein paar Menschen, die auf den Bänken in den Anlagen herumsaßen, blickten voll Neid auf das Tier.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler schildert die sozialen Figuren im Platz-Raum und die kollektive Erschöpfung durch die Hitze.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Anlagen am Platz vor der Trinité-Kirche",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 5,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Du Roy zog seine Uhr. Es war erst drei Uhr; er hatte noch eine halbe Stunde Zeit.",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "notiz": "Duroy prüft die Uhr und erlebt die verbleibende Zeit als Warten vor dem Rendezvous.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Platz vor der Trinité-Kirche",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Place de la Trinité",
+        "emotion": "Ungeduld, Warten",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 6,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er mußte lachen, wenn er an dieses Rendezvous dachte: »Die Kirchen dienen zu allem möglichen,« sagte er sich, »sie trösten sie darüber, einen Juden geheiratet zu haben, geben ihr eine oppositionelle Haltung in der Politik, eine passende Stellung in der vornehmen Welt und ein Obdach für galante Abenteuer.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Duroy amüsiert sich innerlich über die gesellschaftliche Doppelmoral rund um Religion und galante Rendezvous in der Kirche.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Trinité-Kirche, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Trinité-Kirche",
+        "emotion": "Belustigung, ironische Distanz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 7,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Es ist nämlich die Gewohnheit, sich der Religion zu bedienen, wie man einen entoutcas-Schirm gebraucht. Ist das Wetter schön, dient er als Spazierstock, scheint die Sonne, so ist er ein Sonnenschirm, wenn es regnet ein Regenschirm, und wenn man überhaupt nicht ausgeht, läßt man ihn im Vorzimmer stehen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert ironisch über den instrumentellen Umgang der Gesellschaft mit der Religion als sozialem Werkzeug.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Platz vor der Trinité-Kirche",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 8,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Und so gibt es Hunderte, die sich aus dem lieben Gott nichts machen und doch nicht gestatten, daß man ihn lästert und ihn dabei gern als Vermittler gebrauchen. Wenn man einer solchen Frau vorschlüge, in ein Absteigequartier zu gehen, so würde sie es mit Entrüstung zurückweisen und als Schande betrachten, aber sie findet gar nichts darin, am Fuße des Altars eine Liebesgeschichte anzuspinnen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Duroy denkt zynisch über bürgerliche Moral und Heuchelei nach — Kirche als Ort galanter Abenteuer versus gesellschaftliche Scham.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Trinité-Kirche, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Trinité-Kirche",
+        "emotion": "Zynismus, ironische Belustigung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 9,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er ging langsam am Springbrunnen auf und ab und sah nochmals nach der Uhr auf dem Kirchturm, die im Vergleich zu seiner zwei Minuten vorging.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "time"
+      ],
+      "notiz": "Duroy bewegt sich wartend am Springbrunnen auf und ab und registriert die Zeit — emotionales Warten vor dem Rendezvous.",
+      "koordinaten": {
+        "lat": 48.8794,
+        "lng": 2.333,
+        "ort_bezeichnung": "Springbrunnen am Platz vor der Trinité-Kirche",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Place de la Trinité",
+        "emotion": "Ungeduld, Warten",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3328897,
+          48.879674
+        ],
+        [
+          2.332712,
+          48.8797138
+        ],
+        [
+          2.3315118,
+          48.8799849
+        ],
+        [
+          2.3314587,
+          48.8799783
+        ],
+        [
+          2.3313576,
+          48.8800387
+        ],
+        [
+          2.3313392,
+          48.880077
+        ],
+        [
+          2.3292155,
+          48.8798491
+        ],
+        [
+          2.329298,
+          48.8796468
+        ],
+        [
+          2.3291728,
+          48.879619
+        ],
+        [
+          2.3291509,
+          48.8796335
+        ],
+        [
+          2.3270897,
+          48.8796
+        ],
+        [
+          2.3270782,
+          48.8795697
+        ],
+        [
+          2.326958,
+          48.879571
+        ],
+        [
+          2.3268557,
+          48.8795568
+        ],
+        [
+          2.3268261,
+          48.8796069
+        ],
+        [
+          2.3267438,
+          48.8796637
+        ],
+        [
+          2.3255554,
+          48.8794585
+        ],
+        [
+          2.3253953,
+          48.8794374
+        ],
+        [
+          2.3237456,
+          48.8791423
+        ],
+        [
+          2.3236487,
+          48.8791963
+        ],
+        [
+          2.3234781,
+          48.8792563
+        ],
+        [
+          2.3230714,
+          48.8791822
+        ],
+        [
+          2.3229867,
+          48.8790699
+        ],
+        [
+          2.3220657,
+          48.8793528
+        ],
+        [
+          2.3220497,
+          48.8793285
+        ],
+        [
+          2.3218189,
+          48.8793471
+        ],
+        [
+          2.3216905,
+          48.8794257
+        ],
+        [
+          2.3196232,
+          48.8793317
+        ],
+        [
+          2.3186129,
+          48.8792758
+        ],
+        [
+          2.3184885,
+          48.8793753
+        ],
+        [
+          2.3184204,
+          48.8794339
+        ],
+        [
+          2.3182857,
+          48.8795643
+        ],
+        [
+          2.3182121,
+          48.8795868
+        ],
+        [
+          2.3180829,
+          48.8795666
+        ],
+        [
+          2.3180752,
+          48.8795445
+        ],
+        [
+          2.3173076,
+          48.879424
+        ],
+        [
+          2.3172657,
+          48.8794373
+        ],
+        [
+          2.3170892,
+          48.8794232
+        ],
+        [
+          2.317083,
+          48.879397
+        ],
+        [
+          2.3155737,
+          48.879171
+        ],
+        [
+          2.3155602,
+          48.8791817
+        ],
+        [
+          2.3154298,
+          48.8791592
+        ],
+        [
+          2.3154164,
+          48.8791457
+        ],
+        [
+          2.3149664,
+          48.8790802
+        ],
+        [
+          2.3145604,
+          48.8794126
+        ],
+        [
+          2.3142604,
+          48.8792466
+        ],
+        [
+          2.3141586,
+          48.8793125
+        ],
+        [
+          2.3140608,
+          48.8794029
+        ],
+        [
+          2.3139977,
+          48.8794683
+        ],
+        [
+          2.3134297,
+          48.8799121
+        ],
+        [
+          2.3133746,
+          48.8799548
+        ],
+        [
+          2.3120101,
+          48.879692
+        ],
+        [
+          2.3118032,
+          48.879636
+        ],
+        [
+          2.3111881,
+          48.8795704
+        ],
+        [
+          2.310351,
+          48.8795204
+        ],
+        [
+          2.3101447,
+          48.8795095
+        ],
+        [
+          2.309688,
+          48.8794946
+        ],
+        [
+          2.309624,
+          48.8794924
+        ],
+        [
+          2.3092356,
+          48.8794788
+        ],
+        [
+          2.3091398,
+          48.8794689
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er dachte, daß es wohl drinnen angenehmer sein würde und ging hinein.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy entscheidet sich, die Kirche zu betreten — innere Wahrnehmung und Bewegung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (nicht namentlich genannt, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kircheninneres",
+        "emotion": "Erwartung von Behaglichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 11,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Die kühle Kellerluft des steinernen Gewölbes umfing ihn. Er atmete sie mit Behagen ein",
+      "tags": [
+        "weather",
+        "smell",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt die kühle Luft des Gewölbes körperlich und empfindet Behagen — sensorisches Raumerleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres (steinernes Gewölbe)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kircheninneres",
+        "emotion": "Behagen",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 12,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "ging dann durch das Kirchenschiff, um die Örtlichkeit zu übersehen",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich durch das Kirchenschiff, um den Raum zu erkunden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenschiff",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 13,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Aus der Tiefe des mächtigen Bauwerks tönte ein anderer regelmäßiger Schritt herüber; bald hielt er inne, bald hallte er wieder laut auf den Steinfliesen.",
+      "tags": [
+        "sound",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt das akustische Ambiente der Kirche von aussen — Schritte hallen auf Steinfliesen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 14,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er suchte neugierig nach diesem Spaziergänger.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy sucht neugierig nach dem Verursacher der Schritte — aktives, neugieriges Wahrnehmen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 15,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Ein Gefühl der Einsamkeit, des Verlassenseins und der Ruhe erfüllte seinen Geist, und das Licht, das durch die farbigen Scheiben fiel, tat den Augen wohl.",
+      "tags": [
+        "atmosphere",
+        "mood",
+        "george_duroy"
+      ],
+      "notiz": "Duroy erlebt die Kirchenatmosphäre als Einsamkeit, Verlassensein und Ruhe — der Raum prägt sein inneres Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kircheninneres",
+        "emotion": "Einsamkeit, Verlassensein, Ruhe",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 16,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Du Roy fand es hier drinnen »recht behaglich«.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Duroy urteilt explizit über das Kircheninnere als behaglich — innere Bewertung des Raums.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kircheninneres",
+        "emotion": "Behaglichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 17,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er ging wieder an die Tür und sah abermals nach der Uhr. Es war erst ein viertel nach drei.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "time"
+      ],
+      "notiz": "Duroy überprüft die Uhrzeit — Zeit wird als Warten erlebt (er wartet auf jemanden).",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheneingang",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 18,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er setzte sich am Haupteingang und bedauerte sehr, daß er hier keine Zigarette rauchen dürfe.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy sitzt am Haupteingang und empfindet Bedauern über das Rauchverbot — kleine Frustration im sakralen Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenhaupteingang",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirchenhaupteingang",
+        "emotion": "Bedauern, leichte Frustration",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 19,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Vom andern Ende der Kirche, in der Nähe des Chors, ertönten nach wie vor die langsamen, schallenden Schritte des dicken Herrn.",
+      "tags": [
+        "sound",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die anhaltenden Schritte des dicken Herrn nahe dem Chor — akustische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chorraum der Kirche",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 20,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Du Roy beobachtete sie; es interessierte ihn, welcher Kummer, welcher Schmerz oder welche Verzweiflung diese arme Seele in die Kirche getrieben hatte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy beobachtet die arme Frau und reflektiert über ihre möglichen Leiden — soziales Mitgefühl aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 21,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Tiefstes Elend sah man ihr an. Vielleicht hatte sie einen Mann, der sie halbtot prügelte oder ein sterbendes Kind.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy spekuliert über das soziale Elend der Frau — inneres Nachdenken über Armut und Leid.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 22,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Armes Wesen,« dachte er, »es gibt so viele, die leiden müssen!« Und er zürnte gegen die erbarmungslose Natur.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet Mitleid und Zorn gegen die Natur — emotionale innere Reaktion auf das Leid der Frau.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 23,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Dann überlegte er sich, daß diese armseligen Leute wenigstens daran glaubten, daß dort oben ein Auge über sie wache und daß im Himmel ihr irdischer Lebenswandel mit der Bilanz von Soll und Haben verbucht sei.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert über Trost der Religion für die Armen — innere philosophische Betrachtung sozialer Ungleichheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 24,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "In der Stille der Kirche versank Du Roy in weltumspannende Träumereien. Er begann in Gedanken die ganze Schöpfung zu umfassen und er murmelte ganz leise vor sich hin: »Wie das alles eigentlich dumm ist.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Duroy versetzt sich in einen melancholisch-nihilistischen Gedankenzustand, ausgelöst durch die Stille der Kirche.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirchenraum",
+        "emotion": "Träumerei, nihilistische Stimmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 25,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "In der Stille der Kirche",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die Stille des Kirchenraums als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 26,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Das Rauschen eines Kleides ließ ihn hochfahren.",
+      "tags": [
+        "george_duroy",
+        "sound"
+      ],
+      "notiz": "Duroy nimmt das Geräusch eines Kleides wahr und schreckt hoch — sensorische Wahrnehmung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 27,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Sie war es. Er stand auf und ging schnell auf sie zu.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy erkennt die erwartete Person und bewegt sich rasch auf sie zu — aktive Wahrnehmung und Bewegung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 28,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie durchschritt das Kirchenschiff und suchte, wie jemand, der das Haus genau kannte, nach einem passenden ungestörten Platz. Ihr Gesicht war mit einem dichten Schleier bedeckt und sie ging mit gedämpften, kaum hörbaren Schritten.",
+      "tags": [
+        "space",
+        "social",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Bewegung der Frau durch das Kirchenschiff und ihr diskretes Auftreten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenschiff (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 29,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Als sie den Chor erreicht hatten",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Erzähler nennt den Chor der Kirche als konkreten Teilraum der Szene.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chor einer Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 30,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie verbeugte sich tief vor dem Tabernakel des Hauptaltars und bog dann nach rechts ein und ging wieder in der Richtung nach dem Eingange zurück.",
+      "tags": [
+        "space",
+        "move",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die religiöse Geste und die Bewegung der Frau im Kirchenraum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hauptaltar einer Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 31,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Plötzlich schien sie einen Entschluß zu fassen, nahm einen Betstuhl und kniete nieder. Georges nahm den danebenstehenden und so knieten sie unbeweglich in der Haltung von Betenden.",
+      "tags": [
+        "koerper_als_akteur",
+        "space",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen, wie beide eine soziale Schutzgeste einnehmen — als Beter getarnt im Kirchenraum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 32,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Ich danke Ihnen, danke,« flüsterte er, »ich liebe Sie über alles. Ich möchte Ihnen das immerfort sagen, Ihnen erzählen, wie bei mir die Liebe zu Ihnen begonnen, wie ich beim erstenmal, als ich Sie sah, von Ihrem Reiz und Ihrer Anmut bezaubert wurde«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy äussert sein inneres Liebesgefühl flüsternd — direkter Ausdruck seiner emotionalen Verfassung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifisch, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 33,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er suchte nach einer überzeugenden leidenschaftlichen Antwort, da er jedoch seine Worte durch Liebkosungen nicht verstärken konnte, fühlte er sich wie gelähmt.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innerlich eine Lähmung, weil er seine Gefühle nicht durch körperliche Gesten verstärken kann.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 34,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er fühlte, wie ihre Schulter ihn zitternd berührte und wie ihre Brust bebte",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "material"
+      ],
+      "notiz": "Duroy nimmt den zitternden Körperkontakt mit Madame de Marelle sensorisch wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannter Innenraum",
+        "emotion": "Erregung, sensorische Nähe",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 35,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er sah, daß ihre Wangen ganz feucht vom Weinen waren. Ein Tropfen hing noch am Rande der Wimpern, bereit, herunter zu rollen.",
+      "tags": [
+        "george_duroy",
+        "material"
+      ],
+      "notiz": "Duroy nimmt die physische, materielle Qualität der Tränen auf Madame de Marelles Gesicht wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 36,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er ergriff ihre Hand und preßte sie.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt körperlich und ergreift die Hand seiner Gesprächspartnerin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 37,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er hatte Lust, zu lächeln. Wie konnte er sie an diesem Ort mißbrauchen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert mit innerem Belustigung und einem strategischen Gedanken auf die Situation.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.333,
+        "ort_bezeichnung": "Église de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Trinité-Kirche",
+        "emotion": "Belustigung, strategisches Kalkül",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 38,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er preßte ihre Hand an sein Herz und sagte: »Fühlen Sie es klopfen?« Denn er war am Ende seiner leidenschaftlichen Redensarten und er wußte nicht mehr, was er sagen sollte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy setzt seinen Körper kalkuliert als Verführungsmittel ein, da ihm die Worte ausgehen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.333,
+        "ort_bezeichnung": "Église de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 39,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Doch seit einigen Augenblicken kam der regelmäßige Schritt des dicken Herrn immer näher. Er war die Altäre entlang gegangen und kam nun wenigstens schon das zweitemal das rechte Seitenschiff herunter.",
+      "tags": [
+        "sound",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die annähernde Bedrohung durch den unbekannten Herrn als akustische und räumliche Kulisse.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.333,
+        "ort_bezeichnung": "Église de la Trinité, rechtes Seitenschiff",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Seitenschiff der Trinité",
+        "emotion": "latente Gefahr, Spannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 40,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "So blieben sie wieder unbeweglich nebeneinander knien, als hätten sie beide ein glühendes Gebet zum Himmel emporgesandt.",
+      "tags": [
+        "atmosphere",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt ironisch das äussere Bild der beiden als scheinbar Betende — ein theatralisches Tableau.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.333,
+        "ort_bezeichnung": "Église de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Trinité-Kirche",
+        "emotion": "Verstellung, Ironie",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 41,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Der dicke Herr ging an ihnen vorbei und warf auf sie einen gleichgültigen Blick, er verschwand nach dem unteren Teil der Kirche und hielt immer noch seinen Hut auf dem Rücken.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Der fremde Herr zieht gleichgültig weiter — Maupassant beschreibt die Entspannung der Raumsituation von aussen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.333,
+        "ort_bezeichnung": "Église de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 42,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Du Roy dachte jetzt daran, daß er irgend woanders als in der Trinité-Kirche ein Rendezvous erhalten müßte.",
+      "tags": [
+        "george_duroy",
+        "location",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert strategisch über den unpassenden Ort und plant das nächste Treffen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.333,
+        "ort_bezeichnung": "Église de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Trinité-Kirche",
+        "emotion": "strategisches Unbehagen, Kalkül",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 43,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Wollen Sie, daß wir uns im Parc Monceau treffen?«",
+      "tags": [
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy schlägt den Parc Monceau als nächsten Treffpunkt vor — ein konkreter Pariser Ort taucht in seiner Planung auf.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3088,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 44,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "daß er ohne ein Wort zu sagen aufstand; dann versetzte er nach einem kurzen Zaudern: »Ich komme nach einer Weile wieder.«",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy handelt — er steht auf und spricht, zeigt aber kaum inneres Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (nicht näher bestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 45,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "und er ging zum Chor hinunter.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroys Bewegung durch den Kirchenraum — Ortsveränderung im Inneren.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenchor (nicht näher bestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 46,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie murmelte wirre, flehende Gebete, aber sie hörte nur auf Georges Schritte, die in den fernen Gewölben immer leiser und leiser wurden.",
+      "tags": [
+        "sound",
+        "space",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt den Kirchenraum durch das akustische Verblassen von Duroys Schritten in den Gewölben — Raumqualität von aussen geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchengewölbe (nicht näher bestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirchengewölbe",
+        "emotion": "Verlassenheit, Kapitulation",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 47,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie zitterte am ganzen Leibe und fühlte sich so schwach und zusammengebrochen, daß sie gleich umfallen, auf dem Boden sich herumwälzen und heftige und schrille Schreie ausstoßen würde.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt den körperlichen und emotionalen Zusammenbruch der Frau von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 48,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Da hörte sie rasche Schritte herannahen. Sie wandte den Kopf, es war ein Priester.",
+      "tags": [
+        "sound"
+      ],
+      "notiz": "Erzähler beschreibt das Herannahen des Priesters als akustisches Ereignis aus Außenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 49,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Es war ein junger, hochgewachsener, etwas dicker Geistlicher, mit vollen, etwas schlaffen Backen, die, trotzdem sie sauber rasiert waren, einen gräulichen Schimmer hatten; es war ein schöner Stadtvikar, aus einem reichen Stadtviertel, der an wohlhabende Sünderinnen gewöhnt war.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt den Priester von außen als sozialen Typus aus einem wohlhabenden Stadtviertel.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche in reichem Stadtviertel (unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 50,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie warf sich vor ihm auf die Knie und schluchzte: »Erbarmen Sie sich meiner, mein Vater! Retten Sie mich, im Namen Gottes, retten Sie mich!«",
+      "tags": [
+        "koerper_als_akteur",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die körperliche Geste der Frau — Niederknien als Handlung im Raum — von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 51,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie hielt ihn an seinem schwarzen Priesterrock fest, damit er nicht fort konnte und er blickte unruhig nach allen Seiten, ob nicht irgendein übelwollendes oder zu frommes Auge die Frau zu seinen Füßen sehen konnte.",
+      "tags": [
+        "social",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die soziale Gefährdung im sakralen Raum — der Priester fürchtet Beobachtung — von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirche",
+        "emotion": "Unruhe, soziale Scham",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 52,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er wühlte in seiner Tasche und zog einen Ring mit einer Menge Schlüssel daran heraus.",
+      "tags": [
+        "george_duroy",
+        "material"
+      ],
+      "notiz": "Duroy handelt aktiv und ertastet physisch die Schlüssel in seiner Tasche.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unbestimmt, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 53,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er suchte einen davon heraus und ging mit schnellem Schritt zu einer kleinen Holzhütte, in welcher die Frommen ihre Seelen von allen Sünden entlasten.",
+      "tags": [
+        "move",
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Bewegung zum Beichtstuhl und den Kirchenraum von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Beichtstuhl in einer Kirche (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 54,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er trat durch die Mitteltür herein und schloß hinter sich ab, während Frau Walter sich in dem schmalen Seitenteil niederwarf und leidenschaftlich und inbrünstig stammelte",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die räumliche Situation im Beichtstuhl und die Atmosphäre von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Beichtstuhl in einer Kirche (Paris, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 55,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Du Roy hatte einen Gang um den Chor gemacht und schritt nun das linke Seitenschiff hinunter.",
+      "tags": [
+        "move",
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Bewegung durch die Kirche von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres (Chor, linkes Seitenschiff), Paris, unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 56,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er war gerade in der Mitte, als er dem dicken, kahlköpfigen Herrn begegnete, der immer noch im langsamen, gemessenen Schritt auf und ab wanderte. »Was mag dieser Sonderling hier zu suchen haben?« fragte sich der junge Mann.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy begegnet einem fremden Mann und fragt sich innerlich, was dieser in der Kirche zu suchen hat.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres (Seitenschiff), Paris, unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kircheninneres",
+        "emotion": "Neugier, leichte Irritation",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 57,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Nun fuhr der Journalist neugierig fort",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Neugier gegenüber dem fremden Mann wird explizit benannt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres (Seitenschiff), Paris, unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 58,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Du Roy betrachtete ihn, und fand, daß er recht anständig aussah; plötzlich kam es ihm vor, daß er eine Ähnlichkeit mit Forestier hatte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy nimmt den fremden Mann wahr, beurteilt sein Äusseres und assoziiert ihn mit Forestier.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kircheninneres (Seitenschiff), Paris, unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 59,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "»Es ist furchtbar heiß draußen.«",
+      "tags": [
+        "weather"
+      ],
+      "notiz": "Hinweis auf Hitze draussen, durch eine andere Figur geäussert — wird als erzählerische Kulissenangabe erfasst.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (draussen, unbestimmt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 60,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er näherte sich dem Hauptportal und sah dieselbe arme Frau immer noch beten und knien.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy bewegt sich auf das Hauptportal zu und nimmt die betende Frau wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (Hauptportal), Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 61,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»O Gott,« dachte er, »die hat Ausdauer im Beten.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Kommentar zeigt eine leicht ironische Distanz zur betenden Frau.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 62,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er war nicht mehr gerührt und empfand mit dieser Armen auch kein Mitleid mehr.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy stellt fest, dass seine frühere Rührung gegenüber der armen Frau verschwunden ist.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 63,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er ging vorbei und schritt langsam das rechte Seitenschiff hinauf, um Frau Walter abzuholen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy bewegt sich durch das rechte Seitenschiff der Kirche, um Frau Walter zu finden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rechtes Seitenschiff der Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 64,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Von weitem spähte er nach der Stelle, wo er sie verlassen hatte und war sehr erstaunt, als er sie nicht mehr sah.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy sucht Frau Walter und empfindet Erstaunen über ihre Abwesenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirche",
+        "emotion": "Erstaunen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 65,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er glaubte, er hätte sich in dem Pfeiler getäuscht und ging bis zum letzten durch und kehrte wieder zurück.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space"
+      ],
+      "notiz": "Duroy durchquert die Kirche auf der Suche nach Frau Walter und orientiert sich an den Pfeilern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenschiff mit Pfeilern, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 66,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Wütend und überrascht blieb er stehen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy bleibt stehen und empfindet Wut und Überraschung über Frau Walters Verschwinden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirche",
+        "emotion": "Wut und Überraschung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 67,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "ging noch einmal durch die ganze Kirche herum. Er fand sie nicht und setzte sich auf denselben Stuhl, vor dem sie gekniet hatte, in der Hoffnung, sie käme dorthin wieder; er wartete.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space",
+        "mood"
+      ],
+      "notiz": "Duroy durchquert erneut die ganze Kirche, findet Frau Walter nicht und wartet hoffend auf ihre Rückkehr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirche",
+        "emotion": "Hoffnung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 68,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Bald erregte ein kaum hörbares Murmeln seine Aufmerksamkeit.",
+      "tags": [
+        "george_duroy",
+        "sound"
+      ],
+      "notiz": "Duroy nimmt ein leises Murmeln in der Kirche wahr, das seine Aufmerksamkeit auf sich zieht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 69,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "In dieser Ecke der Kirche hatte er niemanden bemerkt. Woher kam dieses leise Geflüster?",
+      "tags": [
+        "george_duroy",
+        "space",
+        "sound"
+      ],
+      "notiz": "Duroy nimmt die räumliche Qualität der Kirchenecke wahr und versucht die Quelle des Flüsterns zu orten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ecke der Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 70,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er stand auf, um es herauszufinden und erblickte in der nächsten Seitenkapelle einen Beichtstuhl.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy erhebt sich und entdeckt in der Seitenkapelle einen Beichtstuhl als Quelle des Geräusches.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Seitenkapelle der Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 71,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Der Saum eines Kleides ragte aus ihm heraus. Er trat heran, um die Frau näher zu betrachten. Er erkannte sie.",
+      "tags": [
+        "george_duroy",
+        "material",
+        "move"
+      ],
+      "notiz": "Duroy nimmt den Saum des Kleides am Beichtstuhl wahr und erkennt darin Frau Walter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Beichtstuhl in der Seitenkapelle, Kirche Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 72,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er verspürte ein heftiges Verlangen, sie an den Schultern zu packen und aus diesem Kasten herauszureißen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy empfindet einen heftigen körperlichen Impuls, Frau Walter aus dem Beichtstuhl zu reißen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Beichtstuhl in der Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Beichtstuhl",
+        "emotion": "Verlangen und Aggression",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 73,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Dann aber dachte er: »Ach was, heute ist der Pfaffe an der Reihe und morgen ich.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy beruhigt sich mit einem zynisch-ironischen Gedanken über den Beichtvater und seine eigene Rolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 74,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er setzte sich ruhig gegenüber den Beichtstühlen wieder hin und wartete ab. Und er begann, innerlich über das Abenteuer zu lachen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy wartet gelassen und amüsiert sich innerlich über die Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gegenüber den Beichtstühlen, Kirche Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kirche",
+        "emotion": "inneres Lachen, Belustigung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 75,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Dann machte er kehrt und kam pfeifend aus der Kirche heraus.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy verlässt pfeifend die Kirche — Bewegung und Ort werden vom Erzähler neutral beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirche (unspezifiziert, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 76,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Im Portal stand der dicke Herr, den Hut auf dem Kopf, die Hände auf dem Rücken.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt den dicken Herrn im Kirchenportal von aussen — sozialer Marker durch Kleidung und Haltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenportal (unspezifiziert, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 77,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er schien des Wartens müde und spähte auf den weiten Platz und die Straßen, die sich dort kreuzten.",
+      "tags": [
+        "space",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt den weiten Platz und die sich kreuzenden Strassen als neutralen Raumhinweis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Platz vor der Kirche (unspezifiziert, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 78,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Als Du Roy an ihm vorbeiging, begrüßten sie sich.",
+      "tags": [
+        "move"
+      ],
+      "notiz": "Duroys Bewegung an dem wartenden Herrn vorbei wird vom Erzähler neutral registriert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kirchenportal (unspezifiziert, Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 79,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Der Journalist hatte weiter nichts zu tun und so begab er sich auf die Redaktion der Vie Française.",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Duroy entscheidet sich mangels anderer Verpflichtungen, zur Redaktion zu gehen — innere Motivation und Ortsveränderung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 80,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Schon beim Eintreten sah er an den erregten Gesichtern der Laufburschen, daß etwas Außergewöhnliches passiert sei",
+      "tags": [
+        "george_duroy",
+        "atmosphere"
+      ],
+      "notiz": "Duroy nimmt beim Eintreten die aufgeregte Atmosphäre in der Redaktion unmittelbar wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktion der Vie Française",
+        "emotion": "Gespür für Außergewöhnliches, erhöhte Aufmerksamkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 81,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "er trat ohne weiteres in das Zimmer des Chefs ein.",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Duroy bewegt sich zielstrebig in das Chefzimmer — aktive Handlung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chefzimmer der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 82,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Der Vater Walter schien aufgeregt und diktierte stehend in abgehackten Sätzen einen Artikel. Zwischen den einzelnen Absätzen erteilte er den Reportern, die ihn umgaben, verschiedene Aufträge, gab Boisrenard einige Verhaltungsmaßregeln und riß Briefe auf.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die hektische Betriebsamkeit im Chefzimmer als soziale und atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chefzimmer der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 83,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Als Du Roy hereintrat, stieß der Chef einen Freudenschrei aus.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Erzähler registriert Duroys Eintreten und die Reaktion des Chefs von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chefzimmer der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 84,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Georges lachte: »Aber keineswegs. Dieser Beiname hat nichts, was mir mißfallen könnte.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert lachend und gelassen auf seinen Spitznamen — innerer Gemütszustand wird sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Chefzimmer der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 85,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Das Ministerium ist bei einer Abstimmung von 310 gegen 102 Stimmen gestürzt.",
+      "tags": [
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt den Sturz einer Regierung als zeithistorisches Ereignis der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, politisches Geschehen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 86,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Spanien hat sich wegen Marokko aufgeregt und darüber sind Durand und seine Freunde gestürzt.",
+      "tags": [
+        "historical"
+      ],
+      "notiz": "Historisch-politischer Kontext: Kolonialpolitik und internationale Spannungen um Marokko als realer zeithistorischer Hintergrund.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Marokko / Spanien (geopolitisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 87,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Marrot hat den Auftrag erhalten, ein neues Kabinett zu bilden. Zum Kriegsminister nimmt er den General Bouton d'Acte und zum Auswärtigen unseren Freund Laroche-Mathieu.",
+      "tags": [
+        "historical"
+      ],
+      "notiz": "Erzähler schildert die Bildung eines neuen Kabinetts als zeithistorisches Ereignis der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, politisches Geschehen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 88,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Du Roy dachte eine Sekunde nach, dann antwortete er: »Ich habe das, was Sie suchen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert innerlich kalkulierend und selbstsicher auf Walters Anfrage — kurzes, aktives Nachdenken als innerer Vorgang.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 89,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Ich gebe Ihnen einen ausführlichen Bericht über die Lage unserer sämtlichen afrikanischen Kolonien, links Tunis, Algier in der Mitte und rechts Marokko. Ich erzähle über die Völkerstämme, die diese weiten Gebiete bewohnen und schildere eine Entdeckungsreise über die marokkanische Grenze bis an die große Oase Figuig, die bis jetzt kein Europäer betreten hat, und die die eigentliche Ursache des gegenwärtigen Konfliktes ist.",
+      "tags": [
+        "location_erinnerung",
+        "social"
+      ],
+      "notiz": "Duroy entwirft aus Erinnerung und kolonialem Wissen einen geopolitisch-geografischen Raum Nordafrikas — historisch-politische Dimension der location_erinnerung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Tunis, Algier, Marokko, Oase Figuig (Nordafrika)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 90,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Und Du Roy suchte nun in den alten Nummern der Vie Française seinen ersten Artikel, die Erinnerungen eines afrikanischen Jägers, heraus.",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy handelt aktiv und greift auf seine frühere schriftstellerische Vergangenheit zurück — persönliche Erinnerung verknüpft mit Ort und Text.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 91,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Nun konnte er umgetauft, umgearbeitet und anders aufgesetzt, von Anfang bis zu Ende vortrefflich ausgewertet werden, denn es war darin die Rede von der Kolonialpolitik, von der Bevölkerung Algiers und von einer Reise in die Provinz Oran.",
+      "tags": [
+        "historical"
+      ],
+      "notiz": "Maupassant verweist auf französische Kolonialpolitik in Algerien und Oran als historisch-politischen Kontext.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Algerien / Provinz Oran",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 92,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "In dreiviertel Stunden wurde der Artikel umgemodelt, zurechtgemacht, auf die aktuellen Fragen zugespitzt und mit den nötigen Schmeicheleien für das neue Ministerium versehen.",
+      "tags": [
+        "time",
+        "historical"
+      ],
+      "notiz": "Neutrale Erzählerangabe über den zeitlichen Aufwand und politischen Kontext der Artikelüberarbeitung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 93,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Als Du Roy zum Essen nach Hause kam, war er, trotz seines Mißerfolges in der Trinitékirche, doch mit seinem Tage sehr zufrieden.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy kehrt nach Hause zurück und ist trotz eines Rückschlags mit dem Tag zufrieden — inneres Erleben seiner Stimmung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Zufriedenheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 94,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "trotz seines Mißerfolges in der Trinitékirche",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Konkreter Ortsverweis auf die Trinitékirche als Schauplatz eines vorherigen Ereignisses.",
+      "koordinaten": {
+        "lat": 48.8775,
+        "lng": 2.3325,
+        "ort_bezeichnung": "Église de la Trinité, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 95,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er fühlte übrigens, daß er auch diesen Kampf gewonnen hatte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt ein inneres Siegesgefühl und bewertet seinen Tag als persönlichen sozialen Triumph.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "Triumphgefühl",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 96,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er antwortete, indem er sich vor die Suppe hinsetzte:",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy setzt sich an den Tisch — eine körperliche Handlung im häuslichen Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys, Esszimmer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 97,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Vortrefflich, uns steht jetzt nichts mehr im Wege, da doch der arme betrogene Ehemann Forestier tot ist.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äussert zynisch-triumphierend, dass Forestiers Tod seinem Aufstieg keine Hindernisse mehr bereitet — inneres Gefühl sozialer Überlegenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Duroys",
+        "emotion": "zynischer Triumph / soziale Selbstverortung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 98,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "als man ihm ein Telegramm brachte, das ohne Unterschrift nur die Worte enthielt: »Ich habe den Kopf verloren, verzeihen Sie mir und kommen Sie morgen um vier Uhr nach dem Park Monceau.«",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Der Erzähler nennt den Park Monceau als konkreten Treffpunkt im Telegramm.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 99,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Nun verstand er die Sache. Er war freudig erregt und sagte zu seiner Frau, indem er das blaue Papierchen in die Tasche gleiten ließ",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erkennt die Botschaft des Telegramms und reagiert mit freudiger Erregung — ein inneres Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Duroys (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 100,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Während der Mahlzeit wiederholte er sich immerfort die Worte: »Ich habe den Kopf verloren. Verzeihen Sie mir und kommen Sie morgen um vier Uhr nach dem Park Monceau.« Also sie gab nach, das hießt mit anderen Worten: »Ich ergebe mich. Ich gehöre Ihnen. Wo und wann Sie wollen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy interpretiert das Telegramm innerlich und empfindet Triumph — sein Gedankenspiel ist emotional aufgeladen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Parc Monceau (imaginiert/antizipiert)",
+        "emotion": "Triumph, erotische Vorfreude",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 101,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Du Roy erschien tags darauf pünktlich zu seinem Rendezvous.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Zeitangabe des Erzählers — Duroy erscheint am nächsten Tag pünktlich.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 102,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Auf den Bänken saßen Bürger, die von der Hitze erschöpft waren. Ein paar stumpfsinnige Kindermädchen schlummerten, während die Kinder im Sande spielten und sich herumwälzten.",
+      "tags": [
+        "atmosphere",
+        "social",
+        "weather"
+      ],
+      "notiz": "Maupassant beschreibt das Alltagstreiben im Park als soziales Stimmungsbild von aussen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 103,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er traf Frau Walter in der kleinen alten Ruine, wo eine Quelle sprudelte.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Der Erzähler beschreibt den konkreten Ort des Treffens — die Ruine mit Quelle im Parc Monceau.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Ruine mit Quelle, Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 104,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie ging um den engen Säulenkreis herum, mit einem verlegenen und unruhigen Ausdruck.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Frau Walters Bewegung und Zustand von aussen — kein Erleben Duroys.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Ruine/Säulenkreis, Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 105,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er benutzte die Gelegenheit. »Ja, das ist wahr, sollen wir nicht wo anders hingehen?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy nutzt die Situation aktiv aus — er ergreift die Initiative, was sein taktisches Erleben zeigt.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 106,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Das ist egal, nehmen wir eine Droschke zum Beispiel. Sie können den Vorhang an Ihrer Seite runterlassen und dann sind Sie ganz in Sicherheit.«",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy schlägt eine Droschkenfahrt vor — er plant eine Ortsveränderung und Abschirmung nach aussen.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3091398,
+          48.8794689
+        ]
+      ]
+    },
+    {
+      "id": 107,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Gut, dann treffen wir uns in fünf Minuten. Ich erwarte Sie mit einer Droschke vor dem Tor, das auf den äußeren Boulevard führt.«",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy benennt den Treffpunkt — das Tor zum äusseren Boulevard des Parc Monceau — und organisiert die Abreise.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Tor des Parc Monceau zum äusseren Boulevard, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3091398,
+          48.8794689
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er ging mit schnellen Schritten davon.",
+      "tags": [
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Abgang von aussen — schnelles Davongehen als äussere Handlung.",
+      "koordinaten": {
+        "lat": 48.8796,
+        "lng": 2.3089,
+        "ort_bezeichnung": "Parc Monceau, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3091398,
+          48.8794689
+        ],
+        [
+          2.3092356,
+          48.8794788
+        ],
+        [
+          2.309624,
+          48.8794924
+        ],
+        [
+          2.309688,
+          48.8794946
+        ],
+        [
+          2.3101447,
+          48.8795095
+        ],
+        [
+          2.310351,
+          48.8795204
+        ],
+        [
+          2.3111881,
+          48.8795704
+        ],
+        [
+          2.3118032,
+          48.879636
+        ],
+        [
+          2.3120101,
+          48.879692
+        ],
+        [
+          2.3133746,
+          48.8799548
+        ],
+        [
+          2.3134297,
+          48.8799121
+        ],
+        [
+          2.3139977,
+          48.8794683
+        ],
+        [
+          2.3140608,
+          48.8794029
+        ],
+        [
+          2.3141586,
+          48.8793125
+        ],
+        [
+          2.3142604,
+          48.8792466
+        ],
+        [
+          2.3145604,
+          48.8794126
+        ],
+        [
+          2.3149664,
+          48.8790802
+        ],
+        [
+          2.3150816,
+          48.8789912
+        ],
+        [
+          2.3154158,
+          48.8790573
+        ],
+        [
+          2.3154389,
+          48.879051
+        ],
+        [
+          2.3155658,
+          48.879067
+        ],
+        [
+          2.3155791,
+          48.8790831
+        ],
+        [
+          2.3171351,
+          48.8793072
+        ]
+      ]
+    },
+    {
+      "id": 109,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Als sie im Wagen zusammensaßen",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die Situation im Wagen von aussen — beide Figuren befinden sich gemeinsam in einem geschlossenen Fahrzeug.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kutsche, Paris (genaue Strecke unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 110,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er hatte ihm die Adresse seiner Wohnung in Rue Constantinople gegeben.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Maupassant nennt die konkrete Adresse von Duroys Junggesellenwohnung als Erzählerinformation.",
+      "koordinaten": {
+        "lat": 48.8791,
+        "lng": 2.3169,
+        "ort_bezeichnung": "Rue de Constantinople, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 111,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er antwortete zuerst gar nichts; er lächelte unter seinem Schnurrbart, mit einem Lächeln, das die Frauen verwirrte",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innere Haltung — bewusstes, kalkuliertes Lächeln — zeigt seine überlegte Verführungsstrategie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kutsche, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 112,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen hielt und Du Roy öffnete die Tür.",
+      "tags": [
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Handlung beim Anhalten des Wagens von aussen — sachliche Erzählerangabe.",
+      "koordinaten": {
+        "lat": 48.8791,
+        "lng": 2.3169,
+        "ort_bezeichnung": "Rue de Constantinople, Paris (vor Duroys Wohnung)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 113,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Bei mir. Es ist meine Junggesellenwohnung, die ich genommen habe ... für einige Tage ... um die Möglichkeit zu haben, Sie zu sehen.«",
+      "tags": [
+        "george_duroy",
+        "location",
+        "social"
+      ],
+      "notiz": "Duroy enthüllt den Zweck der Wohnung — sie ist ein sozialer wie räumlicher Rahmen für sein Verführungsspiel.",
+      "koordinaten": {
+        "lat": 48.8791,
+        "lng": 2.3169,
+        "ort_bezeichnung": "Rue de Constantinople, Paris (Duroys Junggesellenwohnung)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Junggesellenwohnung Rue de Constantinople",
+        "emotion": "Kalkül, Verführungsabsicht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 114,
+      "zeile": 22,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "»Kommen Sie, Sie sehen doch, daß wir beobachtet werden, die Menschen werden sich ansammeln. Kommen Sie, steigen Sie aus.«",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "space"
+      ],
+      "notiz": "Duroy nutzt den öffentlichen Raum und die Beobachtung durch Passanten als Druckmittel, um die Frau zum Eintreten zu bewegen.",
+      "koordinaten": {
+        "lat": 48.8791,
+        "lng": 2.3169,
+        "ort_bezeichnung": "Rue de Constantinople, Paris (vor Duroys Wohnung)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Strasse vor der Wohnung, Rue de Constantinople",
+        "emotion": "sozialer Druck, Manipulation durch öffentliche Sichtbarkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 115,
+      "zeile": 24,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Ein Weinhändler sah sie neugierig an.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den beobachtenden Weinhändler als soziale Kulisse, die den öffentlichen Druck auf die Szene verstärkt.",
+      "koordinaten": {
+        "lat": 48.8791,
+        "lng": 2.3169,
+        "ort_bezeichnung": "Rue de Constantinople, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Strasse vor der Wohnung",
+        "emotion": "Beobachtung, sozialer Druck",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 116,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sie wurde von Schreck ergriffen und eilte ins Haus.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die Reaktion der Frau auf den öffentlichen Raum von aussen — der Schreck vor Beobachtung treibt sie ins Innere.",
+      "koordinaten": {
+        "lat": 48.8791,
+        "lng": 2.3169,
+        "ort_bezeichnung": "Rue de Constantinople, Paris (Eingang zu Duroys Wohnung)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Hauseingang, Rue de Constantinople",
+        "emotion": "Schreck, Flucht aus dem öffentlichen Blick",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 117,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Sobald sie im Zimmer waren, ergriff er sie wie eine Beute.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Zugriff auf die Frau von aussen mit einem Vergleich — brutal-atmosphärische Szene.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Erdgeschoss, nicht näher bezeichnet",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zimmer",
+        "emotion": "Begierde, Kontrolle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 13,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 118,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Schnell und geschickt wie eine geübte Kammerzofe zog er ihr eins nach dem anderen ihrer Kleidungsstücke aus.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant vergleicht Duroys Verhalten mit einer Kammerzofe — sozialer Vergleich, von aussen beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Erdgeschoss, nicht näher bezeichnet",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 119,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "nun stand sie elfenbeinnackt inmitten ihrer Hüllen, die ihr zu Füßen gefallen waren.",
+      "tags": [
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die körperliche Situation der Frau von aussen, atmosphärisch-bildlich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Erdgeschoss, nicht näher bezeichnet",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 120,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "erzaehler",
+      "text": "Er ließ ihr die Schuhe an und trug sie auf den Armen aufs Bett.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt Duroys physische Handlung — Bewegung durch den Raum, von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Erdgeschoss, nicht näher bezeichnet",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 121,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 13",
+      "perspektive": "figur",
+      "text": "Er dachte: »Das ist mir wirklich ganz gleichgültig.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Gedanke zeigt emotionale Distanz und Gleichgültigkeit gegenüber der Aussage der Frau.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Erdgeschoss, nicht näher bezeichnet",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 13,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    }
+  ]
+}

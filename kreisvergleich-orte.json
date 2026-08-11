@@ -1,0 +1,1077 @@
+[
+  {
+    "name": "Rue Constantinople",
+    "kapitel": [
+      {
+        "nr": "05",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          }
+        }
+      },
+      {
+        "nr": "07",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 3,
+            "neutral": 1,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "08",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "09",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "11",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "12",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          }
+        }
+      },
+      {
+        "nr": "13",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "18",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Rue Notre-Dame de Lorette",
+    "kapitel": [
+      {
+        "nr": "01",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 2,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 5
+          },
+          "gold_mittel": {
+            "neg": 2,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 5
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "05",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "07",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "13",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_mittel": {
+            "neg": 7,
+            "pos": 0,
+            "neutral": 2,
+            "unrated": 2
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boulevard des Italiens/Capucines",
+    "kapitel": [
+      {
+        "nr": "01",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 8
+          },
+          "gold_mittel": {
+            "neg": 5,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 5
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          }
+        }
+      },
+      {
+        "nr": "04",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "05",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "07",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "10",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "14",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Parc Monceau",
+    "kapitel": [
+      {
+        "nr": "01",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "03",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "12",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 7
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Boulevard Malesherbes",
+    "kapitel": [
+      {
+        "nr": "06",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_mittel": {
+            "neg": 2,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 6
+          }
+        }
+      },
+      {
+        "nr": "11",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "13",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Folies Bergère",
+    "kapitel": [
+      {
+        "nr": "01",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 4,
+            "pos": 2,
+            "neutral": 2,
+            "unrated": 24
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 4,
+            "neutral": 1,
+            "unrated": 8
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          }
+        }
+      },
+      {
+        "nr": "04",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 1,
+            "pos": 1,
+            "neutral": 1,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 2,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          }
+        }
+      },
+      {
+        "nr": "05",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 11
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 7
+          }
+        }
+      },
+      {
+        "nr": "06",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "11",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_mittel": {
+            "neg": 2,
+            "pos": 3,
+            "neutral": 1,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 4
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Place de la Madeleine",
+    "kapitel": [
+      {
+        "nr": "01",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 3,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 5
+          },
+          "gold_mittel": {
+            "neg": 5,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "11",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "18",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 6
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 3,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 2,
+            "neutral": 0,
+            "unrated": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Redaktion",
+    "kapitel": [
+      {
+        "nr": "01",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 2,
+            "pos": 1,
+            "neutral": 1,
+            "unrated": 8
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "03",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 1,
+            "pos": 1,
+            "neutral": 1,
+            "unrated": 25
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 7
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 9
+          }
+        }
+      },
+      {
+        "nr": "04",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 13
+          },
+          "gold_mittel": {
+            "neg": 2,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 2,
+            "neutral": 0,
+            "unrated": 10
+          }
+        }
+      },
+      {
+        "nr": "05",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_hell": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          }
+        }
+      },
+      {
+        "nr": "06",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 20
+          }
+        }
+      },
+      {
+        "nr": "07",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "08",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "09",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 2
+          }
+        }
+      },
+      {
+        "nr": "10",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 8
+          }
+        }
+      },
+      {
+        "nr": "11",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 0
+          }
+        }
+      },
+      {
+        "nr": "12",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          },
+          "gold_mittel": {
+            "neg": 1,
+            "pos": 2,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          }
+        }
+      },
+      {
+        "nr": "13",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 1,
+            "neutral": 0,
+            "unrated": 3
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 4
+          }
+        }
+      },
+      {
+        "nr": "16",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 1
+          },
+          "gold_mittel": {
+            "neg": 1,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 5
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 10
+          }
+        }
+      }
+    ]
+  }
+]

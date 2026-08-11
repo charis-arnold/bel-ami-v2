@@ -1,0 +1,4606 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 4,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 140,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Georges Duroy hatte schlecht geschlafen. Die Sehnsucht, seinen Artikel gedruckt zu sehen, gab ihm keine Ruhe.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innere Unruhe und Sehnsucht wegen seines zu erscheinenden Artikels.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt (Duroys Wohnung/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 2,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Schon bei Tagesanbruch stand er auf und ging in den Straßen herum, lange bevor die Zeitungsträger von einem Kiosk zum andern die großen Papierbündel herumtrugen.",
+      "tags": [
+        "move",
+        "time"
+      ],
+      "notiz": "Duroy bricht früh auf und bewegt sich durch die Straßen, getrieben von emotionaler Ungeduld.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straßen in Duroys Viertel (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straßen von Paris bei Tagesanbruch",
+        "emotion": "Ungeduld, Erwartung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 3,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Dann ging er zum Bahnhof, denn er wußte, daß die Vie Française dort eher eintreffen würde als in seinem Viertel.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy bewegt sich gezielt zum Bahnhof, weil er dort die Zeitung früher erhalten kann.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bahnhof (Paris, nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 4,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "aber es war immer noch zu früh und wieder mußte er in den Straßen auf und ab wandern.",
+      "tags": [
+        "move",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt das Warten als Qual und wandert ungeduldig durch die Straßen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straßen in der Nähe des Bahnhofs (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straßen bei Bahnhof",
+        "emotion": "Ungeduld, Warten",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 5,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er sah die Zeitungshändlerin ankommen und ihr Glashäuschen aufschließen, und dann bemerkte er auch einen Mann mit einem dicken Zeitungsbündel auf dem Kopf.",
+      "tags": [
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den Kiosk und die Zeitungshändlerin als urbane Szenerie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zeitungskiosk (Paris, in Bahnhofsnähe)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 6,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er stürzte darauflos; es war der »Figaro«, der »Gil Blas«, der »Gaulois«, das »Evénements« und noch ein paar andere Morgenblätter, aber die Vie Française war nicht dabei.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy stürzt sich auf die Zeitungen und erlebt Enttäuschung, als die gesuchte Zeitung fehlt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zeitungskiosk (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zeitungskiosk",
+        "emotion": "Enttäuschung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 7,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Da ergriff ihn eine Furcht: »Wenn man die 'Erinnerungen eines afrikanischen Jägers' auf den nächsten Tag verschoben hätte oder womöglich hätten sie im letzten Augenblick Vater Walter mißfallen?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt Angst und innere Unruhe, dass sein Artikel nicht erscheinen könnte.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zeitungskiosk (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 8,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Als er nach dem Kiosk zurückkehrte, sah er, daß man jetzt das Blatt verkaufte, ohne daß er es hatte bringen sehen. Er stürzte darauf, warf drei Sous hin, entfaltete die Zeitung und las das Inhaltsverzeichnis auf der ersten Seite rasch durch.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy kehrt zum Kiosk zurück und kauft die Zeitung in fieberhafter Hast.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zeitungskiosk (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zeitungskiosk",
+        "emotion": "Fieberhaftigkeit, Erwartung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 9,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "— Nichts. — Sein Herz begann heftig zu klopfen. Er schlug die zweite Seite auf und las in heftiger Erregung unter einer Spalte dick gedruckt: »Georges Duroy.« Also doch. Welche Freude!",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erlebt körperlich spürbaren Schrecken und dann überwältigende Freude beim Auffinden seines gedruckten Namens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zeitungskiosk (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zeitungskiosk",
+        "emotion": "Freude, Erleichterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 10,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Ganz verwirrt, den Zylinder aufs Ohr gedrückt, die Zeitung in der Hand, ging er los.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroys körperliche Haltung (Zylinder schief) spiegelt seine innere Verwirrung und Aufgewühltheit wider.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße vor dem Zeitungskiosk (Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße Paris",
+        "emotion": "freudige Verwirrung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 11,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er fühlte ein Verlangen, die Passanten anzuhalten und ihnen zu erklären: »Kaufen Sie sich das, kaufen Sie sich das. Da steht ein Artikel von mir!«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy fantasiert davon, seinen Erfolg öffentlich zu verkünden — Ausdruck seines Stolzes und sozialen Aufstiegswillens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße Paris (in Bewegung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Belebte Straße Paris",
+        "emotion": "Stolz, Eitelkeit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 12,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Am liebsten hätte er wie die Straßenhändler abends auf den Boulevards aus voller Kehle geschrien: »Lest die Vie Française, lest den Artikel von Georges Duroy, Erinnerungen eines afrikanischen Jägers«.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location",
+        "sound"
+      ],
+      "notiz": "Duroy imaginiert sich selbst als Ausrufer auf den Boulevards — sein Triumphgefühl projiziert sich in den urbanen Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Boulevards von Paris (imaginiert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Boulevards Paris",
+        "emotion": "Triumph, Eitelkeit",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 13,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Und plötzlich empfand er das Bedürfnis, selbst den Artikel zu lesen, und zwar öffentlich in irgendeinem Café, wo alle es sehen konnten.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy empfindet das innere Bedürfnis nach öffentlicher Anerkennung durch das Lesen seines Artikels.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekanntes Café in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "öffentliches Café",
+        "emotion": "Eitelkeit, Geltungsdrang",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 14,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er wollte ein besuchtes Lokal finden; er mußte aber lange suchen, bis er endlich an eine Weinschenke kam, wo sich schon einige Gäste befanden.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy sucht aktiv ein belebtes Lokal und findet schließlich eine Weinschenke.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weinschenke in Paris (Nähe unbekannt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 15,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er bestellte sich einen Rum in einem Tone, als ob er einen Absinth bestellt hätte, ohne an die Tageszeit zu denken.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroys Zerstreutheit und Aufregung zeigen sich darin, dass er die Tageszeit vergisst und Rum statt Absinth bestellt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weinschenke in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 16,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy erwiderte wütend und entrüstet: »Das ist eine nette Bude; kaufen Sie mir das Blatt sofort.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Ungeduld und Wut zeigen sich in seiner scharfen Reaktion auf das Fehlen der Vie Française.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weinschenke in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 17,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy begann seinen Artikel zu lesen, ein paarmal sagte er dabei ganz laut: »Vortrefflich, ausgezeichnet«, um die Aufmerksamkeit seiner Nachbarn auf sich zu lenken und ihnen den Wunsch einzuflößen, auch zu wissen, was im Blatte stand.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy inszeniert sich bewusst als öffentliche Person, um Aufmerksamkeit auf seinen Artikel zu ziehen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weinschenke in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Weinschenke",
+        "emotion": "Eitelkeit, Geltungsdrang",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 18,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "er sah, als er fortging, wie einer der Gäste die Zeitung vom Tisch nahm.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy beobachtet befriedigt, dass ein Gast seine zurückgelassene Zeitung aufnimmt — sein Plan geht auf.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weinschenke in Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Weinschenke",
+        "emotion": "Befriedigung, Eitelkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 19,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er dachte nach: »Was soll ich jetzt anfangen?« Und er entschloß sich, auf sein Bureau zu gehen, sich sein Gehalt zu holen, und seinen Abschied zu nehmen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move"
+      ],
+      "notiz": "Duroy entscheidet sich spontan, sein Bureau aufzusuchen und zu kündigen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau Duroys (unbekannte Lage in Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 20,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er zitterte im voraus vor Freude bei dem Gedanken an das Gesicht, das sein Chef und seine Kollegen machen würden. Vor allem freute ihn die Aussicht, seinen Vorgesetzten wütend zu machen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy antizipiert freudig die Reaktion seiner Vorgesetzten und empfindet Genugtuung über seinen sozialen Aufstieg.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau Duroys (unbekannte Lage in Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "vorgestelltes Bureau",
+        "emotion": "Vorfreude, Schadenfreude",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 21,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er ging langsam, um nicht vor halb zehn an Ort und Stelle zu sein, denn die Kasse wurde erst um zehn geöffnet.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "time"
+      ],
+      "notiz": "Duroy reguliert bewusst sein Tempo, um zur richtigen Zeit am Bureau anzukommen — Zeit wird hier instrumentell erlebt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Strasse in Paris (Weg zum Bureau)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 22,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Sein Bureau war ein dunkles, großes Zimmer, in dem man im Winter fast den ganzen Tag Gas brennen mußte.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt das Bureau als düsteres, schlecht beleuchtetes Zimmer — von aussen, als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau Duroys (unbekannte Lage in Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Bureau",
+        "emotion": "Düsternis, Bedrückung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 23,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Die Fenster gingen auf einen engen Hof, gegenüber lagen andere Bureaus.",
+      "tags": [
+        "space",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die beengte räumliche Situation des Bureaus mit Blick auf einen engen Innenhof — sachliche Aussenbeschreibung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bureau Duroys, Innenhof (unbekannte Lage in Paris)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 24,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "In dem seinen arbeiteten acht Angestellte und der Vorgesetzte, der in der Ecke hinter einem Wandschirm saß.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den Arbeitsraum von aussen mit seiner sozialen Hierarchie (Vorgesetzter hinter Wandschirm).",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büro der Eisenbahngesellschaft (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 25,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy ging zuerst, seine 118 Francs und 25 Centimes abzuholen, die in einem gelben Briefumschlag in der Schublade des Kassierers bereitlagen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "social"
+      ],
+      "notiz": "Duroy handelt aktiv und holt seinen letzten Lohn ab — seine Armut wird durch den genauen Betrag sichtbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kassierer des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 26,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Dann trat er übermütig und triumphierend in den Arbeitsraum, wo er so manchen Tag verbracht hatte.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy betritt den Arbeitsraum mit Triumph und Übermut — der Ort seiner vergangenen Tätigkeit wird durch seine Emotion umgedeutet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitsraum",
+        "emotion": "Triumph, Übermut",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 27,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy stand mitten im Zimmer und bereitete seine Überraschung vor.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroys körperliche Positionierung im Zentrum des Raums ist bewusst inszeniert — er bereitet seine Wirkung vor.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitsraum",
+        "emotion": "Überlegenheit, Vorfreude",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 28,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Unter den Beamten schlug das wie eine Bombe ein, und das verblüffte Gesicht des Herrn Potel tauchte über dem Wandschirm auf, der ihn wie ein Kasten umgab.",
+      "tags": [
+        "atmosphere",
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Wirkung von Duroys Aussage auf die Kollegen und die räumliche Absurdität des Wandschirms.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitsraum",
+        "emotion": "Verblüffung, Schockwirkung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 29,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er litt an Rheumatismus und hatte sich aus Furcht vor Zugluft dahinter verbaut. Er hatte nur zwei Löcher durch das Papier gebohrt, um sein Personal zu überwachen.",
+      "tags": [
+        "social",
+        "material",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Kontrolle des Vorgesetzten durch den physischen Raum des Wandschirms.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 30,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Es war so still, daß man die Fliegen summen hörte.",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die totale Stille nach Duroys Aussage durch das Geräusch der summenden Fliegen — atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitsraum",
+        "emotion": "Bestürzung, Stille",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 31,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er hatte sich zwar vorgenommen, das Vergnügen in die Länge zu ziehen, konnte jedoch nicht dem Drange widerstehen, ihnen alles auf einmal an den Kopf zu werfen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt inneren Konflikt zwischen strategischer Kontrolle und dem Drang zur sofortigen Befriedigung seines Triumphgefühls.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitsraum",
+        "emotion": "Triumph, Genugtuung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 32,
+      "zeile": 22,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Übrigens war die Wirkung großartig; niemand wagte einen Ton von sich zu geben.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die kollektive Wirkung von Duroys Ankündigung auf die Kollegen — totale Sprachlosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitsraum des Büros (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 33,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Damit ging er zum Bureauchef.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy verlässt den Raum und bewegt sich aktiv zum Büroleiterzimmer — letzter Schritt des Abschiedsakts.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büro des Chefs (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 34,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Herr Perthuis, ein dicker Mann, dessen Gesicht rot wie ein Hahnenkamm wurde, erstickte fast vor Überraschung.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den Chef von aussen als soziale Figur der Autorität, die Duroy gegenübersteht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büro des Arbeitgebers (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 35,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er ging hinaus. Er war gerächt.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy verlässt das Büro mit dem inneren Gefühl der Genugtuung und Rache.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büro des Arbeitgebers (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Büro des Arbeitgebers",
+        "emotion": "Genugtuung, Rache",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 36,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er ging dann wirklich hin, um seinen bisherigen Kollegen die Hand zu schütteln. Sie wagten übrigens kaum mit ihm zu sprechen, aus Angst, sich zu kompromittieren, denn sie hatten durch die offene Tür seine ganze Unterhaltung mit dem Chef gehört.",
+      "tags": [
+        "social",
+        "george_duroy"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys Abschied von den Kollegen und deren Verhalten aus Angst vor sozialer Kompromittierung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Büro des Arbeitgebers (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 37,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Nun stand er wieder auf der Straße mit seinem Gehalt in der Tasche.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "social"
+      ],
+      "notiz": "Duroy befindet sich wieder im öffentlichen Stadtraum und erlebt seinen neuen finanziellen Status als Erleichterung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in Paris (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße in Paris",
+        "emotion": "Erleichterung, neues Selbstbewusstsein",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 38,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er leistete sich ein üppiges Frühstück in einem guten Restaurant zu mäßigen Preisen, das er kannte.",
+      "tags": [
+        "george_duroy",
+        "location",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy gönnt sich ein Frühstück in einem ihm bekannten Restaurant — inneres Erleben sozialen Aufstiegs durch Konsum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Restaurant in Paris (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Restaurant",
+        "emotion": "Selbstbelohnung, Genuss",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 39,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Dann kaufte er sich wieder die Vie Française und ließ sie auf dem Tisch liegen, an dem er gegessen hatte.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy kauft die Zeitung, in der er nun Redakteur ist, als symbolische Geste des sozialen Aufstiegs.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Restaurant in Paris (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 40,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er ging in mehrere Läden und kaufte sich Kleinigkeiten, nur um sie sich schicken zu lassen und seinen Namen anzugeben — »Georges Duroy«. Dann fügte er hinzu: »Ich bin Redakteur der Vie Française.«",
+      "tags": [
+        "george_duroy",
+        "move",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy durchstreift Läden der Stadt, um seinen neuen Status öffentlich zu machen — inneres Erleben von Eitelkeit und sozialem Aufstieg.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Läden in Paris (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Läden in Paris",
+        "emotion": "Eitelkeit, Stolz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 41,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Da er noch genügend Zeit hatte, ging er in eine lithographische Anstalt, wo Besuchskarten in ein paar Minuten angefertigt wurden, während man darauf wartete.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "time",
+        "social"
+      ],
+      "notiz": "Duroy hat Zeit und nutzt sie gezielt für die Konstruktion seiner neuen Identität — Zeit als handlungsermöglichendes Element.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Lithographische Anstalt in Paris (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 42,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er ließ sich sofort 100 Stück herstellen, die seinen Namen und seine neue Würde trugen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy lässt Visitenkarten drucken — die «neue Würde» markiert sein inneres Erleben des sozialen Aufstiegs.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Lithographische Anstalt in Paris (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Lithographische Anstalt",
+        "emotion": "Stolz auf neue soziale Würde",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 43,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Dann begab er sich in die Redaktion.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy begibt sich in die Redaktion der Vie Française — Ortsveränderung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 44,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Forestier empfing ihn wie einen Untergebenen etwas von oben herab.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Hierarchie zwischen Forestier und Duroy in der Redaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 45,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Am andern Ende des Tisches saß ein kleiner, sehr dicker Mann mit ganz flachem, aufgedunsenem Gesicht. Sein Kopf war völlig kahl und glänzte.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen eine unbekannte Figur in der Redaktion durch äussere physische Merkmale.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 46,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er war sehr kurzsichtig und schrieb, die Nase dicht ans Papier gedrückt.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Saint-Potin von aussen mit einer charakterisierenden körperlichen Eigenschaft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 47,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy stotterte verlegen: »Nein ... ich dachte, es hätte Zeit bis heute nachmittag ... ich hatte die Hände voll zu tun ... ich bin noch nicht dazu gekommen ...«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt Verlegenheit und sucht Ausreden, weil er das versprochene Manuskript nicht geliefert hat.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 48,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Der andere zuckte mißvergnügt die Achseln.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Forestiers Reaktion auf Duroys Ausrede von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 49,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Dann lehnte sich Forestier in seinen Stuhl zurück, nahm eine feierliche Haltung an, um seine Weisungen zu geben und begann, sich an Duroy wendend:",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Forestiers überlegene Körperhaltung von aussen als sozialen Marker der Hierarchie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 50,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "wir haben in Paris seit zwei Tagen den chinesischen General Li-Theng-Fao, der im Hotel Continental abgestiegen ist, und den Rajah Taposahib Ramaderao Pali, der im Hotel Bristol wohnt.",
+      "tags": [
+        "location",
+        "historical"
+      ],
+      "notiz": "Forestier nennt zwei konkrete Pariser Hotelstandorte im Zusammenhang mit exotischen Gästen — historisch-politischer Kontext der Dritten Republik.",
+      "koordinaten": {
+        "lat": 48.8655,
+        "lng": 2.3308,
+        "ort_bezeichnung": "Hotel Continental, Paris (Rue de Castiglione)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 51,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "den Rajah Taposahib Ramaderao Pali, der im Hotel Bristol wohnt.",
+      "tags": [
+        "location",
+        "historical"
+      ],
+      "notiz": "Das Hotel Bristol als zweiter konkreter Pariser Ort im Kontext des kolonial-exotischen Interviews.",
+      "koordinaten": {
+        "lat": 48.8683,
+        "lng": 2.3187,
+        "ort_bezeichnung": "Hotel Bristol, Place Vendôme / Rue du Faubourg Saint-Honoré, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 52,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Ihr werdet die beiden um eine Unterredung ersuchen.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Forestier gibt Duroy und Saint-Potin den Auftrag, die beiden Hotelgäste zu besuchen — eine angekündigte Ortsbewegung Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 53,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er schwieg, dann setzte er, ins Leere sprechend, hinzu",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Erzähler beschreibt das Verhalten des Chefredakteurs von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 54,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Dann begann er wieder höchst würdig zu schreiben, mit der offenbaren Absicht, die Distanz zu wahren und seinem ehemaligen Kameraden und jetzigen Kollegen den richtigen Platz anzuweisen.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt von aussen das soziale Machtspiel des Chefs gegenüber Duroy und Saint-Potin.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 55,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Kaum waren sie über die Schwelle, so sagte Saint-Potin lachend zu Duroy:",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt den Ortswechsel: Duroy und Saint-Potin verlassen die Redaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Eingang/Schwelle der Redaktion La Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 56,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Sie gingen den Boulevard hinab und der Reporter fragte:",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung von Duroy und Saint-Potin einen Boulevard entlang.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Boulevard Poissonière (Näherung, Redaktion La Vie Française)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3466305,
+          48.8722361
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "»Ja, gern, es ist sehr heiß heute.«",
+      "tags": [
+        "weather",
+        "george_duroy"
+      ],
+      "notiz": "Duroy erlebt die Hitze körperlich und stimmt dem Erfrischungsvorschlag zu.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Boulevard Poissonière (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Boulevard",
+        "emotion": "Hitzeempfinden, Bedürfnis nach Erfrischung",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 58,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Sie gingen in ein Café und ließen sich etwas Erfrischendes bringen",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt den Ortswechsel in ein Café in der Nähe des Boulevards.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Café am Boulevard (Näherung Boulevard Poissonière)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3466305,
+          48.8722361
+        ],
+        [
+          2.3462094,
+          48.8722789
+        ],
+        [
+          2.3462147,
+          48.8722127
+        ],
+        [
+          2.3461691,
+          48.8721982
+        ],
+        [
+          2.3460082,
+          48.8722114
+        ],
+        [
+          2.3456624,
+          48.8711873
+        ],
+        [
+          2.3454775,
+          48.8712213
+        ],
+        [
+          2.3437009,
+          48.871508
+        ],
+        [
+          2.3432636,
+          48.8715758
+        ],
+        [
+          2.3431939,
+          48.8716002
+        ],
+        [
+          2.3429897,
+          48.8716375
+        ],
+        [
+          2.3429308,
+          48.8716429
+        ],
+        [
+          2.342664,
+          48.871685
+        ],
+        [
+          2.3419053,
+          48.8717956
+        ],
+        [
+          2.3402555,
+          48.8720522
+        ],
+        [
+          2.3401728,
+          48.8721058
+        ],
+        [
+          2.3400073,
+          48.8721295
+        ],
+        [
+          2.3399294,
+          48.8721349
+        ],
+        [
+          2.3399177,
+          48.872104
+        ],
+        [
+          2.339515,
+          48.8721683
+        ],
+        [
+          2.3394788,
+          48.8720522
+        ],
+        [
+          2.3394569,
+          48.8719822
+        ],
+        [
+          2.339264,
+          48.8719829
+        ],
+        [
+          2.3389732,
+          48.871984
+        ],
+        [
+          2.3389729,
+          48.8719336
+        ],
+        [
+          2.3386941,
+          48.8718878
+        ],
+        [
+          2.3383603,
+          48.8718295
+        ],
+        [
+          2.338203,
+          48.871802
+        ],
+        [
+          2.3380261,
+          48.871771
+        ],
+        [
+          2.3379862,
+          48.8717641
+        ],
+        [
+          2.3375075,
+          48.8716804
+        ],
+        [
+          2.3372731,
+          48.8716255
+        ],
+        [
+          2.3372463,
+          48.8716216
+        ],
+        [
+          2.3371068,
+          48.8716006
+        ],
+        [
+          2.3368586,
+          48.8715632
+        ],
+        [
+          2.3366971,
+          48.871521
+        ],
+        [
+          2.3366593,
+          48.8715153
+        ],
+        [
+          2.3360054,
+          48.8714028
+        ],
+        [
+          2.3358936,
+          48.8713952
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Herr Saint-Potin begann zu reden und wußte über die Zeitung und über jedermann eine Fülle erstaunlicher Einzelheiten zu erzählen.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die Gesprächssituation im Café und die soziale Enthüllungsfreude Saint-Potins.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Café am Boulevard (Näherung Boulevard Poissonière)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 60,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "»Der Chef? Der richtige Jude! Die Juden kann man nie ummodeln. Das ist eine Rasse!« Und er führte die merkwürdigsten Beispiele von seinem Geiz an, diesen eigentümlichen Geiz der Kinder Israels, der sich um zehn Centimes streitet, mit der Köchin schachert, in schamlosester Weise Abzüge bei Zahlungen durchsetzt und auf Pfänder leiht und wuchert.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Saint-Potins antisemitischer Monolog reflektiert soziale Vorurteile der Dritten Republik; Erzähler gibt diese Perspektive wieder.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Café am Boulevard (Näherung Boulevard Poissonière)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 61,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Seine Zeitung ist offiziös, katholisch, liberal, republikanisch und orleanistisch zugleich, ein Kramladen für alles; er hat sie nur gegründet, um seine Börsenspekulationen und sonstigen Unternehmungen zu stützen.",
+      "tags": [
+        "historical",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die politische und wirtschaftliche Natur von Walters Zeitung als Instrument der Spekulation — ein Kommentar zur Presselandschaft der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, allgemein (Redaktionskontext)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 62,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "So ging es weiter, wobei er Duroy immer »Mein lieber Freund« nannte.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Erzähler beobachtet das Gespräch zwischen Saint-Potin und Duroy von aussen — soziale Annäherungsgeste durch Anrede.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch, Gesprächssituation",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 63,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Denken Sie, neulich war ich in seinem Arbeitszimmer, mit dem alten Narren de Norbert und diesem Don Quichotte Rival; da kommt Montelin, unser Verwalter, mit seiner Aktenmappe aus Saffianleder, die ganz Paris übrigens kennt.",
+      "tags": [
+        "location",
+        "social",
+        "material"
+      ],
+      "notiz": "Erzähler lässt Saint-Potin Walters Arbeitszimmer erwähnen — der Hinweis auf die bekannte Aktenmappe verweist auf soziale Sichtbarkeit in Paris.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer Walter (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 64,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Dann verzog er das Gesicht zu einem sonderbaren Lächeln, das jedesmal seine dicken Backen umspielt, wenn er ein boshaftes oder kräftiges Wort sagen will",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt Walters Mimik von aussen als wiederkehrendes Charaktermerkmal — satirische Figurenzeichnung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer Walter (Paris, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 65,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Saint-Potin setzte mit dem erhabenen Gesicht eines Kenners hinzu: »Na, ist das nicht der reine Balzac?«",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt Saint-Potins selbstgefällige Pose des Kenners — gesellschaftliche Inszenierung von Bildung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch, Gesprächssituation",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 66,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy hatte nie Balzac gelesen, aber er antwortete mit Überzeugung: »Weiß der Teufel, ja.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy offenbart innerlich seine Bildungslücke, spielt aber nach aussen souverän mit — soziale Selbstinszenierung und innere Unsicherheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch, Gesprächssituation",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Gesprächssituation mit Saint-Potin",
+        "emotion": "Unsicherheit, Anpassungsdrang",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 67,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Endlich war er bei Forestier angelangt:",
+      "tags": [
+        "move"
+      ],
+      "notiz": "Der Erzähler beschreibt neutral, dass Duroy in seiner Rede bei Forestier angelangt ist.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gesprächssituation in einem Lokal (nähe Boulevard Poissonière / Redaktion Vie Française)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 68,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy überfiel plötzlich ein Gefühl der inneren Kälte, eine Art Nervenkrampf; er hatte das Verlangen, diesen Schwätzer zu beschimpfen und zu ohrfeigen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erlebt eine heftige emotionale und körperliche Reaktion auf Saint-Potins Aussage über Mme Forestier.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Lokal in der Nähe der Redaktion Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Lokal",
+        "emotion": "innere Kälte, Nervenkrampf, Wut",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 69,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy beglich die Zeche und sagte: »Mir scheint, es ist spät geworden und wir haben noch die beiden hohen Herrschaften zu besuchen?«",
+      "tags": [
+        "george_duroy",
+        "time",
+        "move"
+      ],
+      "notiz": "Duroy nimmt die Zeit wahr und signalisiert durch die Zahlung der Zeche seine Bereitschaft zum Aufbruch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Lokal in der Nähe der Redaktion Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Lokal",
+        "emotion": "Ungeduld / Zeitdruck",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 70,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Hotel Bristol und Continental",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Saint-Potin nennt konkrete Pariser Hotels als Informationsquellen; der Erzähler gibt reale Ortsnamen an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hôtel Bristol / Hôtel Continental, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 71,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Wir rauchen noch eine Zigarre und gehen dann zu Fuß hin.",
+      "tags": [
+        "move",
+        "social"
+      ],
+      "notiz": "Der Erzähler beschreibt neutral Saint-Potins Plan, zu Fuß zu den Hotels zu gehen und dabei die Droschkenkosten zu berechnen — eine soziale Praxis der kleinen Manipulation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Lokal in der Nähe der Redaktion Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 72,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Und nachher berechnen wir der Zeitung hundert Sous Droschkenspesen.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Der Erzähler lässt Saint-Potin die soziale Praxis der Spesenmanipulation enthüllen — ein Kommentar auf den Journalismus als soziales Milieu.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Lokal in der Nähe der Redaktion Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 73,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Sie standen auf und gingen den Boulevard herunter, der Madeleine zu.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung von Duroy und Saint-Potin den Boulevard entlang Richtung Madeleine.",
+      "koordinaten": {
+        "lat": 48.8717,
+        "lng": 2.3355,
+        "ort_bezeichnung": "Boulevard des Capucines, Richtung Madeleine",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3358936,
+          48.8713952
+        ],
+        [
+          2.3349102,
+          48.8712119
+        ],
+        [
+          2.3348238,
+          48.8711976
+        ],
+        [
+          2.334707,
+          48.871178
+        ],
+        [
+          2.3341992,
+          48.8710926
+        ],
+        [
+          2.3340134,
+          48.8710614
+        ],
+        [
+          2.3339537,
+          48.8710513
+        ],
+        [
+          2.3327325,
+          48.8708461
+        ],
+        [
+          2.3325847,
+          48.8709012
+        ],
+        [
+          2.3323199,
+          48.8708527
+        ],
+        [
+          2.3322366,
+          48.8708148
+        ],
+        [
+          2.3321494,
+          48.8707754
+        ],
+        [
+          2.3318858,
+          48.870725
+        ],
+        [
+          2.3317958,
+          48.8706816
+        ],
+        [
+          2.3302507,
+          48.8704198
+        ],
+        [
+          2.3301597,
+          48.8704192
+        ],
+        [
+          2.3297669,
+          48.8703468
+        ],
+        [
+          2.3297441,
+          48.8703418
+        ],
+        [
+          2.3290827,
+          48.8702262
+        ],
+        [
+          2.3281923,
+          48.8700626
+        ],
+        [
+          2.3280917,
+          48.8700934
+        ],
+        [
+          2.3279435,
+          48.8700758
+        ],
+        [
+          2.3278463,
+          48.8700515
+        ],
+        [
+          2.3276377,
+          48.8700123
+        ],
+        [
+          2.327505,
+          48.8700692
+        ],
+        [
+          2.326766,
+          48.8703143
+        ],
+        [
+          2.3267325,
+          48.8703052
+        ],
+        [
+          2.3266354,
+          48.8703374
+        ],
+        [
+          2.3266243,
+          48.8703559
+        ],
+        [
+          2.3261753,
+          48.8704926
+        ],
+        [
+          2.3261491,
+          48.8704869
+        ],
+        [
+          2.3260167,
+          48.8705321
+        ],
+        [
+          2.3259966,
+          48.8705564
+        ],
+        [
+          2.3257948,
+          48.8705972
+        ],
+        [
+          2.3257291,
+          48.8706212
+        ],
+        [
+          2.3254745,
+          48.8705601
+        ],
+        [
+          2.3253754,
+          48.8706149
+        ],
+        [
+          2.3249833,
+          48.870739
+        ],
+        [
+          2.3245894,
+          48.8708638
+        ],
+        [
+          2.324416,
+          48.8708444
+        ],
+        [
+          2.3241788,
+          48.8709261
+        ],
+        [
+          2.3241446,
+          48.8708799
+        ],
+        [
+          2.3241037,
+          48.8708245
+        ],
+        [
+          2.3233893,
+          48.8709535
+        ],
+        [
+          2.323289,
+          48.870708
+        ],
+        [
+          2.3232736,
+          48.8706672
+        ],
+        [
+          2.3231714,
+          48.8706448
+        ],
+        [
+          2.3230836,
+          48.8706216
+        ],
+        [
+          2.323204,
+          48.870449
+        ],
+        [
+          2.3228381,
+          48.8703544
+        ],
+        [
+          2.3228104,
+          48.8703913
+        ],
+        [
+          2.3227281,
+          48.8703639
+        ],
+        [
+          2.3226286,
+          48.8703861
+        ],
+        [
+          2.3226393,
+          48.8704119
+        ],
+        [
+          2.3214412,
+          48.8706673
+        ],
+        [
+          2.3214162,
+          48.8706491
+        ],
+        [
+          2.3212941,
+          48.8707049
+        ],
+        [
+          2.3212877,
+          48.8707244
+        ],
+        [
+          2.3200684,
+          48.8711249
+        ],
+        [
+          2.3200427,
+          48.8711158
+        ],
+        [
+          2.320005,
+          48.8711273
+        ],
+        [
+          2.319965,
+          48.8711396
+        ],
+        [
+          2.3184861,
+          48.8716428
+        ],
+        [
+          2.318443,
+          48.8716373
+        ],
+        [
+          2.3183586,
+          48.8716831
+        ],
+        [
+          2.3178607,
+          48.8714146
+        ],
+        [
+          2.3166414,
+          48.8711398
+        ],
+        [
+          2.3161832,
+          48.8713266
+        ],
+        [
+          2.3160449,
+          48.8713398
+        ],
+        [
+          2.3160167,
+          48.8713122
+        ],
+        [
+          2.3143172,
+          48.8717743
+        ],
+        [
+          2.3142636,
+          48.8716733
+        ],
+        [
+          2.3142287,
+          48.871661
+        ],
+        [
+          2.3134971,
+          48.870793
+        ],
+        [
+          2.3133282,
+          48.8708499
+        ],
+        [
+          2.3128271,
+          48.8705866
+        ],
+        [
+          2.3127267,
+          48.870527
+        ],
+        [
+          2.3127237,
+          48.8705049
+        ],
+        [
+          2.3127547,
+          48.8704797
+        ],
+        [
+          2.3125,
+          48.8702901
+        ],
+        [
+          2.311944,
+          48.8700028
+        ],
+        [
+          2.3118963,
+          48.8699941
+        ],
+        [
+          2.3117469,
+          48.8699315
+        ],
+        [
+          2.3117156,
+          48.869919
+        ],
+        [
+          2.3109092,
+          48.869501
+        ],
+        [
+          2.3106756,
+          48.8696234
+        ],
+        [
+          2.3105649,
+          48.8696646
+        ],
+        [
+          2.3102496,
+          48.8697202
+        ],
+        [
+          2.3101853,
+          48.869726
+        ],
+        [
+          2.3099363,
+          48.8697159
+        ],
+        [
+          2.3093758,
+          48.8695363
+        ],
+        [
+          2.3086913,
+          48.8697534
+        ],
+        [
+          2.3081148,
+          48.8698989
+        ]
+      ]
+    },
+    {
+      "id": 74,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy drückte ihm die Hand und ging. Der Gedanke an den Artikel, den er abends noch schreiben sollte, gab ihm keine Ruhe, und er begann darüber nachzudenken.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innere Unruhe wegen des zu schreibenden Artikels — ein emotionaler Zustand, der sein Handeln bestimmt.",
+      "koordinaten": {
+        "lat": 48.8717,
+        "lng": 2.3355,
+        "ort_bezeichnung": "Boulevard des Capucines, nahe Madeleine",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Boulevard",
+        "emotion": "Unruhe, gedankliche Beschäftigung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 75,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er suchte nach neuen Ideen, Einfällen, nach Anekdoten und Schilderungen und gelangte schließlich zur Avenue des Champs Elysées, wo er nur vereinzelte Spaziergänger erblickte",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location",
+        "space"
+      ],
+      "notiz": "Duroy nimmt beim Gehen die Leere der Avenue des Champs-Élysées wahr — Bewegung und Raumwahrnehmung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Avenue des Champs-Élysées",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Avenue des Champs-Élysées",
+        "emotion": "gedankliche Anspannung, Suche",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3081148,
+          48.8698989
+        ],
+        [
+          2.3086913,
+          48.8697534
+        ],
+        [
+          2.3093758,
+          48.8695363
+        ],
+        [
+          2.3099363,
+          48.8697159
+        ],
+        [
+          2.3101853,
+          48.869726
+        ],
+        [
+          2.3102496,
+          48.8697202
+        ],
+        [
+          2.3105649,
+          48.8696646
+        ],
+        [
+          2.3106756,
+          48.8696234
+        ],
+        [
+          2.3109092,
+          48.869501
+        ],
+        [
+          2.3117156,
+          48.869919
+        ],
+        [
+          2.3117469,
+          48.8699315
+        ],
+        [
+          2.3118963,
+          48.8699941
+        ],
+        [
+          2.311944,
+          48.8700028
+        ],
+        [
+          2.3125,
+          48.8702901
+        ],
+        [
+          2.3127547,
+          48.8704797
+        ],
+        [
+          2.3127237,
+          48.8705049
+        ],
+        [
+          2.3127267,
+          48.870527
+        ],
+        [
+          2.3128271,
+          48.8705866
+        ],
+        [
+          2.3133282,
+          48.8708499
+        ],
+        [
+          2.3140342,
+          48.8717245
+        ],
+        [
+          2.3140202,
+          48.8717443
+        ],
+        [
+          2.3140872,
+          48.8718502
+        ],
+        [
+          2.3141167,
+          48.8718586
+        ],
+        [
+          2.3145454,
+          48.8724786
+        ],
+        [
+          2.3147846,
+          48.8724884
+        ],
+        [
+          2.3148624,
+          48.8725784
+        ],
+        [
+          2.3159072,
+          48.872835
+        ],
+        [
+          2.3159294,
+          48.8728237
+        ],
+        [
+          2.3160441,
+          48.8728242
+        ],
+        [
+          2.3160626,
+          48.8728402
+        ],
+        [
+          2.3178683,
+          48.8731871
+        ],
+        [
+          2.3178888,
+          48.873175
+        ],
+        [
+          2.3179913,
+          48.8731861
+        ],
+        [
+          2.318012,
+          48.873198
+        ],
+        [
+          2.3194883,
+          48.8733415
+        ],
+        [
+          2.3194942,
+          48.8733339
+        ],
+        [
+          2.3196223,
+          48.8733251
+        ],
+        [
+          2.3196316,
+          48.8733571
+        ],
+        [
+          2.3206372,
+          48.8734476
+        ],
+        [
+          2.3206667,
+          48.8734379
+        ],
+        [
+          2.3208954,
+          48.8734005
+        ],
+        [
+          2.3211153,
+          48.8733952
+        ],
+        [
+          2.3211072,
+          48.8734384
+        ],
+        [
+          2.3223129,
+          48.873389
+        ],
+        [
+          2.3223384,
+          48.8733678
+        ],
+        [
+          2.3224678,
+          48.8733643
+        ],
+        [
+          2.3224933,
+          48.8733788
+        ],
+        [
+          2.3235527,
+          48.8733189
+        ],
+        [
+          2.3235836,
+          48.873303
+        ],
+        [
+          2.3237056,
+          48.873314
+        ],
+        [
+          2.3237365,
+          48.8733206
+        ],
+        [
+          2.3242059,
+          48.8732895
+        ],
+        [
+          2.3242264,
+          48.8732872
+        ],
+        [
+          2.3243388,
+          48.8732751
+        ],
+        [
+          2.3244005,
+          48.8732841
+        ],
+        [
+          2.3253109,
+          48.8732051
+        ],
+        [
+          2.3253297,
+          48.8731808
+        ],
+        [
+          2.3254779,
+          48.8731817
+        ],
+        [
+          2.3265426,
+          48.8731121
+        ],
+        [
+          2.3268659,
+          48.8730869
+        ],
+        [
+          2.3268921,
+          48.8730948
+        ],
+        [
+          2.3276233,
+          48.8730394
+        ],
+        [
+          2.3276357,
+          48.8730315
+        ],
+        [
+          2.327747,
+          48.8730242
+        ],
+        [
+          2.3282114,
+          48.8730031
+        ],
+        [
+          2.3282496,
+          48.8729811
+        ],
+        [
+          2.3283644,
+          48.872929
+        ],
+        [
+          2.3285926,
+          48.8727931
+        ],
+        [
+          2.3287576,
+          48.8729175
+        ],
+        [
+          2.3287538,
+          48.8729414
+        ],
+        [
+          2.329969,
+          48.8728851
+        ],
+        [
+          2.3299948,
+          48.872883
+        ],
+        [
+          2.3309295,
+          48.8728086
+        ],
+        [
+          2.330942,
+          48.8727877
+        ],
+        [
+          2.3311885,
+          48.8727558
+        ],
+        [
+          2.331551,
+          48.8728324
+        ],
+        [
+          2.3317406,
+          48.8729813
+        ],
+        [
+          2.3317549,
+          48.8730295
+        ],
+        [
+          2.3328079,
+          48.8728908
+        ],
+        [
+          2.332871,
+          48.8728814
+        ],
+        [
+          2.3329578,
+          48.8728251
+        ],
+        [
+          2.3331858,
+          48.8728178
+        ],
+        [
+          2.3332767,
+          48.8728055
+        ],
+        [
+          2.3334871,
+          48.8727842
+        ],
+        [
+          2.3335433,
+          48.8727945
+        ],
+        [
+          2.3337776,
+          48.8727614
+        ],
+        [
+          2.335118,
+          48.8725727
+        ],
+        [
+          2.3351264,
+          48.8725716
+        ],
+        [
+          2.3352493,
+          48.8725558
+        ],
+        [
+          2.3357482,
+          48.8724924
+        ],
+        [
+          2.3357997,
+          48.8724751
+        ],
+        [
+          2.3360566,
+          48.8724398
+        ],
+        [
+          2.336088,
+          48.8724356
+        ],
+        [
+          2.3372905,
+          48.8722677
+        ],
+        [
+          2.3373147,
+          48.8722644
+        ],
+        [
+          2.3374501,
+          48.872246
+        ],
+        [
+          2.3374768,
+          48.8722423
+        ],
+        [
+          2.3381566,
+          48.8721498
+        ],
+        [
+          2.3381696,
+          48.8721481
+        ],
+        [
+          2.3383287,
+          48.8721265
+        ],
+        [
+          2.3383527,
+          48.8721327
+        ],
+        [
+          2.3384216,
+          48.8723363
+        ],
+        [
+          2.3389846,
+          48.8722635
+        ],
+        [
+          2.3391089,
+          48.8722471
+        ],
+        [
+          2.3391626,
+          48.8722392
+        ],
+        [
+          2.3393374,
+          48.8722141
+        ],
+        [
+          2.3399294,
+          48.8721349
+        ],
+        [
+          2.3400073,
+          48.8721295
+        ],
+        [
+          2.3401728,
+          48.8721058
+        ],
+        [
+          2.3402555,
+          48.8720522
+        ],
+        [
+          2.3419053,
+          48.8717956
+        ],
+        [
+          2.342664,
+          48.871685
+        ],
+        [
+          2.3429308,
+          48.8716429
+        ],
+        [
+          2.3429897,
+          48.8716375
+        ],
+        [
+          2.3431939,
+          48.8716002
+        ],
+        [
+          2.3432636,
+          48.8715758
+        ],
+        [
+          2.3437009,
+          48.871508
+        ],
+        [
+          2.3454775,
+          48.8712213
+        ],
+        [
+          2.3456624,
+          48.8711873
+        ],
+        [
+          2.3460082,
+          48.8722114
+        ],
+        [
+          2.3461691,
+          48.8721982
+        ],
+        [
+          2.3462147,
+          48.8722127
+        ],
+        [
+          2.3462094,
+          48.8722789
+        ],
+        [
+          2.3466305,
+          48.8722361
+        ]
+      ]
+    },
+    {
+      "id": 76,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "denn Paris war zu dieser heißen Jahreszeit fast unbelebt.",
+      "tags": [
+        "space",
+        "weather",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die sommerliche Leere von Paris als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Leere, Stille",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 77,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er aß in einer Weinstube in der Nähe der Arc de Triomphe de l'Etoile",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Erzähler nennt konkret den Bereich nahe dem Arc de Triomphe als Ort, wo Duroy zu Abend isst.",
+      "koordinaten": {
+        "lat": 48.8738,
+        "lng": 2.295,
+        "ort_bezeichnung": "Arc de Triomphe de l'Étoile, Umgebung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 78,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "ging über die äußeren Boulevards langsam nach Hause",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Heimweg über die äußeren Boulevards — neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Äußere Boulevards, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3466305,
+          48.8722361
+        ],
+        [
+          2.3462094,
+          48.8722789
+        ],
+        [
+          2.3460209,
+          48.8723071
+        ],
+        [
+          2.3450312,
+          48.8724641
+        ],
+        [
+          2.3448951,
+          48.8724937
+        ],
+        [
+          2.3450198,
+          48.8730079
+        ],
+        [
+          2.345001,
+          48.8730317
+        ],
+        [
+          2.3450225,
+          48.8731116
+        ],
+        [
+          2.3447382,
+          48.8731279
+        ],
+        [
+          2.3449232,
+          48.8738523
+        ],
+        [
+          2.3448109,
+          48.8738651
+        ],
+        [
+          2.3447865,
+          48.8739065
+        ],
+        [
+          2.3447207,
+          48.8739696
+        ],
+        [
+          2.344757,
+          48.8739988
+        ],
+        [
+          2.344749,
+          48.8740051
+        ],
+        [
+          2.3442031,
+          48.8740073
+        ],
+        [
+          2.3442111,
+          48.874072
+        ],
+        [
+          2.3432425,
+          48.8740766
+        ],
+        [
+          2.3432425,
+          48.8740875
+        ]
+      ]
+    },
+    {
+      "id": 79,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "setzte sich an den Schreibtisch, um zu arbeiten. Doch sobald er den großen weißen Bogen Papier vor Augen hatte, entfloh ihm all der Stoff, den er in Gedanken gesammelt hatte, und es war so, als ob sein Gehirn sich verflüchtigt hätte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "material"
+      ],
+      "notiz": "Duroy erlebt das Scheitern am Schreibtisch als inneren Verlust — der leere Bogen Papier löst Ratlosigkeit und geistige Leere aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht genau lokalisierbar)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schreibtisch in Duroys Wohnung",
+        "emotion": "Ratlosigkeit, Versagen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 80,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er versuchte, Einzelheiten aus seinen Erinnerungen hervorzuholen und sie festzuhalten. Aber auch sie entschlüpften ihm, sobald er ihrer habhaft werden wollte; er wußte nicht, wie er sich ausdrücken und womit er beginnen sollte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt das Scheitern seiner schriftstellerischen Versuche als inneres Versagen — Frustration und Orientierungslosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Frustration, Hilflosigkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 81,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Nach einer Stunde vergeblicher Anstrengung waren fünf Seiten vollgeschmiert. Es waren aber nur Einleitungssätze und auch diese ohne jeden inneren Zusammenhang.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy erlebt eine Stunde vergeblicher Arbeit — Zeit wird als Erfahrung des Scheiterns emotional erlebt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Erschöpfung, Misserfolg",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 82,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "sofort machte ihn die Aussicht auf einen neuen Arbeitsmorgen bei Madame Forestier und die Hoffnung auf ein langes intimes und herzliches Beisammensein vor Sehnsucht erzittern.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy antizipiert sehnsüchtig den nächsten Besuch bei Madame Forestier — persönliche Sehnsucht nach einem Ort und einer Person.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Forestiers (imaginiert, nicht lokalisiert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Forestier",
+        "emotion": "Sehnsucht, Verlangen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 83,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er ging rasch zu Bett, denn er fürchtete fast, es könnte ihm plötzlich doch gelingen, wenn er sich nochmals an die Arbeit setzte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy geht rasch zu Bett aus Angst, dass er beim erneuten Versuch scheitern könnte — ein inneres, ambivalentes Gefühl.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 84,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Am nächsten Morgen stand er ziemlich spät auf und genoß im voraus die Freude dieses Besuches, den er absichtlich hinausschob.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy kostet die antizipierte Freude des bevorstehenden Besuchs genüsslich aus — Zeit wird lustvoll gedehnt erlebt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Vorfreude, genussvolles Hinauszögern",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 85,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Es war zehn Uhr vorbei, als er bei seinem Freunde klingelte.",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "notiz": "Neutrale Zeitangabe des Erzählers, verbunden mit der Ankunft Duroys bei Forestier.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Forestier (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 86,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy hatte gar nicht gedacht, daß der Mann überhaupt zu Hause sein könnte. Trotzdem ließ er sich nicht abweisen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy registriert überrascht, dass Forestier zuhause ist, lässt sich aber nicht zurückschrecken — innere Entschlossenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Forestier (nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 87,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Nachdem er fünf Minuten gewartet hatte, wurde er in das Arbeitszimmer geführt, in dem er einen so schönen Morgen verbracht hatte.",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "move"
+      ],
+      "notiz": "Duroy wird ins Arbeitszimmer geführt und erinnert sich an den schönen früheren Morgen dort — positive Erinnerung an den Ort.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer bei Forestier",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitszimmer Forestier",
+        "emotion": "angenehme Erinnerung, Nostalgie",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 88,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Auf dem Platz, wo er gesessen hatte, saß jetzt Forestier im Schlafrock und Pantoffeln, auf dem Kopf ein leichtes englisches Barett, und schrieb, während seine Frau in demselben weißen Morgenkleide am Kamin lehnte und eine Zigarette rauchte.",
+      "tags": [
+        "location",
+        "social",
+        "material",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die häusliche Szene im Arbeitszimmer Forestiers — Kleidung und Einrichtung signalisieren bürgerlichen Komfort.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer bei Forestier",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 89,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy blieb an der Schwelle stehen und murmelte: »Ich bitte sehr um Verzeihung, wenn ich störe ...«",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroy verharrt an der Schwelle — seine körperliche Hemmung zeigt innere Unsicherheit und Verlegenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer bei Forestier, Schwelle",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Schwelle zum Arbeitszimmer",
+        "emotion": "Verlegenheit, Hemmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 90,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy wußte nicht, was er sagen sollte. Er stotterte: »Nein, es ist: nichts, Verzeihung.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Verwirrung und Scham äussern sich in Sprachlosigkeit und Stottern — innerer Zustand der Hilflosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer bei Forestier",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 91,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy wurde ganz verwirrt; endlich entschloß er sich: »Nein ... es ist nur... ich bringe den Artikel nicht fertig ... du warst ... Sie waren ... Sie waren so ... so ... so liebenswürdig das letztemal ... daß ich hoffte ... ich wagte zu kommen ...«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt tiefe Verwirrung und Scham beim Eingestehen seines Scheiterns — sein sozialer Aufstiegswunsch trifft auf Hilflosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer bei Forestier",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 92,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Die junge Frau rauchte ruhig weiter, ohne ein Wort zu sagen und lächelte nur immer ein geheimnisvolles Lächeln, das wie eine liebenswürdige Maske ihre Gedanken zu verbergen schien.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Madame Forestiers Verhalten von aussen als undurchdringlich und sozial kalkuliert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Forestier (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 93,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy errötete und stotterte:",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Körper verrät seine Beschämung — Erröten als körperliche Reaktion auf die soziale Blossstellung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Forestier (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wohnung Forestier",
+        "emotion": "Scham, Verlegenheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 94,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Dann fuhr er plötzlich mit sicherer Stimme fort:",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy fasst sich und tritt wieder mit gespielter Sicherheit auf — innerer Wechsel von Beschämung zu Selbstbeherrschung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Forestier (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 95,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Rasch kehrte er nach Hause zurück und brummte: »Nun gut, ich mache es jetzt selbst und ganz allein, sie sollen sehen ...«",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy bewegt sich wütend nach Hause und formuliert innerlich einen trotzigen Entschluss.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (Weg dorthin)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Strasse / Heimweg",
+        "emotion": "Zorn, Trotz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 96,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Kaum war er in seinem Zimmer, setzte er sich, von Zorn erregt, an die Arbeit.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "space"
+      ],
+      "notiz": "Duroy setzt sich aufgewühlt in seinem Zimmer an den Schreibtisch — der enge private Raum wird zum Schauplatz seines emotionalen Zustands.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Zimmer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Zimmer",
+        "emotion": "Zorn",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 97,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er setzte die Geschichte fort, die Madame Forestier begonnen hatte, häufte Einzelheiten im Stil eines Zeitungsromanes, erstaunliche Geschehnisse und schwülstige Beschreibungen aufeinander. Er schrieb in ungeschicktem Schülerstil mit Unteroffiziersausdrücken.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys schriftstellerische Unzulänglichkeit als Ausdruck seiner sozialen Herkunft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Zimmer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 98,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "In einer Stunde war der Aufsatz beendet, der einem Wirrwarr von Torheiten glich, und trug ihn selbstsicher auf die Vie Française.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Gang zur Redaktion der Vie Française neutral von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 99,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Der erste Mensch, der ihm hier begegnete, war Saint-Potin, der ihm mit der Herzlichkeit eines Mitschuldigen die Hand schüttelte.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt das Treffen mit Saint-Potin in der Redaktion von aussen, inklusive der sozialen Konnotation der Mitschuld.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 100,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy hatte noch nichts gelesen; er nahm sofort die Zeitung und durchflog den langen Artikel mit dem Titel »Indien und China«, während ihm der Reporter die interessantesten Stellen zeigte.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy nimmt aktiv die Zeitung wahr und liest sie — eine Handlung aus seiner eigenen Perspektive in der Redaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 101,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Forestier kam eilig, schnaufend, mit geschäftigem Gesichtsausdruck herein",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Forestiers Auftritt von aussen — Hektik und Geschäftigkeit der Redaktionswelt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion der Vie Française (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 102,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Saint-Potin zog seinen neuen Kollegen mit hinaus, und als sie im Flur waren",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die Bewegung der beiden Figuren aus der Redaktion in den Flur.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Flur der Redaktion der Vie Française (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 103,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy erhielt seine zweihundert Francs sowie achtundzwanzig Francs für seinen gestrigen Artikel, so daß er zusammen mit dem Rest seines Gehaltes von der Nordbahn dreihundertundvierzig Francs bar in der Tasche hatte.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy empfängt sein Geld — konkretes Erleben der eigenen finanziellen Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kasse der Redaktion der Vie Française (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 104,
+      "zeile": 22,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Noch nie hatte er soviel auf einmal in den Händen gehabt, und er glaubte, er wäre reich für ewige Zeiten.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt das Geld als euphorische Empfindung von Reichtum und Sicherheit — innerer Zustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Kasse der Redaktion der Vie Française (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Kasse der Redaktion",
+        "emotion": "Euphorie, Gefühl des Reichtums",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 105,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Dann führte ihn Saint-Potin in die Redaktionen von vier oder fünf Konkurrenzblättern und plauderte dort und schwatzte",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Route durch mehrere Redaktionen Pariser Konkurrenzblätter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionen Pariser Konkurrenzblätter (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 106,
+      "zeile": 30,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Als der Abend kam, beschloß Duroy, der nichts weiter zu tun hatte, wieder einmal nach den Folies Bergère zu gehen.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy trifft aus eigenem Antrieb die Entscheidung, die Folies Bergère aufzusuchen — innere Initiative.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 107,
+      "zeile": 31,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er hoffte, mit Dreistigkeit durchzudrängen und ging zum Kontrolleur",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt mit bewusster sozialer Kühnheit — körperliche und emotionale Strategie im Raum.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère, Eingang",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Eingang Folies Bergère",
+        "emotion": "Dreistigkeit, Hoffnung auf sozialen Aufstieg",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 108,
+      "zeile": 37,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Man sah im Verzeichnis nach. Sein Name stand nicht darin.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant stellt von aussen die Ablehnung Duroys fest — nüchterner Abschluss seiner Strategie.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère, Eingang",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 109,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er trat ein und begegnete fast sofort Rahel, dem Mädchen, das er neulich nach Hause begleitet hatte.",
+      "tags": [
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy betritt die Folies Bergère und trifft Rahel wieder — Erzähler beschreibt den Moment von aussen.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 110,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy lächelte geschmeichelt.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet geschmeichelte Freude über Rahels Geständnis, von ihm geträumt zu haben.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Folies Bergère",
+        "emotion": "Schmeichelei, Eitelkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 111,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er zögerte, etwas verwirrt durch sein Vorhaben.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy zögert verlegen, weil er seine Geldnot verschweigen will — innerer Zwiespalt.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 112,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Diesmal nämlich habe ich gar kein Geld. Ich komme aus dem Klub, wo ich alles vermöbelt habe.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy gibt seine finanzielle Notlage preis — wenn auch als Lüge verkleidet — und offenbart seine prekäre soziale Lage.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 113,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Sie blickte ihm tief in die Augen und fühlte instinktiv seine Lüge mit der Erfahrung einer Dirne, die an die Gaunereien und das Feilschen der Männer gewöhnt ist.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt Rahels sozialen Erfahrungshorizont als Dirne von aussen — sozialer Kommentar.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 114,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er lächelte verlegen: »Wenn du zehn Francs willst, das ist alles, was ich habe.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys Verlegenheit und seine Armut werden durch seine eigene Aussage und sein Lächeln sichtbar — inneres Erleben seiner Lage.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 115,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er blieb lange bei diesem Mädchen. Es war schon Tag, als er fortging.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Erzähler gibt neutral die Zeitspanne und Tageszeit an — Duroy bleibt die Nacht bei Rahel.",
+      "koordinaten": {
+        "lat": 48.8744,
+        "lng": 2.3432,
+        "ort_bezeichnung": "Folies Bergère / Wohnung Rahels (näherungsweise)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 116,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Sofort dachte er daran, sich die Vie Française zu kaufen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy denkt unmittelbar nach dem Fortgehen an seine Veröffentlichung — innere Spannung und Erwartung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Strasse nahe Wohnung Rahels (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 117,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Mit zitternden Händen schlug er die Zeitung auf; seine Fortsetzung stand nicht darin.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys zitternde Hände zeigen körperliche Aufregung und Erwartung — das Nicht-Finden der Fortsetzung trifft ihn unmittelbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Strasse / Kiosk nahe Wohnung Rahels (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unspezifische Strasse",
+        "emotion": "Aufregung, Enttäuschung",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 118,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Vergebens blieb er auf dem Bürgersteig stehen und überflog ängstlich die bedruckten Spalten, in der Hoffnung, das Gesuchte doch noch zu finden.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "space"
+      ],
+      "notiz": "Duroy steht auf dem Bürgersteig und sucht ängstlich nach seinem Artikel — aktives Wahrnehmen und Erleben des städtischen Raums.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bürgersteig, Nähe Redaktion La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Bürgersteig",
+        "emotion": "Angst, Vergeblichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 119,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er fühlte sich vollständig niedergedrückt, und infolge seiner Mattigkeit nach der Liebesnacht traf ihn diese Enttäuschung um so härter.",
+      "tags": [
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erlebt körperliche und emotionale Erschöpfung — die Liebesnacht verstärkt die seelische Enttäuschung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bürgersteig, Nähe Redaktion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Bürgersteig",
+        "emotion": "Niedergeschlagenheit, Enttäuschung",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 120,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er ging nach Hause, legte sich angekleidet auf sein Bett und schlief sofort ein.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Der Erzähler beschreibt Duroys Rückkehr nach Hause und seinen sofortigen Schlaf neutral von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 121,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Ein paar Stunden später war er auf dem Redaktionsbureau und ging zu Herrn Walter.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Der Erzähler verortet Duroy zeitlich und räumlich neutral im Redaktionsbureau.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbureau La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 122,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy ging wütend hinaus, ohne ein Wort zu erwidern. Er stürmte ins Arbeitszimmer seines Freundes.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroys Wut treibt seine körperliche Bewegung — er stürmt aus dem Büro des Direktors in das Zimmer Forestiers.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbureau La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktionsbureau",
+        "emotion": "Wut",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 123,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy war verwirrt und wußte nicht, was er erwidern sollte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innere Verwirrung und Sprachlosigkeit gegenüber Forestier.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Arbeitszimmer Forestier, Redaktionsbureau",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Arbeitszimmer Forestier",
+        "emotion": "Verwirrung, Ohnmacht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 124,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Als er seinen Aufsatz in die Tasche steckte, fuhr Forestier fort: »Heute begibst du dich zunächst zur Polizeipräfektur.«",
+      "tags": [
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy steckt den Artikel ein — eine kleine Handlung, die seine Unterwerfung unter Forestiers Autorität markiert; Polizeipräfektur als nächster Ort genannt.",
+      "koordinaten": {
+        "lat": 48.8553,
+        "lng": 2.347,
+        "ort_bezeichnung": "Polizeipräfektur, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 125,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Duroy ging, ohne daß ihm das beißende und verletzende Wort einfiel, nach dem er suchte.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy verlässt das Büro in innerer Ohnmacht — er findet keine schlagfertige Antwort und erlebt seine eigene Sprachlosigkeit als Niederlage.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbureau La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Redaktionsbureau",
+        "emotion": "Ohnmacht, Frustration",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 126,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Am nächsten Tage brachte er seinen Aufsatz wieder. Er bekam ihn abermals zurück.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Der Erzähler fasst neutral und zeitlich gerafft zusammen, dass Duroys Artikel erneut abgelehnt wird.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktionsbureau La Vie française",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 127,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Als er ihn zum dritten Male geschrieben und zurückerhalten hatte, begriff er, daß er zu schnell vorwärts wollte und daß nur Forestiers Hand ihm helfen konnte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erkennt seine eigene Ungeduld und Abhängigkeit von Forestier — innere Einsicht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 128,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er sprach nicht mehr von seinen 'Erinnerungen eines afrikanischen Jägers', und nahm sich vor, schlau und gewandt zu sein, da es nicht anders ging.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy fasst einen inneren Entschluss zur Anpassung und strategischem Verhalten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 129,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Und in Erwartung besserer Tage widmete er sich in vollem Eifer seinem Berufe als Reporter.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys berufliche Situation und seinen Eifer.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 130,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er lernte bald die Kulissen der Theater und der Politik, die Wandelgänge und Warteräume der Staatsmänner und des Parlaments, die wichtigtuenden Mienen der Ministerialbeamten und die mürrischen Gesichter der schläfrigen Gerichtsdiener kennen.",
+      "tags": [
+        "space",
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die sozialen und institutionellen Räume, die Duroy als Reporter durchquert.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3186,
+        "ort_bezeichnung": "Palais Bourbon / Parlament Paris (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 131,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er hatte dauernd zu tun mit Ministern, Portiers, Generalen, Geheimpolizisten, Fürsten, Zuhältern, Dirnen, Botschaftern, Bischöfen, Kupplern, Männern der besten Gesellschaft, Falschspielern, Droschkenkutschern, Kellnern und vielen anderen Leuten",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant listet von aussen das breite soziale Spektrum auf, mit dem Duroy als Reporter in Kontakt kommt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, allgemein",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 132,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "er war der berechnende und gleichgültige Freund aller geworden, achtete alle gleich hoch und gleich niedrig, maß sie mit demselben Maße, beurteilte sie mit demselben Blick",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys soziale Gleichgültigkeit als Ergebnis seiner Reportertätigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, allgemein",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 133,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er selbst kam sich dabei wie ein Mensch vor, der unmittelbar hintereinander von allen möglichen Weinen kosten muß und schließlich den feinsten Chateau-Margaux von Argenteuil nicht mehr unterscheiden kann.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy nimmt sein eigenes emotionales Abstumpfen durch die Vielfalt sozialer Kontakte wahr — innere Reflexion über seine Lage.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Reportertätigkeit Paris",
+        "emotion": "Abstumpfung, Orientierungsverlust",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 134,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Er wurde in kurzer Zeit ein achtbarer Reporter, zuverlässig in seinen Nachrichten, listig, schnell und genau, eine wertvolle Kraft für die Zeitung, wie der alte Walter behauptete, der sich in Redakteuren auskannte.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys berufliche Entwicklung und seine Bewertung durch Walter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française, Paris (Näherung)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 135,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "erzaehler",
+      "text": "Da er aber außer seinem festen Gehalt von zweihundert Francs nur zehn Centimes für die Zeile bekam und da das Leben in den Boulevards, in den Cafés und Restaurants teuer war",
+      "tags": [
+        "location",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant benennt die Boulevards, Cafés und Restaurants als sozialen Ort und beschreibt Duroys finanzielle Lage von aussen.",
+      "koordinaten": {
+        "lat": 48.8722,
+        "lng": 2.3467,
+        "ort_bezeichnung": "Grands Boulevards, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 136,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "so hatte er nie einen Sous in der Tasche und war verzweifelt über seine Armut.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt seine finanzielle Not als inneren Zustand der Verzweiflung — soziales Erleben der eigenen Armut.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris, allgemein",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Grands Boulevards / Cafés / Restaurants Paris",
+        "emotion": "Verzweiflung über Armut",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 137,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Es steckt irgendein Kniff dahinter, dachte er, wenn er manche seiner Kollegen mit geldgefüllten Taschen sah, ohne je zu begreifen, welche geheimen Mittel sie wohl anwandten, um sich diesen Wohlstand zu verschaffen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy denkt neidisch über den Wohlstand seiner Kollegen nach und sucht nach verborgenen Erklärungen — inneres Erleben sozialer Ungleichheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch (Redaktionsumfeld)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 138,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Er witterte voller Neid irgendwelche heimlichen und verdächtigen Abmachungen, ein gegenseitiges Schmuggelsystem.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet Neid und vermutet ein geheimes System hinter dem Wohlstand seiner Kollegen — emotionale Wahrnehmung sozialer Ungerechtigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 139,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Auch er mußte hinter das Geheimnis kommen, auch er wollte Mitglied dieser verschwiegenen Genossenschaft werden und sich den Kollegen, die ohne ihn die Beute teilten, aufdrängen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Entschluss, sich Zugang zu den privilegierten Netzwerken seiner Kollegen zu verschaffen — Ambition und soziales Verlangen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 140,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 4",
+      "perspektive": "figur",
+      "text": "Und wenn er abends an seinem Fenster die Eisenbahnzüge vorüberfahren sah, dann träumte er oft von den Mitteln, die ihn diesem Ziele näherbringen konnten.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung",
+        "sound",
+        "time"
+      ],
+      "notiz": "Duroy träumt abends am Fenster beim Anblick vorbeifahrender Züge von seinem sozialen Aufstieg — räumlicher Moment löst Tagtraum und Ambition aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Fenster mit Blick auf Eisenbahnlinie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Fenster der Wohnung Duroys mit Blick auf Zugstrecke",
+        "emotion": "Sehnsucht nach Aufstieg, Träumerei, Ambition",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 4,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    }
+  ]
+}

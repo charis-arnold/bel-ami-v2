@@ -1,0 +1,76 @@
+{
+  "kapitel": 3,
+  "beschreibung": "Gewichtete Valenz pro Tag-Kategorie — Grundlage für Kreis-Visualisierung",
+  "valenz_pro_tag": {
+    "george_duroy": {
+      "gewichtete_valenz_summe": -28,
+      "gewichtete_valenz_durchschnitt": -0.62,
+      "anzahl_annotationen": 45
+    },
+    "mood": {
+      "gewichtete_valenz_summe": -21,
+      "gewichtete_valenz_durchschnitt": -0.58,
+      "anzahl_annotationen": 36
+    },
+    "weather": {
+      "gewichtete_valenz_summe": 2,
+      "gewichtete_valenz_durchschnitt": 2.0,
+      "anzahl_annotationen": 1
+    },
+    "time": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -1.4,
+      "anzahl_annotationen": 5
+    },
+    "social": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 9
+    },
+    "location_erinnerung": {
+      "gewichtete_valenz_summe": 5,
+      "gewichtete_valenz_durchschnitt": 0.56,
+      "anzahl_annotationen": 9
+    },
+    "smell": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.14,
+      "anzahl_annotationen": 7
+    },
+    "space": {
+      "gewichtete_valenz_summe": -7,
+      "gewichtete_valenz_durchschnitt": -0.78,
+      "anzahl_annotationen": 9
+    },
+    "atmosphere": {
+      "gewichtete_valenz_summe": -9,
+      "gewichtete_valenz_durchschnitt": -1.0,
+      "anzahl_annotationen": 9
+    },
+    "material": {
+      "gewichtete_valenz_summe": 1,
+      "gewichtete_valenz_durchschnitt": 0.5,
+      "anzahl_annotationen": 2
+    },
+    "sound": {
+      "gewichtete_valenz_summe": -1,
+      "gewichtete_valenz_durchschnitt": -0.25,
+      "anzahl_annotationen": 4
+    },
+    "location": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "koerper_als_akteur": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    },
+    "move": {
+      "gewichtete_valenz_summe": -2,
+      "gewichtete_valenz_durchschnitt": -2.0,
+      "anzahl_annotationen": 1
+    }
+  }
+}

@@ -1,0 +1,2526 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 18,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 118,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Drei Monate waren seitdem vergangen. Die Scheidung Du Roys war ausgesprochen. Seine Frau hatte den Namen Forestier wieder angenommen.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Maupassant gibt neutral die vergangene Zeit und den rechtlichen Status der Scheidung Duroys an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 2,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Da die Walters am 15. Juli nach Trouville fahren wollten, so hatte man verabredet, noch vor der Trennung einen Tag auf dem Lande zu verbringen.",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "notiz": "Neutrale Erzählerangabe über Datum und Reisepläne der Gruppe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Trouville",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 3,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man wählte einen Donnerstag und brach schon um neun Uhr morgens in einem großen sechssitzigen Reiselandauer, der mit vier Pferden bespannt war, auf.",
+      "tags": [
+        "time",
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Abreise und das repräsentative Fahrzeug als sozialen Marker.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (Ausgangspunkt der Fahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 4,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es sollte in Saint-Germain im Pavillon Henry IV. gefrühstückt werden.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Neutrale Ortsangabe des geplanten Frühstücksziels Saint-Germain.",
+      "koordinaten": {
+        "lat": 48.8974,
+        "lng": 2.0931,
+        "ort_bezeichnung": "Pavillon Henri IV, Saint-Germain-en-Laye",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 5,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Bel-Ami hatte sich ausgemacht, der einzige Mann in der Gesellschaft zu sein, denn er konnte weder die Anwesenheit noch das Gesicht des Marquis de Cazolles ertragen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innere Abneigung gegen den Marquis de Cazolles wird aus seiner Perspektive geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 6,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen fuhr in raschem Trabe die Avenue des Champs-Elysees hinab und dann durch das Bois de Boulogne.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt die Route des Wagens von aussen entlang der Champs-Élysées und durch den Bois de Boulogne.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Avenue des Champs-Élysées / Bois de Boulogne",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 7,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es war ein herrliches, nicht zu heißes Sommerwetter. Die Schwalben zogen durch den blauen Himmel in wundervollen Kurven, sie flogen so schnell, daß man sie immer noch zu sehen glaubte, als sie schon vorüber waren.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "sound"
+      ],
+      "notiz": "Maupassant schildert das schöne Sommerwetter und die Schwalben als stimmungsvolle atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 8,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Die drei Damen saßen tief im Vordersitz des Landauers, die Mutter zwischen den beiden Töchtern und im Rücksitz die drei Männer, Walter in der Mitte, rechts und links die beiden Gäste.",
+      "tags": [
+        "social",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die räumliche Anordnung der Reisenden im Wagen von aussen als soziale Konstellation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 9,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man fuhr über die Seine am Mont-Valérien vorbei und gelangte nach Bougival. Dann ging es am Fluß entlang bis nach Pecq.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt neutral die Route der Reisegesellschaft entlang der Seine über Mont-Valérien und Bougival nach Pecq.",
+      "koordinaten": {
+        "lat": 48.8718,
+        "lng": 2.1843,
+        "ort_bezeichnung": "Mont-Valérien / Bougival / Pecq, Seine-Ufer",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 10,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Graf de Latour-Yvelin war schon ein reifer Mann mit einem langen, dünnen Doppelbart, dessen Spitzen sich beim leisesten Windhauch bewegten",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt den Grafen von aussen mit charakteristischem physischen Merkmal.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 11,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "wie Du Roy oft behauptete, »der Wind schaffe die schönsten Effekte in seinem Bart«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys spöttische innere Haltung gegenüber dem Grafen wird aus seiner Perspektive vermittelt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 12,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges war sehr bleich und blickte oft zu Suzanne hinüber, die auch sehr bleich war.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Blässe und seinen Blick zu Suzanne von aussen als äussere Zeichen innerer Spannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "im Landauer",
+        "emotion": "Spannung, Blässe, heimliches Verlangen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 13,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Ihre Augen trafen sich, sie schienen übereinzustimmen, sich gegenseitig zu verstehen und geheime Gedanken auszutauschen, um sich dann gleich wieder zu fliehen. Frau Walter war ruhig und glückselig.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die stumme Verständigung zwischen Duroy und Frau Walter sowie deren Gemütszustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse/Landsitz bei Paris (außerhalb)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 14,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Frühstück dauerte lange. Vor der Rückfahrt nach Paris schlug Georges vor, einen Spaziergang auf der Terrasse zu machen.",
+      "tags": [
+        "time",
+        "move",
+        "location"
+      ],
+      "notiz": "Neutrale Erzählerangabe über Zeitverlauf und geplante Rückkehr nach Paris sowie Vorschlag für einen Spaziergang.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse eines Landsitzes bei Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 15,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man blieb zunächst eine Weile stehen, um die Aussicht zu bewundern. Alle stellten sich in einer Reihe längs der Brüstung, und man war über den weiten ungeheuren Horizont begeistert.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die kollektive Bewunderung der Gruppe angesichts des weiten Panoramas.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse mit Panoramablick bei Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Terrasse",
+        "emotion": "Begeisterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 16,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Am Fuße eines langen Hügelrückens floß die Seine nach Maison-Lafitte zu, wie eine Riesenschlange, die auf einer großen Wiese lag.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die Landschaft mit der Seine als bildhafte Kulisse aus Erzählerperspektive.",
+      "koordinaten": {
+        "lat": 48.9476,
+        "lng": 2.1464,
+        "ort_bezeichnung": "Maison-Laffitte, Seine",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 17,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Rechts auf dem Kamm der Hügelkette hob sich die Wasserleitung von Marly vom Himmel ab; sie sah wie eine riesige Raupe mit breiten Pfoten aus, und Marly selbst verschwand in dem dichten grünen Laub der Bäume.",
+      "tags": [
+        "location",
+        "space",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt das Aquädukt von Marly als markantes Landschaftselement.",
+      "koordinaten": {
+        "lat": 48.8978,
+        "lng": 2.0774,
+        "ort_bezeichnung": "Marly-le-Roi, Wasserleitung von Marly",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 18,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Auf der weiten Ebene, die sich vor ihnen ausbreitete, sah man hin und wieder kleinere Dörfer. Die Seen von Vesinet bildeten schöne weiße Flecke in dem spärlichen Grün der kleinen Haine.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die Ebene mit den Seen von Le Vésinet als Panorama-Kulisse.",
+      "koordinaten": {
+        "lat": 48.8978,
+        "lng": 2.1344,
+        "ort_bezeichnung": "Le Vésinet, Seen",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 19,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Links, ganz in der Ferne, ragte über dem Horizont der spitze Turm von Sartrouville.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Erzähler nennt den Kirchturm von Sartrouville als weithin sichtbares Landschaftselement am Horizont.",
+      "koordinaten": {
+        "lat": 48.9367,
+        "lng": 2.1656,
+        "ort_bezeichnung": "Sartrouville, Kirchturm",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 20,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Dann begann man langsam auf und ab zu gehen, um den Blick auf die weite Landschaft zu genießen.",
+      "tags": [
+        "move",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die gemeinsame Bewegung der Gruppe auf der Terrasse als Genuss der Landschaft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 21,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges und Suzanne blieben etwas zurück.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Erzähler beschreibt von aussen, wie Duroy und Suzanne sich von der Gruppe absondern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 22,
+      "zeile": 24,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er machte eine kurze, ungeduldige Bewegung.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Ungeduld äussert sich körperlich in einer abweisenden Geste.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 23,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Nein, ich sage es Ihnen zum zehntenmal, es ist zwecklos. Er würde mir nur sein Haus verbieten; er jagt mich aus der Zeitung fort, und wir werden uns nicht einmal sehen können.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äussert seine Hoffnungslosigkeit gegenüber der sozialen Schranke, die Walter als mächtiger Patron repräsentiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 24,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Wenn Sie nicht meine Frau werden, verlasse ich für immer Paris und dieses Land.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy droht mit dem Verlassen von Paris — die Stadt wird als emotionaler Bezugsraum seiner Ambitionen und Gefühle spürbar.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Verzweiflung, Drohung des Verlusts",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 25,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er sah sie von der Seite an und fragte zögernd:",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt mit körperlichem Ausdruck — seitlicher Blick und zögerndes Fragen zeigt seine innere Anspannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 26,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "»Nein,« sagte er lebhaft, »Sie kennen sie nicht, sie wird noch zorniger und aufgeregter sein als Ihr Vater.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy widerspricht lebhaft und zeigt seine Einschätzung der Familiendynamik — inneres Kalkül und Entschlossenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 27,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "»Wenn Sie entschlossen, richtig entschlossen sind, meine Frau zu werden, meine liebe, liebe, kleine Suzanne ... dann ... dann entführe ich Sie.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy enthüllt seinen Plan zur Entführung Suzannes — Höhepunkt seines sozialen Aufstiegskalküls, kombiniert mit emotionaler Intensität.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannt",
+        "emotion": "Entschlossenheit und sozialer Ehrgeiz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 28,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie fuhr vor Freude auf und begann in die Hände zu klatschen.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Suzannes Reaktion von aussen — kein inneres Erleben Duroys, reine Beobachterperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 29,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie finden mich in einer Droschke, gegenüber dem Marineministerium.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Der Place de la Concorde mit dem Marineministerium wird als konkreter Treffpunkt genannt.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, gegenüber dem Marineministerium (Ministère de la Marine)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 30,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Wenn der Portier sich schlafen gelegt hat, erwarte ich Sie auf dem Place de la Concorde.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Der Place de la Concorde wird als Treffpunkt für die geplante nächtliche Entführung genannt.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 31,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man sprach über Seebäder, wo man bald sein würde.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Seebäder werden als zukünftiger Aufenthaltsort erwähnt, ohne konkrete Ortsangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Seebäder (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 32,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Dann fuhren sie über Chatou zurück, um nicht denselben Weg noch einmal machen zu müssen.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Der Erzähler beschreibt die Rückfahrt über Chatou als neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": 48.8973,
+        "lng": 2.1622,
+        "ort_bezeichnung": "Chatou",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 33,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Georges sagte nichts. Er dachte: »Also, wenn diese Kleine etwas Mut hat, dann würde die Sache endlich klappen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy plant innerlich und hegt eine strategische Hoffnung bezüglich Suzanne.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rückfahrt von Chatou",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 34,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Seit drei Monaten spann er um sie das unwiderstehliche Netz der schmeichelnden Zärtlichkeit. Er bezauberte, er verführte und eroberte sie. Er hatte sich von ihr lieben lassen, er strengte sich an, so gut wie er es irgend konnte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert sein strategisches Vorgehen der vergangenen Monate — innere Bilanz seiner sozialen Aufstiegsstrategie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 35,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hatte zunächst erreicht, daß sie dem Marquis de Cazolles absagte.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy bilanziert einen konkreten sozialen Erfolg — das Beiseitedrängen eines Rivalen — aus seiner inneren Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 36,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Daß Frau Walter niemals zustimmen würde, ihm ihre Tochter zu geben, das begriff er sehr wohl. Sie liebte ihn noch, sie würde ihn immer lieben, und zwar mit einer leidenschaftlichen Wucht. Er hielt sie durch seine berechnete Kälte in den Schranken, aber er fühlte, wie sie von einer gierigen, ohnmächtigen und verzehrenden Leidenschaft gequält wurde.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy analysiert die emotionale und soziale Dynamik mit Frau Walter aus seiner strategischen Innenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 37,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Aber sobald er die Kleine in der Ferne versteckt hielt, dann konnte er mit dem Vater unterhandeln, wie eine Macht mit der anderen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy entwirft einen sozialen Machtplan — räumliche Trennung als strategisches Mittel zum Aufstieg.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 38,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er dachte über dieses alles nach. Er antwortete mit abgehackten Sätzen auf die Fragen, die man an ihn richtete und auf die er kaum hörte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy ist in seinen strategischen Gedanken versunken und nimmt die Außenwelt kaum wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rückfahrt nach Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 39,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Als man nach Paris zurückkam, wachte er wieder auf.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Die Ankunft in Paris markiert Duroys Rückkehr ins Bewusstsein — die Stadt wirkt als Auslöser.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (Stadtgrenze / Einfahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Erwachen, Aufmerksamkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 40,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Als der Landauer in den Hof des Palais einfuhr, wollte man Georges zum Diner dabehalten.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Der Erzähler beschreibt die Ankunft des Landauers im Hof des Palais Walter als neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 41,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er lehnte jedoch dankend ab und ging nach Hause.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Der Erzähler beschreibt Duroys Abgang vom Palais nach Hause als äußere Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 42,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Nachdem er etwas gegessen hatte, ordnete er seine Papiere, als wenn ihm eine lange Reise bevorstand.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Der Erzähler beschreibt Duroys Handlung (Papiere ordnen) als äußeres Zeichen seiner inneren Vorbereitung für die geplante Entführung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 43,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er verbrannte die Briefe, die ihn kompromittieren konnten, die anderen versteckte er und schrieb an einige Freunde.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy handelt aktiv, vernichtet kompromittierende Briefe und bereitet sich vor.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 44,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Von Zeit zu Zeit sah er auf die Standuhr und dachte: »Jetzt muß es drüben sehr heiß hergehen.«",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy verfolgt die Zeit mit innerlicher Spannung und imaginiert das Geschehen an einem anderen Ort.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Spannung, Erwartung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 45,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Eine Unruhe und Unsicherheit nagte ihm am Herzen. Wie, wenn ihm die Sache mißlingen würde? ... Was hatte er ja eigentlich zu fürchten? Er hatte sich noch immer aus der Klemme ziehen können. Es war doch ein sehr großes Spiel, das er heute spielte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innere Unruhe und Kalkül über das Risiko seines Plans werden aus seiner Perspektive geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 46,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Gegen elf Uhr verließ er sein Haus.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe der Uhrzeit beim Verlassen des Hauses.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 47,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er wanderte eine Weile auf und ab.",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Duroy bewegt sich ziellos auf und ab, was seine innere Unruhe widerspiegelt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in der Nähe von Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße, unspezifiziert",
+        "emotion": "Unruhe, Nervosität",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 48,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Dann nahm er eine Droschke und ließ den Kutscher an der Place de la Concorde vor den Arkaden des Marineministeriums halten.",
+      "tags": [
+        "move",
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy fährt zur Place de la Concorde und lässt vor den Arkaden des Marineministeriums halten.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Marineministerium (Arkaden)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 49,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Hin und wieder zündete er ein Streichholz an, um nach der Uhr zu sehen. Je mehr die Mitternachtsstunde heranrückte, um so fieberhafter und unruhiger wurde seine Ungeduld.",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt das Vergehen der Zeit als emotionale Qual — Ungeduld und Fieberhaftigkeit steigern sich.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Fieberhaftigkeit, Ungeduld",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 50,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Alle Augenblicke steckte er seinen Kopf aus dem Wagenfenster und spähte hinaus.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Körper drückt seine Anspannung durch wiederholtes Hinausspähen aus dem Fenster aus.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Erwartung, Nervosität",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 51,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Eine ferne Turmuhr schlug zwölf, gleich darauf schlug eine andere in der Nähe und dann gleich zwei auf einmal. Als der letzte Schlag verhallt war, dachte er: »Nun ist es aus, es ist mißlungen, sie kommt nicht mehr!«",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy hört die Turmuhren schlagen und erlebt den Mitternachtsschlag als emotionalen Tiefpunkt der Hoffnungslosigkeit.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Hoffnungslosigkeit, Resignation",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 52,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Trotzdem war er entschlossen zu bleiben, bis es Tag wurde. In solchen Fällen muß man Geduld haben.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy entscheidet innerlich, trotz Hoffnungslosigkeit auszuharren — Zeit wird als Prüfung erlebt.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 53,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hörte, wie es ein viertel, dann ein halb, dann dreiviertel schlug, und schließlich wiederholten sämtlich Uhren, eine nach der anderen, eins, wie sie zwölf Uhr geschlagen hatten.",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy hört das Fortschreiten der Zeit akustisch — jeder Schlag verstärkt sein Warten und Ausharren.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Ausharren, wachsende Verzweiflung",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 54,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hatte die Hoffnung schon verloren und zerbrach sich den Kopf darüber, was wohl geschehen sein könnte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy verliert die Hoffnung und grübelt über das Scheitern seines Plans nach.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 55,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er fuhr atemlos empor: »Sind Sie das, Suzanne?«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliche Reaktion — atemlos auffahren — zeigt den abrupten Umschwung von Resignation zu Erleichterung.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Erleichterung, Überraschung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 56,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie stieg ein und sank in seine Arme. Er rief dem Kutscher zu: »Vorwärts!« Und die Droschke setzte sich in Bewegung.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt neutral das Einsteigen Suzannes und die Abfahrt der Droschke von der Place de la Concorde.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Abfahrt der Droschke",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 57,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er war unruhig und zitterte",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Zustand — Unruhe und körperliches Zittern als emotionale Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 58,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "er hielt mit gespannter Aufmerksamkeit zu, sein Herz klopfte, ein zorniger, neidischer Haß stieg in ihm gegen diese Leute auf.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt intensiven inneren Aufruhr — Eifersucht und Zorn gegen Suzannes Eltern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 59,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Doch er hielt die Tochter.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy registriert seine Machtposition — er hat die Tochter in seiner Gewalt und denkt taktisch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 60,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Es ist zu spät, wir können keinen Zug mehr erreichen.",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "notiz": "Duroy erlebt die Zeit als handlungsbestimmenden Faktor — kein Zug mehr erreichbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbestimmt",
+        "emotion": "Kalkulation, Kontrolle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 61,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Wir fahren mit diesem Wagen nach Sevres und dort übernachten wir, und morgen früh reisen wir nach La Roche Guyon weiter.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy plant und kommuniziert die Route — Sèvres und La Roche-Guyon als Reiseziele.",
+      "koordinaten": {
+        "lat": 48.8211,
+        "lng": 2.1922,
+        "ort_bezeichnung": "Sèvres",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 62,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es ist ein hübsches Dorf an der Seine, zwischen Montes und Bonnieres.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Erzähler-nahe Charakterisierung von La Roche-Guyon als idyllisches Dorf an der Seine.",
+      "koordinaten": {
+        "lat": 49.0797,
+        "lng": 1.6303,
+        "ort_bezeichnung": "La Roche-Guyon, Seine",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 63,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen rollte durch die Straßen.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung des Wagens durch die Straßen von Paris als Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straßen von Paris, unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 64,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges nahm die Hand des jungen Mädchens und begann sie langsam und rücksichtsvoll zu küssen.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Erzähler beschreibt Duroys körperliche Handlung — sanftes Küssen der Hand als sozialer und erotischer Akt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wagen, Straßen von Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 65,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er wußte nicht, was er ihr sagen sollte, denn er war an platonische Zärtlichkeiten nicht gewöhnt.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy ist innerlich unsicher und überfordert mit der emotionalen Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 66,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Plötzlich schien es ihm, als wenn sie weinte. Erschrocken fragte er: »Was haben Sie, meine liebe Kleine?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt Suzannes Weinen wahr und reagiert erschrocken — sein inneres Erleben wird deutlich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannt",
+        "emotion": "Erschrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 67,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das junge Mädchen hatte sich in den schönen jungen Mann vergafft, es war ganz natürlich; sie hoffte, ihn zum Gatten zu bekommen; sie hatte es sich in den Kopf gesetzt!",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Suzannes Gefühle für Duroy und ihre Heiratsabsichten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 68,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie grübelte, verwirrt, wie man überhaupt vor einem bevorstehenden Unglück verwirrt ist.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den inneren Zustand der Mutter (Madame Walter) als verwirrtes Grübeln vor einem drohenden Unglück.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 69,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Oh! welch ein treuloser Schurke war er, wenn er diesen Streich vorbereitet hat! Was würde dann geschehen? Wie viele Gefahren und wie viele Qualen glaubte sie dann vorauszusehen.",
+      "tags": [
+        "mood",
+        "social"
+      ],
+      "notiz": "Die Mutter denkt über Duroys mögliche Verrat und die damit verbundenen Gefahren nach — aus ihrer Perspektive geschildert, von aussen durch den Erzähler.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 70,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie liebte ihn noch immer. Diese Leidenschaft hatte sich in sie hineingebohrt wie Pfeilspitzen, die sich nicht wieder herausreißen lassen. Leben ohne ihn war unmöglich.",
+      "tags": [
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt die anhaltende Leidenschaft der Mutter für Duroy mit einer körperlichen Metapher — von aussen erzählt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 71,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Ihre Gedanken schweiften in dieser Angst und Ungewißheit herum. Ein heftiger Schmerz drückte auf ihren Kopf. Ihre Gedanken wurden sorgenvoll, trübe und quälten sie furchtbar.",
+      "tags": [
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen den körperlichen und geistigen Leidenszustand der Mutter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 72,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie sah nach der Uhr, es war eins vorbei.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur Tageszeit — ein Uhr nachts.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 73,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Dann ging sie ohne Schuhe, um keinen Lärm zu machen, mit der Kerze in der Hand nach dem Zimmer ihrer Tochter.",
+      "tags": [
+        "move",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die lautlose Bewegung der Mutter durchs Haus zum Zimmer ihrer Tochter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Zimmer der Tochter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 74,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie öffnete leise die Tür, trat herein und sah nach dem Bett. Es war nicht angerührt.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen das unberührte Bett Suzannes, das einen dramatischen Wendepunkt markiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Suzannes Zimmer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Suzannes Zimmer",
+        "emotion": "aufkeimender Schrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 75,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Zunächst begriff sie nichts und dachte, das Mädchen spräche vielleicht noch mit seinem Vater. Dann aber stieg plötzlich in ihr ein furchtbarer Verdacht auf und sie eilte zu ihrem Gatten.",
+      "tags": [
+        "mood",
+        "move"
+      ],
+      "notiz": "Der Erzähler schildert von aussen das plötzliche Aufsteigen des Verdachts und die hastige Bewegung der Mutter zum Zimmer des Gatten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haus Walter",
+        "emotion": "furchtbarer Verdacht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 76,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Blaß und keuchend stürzte sie in sein Zimmer. Er lag im Bett und las. Er war bestürzt.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen den dramatischen Eintritt der Mutter in das Zimmer des Gatten und dessen Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Zimmer des Gatten",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zimmer des Gatten",
+        "emotion": "Panik, Bestürzung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 77,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Mit einem Satz sprang er auf den Teppich, schlüpfte in seine Pantoffeln und stürzte ohne Unterhosen, im bloßen Hemd, das um ihn herumflatterte, in das Zimmer seiner Tochter.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt Walters hastigen Aufsprung und Bewegung durch den Raum von außen — kein inneres Erleben Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 78,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sobald er es selbst gesehen hatte, hegte er keinen Zweifel mehr. Sie war entflohen.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert Walters Erkenntnis von außen, neutral beobachtend.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 79,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er sank in einen Sessel und stellte die Lampe vor sich auf den Boden hin.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Walters körperlichen Zusammenbruch und seine Handlung von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 80,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er war nicht mehr wütend, er seufzte nur: »Es ist erledigt. Er hat sie. Wir sind verloren.«",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Walters emotionalen Zustand und seine Resignation von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 81,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er antwortete traurig: »Es nützt nichts, zu schreien. Er hat sie entführt, er hat sie auch sicher entehrt. Das beste, was wir noch tun können, ist, sie ihm zu geben. Wenn wir uns klug verhalten, wird niemand von diesem Streich etwas erfahren.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Walter kalkuliert soziale Konsequenzen von Duroys Entführung Suzannes — Maupassant beschreibt die soziale Dynamik von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 82,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Walter murmelte niedergeschmettert: »Er hat sie doch schon. Er wird sie so lange irgendwo verborgen halten, bis wir nachgeben. Um einem Skandal zu entgehen, muß man sofort nachgeben.«",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Walters Kapitulation vor Duroys Strategie von außen — soziale Machtlogik als Erzählerkommentar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 83,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "»Darüber läßt sich nicht mehr streiten. Es muß sein. Ah! Der Halunke, wie hat er uns hereingelegt ... Aber er ist stark, trotzdem. Wir hätten einen Mann aus einem viel besseren gesellschaftlichen Kreis finden können, aber keinen mit so viel Verstand und so großen Zukunftsaussichten.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Walter anerkennt widerwillig Duroys sozialen Aufstieg und Cleverness — Maupassant beleuchtet die soziale Hierarchie und Duroys Position von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 84,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Walter stand auf, nahm seine Lampe und fuhr fort",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Erzähler beschreibt Walters Handlung von aussen – keine Duroys Perspektive, sondern eine andere Figur.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 85,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Mit den Pantoffeln schlurfend, ging er hinaus. Er durchschritt wie ein komisches Gespenst im Nachthemd den breiten Flur des riesigen schlafenden Palastes und begab sich geräuschlos in sein Zimmer.",
+      "tags": [
+        "move",
+        "space",
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Walters Bewegung durch den nächtlichen Palast von aussen – atmosphärisch und räumlich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, breiter Flur (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Flur des Palastes",
+        "emotion": "Stille, gespenstische Atmosphäre",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 86,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Von entsetzlichen Schmerzen innerlich zerrissen blieb Frau Walter zurück.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt den inneren Zustand Frau Walters von aussen – keine Duroy-Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 87,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie empfand ein heftiges Verlangen zu entfliehen, fortzulaufen, Hilfe zu suchen, getröstet zu werden.",
+      "tags": [
+        "mood",
+        "move"
+      ],
+      "notiz": "Erzähler schildert Frau Walters Drang zur Flucht – inneres Erleben einer anderen Figur, nicht Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Palais Walter",
+        "emotion": "Verzweiflung, Fluchtwunsch",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 88,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie würde sich zu seinen Füßen werfen, sie würde alles gestehen, ihm ihre Sünde und Verzweiflung beichten.",
+      "tags": [
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler schildert Frau Walters religiösen Rettungsimpuls und Verzweiflung – nicht Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 89,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Da trat ihr wie eine Vision die erleuchtete Gestalt des auf dem Meere wandelnden Jesus vor Augen.",
+      "tags": [
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Eine andere Figur (nicht Duroy) erlebt eine Vision — diese Stelle ist aus der Perspektive einer anderen Figur und sollte übersprungen werden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "nicht bestimmbar",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 90,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie nahm ihr Licht, verließ das Zimmer und ging hinab in den Wintergarten.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung einer anderen Figur in den Wintergarten — räumliche Ortsangabe ohne Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 91,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Jesusbild befand sich ganz am Ende desselben in einem kleinen Räume, der mit einer Glastür verschlossen war, damit die Feuchtigkeit der Erde die Leinwand des Gemäldes nicht angreifen könnte.",
+      "tags": [
+        "space",
+        "location",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt den Aufstellungsort des Gemäldes im Wintergarten mit physischen Details.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter), kleiner Raum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 92,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Ganze sah aus wie eine kleine Kapelle in einem Wald von seltsamen Bäumen.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler vergleicht den Wintergarten mit einer Kapelle in einem seltsamen Wald — atmosphärische Raumbeschreibung von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten als Kapelle im Wald",
+        "emotion": "mystische, religiöse Stimmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 93,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Als sie den Wintergarten betrat, den sie nie anders als nur in heller Beleuchtung gesehen hatte, stand sie betroffen da vor seiner dunklen Tiefe.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die dunkle Tiefe des Wintergartens als befremdlichen Kontrast zur gewohnten Beleuchtung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten in dunkler Tiefe",
+        "emotion": "Betroffenheit, Schrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 94,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Die schweren Tropenpflanzen verdickten die Luft mit ihrem schwülen Atem.",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "weather"
+      ],
+      "notiz": "Erzähler beschreibt die schwüle, drückende Atmosphäre der Tropenpflanzen als sensorische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten mit Tropenpflanzen",
+        "emotion": "Beklemmung, Schwüle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 95,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "drang der beklemmende Duft dieses seltsamen Waldes, der von einer Glaskuppel bedeckt und umschlossen war, schwer und berauschend in die Lungen.",
+      "tags": [
+        "smell",
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt den berauschenden Duft und die Enge des glasüberdachten Wintergartens als atmosphärische Raumqualität.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter), unter Glaskuppel",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten unter Glaskuppel",
+        "emotion": "Beklemmung, Berauschung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 96,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "die Schatten der phantastisch geformten Pflanzen, auf die das schimmernde Licht der Kerze fiel, und die wie ungeheuer lebende, seltsame Mißgestalten auftauchten.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt das Kerzenlicht auf den Pflanzen, das sie als bedrohliche Gestalten erscheinen lässt — atmosphärische Raumbeschreibung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten bei Kerzenlicht",
+        "emotion": "Bedrohung, Unheimlichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 97,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Beim flackernden Licht einer einzigen Kerze, die ihn von unten schwach beleuchtete, war die Ähnlichkeit zwischen ihm und Bel-Ami noch auffallender.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die dramatische Lichtsituation und die Ähnlichkeit zwischen Christusbild und Bel-Ami.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 98,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es war nicht mehr Gott, sondern ihr Geliebter, der sie ansah. Es waren seine Augen, seine Stirn, sein Gesichtsausdruck, seine kalte und hochmütige Haltung.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Verwechslung des Christusbildes mit Georges Duroy aus Madame Walters Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 99,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Auf einmal fiel ihr ein, daß Georges vielleicht in dieser Stunde ihre Tochter verführte und in Besitz nahm. Er war allein mit ihr, irgendwo, in irgendeinem Zimmer.",
+      "tags": [
+        "location_erinnerung",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Vorstellung Madame Walters über Georges und Suzanne — keine Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "imaginierter unbekannter Ort",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 100,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Zimmer war dunkel, das Bett aufgedeckt.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den imaginierten dunklen Raum in Madame Walters Vorstellung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "imaginierter unbekannter Raum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "imaginiertes dunkles Zimmer",
+        "emotion": "Eifersucht, Schrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 101,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie faßte sie schon... ihre Hände stießen an die Leinewand des Gemäldes. Sie berührte die Füße Christi ... Sie schrie laut auf und sank zu Boden. Die Kerze war umgefallen und erlosch.",
+      "tags": [
+        "material",
+        "koerper_als_akteur",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den körperlichen Zusammenbruch Madame Walters vor dem Gemälde.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Innenraum mit Gemälde",
+        "emotion": "Schrecken, Ohnmacht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 102,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie träumte lange von seltsamen schrecklichen Dingen. Es war immer Georges und Suzanne, die vor ihre Augen traten, eng aneinander geschmiegt, und der Christus segnete ihre verruchte Liebe.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den alptraumhaften Bewusstseinszustand Madame Walters.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "imaginierter Traumraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 103,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie hatte das Gefühl, sie befinde sich nicht in ihrem Hause. Sie wollte aufstehen, fliehen, doch sie hatte keine Kraft. Eine Starrheit hatte sie befallen, ihre Glieder waren gelähmt, nur die Gedanken blieben ihr noch, wenn auch verwirrt und betört durch gräßliche, phantastische Vorstellungen. Sie war halb betäubt und träumte.",
+      "tags": [
+        "atmosphere",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den körperlichen und geistigen Zusammenbruch Madame Walters — Raumdesorientierung und Lähmung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Haus)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haus Madame Walters",
+        "emotion": "Desorientierung, Lähmung, Betäubung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 104,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es war ein ungesunder, seltsamer und bisweilen tödlicher Traum, den die einschläfernden tropischen Pflanzen mit ihren wundervollen Formen und schwülem Duft in das Menschengehirn eindringen lassen.",
+      "tags": [
+        "atmosphere",
+        "smell"
+      ],
+      "notiz": "Maupassant beschreibt als Erzähler die betäubende, gefährliche Atmosphäre der tropischen Pflanzen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gewächshaus/Wintergarten bei den Walters",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten",
+        "emotion": "Betäubung, Gefahr",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 105,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Bei Tagesanbruch fand man Frau Walter bewußtlos und halbtot vor dem Christusbild auf dem Rücken ausgestreckt liegen.",
+      "tags": [
+        "time",
+        "atmosphere"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur Tageszeit (Tagesanbruch) und zum Zustand Frau Walters.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten bei den Walters",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 106,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Herr Walter antwortete Du Roy auf seinen langen Brief und sagte ihm die Hand seiner Tochter zu.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Transaktion (Heiratsversprechen) zwischen Walter und Duroy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 107,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Bel-Ami hatte seinen Brief in den Postkasten geworfen, in dem Augenblick, wo er Paris verließ, denn er hatte ihn schon am Abend vor der Entführung geschrieben.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Handlung beim Verlassen von Paris und das Einwerfen des Briefes.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (Stadtgrenze/Ausfahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 108,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "In respektvollen Ausdrücken teilte er darin mit, daß er seit langem schon das junge Mädchen liebe, daß jedoch nie eine Verabredung zwischen ihnen beiden bestanden hatte, daß er aber, als sie in voller Freiheit zu ihm gekommen war, um ihm zu sagen: »Ich will Ihre Frau sein«, sich für berechtigt hielt, sie zu behalten und sogar zu verbergen, bis er von den Eltern eine Antwort erhalten würde, deren rechtmäßigen Willen er respektiere, aber für weniger maßgebend halte, als den Willen seiner Verlobten selbst.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant referiert den Briefinhalt Duroys und seine soziale Strategie zur Legitimierung der Entführung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 109,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Als er seinen Zweck erreicht hatte, brachte er Suzanne nach Paris und schickte sie zu ihren Eltern zurück; er selbst hielt sich eine Weile von ihnen fern.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Rückkehr nach Paris und sein strategisches Fernbleiben von den Walters.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 110,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie hatten sechs Tage an der Seine in La Roche-Guyon verbracht.",
+      "tags": [
+        "location",
+        "time"
+      ],
+      "notiz": "Erzähler nennt konkret den Aufenthaltsort (La Roche-Guyon an der Seine) und die Dauer des Aufenthalts.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 111,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Noch nie hatte sich das junge Mädchen so amüsiert. Sie spielte die Bäuerin.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die unbeschwerte, spielerische Stimmung Suzannes in La Roche-Guyon.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "La Roche-Guyon",
+        "emotion": "Unbeschwertheit, Vergnügen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 112,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Und da er sie als seine Schwester ausgab, so lebten sie ungeniert und keusch nebeneinander, in einer Art verliebter Kameradschaft.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das soziale Arrangement und die Atmosphäre der Kameradschaft zwischen Duroy und Suzanne.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 113,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hielt es für gescheiter, sie nicht anzurühren.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy kalkuliert strategisch und beherrscht bewusst sein Verhalten gegenüber Suzanne.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 114,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie angelte und trug dabei auf dem Kopf einen riesigen Strohhut mit Feldblumen. Sie fand die Gegend bezaubernd. Es gab da einen alten Turm und ein altes Schloß, wo man prächtige Wandteppiche zeigte.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die ländliche Umgebung mit Strohhut, Turm und Schloss als idyllische Kulisse von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ländliche Gegend ausserhalb von Paris (Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "ländliche Gegend",
+        "emotion": "Bezauberung, Idylle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 115,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges trug eine Bauernbluse, die er sich im Dorfe beim Kaufmann erstanden hatte.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Duroys verkleidetes Äusseres im Dorf — soziale Maskerade von aussen beobachtet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Dorf (ländliche Umgebung, Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 116,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er machte mit Suzanne Ausflüge entweder zu Fuß am Fluß entlang, oder im Boot.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die gemeinsamen Ausflüge Duroys und Suzannes entlang des Flusses als Erzählerkommentar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Fluss in ländlicher Umgebung (Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18
+    },
+    {
+      "id": 117,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Sie küßten sich jeden Augenblick. Suzanne in voller Unschuld, er bereit, seiner Begierde zu unterliegen. Doch er nahm sich zusammen",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys innere Begierde und Selbstbeherrschung werden aus seiner Perspektive geschildert — emotionaler Kampf zwischen Begehren und Kontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ländliche Umgebung (Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "ländliche Idylle",
+        "emotion": "Begierde, Selbstkontrolle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18
+    },
+    {
+      "id": 118,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "als er ihr sagte: »Morgen kehren wir nach Paris zurück, Ihr Vater versichert mir Ihre Hand«",
+      "tags": [
+        "george_duroy",
+        "location",
+        "move",
+        "social"
+      ],
+      "notiz": "Duroy plant die Rückkehr nach Paris und nennt den sozialen Aufstieg durch die Heirat — Paris als Ziel des strategischen Handelns.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (als Rückkehrziel genannt)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "soziale Ambition, kalkuliertes Handeln",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 18
+    }
+  ]
+}

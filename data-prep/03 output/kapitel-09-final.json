@@ -1,0 +1,5904 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 10,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 205,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "Georges Duroy hatte sich wieder ganz in seine alten Gewohnheiten eingelebt.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen, dass Duroy zu alten Routinen zurückgekehrt ist.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 2,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "In seiner kleinen Parterrewohnung in der Rue Constantinople lebte er still und zurückgezogen, wie ein Mann, der sich auf eine neue Lebensführung vorbereitet.",
+      "tags": [
+        "location",
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant benennt konkret die Rue Constantinople als Wohnort Duroys und beschreibt seinen zurückgezogenen Lebensstil von aussen.",
+      "koordinaten": {
+        "lat": 48.8792,
+        "lng": 2.3142,
+        "ort_bezeichnung": "Rue de Constantinople, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 3,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "Selbst seine Beziehungen zu Madame de Marelle hatten jetzt einen ehelichen Charakter angenommen, als ob er sich für das bevorstehende Ereignis einüben wollte.",
+      "tags": [
+        "social",
+        "george_duroy"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen den quasi-ehelichen Charakter von Duroys Verhältnis zu Madame de Marelle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 4,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "Frau Forestier weilte noch immer in Cannes.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Maupassant nennt Cannes als aktuellen Aufenthaltsort von Frau Forestier.",
+      "koordinaten": {
+        "lat": 43.5528,
+        "lng": 7.0174,
+        "ort_bezeichnung": "Cannes",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 5,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "figur",
+      "text": "Er wartete; er war jetzt fest entschlossen, sie zu heiraten und alle Mittel anzuwenden, falls sie noch zaudern sollte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy erlebt das Warten aktiv und ist innerlich fest entschlossen — sein innerer Zustand und emotionale Zeitwahrnehmung werden sichtbar.",
+      "koordinaten": {
+        "lat": 48.8792,
+        "lng": 2.3142,
+        "ort_bezeichnung": "Rue de Constantinople, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Parterrewohnung Rue Constantinople",
+        "emotion": "Entschlossenheit, Ungeduld beim Warten",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 6,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "figur",
+      "text": "Er vertraute auf sein Glück und auf die unwiderstehliche Anziehungskraft, die er auf alle Frauen ausübte, und deren er sich wohl bewußt war.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert innerlich sein Selbstbewusstsein bezüglich seines Charmes und seiner Chancen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 7,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "Ein paar kurze Zeilen benachrichtigten ihn, daß die Entscheidungsstunde bald schlagen würde. »Ich bin in Paris, kommen Sie, mich besuchen. Madeleine Forestier.«",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "notiz": "Der Erzähler informiert neutral über den Brief und nennt Paris als Rückkehrdestination von Madeleine Forestier.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 8,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "Er erhielt den Brief mit der Neunuhrpost und kam am selben Tage um drei zu ihr.",
+      "tags": [
+        "time",
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Der Erzähler gibt neutral die Uhrzeit und die Bewegung Duroys zu Forestier an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Madeleine Forestier, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 9,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10, Zweiter Teil",
+      "perspektive": "erzaehler",
+      "text": "Sie reichte ihm beide Hände und lächelte mit ihrem reizenden, liebenswürdigen Lächeln, und einige Sekunden lang sahen sie einander tief in die Augen.",
+      "tags": [
+        "george_duroy",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die Begegnung zwischen Duroy und Forestier von aussen — Geste, Lächeln, Blickkontakt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung Madeleine Forestier, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 10,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er glaubte, sie zu verstehen; er glaubte in ihrem Lächeln, in dem Ton ihrer Stimme, ja selbst in ihren Worten eine Art Aufforderung zu finden.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy interpretiert die Signale der Frau aus seiner inneren Perspektive als Aufforderung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 11,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er hatte sich zwar vorgenommen, die Sache nicht zu überstürzen, aber dann konnte er nicht mehr an sich halten und stammelte: »Nun ja ... warum ... warum wollen Sie denn nicht diese Tätigkeit unter ... dem Namen Duroy wieder aufnehmen?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy verliert die Kontrolle über seinen Vorsatz und handelt impulsiv aus innerer Erregung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 12,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Doch er verstand, daß sie »ja« sagte; er sank auf die Knie, küßte leidenschaftlich ihre Hände und stotterte immerfort: »Oh, danke, danke, wie ich Sie liebe.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy interpretiert ihre Reaktion als Zustimmung und reagiert mit einem körperlich ausdrucksstarken Gefühlsausbruch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 13,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Da wurde ihm klar, daß er ihr gefallen hatte, und vielleicht schon seit längerer Zeit.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erkennt aus ihrer Blässe, dass seine Zuneigung erwidert wird — eine innere Erkenntnis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 14,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er schwor es und ging; sein Herz jauchzte vor Freude.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "move"
+      ],
+      "notiz": "Duroy verlässt die Szene in einem Zustand hochgespannter innerer Freude.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 15,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Von da ab besuchte er sie stets mit großer Vorsicht und bat sie auch nicht um eine bestimmte Zusage, denn ihre Art, wie sie über die Zukunft sprach, wie sie »später« sagte und allerlei Pläne entwarf, in denen sie beide eine Rolle spielten, sprach deutlicher und doch zarter als ein formelles Jawort.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Duroys taktisches Verhalten und die implizite Verlobungsdynamik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 16,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Duroy arbeitete fleißig, gab wenig aus, versuchte etwas Geld zurückzulegen, um bei seiner Heirat wenigstens etwas Geld zu besitzen. Er wurde nun ebenso geizig, wie er früher verschwenderisch gewesen war.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Duroys veränderten Umgang mit Geld im Hinblick auf seine soziale Aufstiegsstrategie von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 17,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Sommer ging vorbei und dann der Herbst, ohne daß jemand auf den geringsten Verdacht kam, denn sie sahen sich selten und so unauffällig wie möglich.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Maupassant gibt neutral die verstrichene Zeit (Sommer, Herbst) und die diskrete Vorgehensweise der beiden an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 18,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Eines Abends fragte ihn Madeleine und sah ihm dabei tief in die Augen",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Zeitangabe durch den Erzähler (Abend) ohne emotionalen Bezug.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 19,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er war rot geworden: »Ja, gut, morgen«, sagte er.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Verlegenheit (Erröten) zeigt inneres Erleben — er muss Madame de Marelle die bevorstehende Heirat mitteilen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 20,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Ihre Eltern wohnen in der Nähe von Rouen, nicht wahr? So sagten Sie mir wenigstens.« »Ja, dicht bei Rouen, in Canteleu.«",
+      "tags": [
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy nennt den Herkunftsort seiner Eltern in Canteleu bei Rouen — persönliche Erinnerung an einen Ort seiner Vergangenheit.",
+      "koordinaten": {
+        "lat": 49.4397,
+        "lng": 1.0329,
+        "ort_bezeichnung": "Canteleu bei Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 21,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Erschrocken verstummte er. »Ja ... aber ... es sind ...« Dann nahm er sich zusammen",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert erschrocken und verlegen, als Madeleine die Eltern kennenlernen möchte — innerer Konflikt zwischen Scham und Fassung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 22,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Meine teuerste Freundin, es sind Bauern, die ein Wirtshaus besitzen, die sich Hände und Füße blutig gearbeitet haben, damit ich studieren konnte. Ich schäme mich ihrer nicht, aber ihre bäuerliche Einfachheit ... könnte Ihnen vielleicht doch peinlich sein.«",
+      "tags": [
+        "george_duroy",
+        "social",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy reflektiert die soziale Herkunft seiner Eltern und seine eigene Klassenposition — inneres Erleben von Scham und Rechtfertigung.",
+      "koordinaten": {
+        "lat": 49.4397,
+        "lng": 1.0329,
+        "ort_bezeichnung": "Canteleu bei Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus in Canteleu",
+        "emotion": "Scham, soziale Unsicherheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 23,
+      "zeile": 28,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er fühlte sich gerührt und ergriffen. Noch nie hatte eine Frau ihn so bezaubert.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt tiefe emotionale Bewegtheit gegenüber Madeleine — Höhepunkt seiner Faszination für sie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 24,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er antwortete einfach: »Ich habe schon oft darüber nachgedacht, aber es scheint wohl nicht so einfach zu sein.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert innerlich über die Möglichkeit einer Nobilitierung seines Namens — ein sozialer Aufstiegswunsch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt/innen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 25,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er lachte. »Weil ich nicht lächerlich erscheinen will.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy zeigt Bewusstsein für soziale Konventionen und mögliche Blamage beim Adeln des Namens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt/innen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 26,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er antwortete schnell, wie jemand, der sich in solchen Dingen gut auskennt: »Nein, das geht nicht. Das Verfahren ist zu einfach, zu gewöhnlich und zu bekannt. Wohl habe ich schon daran gedacht, den Namen meiner Heimat anzunehmen; zunächst als literarischen Decknamen, ihn dann allmählich dem meinigen hinzuzufügen. Später könnte ich, wie Sie vorschlagen, meinen Namen teilen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy offenbart einen bereits ausgedachten Plan zur schrittweisen Nobilitierung seines Namens — inneres Kalkül und sozialer Aufstiegswille.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt/innen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 27,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Einige Sekunden überlegte er, dann erklärte er ernst: »Ja, so ist es ausgezeichnet.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy billigt nach kurzem Nachdenken den vorgeschlagenen Namen 'Duroy de Cantel' — innere Zustimmung zu einem sozialen Aufstiegssymbol.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt/innen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 28,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "auf dem er las: »Madame Duroy de Cantel.«",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy liest den neuen Namen auf dem Papier — ein konkreter Moment der Konfrontation mit dem erstrebten sozialen Aufstieg.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt/innen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 29,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Canteleu ist Ihre Heimat?« »Ja.«",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung"
+      ],
+      "notiz": "Canteleu wird als Heimatort Duroys benannt — persönliche Herkunftserinnerung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Canteleu (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 30,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Als er sich auf der Straße befand, war er fest entschlossen, sich in Zukunft nur noch Du Roy oder selbst Du Roy de Cantel zu nennen.",
+      "tags": [
+        "location",
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy betritt die Straße mit einem neuen festen Entschluss bezüglich seines Namens.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in der Nähe von Madeleines Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 31,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Und er fühlte sich, als wäre ihm eine ganz neue Würde übertragen worden.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt ein inneres Gefühl von neuem sozialem Aufstieg und Würde.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße, Paris",
+        "emotion": "Stolz, Würdegefühl",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 32,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er ging forscher, trug den Kopf höher und den Schnurrbart stolz gewirbelt, wie es einem Edelmann geziemt.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "move",
+        "social"
+      ],
+      "notiz": "Duroys Körperhaltung auf der Straße spiegelt sein neu gewonnenes Standesgefühl wider.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße, Paris",
+        "emotion": "Stolz, soziale Selbsterhöhung",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 33,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er hatte die größte Lust, allen Vorübergehenden zuzurufen: »Ich heiße jetzt Du Roy de Cantel.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "space"
+      ],
+      "notiz": "Duroy empfindet einen impulsiven Drang, seinen neuen Namen allen Passanten auf der Straße mitzuteilen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße, Paris",
+        "emotion": "Euphorie, Stolz",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 34,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Aber kaum war er in seiner Wohnung angelangt, da begann ihn der Gedanke an Madame de Marelle zu beunruhigen.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Duroy erreicht seine Wohnung und wird sogleich von Gedanken an Madame de Marelle beunruhigt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 35,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "da begann ihn der Gedanke an Madame de Marelle zu beunruhigen.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt emotionale Beunruhigung bei dem Gedanken an Madame de Marelle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung, Paris",
+        "emotion": "Beunruhigung, Unbehagen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 36,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Es wird eine schwere Stunde werden,« dachte er, »ich werde einen schrecklichen Sturm heraufbeschwören.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy antizipiert die bevorstehende Konfrontation mit Madame de Marelle als emotionalen Sturm.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 37,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "In seiner gewohnten Sorglosigkeit, die ihn alle unangenehmen Dinge des Lebens einfach beiseite schieben ließ, wußte er sich sehr leicht zu trösten und begann einen phantastischen Artikel über die neuen Steuern zu schreiben, durch die das Budget gedeckt werden sollte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys charakteristische Sorglosigkeit ermöglicht ihm, Unangenehmes zu verdrängen und sich abzulenken.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 38,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Er forderte für die Adelsprädikate »de« (von) hundert Francs Jahressteuer, und für die Titel vom Baron bis zum Fürsten fünfhundert bis fünftausend Francs.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt Duroys satirischen Artikel über Adelssteuern und verweist auf zeitgenössische gesellschaftliche Strukturen der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 39,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Am folgenden Tage erhielt er von seiner Geliebten ein blaues Briefchen, das ihren Besuch um ein Uhr ankündigte.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Zeitangabe: Am nächsten Tag kündigt Madame de Marelle ihren Besuch brieflich an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 40,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er erwartete sie in etwas fieberhaftem Zustande.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy erlebt das Warten in einem emotional aufgewühlten Zustand — inneres Erleben der Anspannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 41,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Übrigens war er fest entschlossen, die Sache schnell und energisch zu erledigen, gleich alles herauszusagen und ihr dann nach der ersten Erregung mit allen möglichen Gründen zu beweisen, daß er nicht ewig Junggeselle bleiben könnte; und da Herr de Marelle durchaus nicht sterben wollte, so bliebe ihm eben nichts anderes übrig, als sich nach einer anderen rechtmäßigen Lebensgefährtin umzusehen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy plant strategisch sein Vorgehen und reflektiert seine soziale Lage — inneres Kalkül und Entschlossenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 42,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Trotzdem fühlte er sich innerlich erregt, und als die Klingel ertönte, begann sein Herz laut zu klopfen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur",
+        "sound"
+      ],
+      "notiz": "Duroys körperliche Reaktion auf das Klingeln zeigt seine innere Aufgewühltheit — Herzklopfen als körperlicher Ausdruck emotionaler Anspannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Erregung, Anspannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 43,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er hatte den Blick gesenkt und begann nun mit langsamer Stimme: »Meine Liebste, du siehst, wie schmerzlich und peinlich mich das erregt, was ich dir jetzt sagen muß. Ich liebe dich sehr, ich liebe dich wirklich aus tiefstem Herzen, und der Gedanke, dir Schmerzen bereiten zu müssen, betrübt mich mehr als die Nachricht selbst, die ich dir mitteile.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy inszeniert seine Betroffenheit bewusst — sein inneres Erleben ist von geheuchelter Niedergeschlagenheit geprägt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 44,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Er versetzte in traurigem, aber entschlossenem Tone mit jener geheuchelten Niedergeschlagenheit, mit der man angenehme Unglücksnachrichten zu erzählen pflegt: »Ich will heiraten.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant kommentiert von aussen Duroys geheuchelte Haltung und enthüllt die soziale Taktik hinter seiner Rede.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 45,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Als er sah, daß sie nichts erwiderte, begann er von neuem: »Du kannst dir nicht vorstellen, was ich gelitten habe, ehe ich zu diesem Entschluß kam. Aber ich habe weder eine gesicherte Stellung noch Geld. Allein bin ich in Paris verloren.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy reflektiert seine soziale und finanzielle Lage in Paris als Argument — die Stadt erscheint ihm als Ort der Verlorenheit ohne Absicherung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Verlorenheit, soziale Unsicherheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 46,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "er erwartete einen Wutanfall, heftige Beleidigungen und Schimpfworte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erwartet innerlich eine bestimmte emotionale Reaktion von Clotilde und ist mental vorbereitet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 47,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie preßte die eine Hand auf ihr Herz, als müßte sie es halten; sie atmete mühsam und schluchzte ununterbrochen, so daß ihre Brust wogte und der Kopf zitterte.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Clotildes körperliche Reaktion von außen — Schmerz und Fassungslosigkeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 48,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Er ergriff ihre andere Hand, die auf der Lehne des Sessels lag, doch sie zog sie heftig zurück.",
+      "tags": [
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt die körperliche Interaktion zwischen Duroy und Clotilde von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 49,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Und wie gelähmt murmelte sie: »Oh ... Mein Gott! ...« Er kniete vor ihr nieder, wagte aber nicht, sie zu berühren.",
+      "tags": [
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt Duroys kniende Haltung und seine Zurückhaltung von außen als physische Geste im Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 50,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Ihr Schweigen erregte ihn mehr als ein Zornausbruch es vermocht hätte",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt Clotildes Schweigen als stärkere emotionale Provokation als erwarteten Zorn.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 51,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er sah zwei große Tränen langsam in den starren Augen seiner Geliebten wachsen und dann über ihre Wangen rinnen, während sich schon wieder zwei neue zwischen den Augenlidern bildeten.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy nimmt aus seiner Perspektive Clotildes Tränen wahr — visuelle Beobachtung aus seiner Sicht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 52,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Oh, weine nicht, Clo, weine nicht, ich bitte dich darum. Du zerreißt mir das Herz.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy äußert seine emotionale Betroffenheit — inneres Erleben von Mitgefühl oder Schuldgefühl.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 53,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Ich muß mir eine Stellung in der Gesellschaft schaffen, und das kann ich nicht, solange ich kein Heim habe",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert seinen sozialen Aufstiegswillen und seine gesellschaftliche Lage als inneres Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 54,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er sah ein, daß er es sagen müßte: »Madeleine Forestier.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erkennt innerlich die Notwendigkeit, den Namen zu nennen — eine innere Einsicht mit emotionaler Qualität.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 55,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy fühlte, daß sie gehen wollte, ohne ein Wort des Vorwurfs oder der Verzeihung, und das verletzte und demütigte ihn bis ins Tiefste seiner Seele.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt die drohende Abreise Clotildes als Verletzung und Demütigung — starkes inneres emotionales Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 56,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er wollte sie zurückhalten und umschlang mit beiden Armen ihr Kleid. Er fühlte, wie ihre runden Schenkel sich unter dem Rock spannten, um ihm Widerstand zu leisten.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "material"
+      ],
+      "notiz": "Duroy handelt körperlich und nimmt den physischen Widerstand Clotildes taktil wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 57,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie machte sich mit einer schnellen Bewegung nach rückwärts von ihm los und ging fort, ohne daß er noch versucht hätte, sie zurückzuhalten.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Maupassant beschreibt Clotildes Weggang von aussen — Duroy unternimmt nichts mehr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 58,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Als er allein war, stand er auf, betäubt, als hätte er einen Schlag auf den Kopf erhalten.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy erlebt die Einsamkeit nach Clotildes Abgang als körperliche Betäubung — metaphorischer Schlag.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbestimmter Innenraum",
+        "emotion": "Betäubung, Schock",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 59,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Dann nahm er sich zusammen und murmelte: »Na, so oder so, es ist erledigt ... wenigstens ohne Szene. Das ist mir ganz recht.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy rationalisiert innerlich die Trennung und versucht, Erleichterung zu empfinden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 60,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Und plötzlich fühlte er sich wie von einer schweren Last befreit; das neue Leben konnte beginnen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy erlebt einen abrupten emotionalen Umschwung — das Gefühl der Befreiung und des sozialen Aufstiegs durch die bevorstehende Heirat.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 61,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Auf einmal begann er mit der Faust gegen die Wand zu schlagen, mit heftigen Schlägen, berauscht von Kraft und Erfolg, als kämpfe er mit dem Schicksal.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroys Körper wird zum Ausdrucksmittel seines triumphalen Gefühlszustands — er kämpft symbolisch gegen das Schicksal.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmter Innenraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbestimmter Innenraum",
+        "emotion": "Triumph, Rausch, Machgefühl",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 62,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die Kunde verbreitete sich rasch. Die einen waren erstaunt, die andern behaupteten, sie hätten es vorausgesehen, andere lächelten und ließen durchblicken, es hätte sie keineswegs überrascht.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die gesellschaftliche Reaktion auf Duroys Verlobung — soziales Milieu der Pariser Presse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Pariser Gesellschaft / Redaktionsumfeld",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 63,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der junge Mann zeichnete jetzt die Feuilletons mit D.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Maupassant registriert von aussen Duroys neuen Signatur-Status als Zeichen seines sozialen Aufstiegs in der Presse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Redaktion La Vie Française, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 64,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Er verbrachte den halben Tag bei seiner Verlobten, die ihn mit brüderlicher Vertrautheit behandelte, in die sich jedoch eine wirkliche, wenn auch zurückhaltende Vertraulichkeit mischte, eine Art Verlangen, das verborgen blieb, aus Furcht, für eine Schwäche gehalten zu werden.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die emotionale Dynamik zwischen Duroy und seiner Verlobten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wohnung der Verlobten, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 65,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie hatten beschlossen, daß die Hochzeit in aller Stille stattfinden sollte, nur in Gegenwart der Trauzeugen, und daß sie noch am selben Abend nach Rouen abreisen wollten.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt sachlich die Hochzeitspläne des Paares.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris / Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 66,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy versuchte, sie von diesem Vorhaben abzubringen, aber es gelang ihm nicht, und so fügte er sich schließlich.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys inneres Widerstreben und schliessliches Nachgeben gegenüber dem Reiseplan wird aus seiner Perspektive beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 67,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der 10. Mai war gekommen.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Datumsangabe durch den Erzähler.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 68,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Das junge Paar begab sich zum Standesamt, und da sie die kirchliche Trauung für überflüssig hielten und keinen Menschen eingeladen hatten, kehrten sie nach Hause zurück, um ihre Koffer zu schließen.",
+      "tags": [
+        "move",
+        "location",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt sachlich die Bewegung des Paares zum Standesamt und zurück.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Standesamt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 69,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Mit dem Zuge um sechs Uhr abends fuhren sie vom Bahnhof Saint-Lazare nach der Normandie.",
+      "tags": [
+        "move",
+        "location",
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur Abfahrtszeit und zum Abfahrtsort Bahnhof Saint-Lazare.",
+      "koordinaten": {
+        "lat": 48.8757,
+        "lng": 2.3247,
+        "ort_bezeichnung": "Bahnhof Saint-Lazare, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3247565,
+          48.875654
+        ],
+        [
+          2.3247982,
+          48.87566
+        ],
+        [
+          2.3248588,
+          48.875461
+        ],
+        [
+          2.3247313,
+          48.8754425
+        ],
+        [
+          2.3245393,
+          48.8754116
+        ],
+        [
+          2.324035,
+          48.8753191
+        ],
+        [
+          2.3237774,
+          48.8755585
+        ],
+        [
+          2.3237432,
+          48.8755465
+        ],
+        [
+          2.3230398,
+          48.8758311
+        ],
+        [
+          2.3229203,
+          48.8759738
+        ],
+        [
+          2.3227711,
+          48.875887
+        ],
+        [
+          2.3216941,
+          48.8767508
+        ],
+        [
+          2.3216395,
+          48.8767193
+        ],
+        [
+          2.3214591,
+          48.8767278
+        ],
+        [
+          2.3214502,
+          48.8767599
+        ],
+        [
+          2.3214908,
+          48.8768415
+        ],
+        [
+          2.3215412,
+          48.8768908
+        ],
+        [
+          2.3199505,
+          48.8781215
+        ],
+        [
+          2.3185033,
+          48.8792142
+        ],
+        [
+          2.3181613,
+          48.8794615
+        ],
+        [
+          2.3180752,
+          48.8795445
+        ],
+        [
+          2.3180829,
+          48.8795666
+        ],
+        [
+          2.3173797,
+          48.8803136
+        ],
+        [
+          2.3170656,
+          48.8806441
+        ],
+        [
+          2.3170413,
+          48.8806444
+        ],
+        [
+          2.316921,
+          48.8807714
+        ],
+        [
+          2.3166959,
+          48.8810386
+        ],
+        [
+          2.3166229,
+          48.881095
+        ],
+        [
+          2.3162491,
+          48.8811439
+        ],
+        [
+          2.3154511,
+          48.881388
+        ],
+        [
+          2.3152664,
+          48.8813814
+        ],
+        [
+          2.3151894,
+          48.8814663
+        ],
+        [
+          2.3153151,
+          48.881682
+        ],
+        [
+          2.3147773,
+          48.8818116
+        ],
+        [
+          2.3142468,
+          48.8822564
+        ],
+        [
+          2.3141764,
+          48.8823028
+        ],
+        [
+          2.3141082,
+          48.8823464
+        ],
+        [
+          2.3129159,
+          48.8832165
+        ],
+        [
+          2.3129093,
+          48.8832341
+        ],
+        [
+          2.3127566,
+          48.8833447
+        ],
+        [
+          2.312932,
+          48.8834659
+        ],
+        [
+          2.3122696,
+          48.8838867
+        ],
+        [
+          2.3123462,
+          48.8839387
+        ]
+      ]
+    },
+    {
+      "id": 70,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Bis zu dem Augenblick, wo sie allein im Eisenbahnzuge waren, hatten sie keine zwanzig Worte miteinander gewechselt.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Stille und Distanz zwischen dem Paar im Zugabteil.",
+      "koordinaten": {
+        "lat": 48.8757,
+        "lng": 2.3247,
+        "ort_bezeichnung": "Eisenbahnzug ab Bahnhof Saint-Lazare",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 71,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Sobald sie merkten, daß der Zug sich in Bewegung setzte, sahen sie sich an und begannen zu lächeln, um eine gewisse Verlegenheit zu verbergen, von der sie nichts merken lassen wollten.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt gemeinsam mit seiner Frau eine Verlegenheit bei der Abfahrt, die durch Lächeln verborgen wird.",
+      "koordinaten": {
+        "lat": 48.8757,
+        "lng": 2.3247,
+        "ort_bezeichnung": "Eisenbahnzug ab Bahnhof Saint-Lazare",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Eisenbahnzug",
+        "emotion": "Verlegenheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 72,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Zug fuhr langsam durch den langen Bahnhof von Batignolles, dann durcheilte er die häßliche, flache Strecke zwischen den Forts und der Seine.",
+      "tags": [
+        "move",
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Fahrtroute durch Batignolles und die unattraktive Stadtlandschaft.",
+      "koordinaten": {
+        "lat": 48.8839,
+        "lng": 2.3127,
+        "ort_bezeichnung": "Bahnhof Batignolles / Strecke zwischen Forts und Seine, Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3123462,
+          48.8839387
+        ],
+        [
+          2.3122696,
+          48.8838867
+        ],
+        [
+          2.3121277,
+          48.8838345
+        ],
+        [
+          2.3121173,
+          48.883802
+        ],
+        [
+          2.311995,
+          48.8837256
+        ],
+        [
+          2.312547,
+          48.8833177
+        ],
+        [
+          2.3125164,
+          48.8832969
+        ],
+        [
+          2.3125049,
+          48.8831978
+        ],
+        [
+          2.312511,
+          48.8831961
+        ],
+        [
+          2.3118005,
+          48.8825173
+        ],
+        [
+          2.3117655,
+          48.8825131
+        ],
+        [
+          2.3116874,
+          48.882434
+        ],
+        [
+          2.3115411,
+          48.882299
+        ],
+        [
+          2.3115149,
+          48.8822756
+        ],
+        [
+          2.3112877,
+          48.8820592
+        ],
+        [
+          2.3110901,
+          48.881915
+        ],
+        [
+          2.3110476,
+          48.8818619
+        ],
+        [
+          2.3110273,
+          48.8818272
+        ],
+        [
+          2.3110324,
+          48.8818033
+        ],
+        [
+          2.3095571,
+          48.8807105
+        ],
+        [
+          2.3093364,
+          48.8806777
+        ],
+        [
+          2.3094093,
+          48.8803637
+        ],
+        [
+          2.3092347,
+          48.8803444
+        ],
+        [
+          2.3091496,
+          48.8803216
+        ],
+        [
+          2.3090204,
+          48.8803218
+        ],
+        [
+          2.3089764,
+          48.8802905
+        ],
+        [
+          2.3088885,
+          48.8802793
+        ],
+        [
+          2.3051813,
+          48.8794388
+        ],
+        [
+          2.30515,
+          48.8794235
+        ],
+        [
+          2.3049684,
+          48.8794039
+        ],
+        [
+          2.3049402,
+          48.8794007
+        ],
+        [
+          2.3037857,
+          48.879139
+        ],
+        [
+          2.3035363,
+          48.8790824
+        ],
+        [
+          2.3034797,
+          48.8790855
+        ],
+        [
+          2.3031497,
+          48.8790163
+        ],
+        [
+          2.3030926,
+          48.8790179
+        ],
+        [
+          2.3019117,
+          48.8787558
+        ],
+        [
+          2.3010951,
+          48.8785768
+        ],
+        [
+          2.3010466,
+          48.8785625
+        ],
+        [
+          2.3008743,
+          48.87853
+        ],
+        [
+          2.3006969,
+          48.8784868
+        ],
+        [
+          2.3004974,
+          48.8784456
+        ],
+        [
+          2.2987848,
+          48.8780815
+        ],
+        [
+          2.2985903,
+          48.8777946
+        ],
+        [
+          2.2983779,
+          48.8775825
+        ],
+        [
+          2.2980464,
+          48.8776406
+        ],
+        [
+          2.2973783,
+          48.8766702
+        ],
+        [
+          2.2971302,
+          48.8763284
+        ],
+        [
+          2.2970305,
+          48.8761912
+        ],
+        [
+          2.2968331,
+          48.8759197
+        ],
+        [
+          2.2967272,
+          48.8757735
+        ],
+        [
+          2.2965049,
+          48.8754672
+        ],
+        [
+          2.2964257,
+          48.8753582
+        ],
+        [
+          2.2962408,
+          48.8751427
+        ],
+        [
+          2.2958969,
+          48.8752559
+        ],
+        [
+          2.2958642,
+          48.8752199
+        ],
+        [
+          2.2958009,
+          48.8751328
+        ],
+        [
+          2.2955288,
+          48.8747925
+        ],
+        [
+          2.2950097,
+          48.8748436
+        ],
+        [
+          2.2949822,
+          48.8748433
+        ],
+        [
+          2.2947426,
+          48.8748233
+        ],
+        [
+          2.2947114,
+          48.8748191
+        ],
+        [
+          2.2943317,
+          48.8747331
+        ],
+        [
+          2.2942949,
+          48.8747196
+        ],
+        [
+          2.2940836,
+          48.8746285
+        ],
+        [
+          2.2940711,
+          48.8746231
+        ],
+        [
+          2.293831,
+          48.8744816
+        ],
+        [
+          2.2938086,
+          48.8744637
+        ],
+        [
+          2.2937113,
+          48.8743786
+        ],
+        [
+          2.2935079,
+          48.8741081
+        ],
+        [
+          2.2934957,
+          48.8740938
+        ],
+        [
+          2.2934417,
+          48.8739709
+        ],
+        [
+          2.2934296,
+          48.8738206
+        ],
+        [
+          2.2928395,
+          48.8737311
+        ],
+        [
+          2.2926997,
+          48.8737337
+        ],
+        [
+          2.2926531,
+          48.8737288
+        ],
+        [
+          2.2925446,
+          48.8737177
+        ],
+        [
+          2.2925536,
+          48.8736775
+        ],
+        [
+          2.2925582,
+          48.8736574
+        ],
+        [
+          2.2923761,
+          48.873646
+        ],
+        [
+          2.2909138,
+          48.8735119
+        ],
+        [
+          2.2906277,
+          48.8734846
+        ],
+        [
+          2.2891312,
+          48.8733126
+        ],
+        [
+          2.2879977,
+          48.8731945
+        ],
+        [
+          2.2875774,
+          48.8731465
+        ],
+        [
+          2.2869799,
+          48.8730782
+        ],
+        [
+          2.2865295,
+          48.8730268
+        ],
+        [
+          2.2858389,
+          48.8729489
+        ],
+        [
+          2.2847451,
+          48.8728285
+        ],
+        [
+          2.2846953,
+          48.8728512
+        ],
+        [
+          2.2842964,
+          48.8727929
+        ],
+        [
+          2.2838805,
+          48.8727394
+        ],
+        [
+          2.2831752,
+          48.8726606
+        ],
+        [
+          2.2798314,
+          48.8722854
+        ],
+        [
+          2.2796454,
+          48.8722652
+        ],
+        [
+          2.2782686,
+          48.8721166
+        ],
+        [
+          2.2766955,
+          48.8719452
+        ],
+        [
+          2.2763635,
+          48.8718942
+        ],
+        [
+          2.2762254,
+          48.8718783
+        ],
+        [
+          2.2755811,
+          48.8720982
+        ],
+        [
+          2.2753821,
+          48.8722013
+        ],
+        [
+          2.2745031,
+          48.8722593
+        ],
+        [
+          2.2744392,
+          48.8722399
+        ],
+        [
+          2.2737927,
+          48.8726059
+        ],
+        [
+          2.2737321,
+          48.8726391
+        ],
+        [
+          2.2736715,
+          48.8726723
+        ],
+        [
+          2.2735074,
+          48.872731
+        ],
+        [
+          2.2734451,
+          48.8727665
+        ],
+        [
+          2.2732853,
+          48.8726464
+        ],
+        [
+          2.2727618,
+          48.8729262
+        ],
+        [
+          2.272595,
+          48.8729055
+        ],
+        [
+          2.2710466,
+          48.8729033
+        ],
+        [
+          2.2709331,
+          48.8729006
+        ],
+        [
+          2.2697608,
+          48.8728724
+        ],
+        [
+          2.2682025,
+          48.8730196
+        ],
+        [
+          2.2681241,
+          48.8730319
+        ],
+        [
+          2.266886,
+          48.8732287
+        ],
+        [
+          2.2664346,
+          48.8733521
+        ],
+        [
+          2.2645351,
+          48.8726663
+        ],
+        [
+          2.2642792,
+          48.8725753
+        ],
+        [
+          2.2631297,
+          48.8721636
+        ],
+        [
+          2.2630393,
+          48.8721256
+        ],
+        [
+          2.2630354,
+          48.872126
+        ],
+        [
+          2.2607324,
+          48.8712954
+        ],
+        [
+          2.2592365,
+          48.870757
+        ],
+        [
+          2.256869,
+          48.8699049
+        ],
+        [
+          2.2548498,
+          48.8691782
+        ],
+        [
+          2.254221,
+          48.8689519
+        ],
+        [
+          2.2512509,
+          48.8678829
+        ],
+        [
+          2.2508065,
+          48.867723
+        ],
+        [
+          2.2504872,
+          48.867608
+        ],
+        [
+          2.2492351,
+          48.8671557
+        ],
+        [
+          2.2491279,
+          48.8671138
+        ],
+        [
+          2.244752,
+          48.8655437
+        ],
+        [
+          2.2439985,
+          48.8659222
+        ],
+        [
+          2.2429667,
+          48.8659923
+        ],
+        [
+          2.2425307,
+          48.8661705
+        ],
+        [
+          2.2423295,
+          48.8662764
+        ],
+        [
+          2.2421022,
+          48.8663505
+        ],
+        [
+          2.2416011,
+          48.8665259
+        ],
+        [
+          2.2404549,
+          48.8669656
+        ],
+        [
+          2.2403869,
+          48.8670165
+        ],
+        [
+          2.2397685,
+          48.8669533
+        ],
+        [
+          2.2388854,
+          48.8668894
+        ],
+        [
+          2.2384602,
+          48.8668116
+        ],
+        [
+          2.2381928,
+          48.8667642
+        ],
+        [
+          2.2378211,
+          48.866682
+        ],
+        [
+          2.2370245,
+          48.8664414
+        ],
+        [
+          2.236304,
+          48.8661508
+        ],
+        [
+          2.2345981,
+          48.865174
+        ],
+        [
+          2.2345669,
+          48.8651482
+        ],
+        [
+          2.2344324,
+          48.8652114
+        ],
+        [
+          2.2343618,
+          48.8651505
+        ],
+        [
+          2.2342607,
+          48.8650673
+        ],
+        [
+          2.234207,
+          48.8650233
+        ],
+        [
+          2.2341566,
+          48.8650527
+        ],
+        [
+          2.233281,
+          48.8655224
+        ],
+        [
+          2.2329182,
+          48.8657009
+        ],
+        [
+          2.2317775,
+          48.8661374
+        ],
+        [
+          2.231747,
+          48.8661471
+        ],
+        [
+          2.2309817,
+          48.8663676
+        ],
+        [
+          2.2309454,
+          48.866139
+        ],
+        [
+          2.2303446,
+          48.866264
+        ]
+      ]
+    },
+    {
+      "id": 73,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "als sie über die Brücke bei Asnières kamen, stimmte sie der Anblick des Flusses, der von Booten, Anglern und Ruderern wimmelte, heiter und fröhlich.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location",
+        "atmosphere"
+      ],
+      "notiz": "Duroy und seine Frau erleben den Anblick des belebten Flusses bei Asnières als stimmungsaufhellend.",
+      "koordinaten": {
+        "lat": 48.9107,
+        "lng": 2.2869,
+        "ort_bezeichnung": "Brücke bei Asnières, Seine",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Brücke bei Asnières / Seine",
+        "emotion": "Heiterkeit und Fröhlichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 74,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die kräftige Maisonne warf ihre schrägen Abendstrahlen auf die Boote und den ruhigen Fluß, der unter der Glut der sinkenden Sonne unbeweglich wie eine Glasfläche erschien.",
+      "tags": [
+        "weather",
+        "time",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt als Erzähler die atmosphärische Abendstimmung mit Sonnenlicht auf dem stillen Fluss.",
+      "koordinaten": {
+        "lat": 48.9107,
+        "lng": 2.2869,
+        "ort_bezeichnung": "Seine bei Asnières",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Seine bei Asnières",
+        "emotion": "Stille, Weite, Frieden",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 75,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Eine Segeljacht mitten auf dem Wasserspiegel hatte ihre zwei großen, weißen Leinewanddreiecke ausgespannt, um auch den leisesten Windhauch aufzufangen, und glich so einem riesigen Vogel, der gerade im Begriff war, aufzuflattern.",
+      "tags": [
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die Flusslandschaft bei Chatou als atmosphärische Kulisse mit einem bildstarken Vergleich.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Seine-Ufer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 76,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Ich schwärme für die Umgebung von Paris«, murmelte Duroy. »So herrlich geröstete Fische wie hier habe ich in meinem Leben nie gegessen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy äußert Begeisterung für die Pariser Umgebung und verknüpft den Ort mit einer positiven persönlichen Erfahrung.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Umgebung von Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Chatou / Umgebung Paris",
+        "emotion": "Schwärmerei, Genuss",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 77,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Dann schwiegen sie, als ob sie nicht gewagt hätten, noch mehr von ihrem vergangenen Leben auszuplaudern; sie blieben stumm und kosteten vielleicht schon die Poesie des Zurücksehnens.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt das gemeinsame Schweigen des Paares als atmosphärisch aufgeladenen Moment der Nostalgie.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Restaurant am Wasser",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Chatou",
+        "emotion": "Nostalgie, Poesie des Zurücksehnens",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 78,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy saß seiner Frau gegenüber. Er ergriff ihre Hand und küßte sie langsam und bedächtig.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt körperlich und bewusst in der Interaktion mit seiner Frau.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Restaurant am Wasser",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 79,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Wenn wir zurück sind, wollen wir öfters bei Chatou essen.«",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "mood"
+      ],
+      "notiz": "Duroy äußert den Wunsch, nach Chatou zurückzukehren — persönliche Sehnsucht nach dem Ort.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Chatou",
+        "emotion": "Sehnsucht, Wohlgefühl",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 80,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er hielt noch immer ihre Hand und überlegte unruhig, auf welchem Wege er zu Zärtlichkeiten übergehen konnte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt innere Unruhe und strategisches Nachdenken über den richtigen Umgang mit seiner Frau.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Restaurant am Wasser",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 81,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Vor der Unwissenheit eines jungen Mädchens wäre er dabei weniger in Verlegenheit gewesen, aber die raffinierte Erfahrung und der schnelle Verstand, den er bei Madeleine voraussetzte, machte seine Haltung schüchtern und unsicher. Er fürchtete, in ihren Augen linkisch und albern zu erscheinen, zu ängstlich oder zu brutal, zu langsam oder zu hastig vorzugehen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert seine eigene Unsicherheit und soziale Selbstwahrnehmung im Verhältnis zu Madeleines Erfahrung.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Restaurant am Wasser",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 82,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Es kommt mir sehr komisch vor,« sagte er, »daß Sie meine Frau sind.« [...] »Ich habe ein seltsames Gefühl; ich möchte Sie küssen und wundere mich, daß ich ein Recht dazu habe.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy artikuliert sein inneres Befremden und Begehren gegenüber seiner neuen Ehefrau.",
+      "koordinaten": {
+        "lat": 48.8958,
+        "lng": 2.1603,
+        "ort_bezeichnung": "Chatou, Restaurant am Wasser",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 83,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er führ fort: »Das erstemal, wo ich Sie sah, erinnern Sie sich, es war bei dem Diner, zu welchem mich Forestier eingeladen hatte, da dachte ich mir: 'Herrgott, wenn ich nur so eine Frau finden könnte!' Nun ist es geschehen, ich habe sie.«",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy erinnert sich an ein früheres Diner bei Forestier — persönliche Erinnerung an einen sozialen Aufstiegsmoment.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Diner bei Forestier (nicht näher verortet)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 84,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er dachte: »Ich bin zu kalt. Ich bin blöd, ich muß energischer aufs Ziel gehen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy bewertet sich selbst kritisch und formuliert eine strategische innere Entscheidung im Verführungskontext.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil (Richtung Rouen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 85,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er wurde rot. »Ich bin zu dumm. Aber Sie machen mich verlegen und schüchtern.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Verlegenheit äußert sich körperlich (Erröten) und emotional im Gespräch mit Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil (Richtung Rouen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 86,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Zug fuhr durch den Wald von St. Germain, und ein erschreckter Rehbock sprang über eine Lichtung.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant situiert die Szene räumlich im Wald von Saint-Germain-en-Laye — Naturkulisse als atmosphärischer Hintergrund.",
+      "koordinaten": {
+        "lat": 48.9024,
+        "lng": 2.0934,
+        "ort_bezeichnung": "Wald von Saint-Germain-en-Laye",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 87,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy hatte sich über sie gebeugt; während sie durch das offene Fenster hinausblickte, drückte er ihr einen langen Liebeskuß auf den Nacken.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "move"
+      ],
+      "notiz": "Duroy nutzt Madeleines Ablenkung durch die Landschaft, um körperlich aktiv zu werden — strategische körperliche Annäherung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil (bei Saint-Germain-en-Laye)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "Begehren, strategische Verführung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 88,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "er strich leise mit erregender und anhaltender Liebkosung seinen gekräuselten Schnurrbart über ihre weiße Haut.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "material",
+        "mood"
+      ],
+      "notiz": "Duroys körperliche Berührung wird taktil-sensorisch beschrieben — Schnurrbart und Haut als physische Kontaktflächen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil (Richtung Rouen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "erotische Erregung",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 89,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Dann warf er sich auf ihren Mund, wie ein Raubvogel auf seine Beute.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Duroy wird mit einem Raubvogel verglichen — aggressiv-sexuelles Begehren als körperliche Handlung im Raum.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil (Richtung Rouen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "aggressives Begehren",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 90,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "er preßte sie in seine Arme, küßte sie mit bebenden, begierigen Lippen und versuchte, sie auf die Polsterbank zurückzuwerfen.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur",
+        "mood",
+        "material"
+      ],
+      "notiz": "Duroys körperliche Übergriffigkeit gipfelt im Versuch, Madeleine auf die Polsterbank zu drängen — Raum wird zum Schauplatz von Machtausübung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil (Richtung Rouen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "Begehren, Kontrollverlust",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 91,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Mit rotem Kopf blieb er sitzen; diese vernünftigen Worte hatten ihn sehr ernüchtert; er nahm sich zusammen und sagte in heiterem Tone",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt Duroys emotionale Reaktion von aussen — Röte, Ernüchterung, Selbstkontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zug Richtung Rouen (Nähe Poissy)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 92,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "wir fahren eben erst an Poissy vorbei",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Erzähler nennt Poissy als konkreten Ort der Zugfahrt und markiert damit den räumlichen Fortschritt der Reise.",
+      "koordinaten": {
+        "lat": 48.9295,
+        "lng": 2.0394,
+        "ort_bezeichnung": "Poissy, Frankreich",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.2303446,
+          48.866264
+        ],
+        [
+          2.2307052,
+          48.8667351
+        ],
+        [
+          2.2313624,
+          48.8674424
+        ]
+      ]
+    },
+    {
+      "id": 93,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie würden die Wohnung behalten, die sie mit ihrem ersten Gatten geteilt hatte; außerdem sollte Duroy die Stellung und das Gehalt Forestiers bei der Vie Française erben.",
+      "tags": [
+        "social",
+        "historical"
+      ],
+      "notiz": "Maupassant skizziert von aussen die sozialen und beruflichen Arrangements der Ehe — Forestiers Erbe bei der Vie Française verweist auf die Pressewelt der Dritten Republik.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (Wohnung / Vie Française — unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 94,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie hatte alle finanziellen Einzelheiten des Haushalts mit der Sicherheit eines erfahrenen Geschäftsmannes noch vor der Eheschließung geregelt. Es sollte Gütertrennung herrschen, und es war für alle möglichen Fälle Vorsorge getroffen, für den Tod oder eine Scheidung, ebenso wie für die Geburt eines oder mehrerer Kinder.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die ökonomisch-rationelle Haltung Madeleines bei der Eheschließung — sozialer Kontext der bürgerlichen Vermögensverwaltung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": null,
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 95,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der junge Mann brachte nach seiner Aussage viertausend Francs in die Ehe; von dieser Summe hatte er sich fünfzehnhundert ausgeliehen, den Rest hatte er sich während des letzten Jahres erspart. Die junge Frau brachte vierzigtausend Francs in die Ehe mit.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant nennt nüchtern die finanziellen Einbringungen beider Partner — markanter sozialer Kontrast zwischen Duroys bescheidenem und Madeleines beträchtlichem Vermögen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": null,
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 96,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy hörte gar nicht hin, denn er war zu sehr mit anderen Gedanken beschäftigt.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy ist innerlich abgelenkt und folgt Madeleines Ausführungen nicht — sein inneres Erleben (Gedankenverlorenheit) tritt in den Vordergrund.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zug Richtung Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil auf der Strecke Paris–Rouen",
+        "emotion": "Zerstreutheit, erotische Spannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 97,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie hielt bisweilen inne, um irgendwelchen geheimen Gedanken nachzusinnen und fuhr dann fort: »In drei bis vier Jahren werden Sie wohl imstande sein, jährlich dreißigtausend bis vierzigtausend Francs zu verdienen.«",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines kalkulierendes Wesen von aussen und lässt sie Duroys künftige Einkommenserwartungen benennen — soziale Aufstiegsperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zug Richtung Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 98,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Georges begann die Lektion langweilig zu finden",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy empfindet das Gespräch als langweilig — innerer Gemütszustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen (impliziert, nicht näher spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 99,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "wir sind nicht nach Rouen gefahren, um davon zu reden",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Erzähler nennt Rouen als Reiseziel — konkrete Ortsangabe.",
+      "koordinaten": {
+        "lat": 49.4432,
+        "lng": 1.0993,
+        "ort_bezeichnung": "Rouen",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.2313624,
+          48.8674424
+        ]
+      ]
+    },
+    {
+      "id": 100,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er hielt zum Scherz seine Hände auf den Knien, wie ein kleiner, artiger Junge.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy nimmt eine kindliche Körperhaltung zum Scherz ein — körperliche Inszenierung im sozialen Spiel.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen (impliziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 101,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Das ist meine Rolle,« antwortete er, »in die Sie mich eben zurechtgewiesen haben. Ich werde nicht mehr aus ihr herausfallen.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy spielt bewusst die ihm zugewiesene soziale Rolle des Unerfahrenen — ironische Selbstinszenierung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen (impliziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 102,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Daß Sie Erfahrung genug besitzen, um meine Unwissenheit wettzumachen, und eine Praxis in der Ehe, um mir meine Junggesellenunschuld abzugewöhnen. Das soll es heißen, ja!«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy spielt auf seinen sozialen und erotischen Status als Junggeselle an — bewusste Selbstdarstellung im Vergleich zur erfahrenen Witwe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen (impliziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 103,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Ich kenne die Frauen nicht ... Und Sie kennen sicher die Männer, da Sie Witwe waren ... Sie werden meine Erzieherin sein ... heute abend schon. Sie können, wenn Sie wollen, gleich schon damit anfangen!«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy inszeniert sich als Unwissender und fordert spielerisch die Witwe als Erzieherin heraus — soziale und erotische Strategie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen (impliziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 104,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Gewiß,« erwiderte er in dem Ton eines Schülers, der seine Schulaufgabe wiederholt, »darauf rechne ich. Ich rechne sogar darauf, daß Sie mir einen gründlichen Unterricht erteilen ... in zwanzig Stunden ... zehn für die Anfangsgrundlagen ... Vorlesen und Grammatik ...«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy setzt die spielerische Rolle des Schülers fort und strukturiert das erotische Spiel ironisch als Lehrplan — bewusste Inszenierung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen (impliziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 105,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "ich dich von Sekunde zu Sekunde mehr liebe und daß ich den Weg bis Rouen viel zu weit finde",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy empfindet die Reisedistanz nach Rouen als emotional zu lang — Zeit und Raum werden durch Gefühl gefärbt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugstrecke nach Rouen",
+        "emotion": "Ungeduld, Sehnsucht",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 106,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Er sprach jetzt im Tone eines Schauspielers, mit komischem Mienenspiel und Gebärden",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt Duroys performatives Auftreten von aussen — Körper als soziale Geste.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil, Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 107,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er grinste, erregt durch die Zweideutigkeiten, die diesem hübschen Mund entquollen",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reagiert emotional-körperlich auf die Andeutungen der Frau — inneres Erleben von Erregung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil, Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 108,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die Nacht kam heran und hüllte die weiten Felder, die sich rechts der Bahn ausdehnten, in ein durchsichtiges Dunkel, ähnlich einem leichten Florschleier.",
+      "tags": [
+        "space",
+        "weather",
+        "atmosphere",
+        "time"
+      ],
+      "notiz": "Maupassant beschreibt den Einbruch der Nacht über die Landschaft als atmosphärische Kulisse von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landschaft entlang der Zugstrecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "weite Felder rechts der Bahn",
+        "emotion": "gedämpfte Stimmung, Übergangsstimmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 109,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Zug fuhr an der Seine entlang, und das junge Paar blickte in den Fluß, dessen Oberfläche sich wie geschliffenes Metall, wie ein langes, glänzendes Band neben den Schienen hinzog.",
+      "tags": [
+        "location",
+        "space",
+        "material"
+      ],
+      "notiz": "Maupassant benennt die Seine als konkreten geografischen Ort und beschreibt die materielle Qualität der Wasseroberfläche von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Seine, entlang der Zugstrecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 110,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Rote Reflexe spiegelten sich fleckenweise vom Himmel ab, den die untergehende Sonne mit Purpur und Feuer bedeckte. Auch diese leuchtenden Stellen erloschen und wurden allmählich dunkel und düster.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "time"
+      ],
+      "notiz": "Maupassant beschreibt den Sonnenuntergang als farbige Atmosphäre — neutrales Erzählerbild ohne inneres Erleben Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landschaft entlang der Zugstrecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Himmel über der Zugstrecke",
+        "emotion": "Erlöschen, Verdüsterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 111,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die Felder wurden schwarz, und darüber schwebte jener unheimliche Todesschauer, den jede Dämmerung auf die Erde bringt.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die Landschaft bei Dämmerung als düstere atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landschaft zwischen Paris und Rouen (Zugfahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Landschaft bei Dämmerung",
+        "emotion": "Todesschauer, Melancholie",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 112,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Die melancholische Abendstimmung drang auch durch das offene Fenster in die Seelen des noch eben so heiteren, jungen Paares und ließ sie verstummen.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "notiz": "Die Abendstimmung dringt in die Seelen des Paares — Duroy erlebt die Raumstimmung emotional.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil auf der Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil, offenes Fenster",
+        "emotion": "Melancholie, Verstummen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 113,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Sie waren näher aneinander gerückt, um den Todeskampf dieses schönen, hellen Maitages anzusehen.",
+      "tags": [
+        "george_duroy",
+        "time",
+        "atmosphere"
+      ],
+      "notiz": "Duroy und seine Frau nähern sich körperlich angesichts des sterbenden Maitages — Zeit wird emotional als Vergehen erlebt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil auf der Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "Schauer vor dem Vergehen, Zärtlichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 114,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "In Mantes wurde eine kleine Öllampe angezündet, die auf den grauen Stoffbezug der Sitzpolster ihr gelbes, zitterndes Licht warf.",
+      "tags": [
+        "location",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant nennt Mantes als Bahnstation und beschreibt das schwache Lampenlicht im Zugabteil als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": 48.9897,
+        "lng": 1.7172,
+        "ort_bezeichnung": "Mantes-la-Jolie (Bahnhof)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 115,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy legte einen Arm um die Taille seiner Frau und preßte sie an sich. Sein heftiges Verlangen wurde immer verzehrender; es wurde zu einer tröstenden, zärtlichen Liebkosung, zu einer Liebkosung, mit der man Kinder einwiegt.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys inneres heftiges Begehren und seine körperliche Annäherung an die Ehefrau werden aus seiner Perspektive beschrieben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil auf der Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "heftiges Verlangen, Zärtlichkeit",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 116,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Es folgte ein keuchendes Ringen und eine heftige und ungeschickte Umarmung. Dann blieben sie Arm in Arm liegen, beide ein wenig enttäuscht, müde und immer noch zärtlich",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliches Erleben der Umarmung und die nachfolgende Enttäuschung werden aus seiner Perspektive geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil auf der Strecke Paris–Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "Enttäuschung, Müdigkeit, Zärtlichkeit",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 117,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "bis das Pfeifen des Zuges die Nähe des Bahnhofs ankündigte.",
+      "tags": [
+        "sound",
+        "location",
+        "time"
+      ],
+      "notiz": "Maupassant beschreibt das Pfeifen des Zuges als neutrales Zeitzeichen — die Ankunft am Bahnhof kündigt sich an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bahnhof auf der Strecke Paris–Rouen (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 118,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Bis Rouen saßen sie Wange an Wange gelehnt, fast unbeweglich, und blickten durch das Fenster in die Nacht hinaus, und sahen hin und wieder die Lichter einzelner Häuser vorüberfliegen.",
+      "tags": [
+        "george_duroy",
+        "location",
+        "move",
+        "atmosphere",
+        "mood"
+      ],
+      "notiz": "Duroy und seine Frau fahren bis Rouen und beobachten die Nacht aus dem Zugfenster — Bewegung und ruhige Stimmung aus ihrer gemeinsamen Perspektive.",
+      "koordinaten": {
+        "lat": 49.4431,
+        "lng": 1.0993,
+        "ort_bezeichnung": "Rouen (Ziel der Zugfahrt)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil, Blick in die Nacht",
+        "emotion": "stille Zufriedenheit, Träumen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.2313624,
+          48.8674424
+        ]
+      ]
+    },
+    {
+      "id": 119,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Sie waren zufrieden, so nahe beieinander zu sein und träumten von der inneren Annäherung und Vereinigung, die sie erwarteten.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys Zufriedenheit und Vorfreude auf die künftige Vereinigung werden als inneres Erleben dargestellt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zugabteil auf der Fahrt nach Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zugabteil",
+        "emotion": "Zufriedenheit, Vorfreude",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 120,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie stiegen in einem Hotel ab, dessen Fenster nach dem Ufer hinausgingen.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt den Aufenthaltsort des Paares – ein Hotel mit Blick aufs Ufer – von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotel am Ufer (Rouen oder Umgebung, Reiseroute nach Canteleu)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 121,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Duroy sah seine Frau an und schloß sie in seine Arme mit stürmischer Freude eines Mannes, der einen kostbaren Schatz gefunden hat, und leise flüsterte er ihr ins Ohr: »Meine kleine Made, ich fühle, daß ich dich sehr, sehr, sehr liebe!«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt stürmische Freude und Zuneigung zu seiner Frau – inneres emotionales Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotel am Ufer (Reiseroute nach Canteleu)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer",
+        "emotion": "stürmische Freude, Liebe",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 122,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Der bevorstehende Besuch bei seinen Eltern beunruhigte Duroy.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy fühlt Unruhe beim Gedanken an den bevorstehenden Besuch bei seinen Eltern – emotionale Antizipation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Canteleu (Elternhaus)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus Canteleu",
+        "emotion": "Beunruhigung, Sorge",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 123,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Wir werden es sehr unbequem haben. In meinem Zimmer steht nur ein Bett mit einem Strohsack. In Canteleu kennt man keine Roßhaarmatratzen.«",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "material",
+        "social"
+      ],
+      "notiz": "Duroy antizipiert die einfachen Verhältnisse im Elternhaus – persönliche Erinnerung an den Ort und seine ländliche Bescheidenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Canteleu (Elternhaus Duroys)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus Canteleu",
+        "emotion": "Unbehagen, soziale Scham",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 124,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Sie hatte einen Morgenrock aus weißem Flanell angezogen, den Duroy sofort erkannte. Dieser Anblick war ihm unangenehm.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "material",
+        "social"
+      ],
+      "notiz": "Duroy erkennt den Morgenrock seiner Frau als denselben, den sie auch bei Forestier trug – der Anblick löst Unbehagen aus.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotel am Ufer (Reiseroute nach Canteleu)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer",
+        "emotion": "Unbehagen, Eifersucht, Erinnerungsdruck",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 125,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Ihm schien, als ob der weiche, warme Stoff etwas von Forestiers Berührung bewahrt haben müßte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "material",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy stellt sich vor, dass der Stoff des Morgenkleides Forestiers Berührung bewahrt hat – sinnliche Imagination überlagert von Eifersucht.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotel am Ufer (Reiseroute nach Canteleu)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer",
+        "emotion": "Eifersucht, Unbehagen, Kontaminationsgefühl",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 126,
+      "zeile": 18,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er ging ans Fenster und steckte sich eine Zigarette an.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy bewegt sich ans Fenster und zündet sich eine Zigarette an – körperliche Reaktion auf emotionale Belastung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Hotel am Ufer (Reiseroute nach Canteleu)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hotelzimmer / Fenster",
+        "emotion": "Verdrängung, innere Unruhe",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 127,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Der Anblick des Hafens und des breiten Stromes mit seinen Schiffen und ihren schlanken Masten, mit seinen plumpen Dampfern, deren Ladung von Dampfkränen mit lautem Lärm auf die Kais ausgeladen wurde, — das alles packte ihn, obwohl er es schon lange kannte.",
+      "tags": [
+        "george_duroy",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Duroy wird vom Anblick des Hafens und Stromes ergriffen, obwohl er die Szenerie bereits kennt — inneres Erleben der Raumqualität.",
+      "koordinaten": {
+        "lat": 49.4431,
+        "lng": 1.0993,
+        "ort_bezeichnung": "Hafen von Rouen, Seineufer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hafen Rouen",
+        "emotion": "Ergriffenheit, Bewunderung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 128,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Und er rief: »O Gott, ist das schön!«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys spontaner Ausruf der Bewunderung drückt seinen emotionalen Zustand beim Anblick des Hafens aus.",
+      "koordinaten": {
+        "lat": 49.4431,
+        "lng": 1.0993,
+        "ort_bezeichnung": "Hafen von Rouen, Seineufer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Hafen Rouen",
+        "emotion": "Begeisterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 129,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Eine Stunde später fuhren sie ab; sie wollten bei den Alten zum Frühstück sein, denn sie hatten sie mehrere Tage vorher benachrichtigt.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur zeitlichen Abfolge — Abfahrt eine Stunde später.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rouen, Abfahrt vom Hafen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 130,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Eine offene, alte Droschke fuhr sie langsam mit furchtbarem Gerassel zuerst eine ziemlich langweilige Allee entlang, dann fuhren sie über eine Wiese, die ein Fluß durchströmte und stiegen endlich langsam ein hügliges Gelände hinauf.",
+      "tags": [
+        "move",
+        "location",
+        "social",
+        "sound"
+      ],
+      "notiz": "Maupassant beschreibt die Fahrt mit der alten Droschke durch die Landschaft von aussen — Bewegungsroute und soziale Qualität des Gefährts.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landschaft bei Rouen, Fahrt zur Herkunftsfamilie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 131,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Madeleine war müde und erhitzt von der frischen Landluft und der wundervollen Frühlingssonne, und schlief in einer Ecke des alten Wagens ein.",
+      "tags": [
+        "weather",
+        "time",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines Zustand und die Frühlingssonne als atmosphärische Kulisse von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landschaft bei Rouen, Fahrt zur Herkunftsfamilie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 132,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Ihr Gatte weckte sie: »Sieh dir das an!« sagte er.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy weckt Madeleine aktiv, um ihr die Aussicht zu zeigen — Handlung aus seiner Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Aussichtspunkt bei Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 133,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie hatten etwa zwei Drittel der Steigung überwunden und machten an einem berühmten Aussichtspunkt halt, wohin alle Fremden geführt wurden.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Erzählerische Verortung an einem bekannten Aussichtspunkt in der Nähe von Rouen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Aussichtspunkt Côte Sainte-Catherine bei Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 134,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Man übersah von hier das weite Tal, das der breite Fluß in vielen Windungen durchströmte. Man sah ihn in der Ferne mit seinen vielen Inseln, bis er kurz vor Rouen einen weiten Bogen machte.",
+      "tags": [
+        "space",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die weiträumige Aussicht über das Seinetal und die Stadt Rouen von aussen.",
+      "koordinaten": {
+        "lat": 49.4272,
+        "lng": 1.1198,
+        "ort_bezeichnung": "Seine-Tal bei Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 135,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Weiterhin ragte die Stadt am rechten Ufer etwas verschwommen im Morgennebel, in der Ferne blitzten die Sonnenflecke auf den Dächern und den tausend feinen gotischen Kirchentürmchen, überragt von der häßlichen, seltsamen und unproportionierten Bronzespitze der Kathedrale.",
+      "tags": [
+        "location",
+        "atmosphere",
+        "weather",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Rouen mit seiner Kathedrale im Morgennebel als atmosphärisches Panorama von aussen.",
+      "koordinaten": {
+        "lat": 49.4397,
+        "lng": 1.093,
+        "ort_bezeichnung": "Kathedrale Notre-Dame de Rouen",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 136,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Auf der anderen Flußseite ragten rund und oben ausgebaucht die noch zahlreicheren, dünnen Fabrikschornsteine der großen Vorstadt Saint-Sevère und spien aus den Ziegelsäulen ihren schwarzen Kohlenqualm in den blauen Himmel hinauf.",
+      "tags": [
+        "location",
+        "atmosphere",
+        "smell",
+        "historical"
+      ],
+      "notiz": "Maupassant beschreibt die Industrievorstadt Saint-Sever mit ihrem Kohlequalm als sozialhistorische Kulisse von aussen.",
+      "koordinaten": {
+        "lat": 49.4348,
+        "lng": 1.0864,
+        "ort_bezeichnung": "Vorstadt Saint-Sever, Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 137,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Kutscher wartete geduldig, bis seine Fahrgäste sich hinreichend entzückt hatten. Aus seiner langjährigen Erfahrung wußte er ziemlich genau die Dauer der Bewunderung bei Reisenden jedes Schlages.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt die Situation aus der distanzierten Außenperspektive des erfahrenen Kutschers.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 0,
+      "intensitaet": 1,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 138,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "bemerkte plötzlich Duroy ein paar hundert Schritt von ihm entfernt zwei alte Leute, die ihnen entgegenkamen; er sprang aus dem Wagen und rief: »Da sind sie; ich erkenne sie.«",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt die Eltern wahr, handelt spontan und zeigt emotionale Regung durch sein impulsives Herausspringen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Landstraße Normandie",
+        "emotion": "Freude, Wiedererkennen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 139,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Es waren zwei Bauern, ein Mann und eine Frau, die mit unregelmäßigen Schritten daherkamen und sich dann und wann mit den Schultern anstießen. Der Mann war klein, rot und untersetzt, mit etwas dickem Bauch, aber kräftig trotz seines hohen Alters. Die Frau war groß, mager, dürr, etwas gekrümmt und sah mürrisch und vergrämt aus, wie eine richtige Feldarbeiterin, die von Kindheit auf nur Mühe und schwere Arbeit gekannt und nie gelacht hatte, während der Mann mit seinen Genossen trank und schwatzte.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die Eltern Duroys als typische Bauerngestalten und charakterisiert ihre soziale Lage von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 140,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Madeleine war gleichfalls ausgestiegen und betrachtete die beiden armen Leutchen mit bedrücktem Herzen und einer Schwermut, auf die sie nicht vorbereitet war.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Madeleines emotionale Reaktion von außen — ihre Stimmung wird als Kulisse erzählt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 141,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Zuerst erkannten sie ihren Sohn, diesen schönen, eleganten Herrn nicht, und nie hätten sie geahnt, daß diese schöne Dame im hellen Kleid ihre Schwiegertochter sei.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Der Erzähler beschreibt den sozialen Kontrast zwischen den Eltern und dem eleganten Paar von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 142,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Schweigend und hastig gingen sie ihrem erwarteten Kind entgegen, ohne auf die Stadtmenschen, hinter denen ein Wagen fuhr, achtzugeben. Sie gingen vorüber.",
+      "tags": [
+        "move",
+        "social"
+      ],
+      "notiz": "Der Erzähler beschreibt die unbewusste Begegnung und den sozialen Kontrast zwischen Bauern und Stadtmenschen von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 143,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Da rief Georges Duroy lachend: »Guten Tag, Papa Duroy!«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy handelt aktiv und zeigt durch das Lachen eine positive, entspannte Stimmung beim Wiedersehen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Landstraße Normandie",
+        "emotion": "Heiterkeit, Freude",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 144,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Und er ging auf sie zu und gab ihr auf beide Backen einen herzlichen Sohneskuß. Dann drückte er seine Schläfen gegen die des Vaters, der seine Mütze abgenommen hatte",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy bewegt sich auf die Eltern zu und vollzieht körperlich die familiäre Begrüßung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Landstraße bei Duroys Elternhaus, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 145,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "der seine Mütze abgenommen hatte, eine seidene, sehr hohe Kappe, wie die Viehhändler in Rouen sie zu tragen pflegen.",
+      "tags": [
+        "social",
+        "material",
+        "location"
+      ],
+      "notiz": "Maupassant verortet den Vater sozial über das typische Erkennungszeichen der Viehhändler aus Rouen.",
+      "koordinaten": {
+        "lat": 49.4431,
+        "lng": 1.0993,
+        "ort_bezeichnung": "Rouen",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 146,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Dann stellte Duroy vor: »Das ist meine Frau.«",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy handelt aktiv, indem er seine Frau vorstellt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 147,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "die beiden Bauersleute starrten Madeleine wie ein Wunder mit einer verborgenen Furcht an. Der Vater schien ziemlich befriedigt, während in den Augen der Mutter eine feindselige Eifersucht funkelte.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Spannung zwischen den Bauersleuten und der städtischen Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus Duroy",
+        "emotion": "Eifersucht, Fremdheit, soziale Spannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 148,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Mann war von Natur lustig und fröhlich und durch den Genuß des süßen Apfelweines und Alkohols wurde sein Frohsinn noch gesteigert.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den Vater als gesellige Bauernfigur, charakterisiert durch ländliche Trinkgewohnheiten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 149,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Madeleine, der es unbehaglich wurde, reichte beide Wangen den schallenden Küssen des Bauern, der daraufhin sich seine Lippen mit der Rückseite seiner Hand abwischte.",
+      "tags": [
+        "social",
+        "koerper_als_akteur",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die körperliche und soziale Unbehaglichkeit des Aufeinandertreffens der Stadtfrau mit dem Bauern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus Duroy",
+        "emotion": "Unbehagen, soziale Fremdheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 150,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Auch die Alte küßte ihre Schwiegertochter, doch mit feindseliger Zurückhaltung. Nein! das war nicht die Schwiegertochter, von der sie träumte, die dicke, frische Pächterstochter, rot wie ein Apfel und rund wie eine Zuchtstute.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die innere Ablehnung der Mutter gegenüber der städtischen Schwiegertochter aus der Erzählerperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus Duroy",
+        "emotion": "Ablehnung, feindselige Eifersucht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 151,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die Dame da sah nicht recht geheuer aus mit ihrem Putz und ihrem Moschusgeruch. Für die Alte gab es nur ein Parfüm, und das war Moschus.",
+      "tags": [
+        "smell",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den Geruch als sozialen Marker, der die städtische Frau von der bäuerlichen Welt trennt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 152,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Man ging nun weiter und folgte der Droschke, auf der das Gepäck des jungen Paares stand.",
+      "tags": [
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt die Bewegung der Gruppe als neutrale Erzählerangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg zum Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 153,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Alte nahm den Sohn beim Arm, zog ihn etwas zurück und fragte neugierig: »Nun, und wie gehen die Geschäfte?«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die vertrauliche Geste des Vaters, die ein soziales Interesse an den Verhältnissen des Sohnes signalisiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg zum Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 154,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Vater stieß vor Überraschung und Bewunderung einen leisen Pfiff aus und brachte nichts weiter hervor als: »Donnerwetter!«, so starr war er über die Summe.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Reaktion des Vaters auf die Nennung des Vermögens der Schwiegertochter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg zum Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 155,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Dann setzte er mit ernster und ehrlicher Überzeugung hinzu: »Wahrhaftig, es ist eine schöne Frau!« Er fand sie nach seinem Geschmack, und seinerzeit hatte er für einen Kenner gegolten.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt ironisch-distanziert die Bewunderung des Vaters für Madeleine als Mischung aus ästhetischem und finanziellem Urteil.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg zum Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 156,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Madeleine und die Mutter gingen nebeneinander, ohne ein Wort zu sprechen. Die beiden Männer holten sie ein.",
+      "tags": [
+        "move",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt das schweigende Nebeneinandergehen der Frauen als Zeichen der sozialen Spannung zwischen den Welten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Weg zum Elternhaus Duroy, Normandie (ländlich, unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Weg zum Elternhaus Duroy",
+        "emotion": "Spannung, Schweigen, soziale Fremdheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 157,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Das kleine Dorf, wohin sie nun gelangten, zog sich längs der Straße hin, etwa zehn Häuser auf jeder Seite, teils aus Ziegeln, teils aus Lehm gebaut, die einen mit Stroh, die anderen mit Schiefer gedeckt.",
+      "tags": [
+        "space",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt das Dorf von aussen als ländliche Kulisse mit physischen Materialdetails der Häuser.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Dorf bei Rouen (Normandie), Heimatdorf der Familie Duroy",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 158,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Links, am Dorfeingang befand sich das Wirtshaus des alten Duroy »Zur schönen Aussicht«, eine kleine Hütte, die aus einem Erdgeschoß und einigen Bodenkammern bestand.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant benennt und verortet konkret das elterliche Wirtshaus als Erzählerangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wirtshaus »Zur schönen Aussicht«, Dorfeingang, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 159,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Über der Tür war ein Kiefernzweig angebracht, er zeigte nach altem Brauch, daß durstige Leute eintreten können.",
+      "tags": [
+        "material",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt einen traditionellen ländlichen Brauch als soziales Zeichen von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wirtshaus »Zur schönen Aussicht«, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 160,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er führte sie rechts durch eine Tür in ein kaltes, viereckiges Zimmer mit kalkgeweißten Wänden, in dem ein Bett mit baumwollenen Vorhängen stand; über einem Weihwasserbecken hing ein Kruzifix; zwei kolorierte Bilder, die Paul und Virginie unter einem blauen Palmenbaum und Napoleon I. auf einem gelben Pferd darstellten, bildeten den einzigen Schmuck dieses sauberen, öden Zimmers.",
+      "tags": [
+        "move",
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Duroy führt Madeleine durch das Zimmer — die Raumbeschreibung verschränkt Erzählerblick mit Duroys innerem Erleben des öden, kargen Raums seiner Herkunft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gastzimmer im Wirtshaus der Familie Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "karges, kalkgeweißtes Zimmer im Elternhaus",
+        "emotion": "Öde, Kargheit, Kontrast zur Pariser Welt",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 161,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Guten Tag, Made; ich freue mich wirklich, die Alten wiederzusehen. In Paris denkt man nicht an sie, und wenn man wieder beisammen ist, macht das einem doch Freude.",
+      "tags": [
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy äussert seine Freude über das Wiedersehen und reflektiert beiläufig das Vergessen in Paris — persönliche Erinnerung an Herkunft und Distanz.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wirtshaus der Familie Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus in der Normandie",
+        "emotion": "Freude, emotionale Wärme beim Wiedersehen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 162,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Es war eine lange, schlecht zusammengestellte Bauernmahlzeit: eine Wurst nach der Hammelkeule und ein Eierkuchen nach der Wurst.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die bäuerliche Mahlzeit von aussen als Marker für den sozialen Stand der Familie Duroy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wirtsstube im Elternhaus der Familie Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 163,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Vater Duroy war durch den Apfelwein und ein paar Gläser Schnaps angeheitert, und packte seine alten Geschichten und Lieblingsscherze aus, die er für besonders festliche Gelegenheiten aufbewahrte",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die bäuerliche Festlichkeit von Vater Duroy als soziale Kulisse von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus der Duroys (ländlich, Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 164,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Georges, der sie alle kannte, grinste trotzdem, denn die Luft der Heimat und die angeborene Liebe zum Lande und zu den vertrauten Winkeln seiner Kindheit, berauschten ihn ebenso wie all die Erinnerungen, die wieder in ihm lebendig wurden",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy erlebt einen emotionalen Rausch durch die Heimatluft und Kindheitserinnerungen — inneres Erleben mit starker Raumkomponente.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus der Duroys (ländlich, Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus / Heimatdorf",
+        "emotion": "Rausch, Freude, Nostalgie",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 165,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "all diese Kleinigkeiten, die er wieder sah: ein Messerschnitt in der Tür, ein lahmer Stuhl, der ihn an eine jugendliche Untat erinnerte",
+      "tags": [
+        "george_duroy",
+        "location_erinnerung",
+        "material"
+      ],
+      "notiz": "Duroy nimmt konkrete materielle Objekte des Elternhauses wahr, die persönliche Kindheitserinnerungen auslösen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus der Duroys (ländlich, Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus",
+        "emotion": "Nostalgie, Verspieltheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 166,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "der Erdgeruch und der kräftige Harzduft, der aus dem nahen Walde kam und selbst der Geruch des Hauses, des Baches und des Düngerhaufens",
+      "tags": [
+        "george_duroy",
+        "smell",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy nimmt die charakteristischen Gerüche seiner Heimat wahr, die seinen Rausch der Erinnerung verstärken.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus und umliegende Natur (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Ländliche Umgebung des Elternhauses",
+        "emotion": "Rausch, Geborgenheit, Nostalgie",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 3,
+      "gewichtete_valenz": 3
+    },
+    {
+      "id": 167,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die Mutter Duroy sprach gar nicht; sie blieb immer traurig und ernst. Haßerfüllt beobachtete sie ihre Schwiegertochter.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die angespannte Atmosphäre zwischen Schwiegermutter und Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus der Duroys (ländlich, Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 168,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Es war der Haß der alten Arbeiterin und Bäuerin mit verbrauchten Fingern und durch schwere Mühen entstellten Gliedern gegen die Städterin, die ihr Widerwillen einflößte, wie eine Verdammte, Verworfene, ein unreines Wesen, das nur für Sünde und Müßiggang geschaffen sei.",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt den Klassenkonflikt zwischen Bäuerin und Städterin durch körperliche Zeichen sozialer Arbeit — von aussen beobachtet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus der Duroys (ländlich, Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 169,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "den gelben herben Trank aus der Karaffe oder mit dem roten, schäumenden Apfelwein, bei dem der Pfropfen knallend aus der Flasche sprang wie bei einer moussierenden Limonade",
+      "tags": [
+        "material",
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die bäuerliche Tischszene mit sensorischen Details als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus der Duroys (ländlich, Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 170,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Wußte sie denn das? Kam es daher, weil Frauen immer etwas anderes erwarten, als was nachher kommt? Hatte sie sich diese Bauern aus der Entfernung poetischer vorgestellt? Nein, aber vielleicht edler, literarischer, zärtlicher, dekorativer.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy reflektiert innerlich über Madeleines Enttäuschung von den Bauern — sein inneres Erleben ihrer Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "ländliches Elternhaus der Duroys (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 171,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Woher kam es also, daß sie sich durch die unzähligen, kaum sichtbaren Kleinigkeiten, durch die vielen ungreifbaren Grobheiten und Plumpheiten abgestoßen fühlte? Oder lag es an ihrem bäurischen Wesen, an ihren Worten, ihren Gebärden, und an ihrem Lachen?",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy grübelt über soziale Distanz und bäuerliche Grobheiten — inneres Nachsinnen über Klassengefälle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "ländliches Elternhaus der Duroys (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "bäuerliches Milieu",
+        "emotion": "Abstossung, soziale Fremdheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 172,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Sie dachte an ihre eigene Mutter, von der sie nie zu jemand sprach. Es war eine verführte Erzieherin aus Saint-Denis, die in Kummer und Elend gestorben war, als Madeleine zwölf Jahre zählte. Ein Unbekannter hatte das Mädchen erziehen lassen, zweifellos ihr Vater. Wer war er? Sie wußte es nicht genau, obgleich sie bestimmte Vermutungen hegte.",
+      "tags": [
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy denkt über Madeleines Herkunft und ihre Mutter nach — kollektive/fremde Erinnerung, enthält Ortsnennung Saint-Denis.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Saint-Denis",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 173,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Das Frühstück nahm kein Ende. Jetzt kamen Gäste, die dem alten Duroy die Hand schüttelten und in staunende Ausrufe ausbrachen, als sie den Sohn erblickten; sie betrachteten die junge Frau von der Seite, zwinkerten listig mit den Augen, womit sie sagen wollten: »Donnerwetter! Das ist ein frisches Weibchen, die Frau von Georges Duroy.«",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das gesellige Treiben der Gäste und deren Reaktion auf Georges und Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gaststube des Elternhauses Duroy (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 174,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die anderen, die weniger Befreundeten, setzten sich an die Holztische und riefen: »Einen Liter! — Einen Schoppen! — Zwei Schnäpse! — Einen Bittern!« Dann begannen sie Domino zu spielen, indem sie laut klappernd mit den schwarzweißen Knochensteinen auf den Tisch schlugen.",
+      "tags": [
+        "sound",
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt das Geräusch und Treiben der einfachen Gaststubengäste als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gaststube des Elternhauses Duroy (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 175,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Mutter Duroy ging immerfort hin und her, bediente die Kunden, nahm das Geld von ihnen und wischte mit ihrem Jammerblick, den Tisch mit dem Zipfel ihrer blauen Schürze ab.",
+      "tags": [
+        "social",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Mutter Duroy in ihrer dienenden Rolle — soziales Milieu von aussen beobachtet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gaststube des Elternhauses Duroy (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 176,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der Rauch der Tonpfeifen und der billigen Zigarren erfüllte den Raum.",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "space",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt den Tabakrauch als atmosphärisch-sensorische Raumqualität der einfachen Gaststube.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gaststube des Elternhauses Duroy (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "verrauchte Gaststube",
+        "emotion": "Beklemmung, soziale Niedrigkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 177,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Madeleine begann zu husten und fragte: »Wollen wir nicht gehen? Ich kann es nicht mehr aushalten.«",
+      "tags": [
+        "koerper_als_akteur",
+        "mood"
+      ],
+      "notiz": "Madeleines körperliche Reaktion (Husten) und Drang zu gehen signalisieren Unwohlsein — aus der Perspektive der Szene, obwohl Duroy implizit miterlebt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gaststube des Elternhauses Duroy (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "verrauchte Gaststube",
+        "emotion": "Unerträglichkeit, Fluchtimpuls",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 178,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die Mahlzeit war noch nicht beendet, und der alte Duroy war unzufrieden.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die Spannung zwischen Madeleines Aufbruchswunsch und der Unzufriedenheit des alten Duroy von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gaststube des Elternhauses Duroy (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 179,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Da stand sie auf und setzte sich auf einen Stuhl vor der Tür auf der Straße und wartete, bis ihr Schwiegervater und Gatte ihre Schnäpse und Kaffee zu Ende getrunken hatten.",
+      "tags": [
+        "space",
+        "social"
+      ],
+      "notiz": "Madeleine wartet draußen auf der Straße — Maupassant beschreibt die Szene von außen als sozialen Kontrast.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Dorf Normandie (Elternhaus Duroy)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 180,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Georges kam gleich zu ihr heraus: »Wollen wir etwas nach der Seine hinunter?« fragte er.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Duroy verlässt aktiv das Haus und schlägt einen Spaziergang zur Seine vor.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Dorf Normandie (Elternhaus Duroy)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 181,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie gingen den Berg hinunter, mieteten sich ein Boot in Croisset und verbrachten den Rest des Nachmittags an den Ufern einer Insel unter den Weiden.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die Bewegung nach Croisset zur Seine und den Aufenthalt an einer Insel als neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": 49.44,
+        "lng": 1.05,
+        "ort_bezeichnung": "Croisset, Seine-Ufer",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 182,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Sie wurden schläfrig von der milden Frühlingswärme und, gewiegt von den leichten Wellen des Flusses, schlummerten sie allmählich ein.",
+      "tags": [
+        "george_duroy",
+        "weather",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Die Frühlingswärme und die Flusswellen wirken körperlich auf Duroy (und Madeleine) — Schläfrigkeit als sensorisch-körperliches Erleben.",
+      "koordinaten": {
+        "lat": 49.44,
+        "lng": 1.05,
+        "ort_bezeichnung": "Seine-Ufer bei Croisset, Insel unter Weiden",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Seine-Ufer, Insel",
+        "emotion": "Schläfrigkeit, wohlige Entspannung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 183,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Als es dunkel wurde, stiegen sie wieder hinauf.",
+      "tags": [
+        "move",
+        "time"
+      ],
+      "notiz": "Maupassant gibt neutral den Zeitpunkt (Einbruch der Dunkelheit) und die Bewegung zurück zum Haus an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rückweg vom Seine-Ufer zum Elternhaus Duroy",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 184,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Das Abendessen beim Schein einer Kerze war für Madeleine noch peinlicher als das Mittagessen.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant charakterisiert die Abendstimmung beim Essen von außen als sozial unangenehm für Madeleine.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 185,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Das spärliche Licht warf auf die grauen Mauern die Schatten der Köpfe mit riesigen Nasen und maßlosen Gebärden.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt die beengte, düstere Raumatmosphäre im Kerzenlicht von außen — die Schatten als visuelles Stimmungsmittel.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Esszimmer Elternhaus Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Esszimmer Elternhaus Duroy",
+        "emotion": "Beklemmung, Fremdheit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 186,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Von Zeit zu Zeit, sobald jemand sich umdrehte und sein Gesicht der gelben, zitternden Flamme näherte und sein Profil darbot, sah man eine Riesenhand eine Gabel, die wie eine Heugabel aussah, zum Munde führen, der dem Maul eines Ungeheuers glich.",
+      "tags": [
+        "atmosphere",
+        "material",
+        "space"
+      ],
+      "notiz": "Maupassant entwirft ein grotesk-bedrohliches Bild des Speiseraums durch die Lichteffekte — erzählerische Außenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Esszimmer Elternhaus Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Esszimmer Elternhaus Duroy",
+        "emotion": "Befremden, Unbehagen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 187,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sobald die Mahlzeit zu Ende war, zog Madeleine ihren Mann ins Freie hinaus, um nicht in der düsteren Stube bleiben zu müssen, wo es nach altem Tabaksqualm und verschüttetem Wein roch.",
+      "tags": [
+        "move",
+        "smell",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den Geruch und die beklemmende Raumqualität der Stube von außen als Ursache für Madeleines Flucht ins Freie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Stube Elternhaus Duroy",
+        "emotion": "Widerwillen, Beklemmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 188,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Nein, ich habe es wohl bemerkt. Wenn du willst, fahren wir schon morgen wieder ab?«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy nimmt Madeleines Unbehagen wahr und reagiert empathisch — inneres Erkennen der sozialen Spannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Außenbereich Elternhaus Duroy, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 189,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie schritten langsam vorwärts. Es war eine milde Nacht und in ihrem tiefen, liebkosenden Schatten glaubte man allerlei leichtes Geräusch zu hören, entweder eine Art Knistern oder ein leises Atmen.",
+      "tags": [
+        "move",
+        "weather",
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die milde Nacht und ihre akustische Qualität als lyrische atmosphärische Kulisse von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Umgebung Elternhaus Duroy, Normandie, Nachtspaziergang",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Nachtlandschaft Normandie",
+        "emotion": "Sanftheit, Intimität",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 190,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie waren jetzt in eine schmale Allee sehr hoher Bäume gelangt, rechts und links umgeben von undurchdringlichem Dickicht.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt den engen, von Dickicht umgebenen Weg als räumliche Kulisse — neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Schmale Baumallee, Normandie (nahe Elternhaus Duroy)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 191,
+      "zeile": 20,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Wo sind wir?« fragte sie.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Madeleines Frage — keine Duroy-Perspektive, daher nicht annotiert als figur; wird übersprungen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Baumallee, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 192,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Es roch nach Erde, nach Bäumen und Moos.",
+      "tags": [
+        "smell",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt den Geruch des Waldes als atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wald bei Rouen (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 193,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Der frische und zugleich welke Duft des dichten Waldes, der von dem Saft der Knospen und den faulenden Blättern des Dickichts stammte, schien in dieser Allee so ruhig und unbeweglich zu schweben.",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt den Waldgeruch und die Raumqualität der Allee von aussen als Erzählerstimme.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Waldallee bei Rouen (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 194,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "obwohl kein leisester Luftzug die Baumzweige bewegte, fühlte sie doch um sich das unbestimmte Rauschen des Blättermeeres.",
+      "tags": [
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt das Geräusch des Waldes aus der Perspektive Madeleines — nicht Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Waldallee bei Rouen (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 195,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Sie kehrten zurück.",
+      "tags": [
+        "move"
+      ],
+      "notiz": "Erzähler beschreibt die Rückkehr des Paares — Duroy ohne eigenes inneres Erleben.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Waldallee bei Rouen (Normandie)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 196,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Die beiden Alten hatten sich schon zu Bett begeben. Madeleine schlief schlecht. Sie erwachte fortwährend von den ungewohnten Geräuschen der Nacht, dem Schrei der Eule, dem Grunzen des Schweines, das in einem Stall hinter der Wand eingesperrt war, und dem Krähen des Hahnes, das schon um Mitternacht begann.",
+      "tags": [
+        "sound",
+        "atmosphere",
+        "time"
+      ],
+      "notiz": "Maupassant beschreibt die Nachtgeräusche auf dem Dorf als erzählerische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroys, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 197,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Beim ersten Morgendämmern war sie schon auf und reisefertig.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Zeitangabe durch den Erzähler — Morgendämmern als Tageszeit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroys, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 198,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Als Georges seinen Eltern mitteilte, daß er schon heute abreisen müßte, waren sie beide betroffen, dann aber begriffen sie, woher diese Absicht kam.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy handelt aktiv gegenüber seinen Eltern in einer sozial aufgeladenen Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroys, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 199,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "Er schenkte ihnen zweihundert Francs, um ihren Ärger zu besänftigen",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy setzt Geld als sozialen Ausgleich ein — er erlebt die Klassendifferenz zu seinen Eltern durch diese Geste.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroys, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Elternhaus Duroys, Normandie",
+        "emotion": "sozialer Ausgleich, Distanzierung von Herkunftsmilieu",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 200,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "als die Droschke, die ein Dorfjunge geholt hatte, um zehn Uhr erschien, umarmte das junge Paar die alten Leute und fuhr davon.",
+      "tags": [
+        "move",
+        "time",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Abreise des Paares vom Elternhaus neutral mit Zeitangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Elternhaus Duroys, Normandie",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 201,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "Als sie den Berg hinunterfuhren",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Fahrt den Berg hinunter als räumliche Bewegung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bergstrasse bei Canteleu/Rouen (Heimatort von Duroys Eltern)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 202,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Siehst du, ich habe dich gewarnt. Ich hätte dich nicht mit Herrn und Frau Du Roy de Cantel, Vater und Mutter zusammenbringen müssen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy kommentiert lachend die Begegnung mit seinen Eltern — innere Erleichterung und Selbstironie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bergstrasse bei Canteleu/Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 203,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Du Roy de Cantel ... Du wirst sehen, kein Mensch wird sich über unsere Hochzeitsanzeige wundern. Wir wollen überall erzählen, wir hätten eine Woche auf dem Gut deiner Eltern verbracht.«",
+      "tags": [
+        "social",
+        "location_erinnerung"
+      ],
+      "notiz": "Made plant die soziale Inszenierung des Adelsnamens und der ländlichen Herkunft — sozialer Aufstieg als strategisches Kalkül.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gut der Eltern Duroy, Canteleu",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 204,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "figur",
+      "text": "»Guten Tag, Geo«, erwiderte er und schlang seinen Arm um ihre Hüfte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy zeigt körperliche Zuneigung und emotionale Nähe zu Made in einem intimen Augenblick.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Bergstrasse bei Canteleu/Rouen",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 205,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 10",
+      "perspektive": "erzaehler",
+      "text": "In der Ferne sahen sie tief unten im Tal den großen Fluß wie ein silbernes Band in der Morgensonne leuchten, und die Fabrikschornsteine, die ihre schwarzen Rauchwolken zum Himmel hinaufbliesen, und alle spitzen Türme, die über der Stadt emporragten.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere",
+        "weather"
+      ],
+      "notiz": "Erzähler beschreibt das Panorama des Seinetals mit Rouen — kontrastierende urbane und industrielle Elemente in morgenlichter Kulisse.",
+      "koordinaten": {
+        "lat": 49.4431,
+        "lng": 1.0993,
+        "ort_bezeichnung": "Panoramablick auf Rouen und die Seine vom Hang bei Canteleu",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Seinetal mit Rouen in der Morgensonne",
+        "emotion": "Weite, Schönheit, Kontrast von Natur und Industrie",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 10,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    }
+  ]
+}

@@ -1,0 +1,5840 @@
+{
+  "werk": "Bel-Ami",
+  "autor": "Guy de Maupassant",
+  "uebersetzung": "Fürst N. Obolensky",
+  "kapitel": 18,
+  "schema_version": "5.1-claude",
+  "modell": "claude-sonnet-4-6",
+  "total_annotationen": 118,
+  "annotationen": [
+    {
+      "id": 1,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Drei Monate waren seitdem vergangen. Die Scheidung Du Roys war ausgesprochen. Seine Frau hatte den Namen Forestier wieder angenommen.",
+      "tags": [
+        "time",
+        "social"
+      ],
+      "notiz": "Maupassant gibt neutral die vergangene Zeit und den rechtlichen Status der Scheidung Duroys an.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 2,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Da die Walters am 15. Juli nach Trouville fahren wollten, so hatte man verabredet, noch vor der Trennung einen Tag auf dem Lande zu verbringen.",
+      "tags": [
+        "time",
+        "location"
+      ],
+      "notiz": "Neutrale Erzählerangabe über Datum und Reisepläne der Gruppe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Trouville",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 3,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man wählte einen Donnerstag und brach schon um neun Uhr morgens in einem großen sechssitzigen Reiselandauer, der mit vier Pferden bespannt war, auf.",
+      "tags": [
+        "time",
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Abreise und das repräsentative Fahrzeug als sozialen Marker.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (Ausgangspunkt der Fahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 4,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es sollte in Saint-Germain im Pavillon Henry IV. gefrühstückt werden.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Neutrale Ortsangabe des geplanten Frühstücksziels Saint-Germain.",
+      "koordinaten": {
+        "lat": 48.8974,
+        "lng": 2.0931,
+        "ort_bezeichnung": "Pavillon Henri IV, Saint-Germain-en-Laye",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 5,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Bel-Ami hatte sich ausgemacht, der einzige Mann in der Gesellschaft zu sein, denn er konnte weder die Anwesenheit noch das Gesicht des Marquis de Cazolles ertragen.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innere Abneigung gegen den Marquis de Cazolles wird aus seiner Perspektive geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 6,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen fuhr in raschem Trabe die Avenue des Champs-Elysees hinab und dann durch das Bois de Boulogne.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt die Route des Wagens von aussen entlang der Champs-Élysées und durch den Bois de Boulogne.",
+      "koordinaten": {
+        "lat": 48.8698,
+        "lng": 2.3078,
+        "ort_bezeichnung": "Avenue des Champs-Élysées / Bois de Boulogne",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3081148,
+          48.8698989
+        ],
+        [
+          2.3076644,
+          48.8700792
+        ],
+        [
+          2.3071227,
+          48.8702511
+        ],
+        [
+          2.3069653,
+          48.8703013
+        ],
+        [
+          2.3066122,
+          48.8704138
+        ],
+        [
+          2.3064465,
+          48.8704666
+        ],
+        [
+          2.3057939,
+          48.8706737
+        ],
+        [
+          2.3056024,
+          48.8707337
+        ],
+        [
+          2.3055065,
+          48.8706934
+        ],
+        [
+          2.3053894,
+          48.8707311
+        ],
+        [
+          2.3051481,
+          48.8708081
+        ],
+        [
+          2.3046141,
+          48.8709779
+        ],
+        [
+          2.3045878,
+          48.8709863
+        ],
+        [
+          2.3038244,
+          48.871229
+        ],
+        [
+          2.3034132,
+          48.8713609
+        ],
+        [
+          2.3031875,
+          48.8714324
+        ],
+        [
+          2.302867,
+          48.8714969
+        ],
+        [
+          2.3027176,
+          48.8715439
+        ],
+        [
+          2.3025172,
+          48.8716069
+        ],
+        [
+          2.3022489,
+          48.8716913
+        ],
+        [
+          2.3020279,
+          48.8713888
+        ],
+        [
+          2.3020082,
+          48.8713619
+        ],
+        [
+          2.301182,
+          48.8716241
+        ],
+        [
+          2.3009774,
+          48.871689
+        ],
+        [
+          2.3006901,
+          48.8717802
+        ],
+        [
+          2.3003856,
+          48.8718403
+        ],
+        [
+          2.3003465,
+          48.8717866
+        ],
+        [
+          2.3002171,
+          48.8718277
+        ],
+        [
+          2.3001489,
+          48.8718496
+        ],
+        [
+          2.299285,
+          48.8721233
+        ],
+        [
+          2.2991535,
+          48.8721651
+        ],
+        [
+          2.2990646,
+          48.8721933
+        ],
+        [
+          2.2985282,
+          48.8723634
+        ],
+        [
+          2.2972575,
+          48.8727796
+        ],
+        [
+          2.2969292,
+          48.8728706
+        ],
+        [
+          2.2968104,
+          48.8729083
+        ],
+        [
+          2.2966938,
+          48.8729453
+        ],
+        [
+          2.2962669,
+          48.8730806
+        ],
+        [
+          2.2960928,
+          48.8729676
+        ],
+        [
+          2.296037,
+          48.8729317
+        ],
+        [
+          2.2957848,
+          48.8728282
+        ],
+        [
+          2.2957604,
+          48.8728223
+        ],
+        [
+          2.295674,
+          48.8728003
+        ],
+        [
+          2.295431,
+          48.8727484
+        ],
+        [
+          2.2953576,
+          48.8727389
+        ],
+        [
+          2.295335,
+          48.872736
+        ],
+        [
+          2.2950882,
+          48.8727162
+        ],
+        [
+          2.295076,
+          48.872716
+        ],
+        [
+          2.2949962,
+          48.8727162
+        ],
+        [
+          2.2945448,
+          48.8727644
+        ],
+        [
+          2.2944612,
+          48.8727806
+        ],
+        [
+          2.2942293,
+          48.8728483
+        ],
+        [
+          2.2942068,
+          48.8728558
+        ],
+        [
+          2.2941474,
+          48.8728755
+        ],
+        [
+          2.2938123,
+          48.8730974
+        ],
+        [
+          2.2937635,
+          48.8731379
+        ],
+        [
+          2.2936164,
+          48.8732856
+        ],
+        [
+          2.2935861,
+          48.8733378
+        ],
+        [
+          2.2934925,
+          48.8734989
+        ],
+        [
+          2.2928915,
+          48.8734328
+        ],
+        [
+          2.2928788,
+          48.8734871
+        ],
+        [
+          2.292739,
+          48.8734707
+        ],
+        [
+          2.2927159,
+          48.8734679
+        ],
+        [
+          2.2926105,
+          48.8734316
+        ],
+        [
+          2.2923812,
+          48.8734056
+        ],
+        [
+          2.2909421,
+          48.8732579
+        ],
+        [
+          2.2898305,
+          48.8731356
+        ],
+        [
+          2.2889368,
+          48.8730373
+        ],
+        [
+          2.2878946,
+          48.8729227
+        ],
+        [
+          2.2876293,
+          48.8728935
+        ],
+        [
+          2.2868062,
+          48.8728073
+        ],
+        [
+          2.2864444,
+          48.8727684
+        ],
+        [
+          2.2856327,
+          48.8726812
+        ],
+        [
+          2.284797,
+          48.8725901
+        ],
+        [
+          2.2847811,
+          48.8725633
+        ],
+        [
+          2.2846017,
+          48.8725458
+        ],
+        [
+          2.2843885,
+          48.8725267
+        ],
+        [
+          2.2831798,
+          48.8724074
+        ],
+        [
+          2.2827012,
+          48.8723559
+        ],
+        [
+          2.2808822,
+          48.8721639
+        ],
+        [
+          2.2796864,
+          48.8720408
+        ],
+        [
+          2.2794517,
+          48.8720136
+        ],
+        [
+          2.2779386,
+          48.8718337
+        ],
+        [
+          2.2772635,
+          48.8717575
+        ],
+        [
+          2.2767539,
+          48.8716992
+        ],
+        [
+          2.2764448,
+          48.871665
+        ],
+        [
+          2.2764861,
+          48.8715517
+        ],
+        [
+          2.2764777,
+          48.8715415
+        ],
+        [
+          2.2763205,
+          48.8713526
+        ],
+        [
+          2.2761595,
+          48.8713053
+        ],
+        [
+          2.2760709,
+          48.8711895
+        ],
+        [
+          2.2757032,
+          48.8711101
+        ],
+        [
+          2.2754946,
+          48.8710263
+        ],
+        [
+          2.2752711,
+          48.870821
+        ],
+        [
+          2.2752096,
+          48.8708417
+        ],
+        [
+          2.2750584,
+          48.8708905
+        ],
+        [
+          2.2747212,
+          48.8709917
+        ],
+        [
+          2.2742127,
+          48.8711784
+        ],
+        [
+          2.2741491,
+          48.8712262
+        ],
+        [
+          2.2740938,
+          48.871284
+        ],
+        [
+          2.2739469,
+          48.8712058
+        ],
+        [
+          2.2735293,
+          48.8712588
+        ],
+        [
+          2.2726123,
+          48.8710947
+        ],
+        [
+          2.2720499,
+          48.8710412
+        ],
+        [
+          2.2714588,
+          48.8709206
+        ],
+        [
+          2.2696033,
+          48.8700778
+        ],
+        [
+          2.269289,
+          48.8703401
+        ],
+        [
+          2.268919,
+          48.8701379
+        ],
+        [
+          2.2668741,
+          48.8689591
+        ],
+        [
+          2.2659278,
+          48.8687133
+        ],
+        [
+          2.2656424,
+          48.8686933
+        ],
+        [
+          2.2655783,
+          48.8686858
+        ],
+        [
+          2.2653985,
+          48.8685889
+        ],
+        [
+          2.2652801,
+          48.868573
+        ],
+        [
+          2.265166,
+          48.8685637
+        ],
+        [
+          2.2644117,
+          48.8685471
+        ],
+        [
+          2.263291,
+          48.8683984
+        ],
+        [
+          2.2626235,
+          48.8684317
+        ],
+        [
+          2.2622628,
+          48.8684277
+        ],
+        [
+          2.2618523,
+          48.8683908
+        ],
+        [
+          2.2603709,
+          48.8681102
+        ],
+        [
+          2.258501,
+          48.8673994
+        ],
+        [
+          2.2579998,
+          48.8672958
+        ],
+        [
+          2.2569143,
+          48.8670999
+        ],
+        [
+          2.2562242,
+          48.8669676
+        ],
+        [
+          2.2550579,
+          48.8667348
+        ],
+        [
+          2.2543354,
+          48.8665584
+        ],
+        [
+          2.252576,
+          48.8659225
+        ],
+        [
+          2.2524985,
+          48.8658927
+        ],
+        [
+          2.2508488,
+          48.8653383
+        ],
+        [
+          2.2505734,
+          48.8652671
+        ],
+        [
+          2.2493831,
+          48.864988
+        ],
+        [
+          2.2492967,
+          48.8649659
+        ],
+        [
+          2.2492186,
+          48.8649384
+        ],
+        [
+          2.2490547,
+          48.8648806
+        ],
+        [
+          2.2480929,
+          48.8646391
+        ],
+        [
+          2.2477916,
+          48.8645451
+        ],
+        [
+          2.2462267,
+          48.8645238
+        ],
+        [
+          2.245755,
+          48.8644789
+        ],
+        [
+          2.2434345,
+          48.8637478
+        ],
+        [
+          2.243139,
+          48.8637709
+        ],
+        [
+          2.243035,
+          48.8637036
+        ],
+        [
+          2.2413324,
+          48.8638074
+        ],
+        [
+          2.2411138,
+          48.8638227
+        ],
+        [
+          2.2411137,
+          48.8637661
+        ],
+        [
+          2.2403226,
+          48.8637211
+        ],
+        [
+          2.2402671,
+          48.8636761
+        ],
+        [
+          2.2396446,
+          48.8634311
+        ],
+        [
+          2.2395649,
+          48.863378
+        ],
+        [
+          2.2393156,
+          48.8633079
+        ],
+        [
+          2.2391931,
+          48.863407
+        ],
+        [
+          2.2389616,
+          48.8633939
+        ],
+        [
+          2.237096,
+          48.8634885
+        ],
+        [
+          2.2360659,
+          48.8638785
+        ],
+        [
+          2.2357418,
+          48.8639912
+        ],
+        [
+          2.2353342,
+          48.8640279
+        ],
+        [
+          2.2353332,
+          48.8641017
+        ],
+        [
+          2.2332908,
+          48.8638941
+        ],
+        [
+          2.2331252,
+          48.8640575
+        ],
+        [
+          2.233073,
+          48.8640239
+        ],
+        [
+          2.2329949,
+          48.8640413
+        ],
+        [
+          2.2325521,
+          48.8639293
+        ],
+        [
+          2.2303682,
+          48.8628554
+        ],
+        [
+          2.2302247,
+          48.8629146
+        ],
+        [
+          2.230285,
+          48.8632463
+        ],
+        [
+          2.229978,
+          48.8635228
+        ],
+        [
+          2.2291961,
+          48.8636937
+        ],
+        [
+          2.2291323,
+          48.8637077
+        ],
+        [
+          2.2289304,
+          48.8637862
+        ],
+        [
+          2.2288588,
+          48.8637975
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es war ein herrliches, nicht zu heißes Sommerwetter. Die Schwalben zogen durch den blauen Himmel in wundervollen Kurven, sie flogen so schnell, daß man sie immer noch zu sehen glaubte, als sie schon vorüber waren.",
+      "tags": [
+        "weather",
+        "atmosphere",
+        "sound"
+      ],
+      "notiz": "Maupassant schildert das schöne Sommerwetter und die Schwalben als stimmungsvolle atmosphärische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 8,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Die drei Damen saßen tief im Vordersitz des Landauers, die Mutter zwischen den beiden Töchtern und im Rücksitz die drei Männer, Walter in der Mitte, rechts und links die beiden Gäste.",
+      "tags": [
+        "social",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt die räumliche Anordnung der Reisenden im Wagen von aussen als soziale Konstellation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 9,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man fuhr über die Seine am Mont-Valérien vorbei und gelangte nach Bougival. Dann ging es am Fluß entlang bis nach Pecq.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Maupassant beschreibt neutral die Route der Reisegesellschaft entlang der Seine über Mont-Valérien und Bougival nach Pecq.",
+      "koordinaten": {
+        "lat": 48.8718,
+        "lng": 2.1843,
+        "ort_bezeichnung": "Mont-Valérien / Bougival / Pecq, Seine-Ufer",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.2288588,
+          48.8637975
+        ],
+        [
+          2.2289304,
+          48.8637862
+        ],
+        [
+          2.2297076,
+          48.8654316
+        ],
+        [
+          2.2298357,
+          48.8655444
+        ],
+        [
+          2.2303446,
+          48.866264
+        ],
+        [
+          2.2307052,
+          48.8667351
+        ],
+        [
+          2.2313624,
+          48.8674424
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Graf de Latour-Yvelin war schon ein reifer Mann mit einem langen, dünnen Doppelbart, dessen Spitzen sich beim leisesten Windhauch bewegten",
+      "tags": [
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt den Grafen von aussen mit charakteristischem physischen Merkmal.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 11,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "wie Du Roy oft behauptete, »der Wind schaffe die schönsten Effekte in seinem Bart«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys spöttische innere Haltung gegenüber dem Grafen wird aus seiner Perspektive vermittelt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 12,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges war sehr bleich und blickte oft zu Suzanne hinüber, die auch sehr bleich war.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Duroys Blässe und seinen Blick zu Suzanne von aussen als äussere Zeichen innerer Spannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "im Landauer, unterwegs Richtung Saint-Germain",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "im Landauer",
+        "emotion": "Spannung, Blässe, heimliches Verlangen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 13,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Ihre Augen trafen sich, sie schienen übereinzustimmen, sich gegenseitig zu verstehen und geheime Gedanken auszutauschen, um sich dann gleich wieder zu fliehen. Frau Walter war ruhig und glückselig.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die stumme Verständigung zwischen Duroy und Frau Walter sowie deren Gemütszustand.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse/Landsitz bei Paris (außerhalb)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 14,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Frühstück dauerte lange. Vor der Rückfahrt nach Paris schlug Georges vor, einen Spaziergang auf der Terrasse zu machen.",
+      "tags": [
+        "time",
+        "move",
+        "location"
+      ],
+      "notiz": "Neutrale Erzählerangabe über Zeitverlauf und geplante Rückkehr nach Paris sowie Vorschlag für einen Spaziergang.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse eines Landsitzes bei Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 15,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man blieb zunächst eine Weile stehen, um die Aussicht zu bewundern. Alle stellten sich in einer Reihe längs der Brüstung, und man war über den weiten ungeheuren Horizont begeistert.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die kollektive Bewunderung der Gruppe angesichts des weiten Panoramas.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse mit Panoramablick bei Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Terrasse",
+        "emotion": "Begeisterung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 16,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Am Fuße eines langen Hügelrückens floß die Seine nach Maison-Lafitte zu, wie eine Riesenschlange, die auf einer großen Wiese lag.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt die Landschaft mit der Seine als bildhafte Kulisse aus Erzählerperspektive.",
+      "koordinaten": {
+        "lat": 48.9476,
+        "lng": 2.1464,
+        "ort_bezeichnung": "Maison-Laffitte, Seine",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 17,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Rechts auf dem Kamm der Hügelkette hob sich die Wasserleitung von Marly vom Himmel ab; sie sah wie eine riesige Raupe mit breiten Pfoten aus, und Marly selbst verschwand in dem dichten grünen Laub der Bäume.",
+      "tags": [
+        "location",
+        "space",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt das Aquädukt von Marly als markantes Landschaftselement.",
+      "koordinaten": {
+        "lat": 48.8978,
+        "lng": 2.0774,
+        "ort_bezeichnung": "Marly-le-Roi, Wasserleitung von Marly",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 18,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Auf der weiten Ebene, die sich vor ihnen ausbreitete, sah man hin und wieder kleinere Dörfer. Die Seen von Vesinet bildeten schöne weiße Flecke in dem spärlichen Grün der kleinen Haine.",
+      "tags": [
+        "location",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die Ebene mit den Seen von Le Vésinet als Panorama-Kulisse.",
+      "koordinaten": {
+        "lat": 48.8978,
+        "lng": 2.1344,
+        "ort_bezeichnung": "Le Vésinet, Seen",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 19,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Links, ganz in der Ferne, ragte über dem Horizont der spitze Turm von Sartrouville.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Erzähler nennt den Kirchturm von Sartrouville als weithin sichtbares Landschaftselement am Horizont.",
+      "koordinaten": {
+        "lat": 48.9367,
+        "lng": 2.1656,
+        "ort_bezeichnung": "Sartrouville, Kirchturm",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 20,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Dann begann man langsam auf und ab zu gehen, um den Blick auf die weite Landschaft zu genießen.",
+      "tags": [
+        "move",
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die gemeinsame Bewegung der Gruppe auf der Terrasse als Genuss der Landschaft.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 21,
+      "zeile": 16,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges und Suzanne blieben etwas zurück.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Erzähler beschreibt von aussen, wie Duroy und Suzanne sich von der Gruppe absondern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 22,
+      "zeile": 24,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er machte eine kurze, ungeduldige Bewegung.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Ungeduld äussert sich körperlich in einer abweisenden Geste.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 23,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Nein, ich sage es Ihnen zum zehntenmal, es ist zwecklos. Er würde mir nur sein Haus verbieten; er jagt mich aus der Zeitung fort, und wir werden uns nicht einmal sehen können.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy äussert seine Hoffnungslosigkeit gegenüber der sozialen Schranke, die Walter als mächtiger Patron repräsentiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Terrasse des Landsitzes",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 24,
+      "zeile": 25,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Wenn Sie nicht meine Frau werden, verlasse ich für immer Paris und dieses Land.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "location_erinnerung"
+      ],
+      "notiz": "Duroy droht mit dem Verlassen von Paris — die Stadt wird als emotionaler Bezugsraum seiner Ambitionen und Gefühle spürbar.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (allgemein)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Verzweiflung, Drohung des Verlusts",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 25,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er sah sie von der Seite an und fragte zögernd:",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroy handelt mit körperlichem Ausdruck — seitlicher Blick und zögerndes Fragen zeigt seine innere Anspannung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 26,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "»Nein,« sagte er lebhaft, »Sie kennen sie nicht, sie wird noch zorniger und aufgeregter sein als Ihr Vater.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy widerspricht lebhaft und zeigt seine Einschätzung der Familiendynamik — inneres Kalkül und Entschlossenheit.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 27,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "»Wenn Sie entschlossen, richtig entschlossen sind, meine Frau zu werden, meine liebe, liebe, kleine Suzanne ... dann ... dann entführe ich Sie.«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy enthüllt seinen Plan zur Entführung Suzannes — Höhepunkt seines sozialen Aufstiegskalküls, kombiniert mit emotionaler Intensität.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannt",
+        "emotion": "Entschlossenheit und sozialer Ehrgeiz",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 28,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie fuhr vor Freude auf und begann in die Hände zu klatschen.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Suzannes Reaktion von aussen — kein inneres Erleben Duroys, reine Beobachterperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 29,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie finden mich in einer Droschke, gegenüber dem Marineministerium.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Der Place de la Concorde mit dem Marineministerium wird als konkreter Treffpunkt genannt.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, gegenüber dem Marineministerium (Ministère de la Marine)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 30,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Wenn der Portier sich schlafen gelegt hat, erwarte ich Sie auf dem Place de la Concorde.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Der Place de la Concorde wird als Treffpunkt für die geplante nächtliche Entführung genannt.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 31,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Man sprach über Seebäder, wo man bald sein würde.",
+      "tags": [
+        "location"
+      ],
+      "notiz": "Seebäder werden als zukünftiger Aufenthaltsort erwähnt, ohne konkrete Ortsangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Seebäder (unspezifisch)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 32,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Dann fuhren sie über Chatou zurück, um nicht denselben Weg noch einmal machen zu müssen.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Der Erzähler beschreibt die Rückfahrt über Chatou als neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": 48.8973,
+        "lng": 2.1622,
+        "ort_bezeichnung": "Chatou",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.2313624,
+          48.8674424
+        ],
+        [
+          2.2317132,
+          48.8671907
+        ],
+        [
+          2.2317053,
+          48.867282
+        ],
+        [
+          2.2320949,
+          48.8670879
+        ],
+        [
+          2.2327566,
+          48.8674509
+        ],
+        [
+          2.2328216,
+          48.867406
+        ],
+        [
+          2.2329899,
+          48.8674747
+        ],
+        [
+          2.2340654,
+          48.8678888
+        ],
+        [
+          2.2345136,
+          48.8680643
+        ],
+        [
+          2.2348687,
+          48.8682123
+        ],
+        [
+          2.2350345,
+          48.8682815
+        ],
+        [
+          2.2351275,
+          48.8683191
+        ],
+        [
+          2.242962,
+          48.8726019
+        ],
+        [
+          2.24303,
+          48.872658
+        ],
+        [
+          2.2447253,
+          48.87412
+        ],
+        [
+          2.2449146,
+          48.8741703
+        ],
+        [
+          2.2452432,
+          48.8742445
+        ],
+        [
+          2.2460236,
+          48.8742843
+        ],
+        [
+          2.2460901,
+          48.8742818
+        ],
+        [
+          2.2470939,
+          48.8741965
+        ],
+        [
+          2.2483063,
+          48.8743239
+        ],
+        [
+          2.2485369,
+          48.8743871
+        ],
+        [
+          2.2486996,
+          48.8744068
+        ],
+        [
+          2.2488898,
+          48.8744195
+        ],
+        [
+          2.2488485,
+          48.8743472
+        ],
+        [
+          2.2497267,
+          48.8739313
+        ],
+        [
+          2.2509498,
+          48.8738455
+        ],
+        [
+          2.2547663,
+          48.8737398
+        ],
+        [
+          2.2551159,
+          48.8737608
+        ],
+        [
+          2.255261,
+          48.8737632
+        ],
+        [
+          2.2555331,
+          48.873906
+        ],
+        [
+          2.2555555,
+          48.8739722
+        ],
+        [
+          2.2558945,
+          48.8740687
+        ],
+        [
+          2.2560647,
+          48.8739577
+        ],
+        [
+          2.2578128,
+          48.8744861
+        ],
+        [
+          2.2589305,
+          48.8744134
+        ],
+        [
+          2.2595669,
+          48.8743608
+        ],
+        [
+          2.2602377,
+          48.874275
+        ],
+        [
+          2.2606281,
+          48.874233
+        ],
+        [
+          2.2611074,
+          48.874298
+        ],
+        [
+          2.2612201,
+          48.8742805
+        ],
+        [
+          2.2623295,
+          48.8741084
+        ],
+        [
+          2.2640105,
+          48.8738658
+        ],
+        [
+          2.2643675,
+          48.8738111
+        ],
+        [
+          2.264533,
+          48.873787
+        ],
+        [
+          2.2660733,
+          48.8734629
+        ],
+        [
+          2.2663803,
+          48.8733692
+        ],
+        [
+          2.2664346,
+          48.8733521
+        ],
+        [
+          2.266886,
+          48.8732287
+        ],
+        [
+          2.2681241,
+          48.8730319
+        ],
+        [
+          2.2682025,
+          48.8730196
+        ],
+        [
+          2.2697608,
+          48.8728724
+        ],
+        [
+          2.2709331,
+          48.8729006
+        ],
+        [
+          2.2710466,
+          48.8729033
+        ],
+        [
+          2.272595,
+          48.8729055
+        ],
+        [
+          2.2727618,
+          48.8729262
+        ],
+        [
+          2.2732853,
+          48.8726464
+        ],
+        [
+          2.2734451,
+          48.8727665
+        ],
+        [
+          2.2735074,
+          48.872731
+        ],
+        [
+          2.2736715,
+          48.8726723
+        ],
+        [
+          2.2737321,
+          48.8726391
+        ],
+        [
+          2.2737927,
+          48.8726059
+        ],
+        [
+          2.2744392,
+          48.8722399
+        ],
+        [
+          2.2745031,
+          48.8722593
+        ],
+        [
+          2.2753821,
+          48.8722013
+        ],
+        [
+          2.2755811,
+          48.8720982
+        ],
+        [
+          2.2762254,
+          48.8718783
+        ],
+        [
+          2.2763635,
+          48.8718942
+        ],
+        [
+          2.2766955,
+          48.8719452
+        ],
+        [
+          2.2782686,
+          48.8721166
+        ],
+        [
+          2.2796454,
+          48.8722652
+        ],
+        [
+          2.2798314,
+          48.8722854
+        ],
+        [
+          2.2831752,
+          48.8726606
+        ],
+        [
+          2.2838805,
+          48.8727394
+        ],
+        [
+          2.2842964,
+          48.8727929
+        ],
+        [
+          2.2846953,
+          48.8728512
+        ],
+        [
+          2.2847451,
+          48.8728285
+        ],
+        [
+          2.2858389,
+          48.8729489
+        ],
+        [
+          2.2865295,
+          48.8730268
+        ],
+        [
+          2.2869799,
+          48.8730782
+        ],
+        [
+          2.2875774,
+          48.8731465
+        ],
+        [
+          2.2879977,
+          48.8731945
+        ],
+        [
+          2.2891312,
+          48.8733126
+        ],
+        [
+          2.2906277,
+          48.8734846
+        ],
+        [
+          2.2909138,
+          48.8735119
+        ],
+        [
+          2.2923761,
+          48.873646
+        ],
+        [
+          2.2925582,
+          48.8736574
+        ],
+        [
+          2.2926678,
+          48.8736693
+        ],
+        [
+          2.2927159,
+          48.8734679
+        ],
+        [
+          2.292739,
+          48.8734707
+        ],
+        [
+          2.2928788,
+          48.8734871
+        ],
+        [
+          2.2928915,
+          48.8734328
+        ],
+        [
+          2.2934925,
+          48.8734989
+        ],
+        [
+          2.2935861,
+          48.8733378
+        ],
+        [
+          2.2936164,
+          48.8732856
+        ],
+        [
+          2.2937635,
+          48.8731379
+        ],
+        [
+          2.2938123,
+          48.8730974
+        ],
+        [
+          2.2941474,
+          48.8728755
+        ],
+        [
+          2.2942068,
+          48.8728558
+        ],
+        [
+          2.2942293,
+          48.8728483
+        ],
+        [
+          2.2944612,
+          48.8727806
+        ],
+        [
+          2.2945448,
+          48.8727644
+        ],
+        [
+          2.2949962,
+          48.8727162
+        ],
+        [
+          2.295076,
+          48.872716
+        ],
+        [
+          2.2950882,
+          48.8727162
+        ],
+        [
+          2.295335,
+          48.872736
+        ],
+        [
+          2.2953576,
+          48.8727389
+        ],
+        [
+          2.295431,
+          48.8727484
+        ],
+        [
+          2.295674,
+          48.8728003
+        ],
+        [
+          2.2957604,
+          48.8728223
+        ],
+        [
+          2.2957848,
+          48.8728282
+        ],
+        [
+          2.296037,
+          48.8729317
+        ],
+        [
+          2.2960928,
+          48.8729676
+        ],
+        [
+          2.2962669,
+          48.8730806
+        ],
+        [
+          2.2966938,
+          48.8729453
+        ],
+        [
+          2.2968104,
+          48.8729083
+        ],
+        [
+          2.2969292,
+          48.8728706
+        ],
+        [
+          2.2972575,
+          48.8727796
+        ],
+        [
+          2.2985282,
+          48.8723634
+        ],
+        [
+          2.2990646,
+          48.8721933
+        ],
+        [
+          2.2991535,
+          48.8721651
+        ],
+        [
+          2.299285,
+          48.8721233
+        ],
+        [
+          2.3001489,
+          48.8718496
+        ],
+        [
+          2.3002171,
+          48.8718277
+        ],
+        [
+          2.3003465,
+          48.8717866
+        ],
+        [
+          2.3006433,
+          48.8716925
+        ],
+        [
+          2.3009893,
+          48.8715713
+        ],
+        [
+          2.3011483,
+          48.8715754
+        ],
+        [
+          2.3019463,
+          48.8712771
+        ],
+        [
+          2.3023106,
+          48.8711616
+        ],
+        [
+          2.3024352,
+          48.871122
+        ],
+        [
+          2.3025627,
+          48.8710816
+        ],
+        [
+          2.3032741,
+          48.870856
+        ],
+        [
+          2.3033825,
+          48.8708215
+        ],
+        [
+          2.303521,
+          48.8707775
+        ],
+        [
+          2.3048085,
+          48.87037
+        ],
+        [
+          2.3050208,
+          48.8703033
+        ],
+        [
+          2.3054138,
+          48.8701799
+        ],
+        [
+          2.306055,
+          48.8699857
+        ],
+        [
+          2.3062054,
+          48.8699333
+        ],
+        [
+          2.306319,
+          48.8699936
+        ],
+        [
+          2.3065642,
+          48.8699158
+        ],
+        [
+          2.3067714,
+          48.8698501
+        ],
+        [
+          2.3070086,
+          48.8697825
+        ],
+        [
+          2.307336,
+          48.8696683
+        ],
+        [
+          2.3089929,
+          48.869138
+        ],
+        [
+          2.3092335,
+          48.8690651
+        ],
+        [
+          2.3096173,
+          48.8689923
+        ],
+        [
+          2.3097055,
+          48.8688531
+        ],
+        [
+          2.3098398,
+          48.8687448
+        ],
+        [
+          2.3100306,
+          48.8686954
+        ],
+        [
+          2.3102548,
+          48.8687022
+        ],
+        [
+          2.3104271,
+          48.8687344
+        ],
+        [
+          2.3107346,
+          48.8685578
+        ],
+        [
+          2.3116708,
+          48.8682574
+        ],
+        [
+          2.3120657,
+          48.8681356
+        ],
+        [
+          2.3122274,
+          48.8680852
+        ],
+        [
+          2.3123843,
+          48.8680352
+        ],
+        [
+          2.3132677,
+          48.8677542
+        ],
+        [
+          2.3133271,
+          48.8677347
+        ],
+        [
+          2.313433,
+          48.8676999
+        ],
+        [
+          2.3137668,
+          48.8675902
+        ],
+        [
+          2.3139898,
+          48.867517
+        ],
+        [
+          2.314198,
+          48.8674485
+        ],
+        [
+          2.3144081,
+          48.8673792
+        ],
+        [
+          2.3145743,
+          48.8673249
+        ],
+        [
+          2.3147687,
+          48.867261
+        ],
+        [
+          2.3147885,
+          48.8672545
+        ],
+        [
+          2.3158406,
+          48.8669291
+        ],
+        [
+          2.3162073,
+          48.8668119
+        ],
+        [
+          2.3167538,
+          48.8666372
+        ],
+        [
+          2.3173562,
+          48.866447
+        ],
+        [
+          2.3179048,
+          48.8662717
+        ],
+        [
+          2.3185532,
+          48.8660644
+        ],
+        [
+          2.3188649,
+          48.8659647
+        ],
+        [
+          2.3195396,
+          48.8657459
+        ],
+        [
+          2.3199074,
+          48.8656213
+        ],
+        [
+          2.3201689,
+          48.8654691
+        ],
+        [
+          2.3206209,
+          48.8653297
+        ],
+        [
+          2.3207689,
+          48.8655275
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Georges sagte nichts. Er dachte: »Also, wenn diese Kleine etwas Mut hat, dann würde die Sache endlich klappen.«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy plant innerlich und hegt eine strategische Hoffnung bezüglich Suzanne.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rückfahrt von Chatou",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 34,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Seit drei Monaten spann er um sie das unwiderstehliche Netz der schmeichelnden Zärtlichkeit. Er bezauberte, er verführte und eroberte sie. Er hatte sich von ihr lieben lassen, er strengte sich an, so gut wie er es irgend konnte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy reflektiert sein strategisches Vorgehen der vergangenen Monate — innere Bilanz seiner sozialen Aufstiegsstrategie.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 35,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hatte zunächst erreicht, daß sie dem Marquis de Cazolles absagte.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy bilanziert einen konkreten sozialen Erfolg — das Beiseitedrängen eines Rivalen — aus seiner inneren Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 36,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Daß Frau Walter niemals zustimmen würde, ihm ihre Tochter zu geben, das begriff er sehr wohl. Sie liebte ihn noch, sie würde ihn immer lieben, und zwar mit einer leidenschaftlichen Wucht. Er hielt sie durch seine berechnete Kälte in den Schranken, aber er fühlte, wie sie von einer gierigen, ohnmächtigen und verzehrenden Leidenschaft gequält wurde.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroy analysiert die emotionale und soziale Dynamik mit Frau Walter aus seiner strategischen Innenperspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 37,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Aber sobald er die Kleine in der Ferne versteckt hielt, dann konnte er mit dem Vater unterhandeln, wie eine Macht mit der anderen.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "mood"
+      ],
+      "notiz": "Duroy entwirft einen sozialen Machtplan — räumliche Trennung als strategisches Mittel zum Aufstieg.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unspezifisch / innere Reflexion",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 38,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er dachte über dieses alles nach. Er antwortete mit abgehackten Sätzen auf die Fragen, die man an ihn richtete und auf die er kaum hörte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy ist in seinen strategischen Gedanken versunken und nimmt die Außenwelt kaum wahr.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Rückfahrt nach Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 39,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Als man nach Paris zurückkam, wachte er wieder auf.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "mood"
+      ],
+      "notiz": "Die Ankunft in Paris markiert Duroys Rückkehr ins Bewusstsein — die Stadt wirkt als Auslöser.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Paris (Stadtgrenze / Einfahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "Erwachen, Aufmerksamkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 40,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Als der Landauer in den Hof des Palais einfuhr, wollte man Georges zum Diner dabehalten.",
+      "tags": [
+        "location",
+        "move"
+      ],
+      "notiz": "Der Erzähler beschreibt die Ankunft des Landauers im Hof des Palais Walter als neutrale Ortsangabe.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 41,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er lehnte jedoch dankend ab und ging nach Hause.",
+      "tags": [
+        "george_duroy",
+        "move"
+      ],
+      "notiz": "Der Erzähler beschreibt Duroys Abgang vom Palais nach Hause als äußere Handlung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 42,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Nachdem er etwas gegessen hatte, ordnete er seine Papiere, als wenn ihm eine lange Reise bevorstand.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Der Erzähler beschreibt Duroys Handlung (Papiere ordnen) als äußeres Zeichen seiner inneren Vorbereitung für die geplante Entführung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 43,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er verbrannte die Briefe, die ihn kompromittieren konnten, die anderen versteckte er und schrieb an einige Freunde.",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Duroy handelt aktiv, vernichtet kompromittierende Briefe und bereitet sich vor.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 44,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Von Zeit zu Zeit sah er auf die Standuhr und dachte: »Jetzt muß es drüben sehr heiß hergehen.«",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy verfolgt die Zeit mit innerlicher Spannung und imaginiert das Geschehen an einem anderen Ort.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Duroys Wohnung",
+        "emotion": "Spannung, Erwartung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 45,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Eine Unruhe und Unsicherheit nagte ihm am Herzen. Wie, wenn ihm die Sache mißlingen würde? ... Was hatte er ja eigentlich zu fürchten? Er hatte sich noch immer aus der Klemme ziehen können. Es war doch ein sehr großes Spiel, das er heute spielte.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "social"
+      ],
+      "notiz": "Duroys innere Unruhe und Kalkül über das Risiko seines Plans werden aus seiner Perspektive geschildert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 46,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Gegen elf Uhr verließ er sein Haus.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe der Uhrzeit beim Verlassen des Hauses.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 47,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er wanderte eine Weile auf und ab.",
+      "tags": [
+        "move",
+        "george_duroy"
+      ],
+      "notiz": "Duroy bewegt sich ziellos auf und ab, was seine innere Unruhe widerspiegelt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straße in der Nähe von Duroys Wohnung (nicht spezifiziert)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Straße, unspezifiziert",
+        "emotion": "Unruhe, Nervosität",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 48,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Dann nahm er eine Droschke und ließ den Kutscher an der Place de la Concorde vor den Arkaden des Marineministeriums halten.",
+      "tags": [
+        "move",
+        "george_duroy",
+        "location"
+      ],
+      "notiz": "Duroy fährt zur Place de la Concorde und lässt vor den Arkaden des Marineministeriums halten.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Marineministerium (Arkaden)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3207689,
+          48.8655275
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Hin und wieder zündete er ein Streichholz an, um nach der Uhr zu sehen. Je mehr die Mitternachtsstunde heranrückte, um so fieberhafter und unruhiger wurde seine Ungeduld.",
+      "tags": [
+        "george_duroy",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt das Vergehen der Zeit als emotionale Qual — Ungeduld und Fieberhaftigkeit steigern sich.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Fieberhaftigkeit, Ungeduld",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 50,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Alle Augenblicke steckte er seinen Kopf aus dem Wagenfenster und spähte hinaus.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys Körper drückt seine Anspannung durch wiederholtes Hinausspähen aus dem Fenster aus.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Erwartung, Nervosität",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 51,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Eine ferne Turmuhr schlug zwölf, gleich darauf schlug eine andere in der Nähe und dann gleich zwei auf einmal. Als der letzte Schlag verhallt war, dachte er: »Nun ist es aus, es ist mißlungen, sie kommt nicht mehr!«",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy hört die Turmuhren schlagen und erlebt den Mitternachtsschlag als emotionalen Tiefpunkt der Hoffnungslosigkeit.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Hoffnungslosigkeit, Resignation",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 52,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Trotzdem war er entschlossen zu bleiben, bis es Tag wurde. In solchen Fällen muß man Geduld haben.",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "time"
+      ],
+      "notiz": "Duroy entscheidet innerlich, trotz Hoffnungslosigkeit auszuharren — Zeit wird als Prüfung erlebt.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 53,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hörte, wie es ein viertel, dann ein halb, dann dreiviertel schlug, und schließlich wiederholten sämtlich Uhren, eine nach der anderen, eins, wie sie zwölf Uhr geschlagen hatten.",
+      "tags": [
+        "george_duroy",
+        "sound",
+        "time",
+        "mood"
+      ],
+      "notiz": "Duroy hört das Fortschreiten der Zeit akustisch — jeder Schlag verstärkt sein Warten und Ausharren.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Ausharren, wachsende Verzweiflung",
+        "richtung": "koerper_als_sensor"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 54,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hatte die Hoffnung schon verloren und zerbrach sich den Kopf darüber, was wohl geschehen sein könnte.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy verliert die Hoffnung und grübelt über das Scheitern seines Plans nach.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 55,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er fuhr atemlos empor: »Sind Sie das, Suzanne?«",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys körperliche Reaktion — atemlos auffahren — zeigt den abrupten Umschwung von Resignation zu Erleichterung.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Droschke vor dem Marineministerium",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Droschke, Place de la Concorde",
+        "emotion": "Erleichterung, Überraschung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 56,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie stieg ein und sank in seine Arme. Er rief dem Kutscher zu: »Vorwärts!« Und die Droschke setzte sich in Bewegung.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt neutral das Einsteigen Suzannes und die Abfahrt der Droschke von der Place de la Concorde.",
+      "koordinaten": {
+        "lat": 48.8656,
+        "lng": 2.3212,
+        "ort_bezeichnung": "Place de la Concorde, Abfahrt der Droschke",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3207689,
+          48.8655275
+        ],
+        [
+          2.3206209,
+          48.8653297
+        ],
+        [
+          2.3201689,
+          48.8654691
+        ],
+        [
+          2.3199151,
+          48.8650693
+        ],
+        [
+          2.3191896,
+          48.8652493
+        ],
+        [
+          2.3187015,
+          48.8649905
+        ],
+        [
+          2.3183509,
+          48.865059
+        ],
+        [
+          2.3179861,
+          48.8651576
+        ],
+        [
+          2.3179004,
+          48.8651612
+        ],
+        [
+          2.3163832,
+          48.8651306
+        ],
+        [
+          2.3163435,
+          48.8651297
+        ],
+        [
+          2.3157844,
+          48.8651171
+        ],
+        [
+          2.3157394,
+          48.865116
+        ],
+        [
+          2.315422,
+          48.8651167
+        ],
+        [
+          2.3141511,
+          48.8650733
+        ],
+        [
+          2.3139863,
+          48.8650698
+        ],
+        [
+          2.3139415,
+          48.865086
+        ],
+        [
+          2.3137166,
+          48.8650906
+        ],
+        [
+          2.3135184,
+          48.8650947
+        ],
+        [
+          2.3132979,
+          48.8650521
+        ],
+        [
+          2.3132558,
+          48.8650513
+        ],
+        [
+          2.3131353,
+          48.865049
+        ],
+        [
+          2.3118685,
+          48.8650252
+        ],
+        [
+          2.3114371,
+          48.8650171
+        ],
+        [
+          2.3109423,
+          48.8649991
+        ],
+        [
+          2.3107448,
+          48.8649884
+        ],
+        [
+          2.310511,
+          48.8649832
+        ],
+        [
+          2.3104891,
+          48.8650675
+        ],
+        [
+          2.3104781,
+          48.8651099
+        ],
+        [
+          2.3100908,
+          48.8651055
+        ],
+        [
+          2.3100355,
+          48.8650897
+        ],
+        [
+          2.3097959,
+          48.8650071
+        ],
+        [
+          2.309708,
+          48.864964
+        ],
+        [
+          2.3079877,
+          48.8649305
+        ],
+        [
+          2.307835,
+          48.864927
+        ],
+        [
+          2.3064327,
+          48.864891
+        ],
+        [
+          2.3033859,
+          48.8648246
+        ],
+        [
+          2.3030701,
+          48.8648445
+        ],
+        [
+          2.3025481,
+          48.8648601
+        ],
+        [
+          2.3023943,
+          48.8648241
+        ],
+        [
+          2.3022794,
+          48.8648783
+        ],
+        [
+          2.3019904,
+          48.8649357
+        ],
+        [
+          2.3018421,
+          48.8649111
+        ],
+        [
+          2.301706,
+          48.8649528
+        ],
+        [
+          2.3013147,
+          48.8649115
+        ],
+        [
+          2.3010507,
+          48.8648579
+        ],
+        [
+          2.3008283,
+          48.8646102
+        ],
+        [
+          2.3000262,
+          48.8648698
+        ],
+        [
+          2.2998031,
+          48.8648848
+        ],
+        [
+          2.2997464,
+          48.8649106
+        ],
+        [
+          2.2991842,
+          48.8648757
+        ],
+        [
+          2.2990264,
+          48.8648646
+        ],
+        [
+          2.2989939,
+          48.8648629
+        ],
+        [
+          2.2988675,
+          48.8648556
+        ],
+        [
+          2.2985922,
+          48.8648418
+        ],
+        [
+          2.2973387,
+          48.8647719
+        ],
+        [
+          2.2971752,
+          48.8646939
+        ],
+        [
+          2.2969725,
+          48.8646375
+        ],
+        [
+          2.2967872,
+          48.8646518
+        ],
+        [
+          2.2967513,
+          48.8646712
+        ],
+        [
+          2.2966909,
+          48.8647039
+        ],
+        [
+          2.2963587,
+          48.8647277
+        ],
+        [
+          2.296094,
+          48.8647175
+        ],
+        [
+          2.2956653,
+          48.864701
+        ],
+        [
+          2.2944983,
+          48.8646538
+        ],
+        [
+          2.2944183,
+          48.8646406
+        ],
+        [
+          2.2937305,
+          48.864296
+        ],
+        [
+          2.2936077,
+          48.8641947
+        ],
+        [
+          2.2934488,
+          48.8642687
+        ],
+        [
+          2.2933166,
+          48.8643291
+        ],
+        [
+          2.2933031,
+          48.8643166
+        ],
+        [
+          2.2929931,
+          48.8643305
+        ],
+        [
+          2.2928623,
+          48.8642958
+        ],
+        [
+          2.2924758,
+          48.8641928
+        ],
+        [
+          2.2909099,
+          48.863767
+        ],
+        [
+          2.2908516,
+          48.8637511
+        ],
+        [
+          2.2905811,
+          48.8636793
+        ],
+        [
+          2.2904228,
+          48.8636429
+        ],
+        [
+          2.2888217,
+          48.8632121
+        ],
+        [
+          2.2884803,
+          48.8631151
+        ],
+        [
+          2.2883264,
+          48.8630156
+        ],
+        [
+          2.2882348,
+          48.8629912
+        ],
+        [
+          2.2877066,
+          48.8626305
+        ],
+        [
+          2.2870148,
+          48.8621391
+        ],
+        [
+          2.2868069,
+          48.8619564
+        ],
+        [
+          2.2865012,
+          48.8618895
+        ],
+        [
+          2.2864027,
+          48.8619019
+        ],
+        [
+          2.2862456,
+          48.8618275
+        ],
+        [
+          2.2860775,
+          48.8617763
+        ],
+        [
+          2.2850366,
+          48.8614248
+        ],
+        [
+          2.2841713,
+          48.8611393
+        ],
+        [
+          2.2836515,
+          48.8609843
+        ],
+        [
+          2.2836305,
+          48.8609618
+        ],
+        [
+          2.2834608,
+          48.860915
+        ],
+        [
+          2.2834002,
+          48.8609313
+        ],
+        [
+          2.2832282,
+          48.86104
+        ],
+        [
+          2.2824093,
+          48.860787
+        ],
+        [
+          2.2822753,
+          48.8607464
+        ],
+        [
+          2.2822058,
+          48.8607126
+        ],
+        [
+          2.2811038,
+          48.8603395
+        ],
+        [
+          2.2810023,
+          48.8603274
+        ],
+        [
+          2.2808873,
+          48.860291
+        ],
+        [
+          2.2808534,
+          48.8602581
+        ],
+        [
+          2.2805033,
+          48.8601708
+        ],
+        [
+          2.2798511,
+          48.8600109
+        ],
+        [
+          2.279526,
+          48.8599596
+        ],
+        [
+          2.2793947,
+          48.8599244
+        ],
+        [
+          2.2792279,
+          48.859861
+        ],
+        [
+          2.2789957,
+          48.8598156
+        ],
+        [
+          2.2788122,
+          48.8597784
+        ],
+        [
+          2.2787923,
+          48.8597527
+        ],
+        [
+          2.2783045,
+          48.859637
+        ],
+        [
+          2.2774455,
+          48.8593546
+        ],
+        [
+          2.2773735,
+          48.8593522
+        ],
+        [
+          2.2772644,
+          48.8593059
+        ],
+        [
+          2.2770779,
+          48.8592198
+        ],
+        [
+          2.2768767,
+          48.8591393
+        ],
+        [
+          2.275912,
+          48.8587799
+        ],
+        [
+          2.275103,
+          48.8584779
+        ],
+        [
+          2.2750622,
+          48.8584964
+        ],
+        [
+          2.2748566,
+          48.8584043
+        ],
+        [
+          2.2746653,
+          48.8582994
+        ],
+        [
+          2.2743868,
+          48.8582678
+        ],
+        [
+          2.2742479,
+          48.8582709
+        ],
+        [
+          2.2742148,
+          48.8582583
+        ],
+        [
+          2.2741478,
+          48.8581001
+        ],
+        [
+          2.2740588,
+          48.8580866
+        ],
+        [
+          2.2729544,
+          48.8580318
+        ],
+        [
+          2.2726628,
+          48.8579773
+        ],
+        [
+          2.2725944,
+          48.8579644
+        ],
+        [
+          2.2725277,
+          48.8579362
+        ],
+        [
+          2.2724949,
+          48.8579423
+        ],
+        [
+          2.2712159,
+          48.8576507
+        ],
+        [
+          2.2711393,
+          48.857796
+        ],
+        [
+          2.2699193,
+          48.8575549
+        ],
+        [
+          2.2660931,
+          48.8566682
+        ],
+        [
+          2.2660455,
+          48.8567583
+        ],
+        [
+          2.2659667,
+          48.8567816
+        ],
+        [
+          2.2647183,
+          48.8571255
+        ],
+        [
+          2.2645319,
+          48.8571796
+        ],
+        [
+          2.2644322,
+          48.8573136
+        ],
+        [
+          2.2635819,
+          48.8575448
+        ],
+        [
+          2.2635032,
+          48.8575684
+        ],
+        [
+          2.2636009,
+          48.8577707
+        ],
+        [
+          2.2635247,
+          48.8577865
+        ],
+        [
+          2.2636274,
+          48.8583054
+        ],
+        [
+          2.263134,
+          48.8579108
+        ],
+        [
+          2.2631212,
+          48.8579017
+        ],
+        [
+          2.2630166,
+          48.8577227
+        ],
+        [
+          2.2627887,
+          48.8577775
+        ],
+        [
+          2.2627668,
+          48.8577442
+        ],
+        [
+          2.2624755,
+          48.8578075
+        ],
+        [
+          2.2624402,
+          48.8578578
+        ],
+        [
+          2.2624047,
+          48.8578933
+        ],
+        [
+          2.2609461,
+          48.8581762
+        ],
+        [
+          2.2599244,
+          48.8582687
+        ],
+        [
+          2.2589494,
+          48.8583401
+        ],
+        [
+          2.2587238,
+          48.8583383
+        ],
+        [
+          2.258284,
+          48.8583621
+        ],
+        [
+          2.2581212,
+          48.8583878
+        ],
+        [
+          2.2577417,
+          48.8584217
+        ],
+        [
+          2.2570447,
+          48.8583782
+        ],
+        [
+          2.2567444,
+          48.8583449
+        ],
+        [
+          2.2565459,
+          48.8583188
+        ],
+        [
+          2.2559533,
+          48.8582429
+        ],
+        [
+          2.2556836,
+          48.8582097
+        ],
+        [
+          2.2555533,
+          48.8581935
+        ],
+        [
+          2.2551372,
+          48.8581419
+        ],
+        [
+          2.2548274,
+          48.8581034
+        ],
+        [
+          2.2545859,
+          48.8580812
+        ],
+        [
+          2.2526847,
+          48.8576429
+        ],
+        [
+          2.2518861,
+          48.8573264
+        ],
+        [
+          2.2489783,
+          48.8552921
+        ],
+        [
+          2.2483339,
+          48.8553045
+        ],
+        [
+          2.246125,
+          48.8543759
+        ],
+        [
+          2.2446533,
+          48.8539268
+        ],
+        [
+          2.2435091,
+          48.8539088
+        ],
+        [
+          2.2434769,
+          48.8538277
+        ],
+        [
+          2.2434235,
+          48.8535712
+        ],
+        [
+          2.2419388,
+          48.8536691
+        ],
+        [
+          2.2417345,
+          48.8535864
+        ],
+        [
+          2.2415301,
+          48.8535037
+        ],
+        [
+          2.2413941,
+          48.8534503
+        ],
+        [
+          2.2392175,
+          48.8521053
+        ],
+        [
+          2.238956,
+          48.8518831
+        ],
+        [
+          2.2386324,
+          48.8517555
+        ],
+        [
+          2.237252,
+          48.8514366
+        ],
+        [
+          2.2370519,
+          48.8515365
+        ],
+        [
+          2.2368651,
+          48.8514135
+        ],
+        [
+          2.2302553,
+          48.8528529
+        ],
+        [
+          2.2298066,
+          48.8528516
+        ],
+        [
+          2.2278061,
+          48.8533384
+        ],
+        [
+          2.2266394,
+          48.8533779
+        ],
+        [
+          2.2264789,
+          48.8532255
+        ],
+        [
+          2.2263442,
+          48.8532264
+        ],
+        [
+          2.2263251,
+          48.8530343
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er war unruhig und zitterte",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroys innerer Zustand — Unruhe und körperliches Zittern als emotionale Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 58,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "er hielt mit gespannter Aufmerksamkeit zu, sein Herz klopfte, ein zorniger, neidischer Haß stieg in ihm gegen diese Leute auf.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy erlebt intensiven inneren Aufruhr — Eifersucht und Zorn gegen Suzannes Eltern.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 59,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Doch er hielt die Tochter.",
+      "tags": [
+        "george_duroy",
+        "social"
+      ],
+      "notiz": "Duroy registriert seine Machtposition — er hat die Tochter in seiner Gewalt und denkt taktisch.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": 1,
+      "intensitaet": 1,
+      "gewichtete_valenz": 1
+    },
+    {
+      "id": 60,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Es ist zu spät, wir können keinen Zug mehr erreichen.",
+      "tags": [
+        "george_duroy",
+        "time"
+      ],
+      "notiz": "Duroy erlebt die Zeit als handlungsbestimmenden Faktor — kein Zug mehr erreichbar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt, Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbestimmt",
+        "emotion": "Kalkulation, Kontrolle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 61,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Wir fahren mit diesem Wagen nach Sevres und dort übernachten wir, und morgen früh reisen wir nach La Roche Guyon weiter.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Duroy plant und kommuniziert die Route — Sèvres und La Roche-Guyon als Reiseziele.",
+      "koordinaten": {
+        "lat": 48.8211,
+        "lng": 2.1922,
+        "ort_bezeichnung": "Sèvres",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.2263251,
+          48.8530343
+        ],
+        [
+          2.2263442,
+          48.8532264
+        ],
+        [
+          2.2264789,
+          48.8532255
+        ],
+        [
+          2.2266394,
+          48.8533779
+        ],
+        [
+          2.2278061,
+          48.8533384
+        ],
+        [
+          2.2298066,
+          48.8528516
+        ],
+        [
+          2.2302553,
+          48.8528529
+        ],
+        [
+          2.2368651,
+          48.8514135
+        ],
+        [
+          2.2370519,
+          48.8515365
+        ],
+        [
+          2.237252,
+          48.8514366
+        ],
+        [
+          2.2386324,
+          48.8517555
+        ],
+        [
+          2.238956,
+          48.8518831
+        ],
+        [
+          2.2392175,
+          48.8521053
+        ],
+        [
+          2.2413941,
+          48.8534503
+        ],
+        [
+          2.2415301,
+          48.8535037
+        ],
+        [
+          2.2417345,
+          48.8535864
+        ],
+        [
+          2.2419388,
+          48.8536691
+        ],
+        [
+          2.2434235,
+          48.8535712
+        ],
+        [
+          2.2434769,
+          48.8538277
+        ],
+        [
+          2.2435091,
+          48.8539088
+        ],
+        [
+          2.2446533,
+          48.8539268
+        ],
+        [
+          2.246125,
+          48.8543759
+        ],
+        [
+          2.2483339,
+          48.8553045
+        ],
+        [
+          2.2489783,
+          48.8552921
+        ],
+        [
+          2.2518861,
+          48.8573264
+        ],
+        [
+          2.2526847,
+          48.8576429
+        ],
+        [
+          2.2545859,
+          48.8580812
+        ],
+        [
+          2.2548274,
+          48.8581034
+        ],
+        [
+          2.2551372,
+          48.8581419
+        ],
+        [
+          2.2555533,
+          48.8581935
+        ],
+        [
+          2.2556836,
+          48.8582097
+        ],
+        [
+          2.2559533,
+          48.8582429
+        ],
+        [
+          2.2565459,
+          48.8583188
+        ],
+        [
+          2.2567444,
+          48.8583449
+        ],
+        [
+          2.2570447,
+          48.8583782
+        ],
+        [
+          2.2577417,
+          48.8584217
+        ],
+        [
+          2.2581212,
+          48.8583878
+        ],
+        [
+          2.258284,
+          48.8583621
+        ],
+        [
+          2.2587238,
+          48.8583383
+        ],
+        [
+          2.2589494,
+          48.8583401
+        ],
+        [
+          2.2599244,
+          48.8582687
+        ],
+        [
+          2.2609461,
+          48.8581762
+        ],
+        [
+          2.2624047,
+          48.8578933
+        ],
+        [
+          2.2624402,
+          48.8578578
+        ],
+        [
+          2.2624755,
+          48.8578075
+        ],
+        [
+          2.2627668,
+          48.8577442
+        ],
+        [
+          2.2627887,
+          48.8577775
+        ],
+        [
+          2.2630166,
+          48.8577227
+        ],
+        [
+          2.2631212,
+          48.8579017
+        ],
+        [
+          2.263134,
+          48.8579108
+        ],
+        [
+          2.2636274,
+          48.8583054
+        ],
+        [
+          2.2635247,
+          48.8577865
+        ],
+        [
+          2.2636009,
+          48.8577707
+        ],
+        [
+          2.2635032,
+          48.8575684
+        ],
+        [
+          2.2635819,
+          48.8575448
+        ],
+        [
+          2.2644322,
+          48.8573136
+        ],
+        [
+          2.2645319,
+          48.8571796
+        ],
+        [
+          2.2647183,
+          48.8571255
+        ],
+        [
+          2.2659667,
+          48.8567816
+        ],
+        [
+          2.2660455,
+          48.8567583
+        ],
+        [
+          2.2660931,
+          48.8566682
+        ],
+        [
+          2.2699193,
+          48.8575549
+        ],
+        [
+          2.2711393,
+          48.857796
+        ],
+        [
+          2.2712159,
+          48.8576507
+        ],
+        [
+          2.2724949,
+          48.8579423
+        ],
+        [
+          2.2725277,
+          48.8579362
+        ],
+        [
+          2.2725944,
+          48.8579644
+        ],
+        [
+          2.2726628,
+          48.8579773
+        ],
+        [
+          2.2729544,
+          48.8580318
+        ],
+        [
+          2.2740588,
+          48.8580866
+        ],
+        [
+          2.2741478,
+          48.8581001
+        ],
+        [
+          2.2743267,
+          48.8579906
+        ],
+        [
+          2.2747619,
+          48.858112
+        ],
+        [
+          2.2749062,
+          48.858092
+        ],
+        [
+          2.2750963,
+          48.858092
+        ],
+        [
+          2.27672,
+          48.8579781
+        ],
+        [
+          2.2767386,
+          48.8580602
+        ],
+        [
+          2.2768142,
+          48.8580704
+        ],
+        [
+          2.276937,
+          48.8580623
+        ],
+        [
+          2.2774493,
+          48.8580122
+        ],
+        [
+          2.277467,
+          48.8580228
+        ],
+        [
+          2.2775693,
+          48.8580173
+        ],
+        [
+          2.277975,
+          48.8579606
+        ],
+        [
+          2.2796755,
+          48.8577854
+        ],
+        [
+          2.2800698,
+          48.8578338
+        ],
+        [
+          2.2800882,
+          48.8578435
+        ],
+        [
+          2.2802238,
+          48.8578666
+        ],
+        [
+          2.28072,
+          48.8579589
+        ],
+        [
+          2.2807911,
+          48.8579712
+        ],
+        [
+          2.280968,
+          48.8579964
+        ],
+        [
+          2.2816037,
+          48.8581091
+        ],
+        [
+          2.2823763,
+          48.8582345
+        ],
+        [
+          2.2824922,
+          48.8582622
+        ],
+        [
+          2.2826098,
+          48.8582867
+        ],
+        [
+          2.2830155,
+          48.8583452
+        ],
+        [
+          2.2831341,
+          48.8583567
+        ],
+        [
+          2.2843139,
+          48.8585441
+        ],
+        [
+          2.2843297,
+          48.8585814
+        ],
+        [
+          2.2843991,
+          48.8586386
+        ],
+        [
+          2.2845751,
+          48.8587487
+        ],
+        [
+          2.2848504,
+          48.8587534
+        ],
+        [
+          2.2849113,
+          48.8587128
+        ],
+        [
+          2.2867715,
+          48.8591402
+        ],
+        [
+          2.2870946,
+          48.8593533
+        ],
+        [
+          2.2871674,
+          48.8594063
+        ],
+        [
+          2.2874315,
+          48.8595895
+        ],
+        [
+          2.2878103,
+          48.8597513
+        ],
+        [
+          2.2878998,
+          48.8596903
+        ],
+        [
+          2.2882614,
+          48.8597758
+        ],
+        [
+          2.2901238,
+          48.8601469
+        ],
+        [
+          2.2901745,
+          48.8600823
+        ],
+        [
+          2.2903351,
+          48.8600508
+        ],
+        [
+          2.2904418,
+          48.8600188
+        ],
+        [
+          2.2906557,
+          48.8598986
+        ],
+        [
+          2.2908347,
+          48.8599707
+        ],
+        [
+          2.2911658,
+          48.8602274
+        ],
+        [
+          2.2912957,
+          48.8603225
+        ],
+        [
+          2.2914247,
+          48.8604093
+        ],
+        [
+          2.2917382,
+          48.860656
+        ],
+        [
+          2.2925962,
+          48.8613308
+        ],
+        [
+          2.2960975,
+          48.8631177
+        ],
+        [
+          2.2962188,
+          48.863155
+        ],
+        [
+          2.296414,
+          48.8632151
+        ],
+        [
+          2.2966099,
+          48.8632757
+        ],
+        [
+          2.2981287,
+          48.8636065
+        ],
+        [
+          2.3012852,
+          48.8641073
+        ],
+        [
+          2.3014439,
+          48.8640712
+        ],
+        [
+          2.3019312,
+          48.8640889
+        ],
+        [
+          2.3019616,
+          48.8641416
+        ],
+        [
+          2.3022993,
+          48.8641573
+        ],
+        [
+          2.3035978,
+          48.8640761
+        ],
+        [
+          2.3056161,
+          48.8641136
+        ],
+        [
+          2.30593,
+          48.8641213
+        ],
+        [
+          2.3088699,
+          48.8641879
+        ],
+        [
+          2.3117363,
+          48.8642124
+        ],
+        [
+          2.3129385,
+          48.8642394
+        ],
+        [
+          2.3143078,
+          48.8642787
+        ],
+        [
+          2.3173096,
+          48.8643975
+        ],
+        [
+          2.3185031,
+          48.8644293
+        ],
+        [
+          2.3221913,
+          48.8632848
+        ],
+        [
+          2.3244803,
+          48.8625355
+        ],
+        [
+          2.3250038,
+          48.8623604
+        ],
+        [
+          2.3250797,
+          48.8623323
+        ],
+        [
+          2.3295007,
+          48.860892
+        ],
+        [
+          2.3319779,
+          48.8601948
+        ],
+        [
+          2.3359016,
+          48.8593287
+        ],
+        [
+          2.3370453,
+          48.8591636
+        ],
+        [
+          2.337364,
+          48.8591376
+        ],
+        [
+          2.3382915,
+          48.8589985
+        ],
+        [
+          2.3385725,
+          48.8589883
+        ],
+        [
+          2.3388494,
+          48.8589612
+        ],
+        [
+          2.3390262,
+          48.8589374
+        ],
+        [
+          2.3398589,
+          48.8588786
+        ],
+        [
+          2.3415915,
+          48.8585619
+        ],
+        [
+          2.3420151,
+          48.8584846
+        ],
+        [
+          2.3421575,
+          48.8584636
+        ],
+        [
+          2.3422352,
+          48.8583736
+        ],
+        [
+          2.3424375,
+          48.8582992
+        ],
+        [
+          2.3427922,
+          48.8582996
+        ],
+        [
+          2.3452636,
+          48.8576485
+        ],
+        [
+          2.3456206,
+          48.8575649
+        ],
+        [
+          2.3457027,
+          48.8577104
+        ],
+        [
+          2.3467255,
+          48.8574373
+        ],
+        [
+          2.3470562,
+          48.8573882
+        ],
+        [
+          2.3475692,
+          48.8576674
+        ],
+        [
+          2.3478506,
+          48.8575873
+        ],
+        [
+          2.3478689,
+          48.857581
+        ],
+        [
+          2.3480043,
+          48.8577796
+        ],
+        [
+          2.349141,
+          48.8574623
+        ],
+        [
+          2.3492202,
+          48.857438
+        ],
+        [
+          2.3493711,
+          48.8573758
+        ],
+        [
+          2.3496855,
+          48.8573198
+        ],
+        [
+          2.3499195,
+          48.8572294
+        ],
+        [
+          2.350061,
+          48.857247
+        ],
+        [
+          2.351015,
+          48.8574293
+        ],
+        [
+          2.3514009,
+          48.8574097
+        ],
+        [
+          2.3515332,
+          48.8573783
+        ],
+        [
+          2.3522467,
+          48.8572349
+        ],
+        [
+          2.3521879,
+          48.8571248
+        ],
+        [
+          2.3521393,
+          48.8570375
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es ist ein hübsches Dorf an der Seine, zwischen Montes und Bonnieres.",
+      "tags": [
+        "location",
+        "space"
+      ],
+      "notiz": "Erzähler-nahe Charakterisierung von La Roche-Guyon als idyllisches Dorf an der Seine.",
+      "koordinaten": {
+        "lat": 49.0797,
+        "lng": 1.6303,
+        "ort_bezeichnung": "La Roche-Guyon, Seine",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 63,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Der Wagen rollte durch die Straßen.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung des Wagens durch die Straßen von Paris als Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Straßen von Paris, unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 64,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges nahm die Hand des jungen Mädchens und begann sie langsam und rücksichtsvoll zu küssen.",
+      "tags": [
+        "george_duroy",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Erzähler beschreibt Duroys körperliche Handlung — sanftes Küssen der Hand als sozialer und erotischer Akt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wagen, Straßen von Paris",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 65,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er wußte nicht, was er ihr sagen sollte, denn er war an platonische Zärtlichkeiten nicht gewöhnt.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy ist innerlich unsicher und überfordert mit der emotionalen Situation.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 66,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Plötzlich schien es ihm, als wenn sie weinte. Erschrocken fragte er: »Was haben Sie, meine liebe Kleine?«",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy nimmt Suzannes Weinen wahr und reagiert erschrocken — sein inneres Erleben wird deutlich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "unbekannt",
+        "emotion": "Erschrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 67,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das junge Mädchen hatte sich in den schönen jungen Mann vergafft, es war ganz natürlich; sie hoffte, ihn zum Gatten zu bekommen; sie hatte es sich in den Kopf gesetzt!",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen Suzannes Gefühle für Duroy und ihre Heiratsabsichten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 68,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie grübelte, verwirrt, wie man überhaupt vor einem bevorstehenden Unglück verwirrt ist.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den inneren Zustand der Mutter (Madame Walter) als verwirrtes Grübeln vor einem drohenden Unglück.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 69,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Oh! welch ein treuloser Schurke war er, wenn er diesen Streich vorbereitet hat! Was würde dann geschehen? Wie viele Gefahren und wie viele Qualen glaubte sie dann vorauszusehen.",
+      "tags": [
+        "mood",
+        "social"
+      ],
+      "notiz": "Die Mutter denkt über Duroys mögliche Verrat und die damit verbundenen Gefahren nach — aus ihrer Perspektive geschildert, von aussen durch den Erzähler.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 70,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie liebte ihn noch immer. Diese Leidenschaft hatte sich in sie hineingebohrt wie Pfeilspitzen, die sich nicht wieder herausreißen lassen. Leben ohne ihn war unmöglich.",
+      "tags": [
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt die anhaltende Leidenschaft der Mutter für Duroy mit einer körperlichen Metapher — von aussen erzählt.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 71,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Ihre Gedanken schweiften in dieser Angst und Ungewißheit herum. Ein heftiger Schmerz drückte auf ihren Kopf. Ihre Gedanken wurden sorgenvoll, trübe und quälten sie furchtbar.",
+      "tags": [
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen den körperlichen und geistigen Leidenszustand der Mutter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 72,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie sah nach der Uhr, es war eins vorbei.",
+      "tags": [
+        "time"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur Tageszeit — ein Uhr nachts.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbekannt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 73,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Dann ging sie ohne Schuhe, um keinen Lärm zu machen, mit der Kerze in der Hand nach dem Zimmer ihrer Tochter.",
+      "tags": [
+        "move",
+        "space"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die lautlose Bewegung der Mutter durchs Haus zum Zimmer ihrer Tochter.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Zimmer der Tochter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 74,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie öffnete leise die Tür, trat herein und sah nach dem Bett. Es war nicht angerührt.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen das unberührte Bett Suzannes, das einen dramatischen Wendepunkt markiert.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Suzannes Zimmer",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Suzannes Zimmer",
+        "emotion": "aufkeimender Schrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 75,
+      "zeile": 9,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Zunächst begriff sie nichts und dachte, das Mädchen spräche vielleicht noch mit seinem Vater. Dann aber stieg plötzlich in ihr ein furchtbarer Verdacht auf und sie eilte zu ihrem Gatten.",
+      "tags": [
+        "mood",
+        "move"
+      ],
+      "notiz": "Der Erzähler schildert von aussen das plötzliche Aufsteigen des Verdachts und die hastige Bewegung der Mutter zum Zimmer des Gatten.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haus Walter",
+        "emotion": "furchtbarer Verdacht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 76,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Blaß und keuchend stürzte sie in sein Zimmer. Er lag im Bett und las. Er war bestürzt.",
+      "tags": [
+        "atmosphere",
+        "space"
+      ],
+      "notiz": "Der Erzähler beschreibt von aussen den dramatischen Eintritt der Mutter in das Zimmer des Gatten und dessen Reaktion.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Haus Walter, Zimmer des Gatten",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Zimmer des Gatten",
+        "emotion": "Panik, Bestürzung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 77,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Mit einem Satz sprang er auf den Teppich, schlüpfte in seine Pantoffeln und stürzte ohne Unterhosen, im bloßen Hemd, das um ihn herumflatterte, in das Zimmer seiner Tochter.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt Walters hastigen Aufsprung und Bewegung durch den Raum von außen — kein inneres Erleben Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 78,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sobald er es selbst gesehen hatte, hegte er keinen Zweifel mehr. Sie war entflohen.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Maupassant schildert Walters Erkenntnis von außen, neutral beobachtend.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 79,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er sank in einen Sessel und stellte die Lampe vor sich auf den Boden hin.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Walters körperlichen Zusammenbruch und seine Handlung von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 80,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er war nicht mehr wütend, er seufzte nur: »Es ist erledigt. Er hat sie. Wir sind verloren.«",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt Walters emotionalen Zustand und seine Resignation von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 81,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er antwortete traurig: »Es nützt nichts, zu schreien. Er hat sie entführt, er hat sie auch sicher entehrt. Das beste, was wir noch tun können, ist, sie ihm zu geben. Wenn wir uns klug verhalten, wird niemand von diesem Streich etwas erfahren.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Walter kalkuliert soziale Konsequenzen von Duroys Entführung Suzannes — Maupassant beschreibt die soziale Dynamik von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 82,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Walter murmelte niedergeschmettert: »Er hat sie doch schon. Er wird sie so lange irgendwo verborgen halten, bis wir nachgeben. Um einem Skandal zu entgehen, muß man sofort nachgeben.«",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Walters Kapitulation vor Duroys Strategie von außen — soziale Machtlogik als Erzählerkommentar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 83,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "»Darüber läßt sich nicht mehr streiten. Es muß sein. Ah! Der Halunke, wie hat er uns hereingelegt ... Aber er ist stark, trotzdem. Wir hätten einen Mann aus einem viel besseren gesellschaftlichen Kreis finden können, aber keinen mit so viel Verstand und so großen Zukunftsaussichten.«",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Walter anerkennt widerwillig Duroys sozialen Aufstieg und Cleverness — Maupassant beleuchtet die soziale Hierarchie und Duroys Position von außen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Zimmer Suzannes im Hause Walter",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 84,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Walter stand auf, nahm seine Lampe und fuhr fort",
+      "tags": [
+        "george_duroy"
+      ],
+      "notiz": "Erzähler beschreibt Walters Handlung von aussen – keine Duroys Perspektive, sondern eine andere Figur.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 85,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Mit den Pantoffeln schlurfend, ging er hinaus. Er durchschritt wie ein komisches Gespenst im Nachthemd den breiten Flur des riesigen schlafenden Palastes und begab sich geräuschlos in sein Zimmer.",
+      "tags": [
+        "move",
+        "space",
+        "sound",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt Walters Bewegung durch den nächtlichen Palast von aussen – atmosphärisch und räumlich.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter, breiter Flur (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Flur des Palastes",
+        "emotion": "Stille, gespenstische Atmosphäre",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 86,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Von entsetzlichen Schmerzen innerlich zerrissen blieb Frau Walter zurück.",
+      "tags": [
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt den inneren Zustand Frau Walters von aussen – keine Duroy-Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 87,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie empfand ein heftiges Verlangen zu entfliehen, fortzulaufen, Hilfe zu suchen, getröstet zu werden.",
+      "tags": [
+        "mood",
+        "move"
+      ],
+      "notiz": "Erzähler schildert Frau Walters Drang zur Flucht – inneres Erleben einer anderen Figur, nicht Duroys.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Palais Walter",
+        "emotion": "Verzweiflung, Fluchtwunsch",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 88,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie würde sich zu seinen Füßen werfen, sie würde alles gestehen, ihm ihre Sünde und Verzweiflung beichten.",
+      "tags": [
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler schildert Frau Walters religiösen Rettungsimpuls und Verzweiflung – nicht Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Palais Walter (innen)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 89,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Da trat ihr wie eine Vision die erleuchtete Gestalt des auf dem Meere wandelnden Jesus vor Augen.",
+      "tags": [
+        "mood",
+        "atmosphere"
+      ],
+      "notiz": "Eine andere Figur (nicht Duroy) erlebt eine Vision — diese Stelle ist aus der Perspektive einer anderen Figur und sollte übersprungen werden.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "nicht bestimmbar",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": 1,
+      "intensitaet": 2,
+      "gewichtete_valenz": 2
+    },
+    {
+      "id": 90,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie nahm ihr Licht, verließ das Zimmer und ging hinab in den Wintergarten.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt die Bewegung einer anderen Figur in den Wintergarten — räumliche Ortsangabe ohne Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 91,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Jesusbild befand sich ganz am Ende desselben in einem kleinen Räume, der mit einer Glastür verschlossen war, damit die Feuchtigkeit der Erde die Leinwand des Gemäldes nicht angreifen könnte.",
+      "tags": [
+        "space",
+        "location",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt den Aufstellungsort des Gemäldes im Wintergarten mit physischen Details.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter), kleiner Raum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 92,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Ganze sah aus wie eine kleine Kapelle in einem Wald von seltsamen Bäumen.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler vergleicht den Wintergarten mit einer Kapelle in einem seltsamen Wald — atmosphärische Raumbeschreibung von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten als Kapelle im Wald",
+        "emotion": "mystische, religiöse Stimmung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": 0,
+      "intensitaet": 2,
+      "gewichtete_valenz": 0
+    },
+    {
+      "id": 93,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Als sie den Wintergarten betrat, den sie nie anders als nur in heller Beleuchtung gesehen hatte, stand sie betroffen da vor seiner dunklen Tiefe.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt die dunkle Tiefe des Wintergartens als befremdlichen Kontrast zur gewohnten Beleuchtung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten in dunkler Tiefe",
+        "emotion": "Betroffenheit, Schrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 94,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Die schweren Tropenpflanzen verdickten die Luft mit ihrem schwülen Atem.",
+      "tags": [
+        "smell",
+        "atmosphere",
+        "weather"
+      ],
+      "notiz": "Erzähler beschreibt die schwüle, drückende Atmosphäre der Tropenpflanzen als sensorische Kulisse.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten mit Tropenpflanzen",
+        "emotion": "Beklemmung, Schwüle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 95,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "drang der beklemmende Duft dieses seltsamen Waldes, der von einer Glaskuppel bedeckt und umschlossen war, schwer und berauschend in die Lungen.",
+      "tags": [
+        "smell",
+        "space",
+        "material",
+        "atmosphere"
+      ],
+      "notiz": "Erzähler beschreibt den berauschenden Duft und die Enge des glasüberdachten Wintergartens als atmosphärische Raumqualität.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter), unter Glaskuppel",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten unter Glaskuppel",
+        "emotion": "Beklemmung, Berauschung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 96,
+      "zeile": 8,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "die Schatten der phantastisch geformten Pflanzen, auf die das schimmernde Licht der Kerze fiel, und die wie ungeheuer lebende, seltsame Mißgestalten auftauchten.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Erzähler beschreibt das Kerzenlicht auf den Pflanzen, das sie als bedrohliche Gestalten erscheinen lässt — atmosphärische Raumbeschreibung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten (Haus Walter)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten bei Kerzenlicht",
+        "emotion": "Bedrohung, Unheimlichkeit",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 97,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Beim flackernden Licht einer einzigen Kerze, die ihn von unten schwach beleuchtete, war die Ähnlichkeit zwischen ihm und Bel-Ami noch auffallender.",
+      "tags": [
+        "atmosphere",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die dramatische Lichtsituation und die Ähnlichkeit zwischen Christusbild und Bel-Ami.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 98,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es war nicht mehr Gott, sondern ihr Geliebter, der sie ansah. Es waren seine Augen, seine Stirn, sein Gesichtsausdruck, seine kalte und hochmütige Haltung.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Verwechslung des Christusbildes mit Georges Duroy aus Madame Walters Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 99,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Auf einmal fiel ihr ein, daß Georges vielleicht in dieser Stunde ihre Tochter verführte und in Besitz nahm. Er war allein mit ihr, irgendwo, in irgendeinem Zimmer.",
+      "tags": [
+        "location_erinnerung",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die Vorstellung Madame Walters über Georges und Suzanne — keine Duroys Perspektive.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "imaginierter unbekannter Ort",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 100,
+      "zeile": 10,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Das Zimmer war dunkel, das Bett aufgedeckt.",
+      "tags": [
+        "space",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den imaginierten dunklen Raum in Madame Walters Vorstellung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "imaginierter unbekannter Raum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "imaginiertes dunkles Zimmer",
+        "emotion": "Eifersucht, Schrecken",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 1,
+      "gewichtete_valenz": -1
+    },
+    {
+      "id": 101,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie faßte sie schon... ihre Hände stießen an die Leinewand des Gemäldes. Sie berührte die Füße Christi ... Sie schrie laut auf und sank zu Boden. Die Kerze war umgefallen und erlosch.",
+      "tags": [
+        "material",
+        "koerper_als_akteur",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den körperlichen Zusammenbruch Madame Walters vor dem Gemälde.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Innenraum mit Gemälde",
+        "emotion": "Schrecken, Ohnmacht",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 102,
+      "zeile": 17,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie träumte lange von seltsamen schrecklichen Dingen. Es war immer Georges und Suzanne, die vor ihre Augen traten, eng aneinander geschmiegt, und der Christus segnete ihre verruchte Liebe.",
+      "tags": [
+        "atmosphere",
+        "mood"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den alptraumhaften Bewusstseinszustand Madame Walters.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "imaginierter Traumraum",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 103,
+      "zeile": 19,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie hatte das Gefühl, sie befinde sich nicht in ihrem Hause. Sie wollte aufstehen, fliehen, doch sie hatte keine Kraft. Eine Starrheit hatte sie befallen, ihre Glieder waren gelähmt, nur die Gedanken blieben ihr noch, wenn auch verwirrt und betört durch gräßliche, phantastische Vorstellungen. Sie war halb betäubt und träumte.",
+      "tags": [
+        "atmosphere",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Maupassant beschreibt von aussen den körperlichen und geistigen Zusammenbruch Madame Walters — Raumdesorientierung und Lähmung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Unbekannter Innenraum (Madame Walters Haus)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Haus Madame Walters",
+        "emotion": "Desorientierung, Lähmung, Betäubung",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 3,
+      "gewichtete_valenz": -3
+    },
+    {
+      "id": 104,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Es war ein ungesunder, seltsamer und bisweilen tödlicher Traum, den die einschläfernden tropischen Pflanzen mit ihren wundervollen Formen und schwülem Duft in das Menschengehirn eindringen lassen.",
+      "tags": [
+        "atmosphere",
+        "smell"
+      ],
+      "notiz": "Maupassant beschreibt als Erzähler die betäubende, gefährliche Atmosphäre der tropischen Pflanzen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Gewächshaus/Wintergarten bei den Walters",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "Wintergarten",
+        "emotion": "Betäubung, Gefahr",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": -1,
+      "intensitaet": 2,
+      "gewichtete_valenz": -2
+    },
+    {
+      "id": 105,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Bei Tagesanbruch fand man Frau Walter bewußtlos und halbtot vor dem Christusbild auf dem Rücken ausgestreckt liegen.",
+      "tags": [
+        "time",
+        "atmosphere"
+      ],
+      "notiz": "Neutrale Erzählerangabe zur Tageszeit (Tagesanbruch) und zum Zustand Frau Walters.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Wintergarten bei den Walters",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 106,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Herr Walter antwortete Du Roy auf seinen langen Brief und sagte ihm die Hand seiner Tochter zu.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt von aussen die soziale Transaktion (Heiratsversprechen) zwischen Walter und Duroy.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 107,
+      "zeile": 6,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Bel-Ami hatte seinen Brief in den Postkasten geworfen, in dem Augenblick, wo er Paris verließ, denn er hatte ihn schon am Abend vor der Entführung geschrieben.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Handlung beim Verlassen von Paris und das Einwerfen des Briefes.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (Stadtgrenze/Ausfahrt)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3521393,
+          48.8570375
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "zeile": 7,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "In respektvollen Ausdrücken teilte er darin mit, daß er seit langem schon das junge Mädchen liebe, daß jedoch nie eine Verabredung zwischen ihnen beiden bestanden hatte, daß er aber, als sie in voller Freiheit zu ihm gekommen war, um ihm zu sagen: »Ich will Ihre Frau sein«, sich für berechtigt hielt, sie zu behalten und sogar zu verbergen, bis er von den Eltern eine Antwort erhalten würde, deren rechtmäßigen Willen er respektiere, aber für weniger maßgebend halte, als den Willen seiner Verlobten selbst.",
+      "tags": [
+        "social"
+      ],
+      "notiz": "Maupassant referiert den Briefinhalt Duroys und seine soziale Strategie zur Legitimierung der Entführung.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "unbestimmt",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 109,
+      "zeile": 11,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Als er seinen Zweck erreicht hatte, brachte er Suzanne nach Paris und schickte sie zu ihren Eltern zurück; er selbst hielt sich eine Weile von ihnen fern.",
+      "tags": [
+        "move",
+        "location"
+      ],
+      "notiz": "Erzähler beschreibt Duroys Rückkehr nach Paris und sein strategisches Fernbleiben von den Walters.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null,
+      "route": [
+        [
+          2.3521393,
+          48.8570375
+        ]
+      ]
+    },
+    {
+      "id": 110,
+      "zeile": 12,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie hatten sechs Tage an der Seine in La Roche-Guyon verbracht.",
+      "tags": [
+        "location",
+        "time"
+      ],
+      "notiz": "Erzähler nennt konkret den Aufenthaltsort (La Roche-Guyon an der Seine) und die Dauer des Aufenthalts.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 111,
+      "zeile": 13,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Noch nie hatte sich das junge Mädchen so amüsiert. Sie spielte die Bäuerin.",
+      "tags": [
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Erzähler beschreibt von aussen die unbeschwerte, spielerische Stimmung Suzannes in La Roche-Guyon.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "La Roche-Guyon",
+        "emotion": "Unbeschwertheit, Vergnügen",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 112,
+      "zeile": 14,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Und da er sie als seine Schwester ausgab, so lebten sie ungeniert und keusch nebeneinander, in einer Art verliebter Kameradschaft.",
+      "tags": [
+        "social",
+        "atmosphere"
+      ],
+      "notiz": "Maupassant beschreibt von aussen das soziale Arrangement und die Atmosphäre der Kameradschaft zwischen Duroy und Suzanne.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 113,
+      "zeile": 15,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Er hielt es für gescheiter, sie nicht anzurühren.",
+      "tags": [
+        "george_duroy",
+        "mood"
+      ],
+      "notiz": "Duroy kalkuliert strategisch und beherrscht bewusst sein Verhalten gegenüber Suzanne.",
+      "koordinaten": {
+        "lat": 49.0819,
+        "lng": 1.6281,
+        "ort_bezeichnung": "La Roche-Guyon",
+        "geo_unsicher": false
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 114,
+      "zeile": 1,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Sie angelte und trug dabei auf dem Kopf einen riesigen Strohhut mit Feldblumen. Sie fand die Gegend bezaubernd. Es gab da einen alten Turm und ein altes Schloß, wo man prächtige Wandteppiche zeigte.",
+      "tags": [
+        "space",
+        "atmosphere",
+        "social"
+      ],
+      "notiz": "Maupassant beschreibt die ländliche Umgebung mit Strohhut, Turm und Schloss als idyllische Kulisse von aussen.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ländliche Gegend ausserhalb von Paris (Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "ländliche Gegend",
+        "emotion": "Bezauberung, Idylle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 2,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 115,
+      "zeile": 2,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Georges trug eine Bauernbluse, die er sich im Dorfe beim Kaufmann erstanden hatte.",
+      "tags": [
+        "george_duroy",
+        "social",
+        "material"
+      ],
+      "notiz": "Maupassant beschreibt Duroys verkleidetes Äusseres im Dorf — soziale Maskerade von aussen beobachtet.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Dorf (ländliche Umgebung, Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": 1,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 116,
+      "zeile": 3,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "erzaehler",
+      "text": "Er machte mit Suzanne Ausflüge entweder zu Fuß am Fluß entlang, oder im Boot.",
+      "tags": [
+        "george_duroy",
+        "move",
+        "location"
+      ],
+      "notiz": "Maupassant beschreibt die gemeinsamen Ausflüge Duroys und Suzannes entlang des Flusses als Erzählerkommentar.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Fluss in ländlicher Umgebung (Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": null,
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 117,
+      "zeile": 4,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "Sie küßten sich jeden Augenblick. Suzanne in voller Unschuld, er bereit, seiner Begierde zu unterliegen. Doch er nahm sich zusammen",
+      "tags": [
+        "george_duroy",
+        "mood",
+        "koerper_als_akteur"
+      ],
+      "notiz": "Duroys innere Begierde und Selbstbeherrschung werden aus seiner Perspektive geschildert — emotionaler Kampf zwischen Begehren und Kontrolle.",
+      "koordinaten": {
+        "lat": null,
+        "lng": null,
+        "ort_bezeichnung": "Ländliche Umgebung (Flucht mit Suzanne)",
+        "geo_unsicher": true
+      },
+      "raum_emotion": {
+        "ort": "ländliche Idylle",
+        "emotion": "Begierde, Selbstkontrolle",
+        "richtung": "ort_loest_emotion_aus"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    },
+    {
+      "id": 118,
+      "zeile": 5,
+      "kapitel_abschnitt": "Kapitel 18",
+      "perspektive": "figur",
+      "text": "als er ihr sagte: »Morgen kehren wir nach Paris zurück, Ihr Vater versichert mir Ihre Hand«",
+      "tags": [
+        "george_duroy",
+        "location",
+        "move",
+        "social"
+      ],
+      "notiz": "Duroy plant die Rückkehr nach Paris und nennt den sozialen Aufstieg durch die Heirat — Paris als Ziel des strategischen Handelns.",
+      "koordinaten": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "ort_bezeichnung": "Paris (als Rückkehrziel genannt)",
+        "geo_unsicher": false
+      },
+      "raum_emotion": {
+        "ort": "Paris",
+        "emotion": "soziale Ambition, kalkuliertes Handeln",
+        "richtung": "emotion_faerbt_raum"
+      },
+      "kapitel": 18,
+      "valenz": null,
+      "intensitaet": null,
+      "gewichtete_valenz": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "titel": "PLACE DE LA MADELEINE",
+    "plz": "75008",
+    "beschreibung": "Place de la Madeleine. Église de la Madeleine. Façade. Paris (VIIIème arr.). Photographie de Charles Lansiaux (1855-1939). Plaque de verre, 24 avril 1918. Département Histoire de l'Architecture et Archéologie de Paris.",
+    "lon": 2.324617,
+    "lat": 48.870093,
+    "fotoUrl": "https://api.nakala.fr/data/10.34847/nkl.0de808i6/32d3dea80813a1797f57d62684ab63b03a58db63?content-disposition=inline"
+  },
+  {
+    "titel": "PLACE DE L OPERA",
+    "plz": "75009",
+    "beschreibung": "Place de l'Opéra. Façade. Paris (VIIIème arr.). Photographie de Charles Lansiaux (1855-1939). Plaque de verre, 24 avril 1918. Département Histoire de l'Architecture et Archéologie de Paris.",
+    "lon": 2.331880,
+    "lat": 48.872040,
+    "fotoUrl": "https://api.nakala.fr/data/10.34847/nkl.d9ebxi2d/b938e9cf7c807880f9412d3cf2701f21efce86f3?content-disposition=inline"
+  },
+  {
+    "titel": "FOLIES BERGÈRE",
+    "plz": "75009",
+    "beschreibung": "Folies Bergère. Façades et vue perspective de la rue. Paris (IXème arr.). Photographie de Charles Lansiaux (1855-1939). Plaque de verre, 26 février 1921. Département Histoire de l'Architecture et Archéologie de Paris.",
+    "lon": 2.344527,
+    "lat": 48.874088,
+    "fotoUrl": "https://api.nakala.fr/data/10.34847/nkl.317eq02f/2307ff40273a86bccaeb23b0a44036c4cf4154d9?content-disposition=inline"
+  },
+  {
+    "titel": "BOULEVARD DES CAPUCINES",
+    "plz": "75009",
+    "beschreibung": "Théâtre du Vaudeville. Façade. Paris (IXème arr.). Photographie de Charles Lansiaux (1855-1939). Plaque de verre, 27 novembre 1919. Département Histoire de l'Architecture et Archéologie de Paris.",
+    "lon": 2.331073,
+    "lat": 48.870452,
+    "fotoUrl": "https://api.nakala.fr/data/10.34847/nkl.bbaehug6/d70c078f3b815a8806eaa5f5243371cd35787cf1?content-disposition=inline"
+  }
+]
