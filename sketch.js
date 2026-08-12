@@ -325,7 +325,7 @@ function zeichneMassstabsleiste(bbox, offsetX, alphaMultiplier = 1) {
   textStyle(NORMAL);
   textSize(11);
   textAlign(CENTER, BOTTOM);
-  text(label, (x1 + x2) / 2, y - tickHoehe - 4);
+  drawingContext.fillText(label, (x1 + x2) / 2, y - tickHoehe - 4); // p5s text() bleibt bei laufender Animation manchmal unsichtbar, siehe zeichneSpineHorizontal
   pop();
 }
 
@@ -413,6 +413,15 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
   // eigentliche stroke()-Aufruf (nur strokeWeight gesetzt, stroke() selbst
   // war auskommentiert und noStroke() stand vom Zentrums-Punkt oben noch
   // an), wodurch die Beschriftung praktisch unsichtbar wurde.
+  // p5s text() bleibt bei laufender Animation manchmal unsichtbar (siehe
+  // zeichneSpineHorizontal) — Fill+Stroke hier direkt über den Canvas-Context,
+  // die p5-Aufrufe oben (fill/stroke/textAlign/textSize/textFont/textStyle)
+  // setzen die dafür nötigen Context-Eigenschaften weiterhin wie gewohnt.
+  function zeichneBeschriftung(label, x, y) {
+    drawingContext.strokeText(label, x, y);
+    drawingContext.fillText(label, x, y);
+  }
+
   const beschriftungsFarbe = '#1a1a1a';
   strokeWeight(1);
   stroke(255, 255, 255, 200);
@@ -421,10 +430,10 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
   textSize(groesse * 0.2);
   textFont("'Source Sans 3', sans-serif");
   textStyle(BOLD);
-  text('N', 0, -rHaupt - 16);
-  text('O', rHaupt + 16, 0);
-  text('S', 0, rHaupt + 16);
-  text('W', -rHaupt - 16, 0);
+  zeichneBeschriftung('N', 0, -rHaupt - 16);
+  zeichneBeschriftung('O', rHaupt + 16, 0);
+  zeichneBeschriftung('S', 0, rHaupt + 16);
+  zeichneBeschriftung('W', -rHaupt - 16, 0);
 
   // Beschriftung Nebenrichtungen — dieselbe -90-Ausrichtung wie die Zacken,
   // sonst landet z.B. "NO" geometrisch auf der SO-Position.
@@ -435,7 +444,7 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
   richtungenNeben.forEach((w, i) => {
     const label = ['NO', 'SO', 'SW', 'NW'][i];
     const a = radians(w - 90);
-    text(label, offsetNeben * cos(a), offsetNeben * sin(a));
+    zeichneBeschriftung(label, offsetNeben * cos(a), offsetNeben * sin(a));
   });
   noStroke();
 
@@ -601,6 +610,41 @@ function baueLegende() {
   neutralZeile.appendChild(neutralText);
 
   legendeBox.appendChild(neutralZeile);
+
+  let fwertTitel = document.createElement('div');
+  fwertTitel.className = 'legende-fwert-titel';
+  fwertTitel.textContent = 'F-Wert';
+  legendeBox.appendChild(fwertTitel);
+
+  // Reihenfolge = Grösse 1..3, siehe FWERT_PUNKTGROESSE (datenbereinigung.js).
+  [
+    { groesse: 1, text: 'Raum löst Emotion aus' },
+    { groesse: 2, text: 'Emotion färbt Raum' },
+    { groesse: 3, text: 'Körper als Sensor' },
+  ].forEach(({ groesse, text }) => {
+    let zeile = document.createElement('div');
+    zeile.className = 'legende-fwert-zeile';
+
+    let punkt = document.createElement('span');
+    punkt.className = 'legende-fwert-punkt';
+    let d = FWERT_PUNKT_DURCHMESSER[groesse];
+    punkt.style.width = d + 'px';
+    punkt.style.height = d + 'px';
+    punkt.style.backgroundColor = FWERT_PUNKT_FARBE;
+    zeile.appendChild(punkt);
+
+    let label = document.createElement('span');
+    label.className = 'legende-label';
+    label.textContent = text;
+    zeile.appendChild(label);
+
+    legendeBox.appendChild(zeile);
+  });
+
+  let fwertHinweis = document.createElement('p');
+  fwertHinweis.className = 'legende-hinweis';
+  fwertHinweis.textContent = 'Position ausserhalb des Kreises: negativ oben links, positiv oben rechts, neutral/unbewertet unten.';
+  legendeBox.appendChild(fwertHinweis);
 }
 
 function baueKartenMarkierungen() {
@@ -686,19 +730,21 @@ function draw() {
   background(220);
 
   if (spineEintraegep5.length === 0 && stationenData.ortRuns) {
-    spineEintraegep5 = baueSpineDaten(stationenData, ortRunsFuerSpine(stationenData), { live: true, parisAllgemein: PARIS_ALLGEMEIN });
+    spineEintraegep5 = baueSpineDaten(stationenData, ortRunsFuerSpine(stationenData), { parisAllgemein: PARIS_ALLGEMEIN });
   }
-  // Generisches, statisches Spine-Panel fürs jeweils gezoomte Kapitel (02–18,
-  // ausser 01 — das hat sein eigenes live wachsendes Panel). letzterZoomKapitel
-  // bleibt auch nach dem Schliessen (zoomedKapitel=null) gesetzt, damit das
-  // Panel während des Ausblendens (kapitelZoomAmount -> 0) weiter die richtigen
-  // Daten zeigt, statt abrupt zu verschwinden.
+  // Generisches Spine-Panel fürs jeweils gezoomte Kapitel (02–18, ausser 01 —
+  // das hat sein eigenes live wachsendes Panel), einmal berechnet und dann
+  // gecacht — die Hauptorte kommen aber wie bei Kapitel 1 dynamisch aus
+  // ortRunsFuerSpine(daten), nicht mehr aus einer je Kapitel von Hand
+  // gepflegten Liste (siehe KAPITEL_MIT_SPINE_PANEL in datenbereinigung.js).
+  // letzterZoomKapitel bleibt auch nach dem Schliessen (zoomedKapitel=null)
+  // gesetzt, damit das Panel während des Ausblendens (kapitelZoomAmount -> 0)
+  // weiter die richtigen Daten zeigt, statt abrupt zu verschwinden.
   if (zoomedKapitel) letzterZoomKapitel = zoomedKapitel;
   if (letzterZoomKapitel && !spineEintraegeKapitel[letzterZoomKapitel]) {
     let daten = datenFuerKapitel(letzterZoomKapitel);
-    let hauptorte = KAPITEL_HAUPTORTE[letzterZoomKapitel];
-    if (daten && daten.ortRuns && hauptorte) {
-      spineEintraegeKapitel[letzterZoomKapitel] = baueSpineDaten(daten, hauptorte, { live: false });
+    if (daten && daten.ortRuns) {
+      spineEintraegeKapitel[letzterZoomKapitel] = baueSpineDaten(daten, ortRunsFuerSpine(daten));
     }
   }
   let fullCrop = coverCrop(bgImage.width, bgImage.height, 0.5, 0.5, 0); // grosse Karte bleibt zentriert, unabhängig von mapOffsetX
@@ -876,8 +922,9 @@ function draw() {
   if (inKapitelGrafikAnsicht) {
     background(198, 210, 215); // #c6d2d7, wie GEBAEUDE_FARBE der Kartenausschnitte
     let grafikEintraege = zoomedKapitel ? spineEintraegeKapitel[zoomedKapitel] : spineEintraegep5;
+    let grafikDaten = zoomedKapitel ? datenFuerKapitel(zoomedKapitel) : stationenData;
     aktualisiereGrafikFortschritt();
-    zeichneSpineHorizontal(grafikEintraege || [], grafikFortschritt);
+    zeichneSpineHorizontal(grafikEintraege || [], grafikFortschritt, grafikDaten);
   }
 
   // Annotation — in der letzten Ansicht (Rauszoomen) für den Moment ausgeblendet.
@@ -1116,7 +1163,7 @@ function zeichneFotoMarker(activeBbox, offsetX = mapOffsetX, offsetY = mapOffset
     textAlign(CENTER, CENTER);
     textStyle(BOLD);
     textSize(hover ? sternGroesse * 1.2 : sternGroesse);
-    text('*', pos.x, pos.y - 3); // leichte optische Korrektur nach oben (Sternchen-Glyphe)
+    drawingContext.fillText('*', pos.x, pos.y - 3); // leichte optische Korrektur nach oben (Sternchen-Glyphe); p5s text() bleibt bei laufender Animation manchmal unsichtbar, siehe zeichneSpineHorizontal
 
     if (hover) {
       textFont("'Source Sans 3', sans-serif"); // wie .annotation-tag (var(--sans)) und die Kreis-Labels/Kapitelnummern
@@ -1128,7 +1175,7 @@ function zeichneFotoMarker(activeBbox, offsetX = mapOffsetX, offsetY = mapOffset
       rect(pos.x + 10, pos.y - 12, tw, 20, 4);
       fill(255, 255 * alphaMultiplier);
       textAlign(LEFT, CENTER);
-      text(label, pos.x + 18, pos.y - 2);
+      drawingContext.fillText(label, pos.x + 18, pos.y - 2);
     }
   });
   textStyle(NORMAL);
@@ -1259,8 +1306,11 @@ function zeichneKreiseOrtRuns(punktIndex, annIndex, activeBbox, offsetX = mapOff
       // sichtbare Änderung aus, statt dass Nebenerwähnungen als fertiger,
       // fest vorberechneter Kreis auf einmal aufploppen.
       let pos = lonLatToScreen(r.lon, r.lat, activeBbox, offsetX, offsetY);
-      let bandCounts = zaehleAnnotationenLiveNachOrtBasis(wohnungFilterFuerOrt(r.ort), annIndex, daten);
+      let filter = wohnungFilterFuerOrt(r.ort);
+      let bandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten);
       let radius = zeichneKreiseFuerRun(pos.x, pos.y, bandCounts, 1);
+      let fwertAnnotationen = sammleAnnotationenNachOrtBasis(filter, annIndex, daten).filter(a => a.hasFwert);
+      zeichneFwertPunkte(pos.x, pos.y, radius, fwertAnnotationen, 1);
       if (radius > 0) {
         // Label mit demselben Begriff wie in der Spine (r.ort) — erst
         // sammeln, Kollisionen erst nach der Schleife auflösen (siehe
@@ -1368,7 +1418,12 @@ function zeichneKreisLabels(kandidaten) {
         noStroke();
       }
       fill(k.farbe || '#1A1A1A');
-      text(k.text, k.x, y);
+      // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
+      // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
+      // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal,
+      // gleicher Bug/Workaround) — direkt über den Canvas-Context gezeichnet,
+      // fillStyle kommt schon vom fill()-Aufruf oben.
+      drawingContext.fillText(k.text, k.x, y);
     });
 }
 
@@ -1379,13 +1434,22 @@ function zeichneKreisLabels(kandidaten) {
 // Deckkraft (0.75) und Multiply-Blend wie im alten Entwurf
 // (kapitel01-embed.js/addBand) — blend=true für gold_hell/gold_dunkel,
 // blend=false (normale, deckende Basis) für gold_mittel; siehe Aufrufer.
+// p5s arc()/ellipse() bleiben bei laufender Animation (viele Frames/
+// Sekunde, wechselnde Werte) manchmal unsichtbar, obwohl alle Canvas-
+// Context-Eigenschaften (fillStyle/globalAlpha/composite) nachweislich
+// korrekt gesetzt sind — derselbe Bug wie bei p5s text(), siehe
+// zeichneSpineHorizontal. Beide Formen deshalb direkt über den
+// Canvas-Context gezeichnet statt über p5s arc()/ellipse().
 function zeichneHalbkreis(cx, cy, r, winkelMitte, farbeRgb, alphaSkala = 1, blend = false) {
   if (r <= 0) return;
   let ctx = drawingContext;
   if (blend) ctx.globalCompositeOperation = 'multiply';
-  noStroke();
-  fill(farbeRgb[0], farbeRgb[1], farbeRgb[2], 255 * 0.75 * alphaSkala);
-  arc(cx, cy, r * 2, r * 2, winkelMitte - HALF_PI, winkelMitte + HALF_PI, PIE);
+  ctx.fillStyle = `rgba(${farbeRgb[0]}, ${farbeRgb[1]}, ${farbeRgb[2]}, ${0.75 * alphaSkala})`;
+  ctx.beginPath();
+  ctx.moveTo(cx, cy);
+  ctx.arc(cx, cy, r, winkelMitte - HALF_PI, winkelMitte + HALF_PI);
+  ctx.closePath();
+  ctx.fill();
   if (blend) ctx.globalCompositeOperation = 'source-over';
 }
 
@@ -1396,9 +1460,10 @@ function zeichneVollkreis(cx, cy, r, farbeRgb, alphaSkala = 1, blend = false) {
   if (r <= 0) return;
   let ctx = drawingContext;
   if (blend) ctx.globalCompositeOperation = 'multiply';
-  noStroke();
-  fill(farbeRgb[0], farbeRgb[1], farbeRgb[2], 255 * 0.75 * alphaSkala);
-  ellipse(cx, cy, r * 2, r * 2);
+  ctx.fillStyle = `rgba(${farbeRgb[0]}, ${farbeRgb[1]}, ${farbeRgb[2]}, ${0.75 * alphaSkala})`;
+  ctx.beginPath();
+  ctx.arc(cx, cy, r, 0, TWO_PI);
+  ctx.fill();
   if (blend) ctx.globalCompositeOperation = 'source-over';
 }
 
@@ -1455,11 +1520,90 @@ function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF
   flaechenFormen.sort((a, b) => b.r - a.r).forEach(f => f.zeichne());
 
   if (groessterHatchRadius > 0) {
-    fill(0, 255 * alphaSkala); noStroke();
-    ellipse(cx, cy, 8, 8);
+    // p5s ellipse() bleibt bei laufender Animation manchmal unsichtbar,
+    // siehe zeichneHalbkreis — direkt über den Canvas-Context gezeichnet.
+    drawingContext.fillStyle = `rgba(0, 0, 0, ${alphaSkala})`;
+    drawingContext.beginPath();
+    drawingContext.arc(cx, cy, 4, 0, TWO_PI);
+    drawingContext.fill();
   }
 
   return groessterHatchRadius; // fuer Label-Platzierung durch den Aufrufer
+}
+
+// Pixel-Durchmesser je F-Wert-Punktgrösse (1..3, siehe FWERT_PUNKTGROESSE in
+// datenbereinigung.js), sowie Ring-/Randabstände für zeichneFwertPunkte.
+const FWERT_PUNKT_DURCHMESSER = { 1: 5, 2: 7.5, 3: 10 };
+const FWERT_PUNKT_FARBE_RGB = hexZuRgb(FWERT_PUNKT_FARBE);
+const FWERT_PUNKT_RAND_ABSTAND = 6; // Luft zwischen Kreisrand und erstem Punkte-Ring
+const FWERT_PUNKT_RING_ABSTAND = 8; // Abstand zwischen zwei Punkte-Ringen, falls ein Drittel nicht in einen Ring passt
+
+// F-Wert-Punkte ausserhalb des Kreisdiagramms: jede Annotation mit F-Wert
+// (a.hasFwert) bekommt hier — anders als die aggregierten bandCounts — einen
+// EIGENEN Punkt. Grösse nach F-Wert-Typ (FWERT_PUNKTGROESSE: 1 Raum löst
+// Emotion aus, 2 Emotion färbt Raum, 3 Körper als Sensor), Farbe einheitlich
+// (FWERT_PUNKT_FARBE). Position: eines von drei 120°-Dritteln rund um den Kreis,
+// relativ zu winkel wie die Halbkreise in zeichneKreiseFuerRun (winkel selbst
+// zeigt "neutral gegenüber" — bei winkel=-HALF_PI, der Default hier wie dort,
+// ergibt das negativ oben-links, positiv oben-rechts, neutral/unbewertet
+// unten). Reichen die Punkte eines Drittels nicht auf einen Bogen, wachsen
+// weitere, weiter aussen liegende Ringe nach (z.B. "Cannes", Kapitel 8, mit
+// 87 F-Wert-Annotationen an einem einzigen Ort).
+function zeichneFwertPunkte(cx, cy, kreisRadius, fwertAnnotationen, alphaSkala = 1, winkel = -HALF_PI) {
+  if (!fwertAnnotationen.length || kreisRadius <= 0) return;
+
+  const DRITTEL = TWO_PI / 3;
+  let gruppen = [
+    { mitte: winkel - DRITTEL / 2, formen: [] }, // negativ: oben-links
+    { mitte: winkel + DRITTEL / 2, formen: [] }, // positiv: oben-rechts
+    { mitte: winkel + PI, formen: [] },          // neutral + unbewertet: unten
+  ];
+  fwertAnnotationen.forEach(a => {
+    let gruppe = a.valenz === -1 ? gruppen[0] : a.valenz === 1 ? gruppen[1] : gruppen[2];
+    let groesse = FWERT_PUNKTGROESSE[a.fWertType] || 1;
+    gruppe.formen.push({
+      d: FWERT_PUNKT_DURCHMESSER[groesse],
+      rgb: FWERT_PUNKT_FARBE_RGB,
+    });
+  });
+
+  noStroke();
+  gruppen.forEach(({ mitte, formen }) => {
+    if (!formen.length) return;
+    let ringRadius = kreisRadius + FWERT_PUNKT_RAND_ABSTAND;
+    let rest = formen;
+    while (rest.length) {
+      let bogenlaenge = ringRadius * DRITTEL;
+      let platz = 0;
+      let anzahlImRing = 0;
+      for (let f of rest) {
+        let breite = f.d + 2; // Mindestabstand zwischen benachbarten Punkten
+        if (anzahlImRing > 0 && platz + breite > bogenlaenge) break;
+        platz += breite;
+        anzahlImRing++;
+      }
+      let ringFormen = rest.slice(0, anzahlImRing);
+      rest = rest.slice(anzahlImRing);
+
+      // Etwas schmaler als das volle Drittel verteilt, damit Punkte an der
+      // Drittel-Grenze nicht ins Nachbar-Drittel hineinragen.
+      let spanne = DRITTEL * 0.8;
+      let n = ringFormen.length;
+      ringFormen.forEach((f, i) => {
+        let winkelPunkt = n === 1 ? mitte : mitte - spanne / 2 + (i / (n - 1)) * spanne;
+        let x = cx + Math.cos(winkelPunkt) * ringRadius;
+        let y = cy + Math.sin(winkelPunkt) * ringRadius;
+        // p5s ellipse() bleibt bei laufender Animation manchmal unsichtbar,
+        // siehe zeichneHalbkreis — direkt über den Canvas-Context gezeichnet.
+        drawingContext.fillStyle = `rgba(${f.rgb.r}, ${f.rgb.g}, ${f.rgb.b}, ${alphaSkala})`;
+        drawingContext.beginPath();
+        drawingContext.arc(x, y, f.d / 2, 0, TWO_PI);
+        drawingContext.fill();
+      });
+
+      ringRadius += FWERT_PUNKT_RING_ABSTAND;
+    }
+  });
 }
 
 // Letzter Akt: 8 handverlesene, kapitelübergreifende Orte (Rue
@@ -1504,17 +1648,21 @@ function zeichneKreisVergleich(gridAlpha, aktuellesKapitelMax) {
       });
     });
 
+    // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
+    // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
+    // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal) —
+    // direkt über den Canvas-Context gezeichnet.
     textStyle(BOLD);
     textSize(13);
     fill(26, 26, 26, 255 * gridAlpha);
-    text(ort.name, cx, cy - 130);
+    drawingContext.fillText(ort.name, cx, cy - 130);
 
     zeichneKreiseFuerRun(cx, cy, bandCounts, gridAlpha);
 
     textStyle(NORMAL);
     textSize(11);
     fill(90, 90, 90, 255 * gridAlpha);
-    text(letztesRelevantesKapitel ? `Kapitel ${letztesRelevantesKapitel}` : 'Kapitel –', cx, cy + 130);
+    drawingContext.fillText(letztesRelevantesKapitel ? `Kapitel ${letztesRelevantesKapitel}` : 'Kapitel –', cx, cy + 130);
   });
 
   textAlign(LEFT, CENTER); // zurücksetzen — andere Zeichenfunktionen erwarten diese Voreinstellung
@@ -1723,10 +1871,10 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
       }
     }
     // Klickbar, sobald entweder ein eigener Kartenausschnitt (kapitelKarten)
-    // ODER zumindest ein Spine-Panel (KAPITEL_HAUPTORTE) vorhanden ist —
-    // Kapitel ohne eigenen Ausschnitt (aktuell 02, 14, 15) zeigen beim Zoom
-    // dann nur das Spine-Panel, die Karte bleibt auf der Übersicht stehen.
-    let klickbar = (!!kapitelKarten[kapitelNr] || !!KAPITEL_HAUPTORTE[kapitelNr]) && !zoomedKapitel;
+    // ODER zumindest ein Spine-Panel (KAPITEL_MIT_SPINE_PANEL) vorhanden ist
+    // — Kapitel ohne eigenen Ausschnitt (aktuell 02, 14, 15) zeigen beim
+    // Zoom dann nur das Spine-Panel, die Karte bleibt auf der Übersicht.
+    let klickbar = (!!kapitelKarten[kapitelNr] || KAPITEL_MIT_SPINE_PANEL.has(kapitelNr)) && !zoomedKapitel;
     let hover = klickbar && dist(mouseX, mouseY, start.x, start.y) < FOTO_MARKER_TREFFER_RADIUS;
     if (hover) kapitelHover = kapitelNr;
 
@@ -1736,7 +1884,12 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
     if (hover) fill(FWERT_COLOR_RGB.r, FWERT_COLOR_RGB.g, FWERT_COLOR_RGB.b, labelAlpha); // #C2511C
     else fill(33, 43, 46, labelAlpha); // #212B2E
     ellipse(start.x, start.y, hover ? 11 : 8, hover ? 11 : 8);
-    text(kapitelNr, start.x + 8, start.y);
+    // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
+    // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
+    // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal, gleicher
+    // Bug/Workaround) — direkt über den Canvas-Context gezeichnet, fillStyle
+    // kommt schon vom fill()-Aufruf oben.
+    drawingContext.fillText(kapitelNr, start.x + 8, start.y);
   });
 
   // Kapitel 1 hat keine Übersichtsroute in uebersichtsRouten (eigene, separat
@@ -1750,7 +1903,7 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   if (ch1Hover) fill(FWERT_COLOR_RGB.r, FWERT_COLOR_RGB.g, FWERT_COLOR_RGB.b, alpha); // #C2511C
   else fill(33, 43, 46, alpha); // #212B2E
   ellipse(ch1Start.x, ch1Start.y, ch1Hover ? 11 : 8, ch1Hover ? 11 : 8);
-  text('01', ch1Start.x + 8, ch1Start.y);
+  drawingContext.fillText('01', ch1Start.x + 8, ch1Start.y); // siehe Kommentar oben (p5s text()-Bug)
 
   textStyle(NORMAL);
   cursor(kapitelHover ? HAND : ARROW);
@@ -1799,7 +1952,7 @@ function setzeKapitelAnsichtZurueck() {
 }
 
 function oeffneKapitelZoom(nr) {
-  if (!kapitelKarten[nr] && !KAPITEL_HAUPTORTE[nr]) return;
+  if (!kapitelKarten[nr] && !KAPITEL_MIT_SPINE_PANEL.has(nr)) return;
   zoomedKapitel = nr;
   setzeKapitelAnsichtZurueck();
 }
@@ -1824,7 +1977,7 @@ function schliesseKapitelZoom() {
 // jedes Kapitel (auch annotationsarme) noch klar bei dessen erster
 // Annotation (siehe zoomedLokalerFortschritt/annIndexZoom dort).
 function springeZuKapitelZoom(nr) {
-  if (!kapitelKarten[nr] && !KAPITEL_HAUPTORTE[nr]) return;
+  if (!kapitelKarten[nr] && !KAPITEL_MIT_SPINE_PANEL.has(nr)) return;
   let trackEl = document.querySelector('.scroll-track');
   let start = SCROLL_MEILENSTEINE.uebersichtRoutenStart
     + 0.01 * (SCROLL_MEILENSTEINE.uebersichtRoutenEnd - SCROLL_MEILENSTEINE.uebersichtRoutenStart);
@@ -1902,28 +2055,61 @@ function aktualisiereGrafikFortschritt() {
   if (grafikFortschritt >= 1) grafikSpielt = false; // Ende erreicht, Button springt zurück auf Play
 }
 
+// Fester Abstand zwischen zwei Ortspunkten der Spine (siehe
+// zeichneSpineHorizontal) — NICHT mehr über eine feste Spine-Breite auf n
+// Einträge gestreckt, die Gesamtbreite ergibt sich also aus n * Abstand.
+// Nur eine Obergrenze: reicht der Platz zwischen Kapitelregister (links,
+// 5vw) und Legende-Box (rechts, 190px + Rand) bei vielen Einträgen nicht
+// (Kapitel 1 z.B. 18 Einträge — mehr als jedes andere Kapitel), wird der
+// Abstand in zeichneSpineHorizontal so weit gestaucht, dass die Spine nicht
+// unter dem Kapitelregister/der Legende verschwindet. Ränder zusätzlich um
+// den grössten möglichen Kreisradius (100px, siehe kreisRadius) vergrössert,
+// damit auch der erste/letzte Kreis selbst bei maximaler Grösse nicht unter
+// Kapitelregister/Legende gerät, nicht nur sein Mittelpunkt.
+const SPINE_PUNKT_ABSTAND = 70;
+const SPINE_RAND_LINKS = 200;
+const SPINE_RAND_RECHTS = 340;
+// Vertikale Linie vom Ortspunkt nach unten zur (horizontalen) Beschriftung.
+const SPINE_LABEL_LINIE_LAENGE = 16;
+const SPINE_LABEL_TEXT_ABSTAND = 6;
+
 // Horizontale Spine der grafischen Ansicht: zentriert auf den Browser,
-// dieselben Einträge/Kreise wie das (jetzt entfallene) vertikale Panel,
-// aber sequenziell per fortschritt (0..1, siehe grafikFortschritt) statt
-// live am Scroll enthüllt. Zeigt für jeden Eintrag direkt den fertigen
-// Endstand (kein Live-Hochzählen) — bei Kapitel-1-Einträgen (e.ortBasis)
-// daher mit annIndex = letzte Annotation statt der aktuellen Scrollposition.
-function zeichneSpineHorizontal(eintraege, fortschritt) {
+// dieselben Einträge/Kreise wie das (jetzt entfallene) vertikale Panel, aber
+// sequenziell per fortschritt (0..1, siehe grafikFortschritt) statt live am
+// Scroll enthüllt. Die Kreisdiagramme wachsen dabei — analog zur Route in
+// der Kartenansicht — mit der Erzählung: alle Kreise teilen sich denselben,
+// aus fortschritt interpolierten "Spielkopf"-annIndex (globalAnnIndex
+// unten), statt sofort im fertigen Endstand zu erscheinen. Kehrt die
+// Erzählung zu einem Ort zurück (siehe baueSpineDaten: eigener
+// typ 'rueckkehr' statt eines zweiten Kreises), wächst dadurch ganz von
+// selbst der schon bestehende Kreis weiter — der Rückkehr-Punkt bekommt hier
+// nur noch einen Bogen dorthin.
+function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
   if (!eintraege.length) return;
 
   let n = eintraege.length;
-  let spineBreite = width * 0.5;
-  let startX = (width - spineBreite) / 2;
-  let endX = startX + spineBreite;
-  let abstand = n > 1 ? spineBreite / (n - 1) : 0;
+  let verfuegbareBreite = width - SPINE_RAND_LINKS - SPINE_RAND_RECHTS;
+  let abstand = n > 1 ? Math.min(SPINE_PUNKT_ABSTAND, verfuegbareBreite / (n - 1)) : SPINE_PUNKT_ABSTAND;
+  let startX = SPINE_RAND_LINKS + (verfuegbareBreite - (n - 1) * abstand) / 2;
   let linieY = height / 2;
-  let letzterAnnIndex = stationenData.annotationen.length - 1;
 
   // position: wie weit der "Playhead" entlang der n Einträge (0..n-1) schon
   // ist. Eintrag i blendet weich ein, sobald position i-1..i durchläuft —
   // Eintrag 0 ist dadurch schon bei fortschritt=0 (Ruhezustand vor Play)
   // sichtbar, als Startpunkt der Linie.
   let position = fortschritt * (n - 1 || 1);
+
+  // globalAnnIndex: interpoliert zwischen den revealIndex-Werten (rv) der
+  // Einträge, an denen der Playhead gerade steht — alle Kreise wachsen so
+  // gemeinsam mit derselben "Erzählzeit". Letzter Wegpunkt ist NICHT der rv
+  // des letzten Eintrags selbst, sondern das Ende aller Annotationen —
+  // sonst erreicht der letzte Kreis bei fortschritt=1 nie seinen vollen
+  // Stand (rv markiert nur seinen ANFANG, nicht das Ende der Erzählung).
+  let rvWegpunkte = eintraege.map(e => e.rv);
+  rvWegpunkte[n - 1] = daten.annotationen.length - 1;
+  let i0 = Math.min(n - 1, Math.floor(position));
+  let i1 = Math.min(n - 1, i0 + 1);
+  let globalAnnIndex = Math.round(lerp(rvWegpunkte[i0], rvWegpunkte[i1], position - i0));
 
   if (position > 0) {
     noFill();
@@ -1932,20 +2118,120 @@ function zeichneSpineHorizontal(eintraege, fortschritt) {
     line(startX, linieY, startX + Math.min(n - 1, position) * abstand, linieY);
   }
 
-  noStroke();
+  // Rückkehr-Bögen unter den Kreisen/Punkten zeichnen (gleicher Stil wie die
+  // Route-Linie oben, Form: Halbkreisbogen über der Spine-Linie zwischen der
+  // Rückkehr-Position und dem ursprünglichen Kreis desselben Orts).
+  eintraege.forEach((e, i) => {
+    if (e.typ !== 'rueckkehr') return;
+    let alphaSkala = constrain(position - (i - 1), 0, 1);
+    if (alphaSkala <= 0) return;
+    let x = startX + i * abstand;
+    let zielX = startX + e.zielIndex * abstand;
+    // p5s arc() bleibt bei laufender Animation manchmal unsichtbar, siehe
+    // zeichneHalbkreis — direkt über den Canvas-Context gezeichnet.
+    drawingContext.strokeStyle = `rgba(${ROUTE_COLOR_RGB.r}, ${ROUTE_COLOR_RGB.g}, ${ROUTE_COLOR_RGB.b}, ${alphaSkala})`;
+    drawingContext.lineWidth = 2;
+    drawingContext.beginPath();
+    drawingContext.arc((x + zielX) / 2, linieY, Math.abs(x - zielX) / 2, PI, TWO_PI);
+    drawingContext.stroke();
+  });
+
+  // Kreise NICHT in Zeitleisten-Reihenfolge zeichnen, sondern nach Grösse
+  // (grösster zuerst/unterste Ebene, kleinster zuletzt/oberste Ebene) — bei
+  // eng benachbarten Punkten (fester SPINE_PUNKT_ABSTAND) überschneiden sich
+  // Nachbarkreise stark, und ein in Zeitleisten-Reihenfolge SPÄTER
+  // gezeichneter (aber kleinerer) Kreis würde sonst einen bereits
+  // gezeichneten GRÖSSEREN Nachbarn unvollständig zudecken. Innerhalb jedes
+  // einzelnen Kreises sorgt zeichneKreiseFuerRun bereits selbst für die
+  // gleiche Regel (schraffiert unten, Valenz-Flächen oben, je nach Grösse).
+  let kreisDaten = [];
+  eintraege.forEach((e, i) => {
+    if (e.typ === 'rueckkehr') return;
+    let alphaSkala = constrain(position - (i - 1), 0, 1);
+    if (alphaSkala <= 0) return;
+    let x = startX + i * abstand;
+    let bc = zaehleAnnotationenLiveNachOrtBasis(wohnungFilterFuerOrt(e.ortBasis), globalAnnIndex, daten);
+    let fwertAnnotationen = sammleAnnotationenNachOrtBasis(wohnungFilterFuerOrt(e.ortBasis), globalAnnIndex, daten).filter(a => a.hasFwert);
+    kreisDaten.push({ i, x, bc, fwertAnnotationen, radius: 0 });
+  });
+
+  // Groesse vorab bestimmen (groesster Hatch-Radius je bandCounts, ohne zu
+  // zeichnen — dieselbe Formel wie in zeichneKreiseFuerRun) und danach
+  // sortieren.
+  kreisDaten.forEach(k => {
+    let r = 0;
+    KREIS_KATEGORIEN.forEach(kat => {
+      let bc = k.bc[kat.key] || {};
+      let n = (bc.neg || 0) + (bc.pos || 0) + (bc.neutral || 0) + (bc.unrated || 0);
+      r = Math.max(r, kreisRadius(n));
+    });
+    k.radius = r;
+  });
+  kreisDaten.sort((a, b) => b.radius - a.radius);
+
+  let radiusNachIndex = new Map();
+  kreisDaten.forEach(k => {
+    let radius = zeichneKreiseFuerRun(k.x, linieY, k.bc, 1, 0);
+    zeichneFwertPunkte(k.x, linieY, radius, k.fwertAnnotationen, 1, 0);
+    radiusNachIndex.set(k.i, radius);
+  });
+
+  textFont("'Source Sans 3', sans-serif");
+  textStyle(BOLD);
+  textSize(11);
+  textAlign(CENTER, TOP);
+
+  // Bei eng benachbarten Punkten (fester SPINE_PUNKT_ABSTAND, siehe oben)
+  // sind Labels oft breiter als der Punktabstand — je Zeile werden schon
+  // belegte x-Bereiche gemerkt, ein Label rutscht bei Überlappung in die
+  // nächste Zeile darunter (die Linie wird dafür entsprechend länger, bleibt
+  // aber gerade vertikal). Ortspunkt/Linie/Label werden bewusst ERST HIER,
+  // NACH allen Kreisen (unabhängig von deren Grösse-Reihenfolge oben),
+  // gezeichnet, damit sie nie unter einem Nachbarkreis verschwinden.
+  const SPINE_LABEL_ZEILEN_HOEHE = 15;
+  let belegteBereicheJeZeile = [];
+
   eintraege.forEach((e, i) => {
     let alphaSkala = constrain(position - (i - 1), 0, 1);
     if (alphaSkala <= 0) return;
 
     let x = startX + i * abstand;
-    let bc = e.bandCounts
-      || (e.ortBasis ? zaehleAnnotationenLiveNachOrtBasis(wohnungFilterFuerOrt(e.ortBasis), letzterAnnIndex) : null);
-    if (bc) zeichneKreiseFuerRun(x, linieY, bc, 1, 0); // volle Kreisgrafik immer vollständig zeichnen
+    let radius = radiusNachIndex.get(i) || 0;
 
-    fill(0, 255 * alphaSkala);
+    // Ortspunkt — p5s ellipse() bleibt bei laufender Animation manchmal
+    // unsichtbar, siehe zeichneHalbkreis, daher direkt über den Context.
+    drawingContext.fillStyle = `rgba(0, 0, 0, ${alphaSkala})`;
+    drawingContext.beginPath();
+    drawingContext.arc(x, linieY, 2.5, 0, TWO_PI);
+    drawingContext.fill();
+
+    // Ortspunkt: Linie vertikal nach unten (ab Kreisrand, falls vorhanden),
+    // Beschriftung horizontal darunter.
+    let textBreite = textWidth(e.text);
+    let bereich = [x - textBreite / 2 - 4, x + textBreite / 2 + 4];
+    let zeile = 0;
+    while (belegteBereicheJeZeile[zeile]
+      && belegteBereicheJeZeile[zeile].some(([a, b]) => bereich[0] < b && bereich[1] > a)) zeile++;
+    if (!belegteBereicheJeZeile[zeile]) belegteBereicheJeZeile[zeile] = [];
+    belegteBereicheJeZeile[zeile].push(bereich);
+
+    let linienStartY = linieY + (radius > 0 ? radius : 4);
+    let linienEndY = linienStartY + SPINE_LABEL_LINIE_LAENGE + zeile * SPINE_LABEL_ZEILEN_HOEHE;
+    stroke(0, 110 * alphaSkala);
+    strokeWeight(1);
+    line(x, linienStartY, x, linienEndY);
     noStroke();
-    let punktGross = e.typ === 'route' ? 10 : 5;
-    ellipse(x, linieY, punktGross, punktGross);
+    // p5s text() bleibt hier während einer laufenden Play-Animation (viele
+    // Frames/Sekunde, wechselnde Werte) manchmal unsichtbar, obwohl Font/
+    // Farbe/Alpha/Ausrichtung im Canvas-Context nachweislich korrekt gesetzt
+    // sind (mit drawingContext.fillText() an derselben Stelle sofort
+    // sichtbar) — direkt über den Canvas-Context gezeichnet, um diesen Bug
+    // zu umgehen; textAlign/textBaseline/font/fillStyle sind über die
+    // p5-Aufrufe oben bereits auf dem Context gesetzt.
+    drawingContext.fillStyle = `rgba(26, 26, 26, ${alphaSkala})`;
+    drawingContext.fillText(e.text, x, linienEndY + SPINE_LABEL_TEXT_ABSTAND);
   });
+
+  textStyle(NORMAL);
 }
 

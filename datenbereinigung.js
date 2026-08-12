@@ -31,6 +31,20 @@ const FWERT_COLORS = {
   koerper_als_sensor: '#A03705',
 };
 
+// Punktgrösse (1 = klein … 3 = gross) der F-Wert-Punkte ausserhalb des
+// Kreisdiagramms je F-Wert-Typ (siehe zeichneFwertPunkte in sketch.js). Ein
+// vierter, sehr seltener Typ (persoenliche_sehnsucht, gesamthaft nur 1
+// Annotation) hat keine eigene Grösse — fällt beim Aufrufer auf 1 zurück.
+const FWERT_PUNKTGROESSE = {
+  ort_loest_emotion_aus: 1, // Raum löst Emotion aus
+  emotion_faerbt_raum: 2,   // Emotion färbt Raum
+  koerper_als_sensor: 3,    // Körper als Sensor
+};
+
+// Farbe aller F-Wert-Punkte (einheitlich, unabhängig von Grösse/Typ) — nicht
+// zu verwechseln mit FWERT_COLORS oben, das für die Annotationsleiste bleibt.
+const FWERT_PUNKT_FARBE = '#AB3F0C';
+
 const KREIS_KATEGORIEN = [
   { key: 'gold_dunkel', farbe: [142, 117, 42] },
   { key: 'gold_mittel', farbe: [206, 169, 62] },
@@ -48,384 +62,23 @@ const PARIS_ALLGEMEIN = new Set([
 // Kreis bekommt — siehe ortRunsFuerSpine() weiter unten (dynamisch, nicht
 // mehr eine feste Liste, damit Karte und Spine nie auseinanderlaufen).
 
-// Hauptorte für das (statische) Kapitel-3-Spine-Panel — bewusst ohne die
-// drei Lauf-ortRuns (Äussere Boulevards, Strasse vor der Wohnung Forestier,
-// Boulevard Richtung Redaktion). Kapitel 3 hat (noch) keine Gedanken-Spalte-
-// Auslagerungen wie Kapitel 1, daher hier weiterhin eine feste Liste statt
-// der dynamischen Auswahl.
-const KAPITEL03_HAUPTORTE = new Set([
-  'Wohnung Duroy, Rue Boursault',
-  'Parc Monceau',
-  'Wohnung Forestier, Paris',
-  'Bouillon Duval',
-  'Redaktion La Vie Française',
-]);
+// Hauptorte für das generische Spine-Panel eines gezoomten Kapitels (02–18)
+// beim Kapitel-Zoom (siehe sketch.js: oeffneKapitelZoom/draw) — dieselbe
+// dynamische Funktion wie Kapitel 1s eigenes, live wachsendes Panel
+// (ortRunsFuerSpine, siehe oben), NICHT mehr eine je Kapitel von Hand
+// gepflegte/generierte feste Liste: die driftete nach jeder weiteren
+// Datenbereinigung (Umbenennungen, Zusammenlegungen) rasch auseinander und
+// liess auf der Karte gezeigte Kreise in der Spine fehlen (z.B. Kapitel 3:
+// 4 echte Orte fehlten zuletzt) — jetzt kann Karte und Spine gar nicht mehr
+// auseinanderlaufen, weil beide direkt aus denselben ortRuns lesen.
 
-// Hauptorte für Kapitel 2, 4–18 — automatisch aus den Erstentwurf-ortRuns
-// jedes Kapitels übernommen (siehe data-prep/05 bereinigen/
-// baue-kapitel-stationen.py), NICHT redaktionell kuratiert wie oben bei
-// Kapitel 3: enthält bewusst jeden ortRun inklusive des Sammelpunkts
-// "Unbestimmt (Kapitel XX)", da diese Kapitel noch keine Feinarbeit wie
-// Kapitel 1 (Innen/Aussen-Splits, Zusammenlegungen, Namensbereinigung)
-// bekommen haben. Wird schrittweise verfeinert werden, sobald einzelne
-// Kapitel wie Kapitel 1 überarbeitet werden.
-const KAPITEL02_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 02)',
-  'Grand Magasin du Louvre, Paris',
-  'Folies Bergère',
-  'Paris (allgemein)',
-  'Paris und Umgebung (allgemein)',
+// Reine Existenz-Prüfung ("hat Kapitel X überhaupt ein Spine-Panel?", siehe
+// sketch.js: springeZuKapitelZoom/oeffneKapitelZoom/Kapitelregister) — Kapitel
+// 01 bewusst nicht enthalten, das hat sein eigenes Panel (siehe oben).
+const KAPITEL_MIT_SPINE_PANEL = new Set([
+  '02', '03', '04', '05', '06', '07', '08', '09', '10',
+  '11', '12', '13', '14', '15', '16', '17', '18',
 ]);
-
-const KAPITEL04_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 04)',
-  'Hotel Continental, Paris (Rue de Castiglione)',
-  'Hotel Bristol, Place Vendôme / Rue du Faubourg Saint-Honoré, Paris',
-  'Boulevard Poissonière (Näherung, Redaktion La Vie Française)',
-  'Boulevard Poissonière (Näherung)',
-  'Café am Boulevard (Näherung Boulevard Poissonière)',
-  'Boulevard des Capucines, Richtung Madeleine',
-  'Boulevard des Capucines, nahe Madeleine',
-  'Avenue des Champs-Élysées',
-  'Paris (allgemein)',
-  'Arc de Triomphe de l\'Étoile, Umgebung',
-  'Äußere Boulevards, Paris',
-  'Folies Bergère',
-  'Folies Bergère, Eingang',
-  'Folies Bergère / Wohnung Rahels (näherungsweise)',
-  'Polizeipräfektur, Paris',
-  'Palais Bourbon / Parlament Paris (Näherung)',
-  'Grands Boulevards, Paris',
-]);
-
-const KAPITEL05_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 05)',
-  'Avenues du Bois de Boulogne, Paris',
-  'Rue de Verneuil, Paris (Näherung)',
-  'Rue de Verneuil, Paris',
-  'Salon, Rue de Verneuil',
-  'Salon der Wohnung, Rue Notre-Dame de Lorette (Näherung)',
-  'Café Riche, Boulevard des Capucines, Paris',
-  'Restaurant-Separé, Boulevard Poissonière (Näherung)',
-  'Restaurant-Separé mit Blick auf Boulevard, Boulevard Poissonière (Näherung)',
-  'Rue de Rome, Paris',
-  'Paris (allgemein, Telegrammnetz)',
-  'Rue de Constantinople 127, Paris',
-  'Rue de Constantinople 127, Paris — Pförtnerloge',
-  'Rue de Constantinople 127, Paris — Zweizimmerwohnung Erdgeschoss',
-  'Rue de Constantinople 127, Paris — Salon der Wohnung',
-  'Rue de Constantinople 127, Paris — Schlafzimmer der Wohnung',
-  'Rue de Constantinople 127, Paris — Wohnung',
-  'Folies Bergère',
-  'äußere Boulevards (Boulevard Poissonière / äußere Boulevards Richtung Norden)',
-  'äußere Boulevards',
-  'Luxembourg (Restaurant/Quartier)',
-  'Folies-Bergère',
-  'Folies-Bergère, Eingang',
-  'Folies-Bergère, Wandelgänge',
-  'Folies-Bergère, Loge',
-  'Folies Bergère, Paris',
-  'Folies Bergère, Ausgang, Paris',
-  'Vor den Folies Bergère, Paris',
-  'Rue Boursault, Boulevard des Batignolles, Paris',
-]);
-
-const KAPITEL06_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 06)',
-  'Folies-Bergère, Paris',
-  'Les Halles, Paris',
-  'Boulevard Malesherbes, Paris',
-  'Boulevard Malesherbes, Eingang des Hauses Walter',
-  'Boulevard Malesherbes, Haus Walter, Gesellschaftsräume',
-  'Boulevard Malesherbes, Haus Walter, Vorzimmer',
-  'Boulevard Malesherbes, Haus Walter, Salon',
-  'Boulevard Malesherbes, Haus Walter, Boudoir',
-  'Paris (allgemein)',
-  'Rue de Londres, Paris',
-  'Seine bei Asnières-sur-Seine',
-  'Pont de la Concorde / Palais Bourbon, Paris',
-  'Rue Bourgogne, Paris',
-  'Rue Bourgogne, Paris (hohes Haus)',
-  'Rue Bourgogne, Paris (Hausflur)',
-  'Rue Bourgogne, Paris (Strassenszene)',
-  'Avenue du Bois de Boulogne (heute Avenue Foch), Paris',
-  'Avenue du Bois de Boulogne, Paris',
-  'Bois de Boulogne, Paris',
-  'Arc de Triomphe / Avenue du Bois de Boulogne, Paris',
-  'Cannes',
-]);
-
-const KAPITEL07_HAUPTORTE = new Set([
-  'Redaktion der Vie Française, Boulevard des Capucines',
-  'Unbestimmt (Kapitel 07)',
-  'Redaktionssaal der Vie Française, Boulevard des Capucines',
-  'Rue d\'Ecureuil 18, Montmartre',
-  'Rue de l\'Ecureuil, Montmartre, Paris',
-  'Rue de l\'Ecureuil 18, Montmartre, Paris',
-  'Bois du Vésinet',
-  'Duroys Zimmer, Rue Notre-Dame de Lorette',
-  'Rue Montmartre 176, Paris',
-  'Gastine Renette, Paris (bekannter Waffenhändler, Avenue de la Grande-Armée/Champs-Élysées-Gegend)',
-  'Rue Constantinople, Paris',
-  'Rue Constantinople, Paris — Zimmer',
-  'Rue d\'Écureuil 18, Montmartre, Paris',
-  'Rue de l\'Écureuil, Montmartre, Paris',
-  'Rue de l\'Écureuil 18, Montmartre, Paris',
-  'Redaktion der Zeitung (Näherung: Boulevard Poissonière)',
-  '176, Rue Montmartre',
-  'Boulevard (unspezifisch, Paris)',
-  'Boulevardcafés, Paris (Nähe Grands Boulevards)',
-]);
-
-const KAPITEL08_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 08)',
-  'Rue de Constantinople, Paris',
-  'Bahnhof Paris (Gare de Lyon, Abfahrt nach Cannes)',
-  'Cannes',
-  'Villa Jolie, Cannes',
-  'Hänge zwischen Le Cannet und Golf Juan, Cannes',
-  'Cannes, Krankenzimmer Forestier',
-  'Cannes, Bucht mit Altstadt, Hafen, la Croisette und Îles de Lérins',
-  'Îles de Lérins, Cannes',
-  'Massif de l\'Esterel, Côte d\'Azur',
-  'Cannes, Blick auf Esterel vom Krankenzimmer',
-  'Paris (allgemein)',
-  'Cannes, schattige Wege zwischen Gärten',
-  'Straße von Antibes, Küstenstraße bei Cannes',
-  'Küstenstraße bei Cannes/Antibes, Villa des Grafen von Paris',
-  'Küstenstraße bei Cannes/Antibes',
-  'Île Sainte-Marguerite, Cannes',
-  'Golf Juan / Golfe-Juan',
-  'Golf Juan, Kriegsgeschwader',
-  'Golf Juan',
-  'Ausstellungshalle Kunstfayencen, Golf Juan',
-  'Paris (als Ziel der Rückkehr)',
-  'Paris (allgemein, als antizipierter Rückkehrort)',
-  'Friedhof von Cannes',
-  'Bahnhof Cannes',
-  'Rue de Constantinople, Paris 8e',
-  'Cannes, Villa Jolie',
-  'Le Cannet bis Golf Juan, Hügellage Cannes',
-  'Salon der Villa Jolie, Cannes',
-  'Villa Jolie, Cannes, Blick auf Stadt und Meer',
-  'Cannes, Villa (unspezifisch)',
-  'Cannes, Bucht mit Altstadt und La Croisette',
-  'Cannes, Panoramablick',
-  'Cannes, Villengarten mit Panoramablick',
-  'Cannes, Gartenalleen',
-  'Straße von Antibes, Côte d\'Azur',
-  'Cannes/Antibes, Küstenstrasse',
-  'Golf Juan, Côte d\'Azur',
-  'Golf Juan, Bucht',
-  'Paris',
-]);
-
-const KAPITEL09_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 09)',
-  'Rue de Constantinople, Paris',
-  'Cannes',
-  'Canteleu bei Rouen',
-  'Bahnhof Saint-Lazare, Paris',
-  'Eisenbahnzug ab Bahnhof Saint-Lazare',
-  'Bahnhof Batignolles / Strecke zwischen Forts und Seine, Paris',
-  'Brücke bei Asnières, Seine',
-  'Seine bei Asnières',
-  'Chatou, Seine-Ufer',
-  'Chatou, Umgebung von Paris',
-  'Chatou, Restaurant am Wasser',
-  'Chatou',
-  'Wald von Saint-Germain-en-Laye',
-  'Poissy, Frankreich',
-  'Rouen',
-  'Mantes-la-Jolie (Bahnhof)',
-  'Rouen (Ziel der Zugfahrt)',
-  'Hafen von Rouen, Seineufer',
-  'Seine-Tal bei Rouen',
-  'Kathedrale Notre-Dame de Rouen',
-  'Vorstadt Saint-Sever, Rouen',
-  'Croisset, Seine-Ufer',
-  'Seine-Ufer bei Croisset, Insel unter Weiden',
-  'Panoramablick auf Rouen und die Seine vom Hang bei Canteleu',
-]);
-
-const KAPITEL10_HAUPTORTE = new Set([
-  'Paris',
-  'Unbestimmt (Kapitel 10)',
-  'Rue Notre-Dame de Lorette, Wohnung Forestier/Du Roy',
-  'Rue Notre-Dame de Lorette (Ende)',
-  'Blumenladen, Rue Notre-Dame de Lorette',
-  'Wohnung Du Roy, Rue Notre-Dame de Lorette (Treppenhaus)',
-  'Wohnung Du Roy, Rue Notre-Dame de Lorette',
-  'Esszimmer, Wohnung Du Roy',
-  'Salon, Wohnung Du Roy',
-  'Rue Fontaine, Paris',
-  'Champs-Élysées / Bois de Boulogne, Paris',
-  'Champs-Élysées Richtung Bois de Boulogne, Paris',
-  'Bois de Boulogne, Paris',
-  'Bois de Boulogne, Seen',
-  'Bois de Boulogne',
-  'Sèvres',
-  'See im Bois de Boulogne, Paris',
-  'Stadtbefestigungen Paris (fortifications)',
-  'Stadtbefestigungen Paris, Blick auf die Stadt',
-  'Stadteingang Paris (Stadtbefestigungen)',
-  'Arc de Triomphe, Place de l\'Étoile',
-  'Arc de Triomphe / Avenue des Champs-Élysées',
-  'Avenue des Champs-Élysées',
-  'Café Tortoni, Boulevard des Italiens, Paris',
-]);
-
-const KAPITEL11_HAUPTORTE = new Set([
-  'Redaktion (Boulevard Poissonière, Näherung)',
-  'Unbestimmt (Kapitel 11)',
-  'Église de la Madeleine, Paris',
-  'Rue de Verneuil, Paris',
-  'Rue de Verneuil, Wohnung Cloildes',
-  'Rue de Verneuil, Salon',
-  'Rue de Constantinople, Paris',
-  'Folies Bergère',
-  'Folies Bergère — Obergeschoss',
-  'Folies Bergère — Fechtsaal',
-  '6. Arrondissement, Paris',
-  'Boulevard Malesherbes, Paris',
-  'Salon im Hause Walter, Boulevard Malesherbes',
-  'Église de la Trinité, Paris',
-  'Paris (allgemein)',
-]);
-
-const KAPITEL12_HAUPTORTE = new Set([
-  'Place de la Trinité, Paris',
-  'Paris (allgemein)',
-  'Springbrunnen am Platz vor der Trinité-Kirche',
-  'Anlagen am Platz vor der Trinité-Kirche',
-  'Platz vor der Trinité-Kirche',
-  'Trinité-Kirche, Paris',
-  'Unbestimmt (Kapitel 12)',
-  'Église de la Trinité, Paris',
-  'Église de la Trinité, rechtes Seitenschiff',
-  'Parc Monceau, Paris',
-  'Ruine mit Quelle, Parc Monceau, Paris',
-  'Ruine/Säulenkreis, Parc Monceau, Paris',
-  'Tor des Parc Monceau zum äusseren Boulevard, Paris',
-  'Rue de Constantinople, Paris',
-  'Rue de Constantinople, Paris (vor Duroys Wohnung)',
-  'Rue de Constantinople, Paris (Duroys Junggesellenwohnung)',
-  'Rue de Constantinople, Paris (Eingang zu Duroys Wohnung)',
-]);
-
-const KAPITEL13_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 13)',
-  'Paris',
-  'Rue Constantinople, Paris',
-  'Chambre des députés (Palais Bourbon), Paris',
-  'Boulevard Malesherbes, Paris',
-  'Kuchenbäckerei am Boulevard Malesherbes, Paris',
-  'Boulevard Poissonière (Näherung), Paris',
-  'Juwelierladen am Boulevard, Paris',
-  'Rue Drouot, Paris',
-  'Chaussée d\'Antin, Paris',
-  'Rue Drouot, Paris (Umkehr Richtung Chaussée d\'Antin)',
-  'Wohnhaus Graf de Vaudrec, Chaussée d\'Antin, Paris',
-  'Wohnung Duroy, Rue Notre-Dame de Lorette',
-  'Redaktion La Vie Française, Boulevard Poissonière',
-]);
-
-const KAPITEL14_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 14)',
-  'Rue des Vosges 17, Paris',
-  'Théâtre du Vaudeville, Boulevard des Capucines, Paris',
-  'Boulevard des Capucines / Théâtre du Vaudeville, Paris',
-]);
-
-const KAPITEL15_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 15)',
-  'Faubourg-Saint-Honoré / Champs-Élysées, Paris',
-  'Schloss im Faubourg-Saint-Honoré, Paris',
-  'Paris (allgemein)',
-]);
-
-const KAPITEL16_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 16)',
-  'Place Notre-Dame-de-Lorette, Paris',
-  'Rue Fontaine 17, Paris',
-  'Rue Lafayette, Paris',
-  'Restaurant Coq-Faisan, Rue Lafayette, Paris',
-  'Rue La Rochefoucauld, Paris',
-  'Wohnung des Polizeikommissars, Rue La Rochefoucauld, Paris',
-  'Rue des Martyrs, Paris',
-  'Rue des Martyrs, Wohnung im zweiten Stock',
-  'Rue des Martyrs, vor dem Haus',
-  'Rue des Martyrs, Hauseingang und Treppe',
-]);
-
-const KAPITEL17_HAUPTORTE = new Set([
-  'Unbestimmt (Kapitel 17)',
-  'Pavillon Henri IV, Saint-Germain-en-Laye',
-  'Avenue des Champs-Élysées / Bois de Boulogne',
-  'Mont-Valérien / Bougival / Pecq, Seine-Ufer',
-  'Maison-Laffitte, Seine',
-  'Marly-le-Roi, Wasserleitung von Marly',
-  'Le Vésinet, Seen',
-  'Sartrouville, Kirchturm',
-  'Paris (allgemein)',
-  'Place de la Concorde, gegenüber dem Marineministerium (Ministère de la Marine)',
-  'Place de la Concorde',
-  'Chatou',
-  'Place de la Concorde, Marineministerium (Arkaden)',
-  'Place de la Concorde, Droschke vor dem Marineministerium',
-  'Place de la Concorde, Abfahrt der Droschke',
-  'Sèvres',
-  'La Roche-Guyon, Seine',
-  'Paris (Stadtgrenze/Ausfahrt)',
-  'Paris',
-  'La Roche-Guyon',
-  'Paris (als Rückkehrziel genannt)',
-]);
-
-const KAPITEL18_HAUPTORTE = new Set([
-  'Rue Constantinople, Paris',
-  'Rue Constantinople, Paris — Eingang der Wohnung',
-  'Rue Constantinople, Paris — Wohnung',
-  'Unbestimmt (Kapitel 18)',
-  'Église de la Madeleine, Paris',
-  'Paris (allgemein)',
-  'Rue Royale / Église de la Madeleine, Paris',
-  'Église de la Madeleine, Innenraum',
-  'Église de la Madeleine, Chor und Altar',
-  'Montmartre, Paris',
-  'Église de la Madeleine, Paris (Hochzeitskirche im Kontext)',
-  'Kirche, Hochzeitsszene',
-  'Madeleine-Kirche, Paris',
-  'Palais Bourbon / Abgeordnetenkammer, Paris',
-  'Place de la Concorde / Palais Bourbon, Paris',
-  'Madeleine-Kirche / Palais Bourbon, Paris',
-  'Stufen der Madeleine-Kirche, Paris',
-]);
-
-// Zentrale Zuordnung Kapitelnummer (String, zweistellig) -> Hauptorte-Set,
-// fürs generische Spine-Panel beim Kapitel-Zoom (siehe sketch.js:
-// oeffneKapitelZoom/zeichneSpine). Kapitel 01 fehlt hier bewusst — Kapitel 1
-// hat sein eigenes, live wachsendes Spine-Panel (ortRunsFuerSpine), kein
-// statisches wie die übrigen Kapitel.
-const KAPITEL_HAUPTORTE = {
-  '02': KAPITEL02_HAUPTORTE,
-  '03': KAPITEL03_HAUPTORTE,
-  '04': KAPITEL04_HAUPTORTE,
-  '05': KAPITEL05_HAUPTORTE,
-  '06': KAPITEL06_HAUPTORTE,
-  '07': KAPITEL07_HAUPTORTE,
-  '08': KAPITEL08_HAUPTORTE,
-  '09': KAPITEL09_HAUPTORTE,
-  '10': KAPITEL10_HAUPTORTE,
-  '11': KAPITEL11_HAUPTORTE,
-  '12': KAPITEL12_HAUPTORTE,
-  '13': KAPITEL13_HAUPTORTE,
-  '14': KAPITEL14_HAUPTORTE,
-  '15': KAPITEL15_HAUPTORTE,
-  '16': KAPITEL16_HAUPTORTE,
-  '17': KAPITEL17_HAUPTORTE,
-  '18': KAPITEL18_HAUPTORTE,
-};
 
 // "Wohnung Duroy" und mehrere Mini-Erwähnungen direkt daneben (Lokal mit
 // festen Preisen, Straße nahe, Boulevard, Rue Notre-Dame de Lorette / Paris)
@@ -521,11 +174,19 @@ const GEDANKEN_ZIEL_ORT = {
 // absorbierten Wohnung-Mini-Erwähnungen UND der Gedanken-Orte (siehe
 // GEDANKEN_ORTRUN_UNTERDRUECKT/GEDANKEN_ZIEL_ORT — die zählen bei ihrem
 // echten Ort mit, bekommen aber keinen eigenen Spine-Eintrag).
+// WOHNUNG_SAMMELPUNKT_ABSORBIERTE_ORTRUNS/GEDANKEN_ORTRUN_UNTERDRUECKT sind
+// reine Namens-Sets ohne Kapitelbezug (siehe deren eigene Kommentare) — nur
+// für Kapitel 1 (daten === stationenData) ausschliessen, sonst kann ein
+// automatisch gebautes Kapitel zufällig denselben ortBasis-Namen für einen
+// eigenen, echten Ort verwenden (z.B. Kapitel 3s "Parc Monceau") und würde
+// hier fälschlich mit unterdrückt — derselbe Fallstrick wie bei
+// zeichneKreiseOrtRuns in sketch.js, dort schon so gegated.
 function ortRunsFuerSpine(daten) {
+  let istKapitel1 = daten === stationenData;
   return new Set(
     (daten.ortRuns || [])
       .map(r => r.ort)
-      .filter(ort => !WOHNUNG_SAMMELPUNKT_ABSORBIERTE_ORTRUNS.has(ort) && !GEDANKEN_ORTRUN_UNTERDRUECKT.has(ort))
+      .filter(ort => !istKapitel1 || (!WOHNUNG_SAMMELPUNKT_ABSORBIERTE_ORTRUNS.has(ort) && !GEDANKEN_ORTRUN_UNTERDRUECKT.has(ort)))
   );
 }
 
@@ -696,15 +357,26 @@ function valenzBucket(v) {
   return 'unrated';
 }
 
-function zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten = stationenData) {
+// Rohe Annotationen (nicht aggregiert), die zu filter/annIndex passen —
+// dieselbe Trefferlogik wie zaehleAnnotationenLiveNachOrtBasis (die daraus
+// die bandCounts aufsummiert), aber als Liste statt als Zählung. Wird u.a.
+// für die F-Wert-Punkte gebraucht, die pro Annotation (nicht aggregiert)
+// ausserhalb des Kreisdiagramms sitzen (siehe zeichneFwertPunkte in
+// sketch.js) — jede Annotation dort braucht ihre eigene Valenz/ihren
+// eigenen fWertType, den eine reine Zählung nicht mehr hergibt.
+function sammleAnnotationenNachOrtBasis(filter, annIndex, daten = stationenData) {
   let ortBasisWerte = filter instanceof Set ? filter : new Set([filter]);
-  let sichtbareTreffer = daten.annotationen.filter((a, ai) => {
+  return daten.annotationen.filter((a, ai) => {
     if (ai > annIndex) return false;
     let treffer = typeof filter === 'function' ? filter(a, ai)
       : typeof filter === 'number' ? a.id === filter
       : ortBasisWerte.has(a.ortBasis || a.ort || '');
     return treffer && a.category;
   });
+}
+
+function zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten = stationenData) {
+  let sichtbareTreffer = sammleAnnotationenNachOrtBasis(filter, annIndex, daten);
   let ergebnis = {
     gold_dunkel: { unrated: 0, neg: 0, pos: 0, neutral: 0 },
     gold_mittel: { unrated: 0, neg: 0, pos: 0, neutral: 0 },
@@ -722,46 +394,48 @@ function zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten = stationenD
 
 // daten: ein bereinigtes stationenData-Objekt (Kapitel 1 oder ein anderes
 // Kapitel). hauptorte: Set der ortRun-Namen, die einen Spine-Eintrag
-// bekommen sollen. opts.live (Default true): ob der Kreis live über
-// annIndex nachwächst (zeichneSpine ruft dafür
-// zaehleAnnotationenLiveNachOrtBasis auf) oder als statischer Endstand
-// (r.bandCounts) gezeigt wird — für Kapitel, die noch keine eigene
-// Scroll-Choreografie haben, ist "live: false" die richtige Wahl.
-// opts.parisAllgemein (Default leer): Set von ortRun-Namen, die zu einem
-// gemeinsamen "Paris allgemein"-Eintrag aggregiert werden (siehe Kapitel 1).
+// bekommen sollen. opts.parisAllgemein (Default leer): Set von Ortsnamen,
+// die zu einem gemeinsamen "Paris allgemein"-Eintrag zusammengefasst werden
+// (siehe Kapitel 1).
+//
+// Läuft (anders als früher) direkt über daten.annotationen statt über die
+// bereits zu je einem Kreis pro Ort ZUSAMMENGEFÜHRTEN daten.ortRuns — nur
+// so lässt sich erkennen, ob ein Ort SPÄTER, nach einer Unterbrechung durch
+// andere Orte, noch einmal auftaucht (eine echte Rückkehr, siehe
+// zeichneSpineHorizontal in sketch.js: bekommt dort keinen zweiten Kreis,
+// sondern einen Bogen zurück zum ersten). Jeder ZUSAMMENHÄNGENDE Lauf
+// gleicher ortBasis wird zu genau einem Eintrag; alle bandCounts werden nur
+// noch live (über den jeweiligen annIndex zur Spielkopf-Position) gezählt,
+// nicht mehr aus einem vorberechneten Endstand.
 function baueSpineDaten(daten, hauptorte, opts = {}) {
-  let live = opts.live !== false;
   let parisAllgemein = opts.parisAllgemein || new Set();
-  let runs = daten.ortRuns || [];
   let eintraege = [];
-  let parisBc = {
-    gold_dunkel: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
-    gold_mittel: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
-    gold_hell: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
-  };
-  let parisRv = 0;
-  let parisHinzugefuegt = false;
+  let indexNachSchluessel = new Map(); // Schlüssel (Ortsname oder Paris-Pseudo-Schlüssel) -> Index in eintraege
+  let laufenderSchluessel = null; // welcher zusammenhängende Besuch gerade läuft
 
-  runs.forEach(r => {
-    if (parisAllgemein.has(r.ort)) {
-      ['gold_dunkel', 'gold_mittel', 'gold_hell'].forEach(cat => {
-        ['neg', 'pos', 'neutral', 'unrated'].forEach(v => {
-          parisBc[cat][v] += (r.bandCounts[cat]?.[v] || 0);
-        });
-      });
-      if (!parisHinzugefuegt) {
-        parisRv = r.revealIndex;
-        eintraege.push({
-          typ: 'muted', text: 'Paris allgemein',
-          rv: parisRv, bandCounts: parisBc,
-        });
-        parisHinzugefuegt = true;
-      }
-    } else if (hauptorte.has(r.ort)) {
+  (daten.annotationen || []).forEach((a, ai) => {
+    let ort = a.ortBasis || a.ort || '';
+    let istParis = parisAllgemein.has(ort);
+    if (!istParis && !hauptorte.has(ort)) { laufenderSchluessel = null; return; }
+
+    let schluessel = istParis ? ' PARIS_ALLGEMEIN' : ort;
+    if (laufenderSchluessel === schluessel) return; // derselbe Besuch läuft weiter, kein neuer Eintrag
+    laufenderSchluessel = schluessel;
+
+    if (indexNachSchluessel.has(schluessel)) {
+      // Paris allgemein bleibt bewusst EIN gemeinsamer Eintrag (zu vage für
+      // eine sinnvolle "Rückkehr" pro einzelner Wiederaufnahme) — jede
+      // Wiederaufnahme wird hier still absorbiert, statt einen Bogen zu
+      // bekommen.
+      if (istParis) return;
+      eintraege.push({ typ: 'rueckkehr', text: ort, rv: ai, zielIndex: indexNachSchluessel.get(schluessel) });
+    } else {
+      indexNachSchluessel.set(schluessel, eintraege.length);
       eintraege.push({
-        typ: r.nodeType === 'location' ? 'location' : 'gedanke',
-        text: r.ort, rv: r.revealIndex, bandCounts: r.bandCounts,
-        ortBasis: live ? r.ort : undefined,
+        typ: istParis ? 'muted' : 'location',
+        text: istParis ? 'Paris allgemein' : ort,
+        rv: ai,
+        ortBasis: istParis ? parisAllgemein : ort,
       });
     }
   });
