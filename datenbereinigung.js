@@ -462,11 +462,15 @@ const WOHNUNG_VOR_SPLIT_FILTER = (a, ai) => a.station === 0 && ai < wohnungSplit
 const RUE_NOTRE_DAME_FILTER = (a, ai) => a.station === 0 && ai >= wohnungSplitAi();
 
 // Wählt für "Lokal in der Nähe…" bzw. "Rue Notre-Dame de Lorette" den
-// passenden Positions-Filter, für alle anderen Orte den ortBasis-String
-// selbst (Standardverhalten von zaehleAnnotationenLiveNachOrtBasis).
+// passenden Positions-Filter; für einen Ort, bei dem laut GEDANKEN_ZIEL_ORT
+// noch ein oder mehrere gedachte Orte mitzählen sollen, ein Set aus ihm
+// selbst plus diesen; für alle anderen Orte den ortBasis-String selbst
+// (Standardverhalten von zaehleAnnotationenLiveNachOrtBasis).
 function wohnungFilterFuerOrt(ort) {
   if (ort === WOHNUNG_SAMMELPUNKT_ANKER) return WOHNUNG_VOR_SPLIT_FILTER;
   if (ort === RUE_NOTRE_DAME_DE_LORETTE_ORT) return RUE_NOTRE_DAME_FILTER;
+  let gedankenQuellen = Object.keys(GEDANKEN_ZIEL_ORT).filter(quelle => GEDANKEN_ZIEL_ORT[quelle] === ort);
+  if (gedankenQuellen.length > 0) return new Set([ort, ...gedankenQuellen]);
   return ort;
 }
 
@@ -482,27 +486,46 @@ const GEDANKEN_FILTER = {
 };
 
 // Mehrere ortRuns tragen exakt den ortBasis-Wert, der oben schon einer
-// Gedanken-Spalte zugeordnet ist (Ballokale, Champs-Élysées/Bois de
-// Boulogne, Afrika, Bois de Boulogne, Parc Monceau, imaginierter
-// Sommergarten) — jeweils genau 1 Annotation, die sonst zweimal gezählt
-// würde (Gedanken-Kreis UND Kartenkreis). Diese ortRuns bekommen deshalb
-// keinen eigenen wachsenden Kreis auf der Karte/Spine (siehe
-// zeichneKreiseOrtRuns).
+// Gedanken-Spalte zugeordnet ist (Champs-Élysées/Bois de Boulogne, Afrika,
+// Bois de Boulogne, Parc Monceau, imaginierter Sommergarten) — diese ortRuns
+// bekommen deshalb keinen eigenen wachsenden Kreis auf der Karte/Spine
+// (siehe zeichneKreiseOrtRuns), sondern zählen stattdessen bei dem echten
+// Ort mit, an dem Duroy sich in diesem Moment tatsächlich aufhält (siehe
+// GEDANKEN_ZIEL_ORT/wohnungFilterFuerOrt) — nicht in einem separaten Kreis.
 const GEDANKEN_ORTRUN_UNTERDRUECKT = new Set(
   Object.values(GEDANKEN_FILTER).filter(v => typeof v === 'string')
 );
 
+// Wohin eine gedachte/erinnerte/erträumte Annotation für die Kreiszählung
+// zählt: der jeweils letzte ECHTE Ort vor ihr innerhalb derselben
+// "station"-Gruppe (aus kapitel01-stationen.json annotationen[].station
+// ermittelt) — Duroy ist an diesem Ort physisch anwesend, während ihm der
+// gedachte Ort durch den Kopf geht.
+//   'Champs-Élysées / Avenue du Bois de Boulogne' (station 100, ai 67):
+//     zwischen Rue La Fayette und Boulevard des Italiens → Boulevard
+//     Poissonnière (letzter echter Ort davor).
+//   'Afrika' (station 101, ai 145-147): zwischen Place de la Madeleine und
+//     Boulevard des Capucines → Place de la Madeleine.
+//   'Bois de Boulogne'/'Parc Monceau'/'imaginierter Sommergarten' (station 5,
+//     ai 245-247): zwischen Café Américain und Bal Musard → Café Américain.
+const GEDANKEN_ZIEL_ORT = {
+  'Champs-Élysées / Avenue du Bois de Boulogne': 'Boulevard Poissonnière',
+  'Afrika': 'Place de la Madeleine',
+  'Bois de Boulogne': 'Café Américain',
+  'Parc Monceau': 'Café Américain',
+  'imaginierter Sommergarten': 'Café Américain',
+};
+
 // Liefert die ortRun-Namen, die einen eigenen Spine-Eintrag bekommen: jeden
-// Kartenkreis (siehe zeichneKreiseOrtRuns in sketch.js, Ausschluss der
-// absorbierten Wohnung-Mini-Erwähnungen) UND zusätzlich die in die
-// Gedanken-Spalte ausgelagerten ortRuns — diese bekommen zwar keinen
-// eigenen Kartenkreis (siehe GEDANKEN_ORTRUN_UNTERDRUECKT), sollen aber in
-// der richtigen chronologischen Reihenfolge auch auf der Spine erscheinen.
+// Kartenkreis (siehe zeichneKreiseOrtRuns in sketch.js), unter Ausschluss der
+// absorbierten Wohnung-Mini-Erwähnungen UND der Gedanken-Orte (siehe
+// GEDANKEN_ORTRUN_UNTERDRUECKT/GEDANKEN_ZIEL_ORT — die zählen bei ihrem
+// echten Ort mit, bekommen aber keinen eigenen Spine-Eintrag).
 function ortRunsFuerSpine(daten) {
   return new Set(
     (daten.ortRuns || [])
       .map(r => r.ort)
-      .filter(ort => !WOHNUNG_SAMMELPUNKT_ABSORBIERTE_ORTRUNS.has(ort))
+      .filter(ort => !WOHNUNG_SAMMELPUNKT_ABSORBIERTE_ORTRUNS.has(ort) && !GEDANKEN_ORTRUN_UNTERDRUECKT.has(ort))
   );
 }
 

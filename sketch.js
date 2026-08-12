@@ -586,6 +586,21 @@ function baueLegende() {
   valenzZeile.appendChild(valenzText);
 
   legendeBox.appendChild(valenzZeile);
+
+  let neutralZeile = document.createElement('div');
+  neutralZeile.className = 'legende-valenz legende-valenz-mehr';
+
+  let neutralKreis = document.createElement('span');
+  neutralKreis.className = 'legende-valenz-kreis-voll';
+  neutralKreis.style.setProperty('--legende-farbe', `rgb(${beispielFarbe.farbe.join(', ')})`);
+  neutralZeile.appendChild(neutralKreis);
+
+  let neutralText = document.createElement('span');
+  neutralText.className = 'legende-valenz-text';
+  neutralText.textContent = 'Ganzer Kreis: neutral bewertet';
+  neutralZeile.appendChild(neutralText);
+
+  legendeBox.appendChild(neutralZeile);
 }
 
 function baueKartenMarkierungen() {
@@ -1374,6 +1389,19 @@ function zeichneHalbkreis(cx, cy, r, winkelMitte, farbeRgb, alphaSkala = 1, blen
   if (blend) ctx.globalCompositeOperation = 'source-over';
 }
 
+// Vollflächiger Kreis für neutrale Valenz — dieselbe Deckkraft/Blend-Logik
+// wie zeichneHalbkreis (s.o.), aber als ganze Fläche statt Halbkreis:
+// neutral hat keine Links/Rechts- bzw. Oben/Unten-Seite wie neg/pos.
+function zeichneVollkreis(cx, cy, r, farbeRgb, alphaSkala = 1, blend = false) {
+  if (r <= 0) return;
+  let ctx = drawingContext;
+  if (blend) ctx.globalCompositeOperation = 'multiply';
+  noStroke();
+  fill(farbeRgb[0], farbeRgb[1], farbeRgb[2], 255 * 0.75 * alphaSkala);
+  ellipse(cx, cy, r * 2, r * 2);
+  if (blend) ctx.globalCompositeOperation = 'source-over';
+}
+
 // winkel: feste (NICHT von der Routenrichtung abgeleitete) Basis für die
 // Links/Rechts-Aufteilung der Valenz-Halbkreise, siehe unten — Default
 // -HALF_PI ("nach oben ausgerichtet") ergibt neg=links/pos=rechts, die
@@ -1385,44 +1413,53 @@ function zeichneHalbkreis(cx, cy, r, winkelMitte, farbeRgb, alphaSkala = 1, blen
 // gegenseitig überlappen/verdecken, eine oben/unten-Teilung bleibt dagegen
 // innerhalb der eigenen Spalte.
 function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF_PI) {
-  // Schraffierte Gesamt-Kreise (neg+pos+neutral+unrated, unverändert) —
-  // untereinander nach Radius sortiert, grösster zuerst (unterste Ebene).
-  let hatchFormen = KREIS_KATEGORIEN.map(k => {
+  // Zwei Ebenen, jede für sich nach Radius geordnet (kleinste zuoberst,
+  // mittlere danach, grösste zuunterst): unten die schraffierten
+  // Gesamt-Kreise (neg+pos+neutral+unrated) der 3 Kategorien, darüber die
+  // flächigen Valenz-Formen (neg/pos als Halbkreis, neutral als ganzer
+  // Kreis). Die Ebenen selbst bleiben in dieser Reihenfolge FEST (schraffiert
+  // immer unten) — sonst könnte eine flächenmässig kleinere Schraffur einer
+  // Kategorie eine grössere Valenz-Fläche einer ANDEREN Kategorie zudecken,
+  // die Kreisgrafik wirkte dann unvollständig (schraffiert statt farbig).
+  let hatchFormen = [];
+  let flaechenFormen = [];
+  let groessterHatchRadius = 0;
+
+  KREIS_KATEGORIEN.forEach(k => {
     let bc = bandCounts[k.key] || {};
     let n = (bc.neg || 0) + (bc.pos || 0) + (bc.neutral || 0) + (bc.unrated || 0);
-    let r = kreisRadius(n);
-    let hex = '#' + k.farbe.map(v => v.toString(16).padStart(2, '0')).join('');
-    return { r, zeichne: () => drawHatchedCircle(cx, cy, r, hex, alphaSkala) };
-  }).filter(f => f.r > 0).sort((a, b) => b.r - a.r);
-  hatchFormen.forEach(f => f.zeichne());
+    let hatchR = kreisRadius(n);
+    if (hatchR > groessterHatchRadius) groessterHatchRadius = hatchR;
+    if (hatchR > 0) {
+      let hex = '#' + k.farbe.map(v => v.toString(16).padStart(2, '0')).join('');
+      hatchFormen.push({ r: hatchR, zeichne: () => drawHatchedCircle(cx, cy, hatchR, hex, alphaSkala) });
+    }
 
-  // Vollflächige Valenz-Halbkreise — bewusst NICHT an die lokale Laufrichtung
-  // der Route angelehnt (frühere Fassung nutzte dafür routenWinkel/
-  // berechneRoutenRichtung), sondern fest nach obigem winkel geteilt: die
-  // Trennlinie dreht sich nie mit, egal wohin die Route an dieser Stelle
-  // gerade läuft. So sehen alle Kreisdiagramme in ihrem jeweiligen Kontext
-  // immer gleich aus und wirken nicht je nach Routenrichtung verdreht. IMMER
-  // in fester Kategorie-Reihenfolge gold_mittel → gold_hell → gold_dunkel
-  // gezeichnet, NICHT nach eigener Grösse: Multiply braucht darunter eine
-  // bereits gezeichnete Fläche, und eine normale (deckende) Ebene danach
-  // würde das Multiply-Ergebnis wieder überschreiben — genau wie im alten
-  // Entwurf (dort aus demselben Grund ebenfalls fix mittel/hell/dunkel,
-  // nicht grössensortiert). Neutrale Valenz bekommt bewusst keinen eigenen
-  // Halbkreis, bleibt nur im schraffierten Gesamt-Kreis sichtbar.
-  ['gold_mittel', 'gold_hell', 'gold_dunkel'].forEach(key => {
-    let k = KREIS_KATEGORIEN.find(kat => kat.key === key);
-    let bc = bandCounts[key] || {};
-    let blend = key !== 'gold_mittel';
-    zeichneHalbkreis(cx, cy, kreisRadius(bc.neg || 0), winkel - HALF_PI, k.farbe, alphaSkala, blend);
-    zeichneHalbkreis(cx, cy, kreisRadius(bc.pos || 0), winkel + HALF_PI, k.farbe, alphaSkala, blend);
+    // blend=true (Multiply) für gold_hell/gold_dunkel, blend=false (normale,
+    // deckende Fläche) für gold_mittel — wie im alten Entwurf
+    // (kapitel01-embed.js/addBand). winkel bewusst NICHT an die lokale
+    // Laufrichtung der Route angelehnt, sondern fest: die Trennlinie
+    // zwischen neg/pos dreht sich nie mit der Route mit.
+    let blend = k.key !== 'gold_mittel';
+    let negR = kreisRadius(bc.neg || 0);
+    let posR = kreisRadius(bc.pos || 0);
+    let neutralR = kreisRadius(bc.neutral || 0);
+    if (negR > 0) flaechenFormen.push({ r: negR, zeichne: () => zeichneHalbkreis(cx, cy, negR, winkel - HALF_PI, k.farbe, alphaSkala, blend) });
+    if (posR > 0) flaechenFormen.push({ r: posR, zeichne: () => zeichneHalbkreis(cx, cy, posR, winkel + HALF_PI, k.farbe, alphaSkala, blend) });
+    // Neutrale Valenz: ganzer flächiger Kreis statt Halbkreis — hat keine
+    // Links/Rechts- bzw. Oben/Unten-Seite wie neg/pos.
+    if (neutralR > 0) flaechenFormen.push({ r: neutralR, zeichne: () => zeichneVollkreis(cx, cy, neutralR, k.farbe, alphaSkala, blend) });
   });
 
-  if (hatchFormen.length > 0) {
+  hatchFormen.sort((a, b) => b.r - a.r).forEach(f => f.zeichne());
+  flaechenFormen.sort((a, b) => b.r - a.r).forEach(f => f.zeichne());
+
+  if (groessterHatchRadius > 0) {
     fill(0, 255 * alphaSkala); noStroke();
     ellipse(cx, cy, 8, 8);
   }
 
-  return hatchFormen.length > 0 ? hatchFormen[0].r : 0; // groesster Radius, fuer Label-Platzierung durch den Aufrufer
+  return groessterHatchRadius; // fuer Label-Platzierung durch den Aufrufer
 }
 
 // Letzter Akt: 8 handverlesene, kapitelübergreifende Orte (Rue
