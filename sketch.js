@@ -1875,11 +1875,11 @@ function zeichneSpineHorizontal(eintraege, fortschritt) {
   if (!eintraege.length) return;
 
   let n = eintraege.length;
-  let paddingSeite = 90;
+  let spineBreite = width * 0.5;
+  let startX = (width - spineBreite) / 2;
+  let endX = startX + spineBreite;
+  let abstand = n > 1 ? spineBreite / (n - 1) : 0;
   let linieY = height / 2;
-  let startX = paddingSeite;
-  let endX = width - paddingSeite;
-  let abstand = n > 1 ? (endX - startX) / (n - 1) : 0;
   let letzterAnnIndex = stationenData.annotationen.length - 1;
 
   // position: wie weit der "Playhead" entlang der n Einträge (0..n-1) schon
@@ -1903,7 +1903,7 @@ function zeichneSpineHorizontal(eintraege, fortschritt) {
     let x = startX + i * abstand;
     let bc = e.bandCounts
       || (e.ortBasis ? zaehleAnnotationenLiveNachOrtBasis(wohnungFilterFuerOrt(e.ortBasis), letzterAnnIndex) : null);
-    if (bc) zeichneKreiseFuerRun(x, linieY, bc, alphaSkala, 0); // 0 = neg oben/pos unten, siehe zeichneKreiseFuerRun
+    if (bc) zeichneKreiseFuerRun(x, linieY, bc, 1, 0); // volle Kreisgrafik immer vollständig zeichnen
 
     fill(0, 255 * alphaSkala);
     noStroke();
