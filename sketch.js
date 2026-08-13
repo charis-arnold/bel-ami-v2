@@ -59,7 +59,16 @@ let grafikSpielt = false;       // läuft die Wachstums-Animation gerade?
 let grafikStartZeit = 0;        // millis() bei Play-Start (bzw. rechnerisch zurückversetzt bei Resume)
 let grafikFortschritt = 0;      // 0..1, letzter berechneter Animationsstand (bleibt bei Pause stehen)
 
-let imgBbox = { west: 2.233867270034494, east: 2.440030627739924, south: 48.823985860894396, north: 48.89331233077059 };
+// west/east um ca. 0.0153° nach Westen korrigiert (~445px bei 6000px
+// Bildbreite) — die ursprünglichen Werte platzierten Routen/Orte
+// systematisch zu weit östlich gegenüber final-paris-gross-web(.2).png
+// (geprüft an drei unabhängigen, bekannten Fixpunkten: Place Vendôme,
+// Place de l'Opéra, Place de la Concorde — alle drei landeten mit den alten
+// Werten ca. 420–460px zu weit westlich von ihrer echten Position auf der
+// Karte; Nord/Süd stimmte bereits). Nach dieser Korrektur bitte visuell im
+// Browser gegenprüfen (kein Zugriff auf einen echten Browser bei dieser
+// Messung, nur Offline-Projektion gegen die Kartenbilder).
+let imgBbox = { west: 2.2185654820200007, east: 2.424728839725431, south: 48.823985860894396, north: 48.89331233077059 };
 let ch1ImgBbox = { west: 2.317834413581757, east: 2.352393886019969, south: 48.86683338890839, north: 48.881871498351956 };
 // Startseiten-Marker: NICHT der Routen-Startpunkt (der bleibt bei Rue
 // Notre-Dame de Lorette, siehe kapitel01-stationen.json/"Lokal in der Nähe
@@ -1681,6 +1690,66 @@ function zeichneRoute(punkte, upToIndex, bbox, strichstaerke = 2, offsetX = mapO
   }
 }
 
+// Redaktion La Vie Française: einziger Ort, der durch fast alle Kapitel
+// hindurch wiederkehrt (siehe kreisVergleichOrte/kreisvergleich-orte.json,
+// zeichneKreisVergleich) — bekommt in der Übersichtskarte (alle Kapitel)
+// deshalb einen eigenen, von den einzelnen Kapitel-Routen UNABHÄNGIGEN
+// Knoten: eine senkrechte Linie von seiner echten Koordinate nach unten zu
+// einem eigenen Kreisdiagramm. Das Kreisdiagramm wächst analog zu den
+// Kapitelrouten (zeichneUebersichtsrouten oben, siehe Aufruf dort) — nutzt
+// dieselbe i/n..(i+1)/n-Slice des Akts pro Kapitel, summiert dabei aber
+// LIVE über zaehleAnnotationenLiveNachOrtBasis auf (statt der in
+// kreisvergleich-orte.json fest vorberechneten Kapitel-Summen), damit es
+// innerhalb der Slice jedes Kapitels genauso fein mitwächst wie dessen
+// Route. Kapitel 1 ist zu diesem Zeitpunkt bereits vollständig durchlaufen
+// (eigener Scroll-Akt davor) und zählt daher von Anfang an voll, ohne
+// lokalerFortschritt-Gate.
+const REDAKTION_ORT = 'Redaktion La Vie Française';
+const REDAKTION_LINIE_LAENGE = 130; // px, senkrechte Linie zum Kreis darunter — ggf. nach Sichtprüfung anpassen
+
+function zeichneRedaktionKnoten(bbox, kapitelListe, n, fortschritt, alpha) {
+  let effAlpha = zoomedKapitel ? alpha * (1 - kapitelZoomAmount) : alpha;
+  if (effAlpha <= 0) return;
+
+  let redaktionRun = stationenData.ortRuns && stationenData.ortRuns.find(r => r.ort === REDAKTION_ORT);
+  if (!redaktionRun) return;
+
+  let filter = wohnungFilterFuerOrt(REDAKTION_ORT);
+  let bandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, stationenData.annotationen.length - 1, stationenData);
+
+  kapitelListe.forEach(([kapitelNr, punkte], i) => {
+    let daten = datenFuerKapitel(kapitelNr);
+    if (!daten || !daten.annotationen || !daten.annotationen.length) return;
+    let lokalerFortschritt = constrain(map(fortschritt, i / n, (i + 1) / n, 0, 1), 0, 1);
+    if (lokalerFortschritt <= 0) return;
+    let annIndex = Math.min(daten.annotationen.length - 1, Math.floor(lokalerFortschritt * daten.annotationen.length));
+    let kapitelBandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten);
+    ['gold_dunkel', 'gold_mittel', 'gold_hell'].forEach(cat => {
+      ['neg', 'pos', 'neutral', 'unrated'].forEach(v => {
+        bandCounts[cat][v] += kapitelBandCounts[cat][v];
+      });
+    });
+  });
+
+  let pos = lonLatToScreen(redaktionRun.lon, redaktionRun.lat, bbox, 0, 0);
+  let cy = pos.y + REDAKTION_LINIE_LAENGE;
+
+  stroke(ROUTE_COLOR_RGB.r, ROUTE_COLOR_RGB.g, ROUTE_COLOR_RGB.b, effAlpha);
+  strokeWeight(1.5);
+  line(pos.x, pos.y, pos.x, cy);
+
+  let radius = zeichneKreiseFuerRun(pos.x, cy, bandCounts, effAlpha / 255);
+
+  noStroke();
+  fill(33, 43, 46, effAlpha); // #212B2E, wie die Kapitelnummern
+  textFont("'Source Sans 3', sans-serif");
+  textStyle(BOLD);
+  textSize(11);
+  textAlign(CENTER, TOP);
+  drawingContext.fillText('REDAKTION', pos.x, cy + (radius > 0 ? radius : 4) + 10);
+  textStyle(NORMAL);
+}
+
 // Übersichtsrouten (Kapitel 02–18) auf der grossen, rausgezoomten Karte —
 // echte Strassenrouten aus data-prep/05 bereinigen/baue-uebersichtsrouten.py,
 // gedämpft in Goldton (Kategorie-Farbe gold_dunkel). Laufen in Kapitel-
@@ -1834,6 +1903,19 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   textAlign(LEFT, CENTER);
   textSize(11);
   kapitelHover = null;
+
+  // Mehrere Kapitel können exakt denselben Startpunkt haben (z.B. "Wohnung
+  // Duroy/Madeleine" für 02/10, oder "Redaktion La Vie Française" für
+  // 07/11 — beide echte, wiederkehrende Orte, keine Datenfehler). Ohne
+  // Versatz zeichnet das später gelistete Kapitel (höhere Nummer) sein
+  // Badge exakt über das frühere, das dadurch unsichtbar UND unklickbar
+  // wird — daher unten ein kleiner kreisförmiger Versatz pro Gruppe.
+  let startDupGruppen = {};
+  kapitelListe.forEach(([kapitelNr, punkte]) => {
+    let key = punkte[0][0] + ',' + punkte[0][1];
+    (startDupGruppen[key] = startDupGruppen[key] || []).push(kapitelNr);
+  });
+
   kapitelListe.forEach(([kapitelNr, punkte], i) => {
     // Bewusst NICHT (mehr) an lokalerFortschritt (die i/n..(i+1)/n-Scheibe
     // dieses Kapitels am Gesamt-Akt) gekoppelt wie die Routenlinien oben:
@@ -1867,6 +1949,21 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
         };
       }
     }
+
+    // Kreisförmiger Versatz für Kapitel mit identischem Startpunkt (siehe
+    // startDupGruppen oben) — jedes Kapitel der Gruppe bekommt einen festen,
+    // eigenen Platz auf einem kleinen Kreis um den echten Punkt, statt sich
+    // mit den anderen zu überlagern.
+    let dupGruppe = startDupGruppen[punkte[0][0] + ',' + punkte[0][1]];
+    if (dupGruppe.length > 1) {
+      let dupWinkel = (dupGruppe.indexOf(kapitelNr) / dupGruppe.length) * TWO_PI;
+      const dupVersatz = 13; // px
+      start = {
+        x: start.x + cos(dupWinkel) * dupVersatz,
+        y: start.y + sin(dupWinkel) * dupVersatz,
+      };
+    }
+
     // Klickbar, sobald entweder ein eigener Kartenausschnitt (kapitelKarten)
     // ODER zumindest ein Spine-Panel (KAPITEL_MIT_SPINE_PANEL) vorhanden ist
     // — Kapitel ohne eigenen Ausschnitt (aktuell 02, 14, 15) zeigen beim
@@ -1904,6 +2001,8 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
 
   textStyle(NORMAL);
   cursor(kapitelHover ? HAND : ARROW);
+
+  zeichneRedaktionKnoten(bbox, kapitelListe, n, fortschritt, alpha);
 
   // aktuelleAnnotationZoom: für die Annotationsbox in draw() (nur bei
   // Kapitel 02–18 relevant — Kapitel 1s eigene Annotation läuft weiterhin
