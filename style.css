@@ -670,6 +670,23 @@ h2 {
   right: 66.6667vw; /* an die linke Kante des ausgefahrenen Prolog-Inhalts angeheftet */
 }
 
+/* Akkordeon-Kopplung: ist ein Register offen, ist das andere (per JS-Logik
+   in oeffneRegister, sketch.js) immer zu — sein Inhalt bleibt eingefahren,
+   aber sein TAB fährt trotzdem an dieselbe Kante mit, statt am
+   Bildschirmrand stehen zu bleiben. Sonst würden die beiden gestapelten
+   Tabs optisch auseinanderreissen, sobald einer von beiden aufklappt.
+   #registerTabs.<x>-offen wird beim Klick zusätzlich zu .offen auf der Box
+   selbst gesetzt (siehe oeffneRegister) — Selektor braucht die ID, weil ein
+   allgemeiner Geschwister-Selektor (~) den Legende-Tab (steht im DOM VOR
+   der Prolog-Box) nicht auf einen Prolog-Zustand reagieren lassen könnte. */
+#registerTabs.legende-offen .prolog-tab {
+  right: 190px;
+}
+
+#registerTabs.prolog-offen .legende-tab {
+  right: 66.6667vw;
+}
+
 .legende-inhalt, .prolog-inhalt {
   position: fixed;
   top: 0;

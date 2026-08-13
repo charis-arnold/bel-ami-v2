@@ -48,6 +48,7 @@ let orteOhneAdresse; // Platzhalter-Box unterhalb des Kapitelregisters, liefert 
 let legendeBox; // Register-Container (Tab+Inhalt), mitte rechts — sichtbar wie kapitelRegister (Plan UND Graph)
 let legendeTab, legendeInhalt; // Tab (vertikal beschriftet, immer sichtbar solang legendeBox.sichtbar) + ausfahrender Inhalt (Farberklärung der Kreisgrafik)
 let prologBox, prologTab; // Zweites Register direkt unter Legende (siehe #registerTabs in index.html) — gleiches Verhalten wie Legende, eigener (statischer, hart codierter) Inhalt Projekt-Hintergrund
+let registerTabs; // gemeinsamer Fixed-Container beider Register (siehe #registerTabs in index.html) — trägt die legende-offen/prolog-offen-Klasse, an der sich der jeweils GESCHLOSSENE Tab orientiert, um mit ausrücken zu können (siehe CSS)
 
 // Jede Kapitel-Ansicht (1–18) hat zwei Modi: 'karte' (Kartenausschnitt+Route,
 // wie bisher) und 'grafik' (horizontale Spine, zentriert, mit Play-Animation
@@ -199,6 +200,21 @@ function bereinigeEingangsdaten() {
   kreisVergleichOrte = bereinigeKreisVergleichOrte(kreisVergleichOrte);
 }
 
+// Öffnet EIN Register (Legende ODER Prolog) exklusiv (Akkordeon: das jeweils
+// andere schliesst automatisch mit) und markiert den Zustand zusätzlich am
+// gemeinsamen #registerTabs-Container. Daran hängt in style.css die Regel,
+// die den TAB (nicht den Inhalt) des GESCHLOSSENEN Registers an dieselbe
+// Kante mit ausfahren lässt wie das gerade geöffnete — sonst bliebe er am
+// Bildschirmrand stehen, während der geöffnete Tab zur Inhaltskante
+// wandert, und die beiden Tabs würden optisch auseinanderreissen.
+function oeffneRegister(box, andererBox, eigeneKlasse, andereKlasse) {
+  const warOffen = box.classList.contains('offen');
+  box.classList.toggle('offen', !warOffen);
+  andererBox.classList.remove('offen');
+  registerTabs.classList.toggle(eigeneKlasse, !warOffen);
+  registerTabs.classList.remove(andereKlasse);
+}
+
 function setup() {
   bereinigeEingangsdaten();
 
@@ -218,13 +234,14 @@ function setup() {
   annotationBar = document.getElementById('annotationBar');
   kapitelRegister = document.getElementById('kapitelRegister');
   orteOhneAdresse = document.getElementById('orteOhneAdresse');
+  registerTabs = document.getElementById('registerTabs');
   legendeBox = document.getElementById('legendeBox');
   legendeTab = document.getElementById('legendeTab');
   legendeInhalt = document.getElementById('legendeInhalt');
-  legendeTab.addEventListener('click', () => legendeBox.classList.toggle('offen'));
+  legendeTab.addEventListener('click', () => oeffneRegister(legendeBox, prologBox, 'legende-offen', 'prolog-offen'));
   prologBox = document.getElementById('prologBox');
   prologTab = document.getElementById('prologTab');
-  prologTab.addEventListener('click', () => prologBox.classList.toggle('offen'));
+  prologTab.addEventListener('click', () => oeffneRegister(prologBox, legendeBox, 'prolog-offen', 'legende-offen'));
   scrollFortschritt = document.getElementById('scrollFortschritt');
   grafikPlayButton = document.getElementById('grafikPlayButton');
   grafikPlayButton.addEventListener('click', toggleGrafikPlay);
@@ -976,7 +993,10 @@ function draw() {
   // Register-Inhalt fährt beim Verlassen der Kapitel-Ansicht wieder ein —
   // tauchen Legende/Prolog später (nächstes Kapitel) wieder auf, starten sie
   // dadurch immer eingefahren (nur der Tab), statt im zuletzt offenen Stand.
-  if (!inKapitelAnsicht) { legendeBox.classList.remove('offen'); prologBox.classList.remove('offen'); }
+  if (!inKapitelAnsicht) {
+    legendeBox.classList.remove('offen'); prologBox.classList.remove('offen');
+    registerTabs.classList.remove('legende-offen', 'prolog-offen');
+  }
   // Plan/Graph (inkl. Leerzeile darunter) braucht es nur innerhalb einer
   // echten Kapitel-Ansicht — in der Übersicht gibt es keine Karte/Grafik zum
   // Umschalten, dafür ist dort "Alle" selbst der aktive Eintrag.
@@ -2120,17 +2140,20 @@ function setzeKapitelAnsichtModus(modus) {
   grafikFortschritt = 0;
 }
 
-// Gesamtdauer eines Graph-Play-Durchlaufs: für Kapitel 1 (das einzige mit
-// Sonifikationsdaten, kapitel01-sonifikation.json) dieselbe
-// SONIFIKATION_GESAMTDAUER_SEK wie das Audiostück (sonifikation.js), damit
-// Ton und Wachstumsanimation der Spine zusammen laufen. 02–18 wachsen mit
-// derselben WachstumsGESCHWINDIGKEIT (ms pro Spine-Eintrag) wie Kapitel 1,
-// statt einer für alle Kapitel gleichen festen Gesamtdauer — sonst wirkten
-// Kapitel mit weniger Einträgen als Kapitel 1 (18, mehr als jedes andere)
-// hastiger durchgespult. Für Kapitel mit nur einem Eintrag (z.B. Kapitel 2)
-// sorgt der n===1-Sonderfall in zeichneSpineHorizontal dafür, dass der
-// einzige Kreis über diese Dauer tatsächlich sichtbar wächst, statt sofort
-// auf vollem Stand zu stehen.
+// Gesamtdauer eines Graph-Play-Durchlaufs: für Kapitel 1 (eigene
+// Sonifikationsdaten, kapitel01-sonifikation.json, wegstreckengewichtet)
+// dieselbe SONIFIKATION_GESAMTDAUER_SEK wie das Audiostück (sonifikation.js),
+// damit Ton und Wachstumsanimation der Spine zusammen laufen. 02–18 wachsen
+// mit derselben WachstumsGESCHWINDIGKEIT (ms pro Spine-Eintrag) wie Kapitel
+// 1, statt einer für alle Kapitel gleichen festen Gesamtdauer — sonst
+// wirkten Kapitel mit weniger Einträgen als Kapitel 1 (18, mehr als jedes
+// andere) hastiger durchgespult. Ihr Ton (spieleKapitelSonifikationAudio,
+// sonifikation.js) übernimmt exakt diese Gesamtdauer und verteilt sie
+// gleichmässig auf dieselben Spine-Schritte, bleibt dadurch immer synchron.
+// Für Kapitel mit nur einem Eintrag (z.B. Kapitel 2) sorgt der
+// n===1-Sonderfall in zeichneSpineHorizontal dafür, dass der einzige Kreis
+// über diese Dauer tatsächlich sichtbar wächst, statt sofort auf vollem
+// Stand zu stehen.
 function aktuelleGrafikAnimationDauer() {
   if (!zoomedKapitel) return SONIFIKATION_GESAMTDAUER_SEK * 1000;
   let n1 = spineEintraegep5.length;
@@ -2144,18 +2167,20 @@ function aktuelleGrafikAnimationDauer() {
 // (1 wie 02–18) dieselbe Wachstums-Animation der Spine, bleibt dabei immer
 // in der Graph-Ansicht (Resume statt Neustart bei Pause->Play über
 // grafikStartZeit = jetzt - bereits-gelaufene-Zeit, damit
-// aktualisiereGrafikFortschritt() nahtlos weiterzählt). Für Kapitel 1
+// aktualisiereGrafikFortschritt() nahtlos weiterzählt). Für JEDES Kapitel
 // zusätzlich mit Ton: spieleKapitel1SonifikationAudio()/
-// beendeSonifikationAudio() (sonifikation.js) starten/stoppen synchron zur
-// Spine — kein Resume für den Ton (Strudel kann nicht an einer beliebigen
-// Stelle einsteigen), Pause->Play beginnt den Ton daher jeweils neu, auch
-// wenn die Spine an ihrer alten Stelle weiterwächst.
+// spieleKapitelSonifikationAudio(nr)/beendeSonifikationAudio()
+// (sonifikation.js) starten/stoppen synchron zur Spine — kein Resume für
+// den Ton (Strudel kann nicht an einer beliebigen Stelle einsteigen),
+// Pause->Play beginnt den Ton daher jeweils neu, auch wenn die Spine an
+// ihrer alten Stelle weiterwächst.
 function toggleGrafikPlay() {
   if (grafikFortschritt >= 1) grafikFortschritt = 0; // am Ende: von vorn
   grafikSpielt = !grafikSpielt;
   if (grafikSpielt) {
     grafikStartZeit = millis() - grafikFortschritt * aktuelleGrafikAnimationDauer();
     if (!zoomedKapitel) spieleKapitel1SonifikationAudio();
+    else spieleKapitelSonifikationAudio(zoomedKapitel);
   } else if (sonifikationSpieltGerade) {
     beendeSonifikationAudio();
   }

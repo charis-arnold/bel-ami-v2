@@ -154,10 +154,54 @@ async function stelleSonifikationBereit() {
       SONIFIKATION_SAMPLE_BAENKE.map(([json, basis]) => samples(json, basis, { prebake: true }))
     ),
   });
+  // Race im geladenen @strudel/web@1.0.3-Bundle selbst (per Test beobachtet,
+  // nicht dokumentiert): das von initStrudel() zurückgegebene Promise kann
+  // einen Tick VOR der eigentlichen evalScope()-Registrierung von n/s/note/…
+  // als globale Funktionen auflösen — n(...) direkt danach wirft dann
+  // "n is not defined". Kapitel 1s eigener Aufruf (spieleKapitel1Sonifikation-
+  // Audio) verdeckte das bisher zufällig durch den JSON-Fetch dazwischen
+  // (genug Zeit für den fehlenden Tick); ohne so einen Zwischenschritt (wie
+  // bei spieleKapitelSonifikationAudio) schlägt es zuverlässig fehl. Kurzes
+  // Polling (im Test reichte 1 Tick) statt eines festen sleep(), damit es
+  // auch bei einer langsameren Registrierung nicht erneut flackert.
+  let versuche = 0;
+  while (typeof n !== 'function' && versuche < 50) {
+    await new Promise(r => setTimeout(r, 10));
+    versuche++;
+  }
   sonifikationBereit = true;
 }
 
 let sonifikationTimeoutId = null;
+
+// Gemeinsamer Wiedergabe-Kern für Kapitel 1 (eigene, wegstreckengewichtete
+// Stationen-Einteilung, siehe spieleKapitel1SonifikationAudio) UND jedes
+// andere Kapitel (02–18, gleichverteilte Schritte, siehe
+// spieleKapitelSonifikationAudio) — beide bauen nur notenFolge/
+// gainFolgenProKategorie in ihrer je eigenen Logik zusammen und übergeben
+// hier an dieselben drei Instrumenten-Layer (SONIFIKATION_INSTRUMENTE,
+// Saint-Saëns-Stilrichtung, siehe Modulkopf).
+function spieleSchichten(notenFolge, gainFolgenProKategorie, slowFaktor, gesamtdauerSek) {
+  let layers = Object.entries(SONIFIKATION_INSTRUMENTE).map(([kategorie, instr]) =>
+    n(notenFolge)
+      .scale(`c${instr.octave}:minor`)
+      .s(instr.sound)
+      .gain(gainFolgenProKategorie[kategorie])
+      .attack(instr.attack)
+      .release(instr.release)
+      .room(0.3)
+      .slow(slowFaktor)
+  );
+
+  stack(...layers).play();
+
+  sonifikationSpieltGerade = true;
+
+  sonifikationTimeoutId = setTimeout(() => {
+    sonifikationTimeoutId = null;
+    beendeSonifikationAudio();
+  }, gesamtdauerSek * 1000);
+}
 
 // Reiner Audio-Start — die Graph-Ansicht (horizontale Spine) läuft
 // unabhängig davon parallel weiter, siehe toggleGrafikPlay/
@@ -184,26 +228,71 @@ async function spieleKapitel1SonifikationAudio() {
   let notenFolge = sonifikationSpielplan.map((e, i) => `${i}@${e.dauer.toFixed(3)}`).join(' ');
   let slowFaktor = SONIFIKATION_GESAMTDAUER_SEK / (1 / SONIFIKATION_STANDARD_CPS);
 
-  let layers = Object.entries(SONIFIKATION_INSTRUMENTE).map(([kategorie, instr]) => {
-    let gainFolge = baueGainFolge(stationen, sonifikationSpielplan, kategorie, maxAnzahl);
-    return n(notenFolge)
-      .scale(`c${instr.octave}:minor`)
-      .s(instr.sound)
-      .gain(gainFolge)
-      .attack(instr.attack)
-      .release(instr.release)
-      .room(0.3)
-      .slow(slowFaktor);
+  let gainFolgenProKategorie = {};
+  Object.keys(SONIFIKATION_INSTRUMENTE).forEach(kategorie => {
+    gainFolgenProKategorie[kategorie] = baueGainFolge(stationen, sonifikationSpielplan, kategorie, maxAnzahl);
   });
 
-  stack(...layers).play();
+  spieleSchichten(notenFolge, gainFolgenProKategorie, slowFaktor, SONIFIKATION_GESAMTDAUER_SEK);
+}
 
-  sonifikationSpieltGerade = true;
+// Dieselbe Saint-Saëns-Klangsprache (SONIFIKATION_INSTRUMENTE) für jedes
+// einzelne Kapitel 02–18 — anders als Kapitel 1 (eigene, von Hand
+// gepflegte kapitel01-sonifikation.json mit fester 6-Stationen-Einteilung
+// und wegstreckengewichteten Dauern) braucht diese Fassung KEINE eigene
+// Python-Ausgabedatei: sie liest direkt dieselben Spine-Einträge
+// (spineEintraegeKapitel[nr], baueSpineDaten() in datenbereinigung.js), die
+// ohnehin schon für die wachsenden Kreise der Graph-Ansicht gebaut werden —
+// Ton und Bild teilen sich dadurch garantiert dieselbe Struktur, ohne
+// eigene Gewichtungs-Formel. Jeder Spine-Schritt bekommt exakt denselben
+// Zeitanteil wie in der Animation (aktuelleGrafikAnimationDauer, sketch.js,
+// dort bereits gleichverteilt statt wegstreckengewichtet) — 'rueckkehr'-
+// Schritte bleiben bewusst stumm/Pause ('~' in der Strudel-Mini-Notation):
+// eine Rückkehr lässt in der Graph-Ansicht den URSPRÜNGLICHEN Kreis
+// weiterwachsen statt einen neuen zu zeigen, das liesse sich in einer rein
+// sequenziellen Tonfolge nicht rückwirkend auf einen bereits gespielten Ton
+// nachbilden. Die Notenhöhe ist wie bei Kapitel 1 nur die fortlaufende
+// Position in der c-moll-Tonleiter — die drei Instrumenten-Layer folgen
+// der F-Wert-Verteilung (SONIFIKATION_INSTRUMENTE-Schlüssel) der jeweils
+// EIGENEN Annotationen jedes Schritts (zwischen seinem rv und dem rv des
+// nächsten Spine-Eintrags, exklusive — durch die Bauweise von
+// baueSpineDaten immer exakt der eine zusammenhängende Ortsbesuch, den
+// dieser Schritt darstellt).
+async function spieleKapitelSonifikationAudio(nr) {
+  await stelleSonifikationBereit();
+  let daten = datenFuerKapitel(nr);
+  let eintraege = spineEintraegeKapitel[nr];
+  if (!daten || !eintraege || !eintraege.length) return;
 
-  sonifikationTimeoutId = setTimeout(() => {
-    sonifikationTimeoutId = null;
-    beendeSonifikationAudio();
-  }, SONIFIKATION_GESAMTDAUER_SEK * 1000);
+  let annotationen = daten.annotationen;
+  let fWertAnteileJeSchritt = eintraege.map((e, j) => {
+    let bis = j + 1 < eintraege.length ? eintraege[j + 1].rv - 1 : annotationen.length - 1;
+    let anteile = { ort_loest_emotion_aus: 0, emotion_faerbt_raum: 0, koerper_als_sensor: 0 };
+    for (let ai = e.rv; ai <= bis; ai++) {
+      let a = annotationen[ai];
+      if (a && a.hasFwert && a.fWertType in anteile) anteile[a.fWertType]++;
+    }
+    return { anteile, anzahl: Math.max(0, bis - e.rv + 1) };
+  });
+  let maxAnzahl = Math.max(1, ...fWertAnteileJeSchritt.map(s => s.anzahl));
+
+  let melodieIndex = 0;
+  let notenFolge = eintraege.map(e => e.typ === 'rueckkehr' ? '~' : String(melodieIndex++)).join(' ');
+
+  let gainFolgenProKategorie = {};
+  Object.keys(SONIFIKATION_INSTRUMENTE).forEach(kategorie => {
+    gainFolgenProKategorie[kategorie] = eintraege.map((e, j) =>
+      e.typ === 'rueckkehr' ? '0' : (fWertAnteileJeSchritt[j].anteile[kategorie] / maxAnzahl).toFixed(2)
+    ).join(' ');
+  });
+
+  // aktuelleGrafikAnimationDauer() (sketch.js) liest zoomedKapitel selbst
+  // aus — hier korrekt, weil dieser Aufruf nur aus toggleGrafikPlay kommt,
+  // während zoomedKapitel bereits === nr ist.
+  let gesamtdauerSek = aktuelleGrafikAnimationDauer() / 1000;
+  let slowFaktor = gesamtdauerSek / (1 / SONIFIKATION_STANDARD_CPS);
+
+  spieleSchichten(notenFolge, gainFolgenProKategorie, slowFaktor, gesamtdauerSek);
 }
 
 // Play/Pause-Steuerung lebt in sketch.js (toggleGrafikPlay) — hier nur das
