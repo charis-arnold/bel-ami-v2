@@ -47,6 +47,7 @@ let modusZeile, leerzeile, alleEintrag; // Plan/Graph-Zeile + Abstandshalter + "
 let orteOhneAdresse; // Platzhalter-Box unterhalb des Kapitelregisters, liefert die Bildschirmposition für zeichneOrteOhneAdresse()
 let legendeBox; // Register-Container (Tab+Inhalt), mitte rechts — sichtbar wie kapitelRegister (Plan UND Graph)
 let legendeTab, legendeInhalt; // Tab (vertikal beschriftet, immer sichtbar solang legendeBox.sichtbar) + ausfahrender Inhalt (Farberklärung der Kreisgrafik)
+let prologBox, prologTab; // Zweites Register direkt unter Legende (siehe #registerTabs in index.html) — gleiches Verhalten wie Legende, eigener (statischer, hart codierter) Inhalt Projekt-Hintergrund
 
 // Jede Kapitel-Ansicht (1–18) hat zwei Modi: 'karte' (Kartenausschnitt+Route,
 // wie bisher) und 'grafik' (horizontale Spine, zentriert, mit Play-Animation
@@ -221,6 +222,9 @@ function setup() {
   legendeTab = document.getElementById('legendeTab');
   legendeInhalt = document.getElementById('legendeInhalt');
   legendeTab.addEventListener('click', () => legendeBox.classList.toggle('offen'));
+  prologBox = document.getElementById('prologBox');
+  prologTab = document.getElementById('prologTab');
+  prologTab.addEventListener('click', () => prologBox.classList.toggle('offen'));
   scrollFortschritt = document.getElementById('scrollFortschritt');
   grafikPlayButton = document.getElementById('grafikPlayButton');
   grafikPlayButton.addEventListener('click', toggleGrafikPlay);
@@ -968,10 +972,11 @@ function draw() {
   let inUebersichtRouten = uebersichtRoutenFortschritt > 0 && !zoomedKapitel && kreisVergleichMapFade <= 0;
   kapitelRegister.classList.toggle('sichtbar', inKapitelAnsicht || inUebersichtRouten);
   legendeBox.classList.toggle('sichtbar', inKapitelAnsicht);
+  prologBox.classList.toggle('sichtbar', inKapitelAnsicht);
   // Register-Inhalt fährt beim Verlassen der Kapitel-Ansicht wieder ein —
-  // taucht die Legende später (nächstes Kapitel) wieder auf, startet sie
+  // tauchen Legende/Prolog später (nächstes Kapitel) wieder auf, starten sie
   // dadurch immer eingefahren (nur der Tab), statt im zuletzt offenen Stand.
-  if (!inKapitelAnsicht) legendeBox.classList.remove('offen');
+  if (!inKapitelAnsicht) { legendeBox.classList.remove('offen'); prologBox.classList.remove('offen'); }
   // Plan/Graph (inkl. Leerzeile darunter) braucht es nur innerhalb einer
   // echten Kapitel-Ansicht — in der Übersicht gibt es keine Karte/Grafik zum
   // Umschalten, dafür ist dort "Alle" selbst der aktive Eintrag.
