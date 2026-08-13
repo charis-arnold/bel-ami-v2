@@ -12,7 +12,7 @@ let stage, heroText, begleitTexte, kapitelEinstiegsTexte;
 // (kapitelEinstiegsStartMillis), siehe draw().
 let kapitelEinstiegsStartMillis = null;
 const KAPITEL_EINSTIEG_FADE_MS = 800;
-const KAPITEL_EINSTIEG_SICHTBAR_BIS_MS = 6000;
+const KAPITEL_EINSTIEG_SICHTBAR_BIS_MS = 14000;
 // bgImage: Startseite/erste Übersicht (vor dem Zoom in Kapitel 1). bgImage2:
 // "zweite" Übersichtskarte, die nach dem Rauszoomen aus Kapitel 1 gezeigt
 // wird (Übersichtsrouten- und Kreisvergleich-Akt). Beide teilen dieselbe
@@ -45,7 +45,8 @@ let kapitelRegisterEintraege = {}; // nr -> Eintrags-Element, fürs Aktiv-Highli
 let planEintrag, graphEintrag; // "Plan"/"Graph"-Hälften oben im Register, fürs Aktiv-Highlighting in draw()
 let modusZeile, leerzeile, alleEintrag; // Plan/Graph-Zeile + Abstandshalter + "Alle" — in der Übersicht (kein Kapitel gezoomt) blendet draw() modusZeile/leerzeile aus und markiert alleEintrag als aktiv
 let orteOhneAdresse; // Platzhalter-Box unterhalb des Kapitelregisters, liefert die Bildschirmposition für zeichneOrteOhneAdresse()
-let legendeBox; // Farberklärung der Kreisgrafik, mitte rechts — sichtbar wie kapitelRegister (Plan UND Graph)
+let legendeBox; // Register-Container (Tab+Inhalt), mitte rechts — sichtbar wie kapitelRegister (Plan UND Graph)
+let legendeTab, legendeInhalt; // Tab (vertikal beschriftet, immer sichtbar solang legendeBox.sichtbar) + ausfahrender Inhalt (Farberklärung der Kreisgrafik)
 
 // Jede Kapitel-Ansicht (1–18) hat zwei Modi: 'karte' (Kartenausschnitt+Route,
 // wie bisher) und 'grafik' (horizontale Spine, zentriert, mit Play-Animation
@@ -57,7 +58,6 @@ let grafikPlayButton;
 let grafikSpielt = false;       // läuft die Wachstums-Animation gerade?
 let grafikStartZeit = 0;        // millis() bei Play-Start (bzw. rechnerisch zurückversetzt bei Resume)
 let grafikFortschritt = 0;      // 0..1, letzter berechneter Animationsstand (bleibt bei Pause stehen)
-const GRAFIK_ANIMATION_DAUER = 6000; // ms, fester Zeitablauf für einen kompletten Durchlauf
 
 let imgBbox = { west: 2.233867270034494, east: 2.440030627739924, south: 48.823985860894396, north: 48.89331233077059 };
 let ch1ImgBbox = { west: 2.317834413581757, east: 2.352393886019969, south: 48.86683338890839, north: 48.881871498351956 };
@@ -209,6 +209,9 @@ function setup() {
   kapitelRegister = document.getElementById('kapitelRegister');
   orteOhneAdresse = document.getElementById('orteOhneAdresse');
   legendeBox = document.getElementById('legendeBox');
+  legendeTab = document.getElementById('legendeTab');
+  legendeInhalt = document.getElementById('legendeInhalt');
+  legendeTab.addEventListener('click', () => legendeBox.classList.toggle('offen'));
   scrollFortschritt = document.getElementById('scrollFortschritt');
   grafikPlayButton = document.getElementById('grafikPlayButton');
   grafikPlayButton.addEventListener('click', toggleGrafikPlay);
@@ -404,27 +407,19 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
   fill(schmiedeeisenSchwarz);
   circle(0, 0, groesse * 0.05);
 
-  // Beschriftung Haupthimmelsrichtungen — dunkle Füllung (wie sonst alle
-  // Karten-Labels im Projekt, siehe zeichneMassstabsleiste) PLUS helle
-  // Kontur (stroke), damit die Labels sowohl auf hellem Kartenuntergrund
-  // ALS AUCH auf der dunklen Startseiten-Karte lesbar bleiben. schmiedeeisen
-  // Schwarz/zinkgrau sind inzwischen helle Zacken-Farben (siehe oben) und
-  // taugen als Text-Füllung nicht mehr — vorher fehlte ausserdem der
-  // eigentliche stroke()-Aufruf (nur strokeWeight gesetzt, stroke() selbst
-  // war auskommentiert und noStroke() stand vom Zentrums-Punkt oben noch
-  // an), wodurch die Beschriftung praktisch unsichtbar wurde.
+  // Beschriftung Haupthimmelsrichtungen — schmiedeeisenSchwarz/zinkgrau sind
+  // inzwischen helle Zacken-Farben (siehe oben) und taugen als Text-Füllung
+  // nicht mehr, daher eigene beschriftungsFarbe.
   // p5s text() bleibt bei laufender Animation manchmal unsichtbar (siehe
-  // zeichneSpineHorizontal) — Fill+Stroke hier direkt über den Canvas-Context,
-  // die p5-Aufrufe oben (fill/stroke/textAlign/textSize/textFont/textStyle)
-  // setzen die dafür nötigen Context-Eigenschaften weiterhin wie gewohnt.
+  // zeichneSpineHorizontal) — Fill hier direkt über den Canvas-Context, die
+  // p5-Aufrufe oben (fill/textAlign/textSize/textFont/textStyle) setzen die
+  // dafür nötigen Context-Eigenschaften weiterhin wie gewohnt.
   function zeichneBeschriftung(label, x, y) {
-    drawingContext.strokeText(label, x, y);
     drawingContext.fillText(label, x, y);
   }
 
-  const beschriftungsFarbe = '#1a1a1a';
-  strokeWeight(1);
-  stroke(255, 255, 255, 200);
+  const beschriftungsFarbe = '#A4860A';
+  noStroke();
   fill(beschriftungsFarbe);
   textAlign(CENTER, CENTER);
   textSize(groesse * 0.2);
@@ -437,7 +432,6 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
 
   // Beschriftung Nebenrichtungen — dieselbe -90-Ausrichtung wie die Zacken,
   // sonst landet z.B. "NO" geometrisch auf der SO-Position.
-  strokeWeight(2.5);
   fill(beschriftungsFarbe);
   textSize(groesse * 0.1);
   const offsetNeben = rNeben + 14;
@@ -446,7 +440,6 @@ function zeichneWindrose(x, y, groesse, alphaMultiplier = 1) {
     const a = radians(w - 90);
     zeichneBeschriftung(label, offsetNeben * cos(a), offsetNeben * sin(a));
   });
-  noStroke();
 
   pop();
 }
@@ -556,7 +549,7 @@ function baueLegende() {
   let titel = document.createElement('div');
   titel.className = 'legende-titel';
   titel.textContent = 'Legende';
-  legendeBox.appendChild(titel);
+  legendeInhalt.appendChild(titel);
 
   KREIS_KATEGORIEN.forEach(k => {
     let zeile = document.createElement('div');
@@ -572,13 +565,13 @@ function baueLegende() {
     label.textContent = CATEGORY_LABELS[k.key] || k.key;
     zeile.appendChild(label);
 
-    legendeBox.appendChild(zeile);
+    legendeInhalt.appendChild(zeile);
   });
 
   let hinweisSchraffur = document.createElement('p');
   hinweisSchraffur.className = 'legende-hinweis';
   hinweisSchraffur.textContent = 'Schraffur: alle Erwähnungen der Kategorie (auch neutral/unbewertet). Kreisgrösse = Anzahl.';
-  legendeBox.appendChild(hinweisSchraffur);
+  legendeInhalt.appendChild(hinweisSchraffur);
 
   let valenzZeile = document.createElement('div');
   valenzZeile.className = 'legende-valenz';
@@ -594,7 +587,7 @@ function baueLegende() {
   valenzText.textContent = 'Volltonfarbe: links negativ, rechts positiv bewertet';
   valenzZeile.appendChild(valenzText);
 
-  legendeBox.appendChild(valenzZeile);
+  legendeInhalt.appendChild(valenzZeile);
 
   let neutralZeile = document.createElement('div');
   neutralZeile.className = 'legende-valenz legende-valenz-mehr';
@@ -609,12 +602,12 @@ function baueLegende() {
   neutralText.textContent = 'Ganzer Kreis: neutral bewertet';
   neutralZeile.appendChild(neutralText);
 
-  legendeBox.appendChild(neutralZeile);
+  legendeInhalt.appendChild(neutralZeile);
 
   let fwertTitel = document.createElement('div');
   fwertTitel.className = 'legende-fwert-titel';
   fwertTitel.textContent = 'F-Wert';
-  legendeBox.appendChild(fwertTitel);
+  legendeInhalt.appendChild(fwertTitel);
 
   // Reihenfolge = Grösse 1..3, siehe FWERT_PUNKTGROESSE (datenbereinigung.js).
   [
@@ -638,13 +631,13 @@ function baueLegende() {
     label.textContent = text;
     zeile.appendChild(label);
 
-    legendeBox.appendChild(zeile);
+    legendeInhalt.appendChild(zeile);
   });
 
   let fwertHinweis = document.createElement('p');
   fwertHinweis.className = 'legende-hinweis';
   fwertHinweis.textContent = 'Position ausserhalb des Kreises: negativ oben links, positiv oben rechts, neutral/unbewertet unten.';
-  legendeBox.appendChild(fwertHinweis);
+  legendeInhalt.appendChild(fwertHinweis);
 }
 
 function baueKartenMarkierungen() {
@@ -920,7 +913,7 @@ function draw() {
   // ausgeblendet (nicht mehr wie früher permanent während des Zooms
   // sichtbar).
   if (inKapitelGrafikAnsicht) {
-    background(198, 210, 215); // #c6d2d7, wie GEBAEUDE_FARBE der Kartenausschnitte
+    background(226, 230, 225); // #E2E6E1
     let grafikEintraege = zoomedKapitel ? spineEintraegeKapitel[zoomedKapitel] : spineEintraegep5;
     let grafikDaten = zoomedKapitel ? datenFuerKapitel(zoomedKapitel) : stationenData;
     aktualisiereGrafikFortschritt();
@@ -966,6 +959,10 @@ function draw() {
   let inUebersichtRouten = uebersichtRoutenFortschritt > 0 && !zoomedKapitel && kreisVergleichMapFade <= 0;
   kapitelRegister.classList.toggle('sichtbar', inKapitelAnsicht || inUebersichtRouten);
   legendeBox.classList.toggle('sichtbar', inKapitelAnsicht);
+  // Register-Inhalt fährt beim Verlassen der Kapitel-Ansicht wieder ein —
+  // taucht die Legende später (nächstes Kapitel) wieder auf, startet sie
+  // dadurch immer eingefahren (nur der Tab), statt im zuletzt offenen Stand.
+  if (!inKapitelAnsicht) legendeBox.classList.remove('offen');
   // Plan/Graph (inkl. Leerzeile darunter) braucht es nur innerhalb einer
   // echten Kapitel-Ansicht — in der Übersicht gibt es keine Karte/Grafik zum
   // Umschalten, dafür ist dort "Alle" selbst der aktive Eintrag.
@@ -1385,7 +1382,7 @@ function zeichneKreisLabels(kandidaten) {
   if (kandidaten.length === 0) return;
 
   noStroke();
-  fill(26, 26, 26, 255);
+  fill(33, 43, 46, 255); // #212B2E, wie die Kapitelnummern
   textFont("'Source Sans 3', sans-serif"); // wie .annotation-tag (var(--sans)) und die Spine-Labels
   textSize(11);
   textStyle(BOLD); // .annotation-tag ist font-weight: 700
@@ -1417,7 +1414,7 @@ function zeichneKreisLabels(kandidaten) {
         drawingContext.setLineDash([]);
         noStroke();
       }
-      fill(k.farbe || '#1A1A1A');
+      fill(k.farbe || '#212B2E');
       // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
       // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
       // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal,
@@ -2019,13 +2016,24 @@ function setzeKapitelAnsichtModus(modus) {
   grafikFortschritt = 0;
 }
 
-// Gesamtdauer eines Graph-Play-Durchlaufs: für Kapitel 1 (das einzige
-// mit Sonifikationsdaten, kapitel01-sonifikation.json) dieselbe
+// Gesamtdauer eines Graph-Play-Durchlaufs: für Kapitel 1 (das einzige mit
+// Sonifikationsdaten, kapitel01-sonifikation.json) dieselbe
 // SONIFIKATION_GESAMTDAUER_SEK wie das Audiostück (sonifikation.js), damit
-// Ton und Wachstumsanimation der Spine zusammen laufen; für 02–18 (kein Ton)
-// die generische GRAFIK_ANIMATION_DAUER.
+// Ton und Wachstumsanimation der Spine zusammen laufen. 02–18 wachsen mit
+// derselben WachstumsGESCHWINDIGKEIT (ms pro Spine-Eintrag) wie Kapitel 1,
+// statt einer für alle Kapitel gleichen festen Gesamtdauer — sonst wirkten
+// Kapitel mit weniger Einträgen als Kapitel 1 (18, mehr als jedes andere)
+// hastiger durchgespult. Für Kapitel mit nur einem Eintrag (z.B. Kapitel 2)
+// sorgt der n===1-Sonderfall in zeichneSpineHorizontal dafür, dass der
+// einzige Kreis über diese Dauer tatsächlich sichtbar wächst, statt sofort
+// auf vollem Stand zu stehen.
 function aktuelleGrafikAnimationDauer() {
-  return !zoomedKapitel ? SONIFIKATION_GESAMTDAUER_SEK * 1000 : GRAFIK_ANIMATION_DAUER;
+  if (!zoomedKapitel) return SONIFIKATION_GESAMTDAUER_SEK * 1000;
+  let n1 = spineEintraegep5.length;
+  let dauerProSchritt = (SONIFIKATION_GESAMTDAUER_SEK * 1000) / (n1 - 1 || 1);
+  let eintraege = spineEintraegeKapitel[zoomedKapitel];
+  let ni = eintraege ? eintraege.length : 1;
+  return dauerProSchritt * (ni - 1 || 1);
 }
 
 // Play/Pause-Button der grafischen (Graph-)Ansicht — für JEDES Kapitel
@@ -2107,9 +2115,19 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
   // Stand (rv markiert nur seinen ANFANG, nicht das Ende der Erzählung).
   let rvWegpunkte = eintraege.map(e => e.rv);
   rvWegpunkte[n - 1] = daten.annotationen.length - 1;
-  let i0 = Math.min(n - 1, Math.floor(position));
-  let i1 = Math.min(n - 1, i0 + 1);
-  let globalAnnIndex = Math.round(lerp(rvWegpunkte[i0], rvWegpunkte[i1], position - i0));
+  let globalAnnIndex;
+  if (n === 1) {
+    // Nur ein einziger Eintrag (z.B. Kapitel 2, ein Ort): i0 und i1 würden
+    // unten beide auf denselben Index 0 zeigen, dessen rv oben bereits fest
+    // auf das ENDE aller Annotationen gesetzt ist — der Kreis stünde dadurch
+    // ab fortschritt=0 sofort auf vollem Stand, statt zu wachsen. Stattdessen
+    // ab "nichts gezählt" (-1) bis zum Ende interpolieren.
+    globalAnnIndex = Math.round(lerp(-1, rvWegpunkte[0], fortschritt));
+  } else {
+    let i0 = Math.min(n - 1, Math.floor(position));
+    let i1 = Math.min(n - 1, i0 + 1);
+    globalAnnIndex = Math.round(lerp(rvWegpunkte[i0], rvWegpunkte[i1], position - i0));
+  }
 
   if (position > 0) {
     noFill();
@@ -2182,44 +2200,63 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
   textAlign(CENTER, TOP);
 
   // Bei eng benachbarten Punkten (fester SPINE_PUNKT_ABSTAND, siehe oben)
-  // sind Labels oft breiter als der Punktabstand — je Zeile werden schon
-  // belegte x-Bereiche gemerkt, ein Label rutscht bei Überlappung in die
-  // nächste Zeile darunter (die Linie wird dafür entsprechend länger, bleibt
-  // aber gerade vertikal). Ortspunkt/Linie/Label werden bewusst ERST HIER,
-  // NACH allen Kreisen (unabhängig von deren Grösse-Reihenfolge oben),
-  // gezeichnet, damit sie nie unter einem Nachbarkreis verschwinden.
-  const SPINE_LABEL_ZEILEN_HOEHE = 15;
-  let belegteBereicheJeZeile = [];
+  // sind Labels oft breiter als der Punktabstand. Frühere Fassung sortierte
+  // Kollisionen in feste "Zeilen"-Reihen ein (Zeile 0, 1, 2, … je um
+  // SPINE_LABEL_ZEILEN_HOEHE versetzt) — das ignorierte aber, dass die
+  // Wunschposition jedes Labels (linienStartY) durch den je Punkt eigenen
+  // Kreisradius unterschiedlich tief liegt, wodurch Labels in NOMINELL
+  // verschiedenen Zeilen trotzdem überlappen konnten. Jetzt wie die
+  // Kartenlabels in zeichneKreisLabels: jedes Label startet an seiner
+  // eigenen, kreisgrössenabhängigen Wunschposition und rutscht erst bei
+  // einer echten Bounding-Box-Überlappung mit einem bereits platzierten
+  // Label weiter nach unten (labelHoehe+labelPadding pro Schritt — mehr
+  // Luft als die frühere feste Zeilenhöhe). Ortspunkt/Linie/Label werden
+  // bewusst ERST HIER, NACH allen Kreisen (unabhängig von deren
+  // Grösse-Reihenfolge oben), gezeichnet, damit sie nie unter einem
+  // Nachbarkreis verschwinden.
+  let labelHoehe = 16, labelPadding = 6;
+  let platzierteLabel = [];
+  let labelDaten = [];
 
   eintraege.forEach((e, i) => {
     let alphaSkala = constrain(position - (i - 1), 0, 1);
     if (alphaSkala <= 0) return;
-
     let x = startX + i * abstand;
     let radius = radiusNachIndex.get(i) || 0;
+    let linienStartY = linieY + (radius > 0 ? radius : 4);
+    labelDaten.push({ x, alphaSkala, text: e.text, textBreite: textWidth(e.text), linienStartY });
+  });
 
+  labelDaten
+    .sort((a, b) => a.linienStartY - b.linienStartY)
+    .forEach(d => {
+      let y = d.linienStartY + SPINE_LABEL_LINIE_LAENGE;
+      let bereich = [d.x - d.textBreite / 2 - 4, d.x + d.textBreite / 2 + 4];
+      let ueberlappt = true;
+      while (ueberlappt) {
+        ueberlappt = platzierteLabel.some(p =>
+          y < p.y + labelHoehe + labelPadding && y + labelHoehe + labelPadding > p.y &&
+          bereich[0] < p.bereich[1] && bereich[1] > p.bereich[0]
+        );
+        if (ueberlappt) y += labelHoehe + labelPadding;
+      }
+      platzierteLabel.push({ y, bereich });
+      d.labelY = y;
+    });
+
+  labelDaten.forEach(d => {
     // Ortspunkt — p5s ellipse() bleibt bei laufender Animation manchmal
     // unsichtbar, siehe zeichneHalbkreis, daher direkt über den Context.
-    drawingContext.fillStyle = `rgba(0, 0, 0, ${alphaSkala})`;
+    drawingContext.fillStyle = `rgba(0, 0, 0, ${d.alphaSkala})`;
     drawingContext.beginPath();
-    drawingContext.arc(x, linieY, 2.5, 0, TWO_PI);
+    drawingContext.arc(d.x, linieY, 2.5, 0, TWO_PI);
     drawingContext.fill();
 
     // Ortspunkt: Linie vertikal nach unten (ab Kreisrand, falls vorhanden),
     // Beschriftung horizontal darunter.
-    let textBreite = textWidth(e.text);
-    let bereich = [x - textBreite / 2 - 4, x + textBreite / 2 + 4];
-    let zeile = 0;
-    while (belegteBereicheJeZeile[zeile]
-      && belegteBereicheJeZeile[zeile].some(([a, b]) => bereich[0] < b && bereich[1] > a)) zeile++;
-    if (!belegteBereicheJeZeile[zeile]) belegteBereicheJeZeile[zeile] = [];
-    belegteBereicheJeZeile[zeile].push(bereich);
-
-    let linienStartY = linieY + (radius > 0 ? radius : 4);
-    let linienEndY = linienStartY + SPINE_LABEL_LINIE_LAENGE + zeile * SPINE_LABEL_ZEILEN_HOEHE;
-    stroke(0, 110 * alphaSkala);
+    stroke(0, 110 * d.alphaSkala);
     strokeWeight(1);
-    line(x, linienStartY, x, linienEndY);
+    line(d.x, d.linienStartY, d.x, d.labelY);
     noStroke();
     // p5s text() bleibt hier während einer laufenden Play-Animation (viele
     // Frames/Sekunde, wechselnde Werte) manchmal unsichtbar, obwohl Font/
@@ -2228,8 +2265,8 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
     // sichtbar) — direkt über den Canvas-Context gezeichnet, um diesen Bug
     // zu umgehen; textAlign/textBaseline/font/fillStyle sind über die
     // p5-Aufrufe oben bereits auf dem Context gesetzt.
-    drawingContext.fillStyle = `rgba(26, 26, 26, ${alphaSkala})`;
-    drawingContext.fillText(e.text, x, linienEndY + SPINE_LABEL_TEXT_ABSTAND);
+    drawingContext.fillStyle = `rgba(26, 26, 26, ${d.alphaSkala})`;
+    drawingContext.fillText(d.text, d.x, d.labelY + SPINE_LABEL_TEXT_ABSTAND);
   });
 
   textStyle(NORMAL);

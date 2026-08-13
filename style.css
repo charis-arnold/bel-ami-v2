@@ -578,26 +578,28 @@ h2 {
 
 
 /* =========================
-   9b) Legende (Kartenausschnitt/Kapitelansicht, mitte rechts) — Farberklärung
-   der Kreisgrafik (Plan- UND Graph-Ansicht). Stil an .foto-popup-inner
-   angelehnt (weisse, abgerundete Karte mit Schatten), aber als dauerhaft
-   sichtbare (kein Modal/Overlay), am rechten Rand vertikal zentrierte Box —
-   Sichtbarkeit/Fade wie .kapitel-register (dieselbe inKapitelAnsicht-Logik
-   in sketch.js). Inhalt wird dynamisch aus KREIS_KATEGORIEN/CATEGORY_LABELS
-   gebaut (baueLegende in sketch.js), nicht hier hart codiert, damit Legende
-   und tatsächliche Kreisfarben nie auseinanderlaufen.
+   9b) Legende (Kartenausschnitt/Kapitelansicht, rechter Rand) — Farberklärung
+   der Kreisgrafik (Plan- UND Graph-Ansicht). Als Register am rechten Rand:
+   im Ruhezustand ragt nur der schmale, vertikal beschriftete .legende-tab
+   randbündig in den Bildschirm, Klick darauf fährt .legende-inhalt (volle
+   Bildschirmhöhe, Stil an .foto-popup-inner angelehnt — weisse Fläche mit
+   Schatten) von rechts nach links aus, der Tab wandert dabei mit an die
+   linke Kante des Inhalts. Tab und Inhalt sind dafür zwei UNABHÄNGIG
+   fixed-positionierte Elemente mit je eigenem, animiertem right-Wert
+   (statt eines gemeinsamen Flex-Containers) — in einem Flex-Container hätte
+   nur eines der beiden Kinder in der Layout-Reihenfolge randbündig sitzen
+   können, das andere wäre beim Ein-/Ausfahren immer von der Kante
+   weggerutscht.
+   Sichtbarkeit des Registers insgesamt (Tab + Inhalt) wie .kapitel-register
+   (dieselbe inKapitelAnsicht-Logik in sketch.js) — dafür genügt Opacity/
+   Visibility auf dem unpositionierten Wrapper .legende-box, die sich ganz
+   normal auf die fixed-positionierten Kinder vererbt. Das Ausfahren selbst
+   läuft über die zusätzliche .offen-Klasse auf demselben Wrapper (Klick auf
+   legendeTab, siehe sketch.js). Inhalt wird dynamisch aus KREIS_KATEGORIEN/
+   CATEGORY_LABELS gebaut (baueLegende in sketch.js), nicht hier hart
+   codiert, damit Legende und tatsächliche Kreisfarben nie auseinanderlaufen.
    ========================= */
 .legende-box {
-  position: fixed;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
-  z-index: 20;
-  width: 190px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
-  padding: 18px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -606,6 +608,52 @@ h2 {
 .legende-box.sichtbar {
   opacity: 1;
   visibility: visible;
+}
+
+.legende-tab {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(180deg);
+  z-index: 21;
+  width: 34px;
+  border: none;
+  background: #BF9E16;
+  color: #212B2E;
+  border-radius: 0;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 18px 0;
+  cursor: pointer;
+  transition: right 0.35s ease;
+}
+
+.legende-box.offen .legende-tab {
+  right: 190px; /* an die linke Kante des ausgefahrenen Inhalts angeheftet */
+}
+
+.legende-inhalt {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -190px; /* komplett ausserhalb des Bildschirms, wenn eingefahren */
+  width: 190px;
+  z-index: 20;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  padding: 18px;
+  overflow-y: auto;
+  transition: right 0.35s ease;
+}
+
+.legende-box.offen .legende-inhalt {
+  right: 0;
 }
 
 .legende-titel {
