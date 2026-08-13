@@ -1705,7 +1705,7 @@ function zeichneRoute(punkte, upToIndex, bbox, strichstaerke = 2, offsetX = mapO
 // (eigener Scroll-Akt davor) und zählt daher von Anfang an voll, ohne
 // lokalerFortschritt-Gate.
 const REDAKTION_ORT = 'Redaktion La Vie Française';
-const REDAKTION_LINIE_LAENGE = 130; // px, senkrechte Linie zum Kreis darunter — ggf. nach Sichtprüfung anpassen
+const REDAKTION_LINIE_LAENGE = 220; // px, senkrechte Linie zum Kreis darunter — ggf. nach Sichtprüfung anpassen
 
 function zeichneRedaktionKnoten(bbox, kapitelListe, n, fortschritt, alpha) {
   let effAlpha = zoomedKapitel ? alpha * (1 - kapitelZoomAmount) : alpha;
