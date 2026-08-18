@@ -145,7 +145,13 @@ KAPITEL_BBOXEN = {
     # Ausschnitts, im Osten stand dafür 8 km leere Karte. Jetzt eng um den
     # lokalen Cluster (Saint-Germain bis Palais Walter); La Roche-Guyon
     # bleibt wie Cannes in Kapitel 8 bewusst ausserhalb.
-    "17": {"west": 2.0914406, "east": 2.3278341, "south": 48.8435013, "north": 48.90294},
+    # 17 nochmals korrigiert: die erste Neuberechnung lag zu eng um die Route
+    # (97 % der Bboxbreite). coverCrop() zeigt bei einem effektiven Canvas-
+    # Seitenverhältnis von ~1.9 (mapOffsetX = -250) nur den mittleren Anteil
+    # canvas_SV/bild_SV der Bildbreite — Saint-Germain links und Palais
+    # Walter/Concorde rechts fielen dadurch aus dem Bild. Jetzt so breit,
+    # dass die Route 70 % der Breite belegt, Bild-SV bleibt bei 2.45.
+    "17": {"west": 2.0464991, "east": 2.3727756, "south": 48.8297048, "north": 48.9172965},
     # 18 neu berechnet: nach der Handkuratierung bleiben nur zwei Stationen
     # (Rue Constantinople und Madeleine, 1,2 km auseinander) — Montmartre und
     # Palais Bourbon waren Erwähnungen bzw. Blickachsen. Der alte Ausschnitt
@@ -201,6 +207,69 @@ def lade_strassennetz():
     return GRAPH
 
 
+# ── Sichtbarkeits-Prüfung ───────────────────────────────────────────────────
+# sketch.js zeichnet den Kartenausschnitt mit coverCrop() und rechnet die Route
+# über cropToBbox() auf GENAU diesen Ausschnitt um. Ist das Bild breiter als
+# die (effektive) Leinwand, zeigt coverCrop nur den mittleren Anteil
+#     canvas_seitenverhältnis / bild_seitenverhältnis
+# der Bildbreite — der Rest fällt links und rechts weg, Route inklusive.
+#
+# Die effektive Leinwandbreite ist width - mapOffsetX mit mapOffsetX = -250,
+# also breiter als das Fenster: bei 1440x900 rund 1.88, bei 2560x1400 rund
+# 2.01. Der ungünstigste (schmalste) Fall bestimmt, wie viel sichtbar bleibt.
+#
+# Die bestehenden Bboxen halten die Route bei 20-60 % der Breite; diese Regel
+# stand bisher aber nirgends, sondern nur implizit in den Zahlen. Einmal zu
+# eng gerechnet (Kapitel 17, 97 % Breitenanteil) verschwanden die beiden
+# Routenenden im Browser, ohne dass hier etwas aufgefallen wäre.
+CANVAS_SV_MIN = 1.6      # konservativ: schmalste realistische Leinwand
+ROUTENANTEIL_KNAPP = 0.85  # darüber: kein Rand mehr, aber noch sichtbar
+
+
+def pruefe_routenanteil(nr: str, bbox: dict) -> list:
+    """Warnt, wenn die Route im Browser beschnitten würde. Gibt eine Liste von
+    Meldungen zurück (leer = in Ordnung)."""
+    pfad = os.path.join(PROJEKT_ROOT, f"kapitel{nr}-stationen.json")
+    if not os.path.exists(pfad):
+        return []
+    with open(pfad, encoding="utf-8") as f:
+        daten = json.load(f)
+    punkte = daten.get("routenPfadDetail") or daten.get("routenPunkte") or []
+    punkte = [p for p in punkte if isinstance(p, (list, tuple)) and len(p) == 2]
+    if not punkte:
+        return []
+    dlon = max(p[0] for p in punkte) - min(p[0] for p in punkte)
+    dlat = max(p[1] for p in punkte) - min(p[1] for p in punkte)
+    breite, hoehe = bbox["east"] - bbox["west"], bbox["north"] - bbox["south"]
+    mitte_lat = (bbox["north"] + bbox["south"]) / 2
+    bild_sv = breite * math.cos(math.radians(mitte_lat)) / hoehe
+    # coverCrop beschneidet immer nur EINE Achse: ist das Bild breiter als die
+    # Leinwand, fallen linker und rechter Rand weg (volle Höhe bleibt), sonst
+    # oberer und unterer (volle Breite bleibt).
+    if bild_sv > CANVAS_SV_MIN:
+        sicht_b, sicht_h = CANVAS_SV_MIN / bild_sv, 1.0
+    else:
+        sicht_b, sicht_h = 1.0, bild_sv / CANVAS_SV_MIN
+    meldungen = []
+    for achse, anteil, sicht, spanne, km in (
+        ("Breite", dlon / breite, sicht_b, breite, breite * 73),
+        ("Höhe", dlat / hoehe, sicht_h, hoehe, hoehe * 110.54),
+    ):
+        if anteil > sicht:
+            noetig = (dlon if achse == "Breite" else dlat) / (sicht * ROUTENANTEIL_KNAPP)
+            meldungen.append(
+                f"BESCHNITTEN: Route füllt {anteil*100:.0f}% der Bbox{achse.lower()}, sichtbar "
+                f"sind bei Canvas-SV {CANVAS_SV_MIN} nur {sicht*100:.0f}%. "
+                f"Bbox{achse.lower()} mindestens {noetig*km/spanne:.1f} km (jetzt {km:.1f} km)."
+            )
+        elif anteil > sicht * ROUTENANTEIL_KNAPP:
+            meldungen.append(
+                f"knapp: Route füllt {anteil*100:.0f}% der Bbox{achse.lower()} bei "
+                f"{sicht*100:.0f}% sichtbar — kein Rand mehr."
+            )
+    return meldungen
+
+
 def berechne_breite_px(bbox: dict) -> int:
     """Seitenverhältnis-korrigierte Bildbreite, siehe Modul-Docstring."""
     dlon = bbox["east"] - bbox["west"]
@@ -249,6 +318,12 @@ def rendere_kapitel(nr: str, bbox: dict, graph, ziel_ordner: str = KARTEN_ORDNER
 
     breite_px = berechne_breite_px(bbox)
     print(f"  Zielgrösse: {breite_px} x {HOEHE_PX} px")
+
+    # Vor dem teuren Overpass-Abruf prüfen, ob die Route im Browser überhaupt
+    # ganz sichtbar wäre (siehe pruefe_routenanteil) — sonst rendert man
+    # minutenlang einen Ausschnitt, der die Routenenden abschneidet.
+    for meldung in pruefe_routenanteil(nr, bbox):
+        print(f"  WARNUNG: {meldung}")
 
     gebaeude, fetch_dauer = hole_gebaeude(bbox)
     print(f"  Gebäude: {len(gebaeude)} Polygone geladen in {fetch_dauer:.1f}s")

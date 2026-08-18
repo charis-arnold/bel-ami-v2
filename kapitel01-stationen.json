@@ -1558,7 +1558,7 @@
       "text": "Er hatte Lust, in die Champs Elysée und die Avenue du Bois de Boulogne zu gehen, um unter den Bäumen etwas frische Luft zu schöpfen.",
       "revealIndex": 67,
       "ort": "Champs-Élysées / Avenue du Bois de Boulogne",
-      "ortBasis": "Wunsch (Kapitel 01)",
+      "ortBasis": "Boulevard Poissonnière",
       "tags": [
         "george_duroy",
         "location_erinnerung",
@@ -1987,7 +1987,7 @@
       "text": "Er dachte an seine zwei Dienstjahre in Afrika und an die Art und Weise, wie man in den kleinen Vorposten im Süden den Arabern das Geld abnahm. Ein grausames, zufriedenes Lächeln glitt über seine Lippen, als er eines Streiches gedachte, der drei Männern vom Stamme der Uled-Alan das Leben kostete und ihm und seinen Kameraden zwanzig Hühner, zwei Schafe und Gold einbrachte und heiteren Gesprächsstoff für sechs Monate.",
       "revealIndex": 145,
       "ort": "Afrika (Erinnerung, Militärdienst)",
-      "ortBasis": "Erinnerung (Kapitel 01)",
+      "ortBasis": "Place de la Madeleine",
       "tags": [
         "george_duroy",
         "location_erinnerung",
@@ -2007,7 +2007,7 @@
       "text": "In Paris war das anders. Hier konnte man nicht mit dem Säbel an der Seite und dem Revolver in der Faust, fern vom wachsamen Auge der bürgerlichen Gerichtsbarkeit, in voller Freiheit herumplündern.",
       "revealIndex": 146,
       "ort": "Paris (allgemein)",
-      "ortBasis": "Erinnerung (Kapitel 01)",
+      "ortBasis": "Place de la Madeleine",
       "tags": [
         "george_duroy",
         "location_erinnerung",
@@ -2028,7 +2028,7 @@
       "text": "Er hatte sich Besseres erhofft, als er heimkehrte. Und nun ... Ach ja, jetzt hatte er, was er wollte!",
       "revealIndex": 147,
       "ort": "Paris (allgemein)",
-      "ortBasis": "Erinnerung (Kapitel 01)",
+      "ortBasis": "Place de la Madeleine",
       "tags": [
         "george_duroy",
         "mood",
@@ -3063,7 +3063,7 @@
       "text": "Eine Fahrt ins Bois macht nur Spaß, wenn noch ein Weib dabei ist",
       "revealIndex": 245,
       "ort": "Bois de Boulogne, Paris",
-      "ortBasis": "Wunsch (Kapitel 01)",
+      "ortBasis": "Café Américain",
       "tags": [
         "location",
         "atmosphere"
@@ -3082,7 +3082,7 @@
       "text": "Man müßte hier einen Sommergarten haben, wie den Park Monceau, der nachts geöffnet wäre, wo man ausgezeichnete Musik hörte und unter den Bäumen Erfrischungen nehmen könnte.",
       "revealIndex": 246,
       "ort": "Parc Monceau, Paris",
-      "ortBasis": "Wunsch (Kapitel 01)",
+      "ortBasis": "Café Américain",
       "tags": [
         "location",
         "atmosphere",
@@ -3102,7 +3102,7 @@
       "text": "Man sollte da auf kiesbestreuten Fußwegen herumspazieren können, die elektrisch beleuchtet wären, und sich setzen können, wenn man Lust hätte, um von fern und nah Musik anzuhören.",
       "revealIndex": 247,
       "ort": "imaginierter Sommergarten, Paris",
-      "ortBasis": "Wunsch (Kapitel 01)",
+      "ortBasis": "Café Américain",
       "tags": [
         "space",
         "sound",
@@ -4444,42 +4444,15 @@
       "bandCounts": {
         "gold_dunkel": {
           "neg": 0,
-          "pos": 0,
-          "neutral": 0,
-          "unrated": 1
-        },
-        "gold_mittel": {
-          "neg": 0,
-          "pos": 0,
-          "neutral": 0,
-          "unrated": 0
-        },
-        "gold_hell": {
-          "neg": 0,
-          "pos": 0,
-          "neutral": 0,
-          "unrated": 0
-        }
-      }
-    },
-    {
-      "ort": "Wunsch (Kapitel 01)",
-      "revealIndex": 67,
-      "lon": 2.3402555,
-      "lat": 48.8720522,
-      "nodeType": "location",
-      "bandCounts": {
-        "gold_dunkel": {
-          "neg": 0,
           "pos": 1,
           "neutral": 0,
-          "unrated": 2
+          "unrated": 1
         },
         "gold_mittel": {
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 1
+          "unrated": 0
         },
         "gold_hell": {
           "neg": 0,
@@ -4530,40 +4503,13 @@
           "unrated": 5
         },
         "gold_mittel": {
-          "neg": 5,
-          "pos": 0,
-          "neutral": 0,
-          "unrated": 0
-        },
-        "gold_hell": {
-          "neg": 1,
-          "pos": 0,
-          "neutral": 0,
-          "unrated": 0
-        }
-      }
-    },
-    {
-      "ort": "Erinnerung (Kapitel 01)",
-      "revealIndex": 145,
-      "lon": 2.3259553,
-      "lat": 48.86973,
-      "nodeType": "location",
-      "bandCounts": {
-        "gold_dunkel": {
-          "neg": 0,
-          "pos": 0,
-          "neutral": 0,
-          "unrated": 0
-        },
-        "gold_mittel": {
-          "neg": 2,
+          "neg": 7,
           "pos": 0,
           "neutral": 0,
           "unrated": 1
         },
         "gold_hell": {
-          "neg": 0,
+          "neg": 1,
           "pos": 0,
           "neutral": 0,
           "unrated": 0
@@ -4608,13 +4554,13 @@
           "neg": 3,
           "pos": 0,
           "neutral": 0,
-          "unrated": 2
+          "unrated": 4
         },
         "gold_mittel": {
           "neg": 1,
           "pos": 1,
           "neutral": 0,
-          "unrated": 0
+          "unrated": 1
         },
         "gold_hell": {
           "neg": 0,

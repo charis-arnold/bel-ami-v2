@@ -21,6 +21,15 @@ Kuratierungsregel (dieselbe, nach der Kapitel 1–9 gebaut sind):
      echten Fussweg zum nächsten Anker.
   4. Alle Annotationen von dort bis zum nächsten spezifischen Ort ergeben
      einen eigenen Sammelpunkt AUF der Route (Unterwegs-Punkt).
+  5. JEDE Annotation zählt zu dem Ort, an dem sie gesagt, gedacht oder
+     gefühlt wird — nicht zu dem, VON dem sie handelt. Erinnerungen,
+     Wünsche, Vorstellungen und blosse Erwähnungen bekommen also keinen
+     eigenen Kreis und kein Sammelbecken, sondern gehören zum Schauplatz,
+     an dem die Figur gerade steht. Ein Kreis misst damit, was an diesem
+     Ort empfunden wurde, nicht, worüber gesprochen wurde — für "Die
+     Gefühlte Stadt" die passende Grösse. (Die Sammelbecken-Mechanik in
+     sketch.js — SAMMELPUNKT_KATEGORIEN/zeichneOrteOhneAdresse — wird
+     dadurch nicht mehr gebraucht; sie bleibt vorerst ungenutzt stehen.)
 
 Wiederkehrende Orte behalten bewusst exakt denselben Namen (z.B. die
 Redaktion, die in Kapitel 10 dreimal besucht wird): ortRuns gruppiert nach
@@ -84,12 +93,6 @@ SAMMELPUNKTE = {
         # 04–07 auf 2.3187925/48.8851901 — 160 m auseinander, dazu unter zwei
         # Namen. Jetzt überall gleich.
         "Georges Duroys Wohnung (Rue Boursault)": (2.3187925, 48.8851901),
-        # Ortlose Sammelbecken auf derselben Koordinate wie die Wohnung: die
-        # Route bleibt bei Erinnerung/Phantasie stehen (sketch.js zeichnet sie
-        # ohnehin im Kasten unter dem Register, nicht auf der Karte).
-        "Unbestimmt (Kapitel 03)": (2.3187925, 48.8851901),
-        "Erinnerung (Kapitel 03)": (2.3187925, 48.8851901),
-        "Phantasie (Kapitel 03)": (2.3187925, 48.8851901),
         "Boulevard des Batignolles, Paris": (2.32350, 48.88650),
         "Parc Monceau": (2.30960, 48.87960),
         "Unterwegs zu Forestier, Paris": (2.32189, 48.88053),
@@ -130,13 +133,6 @@ SAMMELPUNKTE = {
         # einzelnes Lokal, aber sehr wohl eine Gegend: die Fortsetzung von
         # Weinstube und Ballokal an den äusseren Boulevards.
         "Verdächtige Lokale an den äusseren Boulevards": (2.3300, 48.8835),
-        # Bleibt der Sammelpunkt ohne Adresse (der Namenspräfix "Unbestimmt
-        # (Kapitel" schickt ihn in sketch.js in den Kasten unter dem Register,
-        # nicht auf die Karte). Koordinate aber NICHT mehr der Erstentwurf-
-        # Platzhalter 2.28615/48.86249 draussen bei Boulogne — die zog die
-        # Route für acht ortlose Annotationen 4 km aus der Stadt und zurück.
-        # Jetzt gleich dem vorangehenden Block: die Route bleibt stehen.
-        "Unbestimmt (Kapitel 05)": (2.3300, 48.8835),
         "Garküche (unterwegs), Paris": (2.33550, 48.87742),
         "Brauerei (unterwegs), Paris": (2.32575, 48.88195),
         "Fahrende Droschke, Paris": (2.33095, 48.87900),
@@ -302,14 +298,15 @@ SAMMELPUNKTE = {
         # Annotation 5 nennt beide Achsen in einem Satz — ein Punkt zwischen
         # Avenue (Kapitel 10: 2.30782/48.8698) und Bois (2.2695/48.8697).
         "Fahrt über die Champs-Élysées und durch das Bois": (2.2850, 48.8690),
-        # "über die Seine am Mont-Valérien vorbei ... nach Bougival. Dann ging
-        # es am Fluß entlang bis nach Pecq."
-        "Fahrt über Bougival und Pecq an der Seine": (2.1400, 48.8650),
-        # Das Frühstück im Pavillon Henri IV und die Terrasse von Le Nôtre.
-        # Die alte Koordinate (2.25890/48.89665) war ein Platzhalter irgendwo
-        # bei Nanterre und hatte mit Saint-Germain nichts zu tun.
-        "Terrasse von Saint-Germain-en-Laye": (2.0955, 48.8965),
-        "Rückfahrt über Chatou": (2.1520, 48.8900),
+        # Die ganze Landpartie ausserhalb der Stadt — Bougival und Pecq, das
+        # Frühstück im Pavillon Henri IV, die Terrasse von Le Nôtre, die
+        # Rückfahrt über Chatou — sammelt sich an EINEM Punkt am Westrand des
+        # Bois, kurz vor dem Seineübergang bei Suresnes. Das ist dieselbe
+        # Konvention wie Cannes in Kapitel 8 und die Rouen-Reise in Kapitel 9:
+        # die auswärtige Etappe wächst dort, wo die Stadt verlassen wird.
+        # Vorher standen hier drei einzelne Stationen bis Saint-Germain, 14,6 km
+        # westlich der Kartenkante.
+        "Fahrt über die Seine nach Saint-Germain und zurück": (2.2400, 48.8720),
         # Nach der Scheidung wohnt er wieder in seiner Junggesellenwohnung —
         # kapitel18-stationen.json beginnt dort ("Rue Constantinople 127"),
         # und die Wohnung Rue Fontaine war Madeleines (Forestiers) gewesen.
@@ -320,11 +317,13 @@ SAMMELPUNKTE = {
         # angekündigt, nie gezeigt; der Punkt liegt auf der Ausfahrtstrecke.
         "Fahrt aus Paris Richtung Sèvres": (2.2750, 48.8480),
         # Ferne Etappe, 65 km seineabwärts. Nach der Projektkonvention (wie
-        # Cannes in Kapitel 8, Rouen in Kapitel 9, Le Vésinet in Kapitel 7)
-        # bekommt sie KEINE echte Koordinate, sondern einen Ersatzpunkt am
-        # Kartenrand in Fahrtrichtung — hier seineabwärts nordwestlich, klar
-        # abgesetzt von der Terrasse von Saint-Germain.
-        "La Roche-Guyon an der Seine": (2.1480, 48.8995),
+        # Cannes in Kapitel 8, Rouen in Kapitel 9) bekommt sie keine echte
+        # Koordinate, sondern einen Ersatzpunkt DORT, WO DIE STADT VERLASSEN
+        # WIRD — 335 m hinter dem Sèvres-Ausfahrtspunkt, in derselben
+        # Fahrtrichtung. Dieselbe Distanz wie Cannes zum Gare de Lyon und die
+        # Rouen-Reise zum Gare Saint-Lazare. Vorher stand der Punkt bei
+        # 2.1480/48.8995 und lag als einziger ausserhalb des Basisbilds.
+        "La Roche-Guyon an der Seine": (2.271031, 48.846488),
     },
     # Kapitel 18 (Bel-Ami II/10, Schlusskapitel): die letzte Szene mit
     # Clotilde in der Junggesellenwohnung, dann die Hochzeit in der Madeleine.
@@ -348,12 +347,7 @@ SAMMELPUNKTE = {
 BLOECKE = {
     "03": [
         (0,   "Heimweg vom Diner bei Forestier"),                 # 0 "Er hatte Lust zu laufen, zu träumen" / 1 der Entschluss, nach Hause zu gehen — Routenbeginn
-        (2,   "Georges Duroys Wohnung (Rue Boursault)"),          # 2 "gelangte endlich in die Rue Boursault, wo er wohnte" bis 15
-        (16,  "Erinnerung (Kapitel 03)"),
-        (17,  "Georges Duroys Wohnung (Rue Boursault)"),
-        (32,  "Erinnerung (Kapitel 03)"),
-        (42,  "Phantasie (Kapitel 03)"),
-        (43,  "Georges Duroys Wohnung (Rue Boursault)"),          # 43 zurück am Schreibtisch, bis 52
+        (2,   "Georges Duroys Wohnung (Rue Boursault)"),          # 2 "gelangte endlich in die Rue Boursault" bis 52 — die Erinnerungen an Canteleu und das erträumte Liebesabenteuer werden am Schreibtisch gedacht und zählen deshalb hierher
         (53,  "Boulevard des Batignolles, Paris"),                # 53 "Als er auf der Straße war" → Go / 54 "unter den Bäumen der äußeren Boulevards"
         (56,  "Parc Monceau"),                                    # 56 "Er erreichte den Park Monceau" bis 60
         (61,  "Unterwegs zu Forestier, Paris"),                   # 61 "Er stand auf, setzte seinen Weg fort und dachte dabei an Forestier"
@@ -395,8 +389,7 @@ BLOECKE = {
         # Die erste Hälfte hat sehr wohl einen Ort (die Lokalrunde an den
         # äusseren Boulevards, direkte Fortsetzung der beiden Blöcke davor),
         # nur die zweite ist wirklich ortlos (seine Armut, der 14. Dezember).
-        (206, "Verdächtige Lokale an den äusseren Boulevards"),    # 206 "Nun begann eine Reihe von Ausflügen in alle möglichen verdächtigen Lokale" bis 217
-        (218, "Unbestimmt (Kapitel 05)"),                          # 218 "Aber diese Ausflüge ... begannen Duroy schließlich etwas lästig zu werden" bis 225 — Armut, kein Sou mehr
+        (206, "Verdächtige Lokale an den äusseren Boulevards"),    # 206 "Nun begann eine Reihe von Ausflügen in alle möglichen verdächtigen Lokale" bis 225 — auch die Geldnot gehört hierher: Annotation 218 knüpft sie ausdrücklich an diese Ausflüge
         (226, "Redaktion La Vie Française"),                       # 226 "arbeitete den Nachmittag in der Redaktion" bis 236 — die geborgten zehn Francs von Foucart
         (237, "Garküche (unterwegs), Paris"),                      # 237 "Er aß in einer Garküche, wo er in den schlimmsten Tagen seiner Armut oft einkehrte"
         (238, "Georges Duroys Wohnung (Rue Boursault)"),           # 238 "Um neun Uhr saß er im Salon am Kamin und erwartete seine Geliebte" bis 269
@@ -524,9 +517,7 @@ BLOECKE = {
         # ── Die Landpartie nach Saint-Germain ────────────────────────────
         (0,   "Palais Walter, Faubourg Saint-Honoré"),          # 0 "Drei Monate waren seitdem vergangen" bis 4 — die Scheidung, die Abfahrt um neun Uhr im sechssitzigen Reiselandauer
         (5,   "Fahrt über die Champs-Élysées und durch das Bois"), # 5 "fuhr in raschem Trabe die Avenue des Champs-Elysees hinab und dann durch das Bois de Boulogne" → Go, bis 7
-        (8,   "Fahrt über Bougival und Pecq an der Seine"),     # 8 "am Mont-Valérien vorbei und gelangte nach Bougival. Dann ging es am Fluß entlang bis nach Pecq" bis 12
-        (13,  "Terrasse von Saint-Germain-en-Laye"),            # 13 "Vor der Rückfahrt nach Paris schlug Georges vor, einen Spaziergang auf der Terrasse zu machen" bis 29 — der Panoramablick, die Verabredung zur Flucht (Concorde/Marineministerium wird hier nur ausgemacht)
-        (30,  "Rückfahrt über Chatou"),                         # 30 "Man sprach über Seebäder" / 31 "fuhren sie über Chatou zurück" bis 37
+        (8,   "Fahrt über die Seine nach Saint-Germain und zurück"), # 8 "Man fuhr über die Seine am Mont-Valérien vorbei" → der Übergang, ab hier ist die Route ausserhalb der Stadt: Bougival und Pecq, das Frühstück im Pavillon Henri IV, der Panoramablick von der Terrasse, die Verabredung zur Flucht, die Rückfahrt über Chatou — bis 37
         (38,  "Palais Walter, Faubourg Saint-Honoré"),          # 38 "Als man nach Paris zurückkam" → Go / 39 "Als der Landauer in den Hof des Palais einfuhr"
         (40,  "Wohnung Du Roy (Rue Constantinople 127)"),       # 40 "Er lehnte jedoch dankend ab und ging nach Hause" bis 45 — er ordnet die Papiere, verbrennt Briefe, "Gegen elf Uhr verließ er sein Haus"
         # ── Die Entführung ───────────────────────────────────────────────

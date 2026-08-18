@@ -12,7 +12,14 @@ let stage, heroText, begleitTexte, kapitelEinstiegsTexte;
 // (kapitelEinstiegsStartMillis), siehe draw().
 let kapitelEinstiegsStartMillis = null;
 const KAPITEL_EINSTIEG_FADE_MS = 800;
-const KAPITEL_EINSTIEG_SICHTBAR_BIS_MS = 14000;
+// Der Einstiegstext blendet von selbst EIN (zeitbasiert, ab Klick-Zeitpunkt),
+// danach übernimmt das Scrollen: zwischen diesen beiden Anteilen des
+// Kapitel-Akts (uebersichtRoutenStart..uebersichtRoutenEnd) blendet er aus,
+// und erst danach beginnen Route, Kreise und Annotationsbox. Vorher lief das
+// über ein festes Zeitfenster von 14 Sekunden — der Text verschwand also auch
+// dann, wenn man ihn noch las, und die Route startete ohne Zutun.
+const KAPITEL_EINSTIEG_SCROLL_START = 0.015;
+const KAPITEL_EINSTIEG_SCROLL_ENDE = 0.06;
 // bgImage: Startseite/erste Übersicht (vor dem Zoom in Kapitel 1). bgImage2:
 // "zweite" Übersichtskarte, die nach dem Rauszoomen aus Kapitel 1 gezeigt
 // wird (Übersichtsrouten- und Kreisvergleich-Akt). Beide teilen dieselbe
@@ -102,7 +109,7 @@ let kreisVergleichOrte = [];
 // Kapitel, die hier einen Eintrag haben, sind klickbar — das sind exakt die
 // Kapitel, für die "kapitel karten/kapitelXX-{karte.png,bbox.json}"
 // existiert (aktuell alle außer 01 — das hat sein eigenes, handverfeinertes
-// System, siehe kapitel01-karte.png/stationenData). vAnchor/hAnchor
+// System, siehe kapitel01-qgis-karte-web.png/stationenData). vAnchor/hAnchor
 // (optional, siehe coverCrop):
 // verschieben den sichtbaren Ausschnitt vertikal bzw. horizontal innerhalb
 // des Kapitelbilds, ohne die zugrundeliegende karte.png/bbox.json neu
@@ -110,12 +117,12 @@ let kreisVergleichOrte = [];
 // rechter Bildrand sichtbar, 0.5 = zentriert, Default). Kapitel 3s
 // Routenanfang liegt z.B. nahe am Nordrand seiner Bbox — ohne vAnchor-Bias
 // würde der zentrierte Bildausschnitt genau dort beschneiden.
-// Kapitel 17: Route führt bis zum Bahnhof (Ziel liegt ausserhalb von
-// final-paris-gross-web-2.png, bgImage2) — für dieses bleibt .bild bewusst
-// null (siehe OHNE_EIGENEN_KARTENAUSSCHNITT/preload). Dadurch überspringt draw() den
-// Kapitel-Zoom-Block (Zeile ~636) und das Kapitel bleibt auf der
-// Übersichtskarte 2 (bgImage2, «alle Routen») — wie vereinbart, statt eines
-// eigenen (zu grossen) Kartenausschnitts.
+// Kapitel 17 hatte lange keinen eigenen Ausschnitt: seine Route reichte bis
+// Saint-Germain-en-Laye, weit ausserhalb des Basisbilds. Seit die Landpartie
+// zu EINEM Sammelpunkt am Westrand des Bois zusammengefasst ist (kurz vor dem
+// Seineübergang) und La Roche-Guyon wie Cannes/Rouen als Ersatzpunkt dort
+// sitzt, wo die Stadt verlassen wird, liegt das ganze Kapitel im Bild — es
+// bekommt daher wie alle anderen einen eigenen Ausschnitt.
 // Kapitel 06, 07, 09 und 10 bleiben nach der Literaturwissenschafts-Korrektur
 // der ortRuns/Route vollständig innerhalb von Paris (kein Bahnhof/Verlassen
 // der Stadt mehr — weit entfernte Handlungsorte wie "Bois du Vésinet" in
@@ -124,7 +131,7 @@ let kreisVergleichOrte = [];
 // entfernten Koordinaten; Kapitel 10 spielt ohnehin komplett in Paris,
 // inkl. Bois de Boulogne) und bekommen daher einen eigenen, eng um die
 // tatsächliche Route zugeschnittenen Kartenausschnitt.
-const OHNE_EIGENEN_KARTENAUSSCHNITT = ['17'];
+const OHNE_EIGENEN_KARTENAUSSCHNITT = [];
 let kapitelKarten = {
   '02': { bild: null, bboxRaw: null },
   '03': { bild: null, bboxRaw: null, vAnchor: 0.15 },
@@ -776,6 +783,16 @@ function draw() {
   let targetBbox = cropToBbox(targetCrop, ch1ImgBbox, ch1Image.width, ch1Image.height);
 
   let progress = getScrollProgress();
+  // Ein offenes Kapitel endet mit seiner letzten Annotation — dahinter wird
+  // nicht weitergescrollt: kein Hinübergleiten in den Kreisvergleich, kein
+  // Ausblenden der Kapitelkarte. Die Scrollposition wird dafür am Ende des
+  // Kapitel-Akts festgehalten; nach OBEN bleibt sie frei, das ist der Weg
+  // zurück (siehe uebersichtRoutenFortschritt <= 0 -> schliesseKapitelZoom).
+  if (zoomedKapitel && progress > SCROLL_MEILENSTEINE.uebersichtRoutenEnd) {
+    progress = SCROLL_MEILENSTEINE.uebersichtRoutenEnd;
+    let trackEl = document.querySelector('.scroll-track');
+    window.scrollTo(0, trackEl.offsetHeight * progress);
+  }
   scrollFortschrittFuellung.style.width = (progress * 100) + '%';
   let zoomAmount = constrain(map(progress, SCROLL_MEILENSTEINE.zoomStart, SCROLL_MEILENSTEINE.zoomEnd, 0, 1), 0, 1);
   // Nach Abschluss der Route wieder auf die Gesamtkarte rauszoomen — die
@@ -1115,14 +1132,10 @@ function draw() {
     let opacity = 0;
     if (passtZuOffenemKapitel && kapitelEinstiegsStartMillis !== null) {
       let elapsed = millis() - kapitelEinstiegsStartMillis;
-      let zeitOpacity = constrain(
-        Math.min(
-          map(elapsed, 0, KAPITEL_EINSTIEG_FADE_MS, 0, 1),
-          map(elapsed, KAPITEL_EINSTIEG_SICHTBAR_BIS_MS - KAPITEL_EINSTIEG_FADE_MS, KAPITEL_EINSTIEG_SICHTBAR_BIS_MS, 1, 0)
-        ),
-        0, 1
-      );
-      opacity = zeitOpacity * kapitelZoomAmount * (1 - kreisVergleichMapFade);
+      let einblenden = constrain(map(elapsed, 0, KAPITEL_EINSTIEG_FADE_MS, 0, 1), 0, 1);
+      let ausblenden = 1 - constrain(map(uebersichtRoutenFortschritt,
+        KAPITEL_EINSTIEG_SCROLL_START, KAPITEL_EINSTIEG_SCROLL_ENDE, 0, 1), 0, 1);
+      opacity = Math.min(einblenden, ausblenden) * kapitelZoomAmount * (1 - kreisVergleichMapFade);
     }
     el.style.opacity = opacity;
   });
@@ -1797,7 +1810,12 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   // seinen eigenen vollen Scrollbereich hat). So bekommt jedes geöffnete
   // Kapitel den vollen Akt als eigene Reveal-Skala, unabhängig von seiner
   // Position in der Kapitelliste, und bleibt trotzdem exakt scrubbar.
-  let zoomedLokalerFortschritt = constrain(fortschritt, 0, 1);
+  // Der Anfang des Akts gehört dem Einstiegstext (siehe
+  // KAPITEL_EINSTIEG_SCROLL_ENDE) — die Annotationen des Kapitels verteilen
+  // sich auf den Rest, damit die erste gleich beim Erscheinen der Route zu
+  // sehen ist und nicht schon während des Textes weggescrollt wurde.
+  let zoomedLokalerFortschritt = constrain(
+    map(fortschritt, KAPITEL_EINSTIEG_SCROLL_ENDE, 1, 0, 1), 0, 1);
   let aktuelleAnnotationZoom = null; // für die Annotationsbox in draw() (siehe Rückgabewert unten)
 
   // Im Kapitel-Zoom (Klick auf «03» etc.) bleibt nur die Route des gezoomten
@@ -1835,14 +1853,13 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   // denselben fixen mapOffsetX/mapOffsetY wie der Kartenausschnitt (k.bild)
   // selbst, nicht den ch1-spezifischen kartenOffsetX-Blend.
   // Erscheint bewusst erst, NACHDEM der Kapitel-Einstiegstext (siehe
-  // kapitelEinstiegsStartMillis/KAPITEL_EINSTIEG_SICHTBAR_BIS_MS weiter
+  // KAPITEL_EINSTIEG_SCROLL_ENDE weiter
   // unten in draw()) fertig ausgeblendet ist — exakt dasselbe Nacheinander
   // wie bei Kapitel 1 (dort per Scroll-Meilenstein: der Begleittext blendet
   // bis routeStart aus, erst ab dort wächst routeAmount los). Ohne dieses
   // Gate erschienen Route/Kreise/Annotationsbox gleichzeitig mit dem noch
   // sichtbaren Einstiegstext, statt sauber danach.
-  let kapitelEinstiegAbgeschlossen = kapitelEinstiegsStartMillis !== null
-    && (millis() - kapitelEinstiegsStartMillis) >= KAPITEL_EINSTIEG_SICHTBAR_BIS_MS;
+  let kapitelEinstiegAbgeschlossen = fortschritt >= KAPITEL_EINSTIEG_SCROLL_ENDE;
   if (zoomedKapitel && kapitelZoomAmount > 0.001 && kapitelEinstiegAbgeschlossen) {
     let daten = datenFuerKapitel(zoomedKapitel);
     // routenPfadDetail (falls vorhanden) statt routenPunkte: Letzteres ist

@@ -55,19 +55,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 3
           },
           "gold_mittel": {
             "neg": 0,
-            "pos": 0,
+            "pos": 2,
             "neutral": 0,
-            "unrated": 0
+            "unrated": 5
           },
           "gold_hell": {
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 3
           }
         }
       },
@@ -78,19 +78,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 6
           },
           "gold_mittel": {
-            "neg": 0,
-            "pos": 0,
+            "neg": 15,
+            "pos": 3,
             "neutral": 0,
             "unrated": 1
           },
           "gold_hell": {
-            "neg": 0,
-            "pos": 0,
+            "neg": 2,
+            "pos": 2,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 7
           }
         }
       },
@@ -386,29 +386,6 @@
     "name": "Parc Monceau",
     "kapitel": [
       {
-        "nr": "01",
-        "bandCounts": {
-          "gold_dunkel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 1
-          },
-          "gold_mittel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          },
-          "gold_hell": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          }
-        }
-      },
-      {
         "nr": "03",
         "bandCounts": {
           "gold_dunkel": {
@@ -663,10 +640,10 @@
             "unrated": 5
           },
           "gold_mittel": {
-            "neg": 5,
+            "neg": 7,
             "pos": 0,
             "neutral": 0,
-            "unrated": 0
+            "unrated": 1
           },
           "gold_hell": {
             "neg": 1,
@@ -839,29 +816,6 @@
             "pos": 0,
             "neutral": 0,
             "unrated": 10
-          }
-        }
-      },
-      {
-        "nr": "08",
-        "bandCounts": {
-          "gold_dunkel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          },
-          "gold_mittel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 2
-          },
-          "gold_hell": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 1
           }
         }
       },
