@@ -50,7 +50,6 @@ body {
    überdeckt (zeichneSpineHorizontal) — diese kartenbezogenen DOM-Overlays
    passen thematisch nicht mehr dazu und würden ohne Bezugspunkt frei über
    der Grafik schweben, daher hier ausgeblendet. */
-.scrolly-stage.grafik-ansicht #ortMarker,
 .scrolly-stage.grafik-ansicht #gedankenColumn,
 .scrolly-stage.grafik-ansicht #kartenMarkierungen,
 .scrolly-stage.grafik-ansicht #annotationBox {
@@ -211,35 +210,6 @@ h2 {
 /* =========================
    2) Ort-Marker (Wohnung Duroy)
    ========================= */
-
-.ort-marker {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  align-items: center;
-  gap: 10px;
-  z-index: 4;
-}
-
-.ort-marker .dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #000;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-
-.ort-marker .label {
-  font-family: var(--sans);
-  font-size: 13px;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 4px 8px;
-  border-radius: 4px;
-  white-space: nowrap;
-  opacity: 0;
-}
 
 
 /* =========================

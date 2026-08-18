@@ -29,7 +29,6 @@ const KAPITEL_EINSTIEG_SCROLL_ENDE = 0.06;
 // uebersichtBbox), und beim Wechsel wandert die Bbox mit (siehe
 // currentBgImage/currentBgBbox in draw()).
 let bgImage, bgImage2, ch1Image;
-let ortMarker, markerDot, markerLabel;
 let gedankenColumn, kartenMarkierungenEl;
 let stationenData;
 let kapitel03Data; // eigenes Datenset fürs Kapitel-3-Spine-Panel (Kartenausschnitt-Zoom)
@@ -72,6 +71,11 @@ let registerTabs; // gemeinsamer Fixed-Container beider Register (siehe #registe
 // "Plan"/"Graph"-Einträge oben im Kapitel-Menübalken
 // (setzeKapitelAnsichtModus).
 let kapitelAnsichtsModus = 'karte';
+// Zoomstand des Kapitel-1-Kartenausschnitts (0 = Startseite/Gesamtkarte,
+// 1 = ganz im Ausschnitt), je Frame in draw() gesetzt. Wird ausserhalb von
+// draw() gebraucht, um die Beschriftung des Routen-Startpunkts erst mit dem
+// Kapitel einzublenden (siehe zeichneKreiseOrtRuns).
+let kapitel1ZoomAmount = 0;
 let grafikPlayButton;
 let grafikSpielt = false;       // läuft die Wachstums-Animation gerade?
 let grafikStartZeit = 0;        // millis() bei Play-Start (bzw. rechnerisch zurückversetzt bei Resume)
@@ -103,12 +107,6 @@ let startBbox = { west: 2.2269923194085774, east: 2.4331556771226127, south: 48.
 // ihre Kartenlabels, mit startBbox lägen sie 940 m zu weit westlich.
 let uebersichtBbox = { west: 2.2185654820200007, east: 2.424728839725431, south: 48.823985860894396, north: 48.89331233077059 };
 let ch1ImgBbox = { west: 2.317834413581757, east: 2.352393886019969, south: 48.86683338890839, north: 48.881871498351956 };
-// Startseiten-Marker: NICHT der Routen-Startpunkt (der bleibt bei Rue
-// Notre-Dame de Lorette, siehe kapitel01-stationen.json/"Lokal in der Nähe
-// der Rue Notre-Dame de Lorette") — sondern Duroys tatsächliche Wohnadresse
-// laut Buch (Rue Boursault, 17. Arr.), die zuvor fälschlich mit dem Lokal
-// bei Notre-Dame de Lorette gleichgesetzt wurde.
-let duroyWohnung = { lon: 2.3187925, lat: 48.8851901 };
 
 let mapOffsetX = -250;
 let mapOffsetY = 0;
@@ -254,9 +252,6 @@ function setup() {
   begleitTexte = document.querySelectorAll('.begleittext');
   kapitelEinstiegsTexte = document.querySelectorAll('.kapitel-einstiegstext');
 
-  ortMarker = document.getElementById('ortMarker');
-  markerDot = ortMarker.querySelector('.dot');
-  markerLabel = ortMarker.querySelector('.label');
   gedankenColumn = document.getElementById('gedankenColumn');
   kartenMarkierungenEl = document.getElementById('kartenMarkierungen');
   annotationText = document.getElementById('annotationText');
@@ -845,6 +840,7 @@ function draw() {
   // vom Zoom abhängt.
   let zoomOutAmount = constrain(map(progress, SCROLL_MEILENSTEINE.zoomOutStart, SCROLL_MEILENSTEINE.zoomOutEnd, 0, 1), 0, 1);
   zoomAmount *= (1 - zoomOutAmount);
+  kapitel1ZoomAmount = zoomAmount;
 
   // "In einer Kapitel-Ansicht" (1–18, für Menübalken/Ansichtsmodus/
   // Scroll-Fortschritt-Sichtbarkeit): entweder ein gezoomtes Kapitel 02–18
@@ -926,10 +922,6 @@ function draw() {
   // und dabei im falschen Seitenverhältnis erscheinen (sichtbare Verzerrung
   // bei einer Strassenkarte).
   let ch1Crop = targetCrop;
-
-  let markerScreenPos = lonLatToScreen(duroyWohnung.lon, duroyWohnung.lat, activeBbox, kartenOffsetX, kartenOffsetY);
-  ortMarker.style.left = markerScreenPos.x + 'px';
-  ortMarker.style.top = markerScreenPos.y + 'px';
 
   tint(255, 255 * (1 - zoomAmount) * (1 - kreisVergleichMapFade));
   image(currentBgImage, 0, 0, width, height, bgCrop.x, bgCrop.y, bgCrop.w, bgCrop.h);
@@ -1205,16 +1197,6 @@ function draw() {
     }
     el.style.opacity = opacity;
   });
-  // Georges-Duroys-Wohnung-Marker (Rue Boursault, ausserhalb von Kapitel 1s
-  // Kartenausschnitt): blendet früh ein und VOR zoomStart wieder aus
-  // (markerAusblendung), sonst würde er beim Reinzoomen aus dem Bild
-  // wandern. (1 - kreisVergleichMapFade) zusätzlich: sonst bliebe er auch im
-  // letzten Akt sichtbar über der Karte schweben, obwohl die Karte längst
-  // ausgeblendet ist.
-  let markerAusblendung = 1 - constrain(map(progress, SCROLL_MEILENSTEINE.markerFadeOutStart, SCROLL_MEILENSTEINE.markerFadeOutEnd, 0, 1), 0, 1);
-  markerDot.style.opacity = constrain(map(progress, SCROLL_MEILENSTEINE.markerDotStart, SCROLL_MEILENSTEINE.markerDotEnd, 0, 1), 0, 1) * markerAusblendung * (1 - kreisVergleichMapFade);
-  markerLabel.style.opacity = constrain(map(progress, SCROLL_MEILENSTEINE.markerLabelStart, SCROLL_MEILENSTEINE.markerLabelEnd, 0, 1), 0, 1) * markerAusblendung * (1 - kreisVergleichMapFade);
-
   // Foto-Marker (separate, additive Ebene) — ganz zuletzt, über allem anderen.
   // Nutzt denselben Offset wie die jeweils sichtbare Karte: kartenOffsetX/Y
   // für Übersichts-/Kapitel-1-Ansicht (blendet dort zwischen 0 und
@@ -1426,14 +1408,19 @@ function zeichneKreiseOrtRuns(punktIndex, annIndex, activeBbox, offsetX = mapOff
         // sammeln, Kollisionen erst nach der Schleife auflösen (siehe
         // zeichneKreisLabels), da sich mehrere Kreise dieselbe Koordinate
         // teilen können (z.B. Aussenraum/Innenraum-Paare).
-        // Routen-Startpunkt ("Lokal in der Nähe der Rue Notre-Dame de
-        // Lorette") bekommt im Kapitel-1-Kartenausschnitt fest #9DA69D statt
-        // der sonst schwarzen Beschriftung.
+        // Der Kreis des Routen-Startpunkts ("Lokal in der Nähe der Rue
+        // Notre-Dame de Lorette", revealIndex 0) ist schon auf der Startseite
+        // zu sehen — seine Beschriftung soll dort aber noch fehlen und erst
+        // mit dem Kapitel-1-Kartenausschnitt einblenden. Deckkraft daher am
+        // Zoomstand (kapitel1ZoomAmount) statt fest 1. Farbe wie alle anderen
+        // Labels (#212B2E); vorher stand hier fest #9DA69D.
+        let istRoutenStart = daten === stationenData && r.ort === WOHNUNG_SAMMELPUNKT_ANKER;
         labelKandidaten.push({
           ankerX: pos.x, ankerY: pos.y,
           x: pos.x, y: pos.y + 15,
           text: r.ort.toUpperCase(), // .annotation-tag ist text-transform: uppercase
-          farbe: r.ort === 'Lokal in der Nähe der Rue Notre-Dame de Lorette' ? '#9DA69D' : null,
+          farbe: null,
+          alpha: istRoutenStart ? kapitel1ZoomAmount : 1,
         });
       }
     }
@@ -1492,6 +1479,10 @@ function zeichneOrteOhneAdresse(nachKategorie) {
 // die dieselbe Koordinate teilen). Bei nennenswertem Versatz zeigt eine
 // gestrichelte Linie an, zu welchem Kreis das Label gehört.
 function zeichneKreisLabels(kandidaten) {
+  // Vollständig transparente Kandidaten (alpha 0, z.B. der Routen-Startpunkt
+  // auf der Startseite) fallen ganz raus — sie sollen auch keinen Platz im
+  // Kollisions-Layout belegen und keine Hilfslinie ziehen.
+  kandidaten = kandidaten.filter(k => (k.alpha === undefined ? 1 : k.alpha) > 0.002);
   if (kandidaten.length === 0) return;
 
   noStroke();
@@ -1519,15 +1510,17 @@ function zeichneKreisLabels(kandidaten) {
       }
       platziert.push({ x: k.x, y, w: k.w });
 
+      let alpha = k.alpha === undefined ? 1 : k.alpha;
       if (Math.abs(y - k.y) > 1) {
-        stroke(0, 100);
+        stroke(0, 100 * alpha);
         strokeWeight(0.8);
         drawingContext.setLineDash([2, 3]);
         line(k.ankerX, k.ankerY, k.x - 4, y);
         drawingContext.setLineDash([]);
         noStroke();
       }
-      fill(k.farbe || '#212B2E');
+      if (k.farbe) fill(k.farbe);
+      else fill(33, 43, 46, 255 * alpha); // #212B2E
       // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
       // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
       // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal,

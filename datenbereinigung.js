@@ -238,15 +238,6 @@ const SCROLL_MEILENSTEINE = {
   // (data-von = zoomEnd) und wieder aus, sobald Route/Annotationen
   // beginnen (data-bis = routeStart).
   routeStart: 0.266350, routeEnd: 0.391024,
-  // Georges-Duroys-Wohnung-Marker (ortMarker, Startseite): blendet früh ein
-  // und VOR zoomStart wieder aus (markerFadeOutEnd < zoomStart) — der Marker
-  // zeigt Rue Boursault, die ausserhalb von Kapitel 1s Kartenausschnitt
-  // liegt; bliebe er bis in den Zoom hinein sichtbar, würde er dabei aus dem
-  // Bild wandern (siehe letzteAlt-Position, lag noch innerhalb des
-  // Ausschnitts, daher fiel das dort nicht auf).
-  markerDotStart: 0.0, markerDotEnd: 0.025,
-  markerLabelStart: 0.04, markerLabelEnd: 0.06,
-  markerFadeOutStart: 0.085, markerFadeOutEnd: 0.11,
   // Akt: nach Abschluss der Route zurück auf die Gesamtkarte zoomen.
   zoomOutStart: 0.391024, zoomOutEnd: 0.440893,
   // Akt: Übersichtsrouten (Kapitel 02–18) bauen sich auf. Breite (2933vh)
