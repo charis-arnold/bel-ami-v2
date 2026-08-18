@@ -2,52 +2,95 @@
   "kapitel": 3,
   "route": [
     {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
+      "ort": "Heimweg vom Diner bei Forestier",
+      "lon": 2.3265,
+      "lat": 48.8833,
       "revealIndex": 0
     },
     {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
-      "revealIndex": 5
+      "ort": "Georges Duroys Wohnung (Rue Boursault)",
+      "lon": 2.3187925,
+      "lat": 48.8851901,
+      "revealIndex": 2
     },
     {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
+      "ort": "Erinnerung (Kapitel 03)",
+      "lon": 2.3187925,
+      "lat": 48.8851901,
+      "revealIndex": 16
+    },
+    {
+      "ort": "Georges Duroys Wohnung (Rue Boursault)",
+      "lon": 2.3187925,
+      "lat": 48.8851901,
+      "revealIndex": 17
+    },
+    {
+      "ort": "Erinnerung (Kapitel 03)",
+      "lon": 2.3187925,
+      "lat": 48.8851901,
       "revealIndex": 32
     },
     {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
-      "revealIndex": 66
+      "ort": "Phantasie (Kapitel 03)",
+      "lon": 2.3187925,
+      "lat": 48.8851901,
+      "revealIndex": 42
+    },
+    {
+      "ort": "Georges Duroys Wohnung (Rue Boursault)",
+      "lon": 2.3187925,
+      "lat": 48.8851901,
+      "revealIndex": 43
+    },
+    {
+      "ort": "Boulevard des Batignolles, Paris",
+      "lon": 2.3235,
+      "lat": 48.8865,
+      "revealIndex": 53
+    },
+    {
+      "ort": "Parc Monceau",
+      "lon": 2.3096,
+      "lat": 48.8796,
+      "revealIndex": 56
+    },
+    {
+      "ort": "Unterwegs zu Forestier, Paris",
+      "lon": 2.32189,
+      "lat": 48.88053,
+      "revealIndex": 61
+    },
+    {
+      "ort": "Wohnung Forestier, Paris",
+      "lon": 2.33417,
+      "lat": 48.88147,
+      "revealIndex": 62
+    },
+    {
+      "ort": "Unterwegs (nach dem Besuch bei Forestier), Paris",
+      "lon": 2.33741,
+      "lat": 48.87868,
+      "revealIndex": 100
+    },
+    {
+      "ort": "Bouillon Duval",
+      "lon": 2.34065,
+      "lat": 48.8759,
+      "revealIndex": 106
+    },
+    {
+      "ort": "Boulevard (Richtung Redaktion)",
+      "lon": 2.3422,
+      "lat": 48.8746,
+      "revealIndex": 107
     },
     {
       "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
-      "revealIndex": 94
-    },
-    {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
-      "revealIndex": 120
-    },
-    {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
-      "revealIndex": 146
-    },
-    {
-      "ort": "Redaktion La Vie Française",
-      "lon": 2.3466305,
-      "lat": 48.8722361,
-      "revealIndex": 159
+      "lon": 2.34663,
+      "lat": 48.87224,
+      "revealIndex": 108,
+      "routeEndsHere": true
     }
   ],
   "gedanken": [
@@ -71,220 +114,216 @@
   "markierungen": [],
   "routenPunkte": [
     [
-      2.3198,
-      48.8839
+      2.3265,
+      48.8833
     ],
     [
-      2.3198,
-      48.8839
+      2.3265,
+      48.8833
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
+      2.3187925,
+      48.8851901
     ],
     [
-      2.3198,
-      48.8839
-    ],
-    [
-      2.3235,
-      48.8865
+      2.3187925,
+      48.8851901
     ],
     [
       2.3235,
@@ -295,8 +334,8 @@
       48.8865
     ],
     [
-      2.3096,
-      48.8796
+      2.3235,
+      48.8865
     ],
     [
       2.3096,
@@ -315,372 +354,376 @@
       48.8796
     ],
     [
-      2.3218873,
-      48.8805337
+      2.3096,
+      48.8796
     ],
     [
-      2.3341746,
-      48.8814675
+      2.32189,
+      48.88053
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
-      2.3374123,
-      48.87868375
+      2.33417,
+      48.88147
     ],
     [
-      2.3374123,
-      48.87868375
+      2.33741,
+      48.87868
     ],
     [
-      2.3374123,
-      48.87868375
+      2.33741,
+      48.87868
     ],
     [
-      2.3374123,
-      48.87868375
+      2.33741,
+      48.87868
     ],
     [
-      2.3374123,
-      48.87868375
+      2.33741,
+      48.87868
     ],
     [
-      2.3374123,
-      48.87868375
+      2.33741,
+      48.87868
+    ],
+    [
+      2.33741,
+      48.87868
     ],
     [
       2.34065,
       48.8759
     ],
     [
-      2.3467,
-      48.8722
+      2.3422,
+      48.8746
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ],
     [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ]
   ],
   "annotationen": [
@@ -689,7 +732,7 @@
       "text": "Er hatte Lust zu laufen, zu träumen, immerfort zu gehen, an seine Zukunft zu denken und die milde Nachtluft einzuatmen;",
       "revealIndex": 0,
       "ort": "Straße (unspezifisch, Paris)",
-      "ortBasis": "Unbestimmt (Kapitel 03)",
+      "ortBasis": "Heimweg vom Diner bei Forestier",
       "tags": [
         "george_duroy",
         "mood",
@@ -709,7 +752,7 @@
       "text": "doch der Gedanke an die Artikelserie, die Vater Walter bestellt hatte, gab ihm keine Ruhe, und er beschloß, sofort nach Hause zu gehen und sich an die Arbeit zu setzen.",
       "revealIndex": 0,
       "ort": "Straße (unspezifisch, Paris)",
-      "ortBasis": "Unbestimmt (Kapitel 03)",
+      "ortBasis": "Heimweg vom Diner bei Forestier",
       "tags": [
         "george_duroy",
         "mood",
@@ -729,7 +772,7 @@
       "text": "Mit eiligen Schritten ging er weiter, erreichte den äußeren Boulevard und gelangte endlich in die Rue Boursault, wo er wohnte.",
       "revealIndex": 0,
       "ort": "Rue Boursault, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "move",
@@ -749,7 +792,7 @@
       "text": "Seine Wohnung befand sich in einem sechsstöckigen Haus, das von etwa zwanzig Arbeiter- und Kleinbürgerfamilien bevölkert war.",
       "revealIndex": 0,
       "ort": "Rue Boursault, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "location",
         "social"
@@ -768,7 +811,7 @@
       "text": "Er stieg die Treppe hinauf und beleuchtete mit Wachsstreichhölzern die schmutzigen Stufen, auf denen Papierfetzen, Zigarrenstummel und Küchenabfälle herumlagen.",
       "revealIndex": 0,
       "ort": "Treppenhaus, Rue Boursault, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "move",
@@ -789,7 +832,7 @@
       "text": "Er empfand ein widerwärtiges Gefühl und einen Drang, so rasch als möglich von hier fortzukommen und so zu wohnen, wie es die reichen Leute tun, in sauberen Wohnungen mit schönen Teppichen.",
       "revealIndex": 0,
       "ort": "Treppenhaus, Rue Boursault, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -810,7 +853,7 @@
       "text": "Ein schwerer Geruch von Speiseresten, Unrat und unsauberer Menschlichkeit, ein stagnierender Duft von Fett und Mauern, den kein frischer Luftzug vertreiben konnte, erfüllte das Haus von oben bis unten.",
       "revealIndex": 0,
       "ort": "Wohnhaus, Rue Boursault, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "smell",
@@ -831,7 +874,7 @@
       "text": "Das Zimmer des jungen Mannes lag im fünften Stock und ging wie auf einen tiefen Abgrund, auf den weiten Einschnitt der Westbahn, gerade oberhalb der Tunneleinfahrt, vor dem Bahnhof Batignolles, hinaus.",
       "revealIndex": 0,
       "ort": "Bahnhof Batignolles (Tunneleinfahrt Westbahn), Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "location",
         "space"
@@ -850,7 +893,7 @@
       "text": "Duroy öffnete das Fenster und lehnte sich auf das verrostete, eiserne Fensterbrett.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer, Rue Boursault, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "material",
@@ -870,7 +913,7 @@
       "text": "Unter ihm glühten in der Tiefe der finsteren Wölbung drei rote, unbewegliche Signallaternen wie große, feurige Raubtieraugen, und weiter, immer weiter, sah er immer noch andere Lichter.",
       "revealIndex": 0,
       "ort": "Tunneleinfahrt Westbahn, Batignolles, Paris 17e",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "space",
@@ -891,7 +934,7 @@
       "text": "Fortwährend gellten lange und kurze Pfiffe durch die Nacht, die einen nahe, die andern kaum hörbar in der Richtung nach Asnieres.",
       "revealIndex": 0,
       "ort": "Richtung Asnières, von Batignolles aus",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "sound",
@@ -912,7 +955,7 @@
       "text": "Einer kam näher und näher, sein klagender Ton klang von Sekunde zu Sekunde lauter; plötzlich blitzte ein großes gelbes Licht auf, das lärmend dahinrollte, und Duroy sah die lange Wagenreihe in der Tunnelmündung verschwinden.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer, Nähe Bahntrasse (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "sound",
@@ -932,7 +975,7 @@
       "text": "Dann sagte er zu sich: »Also an die Arbeit«, und stellte das Licht auf den Tisch.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -951,7 +994,7 @@
       "text": "doch wie er sich hinsetzen wollte, um zu schreiben, bemerkte er erst, daß er nur eine Schachtel Briefpapier hatte.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "social"
@@ -970,7 +1013,7 @@
       "text": "Er tauchte die Feder in die Tinte und schrieb mit seiner schönen Handschrift auf den Kopf des ersten Bogens die Worte: »Erinnerungen eines afrikanischen Jägers.«",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "material"
@@ -989,7 +1032,7 @@
       "text": "Er saß, den Kopf auf die Hände gestützt, die Augen auf das weiße Papier gerichtet, das sich vor ihm ausbreitete.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1029,7 +1072,7 @@
       "text": "beschloß er, diesen einleitenden Teil auf den nächsten Morgen zu verschieben und einstweilen mit der Beschreibung von Algier zu beginnen.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1049,7 +1092,7 @@
       "text": "Aber er fand keinen Ausdruck für das, was er gesehen und empfunden hatte.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -1068,7 +1111,7 @@
       "text": "Mit vieler Mühe und Anstrengung schrieb er weiter",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -1087,7 +1130,7 @@
       "text": "Dann warf er seine Feder auf den Tisch und stand auf.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "move"
@@ -1106,7 +1149,7 @@
       "text": "Auf seinem schmalen, eisernen Bett, in das sein Körper ein Loch eingedrückt hatte, sah er seine Werktagskleider herumliegen, schäbig, abgerissen, wie Lumpen aus der Morgue.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "social",
         "material"
@@ -1125,7 +1168,7 @@
       "text": "Auf dem Strohstuhl stand sein Seidenzylinder, der einzige Hut, den er besaß, und schien hilfsbedürftig mit der Öffnung nach oben um ein Almosen zu bitten.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "social",
         "material"
@@ -1144,7 +1187,7 @@
       "text": "Die graue Tapete mit blauen Blumensträußen hatte ebensoviel Schmutz als Blumen, alte, verdächtig aussehende Flecke unbestimmter Herkunft, totgedrückte Insekten und Ölkleckse, fettige Fingerabdrücke und Seifenschaumspuren, die während des Waschens angespritzt waren.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "space",
         "material",
@@ -1164,7 +1207,7 @@
       "text": "Das alles roch nach dem nacktesten Elend, nach dem Elend eines möblierten Zimmers.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "smell",
         "social",
@@ -1184,7 +1227,7 @@
       "text": "Und eine Erbitterung ergriff ihn gegen die Armseligkeit seines bisherigen Lebens. Er sagte sich, daß er sofort schon morgen aus ihr hinaus müßte, um endlich diesem kümmerlichen Dasein ein Ende zu machen.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1204,7 +1247,7 @@
       "text": "Plötzlich überkam ihn ein neuer Arbeitseifer, er setzte sich wieder an den Tisch und suchte wieder nach Worten, um den eigenartigen und reizvollen Eindruck von Algier zu schildern, dieses Eingangstor in das geheimnisvolle und tiefe Afrika, in das Land umherstreifender Araber und unbekannter Negerstämme, in das unerforschte und verlockende Afrika, dessen unwahrscheinliche Tierwelt uns bisweilen in den öffentlichen Gärten gezeigt wird; ganz merkwürdige Tiere, wie aus dem Märchenlande: Strauße, Riesenhühner, Gazellen, prächtige Ziegen, groteske Giraffen, schwere, ernste Kamele, ungeheuerliche Nilpferde, plumpe Rhinozerosse und Gorillas, diese abscheulichen Ebenbilder der Menschen.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1224,7 +1267,7 @@
       "text": "Unbestimmte Gedanken schweiften in seinem Kopf; er hätte sie vielleicht erzählen können, aber er vermochte sie nicht in geschriebene Sätze zu fassen.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (möbliertes Zimmer, Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1244,7 +1287,7 @@
       "text": "Seine Blicke fielen auf die Rechnung der Waschfrau, die der Concierge ihm heraufgebracht hatte, und von neuem überfiel ihn eine grenzenlose Verzweiflung.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer/Unterkunft",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -1263,7 +1306,7 @@
       "text": "Seine Freude war im Augenblick dahin und mit ihr sein Selbstvertrauen und die Hoffnung auf seine Zukunft.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer/Unterkunft",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1283,7 +1326,7 @@
       "text": "Er trat an das Fenster und blickte hinunter.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer/Unterkunft",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "move"
@@ -1302,7 +1345,7 @@
       "text": "Ein Zug kam mit tosendem Lärm aus dem Tunnel heraus, um über Felder und Ebenen nach der Meeresküste zu fahren.",
       "revealIndex": 0,
       "ort": "Eisenbahntunnel / Gleise bei Duroys Unterkunft",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "sound",
         "space",
@@ -1537,7 +1580,7 @@
       "text": "Der schneidende Pfiff einer einzelnen Lokomotive, die ganz allein, wie ein großes Kaninchen aus seinem Bau, aus dem Tunnel hervorkam und mit vollem Dampf über die Schienen nach dem Maschinenschuppen lief, erweckte ihn aus seinen Träumen.",
       "revealIndex": 0,
       "ort": "Bahngelände / Tunnel (unspezifisch Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "sound",
         "location"
@@ -1556,7 +1599,7 @@
       "text": "Die etwas verwirrten Gedanken an diese frohen Hoffnungen, die sein ganzes Innere erfüllten, hatten ihn erfrischt, und er warf einen Kuß in die Nacht hinaus, einen Liebesgruß an das Bild der ersehnten Frau, einen Kuß des Verlangens nach dem Glück, das er begehrte.",
       "revealIndex": 0,
       "ort": "nächtliche Umgebung (unspezifisch Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1577,7 +1620,7 @@
       "text": "Dann schloß er das Fenster und begann sich auszukleiden, wobei er murmelte: »Ach was, morgen früh werde ich besser aufgelegt sein.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (unspezifisch)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -1596,7 +1639,7 @@
       "text": "Er wachte frühzeitig auf, wie man an Tagen lebhafter Hoffnungen oder großer Sorgen aufwacht, sprang aus dem Bett und öffnete das Fenster, um einen Schluck frischer Luft zu nehmen, wie er zu sagen pflegte.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (unspezifisch)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1616,7 +1659,7 @@
       "text": "Die Häuser in der Rue de Rome gerade gegenüber, jenseits des breiten Eisenbahndammes, leuchteten im hellen Schein der Morgensonne, als wären sie mit Licht weiß gemalt.",
       "revealIndex": 0,
       "ort": "Rue de Rome, Paris",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "location",
         "space",
@@ -1636,7 +1679,7 @@
       "text": "Rechts in der Ferne sah er den Hügel von Argenteuil, die Höhen von Sannois und die Mühlen von Orgemont in leichtem, bläulichem Dunste, wie hinter einem dünnen, durchsichtigen Schleier, der auf den Horizont geworfen war.",
       "revealIndex": 0,
       "ort": "Argenteuil / Sannois / Orgemont (Stadtrand Paris)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "location",
         "space",
@@ -1657,7 +1700,7 @@
       "text": "Ein paar Minuten blieb Duroy in der Betrachtung der weiten Landschaft versunken und murmelte: »Es wäre doch verdammt schön da draußen an einem solchen Tag wie diesem.«",
       "revealIndex": 0,
       "ort": "Blick aus Duroys Fenster (unspezifisch)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1678,7 +1721,7 @@
       "text": "Dann fiel ihm ein, daß er arbeiten müßte, und zwar sofort, und daß er für zehn Sous den Jungen des Concierge zu seinem Bureau schicken müßte, um sich krank zu melden.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (unspezifisch)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood",
@@ -1698,7 +1741,7 @@
       "text": "Er setzte sich an den Tisch, tauchte die Feder in das Tintenfaß, stützte den Kopf mit der Hand und suchte nach Einfällen.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (unspezifisch)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -1717,7 +1760,7 @@
       "text": "Trotzdem verlor er nicht den Mut. Er dachte: »Es ist nicht so schlimm, ich bin eben nicht daran gewöhnt.",
       "revealIndex": 0,
       "ort": "Duroys Zimmer (unspezifisch)",
-      "ortBasis": "Wohnung Duroy, Rue Boursault",
+      "ortBasis": "Georges Duroys Wohnung (Rue Boursault)",
       "tags": [
         "george_duroy",
         "mood"
@@ -3699,10 +3742,10 @@
   ],
   "ortRuns": [
     {
-      "ort": "Unbestimmt (Kapitel 03)",
+      "ort": "Heimweg vom Diner bei Forestier",
       "revealIndex": 0,
-      "lon": 2.3198,
-      "lat": 48.8839,
+      "lon": 2.3265,
+      "lat": 48.8833,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3726,10 +3769,10 @@
       }
     },
     {
-      "ort": "Wohnung Duroy, Rue Boursault",
+      "ort": "Georges Duroys Wohnung (Rue Boursault)",
       "revealIndex": 2,
-      "lon": 2.3198,
-      "lat": 48.8839,
+      "lon": 2.3187925,
+      "lat": 48.8851901,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3755,8 +3798,8 @@
     {
       "ort": "Erinnerung (Kapitel 03)",
       "revealIndex": 16,
-      "lon": 2.3198,
-      "lat": 48.8839,
+      "lon": 2.3187925,
+      "lat": 48.8851901,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3782,8 +3825,8 @@
     {
       "ort": "Phantasie (Kapitel 03)",
       "revealIndex": 42,
-      "lon": 2.3198,
-      "lat": 48.8839,
+      "lon": 2.3187925,
+      "lat": 48.8851901,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3863,8 +3906,8 @@
     {
       "ort": "Unterwegs zu Forestier, Paris",
       "revealIndex": 61,
-      "lon": 2.3218873,
-      "lat": 48.8805337,
+      "lon": 2.32189,
+      "lat": 48.88053,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3890,8 +3933,8 @@
     {
       "ort": "Wohnung Forestier, Paris",
       "revealIndex": 62,
-      "lon": 2.3341746,
-      "lat": 48.8814675,
+      "lon": 2.33417,
+      "lat": 48.88147,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3917,8 +3960,8 @@
     {
       "ort": "Unterwegs (nach dem Besuch bei Forestier), Paris",
       "revealIndex": 100,
-      "lon": 2.3374123,
-      "lat": 48.87868375,
+      "lon": 2.33741,
+      "lat": 48.87868,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3971,8 +4014,8 @@
     {
       "ort": "Boulevard (Richtung Redaktion)",
       "revealIndex": 107,
-      "lon": 2.3467,
-      "lat": 48.8722,
+      "lon": 2.3422,
+      "lat": 48.8746,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -3998,8 +4041,8 @@
     {
       "ort": "Redaktion La Vie Française",
       "revealIndex": 108,
-      "lon": 2.3466305,
-      "lat": 48.8722361,
+      "lon": 2.34663,
+      "lat": 48.87224,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -4025,48 +4068,192 @@
   ],
   "routenPfadDetail": [
     [
-      2.3198,
-      48.8839
+      2.3265,
+      48.8833
     ],
     [
-      2.3194983,
-      48.8844155
+      2.3266471,
+      48.8833711
     ],
     [
-      2.3195756,
-      48.884443
+      2.3253076,
+      48.8831042
     ],
     [
-      2.3196129,
-      48.8844852
+      2.3243413,
+      48.8829365
     ],
     [
-      2.3207337,
-      48.8849735
+      2.324245,
+      48.8830618
+    ],
+    [
+      2.3241131,
+      48.8830705
+    ],
+    [
+      2.3234768,
+      48.8834476
+    ],
+    [
+      2.3234645,
+      48.8834814
+    ],
+    [
+      2.3233738,
+      48.8835243
+    ],
+    [
+      2.3230369,
+      48.8837257
+    ],
+    [
+      2.3225957,
+      48.8839893
+    ],
+    [
+      2.3225939,
+      48.8840123
+    ],
+    [
+      2.3224957,
+      48.8840616
+    ],
+    [
+      2.3223876,
+      48.8840902
+    ],
+    [
+      2.3222121,
+      48.8840715
+    ],
+    [
+      2.3220452,
+      48.8841749
+    ],
+    [
+      2.3219255,
+      48.8842463
+    ],
+    [
+      2.3217342,
+      48.8843605
+    ],
+    [
+      2.3215129,
+      48.8844925
+    ],
+    [
+      2.3214102,
+      48.8845375
     ],
     [
       2.3207495,
       48.8849698
     ],
     [
-      2.3208819,
-      48.8850305
+      2.3207337,
+      48.8849735
     ],
     [
-      2.3208746,
-      48.8850474
+      2.3206627,
+      48.8850267
     ],
     [
-      2.3216289,
-      48.8857039
+      2.320661,
+      48.8850421
     ],
     [
-      2.3216601,
-      48.8857029
+      2.3198093,
+      48.8855634
     ],
     [
-      2.3217214,
-      48.8857566
+      2.3197874,
+      48.8855628
+    ],
+    [
+      2.3197029,
+      48.8856082
+    ],
+    [
+      2.3189903,
+      48.8851051
+    ],
+    [
+      2.3189646,
+      48.8851125
+    ],
+    [
+      2.3187925,
+      48.8851901
+    ],
+    [
+      2.3187925,
+      48.8851901
+    ],
+    [
+      2.3187925,
+      48.8851901
+    ],
+    [
+      2.3187925,
+      48.8851901
+    ],
+    [
+      2.3187925,
+      48.8851901
+    ],
+    [
+      2.3187925,
+      48.8851901
+    ],
+    [
+      2.3189646,
+      48.8851125
+    ],
+    [
+      2.3189903,
+      48.8851051
+    ],
+    [
+      2.3197029,
+      48.8856082
+    ],
+    [
+      2.3197874,
+      48.8855628
+    ],
+    [
+      2.3198093,
+      48.8855634
+    ],
+    [
+      2.319891,
+      48.8856266
+    ],
+    [
+      2.3198916,
+      48.8856345
+    ],
+    [
+      2.3204288,
+      48.8860061
+    ],
+    [
+      2.3207654,
+      48.8862368
+    ],
+    [
+      2.3215704,
+      48.8857657
+    ],
+    [
+      2.3216317,
+      48.8858175
+    ],
+    [
+      2.3216556,
+      48.8858176
     ],
     [
       2.3217235,
@@ -4091,10 +4278,6 @@
     [
       2.3230339,
       48.8869168
-    ],
-    [
-      2.323057,
-      48.8869187
     ],
     [
       2.3235,
@@ -4405,10 +4588,6 @@
       48.8794788
     ],
     [
-      2.309624,
-      48.8794924
-    ],
-    [
       2.3096,
       48.8796
     ],
@@ -4533,12 +4712,8 @@
       48.880106
     ],
     [
-      2.3212433,
-      48.8803861
-    ],
-    [
-      2.3218873,
-      48.8805337
+      2.32189,
+      48.88053
     ],
     [
       2.3214298,
@@ -4701,12 +4876,8 @@
       48.8819125
     ],
     [
-      2.3343615,
-      48.8818451
-    ],
-    [
-      2.3341746,
-      48.8814675
+      2.33417,
+      48.88147
     ],
     [
       2.3341952,
@@ -4769,12 +4940,8 @@
       48.8789504
     ],
     [
-      2.3375009,
-      48.8785233
-    ],
-    [
-      2.3374123,
-      48.87868375
+      2.33741,
+      48.87868
     ],
     [
       2.3376999,
@@ -4837,10 +5004,6 @@
       48.8760321
     ],
     [
-      2.3404634,
-      48.8759355
-    ],
-    [
       2.34065,
       48.8759
     ],
@@ -4865,16 +5028,28 @@
       48.8750854
     ],
     [
-      2.341137,
-      48.8750569
+      2.3415094,
+      48.8751652
     ],
     [
-      2.3413405,
-      48.8748612
+      2.3417007,
+      48.8752137
     ],
     [
-      2.3413707,
-      48.8748638
+      2.3423574,
+      48.8753874
+    ],
+    [
+      2.3422,
+      48.8746
+    ],
+    [
+      2.3423574,
+      48.8753874
+    ],
+    [
+      2.3417007,
+      48.8752137
     ],
     [
       2.3414346,
@@ -4949,171 +5124,163 @@
       48.8722789
     ],
     [
-      2.3466305,
-      48.8722361
-    ],
-    [
-      2.3467,
-      48.8722
-    ],
-    [
-      2.3466305,
-      48.8722361
+      2.34663,
+      48.87224
     ]
   ],
   "routenPfadKumulativ": [
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    18,
-    18,
-    18,
-    96,
-    96,
-    96,
-    96,
-    96,
-    128,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    170,
-    187,
-    187,
-    187,
-    187,
-    187,
-    187,
-    204,
-    232,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233,
-    233
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    29,
+    30,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    33,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    53,
+    53,
+    53,
+    130,
+    130,
+    130,
+    130,
+    130,
+    161,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    202,
+    218,
+    218,
+    218,
+    218,
+    218,
+    218,
+    234,
+    243,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264,
+    264
   ]
 }

@@ -71,6 +71,76 @@ ox.settings.cache_folder = os.path.join(DATA_PREP_ORDNER, "cache")
 # Kapitel 9 übernommen, damit derselbe Ort über Kapitel hinweg denselben Punkt
 # behält (das braucht u.a. der Kreisvergleich, siehe baue-kreisvergleich.py).
 SAMMELPUNKTE = {
+    # Kapitel 03 (Bel-Ami I/3): schon vorher von Hand kuratiert, hier nur
+    # nachgezogen — neuer Heimweg-Punkt am Kapitelanfang, Rue Boursault auf
+    # die in den Kapiteln 04–07 verwendete Koordinate vereinheitlicht.
+    "03": {
+        # NEU: Annotationen 0–1 sind der nächtliche Heimweg vom Diner bei
+        # Forestier ("Er hatte Lust zu laufen ... beschloß, sofort nach Hause
+        # zu gehen"); Annotation 2 kommt in der Rue Boursault an. Punkt auf
+        # halber Strecke Rue Fontaine → Rue Boursault; die Route beginnt hier.
+        "Heimweg vom Diner bei Forestier": (2.3265, 48.8833),
+        # Vereinheitlicht: stand hier auf 2.3198/48.8839, in den Kapiteln
+        # 04–07 auf 2.3187925/48.8851901 — 160 m auseinander, dazu unter zwei
+        # Namen. Jetzt überall gleich.
+        "Georges Duroys Wohnung (Rue Boursault)": (2.3187925, 48.8851901),
+        # Ortlose Sammelbecken auf derselben Koordinate wie die Wohnung: die
+        # Route bleibt bei Erinnerung/Phantasie stehen (sketch.js zeichnet sie
+        # ohnehin im Kasten unter dem Register, nicht auf der Karte).
+        "Unbestimmt (Kapitel 03)": (2.3187925, 48.8851901),
+        "Erinnerung (Kapitel 03)": (2.3187925, 48.8851901),
+        "Phantasie (Kapitel 03)": (2.3187925, 48.8851901),
+        "Boulevard des Batignolles, Paris": (2.32350, 48.88650),
+        "Parc Monceau": (2.30960, 48.87960),
+        "Unterwegs zu Forestier, Paris": (2.32189, 48.88053),
+        "Wohnung Forestier, Paris": (2.33417, 48.88147),
+        "Unterwegs (nach dem Besuch bei Forestier), Paris": (2.33741, 48.87868),
+        "Bouillon Duval": (2.34065, 48.87590),
+        # Stand auf 2.34670/48.87220 — also 6 m neben der Redaktion, die beiden
+        # Kreise lagen exakt übereinander. Jetzt auf die Strecke dazwischen.
+        "Boulevard (Richtung Redaktion)": (2.3422, 48.8746),
+        "Redaktion La Vie Française": (2.34663, 48.87224),
+    },
+    # Kapitel 05 (Bel-Ami I/5): schon vor dieser Sitzung von Hand kuratiert,
+    # hier nur nachgezogen und in drei Punkten korrigiert (siehe BLOECKE).
+    # Alle Koordinaten unverändert aus der bestehenden Datei übernommen,
+    # ausser den beiden neuen Punkten und dem Sammelbecken (siehe dort).
+    "05": {
+        "Georges Duroys Wohnung (Rue Boursault)": (2.3187925, 48.8851901),
+        "Wohnung Clotilde (Rue de Verneuil)": (2.32918, 48.85798),
+        "Café Riche, Boulevard des Italiens, Paris": (2.33840, 48.87160),
+        "Fahrende Droschke (nach dem Diner), Paris": (2.33471, 48.86615),
+        # NEU: der Triumphgang von der Rue de Verneuil zurück in die
+        # Batignolles ("ging dann rasch und siegesgewiß ... seinen Weg
+        # zurück"). Punkt auf halber Strecke, Höhe Madeleine/Rue Royale.
+        "Heimweg nach der ersten Nacht": (2.3245, 48.8700),
+        "Redaktion La Vie Française": (2.34663, 48.87224),
+        "Rue de Rome, Paris": (2.32390, 48.87840),
+        "Rue Constantinople 127": (2.31921, 48.88037),
+        # Korrigiert: 2.34490/48.87410 ist die Rue Bergère, eine Strasse
+        # gleichen Namens einen Block südlich — der Geocoder hatte "Folies
+        # Bergère" darauf aufgelöst. Das Theater steht seit 1869 an der
+        # Adresse 32 Rue Richer, rund 190 m nordwestlich.
+        "Folies Bergère": (2.34375, 48.87565),
+        "Unterwegs (auf der Suche nach einem Lokal), Paris": (2.34300, 48.88100),
+        "Weinstube, äußere Boulevards, Paris": (2.33760, 48.88370),
+        "Ballokal 'Weiße Königin', Paris": (2.33950, 48.88450),
+        # NEU: "Nun begann eine Reihe von Ausflügen in alle möglichen
+        # verdächtigen Lokale, wo sich das einfache Volk amüsiert" — kein
+        # einzelnes Lokal, aber sehr wohl eine Gegend: die Fortsetzung von
+        # Weinstube und Ballokal an den äusseren Boulevards.
+        "Verdächtige Lokale an den äusseren Boulevards": (2.3300, 48.8835),
+        # Bleibt der Sammelpunkt ohne Adresse (der Namenspräfix "Unbestimmt
+        # (Kapitel" schickt ihn in sketch.js in den Kasten unter dem Register,
+        # nicht auf die Karte). Koordinate aber NICHT mehr der Erstentwurf-
+        # Platzhalter 2.28615/48.86249 draussen bei Boulogne — die zog die
+        # Route für acht ortlose Annotationen 4 km aus der Stadt und zurück.
+        # Jetzt gleich dem vorangehenden Block: die Route bleibt stehen.
+        "Unbestimmt (Kapitel 05)": (2.3300, 48.8835),
+        "Garküche (unterwegs), Paris": (2.33550, 48.87742),
+        "Brauerei (unterwegs), Paris": (2.32575, 48.88195),
+        "Fahrende Droschke, Paris": (2.33095, 48.87900),
+    },
     "10": {
         "Redaktion La Vie Française": (2.3466305, 48.8722361),
         # Rue Notre-Dame de Lorette selbst — liegt auf dem Fussweg von der
@@ -249,9 +319,12 @@ SAMMELPUNKTE = {
         # "Wir fahren mit diesem Wagen nach Sevres" — Sèvres selbst wird nur
         # angekündigt, nie gezeigt; der Punkt liegt auf der Ausfahrtstrecke.
         "Fahrt aus Paris Richtung Sèvres": (2.2750, 48.8480),
-        # Ferne Etappe: 65 km nordwestlich, ausserhalb des Kartenausschnitts —
-        # wie Cannes in Kapitel 8. Die Etappe dorthin bekommt eine Luftlinie.
-        "La Roche-Guyon an der Seine": (1.6280, 49.0810),
+        # Ferne Etappe, 65 km seineabwärts. Nach der Projektkonvention (wie
+        # Cannes in Kapitel 8, Rouen in Kapitel 9, Le Vésinet in Kapitel 7)
+        # bekommt sie KEINE echte Koordinate, sondern einen Ersatzpunkt am
+        # Kartenrand in Fahrtrichtung — hier seineabwärts nordwestlich, klar
+        # abgesetzt von der Terrasse von Saint-Germain.
+        "La Roche-Guyon an der Seine": (2.1480, 48.8995),
     },
     # Kapitel 18 (Bel-Ami II/10, Schlusskapitel): die letzte Szene mit
     # Clotilde in der Junggesellenwohnung, dann die Hochzeit in der Madeleine.
@@ -273,6 +346,66 @@ SAMMELPUNKTE = {
 # zur letzten Annotation. Der Kommentar hinter jedem Eintrag nennt die
 # Textstelle, an der die Zuordnung hängt.
 BLOECKE = {
+    "03": [
+        (0,   "Heimweg vom Diner bei Forestier"),                 # 0 "Er hatte Lust zu laufen, zu träumen" / 1 der Entschluss, nach Hause zu gehen — Routenbeginn
+        (2,   "Georges Duroys Wohnung (Rue Boursault)"),          # 2 "gelangte endlich in die Rue Boursault, wo er wohnte" bis 15
+        (16,  "Erinnerung (Kapitel 03)"),
+        (17,  "Georges Duroys Wohnung (Rue Boursault)"),
+        (32,  "Erinnerung (Kapitel 03)"),
+        (42,  "Phantasie (Kapitel 03)"),
+        (43,  "Georges Duroys Wohnung (Rue Boursault)"),          # 43 zurück am Schreibtisch, bis 52
+        (53,  "Boulevard des Batignolles, Paris"),                # 53 "Als er auf der Straße war" → Go / 54 "unter den Bäumen der äußeren Boulevards"
+        (56,  "Parc Monceau"),                                    # 56 "Er erreichte den Park Monceau" bis 60
+        (61,  "Unterwegs zu Forestier, Paris"),                   # 61 "Er stand auf, setzte seinen Weg fort und dachte dabei an Forestier"
+        (62,  "Wohnung Forestier, Paris"),                        # 62 an der Haustür bis 99 — Madeleine diktiert den Artikel, Vaudrec tritt ein
+        (100, "Unterwegs (nach dem Besuch bei Forestier), Paris"), # 100 "Auch auf der Straße fühlte er sich bedrückt" bis 105
+        (106, "Bouillon Duval"),                                  # 106 "Er ging in die Bouillon Duval frühstücken"
+        (107, "Boulevard (Richtung Redaktion)"),                  # 107 "Dann trieb er sich auf dem Boulevard herum"
+        (108, "Redaktion La Vie Française"),                      # 108 "Punkt drei Uhr stieg er die große prunkhafte Treppe zur Vie Française hinauf" bis 152
+    ],
+    "05": [
+        (0,   "Georges Duroys Wohnung (Rue Boursault)"),
+        (11,  "Wohnung Clotilde (Rue de Verneuil)"),
+        (50,  "Georges Duroys Wohnung (Rue Boursault)"),          # 50 "Er wartete mit wachsender Ungeduld auf den verabredeten Tag" / 51 der geliehene Frackanzug
+        (52,  "Café Riche, Boulevard des Italiens, Paris"),        # 52 "Er erschien als erster einige Minuten vor der Zeit" — das Diner zu viert im Separé
+        (92,  "Fahrende Droschke (nach dem Diner), Paris"),        # 92 die Heimfahrt, in der die Affäre beginnt
+        (101, "Wohnung Clotilde (Rue de Verneuil)"),               # 101 "die Droschke hielt schon nach kurzer Zeit vor dem Hause, wo sie wohnte" bis 107 — Hauseingang, Hausflur
+        # KORREKTUR 1: 108–112 lagen bisher auf der Wohnung Rue Boursault,
+        # spielen aber ausdrücklich auf der Strasse ("ging dann rasch und
+        # siegesgewiß ... seinen Weg zurück", "Endlich hatte er eine Frau
+        # gefunden") — derselbe Fall wie der Heimweg in Kapitel 11/13.
+        (108, "Heimweg nach der ersten Nacht"),                    # 108 "Er gab dem Kutscher fünf Francs" → Go, bis 112 die Vision der Frauen auf goldenen Wolken
+        (113, "Georges Duroys Wohnung (Rue Boursault)"),           # 113 "Und auch sein Schlaf war reich von solchen Träumen"
+        (114, "Wohnung Clotilde (Rue de Verneuil)"),               # 114 "als er die Treppe zur Wohnung der Madame de Marelle hinaufstieg" bis 141
+        # KORREKTUR 2: Annotation 140 ("brach er auf, um auf die Redaktion zu
+        # gehen") lag auf der Redaktion, 141 ("Auf der Treppe flüsterte er
+        # nochmals durch die halboffene Tür") aber wieder bei Clotilde — die
+        # Route fuhr dadurch zweimal grundlos quer durch Paris. Beide gehören
+        # zu ihrem Haus; die Redaktion beginnt erst mit 142.
+        (142, "Redaktion La Vie Française"),                       # 142 "Sobald er seine Tagesarbeit erledigt hatte, überlegte er sich, wie er sein Zimmer ausschmücken sollte"
+        (143, "Georges Duroys Wohnung (Rue Boursault)"),           # 143 die japanischen Bildchen, das Zimmer wie eine bemalte Papierlaterne, bis 151
+        (152, "Rue de Rome, Paris"),                               # 152 "begleitete er sie zu einer Droschkenhaltestelle in der Rue de Rome" bis 154
+        (155, "Georges Duroys Wohnung (Rue Boursault)"),           # 155 "Drei Wochen lang besuchte Frau de Marelle jeden zweiten oder dritten Tag ihren Freund" bis 164
+        (165, "Rue Constantinople 127"),                           # 165 die gemietete Wohnung, bis 179
+        (180, "Folies Bergère"),
+        (181, "Unterwegs (auf der Suche nach einem Lokal), Paris"),
+        (188, "Weinstube, äußere Boulevards, Paris"),
+        (200, "Ballokal 'Weiße Königin', Paris"),
+        # KORREKTUR 3: 206–225 lagen gemeinsam im Sammelbecken "Unbestimmt".
+        # Die erste Hälfte hat sehr wohl einen Ort (die Lokalrunde an den
+        # äusseren Boulevards, direkte Fortsetzung der beiden Blöcke davor),
+        # nur die zweite ist wirklich ortlos (seine Armut, der 14. Dezember).
+        (206, "Verdächtige Lokale an den äusseren Boulevards"),    # 206 "Nun begann eine Reihe von Ausflügen in alle möglichen verdächtigen Lokale" bis 217
+        (218, "Unbestimmt (Kapitel 05)"),                          # 218 "Aber diese Ausflüge ... begannen Duroy schließlich etwas lästig zu werden" bis 225 — Armut, kein Sou mehr
+        (226, "Redaktion La Vie Française"),                       # 226 "arbeitete den Nachmittag in der Redaktion" bis 236 — die geborgten zehn Francs von Foucart
+        (237, "Garküche (unterwegs), Paris"),                      # 237 "Er aß in einer Garküche, wo er in den schlimmsten Tagen seiner Armut oft einkehrte"
+        (238, "Georges Duroys Wohnung (Rue Boursault)"),           # 238 "Um neun Uhr saß er im Salon am Kamin und erwartete seine Geliebte" bis 269
+        (270, "Brauerei (unterwegs), Paris"),                      # 270 "Dann ging er aus, in der Hoffnung, daß auf der Straße ihm irgendein guter Einfall kommen würde" → Go, bis 273
+        (274, "Redaktion La Vie Française"),
+        (276, "Georges Duroys Wohnung (Rue Boursault)"),
+        (291, "Folies Bergère"),
+        (310, "Fahrende Droschke, Paris"),
+    ],
     "10": [
         # ── Rückkehr nach Paris, Abendgang zur Wohnung ────────────────────
         (0,   "Redaktion La Vie Française"),                    # 0 Rückkehr nach Paris / 1 "hatte seine alte Tätigkeit wieder aufgenommen"
@@ -762,6 +895,15 @@ def main():
 
     for nr in kapitel:
         print(f"\nVerarbeite Kapitel {nr}...")
+        # Netz je Kapitel neu laden: die Bbox wird aus DIESEN Ankern gebaut.
+        # Ohne das Zurücksetzen benutzt jedes weitere Kapitel eines Sammel-
+        # laufs das Netz des ERSTEN — Anker ausserhalb davon würden von
+        # ox.nearest_nodes stumm auf einen fremden Knoten gesnappt (bzw. seit
+        # der Fern-Etappen-Sicherung als Luftlinie durchgehen). Der Cache von
+        # OSMnx bleibt davon unberührt, ein erneuter Lauf kostet also nichts.
+        global GRAPH, GRAPH_BBOX
+        GRAPH = None
+        GRAPH_BBOX = None
         daten, pfad = verarbeite_kapitel(nr)
         fehler = verifiziere(nr, daten)
         if fehler:

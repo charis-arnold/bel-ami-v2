@@ -110,7 +110,11 @@ KAPITEL_BBOXEN = {
     "02": {"west": 2.3092116, "east": 2.3713884, "south": 48.8607066, "north": 48.8774},
     "03": {"west": 2.2853834, "east": 2.3708711, "south": 48.8669873, "north": 48.8878106},
     "06": {"west": 2.2265323, "east": 2.3979451, "south": 48.8532722, "north": 48.8992869},
-    "07": {"west": 2.0990793, "east": 2.4525493, "south": 48.8359594, "north": 48.9220558},
+    # 07 neu berechnet: Rivals Junggesellenwohnung liegt seit der
+    # Vereinheitlichung mit Kapitel 11 im 6. Arrondissement und fiel damit
+    # aus dem (viel engeren) Ausschnitt der kapitel07-bbox.json heraus.
+    # Route + 0.004° Puffer, West/Ost symmetrisch auf 2.45 verbreitert.
+    "07": {"west": 2.2473607, "east": 2.4112799, "south": 48.847,     "north": 48.8910095},
     "08": {"west": 2.262373,  "east": 2.426227,  "south": 48.8379,    "north": 48.8819},
     "09": {"west": 2.1922369, "east": 2.3747643, "south": 48.871454,  "north": 48.9159},
     # Kapitel 10 ABSICHTLICH NICHT hier eingetragen: kapitel10-karte.png wird

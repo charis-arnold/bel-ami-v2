@@ -9,19 +9,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 3
+            "unrated": 2
           },
           "gold_mittel": {
-            "neg": 0,
-            "pos": 1,
+            "neg": 1,
+            "pos": 2,
             "neutral": 0,
-            "unrated": 0
+            "unrated": 2
           },
           "gold_hell": {
-            "neg": 1,
+            "neg": 3,
             "pos": 0,
-            "neutral": 0,
-            "unrated": 3
+            "neutral": 1,
+            "unrated": 4
           }
         }
       },
@@ -32,19 +32,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 4
+            "unrated": 3
           },
           "gold_mittel": {
-            "neg": 0,
-            "pos": 3,
-            "neutral": 1,
-            "unrated": 0
+            "neg": 1,
+            "pos": 2,
+            "neutral": 0,
+            "unrated": 1
           },
           "gold_hell": {
             "neg": 0,
-            "pos": 0,
+            "pos": 1,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 3
           }
         }
       },
@@ -215,52 +215,6 @@
         }
       },
       {
-        "nr": "05",
-        "bandCounts": {
-          "gold_dunkel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 4
-          },
-          "gold_mittel": {
-            "neg": 0,
-            "pos": 1,
-            "neutral": 0,
-            "unrated": 0
-          },
-          "gold_hell": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          }
-        }
-      },
-      {
-        "nr": "07",
-        "bandCounts": {
-          "gold_dunkel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          },
-          "gold_mittel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 4
-          },
-          "gold_hell": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 1
-          }
-        }
-      },
-      {
         "nr": "10",
         "bandCounts": {
           "gold_dunkel": {
@@ -341,42 +295,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 10
           },
           "gold_mittel": {
             "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
+            "pos": 2,
+            "neutral": 1,
+            "unrated": 5
           },
           "gold_hell": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          }
-        }
-      },
-      {
-        "nr": "07",
-        "bandCounts": {
-          "gold_dunkel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 2
-          },
-          "gold_mittel": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 0
-          },
-          "gold_hell": {
-            "neg": 0,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 1
+            "neg": 1,
+            "pos": 1,
+            "neutral": 2,
+            "unrated": 18
           }
         }
       },
@@ -484,7 +415,7 @@
             "neg": 0,
             "pos": 1,
             "neutral": 0,
-            "unrated": 3
+            "unrated": 2
           },
           "gold_mittel": {
             "neg": 0,
@@ -535,19 +466,42 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 4
+            "unrated": 15
           },
           "gold_mittel": {
-            "neg": 2,
-            "pos": 0,
-            "neutral": 0,
-            "unrated": 1
+            "neg": 11,
+            "pos": 7,
+            "neutral": 3,
+            "unrated": 8
           },
           "gold_hell": {
-            "neg": 1,
+            "neg": 5,
+            "pos": 2,
+            "neutral": 1,
+            "unrated": 35
+          }
+        }
+      },
+      {
+        "nr": "07",
+        "bandCounts": {
+          "gold_dunkel": {
+            "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 6
+            "unrated": 2
+          },
+          "gold_mittel": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
+          },
+          "gold_hell": {
+            "neg": 0,
+            "pos": 0,
+            "neutral": 0,
+            "unrated": 0
           }
         }
       },
@@ -632,11 +586,11 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 2
+            "unrated": 3
           },
           "gold_mittel": {
-            "neg": 1,
-            "pos": 1,
+            "neg": 3,
+            "pos": 2,
             "neutral": 1,
             "unrated": 1
           },
@@ -678,7 +632,7 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 0
+            "unrated": 3
           },
           "gold_mittel": {
             "neg": 0,
@@ -803,19 +757,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 13
+            "unrated": 12
           },
           "gold_mittel": {
             "neg": 2,
             "pos": 0,
             "neutral": 0,
-            "unrated": 3
+            "unrated": 5
           },
           "gold_hell": {
-            "neg": 0,
-            "pos": 2,
+            "neg": 3,
+            "pos": 3,
             "neutral": 0,
-            "unrated": 10
+            "unrated": 14
           }
         }
       },
@@ -826,19 +780,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 2
+            "unrated": 3
           },
           "gold_mittel": {
-            "neg": 0,
+            "neg": 1,
             "pos": 0,
             "neutral": 0,
-            "unrated": 2
+            "unrated": 4
           },
           "gold_hell": {
             "neg": 1,
             "pos": 0,
             "neutral": 0,
-            "unrated": 4
+            "unrated": 5
           }
         }
       },
@@ -849,19 +803,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 4
+            "unrated": 5
           },
           "gold_mittel": {
-            "neg": 0,
-            "pos": 1,
+            "neg": 1,
+            "pos": 4,
             "neutral": 0,
             "unrated": 0
           },
           "gold_hell": {
-            "neg": 0,
+            "neg": 1,
             "pos": 1,
             "neutral": 0,
-            "unrated": 20
+            "unrated": 28
           }
         }
       },
@@ -872,19 +826,19 @@
             "neg": 0,
             "pos": 0,
             "neutral": 0,
-            "unrated": 3
+            "unrated": 7
           },
           "gold_mittel": {
             "neg": 0,
-            "pos": 0,
+            "pos": 1,
             "neutral": 0,
-            "unrated": 0
+            "unrated": 5
           },
           "gold_hell": {
-            "neg": 0,
+            "neg": 1,
             "pos": 0,
             "neutral": 0,
-            "unrated": 1
+            "unrated": 10
           }
         }
       },
