@@ -7,6 +7,16 @@ const HATCH_SPACING = 3;
 
 let stage, heroText, begleitTexte, kapitelEinstiegsTexte;
 let annotationBoxEl; // #annotationBox — trägt die Platz-Klasse, siehe annotationBoxPlatz()
+let naechstesKapitelEl; // #naechstesKapitel — Hinweis am Kapitelende, siehe draw()
+
+// Nummer des folgenden Kapitels, oder null wenn es keines gibt (Kapitel 18 ist
+// das letzte). Kapitel 1 hat seinen eigenen Scroll-Akt und ist hier nicht
+// gemeint — der Hinweis gilt für die klickbaren Kapitel 02–18.
+function naechstesKapitel(nr) {
+  if (!nr) return null;
+  let ziel = String(parseInt(nr, 10) + 1).padStart(2, '0');
+  return kapitelKarten[ziel] ? ziel : null;
+}
 // Kapitel 02–18 öffnen sich per Klick (springeZuKapitelZoom/oeffneKapitelZoom),
 // nicht scroll-gebunden wie Kapitel 1 — daher kein data-von/data-bis-Fenster
 // möglich. Stattdessen ein fester Zeitfenster-Fade ab dem Klick-Zeitpunkt
@@ -247,6 +257,14 @@ function setup() {
 
   gedankenColumn = document.getElementById('gedankenColumn');
   kartenMarkierungenEl = document.getElementById('kartenMarkierungen');
+  naechstesKapitelEl = document.getElementById('naechstesKapitel');
+  naechstesKapitelEl.addEventListener('click', (ev) => {
+    // stopPropagation: p5 hört mousePressed am Fenster ab — ohne das liefe
+    // derselbe Klick zusätzlich durch die Foto-Marker-Treffprüfung dort.
+    ev.stopPropagation();
+    let ziel = naechstesKapitel(zoomedKapitel);
+    if (ziel) springeZuKapitelZoom(ziel);
+  });
   annotationBoxEl = document.getElementById('annotationBox');
   annotationText = document.getElementById('annotationText');
   annotationInner = document.getElementById('annotationInner');
@@ -1013,6 +1031,30 @@ function draw() {
   if (annotationBoxEl && platzBbox && platzDaten && platzDaten.ortRuns) {
     let platz = annotationBoxPlatz(platzKapitel, platzDaten, platzBbox);
     ANNOTATION_BOX_PLAETZE.forEach(p => annotationBoxEl.classList.toggle('pos-' + p, p === platz));
+  }
+
+  // Hinweis "Nächstes Kapitel" am Ende eines Kapitels (02–18). Sichtbar,
+  // sobald der kapitel-eigene Fortschritt durchgelaufen ist — also Route
+  // gezeichnet und die letzte Annotation erreicht. Nur in der Kartenansicht:
+  // in der Graph-Ansicht sitzt an derselben Stelle der Play-Button (siehe
+  // .scrolly-stage.grafik-ansicht #naechstesKapitel in style.css).
+  // kapitelZoomAmount > 0.5 verhindert ein Aufblitzen während des Zoom-
+  // Übergangs, naechstesKapitel() blendet ihn im Schlusskapitel 18 aus.
+  if (naechstesKapitelEl) {
+    let kapitelLokalerFortschritt = constrain(
+      map(uebersichtRoutenFortschritt, KAPITEL_EINSTIEG_SCROLL_ENDE, 1, 0, 1), 0, 1);
+    // Schwelle exakt dort, wo die LETZTE Annotation erscheint — dieselbe
+    // Rechnung wie annIndexZoom in zeichneUebersichtsrouten
+    // (floor(fortschritt * anzahl) erreicht anzahl-1). Ein fester Wert wie
+    // 0.995 läge je nach Kapitellänge davor oder dahinter; bei 79
+    // Annotationen etwa erst deutlich nach der letzten.
+    let endDaten = datenFuerKapitel(zoomedKapitel);
+    let anzahl = endDaten && endDaten.annotationen ? endDaten.annotationen.length : 0;
+    let amEnde = !!zoomedKapitel && kapitelZoomAmount > 0.5
+      && kapitelAnsichtsModus === 'karte'
+      && anzahl > 0 && kapitelLokalerFortschritt >= (anzahl - 1) / anzahl
+      && !!naechstesKapitel(zoomedKapitel);
+    naechstesKapitelEl.classList.toggle('sichtbar', amEnde);
   }
 
   if (aktuelleAnnotation) {

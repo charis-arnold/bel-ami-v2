@@ -50,6 +50,7 @@ body {
    überdeckt (zeichneSpineHorizontal) — diese kartenbezogenen DOM-Overlays
    passen thematisch nicht mehr dazu und würden ohne Bezugspunkt frei über
    der Grafik schweben, daher hier ausgeblendet. */
+.scrolly-stage.grafik-ansicht #naechstesKapitel,
 .scrolly-stage.grafik-ansicht #gedankenColumn,
 .scrolly-stage.grafik-ansicht #kartenMarkierungen,
 .scrolly-stage.grafik-ansicht #annotationBox {
@@ -159,6 +160,56 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+/* Hinweis am Ende eines Kapitels (02–18): erscheint unten am Fensterrand,
+   sobald Route und Annotationen durchgelaufen sind, und führt per Klick ins
+   nächste Kapitel. Weiterscrollen ist am Kapitelende bewusst gesperrt (siehe
+   die progress-Klemmung in draw()), deshalb ist dies ein Klickziel und kein
+   reiner Scroll-Hinweis. Position, Aufbau und Bounce sind bewusst identisch
+   mit .scroll-hinweis auf der Startseite — dieselbe Geste an derselben
+   Stelle. */
+.naechstes-kapitel {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  color: #212B2E;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.6s;
+  animation: scroll-hinweis-bounce 1.8s ease-in-out infinite;
+}
+
+.naechstes-kapitel.sichtbar {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Farbe wie die Kapitelnummern und die Kreis-Labels (#212B2E) — anders als
+   der weisse "Scrollen"-Hinweis der Startseite, der auf dem dunklen
+   Startbild steht. Der Kapitelhinweis liegt dagegen über der hellen
+   Kapitelkarte. */
+.naechstes-kapitel-arrow {
+  font-size: 50px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #212B2E;
+}
+
+.naechstes-kapitel-text {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #212B2E;
 }
 
 @keyframes scroll-hinweis-bounce {
