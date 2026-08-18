@@ -67,6 +67,13 @@ let grafikPlayButton;
 let grafikSpielt = false;       // läuft die Wachstums-Animation gerade?
 let grafikStartZeit = 0;        // millis() bei Play-Start (bzw. rechnerisch zurückversetzt bei Resume)
 let grafikFortschritt = 0;      // 0..1, letzter berechneter Animationsstand (bleibt bei Pause stehen)
+// millis() beim Play-Klick in der Graph-Ansicht. Der Kapitel-Einstiegstext
+// blendet in der Kartenansicht über das Scrollen aus (siehe
+// KAPITEL_EINSTIEG_SCROLL_START/ENDE) — in der Graph-Ansicht gibt es dafür
+// keinen Scroll, dort weicht er stattdessen dem Play: sobald die Animation
+// startet, blendet er weg und bleibt weg (auch bei Pause), bis das Kapitel
+// oder der Ansichtsmodus wechselt. null = noch kein Play in dieser Ansicht.
+let grafikPlayAusblendStart = null;
 
 // west/east um ca. 0.0153° nach Westen korrigiert (~445px bei 6000px
 // Bildbreite) — die ursprünglichen Werte platzierten Routen/Orte
@@ -1119,6 +1126,16 @@ function draw() {
       ),
       0, 1
     );
+    // Kapitel 1 hat keinen eigenen .kapitel-einstiegstext — in seiner
+    // Graph-Ansicht steht an dieser Stelle der Begleittext des laufenden
+    // Scroll-Fensters. Damit "Play blendet den Einstiegstext aus" auch dort
+    // greift, bekommt er hier denselben Play-Ausblendweg. Nur in der
+    // Graph-Ansicht: in der Kartenansicht ist der Begleittext die normale,
+    // scroll-gesteuerte Erzählspur und muss unberührt bleiben.
+    if (inKapitelGrafikAnsicht && grafikPlayAusblendStart !== null) {
+      opacity = Math.min(opacity, 1 - constrain(
+        map(millis() - grafikPlayAusblendStart, 0, KAPITEL_EINSTIEG_FADE_MS, 0, 1), 0, 1));
+    }
     el.style.opacity = opacity;
   });
   // Kapitel-Einstiegstexte (02–18): zeitbasierter Fade ab Klick-Zeitpunkt
@@ -1135,7 +1152,12 @@ function draw() {
       let einblenden = constrain(map(elapsed, 0, KAPITEL_EINSTIEG_FADE_MS, 0, 1), 0, 1);
       let ausblenden = 1 - constrain(map(uebersichtRoutenFortschritt,
         KAPITEL_EINSTIEG_SCROLL_START, KAPITEL_EINSTIEG_SCROLL_ENDE, 0, 1), 0, 1);
-      opacity = Math.min(einblenden, ausblenden) * kapitelZoomAmount * (1 - kreisVergleichMapFade);
+      // Graph-Ansicht: zusätzlicher, zeitbasierter Ausblendweg ab dem
+      // Play-Klick (grafikPlayAusblendStart) — gleiche Dauer wie das
+      // Einblenden, damit Text und Animation sauber ineinander übergehen.
+      let ausblendenPlay = grafikPlayAusblendStart === null ? 1 :
+        1 - constrain(map(millis() - grafikPlayAusblendStart, 0, KAPITEL_EINSTIEG_FADE_MS, 0, 1), 0, 1);
+      opacity = Math.min(einblenden, ausblenden, ausblendenPlay) * kapitelZoomAmount * (1 - kreisVergleichMapFade);
     }
     el.style.opacity = opacity;
   });
@@ -2079,6 +2101,7 @@ function setzeKapitelAnsichtZurueck() {
   kapitelAnsichtsModus = 'karte';
   grafikSpielt = false;
   grafikFortschritt = 0;
+  grafikPlayAusblendStart = null;
   // Kapitelwechsel während laufender Sonifikation (Kapitel 1s Graph-
   // Play-Button, siehe toggleGrafikPlay) sauber abbrechen — sonst liefe der
   // Ton unabhängig von der (jetzt zurückgesetzten) Graph-Ansicht weiter.
@@ -2155,6 +2178,7 @@ function setzeKapitelAnsichtModus(modus) {
   kapitelAnsichtsModus = modus;
   grafikSpielt = false;
   grafikFortschritt = 0;
+  grafikPlayAusblendStart = null;
 }
 
 // Gesamtdauer eines Graph-Play-Durchlaufs: für Kapitel 1 (eigene
@@ -2195,6 +2219,9 @@ function toggleGrafikPlay() {
   if (grafikFortschritt >= 1) grafikFortschritt = 0; // am Ende: von vorn
   grafikSpielt = !grafikSpielt;
   if (grafikSpielt) {
+    // Einstiegstext weicht dem Play — nur beim ERSTEN Start merken, damit ein
+    // Pause/Weiter den schon ausgeblendeten Text nicht neu wegblenden lässt.
+    if (grafikPlayAusblendStart === null) grafikPlayAusblendStart = millis();
     grafikStartZeit = millis() - grafikFortschritt * aktuelleGrafikAnimationDauer();
     if (!zoomedKapitel) spieleKapitel1SonifikationAudio();
     else spieleKapitelSonifikationAudio(zoomedKapitel);
@@ -2226,6 +2253,72 @@ const SPINE_RAND_RECHTS = 340;
 // Vertikale Linie vom Ortspunkt nach unten zur (horizontalen) Beschriftung.
 const SPINE_LABEL_LINIE_LAENGE = 16;
 const SPINE_LABEL_TEXT_ABSTAND = 6;
+
+// ---------------------------------------------------------------------------
+// Festes Label-Layout der Spine. Früher wurde die Zeilenzuteilung in JEDEM
+// Frame neu berechnet — sortiert nach linienStartY, das mit dem wachsenden
+// Kreisradius nach unten wandert. Dadurch tauschten benachbarte Labels beim
+// Scrollen laufend die Zeile, und jedes Label rutschte zusätzlich mit seinem
+// eigenen Kreis mit. Jetzt wird die Anordnung EINMAL je Kapitel (und Breite)
+// aus dem Endstand berechnet: ein Zeilenraster unterhalb des grössten Kreises,
+// den das Kapitel überhaupt erreicht, Zeilenzuteilung streng von links nach
+// rechts. Die Beschriftungen stehen dadurch über den ganzen Scroll hinweg
+// still — nur die Zuführungslinie wächst mit ihrem Kreis mit.
+// ---------------------------------------------------------------------------
+const SPINE_LABEL_HOEHE = 16;
+const SPINE_LABEL_ZEILEN_ABSTAND = 6;
+const spineLabelLayoutCache = new WeakMap(); // eintraege-Array -> { breite, versatz }
+
+function spineLabelLayout(eintraege, daten, abstand, startX) {
+  let vorhanden = spineLabelLayoutCache.get(eintraege);
+  if (vorhanden && vorhanden.breite === width) return vorhanden;
+
+  // Grösster Kreisradius am Kapitelende — dieselbe Formel wie in
+  // zeichneKreiseFuerRun, nur mit dem LETZTEN Annotationsindex statt dem
+  // aktuellen. Alle Labels liegen darunter, damit kein später gewachsener
+  // Kreis je eine Zuführungslinie oder eine Beschriftung überdeckt.
+  let letzterIndex = daten.annotationen.length - 1;
+  let maxRadius = 0;
+  eintraege.forEach(e => {
+    if (e.typ === 'rueckkehr') return; // zeichnet keinen eigenen Kreis
+    let bc = zaehleAnnotationenLiveNachOrtBasis(wohnungFilterFuerOrt(e.ortBasis), letzterIndex, daten);
+    KREIS_KATEGORIEN.forEach(kat => {
+      let b = bc[kat.key] || {};
+      let anzahl = (b.neg || 0) + (b.pos || 0) + (b.neutral || 0) + (b.unrated || 0);
+      maxRadius = Math.max(maxRadius, kreisRadius(anzahl));
+    });
+  });
+
+  // Textmasse mit exakt der Schrift nehmen, in der die Labels später auch
+  // gezeichnet werden (sonst stimmen die Kollisionsbreiten nicht).
+  textFont("'Source Sans 3', sans-serif");
+  textStyle(BOLD);
+  textSize(11);
+
+  // Zeilenzuteilung von links nach rechts: jedes Label kommt in die OBERSTE
+  // Zeile, in der rechts vom zuletzt gesetzten Label noch Platz ist. Da die
+  // Einträge in x-Reihenfolge durchlaufen werden, genügt je Zeile das rechte
+  // Ende des jeweils letzten Labels als Vergleich.
+  let zeilenEnde = [];
+  let versatz = [];
+  let breiten = [];
+  eintraege.forEach((e, i) => {
+    let x = startX + i * abstand;
+    breiten[i] = textWidth(e.text);
+    let halbeBreite = breiten[i] / 2 + 4;
+    let zeile = zeilenEnde.findIndex(ende => x - halbeBreite > ende);
+    if (zeile === -1) {
+      zeile = zeilenEnde.length;
+      zeilenEnde.push(-Infinity);
+    }
+    zeilenEnde[zeile] = x + halbeBreite;
+    versatz[i] = maxRadius + SPINE_LABEL_LINIE_LAENGE + zeile * (SPINE_LABEL_HOEHE + SPINE_LABEL_ZEILEN_ABSTAND);
+  });
+
+  let ergebnis = { breite: width, versatz, breiten };
+  spineLabelLayoutCache.set(eintraege, ergebnis);
+  return ergebnis;
+}
 
 // Horizontale Spine der grafischen Ansicht: zentriert auf den Browser,
 // dieselben Einträge/Kreise wie das (jetzt entfallene) vertikale Panel, aber
@@ -2345,65 +2438,51 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
   textSize(11);
   textAlign(CENTER, TOP);
 
-  // Bei eng benachbarten Punkten (fester SPINE_PUNKT_ABSTAND, siehe oben)
-  // sind Labels oft breiter als der Punktabstand. Frühere Fassung sortierte
-  // Kollisionen in feste "Zeilen"-Reihen ein (Zeile 0, 1, 2, … je um
-  // SPINE_LABEL_ZEILEN_HOEHE versetzt) — das ignorierte aber, dass die
-  // Wunschposition jedes Labels (linienStartY) durch den je Punkt eigenen
-  // Kreisradius unterschiedlich tief liegt, wodurch Labels in NOMINELL
-  // verschiedenen Zeilen trotzdem überlappen konnten. Jetzt wie die
-  // Kartenlabels in zeichneKreisLabels: jedes Label startet an seiner
-  // eigenen, kreisgrössenabhängigen Wunschposition und rutscht erst bei
-  // einer echten Bounding-Box-Überlappung mit einem bereits platzierten
-  // Label weiter nach unten (labelHoehe+labelPadding pro Schritt — mehr
-  // Luft als die frühere feste Zeilenhöhe). Ortspunkt/Linie/Label werden
-  // bewusst ERST HIER, NACH allen Kreisen (unabhängig von deren
-  // Grösse-Reihenfolge oben), gezeichnet, damit sie nie unter einem
-  // Nachbarkreis verschwinden.
-  let labelHoehe = 16, labelPadding = 6;
-  let platzierteLabel = [];
-  let labelDaten = [];
+  // Ortspunkt, Zuführungslinie und Beschriftung werden bewusst ERST HIER,
+  // NACH allen Kreisen (unabhängig von deren Grösse-Reihenfolge oben)
+  // gezeichnet, damit sie nie unter einem Nachbarkreis verschwinden. Die
+  // Zeilenanordnung kommt fertig aus spineLabelLayout und ändert sich
+  // während des Scrollens nicht mehr — nur die Linie wächst mit dem Kreis.
+  let layout = spineLabelLayout(eintraege, daten, abstand, startX);
 
+  // Durchgang 1: Ortspunkte und Zuführungslinien.
   eintraege.forEach((e, i) => {
     let alphaSkala = constrain(position - (i - 1), 0, 1);
     if (alphaSkala <= 0) return;
     let x = startX + i * abstand;
     let radius = radiusNachIndex.get(i) || 0;
-    let linienStartY = linieY + (radius > 0 ? radius : 4);
-    labelDaten.push({ x, alphaSkala, text: e.text, textBreite: textWidth(e.text), linienStartY });
-  });
 
-  labelDaten
-    .sort((a, b) => a.linienStartY - b.linienStartY)
-    .forEach(d => {
-      let y = d.linienStartY + SPINE_LABEL_LINIE_LAENGE;
-      let bereich = [d.x - d.textBreite / 2 - 4, d.x + d.textBreite / 2 + 4];
-      let ueberlappt = true;
-      while (ueberlappt) {
-        ueberlappt = platzierteLabel.some(p =>
-          y < p.y + labelHoehe + labelPadding && y + labelHoehe + labelPadding > p.y &&
-          bereich[0] < p.bereich[1] && bereich[1] > p.bereich[0]
-        );
-        if (ueberlappt) y += labelHoehe + labelPadding;
-      }
-      platzierteLabel.push({ y, bereich });
-      d.labelY = y;
-    });
-
-  labelDaten.forEach(d => {
     // Ortspunkt — p5s ellipse() bleibt bei laufender Animation manchmal
     // unsichtbar, siehe zeichneHalbkreis, daher direkt über den Context.
-    drawingContext.fillStyle = `rgba(0, 0, 0, ${d.alphaSkala})`;
+    drawingContext.fillStyle = `rgba(0, 0, 0, ${alphaSkala})`;
     drawingContext.beginPath();
-    drawingContext.arc(d.x, linieY, 2.5, 0, TWO_PI);
+    drawingContext.arc(x, linieY, 2.5, 0, TWO_PI);
     drawingContext.fill();
 
-    // Ortspunkt: Linie vertikal nach unten (ab Kreisrand, falls vorhanden),
-    // Beschriftung horizontal darunter.
-    stroke(0, 110 * d.alphaSkala);
+    // Zuführungslinie: vertikal vom Kreisrand (bzw. vom Ortspunkt, solange
+    // der Kreis noch leer ist) hinunter zur festen Label-Zeile.
+    stroke(0, 110 * alphaSkala);
     strokeWeight(1);
-    line(d.x, d.linienStartY, d.x, d.labelY);
+    line(x, linieY + (radius > 0 ? radius : 4), x, linieY + layout.versatz[i]);
     noStroke();
+  });
+
+  // Durchgang 2: Beschriftungen — NACH allen Linien, damit eine Linie auf dem
+  // Weg zu einer tieferen Zeile ein fremdes Label nicht durchschneidet. Jedes
+  // Label stellt sich dafür zusätzlich in der Hintergrundfarbe der
+  // Grafikansicht frei. Kreise werden davon nie getroffen: die oberste
+  // Label-Zeile liegt per Layout unterhalb des grössten Kreises, den das
+  // Kapitel überhaupt erreicht.
+  eintraege.forEach((e, i) => {
+    let alphaSkala = constrain(position - (i - 1), 0, 1);
+    if (alphaSkala <= 0) return;
+    let x = startX + i * abstand;
+    let textY = linieY + layout.versatz[i] + SPINE_LABEL_TEXT_ABSTAND;
+    let breite = layout.breiten[i];
+
+    drawingContext.fillStyle = `rgba(226, 230, 225, ${alphaSkala})`;
+    drawingContext.fillRect(x - breite / 2 - 3, textY - 2, breite + 6, SPINE_LABEL_HOEHE - 2);
+
     // p5s text() bleibt hier während einer laufenden Play-Animation (viele
     // Frames/Sekunde, wechselnde Werte) manchmal unsichtbar, obwohl Font/
     // Farbe/Alpha/Ausrichtung im Canvas-Context nachweislich korrekt gesetzt
@@ -2411,8 +2490,8 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
     // sichtbar) — direkt über den Canvas-Context gezeichnet, um diesen Bug
     // zu umgehen; textAlign/textBaseline/font/fillStyle sind über die
     // p5-Aufrufe oben bereits auf dem Context gesetzt.
-    drawingContext.fillStyle = `rgba(26, 26, 26, ${d.alphaSkala})`;
-    drawingContext.fillText(d.text, d.x, d.labelY + SPINE_LABEL_TEXT_ABSTAND);
+    drawingContext.fillStyle = `rgba(26, 26, 26, ${alphaSkala})`;
+    drawingContext.fillText(e.text, x, textY);
   });
 
   textStyle(NORMAL);
