@@ -838,6 +838,18 @@ h2 {
   );
 }
 
+/* Graph-Ansicht: dort sind die Valenz-Halbkreise oben/unten geteilt statt
+   links/rechts (winkel PI in zeichneSpineHorizontal) — das Legendensymbol
+   dreht die Trennlinie entsprechend mit (siehe draw()). */
+.legende-valenz-kreis.valenz-oben-unten {
+  background: linear-gradient(
+    to bottom,
+    var(--legende-farbe) 0%, var(--legende-farbe) 48%,
+    rgba(26, 26, 26, 0.4) 48%, rgba(26, 26, 26, 0.4) 52%,
+    var(--legende-farbe) 52%, var(--legende-farbe) 100%
+  );
+}
+
 .legende-valenz-text {
   font-family: var(--sans);
   font-size: 12.5px;

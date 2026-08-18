@@ -53,6 +53,12 @@ let planEintrag, graphEintrag; // "Plan"/"Graph"-Hälften oben im Register, für
 let modusZeile, leerzeile, alleEintrag; // Plan/Graph-Zeile + Abstandshalter + "Alle" — in der Übersicht (kein Kapitel gezoomt) blendet draw() modusZeile/leerzeile aus und markiert alleEintrag als aktiv
 let orteOhneAdresse; // Platzhalter-Box unterhalb des Kapitelregisters, liefert die Bildschirmposition für zeichneOrteOhneAdresse()
 let legendeBox; // Register-Container (Tab+Inhalt), mitte rechts — sichtbar wie kapitelRegister (Plan UND Graph)
+let legendeValenzText, legendeValenzKreis; // Valenz-Zeile der Legende — Text/Symbol wechseln je Ansicht (siehe draw())
+const LEGENDE_VALENZ_KARTE = 'Volltonfarbe: links negativ, rechts positiv bewertet';
+const LEGENDE_VALENZ_GRAPH = 'Volltonfarbe: oben positiv, unten negativ bewertet';
+let legendeFwertHinweis; // Positions-Hinweis der F-Wert-Punkte — ebenfalls ansichtsabhängig
+const LEGENDE_FWERT_KARTE = 'Position ausserhalb des Kreises: negativ oben links, positiv oben rechts, neutral/unbewertet unten.';
+const LEGENDE_FWERT_GRAPH = 'Position ausserhalb des Kreises: positiv oben, negativ unten, neutral/unbewertet rechts.';
 let legendeTab, legendeInhalt; // Tab (vertikal beschriftet, immer sichtbar solang legendeBox.sichtbar) + ausfahrender Inhalt (Farberklärung der Kreisgrafik)
 let prologBox, prologTab; // Zweites Register direkt unter Legende (siehe #registerTabs in index.html) — gleiches Verhalten wie Legende, eigener (statischer, hart codierter) Inhalt Projekt-Hintergrund
 let registerTabs; // gemeinsamer Fixed-Container beider Register (siehe #registerTabs in index.html) — trägt die legende-offen/prolog-offen-Klasse, an der sich der jeweils GESCHLOSSENE Tab orientiert, um mit ausrücken zu können (siehe CSS)
@@ -628,8 +634,14 @@ function baueLegende() {
 
   let valenzText = document.createElement('span');
   valenzText.className = 'legende-valenz-text';
-  valenzText.textContent = 'Volltonfarbe: links negativ, rechts positiv bewertet';
+  valenzText.textContent = LEGENDE_VALENZ_KARTE;
   valenzZeile.appendChild(valenzText);
+  // Für die Umschaltung Plan/Graph merken: die Halbkreise stehen in der
+  // Graph-Ansicht oben/unten statt links/rechts (siehe
+  // zeichneSpineHorizontal), die Legende muss das mitmachen — sie ist in
+  // BEIDEN Ansichten sichtbar.
+  legendeValenzText = valenzText;
+  legendeValenzKreis = valenzKreis;
 
   legendeInhalt.appendChild(valenzZeile);
 
@@ -680,8 +692,9 @@ function baueLegende() {
 
   let fwertHinweis = document.createElement('p');
   fwertHinweis.className = 'legende-hinweis';
-  fwertHinweis.textContent = 'Position ausserhalb des Kreises: negativ oben links, positiv oben rechts, neutral/unbewertet unten.';
+  fwertHinweis.textContent = LEGENDE_FWERT_KARTE;
   legendeInhalt.appendChild(fwertHinweis);
+  legendeFwertHinweis = fwertHinweis; // wechselt mit der Ansicht, siehe draw()
 }
 
 function baueKartenMarkierungen() {
@@ -1061,6 +1074,14 @@ function draw() {
   // Markierungen, Annotation-Box) blenden sich in der grafischen Ansicht
   // per CSS aus (siehe .scrolly-stage.grafik-ansicht in style.css).
   stage.classList.toggle('grafik-ansicht', inKapitelGrafikAnsicht);
+
+  // Legende an die Ansicht anpassen: in der Graph-Ansicht sind die
+  // Valenz-Halbkreise oben/unten geteilt, auf der Karte links/rechts.
+  if (legendeValenzText) {
+    legendeValenzText.textContent = inKapitelGrafikAnsicht ? LEGENDE_VALENZ_GRAPH : LEGENDE_VALENZ_KARTE;
+    legendeValenzKreis.classList.toggle('valenz-oben-unten', inKapitelGrafikAnsicht);
+    legendeFwertHinweis.textContent = inKapitelGrafikAnsicht ? LEGENDE_FWERT_GRAPH : LEGENDE_FWERT_KARTE;
+  }
 
   // DOM-Marker
   let stageRect = stage.getBoundingClientRect();
@@ -1570,7 +1591,11 @@ function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF
     // deckende Fläche) für gold_mittel — wie im alten Entwurf
     // (kapitel01-embed.js/addBand). winkel bewusst NICHT an die lokale
     // Laufrichtung der Route angelehnt, sondern fest: die Trennlinie
-    // zwischen neg/pos dreht sich nie mit der Route mit.
+    // zwischen neg/pos dreht sich nie mit der Route mit. Kartenansicht
+    // (Default -HALF_PI): negativ links, positiv rechts. Graph-Ansicht
+    // (winkel PI, siehe zeichneSpineHorizontal): positiv oben, negativ
+    // unten — dort liegen die Kreise auf einer waagrechten Linie, eine
+    // Links/Rechts-Teilung liefe mit der Leserichtung mit statt quer dazu.
     let blend = k.key !== 'gold_mittel';
     let negR = kreisRadius(bc.neg || 0);
     let posR = kreisRadius(bc.pos || 0);
@@ -1608,22 +1633,32 @@ const FWERT_PUNKT_RING_ABSTAND = 8; // Abstand zwischen zwei Punkte-Ringen, fall
 // (a.hasFwert) bekommt hier — anders als die aggregierten bandCounts — einen
 // EIGENEN Punkt. Grösse nach F-Wert-Typ (FWERT_PUNKTGROESSE: 1 Raum löst
 // Emotion aus, 2 Emotion färbt Raum, 3 Körper als Sensor), Farbe einheitlich
-// (FWERT_PUNKT_FARBE). Position: eines von drei 120°-Dritteln rund um den Kreis,
-// relativ zu winkel wie die Halbkreise in zeichneKreiseFuerRun (winkel selbst
-// zeigt "neutral gegenüber" — bei winkel=-HALF_PI, der Default hier wie dort,
-// ergibt das negativ oben-links, positiv oben-rechts, neutral/unbewertet
-// unten). Reichen die Punkte eines Drittels nicht auf einen Bogen, wachsen
+// (FWERT_PUNKT_FARBE). Position: eines von drei 120°-Dritteln rund um den
+// Kreis, auf derselben Seite wie der Valenz-Halbkreis derselben Bewertung
+// (siehe anordnung unten und zeichneKreiseFuerRun).
+// Reichen die Punkte eines Drittels nicht auf einen Bogen, wachsen
 // weitere, weiter aussen liegende Ringe nach (z.B. "Cannes", Kapitel 8, mit
 // 87 F-Wert-Annotationen an einem einzigen Ort).
-function zeichneFwertPunkte(cx, cy, kreisRadius, fwertAnnotationen, alphaSkala = 1, winkel = -HALF_PI) {
+function zeichneFwertPunkte(cx, cy, kreisRadius, fwertAnnotationen, alphaSkala = 1, anordnung = 'seitlich') {
   if (!fwertAnnotationen.length || kreisRadius <= 0) return;
 
   const DRITTEL = TWO_PI / 3;
-  let gruppen = [
-    { mitte: winkel - DRITTEL / 2, formen: [] }, // negativ: oben-links
-    { mitte: winkel + DRITTEL / 2, formen: [] }, // positiv: oben-rechts
-    { mitte: winkel + PI, formen: [] },          // neutral + unbewertet: unten
-  ];
+  // Gruppenmitten [negativ, positiv, neutral/unbewertet] je Anordnung. Sie
+  // folgen der Teilung der Halbkreise in zeichneKreiseFuerRun, damit die
+  // Punkte einer Valenz auf DERSELBEN Seite liegen wie ihre Fläche:
+  //   'seitlich' (Karte, Halbkreise links/rechts): negativ oben-links,
+  //     positiv oben-rechts, neutral unten — die beiden Valenz-Gruppen
+  //     liegen als Drittel-Paar symmetrisch um die Senkrechte.
+  //   'obenUnten' (Graph, Halbkreise oben/unten): positiv GENAU oben,
+  //     negativ GENAU unten, neutral rechts daneben. Hier lassen sich die
+  //     Mitten nicht aus einer gemeinsamen Drehung ableiten — oben und unten
+  //     liegen 180° auseinander, drei gleiche Drittel aber nur 120°. Darum
+  //     stehen sie hier fest, statt wie bei 'seitlich' aus einem Winkel
+  //     berechnet zu werden.
+  let mitten = anordnung === 'obenUnten'
+    ? [HALF_PI, -HALF_PI, 0]
+    : [-HALF_PI - DRITTEL / 2, -HALF_PI + DRITTEL / 2, HALF_PI];
+  let gruppen = mitten.map(mitte => ({ mitte, formen: [] }));
   fwertAnnotationen.forEach(a => {
     let gruppe = a.valenz === -1 ? gruppen[0] : a.valenz === 1 ? gruppen[1] : gruppen[2];
     let groesse = FWERT_PUNKTGROESSE[a.fWertType] || 1;
@@ -2267,11 +2302,17 @@ const SPINE_LABEL_TEXT_ABSTAND = 6;
 // ---------------------------------------------------------------------------
 const SPINE_LABEL_HOEHE = 16;
 const SPINE_LABEL_ZEILEN_ABSTAND = 6;
-const spineLabelLayoutCache = new WeakMap(); // eintraege-Array -> { breite, versatz }
+// Freizuhaltender Rand oben/unten für die vertikale Lage der Spine (siehe
+// spineLayout). Unten mehr, weil dort der Play-Button (48px + 12px Abstand,
+// siehe .grafik-play-button in style.css) und der Scroll-Fortschrittsbalken
+// liegen.
+const SPINE_RAND_OBEN = 24;
+const SPINE_RAND_UNTEN = 76;
+const spineLayoutCache = new WeakMap(); // eintraege-Array -> { breite, hoehe, versatz, breiten, linienY }
 
-function spineLabelLayout(eintraege, daten, abstand, startX) {
-  let vorhanden = spineLabelLayoutCache.get(eintraege);
-  if (vorhanden && vorhanden.breite === width) return vorhanden;
+function spineLayout(eintraege, daten, abstand, startX) {
+  let vorhanden = spineLayoutCache.get(eintraege);
+  if (vorhanden && vorhanden.breite === width && vorhanden.hoehe === height) return vorhanden;
 
   // Grösster Kreisradius am Kapitelende — dieselbe Formel wie in
   // zeichneKreiseFuerRun, nur mit dem LETZTEN Annotationsindex statt dem
@@ -2287,6 +2328,17 @@ function spineLabelLayout(eintraege, daten, abstand, startX) {
       let anzahl = (b.neg || 0) + (b.pos || 0) + (b.neutral || 0) + (b.unrated || 0);
       maxRadius = Math.max(maxRadius, kreisRadius(anzahl));
     });
+  });
+
+  // Höchster Rückkehr-Bogen: die Bögen sind Halbkreise ÜBER der Spine-Linie
+  // (siehe zeichneSpineHorizontal), ihr Radius ist der halbe Abstand zwischen
+  // Rückkehrpunkt und Ursprungskreis. Bei Kapiteln mit weit zurückreichenden
+  // Rückkehren (Kapitel 5, 7: über 400px) bestimmt dieser Wert, wie tief die
+  // Linie liegen muss, damit oben nichts abgeschnitten wird.
+  let maxBogen = 0;
+  eintraege.forEach((e, i) => {
+    if (e.typ !== 'rueckkehr') return;
+    maxBogen = Math.max(maxBogen, Math.abs(i - e.zielIndex) * abstand / 2);
   });
 
   // Textmasse mit exakt der Schrift nehmen, in der die Labels später auch
@@ -2315,8 +2367,26 @@ function spineLabelLayout(eintraege, daten, abstand, startX) {
     versatz[i] = maxRadius + SPINE_LABEL_LINIE_LAENGE + zeile * (SPINE_LABEL_HOEHE + SPINE_LABEL_ZEILEN_ABSTAND);
   });
 
-  let ergebnis = { breite: width, versatz, breiten };
-  spineLabelLayoutCache.set(eintraege, ergebnis);
+  // Vertikale Lage der Spine-Linie. Bisher fest height/2 — dabei liefen die
+  // hohen Rückkehr-Bögen oben aus dem Fenster. Jetzt: so weit nach unten wie
+  // nötig, damit oben Bögen und Kreise vollständig Platz haben, aber nur so
+  // weit, dass unten die Labels noch hineinpassen. Kapitel, bei denen beides
+  // ohnehin passt, bleiben unverändert auf der Mitte stehen.
+  let oben = Math.max(maxRadius, maxBogen);
+  let unten = Math.max(...versatz) + SPINE_LABEL_TEXT_ABSTAND + SPINE_LABEL_HOEHE;
+  let frei = height - SPINE_RAND_OBEN - SPINE_RAND_UNTEN;
+  let linienY;
+  if (oben + unten <= frei) {
+    linienY = constrain(height / 2, SPINE_RAND_OBEN + oben, height - SPINE_RAND_UNTEN - unten);
+  } else {
+    // Passt selbst ganz nach unten geschoben nicht mehr (sehr niedriges
+    // Fenster): Überstand proportional auf oben und unten verteilen, statt
+    // ihn ganz auf einer Seite abzuschneiden.
+    linienY = SPINE_RAND_OBEN + frei * (oben / (oben + unten));
+  }
+
+  let ergebnis = { breite: width, hoehe: height, versatz, breiten, linienY };
+  spineLayoutCache.set(eintraege, ergebnis);
   return ergebnis;
 }
 
@@ -2338,7 +2408,12 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
   let verfuegbareBreite = width - SPINE_RAND_LINKS - SPINE_RAND_RECHTS;
   let abstand = n > 1 ? Math.min(SPINE_PUNKT_ABSTAND, verfuegbareBreite / (n - 1)) : SPINE_PUNKT_ABSTAND;
   let startX = SPINE_RAND_LINKS + (verfuegbareBreite - (n - 1) * abstand) / 2;
-  let linieY = height / 2;
+  // Vertikale Lage und Label-Anordnung kommen fertig aus spineLayout (einmal
+  // je Kapitel/Fenstergrösse berechnet, danach aus dem Cache) — insbesondere
+  // linienY, das die Spine so weit nach unten setzt, dass die hohen
+  // Rückkehr-Bögen oben vollständig ins Fenster passen.
+  let layout = spineLayout(eintraege, daten, abstand, startX);
+  let linieY = layout.linienY;
 
   // position: wie weit der "Playhead" entlang der n Einträge (0..n-1) schon
   // ist. Eintrag i blendet weich ein, sobald position i-1..i durchläuft —
@@ -2428,8 +2503,13 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
 
   let radiusNachIndex = new Map();
   kreisDaten.forEach(k => {
-    let radius = zeichneKreiseFuerRun(k.x, linieY, k.bc, 1, 0);
-    zeichneFwertPunkte(k.x, linieY, radius, k.fwertAnnotationen, 1, 0);
+    // winkel = PI: Halbkreise liegen hier OBEN/UNTEN statt links/rechts wie
+    // auf der Karte — positiv nach oben, negativ nach unten (zeichneHalbkreis
+    // bekommt winkel+HALF_PI für positiv, winkel-HALF_PI für negativ; im
+    // Canvas zeigt -HALF_PI nach oben). Die F-Wert-Punkte bekommen denselben
+    // Winkel, damit sie auf der Seite ihrer Valenz bleiben.
+    let radius = zeichneKreiseFuerRun(k.x, linieY, k.bc, 1, PI);
+    zeichneFwertPunkte(k.x, linieY, radius, k.fwertAnnotationen, 1, 'obenUnten');
     radiusNachIndex.set(k.i, radius);
   });
 
@@ -2441,10 +2521,8 @@ function zeichneSpineHorizontal(eintraege, fortschritt, daten = stationenData) {
   // Ortspunkt, Zuführungslinie und Beschriftung werden bewusst ERST HIER,
   // NACH allen Kreisen (unabhängig von deren Grösse-Reihenfolge oben)
   // gezeichnet, damit sie nie unter einem Nachbarkreis verschwinden. Die
-  // Zeilenanordnung kommt fertig aus spineLabelLayout und ändert sich
-  // während des Scrollens nicht mehr — nur die Linie wächst mit dem Kreis.
-  let layout = spineLabelLayout(eintraege, daten, abstand, startX);
-
+  // Zeilenanordnung steht fest (siehe spineLayout) und ändert sich während
+  // des Scrollens nicht mehr — nur die Linie wächst mit ihrem Kreis.
   // Durchgang 1: Ortspunkte und Zuführungslinien.
   eintraege.forEach((e, i) => {
     let alphaSkala = constrain(position - (i - 1), 0, 1);
