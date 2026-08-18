@@ -131,9 +131,22 @@ KAPITEL_BBOXEN = {
     "13": {"west": 2.2848755, "east": 2.3712709, "south": 48.859748,  "north": 48.8829426},
     "14": {"west": 2.3084305, "east": 2.3918531, "south": 48.8523,    "north": 48.8747},
     "15": {"west": 2.297325,  "east": 2.319675,  "south": 48.8708,    "north": 48.8768},
-    "16": {"west": 2.3175795, "east": 2.359394,  "south": 48.8730835, "north": 48.8843078},
-    "17": {"west": 2.1039058, "east": 2.4177442, "south": 48.827,     "north": 48.91126},
-    "18": {"west": 2.2779896, "east": 2.3809284, "south": 48.8620663, "north": 48.8896998},
+    # 16 neu berechnet: das Palais Walter liegt seit der Handkuratierung im
+    # Faubourg Saint-Honoré (siehe baue-sammelpunkte-handkuriert.py) und fiel
+    # aus dem alten Ausschnitt heraus. Route + 0.004° Puffer, danach West/Ost
+    # symmetrisch auf Seitenverhältnis 2.45 verbreitert.
+    "16": {"west": 2.2959866, "east": 2.3664906, "south": 48.8672,    "north": 48.8861262},
+    # 17 neu berechnet: die Terrasse von Saint-Germain-en-Laye (der grösste
+    # Schauplatz des Kapitels) lag knapp westlich ausserhalb des alten
+    # Ausschnitts, im Osten stand dafür 8 km leere Karte. Jetzt eng um den
+    # lokalen Cluster (Saint-Germain bis Palais Walter); La Roche-Guyon
+    # bleibt wie Cannes in Kapitel 8 bewusst ausserhalb.
+    "17": {"west": 2.0914406, "east": 2.3278341, "south": 48.8435013, "north": 48.90294},
+    # 18 neu berechnet: nach der Handkuratierung bleiben nur zwei Stationen
+    # (Rue Constantinople und Madeleine, 1,2 km auseinander) — Montmartre und
+    # Palais Bourbon waren Erwähnungen bzw. Blickachsen. Der alte Ausschnitt
+    # war dafür mehr als doppelt so gross wie nötig.
+    "18": {"west": 2.2872768, "east": 2.3564732, "south": 48.8657965, "north": 48.8843723},
 }
 
 # Kapitel 01, Sonderfall — siehe Moduldocstring. MUSS 1:1 mit ch1ImgBbox in

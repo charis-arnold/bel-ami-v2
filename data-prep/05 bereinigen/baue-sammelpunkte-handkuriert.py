@@ -206,6 +206,66 @@ SAMMELPUNKTE = {
         # Hôtels reichen rund 350 m bis zur Avenue Gabriel hinunter.
         "Garten des Palais Walter": (2.3148, 48.8680),
     },
+    # Kapitel 16 (Bel-Ami II/8): der Winter bei den Walters, die Erklärung an
+    # Suzanne, der Ehebruch-Überfall in der Rue des Martyrs.
+    "16": {
+        # Dasselbe Haus wie in Kapitel 15, gleiche Koordinate. Die alte
+        # Geocodierung (2.33460/48.87960) lag im Quartier der Rue des Martyrs
+        # und widersprach dem Faubourg Saint-Honoré aus Kapitel 15.
+        "Palais Walter, Faubourg Saint-Honoré": (2.3160, 48.8712),
+        "Wohnung Duroy/Madeleine (17 Rue Fontaine)": (2.3341746, 48.8814675),
+        "Place Notre-Dame-de-Lorette": (2.3385, 48.8762),
+        "Restaurant Coq-Faisan, Rue Lafayette": (2.34370, 48.87620),
+        "Wohnung des Polizeikommissars, Rue La Rochefoucauld": (2.33300, 48.87890),
+        # Der Text nennt nur "die Polizeiwache". Der Kommissar wohnt in der
+        # Rue La Rochefoucauld, also 9. Arrondissement — dessen Kommissariat
+        # sass bei der Mairie in der Rue Drouot. Erklärt auch den Umweg nach
+        # Süden und zurück, den Annotation 50 beschreibt.
+        "Polizeiwache (Mairie du 9e, Rue Drouot)": (2.3395, 48.8730),
+        "Rue des Martyrs (möblierte Wohnung)": (2.33933, 48.87964),
+        "Redaktion La Vie Française": (2.3466305, 48.8722361),
+    },
+    # Kapitel 17 (Bel-Ami II/9): der Landpartie-Donnerstag nach Saint-Germain,
+    # die Entführung Suzannes, die Nacht der Frau Walter vor dem Christusbild.
+    "17": {
+        "Palais Walter, Faubourg Saint-Honoré": (2.3160, 48.8712),
+        # Annotation 5 nennt beide Achsen in einem Satz — ein Punkt zwischen
+        # Avenue (Kapitel 10: 2.30782/48.8698) und Bois (2.2695/48.8697).
+        "Fahrt über die Champs-Élysées und durch das Bois": (2.2850, 48.8690),
+        # "über die Seine am Mont-Valérien vorbei ... nach Bougival. Dann ging
+        # es am Fluß entlang bis nach Pecq."
+        "Fahrt über Bougival und Pecq an der Seine": (2.1400, 48.8650),
+        # Das Frühstück im Pavillon Henri IV und die Terrasse von Le Nôtre.
+        # Die alte Koordinate (2.25890/48.89665) war ein Platzhalter irgendwo
+        # bei Nanterre und hatte mit Saint-Germain nichts zu tun.
+        "Terrasse von Saint-Germain-en-Laye": (2.0955, 48.8965),
+        "Rückfahrt über Chatou": (2.1520, 48.8900),
+        # Nach der Scheidung wohnt er wieder in seiner Junggesellenwohnung —
+        # kapitel18-stationen.json beginnt dort ("Rue Constantinople 127"),
+        # und die Wohnung Rue Fontaine war Madeleines (Forestiers) gewesen.
+        # Die alte Zuordnung "Rue Boursault" ist die Adresse aus Kapitel 3–5.
+        "Wohnung Du Roy (Rue Constantinople 127)": (2.31921, 48.88037),
+        "Place de la Concorde (Droschke vor dem Marineministerium)": (2.3212, 48.8656),
+        # "Wir fahren mit diesem Wagen nach Sevres" — Sèvres selbst wird nur
+        # angekündigt, nie gezeigt; der Punkt liegt auf der Ausfahrtstrecke.
+        "Fahrt aus Paris Richtung Sèvres": (2.2750, 48.8480),
+        # Ferne Etappe: 65 km nordwestlich, ausserhalb des Kartenausschnitts —
+        # wie Cannes in Kapitel 8. Die Etappe dorthin bekommt eine Luftlinie.
+        "La Roche-Guyon an der Seine": (1.6280, 49.0810),
+    },
+    # Kapitel 18 (Bel-Ami II/10, Schlusskapitel): die letzte Szene mit
+    # Clotilde in der Junggesellenwohnung, dann die Hochzeit in der Madeleine.
+    # Zwei Sammelpunkte auf 109 Annotationen — das ganze Kapitel spielt an
+    # genau diesen beiden Orten.
+    "18": {
+        "Rue Constantinople 127": (2.31921, 48.88037),
+        # Vorplatz/Freitreppe (Annotationen 30–34 und 101–108) und Innenraum
+        # sind hier bewusst NICHT getrennt: die Stufen liegen 85 m vom
+        # Kirchenmittelpunkt, der kleinere Kreis läge vollständig im grösseren
+        # (anders als Platz und Kirche in Kapitel 12, die 130 m trennen und
+        # auf einer viermal feineren Karte liegen).
+        "Église de la Madeleine, Paris": (2.32454, 48.87013),
+    },
 }
 
 # Laufende Blockfolge je Kapitel: (erster revealIndex des Blocks, Sammelpunkt).
@@ -314,6 +374,39 @@ BLOECKE = {
         # ── Das Diner am Neujahrstag ─────────────────────────────────────
         (165, "Palais Walter, Faubourg Saint-Honoré"),          # 165 "Als sie erschienen, saß Frau Walter allein in dem kleinen Louis-XVI-Boudoir" bis 176 — vor dem Bild, die Ähnlichkeit mit dem Christus
     ],
+    "16": [
+        # ── Winter bei den Walters, die Erklärung am Fischbecken ─────────
+        (0,   "Palais Walter, Faubourg Saint-Honoré"),          # 0 "In der zweiten Hälfte des Winters ging das Ehepaar Du Roy oft zu den Walters" bis 25 — die Verlobungen, das Füttern der chinesischen Fische, die Erklärung an Suzanne, "eilte hinaus"
+        (26,  "Wohnung Duroy/Madeleine (17 Rue Fontaine)"),     # 26 "Er ging in voller Ruhe nach Hause" bis 31 — die Überwachung Madeleines, "Am Freitag zog er sich frühzeitig an"
+        # ── Der Freitag: Falle, Kommissar, Rue des Martyrs ───────────────
+        (32,  "Place Notre-Dame-de-Lorette"),                   # 32 "suchte sich eine Droschke auf der Place Notre Dame de Lorette"
+        (33,  "Wohnung Duroy/Madeleine (17 Rue Fontaine)"),     # 33 "halten Sie gegenüber der Nummer 17" bis 38 — er belauert im geschlossenen Wagen die eigene Haustür, bis Madeleine herauskommt
+        (39,  "Restaurant Coq-Faisan, Rue Lafayette"),          # 39 "setzte ihn vor dem Coq-Faisan ab" bis 41 — er isst in aller Ruhe und sieht auf die Uhr
+        (42,  "Wohnung des Polizeikommissars, Rue La Rochefoucauld"), # 42 "ließ sich nach der Rue La Rochefoucauld fahren" bis 49 — die Frist bis neun Uhr, der dreifarbene Gurt unterm Überrock
+        (50,  "Polizeiwache (Mairie du 9e, Rue Drouot)"),       # 50 "Sie fuhren zuerst nach der Polizeiwache und nahmen drei Schutzleute in Zivil mit"
+        (51,  "Rue des Martyrs (möblierte Wohnung)"),           # 51 "die Droschke, die nach der Rue des Martyrs fuhr" → Go, bis 96 — das Warten auf der Strasse, die aufgebrochene Tür, Laroche-Mathieu im Bett, "ich bin hier beinahe zu Hause"
+        (97,  "Redaktion La Vie Française"),                    # 97 "Eine Stunde später erschien Du Roy im Redaktionsbureau" bis 115 — "Ich habe eben den Minister des Äußeren gestürzt"
+    ],
+    "17": [
+        # ── Die Landpartie nach Saint-Germain ────────────────────────────
+        (0,   "Palais Walter, Faubourg Saint-Honoré"),          # 0 "Drei Monate waren seitdem vergangen" bis 4 — die Scheidung, die Abfahrt um neun Uhr im sechssitzigen Reiselandauer
+        (5,   "Fahrt über die Champs-Élysées und durch das Bois"), # 5 "fuhr in raschem Trabe die Avenue des Champs-Elysees hinab und dann durch das Bois de Boulogne" → Go, bis 7
+        (8,   "Fahrt über Bougival und Pecq an der Seine"),     # 8 "am Mont-Valérien vorbei und gelangte nach Bougival. Dann ging es am Fluß entlang bis nach Pecq" bis 12
+        (13,  "Terrasse von Saint-Germain-en-Laye"),            # 13 "Vor der Rückfahrt nach Paris schlug Georges vor, einen Spaziergang auf der Terrasse zu machen" bis 29 — der Panoramablick, die Verabredung zur Flucht (Concorde/Marineministerium wird hier nur ausgemacht)
+        (30,  "Rückfahrt über Chatou"),                         # 30 "Man sprach über Seebäder" / 31 "fuhren sie über Chatou zurück" bis 37
+        (38,  "Palais Walter, Faubourg Saint-Honoré"),          # 38 "Als man nach Paris zurückkam" → Go / 39 "Als der Landauer in den Hof des Palais einfuhr"
+        (40,  "Wohnung Du Roy (Rue Constantinople 127)"),       # 40 "Er lehnte jedoch dankend ab und ging nach Hause" bis 45 — er ordnet die Papiere, verbrennt Briefe, "Gegen elf Uhr verließ er sein Haus"
+        # ── Die Entführung ───────────────────────────────────────────────
+        (46,  "Place de la Concorde (Droschke vor dem Marineministerium)"), # 46 "Er wanderte eine Weile auf und ab" → Go / 47 die Arkaden des Marineministeriums, das Warten bis 54
+        (55,  "Fahrt aus Paris Richtung Sèvres"),               # 55 "Er rief dem Kutscher zu: »Vorwärts!«" → Go, bis 65 — Suzannes Bericht, der Plan Sèvres/La Roche-Guyon
+        # ── Gleichzeitig im Palais: die Nacht der Frau Walter ────────────
+        (66,  "Palais Walter, Faubourg Saint-Honoré"),          # 66 der Erzählschnitt zurück ins Palais (Textzeile 128) bis 104 — das leere Bett, Walters Zusammenbruch, die Nacht im Wintergarten vor dem Christusbild
+        (105, "La Roche-Guyon an der Seine"),                   # 105 Walter sagt die Hand der Tochter zu / 109 "Sie hatten sechs Tage an der Seine in La Roche-Guyon verbracht" bis 117
+    ],
+    "18": [
+        (0,   "Rue Constantinople 127"),                        # 0 "Es war dunkel in der kleinen Wohnung auf der Rue Constantinople" bis 19 — der Bruch mit Clotilde, die Schläge, die Kündigung beim Portier
+        (20,  "Église de la Madeleine, Paris"),                 # 20 "Er entfernte sich schnell" → Go; ab hier gehört alles zur Hochzeit: 22 "Die Trauung sollte in der Madeleinekirche stattfinden", 30 der rote Teppich auf der Freitreppe, 35–100 die Trauung, 101–108 die Schwelle und die Stufen — Montmartre (40), Canteleu (79/80), Place de la Concorde und Palais Bourbon (103–105) sind Erwähnungen und Blickachsen, keine Stationen
+    ],
 }
 
 KURATIERTE_KAPITEL = sorted(BLOECKE.keys())
@@ -321,6 +414,24 @@ KURATIERTE_KAPITEL = sorted(BLOECKE.keys())
 
 # ── Strassennetz / Fusswege ────────────────────────────────────────────────
 GRAPH = None
+GRAPH_BBOX = None  # (min_lon, max_lon, min_lat, max_lat) des geladenen Netzes + Marge
+
+# Anker weiter als dieser Radius vom Median aller Anker entfernt gelten als
+# "ferne Etappe" (Kapitel 17: La Roche-Guyon, 65 km nordwestlich; analog
+# Cannes/Rouen in 06–09). Sie fliessen NICHT in die Bbox des geladenen
+# Fussgängernetzes ein — sonst würde eine sinnlose Overpass-Abfrage über
+# zig Kilometer Landschaft ausgelöst — und ihre Etappen bekommen eine
+# Luftlinie statt eines Fusswegs. Dieselbe Unterscheidung trifft
+# baue-kapitel-stationen.py mit im_pariser_netz().
+FERNE_ETAPPE_GRAD = 0.25   # ~18 km in der Breite, ~28 km in der Länge
+GRAPH_BBOX_MARGE = 0.012
+
+
+def im_netz(lon, lat):
+    if GRAPH_BBOX is None:
+        return False
+    min_lon, max_lon, min_lat, max_lat = GRAPH_BBOX
+    return min_lon <= lon <= max_lon and min_lat <= lat <= max_lat
 
 
 def lade_strassennetz(anker):
@@ -330,13 +441,23 @@ def lade_strassennetz(anker):
     Boulogne ab, ist aber ein Bruchteil der Overpass-Abfrage (und damit auch
     ohne den grossen Paris-Cache verfügbar). Die Fusswege selbst sind
     identisch, solange die Bbox alle Anker mit Marge umschliesst."""
-    global GRAPH
+    global GRAPH, GRAPH_BBOX
     if GRAPH is not None:
         return GRAPH
-    marge = 0.012  # ~1.3 km, damit ein Fussweg auch mal aus der Anker-Bbox ausscheren darf
-    lons = [p[0] for p in anker]
-    lats = [p[1] for p in anker]
+    marge = GRAPH_BBOX_MARGE  # ~1.3 km, damit ein Fussweg auch mal aus der Anker-Bbox ausscheren darf
+    sortiert_lon = sorted(p[0] for p in anker)
+    sortiert_lat = sorted(p[1] for p in anker)
+    mitte = (sortiert_lon[len(anker) // 2], sortiert_lat[len(anker) // 2])
+    nah = [p for p in anker
+           if abs(p[0] - mitte[0]) <= FERNE_ETAPPE_GRAD and abs(p[1] - mitte[1]) <= FERNE_ETAPPE_GRAD]
+    fern = [p for p in anker if p not in nah]
+    if fern:
+        print(f"  {len(fern)} ferne Etappe(n) ausserhalb des Netzes — dafür Luftlinie statt Fussweg: "
+              + ", ".join(f"{p[0]:.4f}/{p[1]:.4f}" for p in sorted(set(fern))))
+    lons = [p[0] for p in nah]
+    lats = [p[1] for p in nah]
     bbox = (min(lons) - marge, min(lats) - marge, max(lons) + marge, max(lats) + marge)
+    GRAPH_BBOX = (bbox[0], bbox[2], bbox[1], bbox[3])
     print(f"Lade Fussgängernetz via OSMnx (Bbox {bbox[0]:.4f},{bbox[1]:.4f} .. {bbox[2]:.4f},{bbox[3]:.4f})...")
     GRAPH = ox.graph_from_bbox(bbox=bbox, network_type="walk", simplify=True)
     print(f"  Netz geladen: {len(GRAPH.nodes)} Knoten, {len(GRAPH.edges)} Kanten")
@@ -348,6 +469,10 @@ def berechne_fussweg(graph, lon0, lat0, lon1, lat1):
     Fällt bei Fehlern auf die Luftlinie zurück (dieselbe Semantik wie
     berechne_etappe in baue-kapitel-stationen.py)."""
     if lon0 == lon1 and lat0 == lat1:
+        return [[lon0, lat0], [lon1, lat1]], False
+    if not (im_netz(lon0, lat0) and im_netz(lon1, lat1)):
+        # Ferne Etappe (siehe FERNE_ETAPPE_GRAD): ox.nearest_nodes würde den
+        # Punkt sonst STUMM auf den nächstgelegenen Pariser Knoten snappen.
         return [[lon0, lat0], [lon1, lat1]], False
     try:
         start = ox.nearest_nodes(graph, lon0, lat0)
