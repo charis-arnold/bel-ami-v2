@@ -309,9 +309,14 @@ function bereinigeUebersichtsrouten(rohdaten) {
 // muss der Radius mit sqrt(n) wachsen. Verhindert, dass grosse Unterschiede
 // (z.B. 31 vs. 12 Annotationen) am Deckel optisch verschwinden, wie es bei
 // einer linearen r = BASIS + n*MULT-Formel mit niedrigem Deckel passiert.
-function kreisRadius(n) {
-  const BASIS = 6, K = 11.5, MAX = 100;
-  return n > 0 ? Math.min(MAX, BASIS + K * Math.sqrt(n)) : 0;
+// maxRadius: Obergrenze, damit sehr grosse Kreise die Karte nicht sprengen.
+// Die Übersichtskarten-Knoten (zeichneVergleichsKnoten) übergeben bewusst
+// Infinity und skalieren stattdessen selbst — bei ihnen summieren sich alle
+// 18 Kapitel auf, fünf von sechs Orten liefen sonst in den Deckel und wären
+// am Ende gleich gross, genau dort wo der Vergleich Unterschiede zeigen soll.
+function kreisRadius(n, maxRadius = 100) {
+  const BASIS = 6, K = 11.5;
+  return n > 0 ? Math.min(maxRadius, BASIS + K * Math.sqrt(n)) : 0;
 }
 
 // Manche ortRuns-Einträge tragen den Namen eines späteren Halteorts, werden

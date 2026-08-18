@@ -1727,7 +1727,13 @@ function zeichneVollkreis(cx, cy, r, farbeRgb, alphaSkala = 1, blend = false) {
 // liegender Kreise würde eine links/rechts-Teilung benachbarte Kreise
 // gegenseitig überlappen/verdecken, eine oben/unten-Teilung bleibt dagegen
 // innerhalb der eigenen Spalte.
-function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF_PI) {
+// radiusSkala/maxRadius: nur die Übersichtskarten-Knoten nutzen sie (siehe
+// zeichneVergleichsKnoten) — dort werden die Radien ohne Deckel berechnet und
+// danach gemeinsam so weit verkleinert, dass die senkrecht gestaffelten Kreise
+// ins Fenster passen. Die Skalierung greift am fertigen Radius, nicht über
+// eine Canvas-Transformation: so behalten Schraffur-Abstand und Strichstärken
+// ihre normale Grösse.
+function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF_PI, radiusSkala = 1, maxRadius = 100) {
   // Zwei Ebenen, jede für sich nach Radius geordnet (kleinste zuoberst,
   // mittlere danach, grösste zuunterst): unten die schraffierten
   // Gesamt-Kreise (neg+pos+neutral+unrated) der 3 Kategorien, darüber die
@@ -1743,7 +1749,7 @@ function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF
   KREIS_KATEGORIEN.forEach(k => {
     let bc = bandCounts[k.key] || {};
     let n = (bc.neg || 0) + (bc.pos || 0) + (bc.neutral || 0) + (bc.unrated || 0);
-    let hatchR = kreisRadius(n);
+    let hatchR = kreisRadius(n, maxRadius) * radiusSkala;
     if (hatchR > groessterHatchRadius) groessterHatchRadius = hatchR;
     if (hatchR > 0) {
       let hex = '#' + k.farbe.map(v => v.toString(16).padStart(2, '0')).join('');
@@ -1760,9 +1766,9 @@ function zeichneKreiseFuerRun(cx, cy, bandCounts, alphaSkala = 1, winkel = -HALF
     // unten — dort liegen die Kreise auf einer waagrechten Linie, eine
     // Links/Rechts-Teilung liefe mit der Leserichtung mit statt quer dazu.
     let blend = k.key !== 'gold_mittel';
-    let negR = kreisRadius(bc.neg || 0);
-    let posR = kreisRadius(bc.pos || 0);
-    let neutralR = kreisRadius(bc.neutral || 0);
+    let negR = kreisRadius(bc.neg || 0, maxRadius) * radiusSkala;
+    let posR = kreisRadius(bc.pos || 0, maxRadius) * radiusSkala;
+    let neutralR = kreisRadius(bc.neutral || 0, maxRadius) * radiusSkala;
     if (negR > 0) flaechenFormen.push({ r: negR, zeichne: () => zeichneHalbkreis(cx, cy, negR, winkel - HALF_PI, k.farbe, alphaSkala, blend) });
     if (posR > 0) flaechenFormen.push({ r: posR, zeichne: () => zeichneHalbkreis(cx, cy, posR, winkel + HALF_PI, k.farbe, alphaSkala, blend) });
     // Neutrale Valenz: ganzer flächiger Kreis statt Halbkreis — hat keine
@@ -1948,63 +1954,221 @@ function zeichneRoute(punkte, upToIndex, bbox, strichstaerke = 2, offsetX = mapO
   }
 }
 
-// Redaktion La Vie Française: einziger Ort, der durch fast alle Kapitel
-// hindurch wiederkehrt (siehe kreisVergleichOrte/kreisvergleich-orte.json,
-// zeichneKreisVergleich) — bekommt in der Übersichtskarte (alle Kapitel)
-// deshalb einen eigenen, von den einzelnen Kapitel-Routen UNABHÄNGIGEN
-// Knoten: eine senkrechte Linie von seiner echten Koordinate nach unten zu
-// einem eigenen Kreisdiagramm. Das Kreisdiagramm wächst analog zu den
-// Kapitelrouten (zeichneUebersichtsrouten oben, siehe Aufruf dort) — nutzt
-// dieselbe i/n..(i+1)/n-Slice des Akts pro Kapitel, summiert dabei aber
-// LIVE über zaehleAnnotationenLiveNachOrtBasis auf (statt der in
-// kreisvergleich-orte.json fest vorberechneten Kapitel-Summen), damit es
-// innerhalb der Slice jedes Kapitels genauso fein mitwächst wie dessen
-// Route. Kapitel 1 ist zu diesem Zeitpunkt bereits vollständig durchlaufen
-// (eigener Scroll-Akt davor) und zählt daher von Anfang an voll, ohne
-// lokalerFortschritt-Gate.
-const REDAKTION_ORT = 'Redaktion La Vie Française';
-const REDAKTION_LINIE_LAENGE = 220; // px, senkrechte Linie zum Kreis darunter — ggf. nach Sichtprüfung anpassen
+// Kapitelübergreifende Orte auf der Übersichtskarte (alle Kapitel): je ein
+// eigener, von den einzelnen Kapitel-Routen UNABHÄNGIGER Knoten — eine Linie
+// von der echten Koordinate zu einem eigenen Kreisdiagramm. Die Auswahl ist
+// dieselbe wie im Kreisvergleich des Schlussakts (siehe zeichneKreisVergleich):
+// die sechs Orte, die den Roman tragen.
+//
+// Warum eine Reihe statt sechs senkrechter Linien: Die Anker liegen zu dicht
+// beieinander — Rue Boursault, Rue Constantinople und Haus Walter innerhalb
+// von 4px derselben Bildspalte. Bei einem Maximalradius von 100px bräuchten
+// allein diese drei 440px vertikalen Versatz, mehr als die halbe Fensterhöhe.
+// Die Kreise stehen deshalb in einer Reihe am unteren Kartenrand, jeder mit
+// seiner eigenen Zuführungslinie zur echten Position — dieselbe Bildsprache
+// wie beim früheren Einzelknoten der Redaktion, nur aufgefächert.
+//
+// Orte mit zwei Namen teilen sich einen Anker: Rue Fontaine (Forestiers
+// Wohnung, dann Duroys) und Rue Constantinople sind ohnehin dieselbe Adresse
+// (0m), die Madeleine-Varianten liegen 51m auseinander. Nur die beiden
+// Walter-Adressen sind 465m getrennt — auf dieser Karte 34px, weniger als ein
+// Kreisradius; der Anker liegt in ihrer Mitte.
+//
+// Das Kreisdiagramm wächst analog zu den Kapitelrouten (zeichneUebersichts-
+// routen, siehe Aufruf dort): dieselbe i/n..(i+1)/n-Slice des Akts pro
+// Kapitel, live über zaehleAnnotationenLiveNachOrtBasis aufsummiert (statt
+// der in kreisvergleich-orte.json fest vorberechneten Kapitel-Summen), damit
+// es innerhalb jeder Kapitel-Slice genauso fein mitwächst wie dessen Route.
+// Kapitel 1 ist zu diesem Zeitpunkt bereits vollständig durchlaufen (eigener
+// Scroll-Akt davor) und zählt daher von Anfang an voll.
+const VERGLEICHS_KNOTEN = [
+  { label: 'Redaktion La Vie Française', lon: 2.34663, lat: 48.87224,
+    namen: ['Redaktion La Vie Française'] },
+  { label: 'Wohnung Duroy/Madeleine (17 Rue Fontaine)', lon: 2.33417, lat: 48.88147,
+    namen: ['Wohnung Forestier (17 Rue Fontaine)', 'Wohnung Duroy/Madeleine (17 Rue Fontaine)'] },
+  { label: 'Rue Constantinople 127', lon: 2.31921, lat: 48.88037,
+    namen: ['Rue Constantinople 127', 'Wohnung Du Roy (Rue Constantinople 127)'] },
+  { label: 'Palais Walter, Faubourg Saint-Honoré', lon: 2.31919, lat: 48.87126,
+    namen: ['Boulevard Malesherbes (Walters Haus)', 'Palais Walter, Faubourg Saint-Honoré'] },
+  { label: 'Georges Duroys Wohnung (Rue Boursault)', lon: 2.31879, lat: 48.88519,
+    namen: ['Georges Duroys Wohnung (Rue Boursault)'] },
+  { label: 'Place de la Madeleine', lon: 2.32439, lat: 48.86993,
+    namen: ['Place de la Madeleine', 'Église de la Madeleine, Paris'] },
+];
+const VERGLEICHS_KNOTEN_LINIE_MIN = 24;   // kürzeste senkrechte Zuführungslinie
+const VERGLEICHS_KNOTEN_ABSTAND = 12;     // Luft zwischen zwei Knoten
+const VERGLEICHS_KNOTEN_LABEL_ABSTAND = 10;
+const VERGLEICHS_KNOTEN_RAND_UNTEN = 26;  // Luft unter der Beschriftung
 
-function zeichneRedaktionKnoten(bbox, kapitelListe, n, fortschritt, alpha) {
-  let effAlpha = zoomedKapitel ? alpha * (1 - kapitelZoomAmount) : alpha;
-  if (effAlpha <= 0) return;
+// Rohradien (ohne Deckel) und F-Wert-Annotationen je Knoten, über alle
+// Kapitel summiert. Einmal berechnet — die Reihenfolge und die Staffelung
+// richten sich nach dem ENDSTAND, sonst rückten die Kreise bei jedem
+// Wachstumsschritt neu übereinander.
+let vergleichsKnotenEndstand = null;
+let vergleichsKnotenLayout = null; // { breite, hoehe, skala, plaetze: [{cy, radius}] }
 
-  let redaktionRun = stationenData.ortRuns && stationenData.ortRuns.find(r => r.ort === REDAKTION_ORT);
-  if (!redaktionRun) return;
+function vergleichsKnotenRohradius(bandCounts) {
+  let r = 0;
+  KREIS_KATEGORIEN.forEach(kat => {
+    let b = bandCounts[kat.key] || {};
+    r = Math.max(r, kreisRadius((b.neg || 0) + (b.pos || 0) + (b.neutral || 0) + (b.unrated || 0), Infinity));
+  });
+  return r;
+}
 
-  let filter = wohnungFilterFuerOrt(REDAKTION_ORT);
-  let bandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, stationenData.annotationen.length - 1, stationenData);
-
-  kapitelListe.forEach(([kapitelNr, punkte], i) => {
+// Summiert die Treffer eines Knotens: Kapitel 1 vollständig (es ist zu diesem
+// Zeitpunkt bereits durchlaufen), die Kapitel 02–18 je nach Fortschritt ihrer
+// eigenen Slice des Akts. fortschritt = null zählt alle Kapitel voll.
+function vergleichsKnotenDaten(knoten, kapitelListe, n, fortschritt) {
+  let filter = new Set(knoten.namen);
+  let letzterIndex = stationenData.annotationen.length - 1;
+  let bandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, letzterIndex, stationenData);
+  let fwerte = sammleAnnotationenNachOrtBasis(filter, letzterIndex, stationenData).filter(a => a.hasFwert);
+  kapitelListe.forEach(([kapitelNr], i) => {
     let daten = datenFuerKapitel(kapitelNr);
     if (!daten || !daten.annotationen || !daten.annotationen.length) return;
-    let lokalerFortschritt = constrain(map(fortschritt, i / n, (i + 1) / n, 0, 1), 0, 1);
-    if (lokalerFortschritt <= 0) return;
-    let annIndex = Math.min(daten.annotationen.length - 1, Math.floor(lokalerFortschritt * daten.annotationen.length));
+    let annIndex;
+    if (fortschritt === null) {
+      annIndex = daten.annotationen.length - 1;
+    } else {
+      let lokal = constrain(map(fortschritt, i / n, (i + 1) / n, 0, 1), 0, 1);
+      if (lokal <= 0) return;
+      annIndex = Math.min(daten.annotationen.length - 1, Math.floor(lokal * daten.annotationen.length));
+    }
     let kapitelBandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten);
     ['gold_dunkel', 'gold_mittel', 'gold_hell'].forEach(cat => {
       ['neg', 'pos', 'neutral', 'unrated'].forEach(v => {
         bandCounts[cat][v] += kapitelBandCounts[cat][v];
       });
     });
+    fwerte = fwerte.concat(sammleAnnotationenNachOrtBasis(filter, annIndex, daten).filter(a => a.hasFwert));
   });
+  return { bandCounts, fwerte };
+}
 
-  let pos = lonLatToScreen(redaktionRun.lon, redaktionRun.lat, bbox, 0, 0);
-  let cy = pos.y + REDAKTION_LINIE_LAENGE;
+// Aussenradius inklusive der F-Wert-Ringe — dieselbe Ringlogik wie in
+// zeichneFwertPunkte, damit die Staffelung den tatsächlichen Platzbedarf
+// kennt und nicht nur den Kreis.
+function vergleichsKnotenAussenradius(radius, fwerte) {
+  if (!fwerte.length || radius <= 0) return radius;
+  const DRITTEL = TWO_PI / 3;
+  let gruppen = [[], [], []];
+  fwerte.forEach(a => {
+    let g = a.valenz === -1 ? 0 : a.valenz === 1 ? 1 : 2;
+    gruppen[g].push(FWERT_PUNKT_DURCHMESSER[FWERT_PUNKTGROESSE[a.fWertType] || 1]);
+  });
+  let aussen = radius;
+  gruppen.forEach(formen => {
+    if (!formen.length) return;
+    let ringRadius = radius + FWERT_PUNKT_RAND_ABSTAND;
+    let rest = formen;
+    while (rest.length) {
+      let bogenlaenge = ringRadius * DRITTEL;
+      let platz = 0, anzahl = 0;
+      for (let d of rest) {
+        if (anzahl > 0 && platz + d + 2 > bogenlaenge) break;
+        platz += d + 2; anzahl++;
+      }
+      rest = rest.slice(anzahl);
+      aussen = Math.max(aussen, ringRadius + Math.max(...formen) / 2);
+      ringRadius += FWERT_PUNKT_RING_ABSTAND;
+    }
+  });
+  return aussen;
+}
 
-  stroke(ROUTE_COLOR_RGB.r, ROUTE_COLOR_RGB.g, ROUTE_COLOR_RGB.b, effAlpha);
-  strokeWeight(1.5);
-  line(pos.x, pos.y, pos.x, cy);
+// Senkrechte Staffelung: jeder Kreis hängt an einer senkrechten Linie unter
+// seinem echten Ort. Weil drei Anker innerhalb weniger Pixel derselben
+// Bildspalte liegen, müssen die Kreise weit auseinanderrücken — deshalb wird
+// die gemeinsame Radius-Skala per Halbierungssuche so gross gewählt, wie sie
+// gerade noch ins Fenster passt. Auf hohen Fenstern werden die Kreise dadurch
+// von selbst grösser.
+function berechneVergleichsKnotenLayout(anker) {
+  if (vergleichsKnotenLayout && vergleichsKnotenLayout.breite === width
+    && vergleichsKnotenLayout.hoehe === height) return vergleichsKnotenLayout;
 
-  let radius = zeichneKreiseFuerRun(pos.x, cy, bandCounts, effAlpha / 255);
+  let reihenfolge = anker.map((a, i) => i).sort((i, j) => anker[i].y - anker[j].y);
+  let versuch = (skala) => {
+    let plaetze = [];
+    let gesetzt = [];
+    let unterkante = 0;
+    for (let i of reihenfolge) {
+      let radius = vergleichsKnotenEndstand[i].rohradius * skala;
+      let aussen = vergleichsKnotenAussenradius(radius, vergleichsKnotenEndstand[i].fwerte);
+      let cy = anker[i].y + VERGLEICHS_KNOTEN_LINIE_MIN + aussen;
+      for (let runde = 0; runde < 30; runde++) {
+        let noetig = cy;
+        gesetzt.forEach(g => {
+          if (Math.abs(anker[i].x - g.x) < aussen + g.aussen + VERGLEICHS_KNOTEN_ABSTAND) {
+            noetig = Math.max(noetig, g.cy + g.aussen + VERGLEICHS_KNOTEN_ABSTAND + aussen);
+          }
+        });
+        if (noetig <= cy + 0.01) break;
+        cy = noetig;
+      }
+      gesetzt.push({ x: anker[i].x, cy, aussen });
+      plaetze[i] = { cy, radius, aussen };
+      unterkante = Math.max(unterkante, cy + aussen);
+    }
+    return { plaetze, unterkante };
+  };
 
-  noStroke();
-  fill(33, 43, 46, effAlpha); // #212B2E, wie die Kapitelnummern
+  let lo = 0.05, hi = 1.0;
+  let passt = (s) => versuch(s).unterkante
+    + VERGLEICHS_KNOTEN_LABEL_ABSTAND + 14 + VERGLEICHS_KNOTEN_RAND_UNTEN <= height;
+  for (let k = 0; k < 24; k++) {
+    let mitte = (lo + hi) / 2;
+    if (passt(mitte)) lo = mitte; else hi = mitte;
+  }
+  vergleichsKnotenLayout = { breite: width, hoehe: height, skala: lo, plaetze: versuch(lo).plaetze };
+  return vergleichsKnotenLayout;
+}
+
+function zeichneVergleichsKnoten(bbox, kapitelListe, n, fortschritt, alpha) {
+  let effAlpha = zoomedKapitel ? alpha * (1 - kapitelZoomAmount) : alpha;
+  if (effAlpha <= 0 || !stationenData || !stationenData.annotationen) return;
+
+  if (!vergleichsKnotenEndstand) {
+    vergleichsKnotenEndstand = VERGLEICHS_KNOTEN.map(k => {
+      let { bandCounts, fwerte } = vergleichsKnotenDaten(k, kapitelListe, n, null);
+      return { rohradius: vergleichsKnotenRohradius(bandCounts), fwerte };
+    });
+    vergleichsKnotenLayout = null;
+  }
+
+  let anker = VERGLEICHS_KNOTEN.map(k => lonLatToScreen(k.lon, k.lat, bbox, 0, 0));
+  let layout = berechneVergleichsKnotenLayout(anker);
+
   textFont("'Source Sans 3', sans-serif");
   textStyle(BOLD);
   textSize(11);
   textAlign(CENTER, TOP);
-  drawingContext.fillText('REDAKTION', pos.x, cy + (radius > 0 ? radius : 4) + 10);
+
+  VERGLEICHS_KNOTEN.forEach((k, i) => {
+    let platz = layout.plaetze[i];
+    if (!platz) return;
+    let { bandCounts, fwerte } = vergleichsKnotenDaten(k, kapitelListe, n, fortschritt);
+
+    // Senkrechte Zuführungslinie vom echten Ort zum Kreis, plus ein Punkt an
+    // der Koordinate selbst, damit die Verankerung sichtbar bleibt.
+    stroke(ROUTE_COLOR_RGB.r, ROUTE_COLOR_RGB.g, ROUTE_COLOR_RGB.b, effAlpha);
+    strokeWeight(1.5);
+    line(anker[i].x, anker[i].y, anker[i].x, platz.cy);
+    noStroke();
+    drawingContext.fillStyle = `rgba(${ROUTE_COLOR_RGB.r}, ${ROUTE_COLOR_RGB.g}, ${ROUTE_COLOR_RGB.b}, ${effAlpha / 255})`;
+    drawingContext.beginPath();
+    drawingContext.arc(anker[i].x, anker[i].y, 3, 0, TWO_PI);
+    drawingContext.fill();
+
+    let radius = zeichneKreiseFuerRun(anker[i].x, platz.cy, bandCounts, effAlpha / 255,
+      -HALF_PI, layout.skala, Infinity);
+    zeichneFwertPunkte(anker[i].x, platz.cy, radius, fwerte, effAlpha / 255);
+
+    noStroke();
+    fill(33, 43, 46, effAlpha); // #212B2E, wie die Kapitelnummern
+    drawingContext.fillText(k.label.toUpperCase(), anker[i].x,
+      platz.cy + platz.aussen + VERGLEICHS_KNOTEN_LABEL_ABSTAND);
+  });
   textStyle(NORMAL);
 }
 
@@ -2267,7 +2431,7 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   textStyle(NORMAL);
   cursor(kapitelHover ? HAND : ARROW);
 
-  zeichneRedaktionKnoten(bbox, kapitelListe, n, fortschritt, alpha);
+  zeichneVergleichsKnoten(bbox, kapitelListe, n, fortschritt, alpha);
 
   // aktuelleAnnotationZoom: für die Annotationsbox in draw() (nur bei
   // Kapitel 02–18 relevant — Kapitel 1s eigene Annotation läuft weiterhin
