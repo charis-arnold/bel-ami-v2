@@ -300,13 +300,20 @@ SAMMELPUNKTE = {
         "Fahrt über die Champs-Élysées und durch das Bois": (2.2850, 48.8690),
         # Die ganze Landpartie ausserhalb der Stadt — Bougival und Pecq, das
         # Frühstück im Pavillon Henri IV, die Terrasse von Le Nôtre, die
-        # Rückfahrt über Chatou — sammelt sich an EINEM Punkt am Westrand des
-        # Bois, kurz vor dem Seineübergang bei Suresnes. Das ist dieselbe
+        # Rückfahrt über Chatou — sammelt sich an EINEM Punkt im Bois, auf der
+        # Allée de Longchamp Richtung Seineübergang. Das ist dieselbe
         # Konvention wie Cannes in Kapitel 8 und die Rouen-Reise in Kapitel 9:
         # die auswärtige Etappe wächst dort, wo die Stadt verlassen wird.
         # Vorher standen hier drei einzelne Stationen bis Saint-Germain, 14,6 km
         # westlich der Kartenkante.
-        "Fahrt über die Seine nach Saint-Germain und zurück": (2.2400, 48.8720),
+        # Zuvor lag der Punkt bei 2.2400 direkt auf der Seine — und damit auf
+        # den meisten Fenstern AUSSERHALB des sichtbaren Kartenausschnitts:
+        # mapOffsetX (-250px) schiebt die Karte nach links, der Punkt landete
+        # bei 1440x800 auf x = -51, bei 1280x1024 sogar auf x = -194. Bei
+        # 2.2600 steht er auf allen üblichen Fenstern mit mindestens 144px
+        # Rand frei, ohne dass der Kartenausschnitt geändert werden muss, und
+        # bleibt 1.2 km von "La Roche-Guyon" entfernt (keine Kreisüberlappung).
+        "Fahrt über die Seine nach Saint-Germain und zurück": (2.2600, 48.8720),
         # Nach der Scheidung wohnt er wieder in seiner Junggesellenwohnung —
         # kapitel18-stationen.json beginnt dort ("Rue Constantinople 127"),
         # und die Wohnung Rue Fontaine war Madeleines (Forestiers) gewesen.
@@ -315,15 +322,35 @@ SAMMELPUNKTE = {
         "Place de la Concorde (Droschke vor dem Marineministerium)": (2.3212, 48.8656),
         # "Wir fahren mit diesem Wagen nach Sevres" — Sèvres selbst wird nur
         # angekündigt, nie gezeigt; der Punkt liegt auf der Ausfahrtstrecke.
-        "Fahrt aus Paris Richtung Sèvres": (2.2750, 48.8480),
+        # Am Quai auf Höhe des Pont de l'Alma: dort rollt die Droschke von der
+        # Place de la Concorde ("Der Wagen rollte durch die Straßen", Annotation
+        # 62) die Seine entlang aus der Stadt Richtung Südwesten. Vorher lag der
+        # Punkt bei 2.2750/48.8480 am Pont Mirabeau und damit am UNTEREN
+        # Bildrand — bei 1680x900 auf y = 867 von 900, also angeschnitten.
+        "Fahrt aus Paris Richtung Sèvres": (2.2950, 48.8610),
         # Ferne Etappe, 65 km seineabwärts. Nach der Projektkonvention (wie
         # Cannes in Kapitel 8, Rouen in Kapitel 9) bekommt sie keine echte
-        # Koordinate, sondern einen Ersatzpunkt DORT, WO DIE STADT VERLASSEN
-        # WIRD — 335 m hinter dem Sèvres-Ausfahrtspunkt, in derselben
-        # Fahrtrichtung. Dieselbe Distanz wie Cannes zum Gare de Lyon und die
-        # Rouen-Reise zum Gare Saint-Lazare. Vorher stand der Punkt bei
-        # 2.1480/48.8995 und lag als einziger ausserhalb des Basisbilds.
-        "La Roche-Guyon an der Seine": (2.271031, 48.846488),
+        # Koordinate, sondern einen Ersatzpunkt in ABFAHRTSRICHTUNG, hinter dem
+        # Punkt der vorangehenden Etappe.
+        #
+        # Entscheidend ist Annotation 59/60: "Es ist zu spät, wir können keinen
+        # Zug mehr erreichen. Wir fahren mit diesem Wagen nach Sevres und dort
+        # übernachten wir, und morgen früh reisen wir nach La Roche Guyon
+        # weiter." Die Weiterreise beginnt also in SÈVRES, nicht in Paris — sie
+        # verlassen die Stadt nach Südwesten, obwohl La Roche-Guyon in
+        # Luftlinie nordwestlich liegt. Der Punkt gehört deshalb auf dieselbe
+        # südwestliche Seine-Achse wie der Sèvres-Punkt, nur weiter draussen:
+        # Quai de Passy auf Höhe des Pont de Grenelle, 1.4 km hinter jenem.
+        # Reihenfolge auf der Karte damit: Concorde -> Sèvres-Fahrt ->
+        # La Roche-Guyon, immer weiter stadtauswärts.
+        #
+        # Zwischenzeitlich stand der Punkt bei 2.2700/48.8600 in Passy am
+        # Jardin du Ranelagh — nordwestlich, also in Luftlinienrichtung des
+        # echten Orts. Das war falsch: es widerspricht dem Text (Abfahrt über
+        # Sèvres) und setzte ihn mitten in die Stadt, wo Duroy nie war.
+        # Davor: 2.1480/48.8995 (ausserhalb des Basisbilds) bzw.
+        # 2.2710/48.8465 (bei 1440x800 auf y = 801 von 800, unten abgeschnitten).
+        "La Roche-Guyon an der Seine": (2.2800, 48.8535),
     },
     # Kapitel 18 (Bel-Ami II/10, Schlusskapitel): die letzte Szene mit
     # Clotilde in der Junggesellenwohnung, dann die Hochzeit in der Madeleine.
@@ -635,15 +662,80 @@ def leere_bandcounts():
     }
 
 
+# ── Ausgeschlossene Annotationen ───────────────────────────────────────────
+# Erzählabschnitte, in denen Duroy NICHT anwesend ist. Sie gehören zu keinem
+# Ort seiner Stadtwahrnehmung: die Route spränge mitten in einer Reise in die
+# Stadt zurück und wieder hinaus, und der Kreis am Schauplatz wüchse um
+# Annotationen, die gar nicht seine sind.
+#
+# Angegeben als [start, ende) in der URSPRÜNGLICHEN Nummerierung. Jeder Bereich
+# muss genau einen oder mehrere ganze Blöcke aus BLOECKE abdecken — sonst
+# bricht wende_ausschluss_an() ab, statt eine Blockgrenze stillschweigend zu
+# verschieben.
+AUSGESCHLOSSEN = {
+    # Kapitel 17, Annotation 66–104: der Erzählschnitt zurück ins Palais
+    # Walter, während Duroy mit Suzanne aus Paris fährt — das leere Bett, der
+    # Zusammenbruch Walters, Frau Walters Nacht im Wintergarten vor dem
+    # Christusbild. 39 Annotationen, in denen Duroy 60 km entfernt ist.
+    # Ohne den Ausschluss lief die Route von der Ausfahrt Richtung Sèvres
+    # zurück ins Palais und von dort ein zweites Mal hinaus nach La
+    # Roche-Guyon, und der Palais-Kreis zählte 46 statt 7 Annotationen.
+    "17": [(66, 105)],
+}
+
+
+def wende_ausschluss_an(nr, daten, bloecke):
+    """Entfernt die ausgeschlossenen Annotationen und rechnet die Blockgrenzen
+    auf die neue Nummerierung um.
+
+    Idempotent: das Skript liest und schreibt dieselbe Datei, ein zweiter Lauf
+    fände die Annotationen also schon entfernt vor. Der Marker
+    "ausgeschlosseneAnnotationen" im JSON hält fest, dass es bereits geschehen
+    ist. Die Umrechnung der Blockgrenzen läuft trotzdem in JEDEM Lauf — sie
+    hängt nur an AUSGESCHLOSSEN, nicht am Dateizustand.
+    """
+    bereiche = AUSGESCHLOSSEN.get(nr)
+    if not bereiche:
+        return bloecke
+
+    raus = set()
+    for a, b in bereiche:
+        raus.update(range(a, b))
+    schon = daten.get("ausgeschlosseneAnnotationen") is not None
+    n_original = len(daten["annotationen"]) + (len(raus) if schon else 0)
+
+    starts = [s for s, _ in bloecke]
+    for a, b in bereiche:
+        if a not in starts:
+            raise ValueError(f"Kapitel {nr}: Ausschluss {a}–{b - 1} beginnt nicht auf einer "
+                             f"Blockgrenze (Blockstarts: {starts})")
+        if b not in starts and b != n_original:
+            raise ValueError(f"Kapitel {nr}: Ausschluss {a}–{b - 1} endet nicht auf einer "
+                             f"Blockgrenze (Blockstarts: {starts}, Kapitelende: {n_original})")
+
+    versatz = lambda i: i - sum(1 for x in raus if x < i)
+    neue_bloecke = [(versatz(s), name) for s, name in bloecke if s not in raus]
+
+    if not schon:
+        daten["annotationen"] = [a for i, a in enumerate(daten["annotationen"]) if i not in raus]
+        daten["ausgeschlosseneAnnotationen"] = [[a, b] for a, b in bereiche]
+        print(f"  Ausschluss: {len(raus)} Annotationen entfernt "
+              f"({', '.join(f'{a}-{b - 1}' for a, b in bereiche)}), "
+              f"{len(daten['annotationen'])} verbleiben.")
+    else:
+        print(f"  Ausschluss bereits angewendet ({len(raus)} Annotationen).")
+    return neue_bloecke
+
+
 # ── Hauptarbeit ────────────────────────────────────────────────────────────
 def verarbeite_kapitel(nr):
     pfad = os.path.join(PROJEKT_ROOT, f"kapitel{nr}-stationen.json")
     with open(pfad, encoding="utf-8") as f:
         daten = json.load(f)
 
+    bloecke = wende_ausschluss_an(nr, daten, BLOECKE[nr])
     annotationen = daten["annotationen"]
     n = len(annotationen)
-    bloecke = BLOECKE[nr]
     punkte = SAMMELPUNKTE[nr]
 
     # ── Plausibilität der Blockliste ──────────────────────────────────────

@@ -15,7 +15,7 @@
     },
     {
       "ort": "Fahrt über die Seine nach Saint-Germain und zurück",
-      "lon": 2.24,
+      "lon": 2.26,
       "lat": 48.872,
       "revealIndex": 8
     },
@@ -39,21 +39,15 @@
     },
     {
       "ort": "Fahrt aus Paris Richtung Sèvres",
-      "lon": 2.275,
-      "lat": 48.848,
+      "lon": 2.295,
+      "lat": 48.861,
       "revealIndex": 55
     },
     {
-      "ort": "Palais Walter, Faubourg Saint-Honoré",
-      "lon": 2.316,
-      "lat": 48.8712,
-      "revealIndex": 66
-    },
-    {
       "ort": "La Roche-Guyon an der Seine",
-      "lon": 2.271031,
-      "lat": 48.846488,
-      "revealIndex": 105,
+      "lon": 2.28,
+      "lat": 48.8535,
+      "revealIndex": 66,
       "routeEndsHere": true
     }
   ],
@@ -93,123 +87,123 @@
       48.869
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.24,
+      2.26,
       48.872
     ],
     [
@@ -281,256 +275,100 @@
       48.8656
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.275,
-      48.848
+      2.295,
+      48.861
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
+      2.28,
+      48.8535
     ],
     [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
-    ],
-    [
-      2.271031,
-      48.846488
+      2.28,
+      48.8535
     ]
   ],
   "routenPfadDetail": [
@@ -1091,416 +929,56 @@
       48.8733521
     ],
     [
-      2.2663803,
-      48.8733692
+      2.2645351,
+      48.8726663
     ],
     [
-      2.2660733,
-      48.8734629
+      2.2642792,
+      48.8725753
     ],
     [
-      2.264533,
-      48.873787
+      2.2631297,
+      48.8721636
     ],
     [
-      2.2643675,
-      48.8738111
+      2.2630393,
+      48.8721256
     ],
     [
-      2.2640105,
-      48.8738658
+      2.2630354,
+      48.872126
     ],
     [
-      2.2623295,
-      48.8741084
+      2.2607324,
+      48.8712954
     ],
     [
-      2.2612201,
-      48.8742805
-    ],
-    [
-      2.2611074,
-      48.874298
-    ],
-    [
-      2.2606281,
-      48.874233
-    ],
-    [
-      2.2602377,
-      48.874275
-    ],
-    [
-      2.2595669,
-      48.8743608
-    ],
-    [
-      2.2589305,
-      48.8744134
-    ],
-    [
-      2.2578128,
-      48.8744861
-    ],
-    [
-      2.2560647,
-      48.8739577
-    ],
-    [
-      2.2558945,
-      48.8740687
-    ],
-    [
-      2.2555555,
-      48.8739722
-    ],
-    [
-      2.2555305,
-      48.8741552
-    ],
-    [
-      2.2553697,
-      48.8742801
-    ],
-    [
-      2.2551368,
-      48.8744084
-    ],
-    [
-      2.2548316,
-      48.87431
-    ],
-    [
-      2.2524199,
-      48.8748634
-    ],
-    [
-      2.2523293,
-      48.8748846
-    ],
-    [
-      2.2522415,
-      48.8749059
-    ],
-    [
-      2.252178,
-      48.8749214
-    ],
-    [
-      2.2514633,
-      48.8751037
-    ],
-    [
-      2.2513302,
-      48.8751302
-    ],
-    [
-      2.2498571,
-      48.8754924
-    ],
-    [
-      2.2498245,
-      48.8755117
-    ],
-    [
-      2.2496042,
-      48.8755688
-    ],
-    [
-      2.2495674,
-      48.8755702
-    ],
-    [
-      2.2480755,
-      48.8759388
-    ],
-    [
-      2.2480244,
-      48.875952
-    ],
-    [
-      2.2479212,
-      48.8759698
-    ],
-    [
-      2.2478112,
-      48.876003
-    ],
-    [
-      2.2467852,
-      48.8762581
-    ],
-    [
-      2.246684,
-      48.8762236
-    ],
-    [
-      2.2466083,
-      48.8762465
-    ],
-    [
-      2.2464089,
-      48.8763085
-    ],
-    [
-      2.2462445,
-      48.8763852
-    ],
-    [
-      2.2462135,
-      48.8763864
-    ],
-    [
-      2.244203,
-      48.8773657
-    ],
-    [
-      2.2441227,
-      48.8774068
-    ],
-    [
-      2.2435012,
-      48.8770779
-    ],
-    [
-      2.2434553,
-      48.8770451
-    ],
-    [
-      2.243376,
-      48.8769271
-    ],
-    [
-      2.2437188,
-      48.8765913
-    ],
-    [
-      2.2438372,
-      48.8764618
-    ],
-    [
-      2.2441375,
-      48.8763574
-    ],
-    [
-      2.2440824,
-      48.8763078
-    ],
-    [
-      2.2443164,
-      48.8762102
-    ],
-    [
-      2.2410202,
-      48.8730974
-    ],
-    [
-      2.24,
+      2.26,
       48.872
     ],
     [
-      2.2410202,
-      48.8730974
+      2.2607324,
+      48.8712954
     ],
     [
-      2.2443164,
-      48.8762102
+      2.2630354,
+      48.872126
     ],
     [
-      2.2440824,
-      48.8763078
+      2.2630393,
+      48.8721256
     ],
     [
-      2.2441375,
-      48.8763574
+      2.2631297,
+      48.8721636
     ],
     [
-      2.2438372,
-      48.8764618
+      2.2642792,
+      48.8725753
     ],
     [
-      2.2437188,
-      48.8765913
-    ],
-    [
-      2.243376,
-      48.8769271
-    ],
-    [
-      2.2434553,
-      48.8770451
-    ],
-    [
-      2.2435012,
-      48.8770779
-    ],
-    [
-      2.2441227,
-      48.8774068
-    ],
-    [
-      2.244203,
-      48.8773657
-    ],
-    [
-      2.2462135,
-      48.8763864
-    ],
-    [
-      2.2462445,
-      48.8763852
-    ],
-    [
-      2.2464089,
-      48.8763085
-    ],
-    [
-      2.2466083,
-      48.8762465
-    ],
-    [
-      2.246684,
-      48.8762236
-    ],
-    [
-      2.2467852,
-      48.8762581
-    ],
-    [
-      2.2478112,
-      48.876003
-    ],
-    [
-      2.2479212,
-      48.8759698
-    ],
-    [
-      2.2480244,
-      48.875952
-    ],
-    [
-      2.2480755,
-      48.8759388
-    ],
-    [
-      2.2495674,
-      48.8755702
-    ],
-    [
-      2.2496042,
-      48.8755688
-    ],
-    [
-      2.2498245,
-      48.8755117
-    ],
-    [
-      2.2498571,
-      48.8754924
-    ],
-    [
-      2.2513302,
-      48.8751302
-    ],
-    [
-      2.2514633,
-      48.8751037
-    ],
-    [
-      2.252178,
-      48.8749214
-    ],
-    [
-      2.2522415,
-      48.8749059
-    ],
-    [
-      2.2523293,
-      48.8748846
-    ],
-    [
-      2.2524199,
-      48.8748634
-    ],
-    [
-      2.2548316,
-      48.87431
-    ],
-    [
-      2.2551368,
-      48.8744084
-    ],
-    [
-      2.2553697,
-      48.8742801
-    ],
-    [
-      2.2555305,
-      48.8741552
-    ],
-    [
-      2.2555555,
-      48.8739722
-    ],
-    [
-      2.2558945,
-      48.8740687
-    ],
-    [
-      2.2560647,
-      48.8739577
-    ],
-    [
-      2.2578128,
-      48.8744861
-    ],
-    [
-      2.2589305,
-      48.8744134
-    ],
-    [
-      2.2595669,
-      48.8743608
-    ],
-    [
-      2.2602377,
-      48.874275
-    ],
-    [
-      2.2606281,
-      48.874233
-    ],
-    [
-      2.2611074,
-      48.874298
-    ],
-    [
-      2.2612201,
-      48.8742805
-    ],
-    [
-      2.2623295,
-      48.8741084
-    ],
-    [
-      2.2640105,
-      48.8738658
-    ],
-    [
-      2.2643675,
-      48.8738111
-    ],
-    [
-      2.264533,
-      48.873787
-    ],
-    [
-      2.2660733,
-      48.8734629
-    ],
-    [
-      2.2663803,
-      48.8733692
+      2.2645351,
+      48.8726663
     ],
     [
       2.2664346,
@@ -2403,172 +1881,140 @@
       48.8653297
     ],
     [
-      2.3201689,
-      48.8654691
+      2.3204798,
+      48.8646721
     ],
     [
-      2.3199151,
-      48.8650693
+      2.320409,
+      48.8642542
     ],
     [
-      2.3191896,
-      48.8652493
+      2.3199241,
+      48.8642761
     ],
     [
-      2.3187015,
-      48.8649905
+      2.3198302,
+      48.8641596
     ],
     [
-      2.3183509,
-      48.865059
+      2.3199007,
+      48.8640662
     ],
     [
-      2.3179861,
-      48.8651576
+      2.3189693,
+      48.8627896
     ],
     [
-      2.3179004,
-      48.8651612
+      2.3188926,
+      48.8628104
     ],
     [
-      2.3163832,
-      48.8651306
+      2.3178455,
+      48.8630599
     ],
     [
-      2.3163435,
-      48.8651297
+      2.3160144,
+      48.8631823
     ],
     [
-      2.3157844,
-      48.8651171
+      2.3158006,
+      48.8631783
     ],
     [
-      2.3157394,
-      48.865116
+      2.3152154,
+      48.8631673
     ],
     [
-      2.315422,
-      48.8651167
+      2.3141053,
+      48.8631332
     ],
     [
-      2.3141511,
-      48.8650733
+      2.3139417,
+      48.8631313
     ],
     [
-      2.3139863,
-      48.8650698
+      2.3128399,
+      48.8631044
     ],
     [
-      2.3139415,
-      48.865086
+      2.3120151,
+      48.8630753
     ],
     [
-      2.3137166,
-      48.8650906
+      2.3075744,
+      48.8629184
     ],
     [
-      2.3135184,
-      48.8650947
+      2.306237,
+      48.8628747
     ],
     [
-      2.3132979,
-      48.8650521
+      2.3058935,
+      48.8628698
     ],
     [
-      2.3132558,
-      48.8650513
+      2.3056138,
+      48.8628729
     ],
     [
-      2.3131353,
-      48.865049
+      2.3038203,
+      48.8629063
     ],
     [
-      2.3118685,
-      48.8650252
+      2.3032129,
+      48.8628965
     ],
     [
-      2.3114371,
-      48.8650171
+      2.2994643,
+      48.8624726
     ],
     [
-      2.3109423,
-      48.8649991
+      2.2985894,
+      48.8622859
     ],
     [
-      2.3107448,
-      48.8649884
+      2.2980038,
+      48.8621393
     ],
     [
-      2.310511,
-      48.8649832
+      2.2976067,
+      48.8620301
     ],
     [
-      2.3105376,
-      48.8644634
+      2.2974098,
+      48.8619586
     ],
     [
-      2.3103508,
-      48.8644609
+      2.2971831,
+      48.8618674
     ],
     [
-      2.310166,
-      48.8644585
+      2.2951951,
+      48.8608169
     ],
     [
-      2.3101732,
-      48.8643239
+      2.295,
+      48.861
     ],
     [
-      2.3057761,
-      48.8642329
+      2.2951951,
+      48.8608169
     ],
     [
-      2.3022993,
-      48.8641573
+      2.2953585,
+      48.8607087
     ],
     [
-      2.3019616,
-      48.8641416
+      2.2953036,
+      48.8606734
     ],
     [
-      2.3019312,
-      48.8640889
+      2.2951153,
+      48.8607783
     ],
     [
-      2.3014439,
-      48.8640712
-    ],
-    [
-      2.3012852,
-      48.8641073
-    ],
-    [
-      2.2981287,
-      48.8636065
-    ],
-    [
-      2.2966099,
-      48.8632757
-    ],
-    [
-      2.296414,
-      48.8632151
-    ],
-    [
-      2.2962188,
-      48.863155
-    ],
-    [
-      2.2960975,
-      48.8631177
-    ],
-    [
-      2.2925962,
-      48.8613308
-    ],
-    [
-      2.2917382,
-      48.860656
+      2.2931834,
+      48.8594004
     ],
     [
       2.2914247,
@@ -2619,844 +2065,68 @@
       48.8544598
     ],
     [
-      2.2834798,
-      48.8543796
+      2.2835108,
+      48.8544756
     ],
     [
-      2.2812325,
-      48.8529229
+      2.2834271,
+      48.8544099
     ],
     [
-      2.2804871,
-      48.8524936
+      2.2825114,
+      48.8537522
     ],
     [
-      2.2804448,
-      48.852469
+      2.2824011,
+      48.8537801
     ],
     [
-      2.2804785,
-      48.8523986
+      2.2817618,
+      48.8534015
     ],
     [
-      2.2801394,
-      48.8522002
+      2.281468,
+      48.8532206
     ],
     [
-      2.2790127,
-      48.8515096
+      2.2811809,
+      48.8530422
     ],
     [
-      2.2787426,
-      48.8513499
+      2.2811117,
+      48.8530043
     ],
     [
-      2.2787559,
-      48.8513138
+      2.2810165,
+      48.8529629
     ],
     [
-      2.2785056,
-      48.8511689
+      2.2809173,
+      48.8529074
     ],
     [
-      2.2782186,
-      48.8509556
+      2.2805445,
+      48.8531026
     ],
     [
-      2.2781174,
-      48.8510205
+      2.2804948,
+      48.8530644
     ],
     [
-      2.2776702,
-      48.8507104
+      2.2804352,
+      48.8530983
     ],
     [
-      2.2766675,
-      48.8500885
+      2.2803953,
+      48.8531697
     ],
     [
-      2.2764804,
-      48.8499356
+      2.2803501,
+      48.85324
     ],
     [
-      2.2762523,
-      48.8497197
-    ],
-    [
-      2.2760669,
-      48.8495444
-    ],
-    [
-      2.2752519,
-      48.8487502
-    ],
-    [
-      2.2752376,
-      48.8487236
-    ],
-    [
-      2.2751408,
-      48.8486361
-    ],
-    [
-      2.2751163,
-      48.8486108
-    ],
-    [
-      2.2739884,
-      48.8475013
-    ],
-    [
-      2.2738711,
-      48.8475772
-    ],
-    [
-      2.275,
-      48.848
-    ],
-    [
-      2.2738711,
-      48.8475772
-    ],
-    [
-      2.2739884,
-      48.8475013
-    ],
-    [
-      2.2751163,
-      48.8486108
-    ],
-    [
-      2.2751408,
-      48.8486361
-    ],
-    [
-      2.2752376,
-      48.8487236
-    ],
-    [
-      2.2752519,
-      48.8487502
-    ],
-    [
-      2.2760669,
-      48.8495444
-    ],
-    [
-      2.2762523,
-      48.8497197
-    ],
-    [
-      2.2764804,
-      48.8499356
-    ],
-    [
-      2.2766675,
-      48.8500885
-    ],
-    [
-      2.2776702,
-      48.8507104
-    ],
-    [
-      2.2781174,
-      48.8510205
-    ],
-    [
-      2.2782186,
-      48.8509556
-    ],
-    [
-      2.2785056,
-      48.8511689
-    ],
-    [
-      2.2787559,
-      48.8513138
-    ],
-    [
-      2.2787426,
-      48.8513499
-    ],
-    [
-      2.2790127,
-      48.8515096
-    ],
-    [
-      2.2801394,
-      48.8522002
-    ],
-    [
-      2.2804785,
-      48.8523986
-    ],
-    [
-      2.2804448,
-      48.852469
-    ],
-    [
-      2.2804871,
-      48.8524936
-    ],
-    [
-      2.2812325,
-      48.8529229
-    ],
-    [
-      2.2834798,
-      48.8543796
-    ],
-    [
-      2.2835856,
-      48.8544598
-    ],
-    [
-      2.2837521,
-      48.8545875
-    ],
-    [
-      2.285306,
-      48.8558189
-    ],
-    [
-      2.2854412,
-      48.8559284
-    ],
-    [
-      2.2864414,
-      48.856739
-    ],
-    [
-      2.2878751,
-      48.8578093
-    ],
-    [
-      2.2882895,
-      48.8580452
-    ],
-    [
-      2.2906557,
-      48.8598986
-    ],
-    [
-      2.2908347,
-      48.8599707
-    ],
-    [
-      2.2911658,
-      48.8602274
-    ],
-    [
-      2.2912957,
-      48.8603225
-    ],
-    [
-      2.2914247,
-      48.8604093
-    ],
-    [
-      2.2917382,
-      48.860656
-    ],
-    [
-      2.2925962,
-      48.8613308
-    ],
-    [
-      2.2960975,
-      48.8631177
-    ],
-    [
-      2.2962188,
-      48.863155
-    ],
-    [
-      2.296414,
-      48.8632151
-    ],
-    [
-      2.2966099,
-      48.8632757
-    ],
-    [
-      2.2981287,
-      48.8636065
-    ],
-    [
-      2.3012852,
-      48.8641073
-    ],
-    [
-      2.3014439,
-      48.8640712
-    ],
-    [
-      2.3019312,
-      48.8640889
-    ],
-    [
-      2.3019616,
-      48.8641416
-    ],
-    [
-      2.3019803,
-      48.8643392
-    ],
-    [
-      2.3023943,
-      48.8648241
-    ],
-    [
-      2.3025481,
-      48.8648601
-    ],
-    [
-      2.302756,
-      48.8649714
-    ],
-    [
-      2.3029843,
-      48.865095
-    ],
-    [
-      2.3031583,
-      48.8651882
-    ],
-    [
-      2.3035354,
-      48.865408
-    ],
-    [
-      2.3036942,
-      48.8654901
-    ],
-    [
-      2.3039362,
-      48.8656154
-    ],
-    [
-      2.3042572,
-      48.8657815
-    ],
-    [
-      2.3053099,
-      48.8663263
-    ],
-    [
-      2.3063226,
-      48.8668486
-    ],
-    [
-      2.3063838,
-      48.8668688
-    ],
-    [
-      2.3065798,
-      48.8669675
-    ],
-    [
-      2.306625,
-      48.8669837
-    ],
-    [
-      2.3067727,
-      48.8670632
-    ],
-    [
-      2.3076127,
-      48.8674903
-    ],
-    [
-      2.3076466,
-      48.8674849
-    ],
-    [
-      2.3077934,
-      48.8675678
-    ],
-    [
-      2.3092867,
-      48.8684209
-    ],
-    [
-      2.309358,
-      48.8684466
-    ],
-    [
-      2.3095365,
-      48.8685383
-    ],
-    [
-      2.3094992,
-      48.8685709
-    ],
-    [
-      2.3098398,
-      48.8687448
-    ],
-    [
-      2.3100306,
-      48.8686954
-    ],
-    [
-      2.3102548,
-      48.8687022
-    ],
-    [
-      2.3104271,
-      48.8687344
-    ],
-    [
-      2.3106056,
-      48.8689732
-    ],
-    [
-      2.3105161,
-      48.8690747
-    ],
-    [
-      2.3109302,
-      48.8692442
-    ],
-    [
-      2.3114534,
-      48.8695064
-    ],
-    [
-      2.3116092,
-      48.8695944
-    ],
-    [
-      2.311917,
-      48.8697682
-    ],
-    [
-      2.3120097,
-      48.8698124
-    ],
-    [
-      2.3120537,
-      48.8698333
-    ],
-    [
-      2.3122539,
-      48.8699192
-    ],
-    [
-      2.3123659,
-      48.8699232
-    ],
-    [
-      2.3134113,
-      48.8695781
-    ],
-    [
-      2.3134577,
-      48.8695858
-    ],
-    [
-      2.3135736,
-      48.8695296
-    ],
-    [
-      2.3157262,
-      48.8712696
-    ],
-    [
-      2.316,
-      48.8712
-    ],
-    [
-      2.3157262,
-      48.8712696
-    ],
-    [
-      2.3135736,
-      48.8695296
-    ],
-    [
-      2.3134577,
-      48.8695858
-    ],
-    [
-      2.3134113,
-      48.8695781
-    ],
-    [
-      2.3123659,
-      48.8699232
-    ],
-    [
-      2.3122539,
-      48.8699192
-    ],
-    [
-      2.3120537,
-      48.8698333
-    ],
-    [
-      2.3120097,
-      48.8698124
-    ],
-    [
-      2.311917,
-      48.8697682
-    ],
-    [
-      2.3116092,
-      48.8695944
-    ],
-    [
-      2.3114534,
-      48.8695064
-    ],
-    [
-      2.3109302,
-      48.8692442
-    ],
-    [
-      2.3105161,
-      48.8690747
-    ],
-    [
-      2.3106056,
-      48.8689732
-    ],
-    [
-      2.3104271,
-      48.8687344
-    ],
-    [
-      2.3102548,
-      48.8687022
-    ],
-    [
-      2.3100306,
-      48.8686954
-    ],
-    [
-      2.3098398,
-      48.8687448
-    ],
-    [
-      2.3094992,
-      48.8685709
-    ],
-    [
-      2.3095365,
-      48.8685383
-    ],
-    [
-      2.309358,
-      48.8684466
-    ],
-    [
-      2.3092867,
-      48.8684209
-    ],
-    [
-      2.3077934,
-      48.8675678
-    ],
-    [
-      2.3076466,
-      48.8674849
-    ],
-    [
-      2.3076127,
-      48.8674903
-    ],
-    [
-      2.3067727,
-      48.8670632
-    ],
-    [
-      2.306625,
-      48.8669837
-    ],
-    [
-      2.3065798,
-      48.8669675
-    ],
-    [
-      2.3063838,
-      48.8668688
-    ],
-    [
-      2.3063226,
-      48.8668486
-    ],
-    [
-      2.3053099,
-      48.8663263
-    ],
-    [
-      2.3042572,
-      48.8657815
-    ],
-    [
-      2.3039362,
-      48.8656154
-    ],
-    [
-      2.3036942,
-      48.8654901
-    ],
-    [
-      2.3035354,
-      48.865408
-    ],
-    [
-      2.3031583,
-      48.8651882
-    ],
-    [
-      2.3029843,
-      48.865095
-    ],
-    [
-      2.302756,
-      48.8649714
-    ],
-    [
-      2.3025481,
-      48.8648601
-    ],
-    [
-      2.3023943,
-      48.8648241
-    ],
-    [
-      2.3019803,
-      48.8643392
-    ],
-    [
-      2.3019616,
-      48.8641416
-    ],
-    [
-      2.3019312,
-      48.8640889
-    ],
-    [
-      2.3014439,
-      48.8640712
-    ],
-    [
-      2.3012852,
-      48.8641073
-    ],
-    [
-      2.2981287,
-      48.8636065
-    ],
-    [
-      2.2966099,
-      48.8632757
-    ],
-    [
-      2.296414,
-      48.8632151
-    ],
-    [
-      2.2962188,
-      48.863155
-    ],
-    [
-      2.2960975,
-      48.8631177
-    ],
-    [
-      2.2925962,
-      48.8613308
-    ],
-    [
-      2.2917382,
-      48.860656
-    ],
-    [
-      2.2914247,
-      48.8604093
-    ],
-    [
-      2.2912957,
-      48.8603225
-    ],
-    [
-      2.2911658,
-      48.8602274
-    ],
-    [
-      2.2908347,
-      48.8599707
-    ],
-    [
-      2.2906557,
-      48.8598986
-    ],
-    [
-      2.2882895,
-      48.8580452
-    ],
-    [
-      2.2878751,
-      48.8578093
-    ],
-    [
-      2.2864414,
-      48.856739
-    ],
-    [
-      2.2854412,
-      48.8559284
-    ],
-    [
-      2.285306,
-      48.8558189
-    ],
-    [
-      2.2837521,
-      48.8545875
-    ],
-    [
-      2.2835856,
-      48.8544598
-    ],
-    [
-      2.2834798,
-      48.8543796
-    ],
-    [
-      2.2812325,
-      48.8529229
-    ],
-    [
-      2.2804871,
-      48.8524936
-    ],
-    [
-      2.2804448,
-      48.852469
-    ],
-    [
-      2.2804785,
-      48.8523986
-    ],
-    [
-      2.2801394,
-      48.8522002
-    ],
-    [
-      2.2790127,
-      48.8515096
-    ],
-    [
-      2.2787426,
-      48.8513499
-    ],
-    [
-      2.2787559,
-      48.8513138
-    ],
-    [
-      2.2785056,
-      48.8511689
-    ],
-    [
-      2.2782186,
-      48.8509556
-    ],
-    [
-      2.2781174,
-      48.8510205
-    ],
-    [
-      2.2776702,
-      48.8507104
-    ],
-    [
-      2.2766675,
-      48.8500885
-    ],
-    [
-      2.2764804,
-      48.8499356
-    ],
-    [
-      2.2762523,
-      48.8497197
-    ],
-    [
-      2.2760669,
-      48.8495444
-    ],
-    [
-      2.2752519,
-      48.8487502
-    ],
-    [
-      2.2752376,
-      48.8487236
-    ],
-    [
-      2.2751408,
-      48.8486361
-    ],
-    [
-      2.2751163,
-      48.8486108
-    ],
-    [
-      2.2739884,
-      48.8475013
-    ],
-    [
-      2.27402,
-      48.8474417
-    ],
-    [
-      2.2738137,
-      48.8472626
-    ],
-    [
-      2.2736805,
-      48.8472016
-    ],
-    [
-      2.2735431,
-      48.8472352
-    ],
-    [
-      2.2733057,
-      48.8472283
-    ],
-    [
-      2.2731245,
-      48.8471582
-    ],
-    [
-      2.272671,
-      48.8470114
-    ],
-    [
-      2.2723697,
-      48.8469277
-    ],
-    [
-      2.2721121,
-      48.8468526
-    ],
-    [
-      2.2711474,
-      48.8465712
-    ],
-    [
-      2.271138,
-      48.8465492
-    ],
-    [
-      2.271031,
-      48.846488
+      2.28,
+      48.8535
     ]
   ],
   "annotationen": [
@@ -4738,747 +3408,6 @@
       "f_wert": "ort_loest_emotion_aus"
     },
     {
-      "id": 67,
-      "text": "Das junge Mädchen hatte sich in den schönen jungen Mann vergafft, es war ganz natürlich; sie hoffte, ihn zum Gatten zu bekommen; sie hatte es sich in den Kopf gesetzt!",
-      "tags": [
-        "social"
-      ],
-      "valenz": null,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "unbekannt",
-      "revealIndex": 66,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 68,
-      "text": "Sie grübelte, verwirrt, wie man überhaupt vor einem bevorstehenden Unglück verwirrt ist.",
-      "tags": [
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "unbekannt",
-      "revealIndex": 67,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 69,
-      "text": "Oh! welch ein treuloser Schurke war er, wenn er diesen Streich vorbereitet hat! Was würde dann geschehen?",
-      "tags": [
-        "mood",
-        "social"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "unbekannt",
-      "revealIndex": 68,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 70,
-      "text": "Sie liebte ihn noch immer. Diese Leidenschaft hatte sich in sie hineingebohrt wie Pfeilspitzen, die sich nicht wieder herausreißen lassen.",
-      "tags": [
-        "mood"
-      ],
-      "valenz": -1,
-      "intensitaet": 3,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "unbekannt",
-      "revealIndex": 69,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 71,
-      "text": "Ihre Gedanken schweiften in dieser Angst und Ungewißheit herum. Ein heftiger Schmerz drückte auf ihren Kopf.",
-      "tags": [
-        "mood",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "unbekannt",
-      "revealIndex": 70,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 72,
-      "text": "Sie sah nach der Uhr, es war eins vorbei.",
-      "tags": [
-        "time"
-      ],
-      "valenz": null,
-      "intensitaet": 1,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "unbekannt",
-      "revealIndex": 71,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 73,
-      "text": "Dann ging sie ohne Schuhe, um keinen Lärm zu machen, mit der Kerze in der Hand nach dem Zimmer ihrer Tochter.",
-      "tags": [
-        "move",
-        "space"
-      ],
-      "valenz": null,
-      "intensitaet": 1,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Haus Walter, Zimmer der Tochter",
-      "revealIndex": 72,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 74,
-      "text": "Sie öffnete leise die Tür, trat herein und sah nach dem Bett. Es war nicht angerührt.",
-      "tags": [
-        "space",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Haus Walter, Suzannes Zimmer",
-      "revealIndex": 73,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 75,
-      "text": "Zunächst begriff sie nichts und dachte, das Mädchen spräche vielleicht noch mit seinem Vater. Dann aber stieg plötzlich in ihr ein furchtbarer Verdacht auf und sie eilte zu ihrem Gatten.",
-      "tags": [
-        "mood",
-        "move"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Haus Walter",
-      "revealIndex": 74,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 76,
-      "text": "Blaß und keuchend stürzte sie in sein Zimmer. Er lag im Bett und las. Er war bestürzt.",
-      "tags": [
-        "atmosphere",
-        "space"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Haus Walter, Zimmer des Gatten",
-      "revealIndex": 75,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 77,
-      "text": "Mit einem Satz sprang er auf den Teppich, schlüpfte in seine Pantoffeln und stürzte ohne Unterhosen, im bloßen Hemd, das um ihn herumflatterte, in das Zimmer seiner Tochter.",
-      "tags": [
-        "george_duroy",
-        "move",
-        "koerper_als_akteur"
-      ],
-      "valenz": null,
-      "intensitaet": null,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer im Hause Walter",
-      "revealIndex": 76,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 78,
-      "text": "Sobald er es selbst gesehen hatte, hegte er keinen Zweifel mehr. Sie war entflohen.",
-      "tags": [
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer Suzannes im Hause Walter",
-      "revealIndex": 77,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 79,
-      "text": "Er sank in einen Sessel und stellte die Lampe vor sich auf den Boden hin.",
-      "tags": [
-        "social"
-      ],
-      "valenz": null,
-      "intensitaet": 1,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer Suzannes im Hause Walter",
-      "revealIndex": 78,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 80,
-      "text": "Er war nicht mehr wütend, er seufzte nur: »Es ist erledigt. Er hat sie. Wir sind verloren.«",
-      "tags": [
-        "atmosphere",
-        "social"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer Suzannes im Hause Walter",
-      "revealIndex": 79,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 81,
-      "text": "Er antwortete traurig: »Es nützt nichts, zu schreien. Er hat sie entführt, er hat sie auch sicher entehrt.",
-      "tags": [
-        "social"
-      ],
-      "valenz": null,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer Suzannes im Hause Walter",
-      "revealIndex": 80,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 82,
-      "text": "Walter murmelte niedergeschmettert: »Er hat sie doch schon. Er wird sie so lange irgendwo verborgen halten, bis wir nachgeben.",
-      "tags": [
-        "social",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer Suzannes im Hause Walter",
-      "revealIndex": 81,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 83,
-      "text": "»Darüber läßt sich nicht mehr streiten. Es muß sein. Ah! Der Halunke, wie hat er uns hereingelegt ...",
-      "tags": [
-        "social"
-      ],
-      "valenz": null,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Zimmer Suzannes im Hause Walter",
-      "revealIndex": 82,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 84,
-      "text": "Walter stand auf, nahm seine Lampe und fuhr fort",
-      "tags": [
-        "george_duroy"
-      ],
-      "valenz": null,
-      "intensitaet": null,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Palais Walter (innen)",
-      "revealIndex": 83,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 85,
-      "text": "Mit den Pantoffeln schlurfend, ging er hinaus. Er durchschritt wie ein komisches Gespenst im Nachthemd den breiten Flur des riesigen schlafenden Palastes und begab sich geräuschlos in sein Zimmer.",
-      "tags": [
-        "move",
-        "space",
-        "sound",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Palais Walter, breiter Flur (innen)",
-      "revealIndex": 84,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 86,
-      "text": "Von entsetzlichen Schmerzen innerlich zerrissen blieb Frau Walter zurück.",
-      "tags": [
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Palais Walter (innen)",
-      "revealIndex": 85,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 87,
-      "text": "Sie empfand ein heftiges Verlangen zu entfliehen, fortzulaufen, Hilfe zu suchen, getröstet zu werden.",
-      "tags": [
-        "mood",
-        "move"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Palais Walter (innen)",
-      "revealIndex": 86,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 88,
-      "text": "Sie würde sich zu seinen Füßen werfen, sie würde alles gestehen, ihm ihre Sünde und Verzweiflung beichten.",
-      "tags": [
-        "mood",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Palais Walter (innen)",
-      "revealIndex": 87,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 89,
-      "text": "Da trat ihr wie eine Vision die erleuchtete Gestalt des auf dem Meere wandelnden Jesus vor Augen.",
-      "tags": [
-        "mood",
-        "atmosphere"
-      ],
-      "valenz": 1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "nicht bestimmbar",
-      "revealIndex": 88,
-      "station": null,
-      "perspektive": "figur",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 90,
-      "text": "Sie nahm ihr Licht, verließ das Zimmer und ging hinab in den Wintergarten.",
-      "tags": [
-        "move",
-        "location"
-      ],
-      "valenz": null,
-      "intensitaet": 1,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter)",
-      "revealIndex": 89,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 91,
-      "text": "Das Jesusbild befand sich ganz am Ende desselben in einem kleinen Räume, der mit einer Glastür verschlossen war, damit die Feuchtigkeit der Erde die Leinwand des Gemäldes nicht angreifen könnte.",
-      "tags": [
-        "space",
-        "location",
-        "material"
-      ],
-      "valenz": null,
-      "intensitaet": 2,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter), kleiner Raum",
-      "revealIndex": 90,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 92,
-      "text": "Das Ganze sah aus wie eine kleine Kapelle in einem Wald von seltsamen Bäumen.",
-      "tags": [
-        "space",
-        "atmosphere"
-      ],
-      "valenz": 0,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter)",
-      "revealIndex": 91,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 93,
-      "text": "Als sie den Wintergarten betrat, den sie nie anders als nur in heller Beleuchtung gesehen hatte, stand sie betroffen da vor seiner dunklen Tiefe.",
-      "tags": [
-        "space",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter)",
-      "revealIndex": 92,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 94,
-      "text": "Die schweren Tropenpflanzen verdickten die Luft mit ihrem schwülen Atem.",
-      "tags": [
-        "smell",
-        "atmosphere",
-        "weather"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter)",
-      "revealIndex": 93,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 95,
-      "text": "drang der beklemmende Duft dieses seltsamen Waldes, der von einer Glaskuppel bedeckt und umschlossen war, schwer und berauschend in die Lungen.",
-      "tags": [
-        "smell",
-        "space",
-        "material",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 3,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter), unter Glaskuppel",
-      "revealIndex": 94,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 96,
-      "text": "die Schatten der phantastisch geformten Pflanzen, auf die das schimmernde Licht der Kerze fiel, und die wie ungeheuer lebende, seltsame Mißgestalten auftauchten.",
-      "tags": [
-        "space",
-        "atmosphere",
-        "material"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten (Haus Walter)",
-      "revealIndex": 95,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 97,
-      "text": "Beim flackernden Licht einer einzigen Kerze, die ihn von unten schwach beleuchtete, war die Ähnlichkeit zwischen ihm und Bel-Ami noch auffallender.",
-      "tags": [
-        "atmosphere",
-        "material"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
-      "revealIndex": 96,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 98,
-      "text": "Es war nicht mehr Gott, sondern ihr Geliebter, der sie ansah. Es waren seine Augen, seine Stirn, sein Gesichtsausdruck, seine kalte und hochmütige Haltung.",
-      "tags": [
-        "atmosphere",
-        "social"
-      ],
-      "valenz": null,
-      "intensitaet": 2,
-      "category": "gold_hell",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
-      "revealIndex": 97,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 99,
-      "text": "Auf einmal fiel ihr ein, daß Georges vielleicht in dieser Stunde ihre Tochter verführte und in Besitz nahm.",
-      "tags": [
-        "location_erinnerung",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "imaginierter unbekannter Ort",
-      "revealIndex": 98,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 100,
-      "text": "Das Zimmer war dunkel, das Bett aufgedeckt.",
-      "tags": [
-        "space",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 1,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "imaginierter unbekannter Raum",
-      "revealIndex": 99,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 101,
-      "text": "Sie faßte sie schon... ihre Hände stießen an die Leinewand des Gemäldes. Sie berührte die Füße Christi ...",
-      "tags": [
-        "material",
-        "koerper_als_akteur",
-        "atmosphere"
-      ],
-      "valenz": -1,
-      "intensitaet": 3,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Unbekannter Innenraum (Madame Walters Kapelle/Zimmer)",
-      "revealIndex": 100,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 102,
-      "text": "Sie träumte lange von seltsamen schrecklichen Dingen. Es war immer Georges und Suzanne, die vor ihre Augen traten, eng aneinander geschmiegt, und der Christus segnete ihre verruchte Liebe.",
-      "tags": [
-        "atmosphere",
-        "mood"
-      ],
-      "valenz": -1,
-      "intensitaet": 3,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "imaginierter Traumraum",
-      "revealIndex": 101,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
-      "id": 103,
-      "text": "Sie hatte das Gefühl, sie befinde sich nicht in ihrem Hause. Sie wollte aufstehen, fliehen, doch sie hatte keine Kraft.",
-      "tags": [
-        "atmosphere",
-        "mood",
-        "koerper_als_akteur"
-      ],
-      "valenz": -1,
-      "intensitaet": 3,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Unbekannter Innenraum (Madame Walters Haus)",
-      "revealIndex": 102,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 104,
-      "text": "Es war ein ungesunder, seltsamer und bisweilen tödlicher Traum, den die einschläfernden tropischen Pflanzen mit ihren wundervollen Formen und schwülem Duft in das Menschengehirn eindringen lassen.",
-      "tags": [
-        "atmosphere",
-        "smell"
-      ],
-      "valenz": -1,
-      "intensitaet": 2,
-      "category": "gold_mittel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Gewächshaus/Wintergarten bei den Walters",
-      "revealIndex": 103,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": true,
-      "fWertType": "ort_loest_emotion_aus",
-      "f_wert": "ort_loest_emotion_aus"
-    },
-    {
-      "id": 105,
-      "text": "Bei Tagesanbruch fand man Frau Walter bewußtlos und halbtot vor dem Christusbild auf dem Rücken ausgestreckt liegen.",
-      "tags": [
-        "time",
-        "atmosphere"
-      ],
-      "valenz": null,
-      "intensitaet": 2,
-      "category": "gold_dunkel",
-      "ortBasis": "Palais Walter, Faubourg Saint-Honoré",
-      "ort": "Wintergarten bei den Walters",
-      "revealIndex": 104,
-      "station": null,
-      "perspektive": "erzaehler",
-      "hasFwert": false,
-      "fWertType": null,
-      "f_wert": null
-    },
-    {
       "id": 106,
       "text": "Herr Walter antwortete Du Roy auf seinen langen Brief und sagte ihm die Hand seiner Tochter zu.",
       "tags": [
@@ -5744,19 +3673,19 @@
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 10
+          "unrated": 3
         },
         "gold_mittel": {
-          "neg": 22,
-          "pos": 1,
-          "neutral": 1,
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
           "unrated": 1
         },
         "gold_hell": {
-          "neg": 4,
+          "neg": 1,
           "pos": 0,
           "neutral": 0,
-          "unrated": 7
+          "unrated": 2
         }
       }
     },
@@ -5790,7 +3719,7 @@
     {
       "ort": "Fahrt über die Seine nach Saint-Germain und zurück",
       "revealIndex": 8,
-      "lon": 2.24,
+      "lon": 2.26,
       "lat": 48.872,
       "nodeType": "location",
       "bandCounts": {
@@ -5871,8 +3800,8 @@
     {
       "ort": "Fahrt aus Paris Richtung Sèvres",
       "revealIndex": 55,
-      "lon": 2.275,
-      "lat": 48.848,
+      "lon": 2.295,
+      "lat": 48.861,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -5897,9 +3826,9 @@
     },
     {
       "ort": "La Roche-Guyon an der Seine",
-      "revealIndex": 105,
-      "lon": 2.271031,
-      "lat": 48.846488,
+      "revealIndex": 66,
+      "lon": 2.28,
+      "lat": 48.8535,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
@@ -5932,115 +3861,82 @@
     94,
     94,
     94,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    190,
-    346,
-    346,
-    394,
-    394,
-    394,
-    394,
-    394,
-    394,
-    465,
-    465,
-    465,
-    465,
-    465,
-    465,
-    465,
-    465,
-    465,
-    544,
-    544,
-    544,
-    544,
-    544,
-    544,
-    544,
-    544,
-    544,
-    544,
-    544,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    632,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730,
-    730
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    145,
+    256,
+    256,
+    304,
+    304,
+    304,
+    304,
+    304,
+    304,
+    375,
+    375,
+    375,
+    375,
+    375,
+    375,
+    375,
+    375,
+    375,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438,
+    438
+  ],
+  "ausgeschlosseneAnnotationen": [
+    [
+      66,
+      105
+    ]
   ]
 }
