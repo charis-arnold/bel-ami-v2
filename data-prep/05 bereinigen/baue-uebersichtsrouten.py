@@ -4,6 +4,14 @@ baue-uebersichtsrouten.py
 Die Gefühlte Stadt — Bel-Ami
 Baut echte Strassenrouten (OSMnx) für die grosse Übersichtskarte (alle Kapitel).
 
+ÜBERHOLT — nicht mehr ausführen. Ersetzt durch
+baue-uebersichtsrouten-aus-kapiteln.py: seit der Handkurierung der Kapitel
+(baue-sammelpunkte-handkuriert.py) beschreiben die hier genutzten GeoJSONs
+nicht mehr denselben Weg wie die Kapitel selbst, die daraus gebauten
+Übersichtslinien liefen teils kilometerweit neben der Kapitelroute. Die
+Übersicht wird jetzt direkt aus routenPfadDetail der Kapitel-JSONs kopiert.
+Dieses Skript bleibt nur als Dokumentation des früheren Wegs liegen.
+
 Warum ein eigenes Skript statt befehl-04-routen.py direkt zu nutzen:
 befehl-04-routen.py liest Koordinaten aus "03 output/kapitel-XX-final.json" —
 dort sind bei den meisten Kapiteln viele "move"-Annotationen noch nicht

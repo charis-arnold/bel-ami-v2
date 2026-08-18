@@ -23,11 +23,10 @@ const KAPITEL_EINSTIEG_SCROLL_ENDE = 0.06;
 // bgImage: Startseite/erste Übersicht vor dem Zoom in Kapitel 1
 // (paris-startkarte-web.png). bgImage2: "zweite" Übersichtskarte, die nach
 // dem Rauszoomen aus Kapitel 1 gezeigt wird (Übersichtsrouten- und
-// Kreisvergleich-Akt, final-paris-gross-web-2.png). Die beiden stammen aus
-// verschiedenen QGIS-Exporten und zeigen leicht verschiedene Ausschnitte —
-// jedes Bild hat deshalb seine EIGENE Georeferenz (startBbox bzw.
-// uebersichtBbox), und beim Wechsel wandert die Bbox mit (siehe
-// currentBgImage/currentBgBbox in draw()).
+// Kreisvergleich-Akt, paris-ueberblickkarte-web.png). Beide stammen aus
+// demselben QGIS-Ausschnitt und haben dieselben Pixelmasse, teilen sich also
+// Bbox (uebersichtBbox) und Crop-Rechenweg — es wechselt nur, welches Bild
+// gezeichnet wird (siehe currentBgImage in draw()).
 let bgImage, bgImage2, ch1Image;
 let gedankenColumn, kartenMarkierungenEl;
 let stationenData;
@@ -88,24 +87,17 @@ let grafikFortschritt = 0;      // 0..1, letzter berechneter Animationsstand (bl
 // oder der Ansichtsmodus wechselt. null = noch kein Play in dieser Ansicht.
 let grafikPlayAusblendStart = null;
 
-// Die beiden Übersichtskarten stammen aus VERSCHIEDENEN QGIS-Exporten und
-// haben deshalb je eine eigene Georeferenz — sie liegen rund 940 m in der
-// Länge auseinander. Früher teilten sie sich eine gemeinsame Bbox; das war
-// nur solange richtig, wie beide aus demselben Export kamen.
-//
-// startBbox — paris-startkarte-web.png. Exakte Georeferenz aus QGIS
-// (EPSG:3857: X 247907.651 .. 270857.651, Y 6244994.107 .. 6256724.107),
-// umgerechnet mit derselben Web-Mercator-Formel wie die Kapitelkarten (siehe
-// BASIS_3857/x2lon/y2lat in data-prep/05 bereinigen/schneide-kapitelkarten.py).
-// Gegengeprüft, indem bekannte Fixpunkte auf das Bild projiziert wurden:
-// Gare Saint-Lazare landet auf dem Gleisfächer, Concorde am Tuilerien-Rand.
-let startBbox = { west: 2.2269923194085774, east: 2.4331556771226127, south: 48.82366665448583, north: 48.892993566082404 };
-// uebersichtBbox — final-paris-gross-web-2.png. Empirisch bestimmt (die
-// west/east-Werte wurden gegenüber dem Ursprungsexport um ca. 0.0153° nach
-// Westen korrigiert) und an den Beschriftungen des Bildes selbst geprüft:
-// mit diesen Werten fallen Place Vendôme und Place de la Concorde exakt auf
-// ihre Kartenlabels, mit startBbox lägen sie 940 m zu weit westlich.
-let uebersichtBbox = { west: 2.2185654820200007, east: 2.424728839725431, south: 48.823985860894396, north: 48.89331233077059 };
+// Georeferenz beider Übersichtskarten (Startseite und Überblickseite). Sie
+// stammen aus demselben QGIS-Ausschnitt und haben auch dieselben Pixelmasse,
+// teilen sich also eine Bbox. Exakte Werte aus QGIS (EPSG:3857:
+// X 247907.651 .. 270857.651, Y 6244994.107 .. 6256724.107), umgerechnet mit
+// derselben Web-Mercator-Formel wie die Kapitelkarten (siehe BASIS_3857/
+// x2lon/y2lat in data-prep/05 bereinigen/schneide-kapitelkarten.py) — damit
+// liegen Übersichts- und Kapitelkarten auf derselben Grundlage.
+// Auf beiden Bildern gegengeprüft, indem bekannte Fixpunkte darauf projiziert
+// wurden: Gare Saint-Lazare landet auf dem Gleisfächer, Concorde am
+// Tuilerien-Rand, Madeleine auf ihrem Kirchenblock.
+let uebersichtBbox = { west: 2.2269923194085774, east: 2.4331556771226127, south: 48.82366665448583, north: 48.892993566082404 };
 let ch1ImgBbox = { west: 2.317834413581757, east: 2.352393886019969, south: 48.86683338890839, north: 48.881871498351956 };
 
 let mapOffsetX = -250;
@@ -187,7 +179,7 @@ function datenFuerKapitel(nr) {
 
 function preload() {
   bgImage = loadImage('paris-startkarte-web.png');
-  bgImage2 = loadImage('final-paris-gross-web-2.png');
+  bgImage2 = loadImage('paris-ueberblickkarte-web.png');
   ch1Image = loadImage('kapitel01-qgis-karte-web.png');
 
   const kapitelDatenDateien = [
@@ -822,16 +814,12 @@ function draw() {
   // Wechsel Startseiten-Karte -> zweite Übersichtskarte genau an dem Punkt,
   // an dem bgImage ohnehin unsichtbar ist (voll in Kapitel 1 eingezoomt) —
   // dadurch kein sichtbarer Sprung. Rück-Scrollen über diesen Punkt schaltet
-  // symmetrisch wieder auf die Startseiten-Karte zurück. Da die beiden
-  // Bilder verschiedene Ausschnitte zeigen (siehe startBbox/uebersichtBbox),
-  // wandert die Georeferenz hier mit — und mit ihr fullBbox, das
-  // rausgezoomte Kartenfenster, in das Route, Kreise und Marker projiziert
-  // werden. Ohne dieses Mitwandern lägen sie auf einem der beiden Bilder um
-  // rund 940 m versetzt.
+  // symmetrisch wieder auf die Startseiten-Karte zurück. Beide Bilder zeigen
+  // denselben Ausschnitt (siehe uebersichtBbox) und haben dieselben
+  // Pixelmasse — es wechselt also wirklich nur, welches gezeichnet wird.
   let currentBgImage = progress < SCROLL_MEILENSTEINE.zoomEnd ? bgImage : bgImage2;
-  let currentBgBbox = progress < SCROLL_MEILENSTEINE.zoomEnd ? startBbox : uebersichtBbox;
   let fullCrop = coverCrop(currentBgImage.width, currentBgImage.height, 0.5, 0.5, 0); // grosse Karte bleibt zentriert, unabhängig von mapOffsetX
-  let fullBbox = cropToBbox(fullCrop, currentBgBbox, currentBgImage.width, currentBgImage.height);
+  let fullBbox = cropToBbox(fullCrop, uebersichtBbox, currentBgImage.width, currentBgImage.height);
 
   let zoomAmount = constrain(map(progress, SCROLL_MEILENSTEINE.zoomStart, SCROLL_MEILENSTEINE.zoomEnd, 0, 1), 0, 1);
   // Nach Abschluss der Route wieder auf die Gesamtkarte rauszoomen — die
@@ -910,11 +898,10 @@ function draw() {
     };
   }
 
-  // currentBgImage/currentBgBbox stehen schon oben fest (zusammen mit
-  // fullBbox) — hier wird daraus nur noch der zu zeichnende Bildausschnitt
-  // für die aktuelle activeBbox berechnet, mit der Georeferenz GENAU DIESES
-  // Bildes.
-  let bgCrop = bboxToImgCrop(activeBbox, currentBgBbox, currentBgImage.width, currentBgImage.height);
+  // currentBgImage steht schon oben fest (zusammen mit fullBbox) — hier wird
+  // daraus nur noch der zu zeichnende Bildausschnitt für die aktuelle
+  // activeBbox berechnet.
+  let bgCrop = bboxToImgCrop(activeBbox, uebersichtBbox, currentBgImage.width, currentBgImage.height);
   // ch1Image "zoomt" nicht selbst mit — es blendet an seiner bereits fest
   // berechneten, korrekt proportionierten Zielposition (targetCrop) ein.
   // Ein dynamisch aus der (während des Übergangs noch viel zu grossen)
@@ -1275,7 +1262,15 @@ function zeichneFotoMarker(activeBbox, offsetX = mapOffsetX, offsetY = mapOffset
 
 function mousePressed() {
   if (kapitelHover === '01') { scrolleZuKapitel1(); return; }
-  if (kapitelHover) { oeffneKapitelZoom(kapitelHover); return; }
+  // Über springeZuKapitelZoom statt direkt über oeffneKapitelZoom: Der
+  // Einstiegstext und der Start der Kapitelroute hängen am Fortschritt
+  // INNERHALB des uebersichtRouten-Akts (siehe KAPITEL_EINSTIEG_SCROLL_ENDE).
+  // Die Routen-Startpunkte sind aber erst sichtbar, wenn man schon ein gutes
+  // Stück in den Akt gescrollt hat — ein Klick dort öffnete das Kapitel
+  // deshalb mitten im Ablauf: Einstiegstext längst ausgeblendet, Route schon
+  // fertig gezeichnet. springeZuKapitelZoom setzt die Scrollposition zuerst
+  // an den Anfang des Akts zurück, genau wie der Klick im Kapitelregister.
+  if (kapitelHover) { springeZuKapitelZoom(kapitelHover); return; }
   if (!letzteActiveBbox) return;
   for (let f of fotoMarkerListe) {
     let pos = lonLatToScreen(f.lon, f.lat, letzteActiveBbox, letzterFotoOffsetX, letzterFotoOffsetY);
@@ -1898,12 +1893,14 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
     let lokalerFortschritt = constrain(map(fortschritt, i / n, (i + 1) / n, 0, 1), 0, 1);
     if (lokalerFortschritt <= 0) return;
 
-    // Die grobe Übersichtslinie (kapitel-routen-uebersicht.json) weicht vom
-    // genaueren, aus den Annotationen gebauten routenPunkte-Verlauf ab
-    // (siehe datenFuerKapitel) — sobald genau dieses Kapitel gezoomt ist,
-    // wird stattdessen die genauere Route gezeichnet (siehe unten), diese
-    // grobe Linie also übersprungen, um keine widersprüchliche zweite Route
-    // über dem korrigierten Kartenausschnitt zu zeigen.
+    // kapitel-routen-uebersicht.json enthält seit
+    // baue-uebersichtsrouten-aus-kapiteln.py exakt dieselben Punkte wie
+    // routenPfadDetail des jeweiligen Kapitels — die Übersichtslinie IST also
+    // die Kapitelroute. Sobald genau dieses Kapitel gezoomt ist, wird sie
+    // trotzdem übersprungen und stattdessen unten aus den Kapiteldaten
+    // gezeichnet: dieselbe Geometrie, aber mit mapOffsetX/mapOffsetY des
+    // Kartenausschnitts statt zentriert — beide gleichzeitig ergäben zwei
+    // gegeneinander versetzte Linien.
     if (kapitelNr === zoomedKapitel && kapitelZoomAmount > 0.001) return;
 
     let routenAlpha = (zoomedKapitel && kapitelNr !== zoomedKapitel)
@@ -1920,9 +1917,10 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
     endShape();
   });
 
-  // Genauere Route des gezoomten Kapitels (aus datenFuerKapitel(), siehe
-  // baue-kapitel-stationen.py/baue_kapitel03.py) — ersetzt die grobe
-  // Übersichtslinie für genau dieses Kapitel, sobald es gezoomt ist. Nutzt
+  // Route des gezoomten Kapitels (aus datenFuerKapitel(), siehe
+  // baue-kapitel-stationen.py/baue_kapitel03.py) — ersetzt die Übersichts-
+  // linie für genau dieses Kapitel, sobald es gezoomt ist (gleiche Punkte,
+  // anderer Offset, siehe oben). Nutzt
   // denselben fixen mapOffsetX/mapOffsetY wie der Kartenausschnitt (k.bild)
   // selbst, nicht den ch1-spezifischen kartenOffsetX-Blend.
   // Erscheint bewusst erst, NACHDEM der Kapitel-Einstiegstext (siehe
@@ -2134,7 +2132,13 @@ function scrolleZuKapitel1() {
   window.scrollTo({ top: ziel, behavior: 'smooth' });
 }
 
-// Öffnet den Kapitel-Zoom direkt an Ort und Stelle (kein Scroll nötig) —
+// Öffnet den Kapitel-Zoom an der AKTUELLEN Scrollposition, ohne sie zu
+// verändern. Alle Bedien-Wege (Kapitelregister, Klick auf einen Routen-
+// Startpunkt) laufen deshalb über springeZuKapitelZoom, das vorher an den
+// Anfang des uebersichtRouten-Akts springt — sonst öffnete sich das Kapitel
+// mitten im Ablauf, mit schon ausgeblendetem Einstiegstext und fertig
+// gezeichneter Route (siehe KAPITEL_EINSTIEG_SCROLL_ENDE).
+//
 // Kartenausschnitt + Route blenden sofort weich ein (kapitelZoomAmount,
 // siehe draw()). Verlassen geschieht durch Hoch-scrollen (siehe
 // uebersichtRoutenFortschritt<=0-Check in draw()), über Escape, oder über
@@ -2194,8 +2198,7 @@ function springeZuKapitelZoom(nr) {
   let start = SCROLL_MEILENSTEINE.uebersichtRoutenStart
     + 0.01 * (SCROLL_MEILENSTEINE.uebersichtRoutenEnd - SCROLL_MEILENSTEINE.uebersichtRoutenStart);
   window.scrollTo(0, trackEl.offsetHeight * start);
-  zoomedKapitel = nr;
-  setzeKapitelAnsichtZurueck();
+  oeffneKapitelZoom(nr);
 }
 
 // Sprungziel des "Alle"-Buttons im Kapitel-Menübalken: verlässt jede
