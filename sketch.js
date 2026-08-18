@@ -1994,6 +1994,23 @@ const VERGLEICHS_KNOTEN = [
     namen: ['Georges Duroys Wohnung (Rue Boursault)'] },
   { label: 'Place de la Madeleine', lon: 2.32439, lat: 48.86993,
     namen: ['Place de la Madeleine', 'Église de la Madeleine, Paris'] },
+  // Einziger öffentlicher Ort neben der Madeleine, der über mehrere Kapitel
+  // trägt — aber nur, wenn man die kapitelweise vergebenen Einzelnamen wieder
+  // zusammenführt: derselbe Boulevard heisst je nach Kapitel "Boulevard des
+  // Italiens", "Café Riche", "Café Tortoni" oder "Café am Boulevard". Einzeln
+  // steht jeder davon in genau einem Kapitel, zusammen sind es sieben.
+  // Bewusst NICHT dabei: die ÄUSSEREN Boulevards (Weinstube und verdächtige
+  // Lokale, lat 48.883 — eine andere Achse im Norden), der Boulevard
+  // Malesherbes (das ist das Haus Walter, eigener Knoten) und der Boulevard
+  // des Batignolles. Das Label ist als einziges kein Kapitelname: für die
+  // Gruppe gibt es keinen, "Grands Boulevards" ist der historische Name der
+  // Achse.
+  { label: 'Grands Boulevards', lon: 2.33617, lat: 48.87124,
+    namen: ['Boulevard des Italiens', 'Boulevard des Capucines', 'Boulevard Poissonnière',
+      'Café Riche, Boulevard des Italiens, Paris', 'Café Tortoni, Boulevard des Italiens',
+      'Café am Boulevard (Näherung Boulevard Poissonière)', 'Café-Chantant am Boulevard des Capucines',
+      'Théâtre du Vaudeville, Boulevard des Capucines', 'Juwelierladen am Boulevard des Capucines',
+      'Boulevard-Cafés (unterwegs), Paris'] },
 ];
 const VERGLEICHS_KNOTEN_LINIE_MIN = 24;   // kürzeste senkrechte Zuführungslinie
 const VERGLEICHS_KNOTEN_ABSTAND = 12;     // Luft zwischen zwei Knoten
