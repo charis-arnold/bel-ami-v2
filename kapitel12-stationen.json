@@ -2,10 +2,52 @@
   "kapitel": 12,
   "route": [
     {
+      "ort": "Platz vor der Trinité-Kirche",
+      "lon": 2.3323,
+      "lat": 48.8757,
+      "revealIndex": 0
+    },
+    {
+      "ort": "Église de la Trinité (Innenraum)",
+      "lon": 2.332,
+      "lat": 48.877,
+      "revealIndex": 9
+    },
+    {
+      "ort": "Platz vor der Trinité-Kirche",
+      "lon": 2.3323,
+      "lat": 48.8757,
+      "revealIndex": 74
+    },
+    {
+      "ort": "Redaktion La Vie Française",
+      "lon": 2.3466305,
+      "lat": 48.8722361,
+      "revealIndex": 78
+    },
+    {
+      "ort": "Wohnung Duroy/Madeleine (17 Rue Fontaine)",
+      "lon": 2.3341746,
+      "lat": 48.8814675,
+      "revealIndex": 90
+    },
+    {
+      "ort": "Parc Monceau, Paris",
+      "lon": 2.3089,
+      "lat": 48.8796,
+      "revealIndex": 98
+    },
+    {
+      "ort": "Fahrt in der Droschke, Paris",
+      "lon": 2.314,
+      "lat": 48.8802,
+      "revealIndex": 105
+    },
+    {
       "ort": "Rue Constantinople 127",
-      "lon": 2.3192132,
-      "lat": 48.8803681,
-      "revealIndex": 118,
+      "lon": 2.31921,
+      "lat": 48.88037,
+      "revealIndex": 109,
       "routeEndsHere": true
     }
   ],
@@ -13,316 +55,316 @@
   "markierungen": [],
   "routenPunkte": [
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.332,
+      48.877
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
       2.3466305,
@@ -393,8 +435,16 @@
       48.8814675
     ],
     [
-      2.3089,
-      48.8796
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
+    ],
+    [
+      2.3341746,
+      48.8814675
     ],
     [
       2.3089,
@@ -425,118 +475,98 @@
       48.8796
     ],
     [
-      2.3089,
-      48.8796
+      2.314,
+      48.8802
     ],
     [
-      2.3089,
-      48.8796
+      2.314,
+      48.8802
     ],
     [
-      2.3089,
-      48.8796
+      2.314,
+      48.8802
     ],
     [
-      2.3192132,
-      48.8803681
+      2.314,
+      48.8802
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ],
     [
-      2.3192132,
-      48.8803681
-    ],
-    [
-      2.3192132,
-      48.8803681
-    ],
-    [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ]
   ],
   "routenPfadDetail": [
     [
-      2.3313978,
-      48.8773025
+      2.3323,
+      48.8757
     ],
     [
-      2.3314776,
-      48.8770828
+      2.3319619,
+      48.8761948
     ],
     [
-      2.3313503,
-      48.8770579
+      2.3320357,
+      48.8762171
     ],
     [
-      2.3312762,
-      48.8769981
+      2.3319604,
+      48.8763775
     ],
     [
-      2.3312798,
-      48.87699
+      2.3319376,
+      48.8764374
     ],
     [
-      2.3311637,
-      48.8769698
+      2.331867,
+      48.8765437
     ],
     [
-      2.3308681,
-      48.8769068
+      2.3322368,
+      48.8767877
     ],
     [
-      2.3309787,
-      48.8767263
+      2.332,
+      48.877
     ],
     [
-      2.3309721,
-      48.8767013
-    ],
-    [
-      2.331213,
-      48.8765144
-    ],
-    [
-      2.331664,
-      48.8765017
-    ],
-    [
-      2.3317478,
-      48.876516
+      2.3322368,
+      48.8767877
     ],
     [
       2.331867,
@@ -547,152 +577,152 @@
       48.8764374
     ],
     [
-      2.3321115,
-      48.8764843
+      2.3319604,
+      48.8763775
     ],
     [
-      2.3322974,
-      48.8764259
+      2.3320357,
+      48.8762171
     ],
     [
-      2.3323537,
-      48.8762649
+      2.3319619,
+      48.8761948
     ],
     [
-      2.3325435,
-      48.8762837
+      2.3323,
+      48.8757
     ],
     [
-      2.3352466,
-      48.8761123
+      2.3323707,
+      48.8753049
     ],
     [
-      2.3352627,
-      48.8761058
+      2.3332863,
+      48.8752862
     ],
     [
-      2.3354166,
-      48.8760957
+      2.3351247,
+      48.8752541
     ],
     [
-      2.3354473,
-      48.8761011
+      2.3351699,
+      48.8753052
     ],
     [
-      2.3370199,
-      48.8759995
+      2.3352787,
+      48.875293
     ],
     [
-      2.3370833,
-      48.8759835
+      2.3352841,
+      48.8752497
     ],
     [
-      2.3372001,
-      48.8759753
+      2.3370562,
+      48.875202
     ],
     [
-      2.3372212,
-      48.875982
+      2.3370732,
+      48.8752138
     ],
     [
-      2.3383793,
-      48.8759139
+      2.3371833,
+      48.8751987
     ],
     [
-      2.3386234,
-      48.8758777
+      2.3372318,
+      48.875192
     ],
     [
-      2.3387974,
-      48.8758777
+      2.338378,
+      48.8751461
     ],
     [
-      2.3391404,
-      48.8758634
+      2.3383894,
+      48.8751683
     ],
     [
-      2.3396594,
-      48.8758325
+      2.3385329,
+      48.8751584
     ],
     [
-      2.3397496,
-      48.8757822
+      2.3385456,
+      48.875141
     ],
     [
-      2.339935,
-      48.8757595
+      2.3394376,
+      48.8751125
     ],
     [
-      2.3403018,
-      48.8757908
+      2.3394706,
+      48.8751354
     ],
     [
-      2.3405184,
-      48.875763
+      2.3396444,
+      48.8751247
     ],
     [
-      2.3410052,
-      48.8752017
+      2.3396579,
+      48.8751056
     ],
     [
-      2.3410685,
-      48.875208
+      2.3404397,
+      48.8750563
     ],
     [
-      2.3411912,
-      48.8750854
+      2.3407227,
+      48.8751085
     ],
     [
-      2.341137,
-      48.8750569
+      2.3407932,
+      48.8749801
     ],
     [
-      2.3413405,
-      48.8748612
+      2.3408333,
+      48.8749743
     ],
     [
-      2.3413707,
-      48.8748638
+      2.3409492,
+      48.8750058
     ],
     [
-      2.3414346,
-      48.8747917
+      2.3410037,
+      48.8749805
     ],
     [
-      2.3423065,
-      48.8741752
+      2.3410381,
+      48.8749304
     ],
     [
-      2.3423329,
-      48.8741791
+      2.3412486,
+      48.8747809
     ],
     [
-      2.3424046,
-      48.8741248
+      2.3421797,
+      48.874102
     ],
     [
-      2.3424466,
-      48.8740819
+      2.3421873,
+      48.8740814
     ],
     [
-      2.3425237,
-      48.8740087
+      2.3423074,
+      48.8739998
     ],
     [
-      2.3425134,
-      48.8739885
+      2.3423389,
+      48.8739862
     ],
     [
-      2.3430856,
-      48.8732062
+      2.3425179,
+      48.8738098
     ],
     [
-      2.3431194,
-      48.8731575
+      2.3429424,
+      48.8731817
     ],
     [
-      2.3431617,
-      48.8730714
+      2.3429994,
+      48.8730238
     ],
     [
       2.3431302,
@@ -963,10 +993,6 @@
       48.8819125
     ],
     [
-      2.3343615,
-      48.8818451
-    ],
-    [
       2.3341746,
       48.8814675
     ],
@@ -1231,10 +1257,6 @@
       48.8794788
     ],
     [
-      2.3091398,
-      48.8794689
-    ],
-    [
       2.3089,
       48.8796
     ],
@@ -1279,8 +1301,8 @@
       48.8799121
     ],
     [
-      2.31375,
-      48.880079
+      2.314,
+      48.8802
     ],
     [
       2.3142694,
@@ -1355,12 +1377,8 @@
       48.8804767
     ],
     [
-      2.3193475,
-      48.8804041
-    ],
-    [
-      2.3192132,
-      48.8803681
+      2.31921,
+      48.88037
     ]
   ],
   "annotationen": [
@@ -1374,7 +1392,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Place de la Trinité, Paris",
       "revealIndex": 0,
       "station": null,
@@ -1394,7 +1412,7 @@
       "valenz": null,
       "intensitaet": 3,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Paris (allgemein)",
       "revealIndex": 1,
       "station": null,
@@ -1414,7 +1432,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Springbrunnen am Platz vor der Trinité-Kirche",
       "revealIndex": 2,
       "station": null,
@@ -1433,7 +1451,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Anlagen am Platz vor der Trinité-Kirche",
       "revealIndex": 3,
       "station": null,
@@ -1452,7 +1470,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Platz vor der Trinité-Kirche",
       "revealIndex": 4,
       "station": null,
@@ -1472,7 +1490,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Trinité-Kirche, Paris",
       "revealIndex": 5,
       "station": null,
@@ -1492,7 +1510,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Platz vor der Trinité-Kirche",
       "revealIndex": 6,
       "station": null,
@@ -1513,7 +1531,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Trinité-Kirche, Paris",
       "revealIndex": 7,
       "station": null,
@@ -1533,7 +1551,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Springbrunnen am Platz vor der Trinité-Kirche",
       "revealIndex": 8,
       "station": null,
@@ -1553,7 +1571,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (nicht namentlich genannt, Paris)",
       "revealIndex": 9,
       "station": null,
@@ -1574,7 +1592,7 @@
       "valenz": 1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres (steinernes Gewölbe)",
       "revealIndex": 10,
       "station": null,
@@ -1593,7 +1611,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirchenschiff",
       "revealIndex": 11,
       "station": null,
@@ -1612,7 +1630,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 12,
       "station": null,
@@ -1631,7 +1649,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 13,
       "station": null,
@@ -1651,7 +1669,7 @@
       "valenz": 0,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 14,
       "station": null,
@@ -1671,7 +1689,7 @@
       "valenz": 1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 15,
       "station": null,
@@ -1691,7 +1709,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheneingang",
       "revealIndex": 16,
       "station": null,
@@ -1711,7 +1729,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirchenhaupteingang",
       "revealIndex": 17,
       "station": null,
@@ -1730,7 +1748,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Chorraum der Kirche",
       "revealIndex": 18,
       "station": null,
@@ -1750,7 +1768,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 19,
       "station": null,
@@ -1770,7 +1788,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 20,
       "station": null,
@@ -1789,7 +1807,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 21,
       "station": null,
@@ -1809,7 +1827,7 @@
       "valenz": 0,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres",
       "revealIndex": 22,
       "station": null,
@@ -1829,7 +1847,7 @@
       "valenz": -1,
       "intensitaet": 3,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unspezifisch, Paris)",
       "revealIndex": 23,
       "station": null,
@@ -1848,7 +1866,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unspezifisch, Paris)",
       "revealIndex": 24,
       "station": null,
@@ -1867,7 +1885,7 @@
       "valenz": 0,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unspezifisch, Paris)",
       "revealIndex": 25,
       "station": null,
@@ -1887,7 +1905,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unspezifisch, Paris)",
       "revealIndex": 26,
       "station": null,
@@ -1907,7 +1925,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirchenschiff (unspezifisch, Paris)",
       "revealIndex": 27,
       "station": null,
@@ -1926,7 +1944,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Chor einer Kirche (unspezifisch, Paris)",
       "revealIndex": 28,
       "station": null,
@@ -1946,7 +1964,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Hauptaltar einer Kirche (unspezifisch, Paris)",
       "revealIndex": 29,
       "station": null,
@@ -1966,7 +1984,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unspezifisch, Paris)",
       "revealIndex": 30,
       "station": null,
@@ -1985,7 +2003,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unspezifisch, Paris)",
       "revealIndex": 31,
       "station": null,
@@ -2004,7 +2022,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "unbekannter Innenraum",
       "revealIndex": 32,
       "station": null,
@@ -2024,7 +2042,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "unbekannter Innenraum",
       "revealIndex": 33,
       "station": null,
@@ -2043,7 +2061,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "unbekannter Innenraum",
       "revealIndex": 34,
       "station": null,
@@ -2062,7 +2080,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "unbekannter Innenraum",
       "revealIndex": 35,
       "station": null,
@@ -2081,7 +2099,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, Paris",
       "revealIndex": 36,
       "station": null,
@@ -2101,7 +2119,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, Paris",
       "revealIndex": 37,
       "station": null,
@@ -2120,7 +2138,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, rechtes Seitenschiff",
       "revealIndex": 38,
       "station": null,
@@ -2139,7 +2157,7 @@
       "valenz": 0,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, Paris",
       "revealIndex": 39,
       "station": null,
@@ -2158,7 +2176,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, Paris",
       "revealIndex": 40,
       "station": null,
@@ -2178,7 +2196,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, Paris",
       "revealIndex": 41,
       "station": null,
@@ -2197,7 +2215,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Église de la Trinité, Paris",
       "revealIndex": 42,
       "station": null,
@@ -2215,7 +2233,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (nicht näher bestimmt)",
       "revealIndex": 43,
       "station": null,
@@ -2234,7 +2252,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirchenchor (nicht näher bestimmt)",
       "revealIndex": 44,
       "station": null,
@@ -2254,7 +2272,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirchengewölbe (nicht näher bestimmt)",
       "revealIndex": 45,
       "station": null,
@@ -2273,7 +2291,7 @@
       "valenz": -1,
       "intensitaet": 3,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unbekannt)",
       "revealIndex": 46,
       "station": null,
@@ -2291,7 +2309,7 @@
       "valenz": 0,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unbekannt)",
       "revealIndex": 47,
       "station": null,
@@ -2310,7 +2328,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche in reichem Stadtviertel (unbekannt)",
       "revealIndex": 48,
       "station": null,
@@ -2329,7 +2347,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unbekannt)",
       "revealIndex": 49,
       "station": null,
@@ -2349,7 +2367,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unbekannt)",
       "revealIndex": 50,
       "station": null,
@@ -2368,7 +2386,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (unbestimmt, Paris)",
       "revealIndex": 51,
       "station": null,
@@ -2388,7 +2406,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Beichtstuhl in einer Kirche (Paris, unbestimmt)",
       "revealIndex": 52,
       "station": null,
@@ -2407,7 +2425,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Beichtstuhl in einer Kirche (Paris, unbestimmt)",
       "revealIndex": 53,
       "station": null,
@@ -2427,7 +2445,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres (Chor, linkes Seitenschiff), Paris, unbestimmt",
       "revealIndex": 54,
       "station": null,
@@ -2446,7 +2464,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres (Seitenschiff), Paris, unbestimmt",
       "revealIndex": 55,
       "station": null,
@@ -2465,7 +2483,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres (Seitenschiff), Paris, unbestimmt",
       "revealIndex": 56,
       "station": null,
@@ -2485,7 +2503,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kircheninneres (Seitenschiff), Paris, unbestimmt",
       "revealIndex": 57,
       "station": null,
@@ -2503,7 +2521,7 @@
       "valenz": -1,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Paris (draussen, unbestimmt)",
       "revealIndex": 58,
       "station": null,
@@ -2523,7 +2541,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche (Hauptportal), Paris",
       "revealIndex": 59,
       "station": null,
@@ -2542,7 +2560,7 @@
       "valenz": -1,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 60,
       "station": null,
@@ -2561,7 +2579,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 61,
       "station": null,
@@ -2581,7 +2599,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Rechtes Seitenschiff der Kirche, Paris",
       "revealIndex": 62,
       "station": null,
@@ -2600,7 +2618,7 @@
       "valenz": -1,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 63,
       "station": null,
@@ -2620,7 +2638,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirchenschiff mit Pfeilern, Paris",
       "revealIndex": 64,
       "station": null,
@@ -2639,7 +2657,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 65,
       "station": null,
@@ -2660,7 +2678,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 66,
       "station": null,
@@ -2679,7 +2697,7 @@
       "valenz": 0,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 67,
       "station": null,
@@ -2699,7 +2717,7 @@
       "valenz": 0,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Ecke der Kirche, Paris",
       "revealIndex": 68,
       "station": null,
@@ -2719,7 +2737,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Seitenkapelle der Kirche, Paris",
       "revealIndex": 69,
       "station": null,
@@ -2739,7 +2757,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Beichtstuhl in der Seitenkapelle, Kirche Paris",
       "revealIndex": 70,
       "station": null,
@@ -2759,7 +2777,7 @@
       "valenz": -1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Beichtstuhl in der Kirche, Paris",
       "revealIndex": 71,
       "station": null,
@@ -2778,7 +2796,7 @@
       "valenz": 1,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Kirche, Paris",
       "revealIndex": 72,
       "station": null,
@@ -2797,7 +2815,7 @@
       "valenz": 1,
       "intensitaet": 1,
       "category": "gold_mittel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Église de la Trinité (Innenraum)",
       "ort": "Gegenüber den Beichtstühlen, Kirche Paris",
       "revealIndex": 73,
       "station": null,
@@ -2816,7 +2834,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Kirche (unspezifiziert, Paris)",
       "revealIndex": 74,
       "station": null,
@@ -2835,7 +2853,7 @@
       "valenz": null,
       "intensitaet": 2,
       "category": "gold_hell",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Kirchenportal (unspezifiziert, Paris)",
       "revealIndex": 75,
       "station": null,
@@ -2854,7 +2872,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Platz vor der Kirche (unspezifiziert, Paris)",
       "revealIndex": 76,
       "station": null,
@@ -2872,7 +2890,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Église de la Trinité, Paris",
+      "ortBasis": "Platz vor der Trinité-Kirche",
       "ort": "Kirchenportal (unspezifiziert, Paris)",
       "revealIndex": 77,
       "station": null,
@@ -3211,7 +3229,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Parc Monceau, Paris",
+      "ortBasis": "Wohnung Duroy/Madeleine (17 Rue Fontaine)",
       "ort": "Parc Monceau, Paris",
       "revealIndex": 95,
       "station": null,
@@ -3230,7 +3248,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Parc Monceau, Paris",
+      "ortBasis": "Wohnung Duroy/Madeleine (17 Rue Fontaine)",
       "ort": "Wohnung Duroys (unspezifisch)",
       "revealIndex": 96,
       "station": null,
@@ -3250,7 +3268,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_mittel",
-      "ortBasis": "Parc Monceau, Paris",
+      "ortBasis": "Wohnung Duroy/Madeleine (17 Rue Fontaine)",
       "ort": "Parc Monceau, Paris",
       "revealIndex": 97,
       "station": null,
@@ -3402,7 +3420,7 @@
       "valenz": null,
       "intensitaet": null,
       "category": "gold_dunkel",
-      "ortBasis": "Parc Monceau, Paris",
+      "ortBasis": "Fahrt in der Droschke, Paris",
       "ort": "Parc Monceau, Paris",
       "revealIndex": 105,
       "station": null,
@@ -3421,7 +3439,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_hell",
-      "ortBasis": "Rue Constantinople 127",
+      "ortBasis": "Fahrt in der Droschke, Paris",
       "ort": "Kutsche, Paris (genaue Strecke unbekannt)",
       "revealIndex": 106,
       "station": null,
@@ -3439,7 +3457,7 @@
       "valenz": null,
       "intensitaet": 1,
       "category": "gold_dunkel",
-      "ortBasis": "Rue Constantinople 127",
+      "ortBasis": "Fahrt in der Droschke, Paris",
       "ort": "Rue de Constantinople, Paris",
       "revealIndex": 107,
       "station": null,
@@ -3458,7 +3476,7 @@
       "valenz": 1,
       "intensitaet": 2,
       "category": "gold_mittel",
-      "ortBasis": "Rue Constantinople 127",
+      "ortBasis": "Fahrt in der Droschke, Paris",
       "ort": "Kutsche, Paris",
       "revealIndex": 108,
       "station": null,
@@ -3666,29 +3684,56 @@
   "zwischenPunkte": [],
   "ortRuns": [
     {
-      "ort": "Église de la Trinité, Paris",
+      "ort": "Platz vor der Trinité-Kirche",
       "revealIndex": 0,
-      "lon": 2.3313978,
-      "lat": 48.8773025,
+      "lon": 2.3323,
+      "lat": 48.8757,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 28
+          "unrated": 8
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 4
+        }
+      }
+    },
+    {
+      "ort": "Église de la Trinité (Innenraum)",
+      "revealIndex": 9,
+      "lon": 2.332,
+      "lat": 48.877,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 20
         },
         "gold_mittel": {
           "neg": 14,
           "pos": 4,
           "neutral": 6,
-          "unrated": 11
+          "unrated": 10
         },
         "gold_hell": {
           "neg": 3,
           "pos": 0,
           "neutral": 1,
-          "unrated": 11
+          "unrated": 7
         }
       }
     },
@@ -3730,13 +3775,13 @@
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 2
+          "unrated": 3
         },
         "gold_mittel": {
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 1
+          "unrated": 3
         },
         "gold_hell": {
           "neg": 0,
@@ -3748,7 +3793,7 @@
     },
     {
       "ort": "Parc Monceau, Paris",
-      "revealIndex": 95,
+      "revealIndex": 98,
       "lon": 2.3089,
       "lat": 48.8796,
       "nodeType": "location",
@@ -3757,13 +3802,40 @@
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 7
+          "unrated": 5
         },
         "gold_mittel": {
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 3
+          "unrated": 1
+        },
+        "gold_hell": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 1
+        }
+      }
+    },
+    {
+      "ort": "Fahrt in der Droschke, Paris",
+      "revealIndex": 105,
+      "lon": 2.314,
+      "lat": 48.8802,
+      "nodeType": "location",
+      "bandCounts": {
+        "gold_dunkel": {
+          "neg": 0,
+          "pos": 0,
+          "neutral": 0,
+          "unrated": 2
+        },
+        "gold_mittel": {
+          "neg": 0,
+          "pos": 1,
+          "neutral": 0,
+          "unrated": 0
         },
         "gold_hell": {
           "neg": 0,
@@ -3775,20 +3847,20 @@
     },
     {
       "ort": "Rue Constantinople 127",
-      "revealIndex": 106,
-      "lon": 2.3192132,
-      "lat": 48.8803681,
+      "revealIndex": 109,
+      "lon": 2.31921,
+      "lat": 48.88037,
       "nodeType": "location",
       "bandCounts": {
         "gold_dunkel": {
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 5
+          "unrated": 4
         },
         "gold_mittel": {
           "neg": 2,
-          "pos": 1,
+          "pos": 0,
           "neutral": 1,
           "unrated": 0
         },
@@ -3796,7 +3868,7 @@
           "neg": 0,
           "pos": 0,
           "neutral": 0,
-          "unrated": 4
+          "unrated": 3
         }
       }
     }
@@ -3811,115 +3883,115 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    59,
-    119,
-    119,
-    119,
-    119,
-    119,
-    186,
-    186,
-    186,
-    186,
-    186,
-    186,
-    186,
-    186,
-    186,
-    186,
-    186,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217,
-    217
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    14,
+    14,
+    14,
+    14,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    56,
+    115,
+    115,
+    115,
+    115,
+    115,
+    115,
+    115,
+    115,
+    181,
+    181,
+    181,
+    181,
+    181,
+    181,
+    181,
+    192,
+    192,
+    192,
+    192,
+    211,
+    211,
+    211,
+    211,
+    211,
+    211,
+    211,
+    211,
+    211,
+    211
   ]
 }
