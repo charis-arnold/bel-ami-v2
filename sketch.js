@@ -1157,14 +1157,30 @@ function draw() {
   // keine Kreisgrafik, die sie erklären könnte).
   let inUebersichtRouten = uebersichtRoutenFortschritt > 0 && !zoomedKapitel && kreisVergleichMapFade <= 0;
   kapitelRegister.classList.toggle('sichtbar', inKapitelAnsicht || inUebersichtRouten);
-  legendeBox.classList.toggle('sichtbar', inKapitelAnsicht);
-  prologBox.classList.toggle('sichtbar', inKapitelAnsicht);
-  // Register-Inhalt fährt beim Verlassen der Kapitel-Ansicht wieder ein —
-  // tauchen Legende/Prolog später (nächstes Kapitel) wieder auf, starten sie
-  // dadurch immer eingefahren (nur der Tab), statt im zuletzt offenen Stand.
-  if (!inKapitelAnsicht) {
-    legendeBox.classList.remove('offen'); prologBox.classList.remove('offen');
-    registerTabs.classList.remove('legende-offen', 'prolog-offen');
+
+  // Legende und Prolog sind überall sichtbar AUSSER auf der Startkarte —
+  // dort soll nichts vom Einstieg ablenken. Auf der Schlusskarte bleibt nur
+  // der Prolog stehen: die Kreisgrafik ist dann verblasst, die Legende hätte
+  // nichts mehr zu erklären.
+  //
+  // Beide Register hängen an einem gemeinsamen fixed-Container und werden
+  // über visibility (nicht display) geschaltet — der Prolog bleibt deshalb
+  // an seinem Platz, auch wenn die Legende darüber verschwindet.
+  let aufStartkarte = progress < SCROLL_MEILENSTEINE.zoomStart;
+  let aufSchlusskarte = progress >= SCROLL_MEILENSTEINE.startkarteStart;
+  legendeBox.classList.toggle('sichtbar', !aufStartkarte && !aufSchlusskarte);
+  prologBox.classList.toggle('sichtbar', !aufStartkarte);
+
+  // Ausgefahrener Inhalt fährt ein, sobald sein Register verschwindet —
+  // taucht es später wieder auf, startet es eingefahren (nur der Tab) statt
+  // im zuletzt offenen Stand.
+  if (aufStartkarte || aufSchlusskarte) {
+    legendeBox.classList.remove('offen');
+    registerTabs.classList.remove('legende-offen');
+  }
+  if (aufStartkarte) {
+    prologBox.classList.remove('offen');
+    registerTabs.classList.remove('prolog-offen');
   }
   // Plan/Graph (inkl. Leerzeile darunter) braucht es nur innerhalb einer
   // echten Kapitel-Ansicht — in der Übersicht gibt es keine Karte/Grafik zum
