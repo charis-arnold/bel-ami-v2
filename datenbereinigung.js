@@ -222,37 +222,44 @@ function ortRunsFuerSpine(daten) {
 // mit jedem erreichten Kapitel (kreisVergleichAktuellesKapitel in
 // sketch.js).
 const SCROLL_MEILENSTEINE = {
-  heroFadeStart: 0.012468, heroFadeEnd: 0.037403,
+  heroFadeStart: 0.011829, heroFadeEnd: 0.035485,
   // Zwischen heroFadeEnd und zoomStart 700vh zusätzliche Lesezeit — der
   // Begleittext ("1885 wächst Paris…", data-von/data-bis in index.html)
   // bleibt dadurch noch auf der Startseite lesbar und blendet erst während
   // dieses Zoom-Übergangs wieder aus (sein data-bis fällt mit zoomEnd
   // zusammen).
-  zoomStart: 0.116741, zoomEnd: 0.166610,
+  zoomStart: 0.110753, zoomEnd: 0.158065,
   // Spine blendet gleichzeitig mit dem Zoom-Beginn ein (nicht mehr mit dem
   // Begleittext synchron — der lebt jetzt bereits auf der Startseite).
-  spineFadeStart: 0.119234, spineFadeEnd: 0.169103,
+  spineFadeStart: 0.113118, spineFadeEnd: 0.16043,
   // Zwischen zoomEnd und routeStart 550vh zusätzliche Lesezeit — der
   // Kapitel-Einstiegstext (.begleittext-dunkel, eigenes data-von/data-bis
   // pro Kapitel in index.html) blendet mit dem Kartenausschnitt ein
   // (data-von = zoomEnd) und wieder aus, sobald Route/Annotationen
   // beginnen (data-bis = routeStart).
-  routeStart: 0.266350, routeEnd: 0.391024,
+  routeStart: 0.252689, routeEnd: 0.370968,
   // Akt: nach Abschluss der Route zurück auf die Gesamtkarte zoomen.
-  zoomOutStart: 0.391024, zoomOutEnd: 0.440893,
+  zoomOutStart: 0.370968, zoomOutEnd: 0.418279,
   // Akt: Übersichtsrouten (Kapitel 02–18) bauen sich auf. Breite (2933vh)
   // so bemessen, dass auch das annotationsreichste Kapitel (Kapitel 8,
   // 400 Annotationen) im gleichen Tempo (~7.3vh/Annotation) durchläuft wie
   // Kapitel 1 (1100vh / 150 Annotationen) — vorher war der Akt mit 1440vh
   // fest für alle Kapitel gleich lang, wodurch annotationsreiche Kapitel
   // (5–9) beim Scrollen spürbar schneller wirkten als Kapitel 1.
-  uebersichtRoutenStart: 0.440893, uebersichtRoutenEnd: 0.773320,
+  uebersichtRoutenStart: 0.418279, uebersichtRoutenEnd: 0.733656,
   // Neuer, letzter Akt (2000vh): Übersichtskarte blendet aus (erste 8% des
   // Akts, kreisVergleichFadeEnd), danach wachsen die Kreise der 8
   // handverlesenen Orte mit jedem erreichten Kapitel (1..18, linear über
   // den Rest des Akts verteilt).
-  kreisVergleichStart: 0.773320, kreisVergleichFadeEnd: 0.791567,
-  kreisVergleichEnd: 1.0,
+  kreisVergleichStart: 0.733656, kreisVergleichFadeEnd: 0.750967,
+  kreisVergleichEnd: 0.94871,
+  // Akt: die Startkarte kommt zurück. Sie blendet hinter den sieben Kreisen
+  // ein, danach fährt die Ansicht aus deren Ausschnitt auf die Gesamtkarte
+  // zurück — der Bogen schliesst dort, wo er begonnen hat. Dieser Akt wurde
+  // hinten angehängt: der Scroll-Track ist von 8823vh auf 9300vh gewachsen,
+  // alle vorherigen Werte sind mit 8823/9300 umgerechnet und behalten dadurch
+  // ihre Länge in Pixeln.
+  startkarteStart: 0.94871,
 };
 
 // ---------------------------------------------------------------------------
@@ -292,10 +299,24 @@ function bereinigeKreisVergleichOrte(rohdaten) {
 // Kapitel ohne verwertbare Route (z.B. 15 — Empfang bei den Walters, ein
 // einziger Innenraum-Schauplatz ohne Koordinaten-Streuung) werden hier
 // herausgefiltert, damit sketch.js nur echte Linien zeichnet.
+// Behält jedes Kapitel mit mindestens EINEM Routenpunkt.
+//
+// Die Bedingung lautete früher "> 1" — ein Kapitel mit nur einem Punkt zeichnet
+// ja keine Linie. Damit fiel aber Kapitel 2 komplett aus uebersichtsRouten
+// heraus: es spielt an einem einzigen Ort (Wohnung Forestier), sein
+// routenPfadDetail hat genau einen Punkt. Und weil sich am selben Objekt nicht
+// nur die Linien, sondern auch der Kapitelpunkt mit Nummer, die Scheiben-
+// aufteilung des Übersichtsakts und die Einstiegstexte orientieren, fehlte
+// Kapitel 2 in der ganzen Übersicht — ohne dass es auffiel, weil die eine
+// fehlende Linie ohnehin unsichtbar gewesen wäre.
+//
+// Die Zeichenwege kommen mit einem einzelnen Punkt zurecht: die Linien-
+// schleife zeichnet einen Vertex und damit nichts, Badge und Hover greifen
+// auf punkte[0] zu.
 function bereinigeUebersichtsrouten(rohdaten) {
   let bereinigt = {};
   Object.entries(rohdaten || {}).forEach(([kapitel, punkte]) => {
-    if (Array.isArray(punkte) && punkte.length > 1) bereinigt[kapitel] = punkte;
+    if (Array.isArray(punkte) && punkte.length > 0) bereinigt[kapitel] = punkte;
   });
   return bereinigt;
 }

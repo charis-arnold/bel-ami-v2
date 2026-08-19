@@ -249,6 +249,28 @@ h2 {
   color: #ffffff;
 }
 
+/* Schlusstext auf der zurückkehrenden Startkarte — Gegenstück zum
+   Einstiegstext «1885 wächst Paris …», deshalb dieselbe Schrift, Breite und
+   Position. Weiss wie jener, weil er ebenfalls auf dem dunklen Kartenbild
+   steht. Die Deckkraft steuert draw() über den Schlussakt. */
+.schlusstext {
+  position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 5;
+  font-family: var(--serif-text);
+  font-size: clamp(16px, 3vw, 30px);
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 42ch;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  color: #ffffff;
+}
+
 /* Dunkle statt weisse Schrift — bei .begleittext-dunkel (Kapitel 1s
    Einstiegstext, scroll-gebunden) und .kapitel-einstiegstext (Kapitel
    02–18, zeitbasiert, siehe draw() in sketch.js). */

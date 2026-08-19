@@ -7,6 +7,7 @@ const HATCH_SPACING = 3;
 
 let stage, heroText, begleitTexte, kapitelEinstiegsTexte;
 let annotationBoxEl; // #annotationBox — trägt die Platz-Klasse, siehe annotationBoxPlatz()
+let schlusstextEl;   // #schlusstext — Gegenstück zum Einstiegstext, blendet im Schlussakt ein
 let naechstesKapitelEl; // #naechstesKapitel — Hinweis am Kapitelende, siehe draw()
 
 // Nummer des folgenden Kapitels, oder null wenn es keines gibt (Kapitel 18 ist
@@ -108,6 +109,18 @@ let grafikPlayAusblendStart = null;
 // Auf beiden Bildern gegengeprüft, indem bekannte Fixpunkte darauf projiziert
 // wurden: Gare Saint-Lazare landet auf dem Gleisfächer, Concorde am
 // Tuilerien-Rand, Madeleine auf ihrem Kirchenblock.
+// startBbox — paris-startkarte-web.png. Exakte Georeferenz aus QGIS
+// (EPSG:3857: X 247907.651 .. 270857.651, Y 6244994.107 .. 6256724.107).
+//
+// Zwischenzeitlich standen hier X 247340.000 / Y 6245109.800 (568 m weiter
+// westlich, 116 m weiter nördlich). Gegenprobe: dieselbe Kapitelroute auf
+// dasselbe Bild projiziert folgt mit den Werten unten exakt den Strassen,
+// mit den anderen läuft sie quer durch die Häuserblöcke und schneidet die
+// Tuilerien — auf 6000px Bildbreite ein Versatz von 148px. Falls doch ein
+// Export mit jenem Ausschnitt existiert, gehören die Werte zu DEM Bild,
+// nicht zu diesem.
+let startBbox = { west: 2.2269923194085774, east: 2.4331556771226127, south: 48.82366665448583, north: 48.892993566082404 };
+// uebersichtBbox — paris-ueberblickkarte-web.png, unverändert.
 let uebersichtBbox = { west: 2.2269923194085774, east: 2.4331556771226127, south: 48.82366665448583, north: 48.892993566082404 };
 let ch1ImgBbox = { west: 2.317834413581757, east: 2.352393886019969, south: 48.86683338890839, north: 48.881871498351956 };
 
@@ -266,6 +279,7 @@ function setup() {
     if (ziel) springeZuKapitelZoom(ziel);
   });
   annotationBoxEl = document.getElementById('annotationBox');
+  schlusstextEl = document.getElementById('schlusstext');
   annotationText = document.getElementById('annotationText');
   annotationInner = document.getElementById('annotationInner');
   annotationTag = document.getElementById('annotationTag');
@@ -837,9 +851,15 @@ function draw() {
   // symmetrisch wieder auf die Startseiten-Karte zurück. Beide Bilder zeigen
   // denselben Ausschnitt (siehe uebersichtBbox) und haben dieselben
   // Pixelmasse — es wechselt also wirklich nur, welches gezeichnet wird.
-  let currentBgImage = progress < SCROLL_MEILENSTEINE.zoomEnd ? bgImage : bgImage2;
+  // Im Schlussakt kehrt die STARTkarte zurück (nicht die Überblickkarte) —
+  // der Bogen schliesst dort, wo er begonnen hat. Jedes der beiden Bilder
+  // bringt seine eigene Georeferenz mit.
+  let imStartkarteAkt = progress >= SCROLL_MEILENSTEINE.startkarteStart;
+  let zeigeStartkarte = progress < SCROLL_MEILENSTEINE.zoomEnd || imStartkarteAkt;
+  let currentBgImage = zeigeStartkarte ? bgImage : bgImage2;
+  let currentBgBbox = zeigeStartkarte ? startBbox : uebersichtBbox;
   let fullCrop = coverCrop(currentBgImage.width, currentBgImage.height, 0.5, 0.5, 0); // grosse Karte bleibt zentriert, unabhängig von mapOffsetX
-  let fullBbox = cropToBbox(fullCrop, uebersichtBbox, currentBgImage.width, currentBgImage.height);
+  let fullBbox = cropToBbox(fullCrop, currentBgBbox, currentBgImage.width, currentBgImage.height);
 
   let zoomAmount = constrain(map(progress, SCROLL_MEILENSTEINE.zoomStart, SCROLL_MEILENSTEINE.zoomEnd, 0, 1), 0, 1);
   // Nach Abschluss der Route wieder auf die Gesamtkarte rauszoomen — die
@@ -876,15 +896,19 @@ function draw() {
   let uebersichtRoutenFortschritt = constrain(map(progress, SCROLL_MEILENSTEINE.uebersichtRoutenStart, SCROLL_MEILENSTEINE.uebersichtRoutenEnd, 0, 1), 0, 1);
   if (zoomedKapitel && uebersichtRoutenFortschritt <= 0) schliesseKapitelZoom(); // zurückgescrollt
 
-  // Letzter Akt: Kreisvergleich handverlesener, kapitelübergreifender Orte
-  // (siehe kreisvergleich-orte.json). kreisVergleichMapFade blendet die
-  // Übersichtskarte/-routen in den ersten paar Prozent des Akts aus;
-  // kreisVergleichAktuellesKapitel wächst danach linear über den Rest des
-  // Akts von 1 auf 18 und bestimmt, wie viele Kapitel-Beiträge pro Ort
-  // schon im jeweiligen Kreis aufsummiert sind.
-  let kreisVergleichMapFade = constrain(map(progress, SCROLL_MEILENSTEINE.kreisVergleichStart, SCROLL_MEILENSTEINE.kreisVergleichFadeEnd, 0, 1), 0, 1);
-  let kreisVergleichWachstum = constrain(map(progress, SCROLL_MEILENSTEINE.kreisVergleichFadeEnd, SCROLL_MEILENSTEINE.kreisVergleichEnd, 0, 1), 0, 1);
-  let kreisVergleichAktuellesKapitel = Math.max(1, Math.min(18, Math.ceil(kreisVergleichWachstum * 18)));
+  // Letzter Akt: Ortsveränderung an sieben kapitelübergreifenden Orten
+  // (siehe zeichneOrtsveraenderung und die Phasen OV_*).
+  // Schlussakt "Ortsveränderung" (siehe zeichneOrtsveraenderung): ein
+  // durchgehender Fortschritt 0..1 über den ganzen Akt, aus dem sich die
+  // Phasen ableiten. Der Kartenfade läuft nicht mehr sofort, sondern über
+  // OV_KARTE_AUS — die Karte verschwindet langsam, während die senkrechten
+  // Linien schon wachsen.
+  let ovFortschritt = constrain(map(progress, SCROLL_MEILENSTEINE.kreisVergleichStart, SCROLL_MEILENSTEINE.kreisVergleichEnd, 0, 1), 0, 1);
+  let skFortschritt = constrain(map(progress, SCROLL_MEILENSTEINE.startkarteStart, 1, 0, 1), 0, 1);
+  let skEinblenden = ovPhase(skFortschritt, SK_EINBLENDEN);
+  let skRauszoom = ovPhase(skFortschritt, SK_RAUSZOOM);
+  if (schlusstextEl) schlusstextEl.style.opacity = ovPhase(skFortschritt, SK_TEXT);
+  let kreisVergleichMapFade = ovPhase(ovFortschritt, OV_KARTE_AUS);
   // Ein noch offener Kapitel-Zoom soll nicht mit in diesen Akt "hinüber-
   // gescrollt" werden können (sonst läge sein Kartenausschnitt über dem
   // ausblendenden Übersichtsbild und dem neuen Kreis-Raster).
@@ -901,6 +925,34 @@ function draw() {
     south: lerp(fullBbox.south, targetBbox.south, zoomAmount),
     north: lerp(fullBbox.north, targetBbox.north, zoomAmount),
   };
+
+  // Schlusszoom auf den Ausschnitt, der die sieben Orte der Ortsveränderung
+  // fasst — erst nachdem die Linien zurückgeschrumpft sind und die Punkte auf
+  // ihrem echten Ort liegen (siehe OV_ZOOM). Dadurch rücken die Orte weit
+  // genug auseinander, dass ihre Kreise sich nicht überlagern.
+  let ovZoom = ovPhase(ovFortschritt, OV_ZOOM);
+  if (ovZoom > 0) {
+    let ziel = ovZoomBbox();
+    if (ziel) {
+      activeBbox = {
+        west: lerp(activeBbox.west, ziel.west, ovZoom),
+        east: lerp(activeBbox.east, ziel.east, ovZoom),
+        south: lerp(activeBbox.south, ziel.south, ovZoom),
+        north: lerp(activeBbox.north, ziel.north, ovZoom),
+      };
+    }
+  }
+
+  // Und wieder heraus: aus dem Ausschnitt der sieben Orte zurück auf die
+  // ganze Startkarte, nachdem diese eingeblendet hat.
+  if (skRauszoom > 0) {
+    activeBbox = {
+      west: lerp(activeBbox.west, fullBbox.west, skRauszoom),
+      east: lerp(activeBbox.east, fullBbox.east, skRauszoom),
+      south: lerp(activeBbox.south, fullBbox.south, skRauszoom),
+      north: lerp(activeBbox.north, fullBbox.north, skRauszoom),
+    };
+  }
 
   // Kapitel-Zoom (Klick auf «03» etc.) — zoomt von der Gesamtkarte weiter in
   // den eigenen Kartenausschnitt des Kapitels, genau wie oben bgImage→ch1Image.
@@ -925,7 +977,7 @@ function draw() {
   // currentBgImage steht schon oben fest (zusammen mit fullBbox) — hier wird
   // daraus nur noch der zu zeichnende Bildausschnitt für die aktuelle
   // activeBbox berechnet.
-  let bgCrop = bboxToImgCrop(activeBbox, uebersichtBbox, currentBgImage.width, currentBgImage.height);
+  let bgCrop = bboxToImgCrop(activeBbox, currentBgBbox, currentBgImage.width, currentBgImage.height);
   // ch1Image "zoomt" nicht selbst mit — es blendet an seiner bereits fest
   // berechneten, korrekt proportionierten Zielposition (targetCrop) ein.
   // Ein dynamisch aus der (während des Übergangs noch viel zu grossen)
@@ -934,7 +986,9 @@ function draw() {
   // bei einer Strassenkarte).
   let ch1Crop = targetCrop;
 
-  tint(255, 255 * (1 - zoomAmount) * (1 - kreisVergleichMapFade));
+  // (1 - kreisVergleichMapFade) blendet die Karte im Ortsveränderungs-Akt aus;
+  // skEinblenden holt sie im allerletzten Akt zurück.
+  tint(255, 255 * (1 - zoomAmount) * Math.max(1 - kreisVergleichMapFade, skEinblenden));
   image(currentBgImage, 0, 0, width, height, bgCrop.x, bgCrop.y, bgCrop.w, bgCrop.h);
   tint(255, 255 * zoomAmount * (1 - kreisVergleichMapFade));
   image(ch1Image, mapOffsetX, mapOffsetY, width - mapOffsetX, height, ch1Crop.x, ch1Crop.y, ch1Crop.w, ch1Crop.h);
@@ -968,8 +1022,18 @@ function draw() {
   // sichtbar) darüber liegen. (uebersichtRoutenFortschritt bereits oben
   // berechnet, wird dort schon für den Kapitel-Zoom gebraucht.)
   let aktuelleAnnotationZoom = null;
-  if (uebersichtRoutenFortschritt > 0 && kreisVergleichMapFade < 1) {
-    let uebersichtRoutenErgebnis = zeichneUebersichtsrouten(activeBbox, 180 * (1 - kreisVergleichMapFade), uebersichtRoutenFortschritt);
+  // Die Routen bleiben im Ortsveränderungs-Akt zunächst stehen, auch wenn die
+  // Karte darunter ausblendet — auf sie kommen die Ortspunkte zu liegen. Erst
+  // mit dem Zoom verschwinden sie ganz: bis dahin sind die Punkte gelandet,
+  // und fürs Kapitelzählen soll der Hintergrund leer sein.
+  //
+  // Beim Rauszoomen im allerletzten Akt kommen sie zurück (Math.max) — das
+  // Schlussbild ist wieder die ganze Karte mit allen achtzehn Routen, so wie
+  // der Überblicksakt sie hinterlassen hat.
+  if (uebersichtRoutenFortschritt > 0) {
+    let routenSichtbar = Math.max((1 - 0.45 * kreisVergleichMapFade) * (1 - ovZoom), skRauszoom);
+    let routenAlpha = 180 * routenSichtbar;
+    let uebersichtRoutenErgebnis = zeichneUebersichtsrouten(activeBbox, routenAlpha, uebersichtRoutenFortschritt);
     aktuelleAnnotationZoom = uebersichtRoutenErgebnis && uebersichtRoutenErgebnis.aktuelleAnnotationZoom;
   } else {
     kapitelHover = null; // Routen (und damit Hover-Ziele) aktuell nicht gezeichnet
@@ -986,7 +1050,11 @@ function draw() {
     // Strichstärke der Kapitel-1-Route läuft beim Rauszoomen von 10 auf 2 —
     // exakt die Stärke der Übersichtsrouten (siehe zeichneUebersichtsrouten),
     // damit Kapitel 1s Linie in der Gesamtkarten-Ansicht gleich dünn wirkt.
-    zeichneRoute(stationenData.routenPunkte, liniIndex, activeBbox, lerp(10, 2, zoomOutAmount), kartenOffsetX, kartenOffsetY, 1 - kreisVergleichMapFade);
+    // Kapitel 1s eigene Route folgt demselben Ausblenden wie die Übersichts-
+    // routen oben — sonst verschwände sie schon mit der Karte, während die
+    // anderen noch stehen.
+    zeichneRoute(stationenData.routenPunkte, liniIndex, activeBbox, lerp(10, 2, zoomOutAmount), kartenOffsetX, kartenOffsetY,
+      Math.max((1 - 0.45 * kreisVergleichMapFade) * (1 - ovZoom), skRauszoom));
     // Kreisgrafik (Karte) in der letzten Ansicht (Rauszoomen) für den Moment
     // ausgeblendet — Route/Spine bleiben davon unberührt sichtbar.
     if (zoomOutAmount <= 0) {
@@ -994,9 +1062,12 @@ function draw() {
     }
   }
 
-  // Letzter Akt: Kreisvergleich (siehe kreisVergleichMapFade/-Wachstum oben)
-  // — blendet genau dann ein, wenn die Übersichtskarte ausgeblendet ist.
-  zeichneKreisVergleich(kreisVergleichMapFade, kreisVergleichAktuellesKapitel);
+  // Letzter Akt: Ortsveränderung — senkrechte Linien wachsen gestaffelt,
+  // die Karte blendet aus, die Linien schrumpfen zurück auf die echten Orte,
+  // Zoom, dann wachsen die Kreise während die Kapitel durchzählen.
+  if (ovFortschritt > 0 && !zoomedKapitel) {
+    zeichneOrtsveraenderung(activeBbox, ovFortschritt, 255 * (1 - skRauszoom));
+  }
 
   // Grafische Ansicht (siehe kapitelAnsichtsModus): deckt Karte/Route/Kreise
   // dieses Frames vollständig mit einer eigenen, auf den Browser
@@ -1226,9 +1297,32 @@ function draw() {
   // Scroll-Fortschritt öffnen (siehe springeZuKapitelZoom/oeffneKapitelZoom).
   // Zusätzlich mit kapitelZoomAmount multipliziert, damit der Text beim
   // Schliessen/Wechseln synchron mit der Karte mit-ausblendet.
+  // Übersichtsakt: jedes Kapitel bekommt seine eigene Scheibe des Akts
+  // (i/n .. (i+1)/n, dieselbe Aufteilung wie die Routen in
+  // zeichneUebersichtsrouten). Sobald eine Route zu wachsen beginnt, blendet
+  // der Einstiegstext dieses Kapitels ein und wieder aus, bevor das nächste
+  // an die Reihe kommt.
+  let uebersichtScheiben = !zoomedKapitel ? kapitelScheiben() : null;
+  let imUebersichtsakt = uebersichtRoutenFortschritt > 0
+    && progress < SCROLL_MEILENSTEINE.kreisVergleichStart;
+
   kapitelEinstiegsTexte.forEach(el => {
     let passtZuOffenemKapitel = el.dataset.kapitel === zoomedKapitel;
     let opacity = 0;
+
+    if (uebersichtScheiben && imUebersichtsakt) {
+      let scheibe = uebersichtScheiben.find(sch => sch.nr === el.dataset.kapitel);
+      if (scheibe) {
+        let lokal = constrain(map(uebersichtRoutenFortschritt, scheibe.von, scheibe.bis, 0, 1), 0, 1);
+        // Einblenden über das erste Achtel der Scheibe, ausblenden gegen ihr
+        // Ende. Das Fenster ist bewusst breit gehalten: seit die Scheiben
+        // nach Routenlänge gewichtet sind, haben kurze Kapitel deutlich
+        // weniger Strecke, und ihr Text soll trotzdem lesbar bleiben.
+        opacity = Math.min(
+          constrain(map(lokal, 0, 0.12, 0, 1), 0, 1),
+          1 - constrain(map(lokal, 0.72, 0.88, 0, 1), 0, 1));
+      }
+    }
     if (passtZuOffenemKapitel && kapitelEinstiegsStartMillis !== null) {
       let elapsed = millis() - kapitelEinstiegsStartMillis;
       let einblenden = constrain(map(elapsed, 0, KAPITEL_EINSTIEG_FADE_MS, 0, 1), 0, 1);
@@ -1876,68 +1970,12 @@ function zeichneFwertPunkte(cx, cy, kreisRadius, fwertAnnotationen, alphaSkala =
   });
 }
 
-// Letzter Akt: 8 handverlesene, kapitelübergreifende Orte (Rue
-// Constantinople, Rue Notre-Dame de Lorette, Boulevard des Italiens/
-// Capucines, Parc Monceau, Boulevard Malesherbes, Folies Bergère, Place de
-// la Madeleine, Redaktion — siehe kreisvergleich-orte.json/
-// baue-kreisvergleich.py) im 4er-Raster. aktuellesKapitelMax wächst mit dem
-// Scrollen von 1 auf 18 (siehe draw()); jeder Kreis summiert dabei nur die
-// bandCounts der Kapitel auf, in denen der Ort tatsächlich vorkommt UND die
-// bereits erreicht sind — "Kapitel XX" darunter zeigt das jeweils letzte,
-// für DIESEN Ort relevante erreichte Kapitel (daher pro Ort meist eine
-// andere Zahl, nicht ein gemeinsamer globaler Zähler).
-function zeichneKreisVergleich(gridAlpha, aktuellesKapitelMax) {
-  if (gridAlpha <= 0 || !kreisVergleichOrte || kreisVergleichOrte.length === 0) return;
-
-  let cols = 4;
-  let rows = Math.ceil(kreisVergleichOrte.length / cols);
-
-  noStroke();
-  textFont("'Source Sans 3', sans-serif");
-  textAlign(CENTER, CENTER);
-
-  kreisVergleichOrte.forEach((ort, i) => {
-    let col = i % cols;
-    let row = Math.floor(i / cols);
-    let cx = width * (col + 0.5) / cols;
-    let cy = height * (row + 0.5) / rows;
-
-    let bandCounts = {
-      gold_dunkel: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
-      gold_mittel: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
-      gold_hell: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
-    };
-    let letztesRelevantesKapitel = null;
-    ort.kapitel.forEach(k => {
-      if (parseInt(k.nr, 10) > aktuellesKapitelMax) return;
-      letztesRelevantesKapitel = k.nr;
-      ['gold_dunkel', 'gold_mittel', 'gold_hell'].forEach(cat => {
-        ['neg', 'pos', 'neutral', 'unrated'].forEach(v => {
-          bandCounts[cat][v] += k.bandCounts[cat][v];
-        });
-      });
-    });
-
-    // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
-    // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
-    // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal) —
-    // direkt über den Canvas-Context gezeichnet.
-    textStyle(BOLD);
-    textSize(13);
-    fill(26, 26, 26, 255 * gridAlpha);
-    drawingContext.fillText(ort.name, cx, cy - 130);
-
-    zeichneKreiseFuerRun(cx, cy, bandCounts, gridAlpha);
-
-    textStyle(NORMAL);
-    textSize(11);
-    fill(90, 90, 90, 255 * gridAlpha);
-    drawingContext.fillText(letztesRelevantesKapitel ? `Kapitel ${letztesRelevantesKapitel}` : 'Kapitel –', cx, cy + 130);
-  });
-
-  textAlign(LEFT, CENTER); // zurücksetzen — andere Zeichenfunktionen erwarten diese Voreinstellung
-  textStyle(NORMAL);
-}
+// Das frühere 4er-Raster des Kreisvergleichs (zeichneKreisVergleich) ist
+// entfallen — dieselbe Information steht jetzt an den echten Orten auf der
+// Karte, siehe zeichneOrtsveraenderung. kreisvergleich-orte.json bleibt als
+// Datenartefakt bestehen: baue-sammelpunkte-handkuriert.py prüft bei jedem
+// Kapitel-Neubau dagegen, ob sich die kapitelübergreifenden Summen geändert
+// haben.
 
 function zeichneRoute(punkte, upToIndex, bbox, strichstaerke = 2, offsetX = mapOffsetX, offsetY = mapOffsetY, alphaMultiplier = 1) {
   if (upToIndex < 1) return;
@@ -1954,33 +1992,15 @@ function zeichneRoute(punkte, upToIndex, bbox, strichstaerke = 2, offsetX = mapO
   }
 }
 
-// Kapitelübergreifende Orte auf der Übersichtskarte (alle Kapitel): je ein
-// eigener, von den einzelnen Kapitel-Routen UNABHÄNGIGER Knoten — eine Linie
-// von der echten Koordinate zu einem eigenen Kreisdiagramm. Die Auswahl ist
-// dieselbe wie im Kreisvergleich des Schlussakts (siehe zeichneKreisVergleich):
-// die sechs Orte, die den Roman tragen.
+// Die sieben kapitelübergreifenden Orte der Ortsveränderung (Schlussakt,
+// siehe zeichneOrtsveraenderung). Jeder ist an seiner echten Koordinate
+// verankert; die senkrechte Linie darunter ist eine Zwischenphase, an deren
+// Ende die Punkte wieder auf ihrem Ort liegen.
 //
-// Warum eine Reihe statt sechs senkrechter Linien: Die Anker liegen zu dicht
-// beieinander — Rue Boursault, Rue Constantinople und Haus Walter innerhalb
-// von 4px derselben Bildspalte. Bei einem Maximalradius von 100px bräuchten
-// allein diese drei 440px vertikalen Versatz, mehr als die halbe Fensterhöhe.
-// Die Kreise stehen deshalb in einer Reihe am unteren Kartenrand, jeder mit
-// seiner eigenen Zuführungslinie zur echten Position — dieselbe Bildsprache
-// wie beim früheren Einzelknoten der Redaktion, nur aufgefächert.
-//
-// Orte mit zwei Namen teilen sich einen Anker: Rue Fontaine (Forestiers
-// Wohnung, dann Duroys) und Rue Constantinople sind ohnehin dieselbe Adresse
-// (0m), die Madeleine-Varianten liegen 51m auseinander. Nur die beiden
-// Walter-Adressen sind 465m getrennt — auf dieser Karte 34px, weniger als ein
-// Kreisradius; der Anker liegt in ihrer Mitte.
-//
-// Das Kreisdiagramm wächst analog zu den Kapitelrouten (zeichneUebersichts-
-// routen, siehe Aufruf dort): dieselbe i/n..(i+1)/n-Slice des Akts pro
-// Kapitel, live über zaehleAnnotationenLiveNachOrtBasis aufsummiert (statt
-// der in kreisvergleich-orte.json fest vorberechneten Kapitel-Summen), damit
-// es innerhalb jeder Kapitel-Slice genauso fein mitwächst wie dessen Route.
-// Kapitel 1 ist zu diesem Zeitpunkt bereits vollständig durchlaufen (eigener
-// Scroll-Akt davor) und zählt daher von Anfang an voll.
+// Orte mit mehreren Namen teilen sich einen Anker: Rue Fontaine (Forestiers
+// Wohnung, dann Duroys) und Rue Constantinople sind ohnehin dieselbe Adresse,
+// die Madeleine-Varianten liegen 51 m auseinander. Die beiden Walter-Adressen
+// sind 465 m getrennt — der Anker liegt in ihrer Mitte.
 const VERGLEICHS_KNOTEN = [
   { label: 'Redaktion La Vie Française', lon: 2.34663, lat: 48.87224,
     namen: ['Redaktion La Vie Française'] },
@@ -2012,19 +2032,98 @@ const VERGLEICHS_KNOTEN = [
       'Théâtre du Vaudeville, Boulevard des Capucines', 'Juwelierladen am Boulevard des Capucines',
       'Boulevard-Cafés (unterwegs), Paris'] },
 ];
-const VERGLEICHS_KNOTEN_LINIE_MIN = 24;   // kürzeste senkrechte Zuführungslinie
-const VERGLEICHS_KNOTEN_ABSTAND = 12;     // Luft zwischen zwei Knoten
-const VERGLEICHS_KNOTEN_LABEL_ABSTAND = 10;
-const VERGLEICHS_KNOTEN_RAND_UNTEN = 26;  // Luft unter der Beschriftung
+// ── Schlussakt "Ortsveränderung" ───────────────────────────────────────────
+// Ablauf über den letzten Akt (kreisVergleichStart..1.0), als Anteile davon.
+// Die Phasen überlappen bewusst, damit nichts hart einsetzt.
+//   1. Die senkrechten Linien wachsen gestaffelt nach unten — erst hier,
+//      wenn die letzte Übersichtsroute fertig gezeichnet ist.
+//   2. Die Karte blendet aus. Die ROUTEN bleiben stehen: auf sie sollen die
+//      Ortspunkte gleich zu liegen kommen.
+//   3. Die Linien schrumpfen wieder, die Punkte landen auf ihrem echten Ort.
+//   4. Die Ortsbeschriftung blendet ein — sobald die Linien ausgewachsen
+//      sind und bevor sie zurückschrumpfen. Sie hängt am unteren Ende der
+//      Linie und fährt beim Schrumpfen mit dem Punkt nach oben.
+//   5. Zoom auf den Ausschnitt, der alle sieben Orte fasst — dadurch rücken
+//      sie weit genug auseinander, dass die Kreise sich nicht überlagern.
+//      Läuft GLEICHZEITIG mit dem Schrumpfen der Linien an: die Punkte
+//      fahren nach oben zurück, während die Karte sich unter ihnen aufzieht,
+//      statt beides nacheinander abzuspulen.
+//   6. Die Kreise wachsen, während unter ihnen die Kapitel durchzählen.
+const OV_LINIE_WACHSEN = [0.00, 0.18];
+const OV_KARTE_AUS     = [0.12, 0.32];
+const OV_LINIE_ZURUECK = [0.32, 0.46];
+const OV_LABEL_EIN     = [0.18, 0.30];
+const OV_ZOOM          = [0.32, 0.52];
+const OV_KAPITEL       = [0.64, 1.00];
+// Allerletzter Akt: die Startkarte kommt zurück. Erst blendet sie hinter den
+// sieben Kreisen ein, danach fährt die Ansicht aus deren Ausschnitt auf die
+// Gesamtkarte zurück. Die Kreise verblassen dabei — beim Rauszoomen behalten
+// sie ihre Pixelgrösse, während die Karte darunter schrumpft, und würden
+// sonst ineinanderlaufen.
+const SK_EINBLENDEN = [0.00, 0.45];
+const SK_RAUSZOOM   = [0.45, 1.00];
+// Der Schlusstext kommt zuletzt: erst die Karte, dann die Zoomfahrt, dann das
+// Wort. Er steht am Ende allein auf der Gesamtkarte.
+const SK_TEXT       = [0.62, 0.90];
 
-// Rohradien (ohne Deckel) und F-Wert-Annotationen je Knoten, über alle
-// Kapitel summiert. Einmal berechnet — die Reihenfolge und die Staffelung
-// richten sich nach dem ENDSTAND, sonst rückten die Kreise bei jedem
-// Wachstumsschritt neu übereinander.
-let vergleichsKnotenEndstand = null;
-let vergleichsKnotenLayout = null; // { breite, hoehe, skala, plaetze: [{cy, radius}] }
+const OV_STAFFEL = 0.45;      // Anteil des Wachstumsfensters, über den die Linien versetzt starten
+const OV_ZOOM_RAND = 0.18;    // Luft um die sieben Orte im Zielausschnitt
+const OV_LINIE_BASIS = 70;    // Tiefe der ersten Linie
+const OV_LINIE_SCHRITT = 64;  // zusätzliche Tiefe je weiterem Knoten
 
-function vergleichsKnotenRohradius(bandCounts) {
+const OV_LABEL_MAX_BREITE = 200; // ab dieser Breite wird zweizeilig gesetzt
+const OV_LABEL_ZEILE = 15;       // Zeilenhöhe der Ortsbeschriftung
+
+// Bricht eine lange Ortsbeschriftung auf zwei Zeilen. Bevorzugte Trennstellen
+// in dieser Reihenfolge: vor einer Klammer ("GEORGES DUROYS WOHNUNG" /
+// "(RUE BOURSAULT)"), nach einem Komma ("PALAIS WALTER," / "FAUBOURG
+// SAINT-HONORÉ"), sonst am Leerzeichen, das der Mitte am nächsten liegt.
+// Setzt voraus, dass Schrift und Grösse der Beschriftung bereits gesetzt sind
+// (textWidth misst mit dem aktuellen Zustand).
+function ovLabelZeilen(text) {
+  if (textWidth(text) <= OV_LABEL_MAX_BREITE) return [text];
+  let klammer = text.indexOf('(');
+  if (klammer > 0) return [text.slice(0, klammer).trim(), text.slice(klammer).trim()];
+  let komma = text.indexOf(',');
+  if (komma > 0 && komma < text.length - 1) {
+    return [text.slice(0, komma + 1).trim(), text.slice(komma + 1).trim()];
+  }
+  let mitte = text.length / 2, beste = -1, abstand = Infinity;
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] !== ' ') continue;
+    if (Math.abs(i - mitte) < abstand) { abstand = Math.abs(i - mitte); beste = i; }
+  }
+  if (beste < 0) return [text];
+  return [text.slice(0, beste).trim(), text.slice(beste + 1).trim()];
+}
+
+function ovPhase(p, fenster) {
+  return constrain(map(p, fenster[0], fenster[1], 0, 1), 0, 1);
+}
+
+// Je Knoten und Kapitel vorberechnet: bandCounts und F-Wert-Annotationen.
+// Der Schlussakt zählt die Kapitel durch (1..18) und summiert dabei auf —
+// das live über alle 18 Kapitel zu scannen wären 126 Durchläufe pro Frame.
+// Einmal gebaut, danach nur noch aufaddiert.
+let ovProKapitel = null;   // [knoten][kapitelNr] -> { bandCounts, fwerte }
+let ovRohradien = null;    // Endstand-Rohradius je Knoten (ohne Deckel)
+let ovLayout = null;       // { breite, hoehe, tiefen, kreisSkala, bbox }
+
+function ovLeereBandCounts() {
+  return {
+    gold_dunkel: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
+    gold_mittel: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
+    gold_hell: { neg: 0, pos: 0, neutral: 0, unrated: 0 },
+  };
+}
+
+function ovAddiere(ziel, quelle) {
+  ['gold_dunkel', 'gold_mittel', 'gold_hell'].forEach(cat => {
+    ['neg', 'pos', 'neutral', 'unrated'].forEach(v => { ziel[cat][v] += quelle[cat][v]; });
+  });
+}
+
+function ovRadiusAus(bandCounts) {
   let r = 0;
   KREIS_KATEGORIEN.forEach(kat => {
     let b = bandCounts[kat.key] || {};
@@ -2033,159 +2132,242 @@ function vergleichsKnotenRohradius(bandCounts) {
   return r;
 }
 
-// Summiert die Treffer eines Knotens: Kapitel 1 vollständig (es ist zu diesem
-// Zeitpunkt bereits durchlaufen), die Kapitel 02–18 je nach Fortschritt ihrer
-// eigenen Slice des Akts. fortschritt = null zählt alle Kapitel voll.
-function vergleichsKnotenDaten(knoten, kapitelListe, n, fortschritt) {
-  let filter = new Set(knoten.namen);
-  let letzterIndex = stationenData.annotationen.length - 1;
-  let bandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, letzterIndex, stationenData);
-  let fwerte = sammleAnnotationenNachOrtBasis(filter, letzterIndex, stationenData).filter(a => a.hasFwert);
-  kapitelListe.forEach(([kapitelNr], i) => {
-    let daten = datenFuerKapitel(kapitelNr);
-    if (!daten || !daten.annotationen || !daten.annotationen.length) return;
-    let annIndex;
-    if (fortschritt === null) {
-      annIndex = daten.annotationen.length - 1;
-    } else {
-      let lokal = constrain(map(fortschritt, i / n, (i + 1) / n, 0, 1), 0, 1);
-      if (lokal <= 0) return;
-      annIndex = Math.min(daten.annotationen.length - 1, Math.floor(lokal * daten.annotationen.length));
-    }
-    let kapitelBandCounts = zaehleAnnotationenLiveNachOrtBasis(filter, annIndex, daten);
-    ['gold_dunkel', 'gold_mittel', 'gold_hell'].forEach(cat => {
-      ['neg', 'pos', 'neutral', 'unrated'].forEach(v => {
-        bandCounts[cat][v] += kapitelBandCounts[cat][v];
-      });
+function ovBaueDaten() {
+  if (ovProKapitel) return;
+  ovProKapitel = VERGLEICHS_KNOTEN.map(k => {
+    let filter = new Set(k.namen);
+    let proKapitel = {};
+    let alleDaten = [['01', stationenData]].concat(
+      Object.keys(uebersichtsRouten || {}).sort().map(nr => [nr, datenFuerKapitel(nr)]));
+    alleDaten.forEach(([nr, daten]) => {
+      if (!daten || !daten.annotationen || !daten.annotationen.length) return;
+      let bis = daten.annotationen.length - 1;
+      proKapitel[nr] = {
+        bandCounts: zaehleAnnotationenLiveNachOrtBasis(filter, bis, daten),
+        fwerte: sammleAnnotationenNachOrtBasis(filter, bis, daten).filter(a => a.hasFwert),
+      };
     });
-    fwerte = fwerte.concat(sammleAnnotationenNachOrtBasis(filter, annIndex, daten).filter(a => a.hasFwert));
+    return proKapitel;
   });
-  return { bandCounts, fwerte };
+  ovRohradien = ovProKapitel.map(proKapitel => {
+    let summe = ovLeereBandCounts();
+    Object.values(proKapitel).forEach(k => ovAddiere(summe, k.bandCounts));
+    return ovRadiusAus(summe);
+  });
+  ovLayout = null;
 }
 
-// Aussenradius inklusive der F-Wert-Ringe — dieselbe Ringlogik wie in
-// zeichneFwertPunkte, damit die Staffelung den tatsächlichen Platzbedarf
-// kennt und nicht nur den Kreis.
-function vergleichsKnotenAussenradius(radius, fwerte) {
-  if (!fwerte.length || radius <= 0) return radius;
-  const DRITTEL = TWO_PI / 3;
-  let gruppen = [[], [], []];
-  fwerte.forEach(a => {
-    let g = a.valenz === -1 ? 0 : a.valenz === 1 ? 1 : 2;
-    gruppen[g].push(FWERT_PUNKT_DURCHMESSER[FWERT_PUNKTGROESSE[a.fWertType] || 1]);
+// Summe bis einschliesslich Kapitel maxNr ('18' = alles). Liefert zusätzlich
+// die Nummer des letzten Kapitels, das überhaupt beigetragen hat — sie steht
+// im Schlussakt unter dem Kreis.
+function ovStand(index, maxNr) {
+  let summe = ovLeereBandCounts();
+  let fwerte = [];
+  let letztes = null;
+  Object.keys(ovProKapitel[index]).sort().forEach(nr => {
+    if (parseInt(nr, 10) > maxNr) return;
+    let k = ovProKapitel[index][nr];
+    ovAddiere(summe, k.bandCounts);
+    fwerte = fwerte.concat(k.fwerte);
+    let n = (summe.gold_dunkel.neg + summe.gold_dunkel.pos + summe.gold_dunkel.neutral + summe.gold_dunkel.unrated)
+      + (summe.gold_mittel.neg + summe.gold_mittel.pos + summe.gold_mittel.neutral + summe.gold_mittel.unrated)
+      + (summe.gold_hell.neg + summe.gold_hell.pos + summe.gold_hell.neutral + summe.gold_hell.unrated);
+    if (n > 0 && k.fwerte.length + 1 > 0) letztes = nr;
   });
-  let aussen = radius;
-  gruppen.forEach(formen => {
-    if (!formen.length) return;
-    let ringRadius = radius + FWERT_PUNKT_RAND_ABSTAND;
-    let rest = formen;
-    while (rest.length) {
-      let bogenlaenge = ringRadius * DRITTEL;
-      let platz = 0, anzahl = 0;
-      for (let d of rest) {
-        if (anzahl > 0 && platz + d + 2 > bogenlaenge) break;
-        platz += d + 2; anzahl++;
-      }
-      rest = rest.slice(anzahl);
-      aussen = Math.max(aussen, ringRadius + Math.max(...formen) / 2);
-      ringRadius += FWERT_PUNKT_RING_ABSTAND;
-    }
-  });
-  return aussen;
+  return { bandCounts: summe, fwerte, letztes };
 }
 
-// Senkrechte Staffelung: jeder Kreis hängt an einer senkrechten Linie unter
-// seinem echten Ort. Weil drei Anker innerhalb weniger Pixel derselben
-// Bildspalte liegen, müssen die Kreise weit auseinanderrücken — deshalb wird
-// die gemeinsame Radius-Skala per Halbierungssuche so gross gewählt, wie sie
-// gerade noch ins Fenster passt. Auf hohen Fenstern werden die Kreise dadurch
-// von selbst grösser.
-function berechneVergleichsKnotenLayout(anker) {
-  if (vergleichsKnotenLayout && vergleichsKnotenLayout.breite === width
-    && vergleichsKnotenLayout.hoehe === height) return vergleichsKnotenLayout;
+// Zielausschnitt des Schlusszooms: alle sieben Orte plus Rand, auf das
+// Seitenverhältnis des Canvas gebracht. Dazu die Kreis-Skala, bei der sich in
+// diesem Ausschnitt keine zwei Kreise berühren — dadurch stehen die Kreise am
+// Ende deutlich grösser als in der gestaffelten Zwischenphase.
+function ovBerechneLayout() {
+  if (ovLayout && ovLayout.breite === width && ovLayout.hoehe === height) return ovLayout;
 
-  let reihenfolge = anker.map((a, i) => i).sort((i, j) => anker[i].y - anker[j].y);
-  let versuch = (skala) => {
-    let plaetze = [];
-    let gesetzt = [];
-    let unterkante = 0;
-    for (let i of reihenfolge) {
-      let radius = vergleichsKnotenEndstand[i].rohradius * skala;
-      let aussen = vergleichsKnotenAussenradius(radius, vergleichsKnotenEndstand[i].fwerte);
-      let cy = anker[i].y + VERGLEICHS_KNOTEN_LINIE_MIN + aussen;
-      for (let runde = 0; runde < 30; runde++) {
-        let noetig = cy;
-        gesetzt.forEach(g => {
-          if (Math.abs(anker[i].x - g.x) < aussen + g.aussen + VERGLEICHS_KNOTEN_ABSTAND) {
-            noetig = Math.max(noetig, g.cy + g.aussen + VERGLEICHS_KNOTEN_ABSTAND + aussen);
-          }
-        });
-        if (noetig <= cy + 0.01) break;
-        cy = noetig;
-      }
-      gesetzt.push({ x: anker[i].x, cy, aussen });
-      plaetze[i] = { cy, radius, aussen };
-      unterkante = Math.max(unterkante, cy + aussen);
-    }
-    return { plaetze, unterkante };
-  };
+  const mercY = (lat) => Math.log(Math.tan(Math.PI / 4 + radians(lat) / 2));
+  const mercLat = (y) => degrees(2 * Math.atan(Math.exp(y)) - Math.PI / 2);
+  const RAND = 12; // Mindestluft zum Fensterrand
 
-  let lo = 0.05, hi = 1.0;
-  let passt = (s) => versuch(s).unterkante
-    + VERGLEICHS_KNOTEN_LABEL_ABSTAND + 14 + VERGLEICHS_KNOTEN_RAND_UNTEN <= height;
-  for (let k = 0; k < 24; k++) {
-    let mitte = (lo + hi) / 2;
-    if (passt(mitte)) lo = mitte; else hi = mitte;
-  }
-  vergleichsKnotenLayout = { breite: width, hoehe: height, skala: lo, plaetze: versuch(lo).plaetze };
-  return vergleichsKnotenLayout;
-}
-
-function zeichneVergleichsKnoten(bbox, kapitelListe, n, fortschritt, alpha) {
-  let effAlpha = zoomedKapitel ? alpha * (1 - kapitelZoomAmount) : alpha;
-  if (effAlpha <= 0 || !stationenData || !stationenData.annotationen) return;
-
-  if (!vergleichsKnotenEndstand) {
-    vergleichsKnotenEndstand = VERGLEICHS_KNOTEN.map(k => {
-      let { bandCounts, fwerte } = vergleichsKnotenDaten(k, kapitelListe, n, null);
-      return { rohradius: vergleichsKnotenRohradius(bandCounts), fwerte };
-    });
-    vergleichsKnotenLayout = null;
-  }
-
-  let anker = VERGLEICHS_KNOTEN.map(k => lonLatToScreen(k.lon, k.lat, bbox, 0, 0));
-  let layout = berechneVergleichsKnotenLayout(anker);
-
+  // Beschriftungsbreiten einmal messen — sie bestimmen mit, wie weit ein Ort
+  // vom seitlichen Rand entfernt stehen muss ("GEORGES DUROYS WOHNUNG (RUE
+  // BOURSAULT)" ist deutlich breiter als sein Kreis).
   textFont("'Source Sans 3', sans-serif");
   textStyle(BOLD);
-  textSize(11);
-  textAlign(CENTER, TOP);
+  textSize(13);
+  let labelZeilen = VERGLEICHS_KNOTEN.map(k => ovLabelZeilen(k.label.toUpperCase()));
+  let labelHalb = labelZeilen.map(z => Math.max(...z.map(t => textWidth(t))) / 2);
+  // Höhe unterhalb des Kreises: Abstand zur ersten Zeile, weitere Zeilen,
+  // dann die Kapitelzeile.
+  let untenHoehe = labelZeilen.map(z => 24 + (z.length - 1) * OV_LABEL_ZEILE + 16 + 7);
+  textStyle(NORMAL);
+
+  let lons = VERGLEICHS_KNOTEN.map(k => k.lon);
+  let lats = VERGLEICHS_KNOTEN.map(k => k.lat);
+  let w0 = Math.min(...lons), o0 = Math.max(...lons);
+  let s0 = Math.min(...lats), n0 = Math.max(...lats);
+
+  // Bbox für einen gegebenen Rand bauen: Rand auf die Ankerspanne, dann auf
+  // das Canvas-Seitenverhältnis aufziehen.
+  //
+  // Das Verhältnis wird in MERCATOR-Einheiten gebildet, nicht in Grad: die
+  // Karten sind EPSG:3857, dort entspricht ein Breitengrad auf Pariser Höhe
+  // dem 1/cos(48.87°) = 1.52-fachen eines Längengrads. Mit demselben
+  // Meterfaktor für beide Achsen kam ein um genau diesen Faktor horizontal
+  // gestreckter Ausschnitt heraus.
+  let baueBbox = (rand) => {
+    let dLon = (o0 - w0) * rand, dLat = (n0 - s0) * rand;
+    let west = w0 - dLon, ost = o0 + dLon, sued = s0 - dLat, nord = n0 + dLat;
+    let xW = radians(west), xO = radians(ost);
+    let yS = mercY(sued), yN = mercY(nord);
+    let sv = width / height;
+    if ((xO - xW) / (yN - yS) < sv) {
+      let zu = ((yN - yS) * sv - (xO - xW)) / 2;
+      west = degrees(xW - zu); ost = degrees(xO + zu);
+    } else {
+      let zu = ((xO - xW) / sv - (yN - yS)) / 2;
+      sued = mercLat(yS - zu); nord = mercLat(yN + zu);
+    }
+    return { west, east: ost, south: sued, north: nord };
+  };
+
+  // Kreis-Skala: grösster Faktor, bei dem sich keine zwei Kreise berühren.
+  let skalaFuer = (bbox, pos) => {
+    let skala = 1;
+    for (let i = 0; i < pos.length; i++) {
+      for (let j = i + 1; j < pos.length; j++) {
+        let d = dist(pos[i].x, pos[i].y, pos[j].x, pos[j].y);
+        skala = Math.min(skala, d / ((ovRohradien[i] + ovRohradien[j]) * 1.06));
+      }
+    }
+    return skala;
+  };
+
+  // Überstand über den Fensterrand, in px. Berücksichtigt, was um den
+  // Ankerpunkt herum tatsächlich Platz braucht: der Kreis nach allen Seiten,
+  // unten zusätzlich Ortsbeschriftung und Kapitelzeile, seitlich die halbe
+  // Beschriftungsbreite. Ein Rand, der nur die Anker umschliesst, reicht
+  // nicht — die Kreise ragen um ihren Radius darüber hinaus.
+  let ueberstand = (pos, skala) => {
+    let max = 0;
+    pos.forEach((p, i) => {
+      let r = ovRohradien[i] * skala;
+      max = Math.max(max,
+        RAND - (p.y - r),                       // oben
+        (p.y + r + untenHoehe[i]) - (height - RAND), // unten (inkl. aller Textzeilen)
+        RAND - (p.x - Math.max(r, labelHalb[i])),
+        (p.x + Math.max(r, labelHalb[i])) - (width - RAND));
+    });
+    return max;
+  };
+
+  // Rand so weit aufziehen, bis alles hineinpasst. Grösserer Rand heisst
+  // kleinere Kreise (die Skala hängt an den Pixelabständen), das Verfahren
+  // konvergiert deshalb.
+  let rand = OV_ZOOM_RAND;
+  let bbox = baueBbox(rand);
+  let pos = VERGLEICHS_KNOTEN.map(k => lonLatToScreen(k.lon, k.lat, bbox, 0, 0));
+  let kreisSkala = skalaFuer(bbox, pos);
+  for (let versuch = 0; versuch < 20 && ueberstand(pos, kreisSkala) > 0.5; versuch++) {
+    rand *= 1.15;
+    bbox = baueBbox(rand);
+    pos = VERGLEICHS_KNOTEN.map(k => lonLatToScreen(k.lon, k.lat, bbox, 0, 0));
+    kreisSkala = skalaFuer(bbox, pos);
+  }
+
+  // Tiefe der senkrechten Linien in der Zwischenphase: gestaffelt nach der
+  // Höhenlage der Anker, gedeckelt auf die Fensterhöhe.
+  let reihenfolge = pos.map((p, i) => ({ i, y: p.y })).sort((a, b) => a.y - b.y).map(a => a.i);
+  let tiefen = [];
+  reihenfolge.forEach((idx, rang) => { tiefen[idx] = OV_LINIE_BASIS + rang * OV_LINIE_SCHRITT; });
+  let maxTiefe = Math.max(...tiefen);
+  let platz = height - 90;
+  if (maxTiefe > platz) tiefen = tiefen.map(t => t * platz / maxTiefe);
+
+  ovLayout = { breite: width, hoehe: height, bbox, kreisSkala, tiefen, reihenfolge, rand, labelZeilen };
+  return ovLayout;
+}
+
+// Zielausschnitt für den Schlusszoom — draw() blendet activeBbox dorthin.
+function ovZoomBbox() {
+  if (!ovProKapitel) return null;
+  return ovBerechneLayout().bbox;
+}
+
+// Zeichnet den Schlussakt. p = Fortschritt im Akt (0..1), bbox = die gerade
+// gültige (bereits Richtung ovZoomBbox geblendete) Kartenbbox.
+function zeichneOrtsveraenderung(bbox, p, alpha) {
+  if (alpha <= 0 || !stationenData || !stationenData.annotationen) return;
+  ovBaueDaten();
+  let layout = ovBerechneLayout();
+
+  let pWachsen = ovPhase(p, OV_LINIE_WACHSEN);
+  let pZurueck = ovPhase(p, OV_LINIE_ZURUECK);
+  let pLabel = ovPhase(p, OV_LABEL_EIN);
+  let pKapitel = ovPhase(p, OV_KAPITEL);
+  let maxKapitel = Math.max(1, Math.min(18, Math.ceil(pKapitel * 18)));
+  let kreisAlpha = pKapitel > 0 ? 1 : 0;
+
+  let n = VERGLEICHS_KNOTEN.length;
+
+  textFont("'Source Sans 3', sans-serif");
+  textAlign(CENTER, CENTER);
 
   VERGLEICHS_KNOTEN.forEach((k, i) => {
-    let platz = layout.plaetze[i];
-    if (!platz) return;
-    let { bandCounts, fwerte } = vergleichsKnotenDaten(k, kapitelListe, n, fortschritt);
+    let anker = lonLatToScreen(k.lon, k.lat, bbox, 0, 0);
+    // Gestaffelter Start: der Knoten mit dem obersten Anker beginnt zuerst.
+    let rang = layout.reihenfolge.indexOf(i);
+    let start = (rang / n) * OV_STAFFEL;
+    let wachsen = constrain(map(pWachsen, start, start + (1 - OV_STAFFEL), 0, 1), 0, 1);
+    let tiefe = layout.tiefen[i] * wachsen * (1 - pZurueck);
+    let cy = anker.y + tiefe;
 
-    // Senkrechte Zuführungslinie vom echten Ort zum Kreis, plus ein Punkt an
-    // der Koordinate selbst, damit die Verankerung sichtbar bleibt.
-    stroke(ROUTE_COLOR_RGB.r, ROUTE_COLOR_RGB.g, ROUTE_COLOR_RGB.b, effAlpha);
-    strokeWeight(1.5);
-    line(anker[i].x, anker[i].y, anker[i].x, platz.cy);
-    noStroke();
-    drawingContext.fillStyle = `rgba(${ROUTE_COLOR_RGB.r}, ${ROUTE_COLOR_RGB.g}, ${ROUTE_COLOR_RGB.b}, ${effAlpha / 255})`;
+    if (tiefe > 0.5) {
+      stroke(ROUTE_COLOR_RGB.r, ROUTE_COLOR_RGB.g, ROUTE_COLOR_RGB.b, alpha);
+      strokeWeight(1.5);
+      line(anker.x, anker.y, anker.x, cy);
+      noStroke();
+    }
+
+    // Ortspunkt am unteren Ende der Linie — er wandert hinunter und wieder
+    // zurück auf seinen echten Ort.
+    drawingContext.fillStyle = `rgba(${ROUTE_COLOR_RGB.r}, ${ROUTE_COLOR_RGB.g}, ${ROUTE_COLOR_RGB.b}, ${alpha / 255})`;
     drawingContext.beginPath();
-    drawingContext.arc(anker[i].x, anker[i].y, 3, 0, TWO_PI);
+    drawingContext.arc(anker.x, cy, 3.5, 0, TWO_PI);
     drawingContext.fill();
 
-    let radius = zeichneKreiseFuerRun(anker[i].x, platz.cy, bandCounts, effAlpha / 255,
-      -HALF_PI, layout.skala, Infinity);
-    zeichneFwertPunkte(anker[i].x, platz.cy, radius, fwerte, effAlpha / 255);
+    let radius = 0;
+    let stand = null;
+    if (kreisAlpha > 0) {
+      stand = ovStand(i, maxKapitel);
+      radius = zeichneKreiseFuerRun(anker.x, cy, stand.bandCounts, (alpha / 255) * kreisAlpha,
+        -HALF_PI, layout.kreisSkala, Infinity);
+      zeichneFwertPunkte(anker.x, cy, radius, stand.fwerte, (alpha / 255) * kreisAlpha);
+    }
 
-    noStroke();
-    fill(33, 43, 46, effAlpha); // #212B2E, wie die Kapitelnummern
-    drawingContext.fillText(k.label.toUpperCase(), anker[i].x,
-      platz.cy + platz.aussen + VERGLEICHS_KNOTEN_LABEL_ABSTAND);
+    // Reihenfolge von oben nach unten: Kreis, Ortsbeschriftung, Kapitelzähler.
+    let rand = radius > 0 ? radius : 6;
+
+    let zeilen = layout.labelZeilen[i];
+    if (pLabel > 0) {
+      textStyle(BOLD);
+      textSize(13);
+      fill(33, 43, 46, alpha * pLabel); // #212B2E
+      zeilen.forEach((zeile, z) => {
+        drawingContext.fillText(zeile, anker.x, cy + rand + 24 + z * OV_LABEL_ZEILE);
+      });
+    }
+
+    // Kapitelzähler darunter — rutscht bei zweizeiliger Beschriftung mit.
+    if (kreisAlpha > 0 && stand) {
+      textStyle(NORMAL);
+      textSize(11);
+      fill(90, 90, 90, alpha * kreisAlpha);
+      drawingContext.fillText(stand.letztes ? `Kapitel ${stand.letztes}` : 'Kapitel –',
+        anker.x, cy + rand + 24 + (zeilen.length - 1) * OV_LABEL_ZEILE + 16);
+    }
   });
+
+  textAlign(LEFT, CENTER); // zurücksetzen — andere Zeichenfunktionen erwarten das
   textStyle(NORMAL);
 }
 
@@ -2196,6 +2378,53 @@ function zeichneVergleichsKnoten(bbox, kapitelListe, n, fortschritt, alpha) {
 // wird in gleich grosse Abschnitte pro Kapitel aufgeteilt — Kapitel 02
 // zeichnet sich zuerst komplett, dann 03, usw. Ein Kapitel, dessen Abschnitt
 // noch nicht erreicht ist, bleibt (Route + Startpunkt/Nummer) unsichtbar.
+// Aufteilung des Übersichtsakts auf die Kapitel. Früher bekam jedes Kapitel
+// gleich viel Scrollstrecke — dabei schwankte die Zeichengeschwindigkeit um
+// das 27-fache: Kapitel 5 zog 1625 Routenpunkte durch dieselben 173vh wie
+// Kapitel 18 seine 60, und Kapitel 2 stand mit seinem einzigen Punkt zwei
+// Bildschirmhöhen lang still.
+//
+// Jetzt richtet sich die Scheibenbreite nach der Routenlänge. Ein fester
+// Grundanteil wird trotzdem gleichmässig verteilt, damit auch ein kurzes
+// Kapitel genug Strecke für Badge und Einstiegstext behält — ohne ihn bekäme
+// Kapitel 2 mit einem von 10974 Punkten praktisch keine.
+const OV_SCHEIBE_GRUNDANTEIL = 0.45; // Anteil des Akts, der gleichmässig verteilt wird
+let ovScheiben = null;
+
+function kapitelScheiben() {
+  if (ovScheiben) return ovScheiben;
+  let liste = Object.keys(uebersichtsRouten || {}).sort();
+  if (!liste.length) return [];
+  let laengen = liste.map(nr => uebersichtsRouten[nr].length);
+  let summe = laengen.reduce((a, b) => a + b, 0) || 1;
+  let grund = OV_SCHEIBE_GRUNDANTEIL / liste.length;
+  let rest = 1 - OV_SCHEIBE_GRUNDANTEIL;
+  let scheiben = [];
+  let kum = 0;
+  liste.forEach((nr, i) => {
+    let anteil = grund + rest * laengen[i] / summe;
+    scheiben.push({ nr, von: kum, bis: kum + anteil });
+    kum += anteil;
+  });
+  ovScheiben = scheiben;
+  return ovScheiben;
+}
+
+// Wie "heiss" ein Kapitel gerade ist: 1 während seiner eigenen Scheibe des
+// Akts, danach auf 0. Route und Badge nehmen denselben Wert und wechseln
+// dadurch gemeinsam von der Hoverfarbe (#C2511C) auf das Routengold.
+//
+// Der Wechsel fällt mit der Übergabe zusammen: sobald das nächste Kapitel
+// aktiv wird, ist das vorherige gold. Das Nachglühen dauert nur so lange,
+// dass kein harter Farbsprung entsteht. Auf 0 gesetzt springt die Farbe hart um.
+const OV_NACHGLUEHEN = 0.05; // Anteil einer Scheibe für den Übergang
+
+function kapitelHitze(fortschritt, scheibe) {
+  if (!scheibe) return 0;
+  let breite = scheibe.bis - scheibe.von;
+  return 1 - constrain(map(fortschritt, scheibe.bis, scheibe.bis + breite * OV_NACHGLUEHEN, 0, 1), 0, 1);
+}
+
 function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   noFill();
   strokeWeight(2);
@@ -2223,7 +2452,9 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   // Kapitels (+ Kapitel 1, die separat über zeichneRoute läuft) eingeblendet
   // — alle anderen Übersichtsrouten blenden mit kapitelZoomAmount aus.
   kapitelListe.forEach(([kapitelNr, punkte], i) => {
-    let lokalerFortschritt = constrain(map(fortschritt, i / n, (i + 1) / n, 0, 1), 0, 1);
+    let scheibe = kapitelScheiben()[i];
+    let lokalerFortschritt = scheibe
+      ? constrain(map(fortschritt, scheibe.von, scheibe.bis, 0, 1), 0, 1) : 0;
     if (lokalerFortschritt <= 0) return;
 
     // kapitel-routen-uebersicht.json enthält seit
@@ -2240,7 +2471,13 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
       ? alpha * (1 - kapitelZoomAmount)
       : alpha;
     if (routenAlpha <= 0) return;
-    stroke(ROUTE_COLOR_RGB.r, ROUTE_COLOR_RGB.g, ROUTE_COLOR_RGB.b, routenAlpha);
+    // Während sie wächst, wird die Route in der Hoverfarbe gezeichnet und
+    // kühlt danach auf Gold ab — so ist im Scrollen zu sehen, welche Linie
+    // gerade entsteht und welche schon liegt.
+    let hitze = zoomedKapitel ? 0 : kapitelHitze(fortschritt, scheibe);
+    stroke(lerp(ROUTE_COLOR_RGB.r, FWERT_COLOR_RGB.r, hitze),
+      lerp(ROUTE_COLOR_RGB.g, FWERT_COLOR_RGB.g, hitze),
+      lerp(ROUTE_COLOR_RGB.b, FWERT_COLOR_RGB.b, hitze), routenAlpha);
     let anzahl = Math.max(1, Math.round(lokalerFortschritt * punkte.length));
     beginShape();
     for (let j = 0; j < anzahl; j++) {
@@ -2356,10 +2593,23 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   // Versatz zeichnet das später gelistete Kapitel (höhere Nummer) sein
   // Badge exakt über das frühere, das dadurch unsichtbar UND unklickbar
   // wird — daher unten ein kleiner kreisförmiger Versatz pro Gruppe.
+  // Gruppiert wird nach ABSTAND, nicht nach exakt gleicher Koordinate. Ein
+  // Text-Vergleich der Zahlen hätte Kapitel 18 aus der Gruppe 08/09 fallen
+  // lassen: sein Startpunkt liegt 0.24 m daneben (2.31921 gegen 2.3192132),
+  // auf dem Bildschirm also exakt auf demselben Pixel. Es bekam dadurch
+  // keinen Versatz und lag mittig unter den beiden anderen Badges.
+  const DUP_TOLERANZ = 0.0003; // Grad, rund 25 m — deutlich unter dem kleinsten echten Abstand zweier Startpunkte (223 m)
   let startDupGruppen = {};
+  let dupSchluessel = {};
   kapitelListe.forEach(([kapitelNr, punkte]) => {
-    let key = punkte[0][0] + ',' + punkte[0][1];
+    let [lon, lat] = punkte[0];
+    let key = Object.keys(startDupGruppen).find(k => {
+      let [kl, kb] = k.split(',').map(Number);
+      return Math.abs(kl - lon) < DUP_TOLERANZ && Math.abs(kb - lat) < DUP_TOLERANZ;
+    });
+    if (!key) key = lon + ',' + lat;
     (startDupGruppen[key] = startDupGruppen[key] || []).push(kapitelNr);
+    dupSchluessel[kapitelNr] = key;
   });
 
   kapitelListe.forEach(([kapitelNr, punkte], i) => {
@@ -2400,14 +2650,22 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
     // startDupGruppen oben) — jedes Kapitel der Gruppe bekommt einen festen,
     // eigenen Platz auf einem kleinen Kreis um den echten Punkt, statt sich
     // mit den anderen zu überlagern.
-    let dupGruppe = startDupGruppen[punkte[0][0] + ',' + punkte[0][1]];
+    let dupGruppe = startDupGruppen[dupSchluessel[kapitelNr]];
+    let dupAnker = null;
+    let labelLinks = false; // Nummer nach links statt rechts setzen
     if (dupGruppe.length > 1) {
       let dupWinkel = (dupGruppe.indexOf(kapitelNr) / dupGruppe.length) * TWO_PI;
       const dupVersatz = 13; // px
+      dupAnker = start; // echter Routenanfang, für die Verbindungslinie unten
       start = {
         x: start.x + cos(dupWinkel) * dupVersatz,
         y: start.y + sin(dupWinkel) * dupVersatz,
       };
+      // Nummer auf die AUSSENSEITE des Versatzkreises setzen. Sonst steht sie
+      // immer rechts vom Punkt und damit bei den linken Badges quer über der
+      // Gruppenmitte — bei Kapitel 2 lagen die Nummern von 13 und 15 direkt
+      // über und unter dessen Punkt und drückten ihn zwischen sich ein.
+      labelLinks = cos(dupWinkel) < -0.01;
     }
 
     // Klickbar, sobald entweder ein eigener Kartenausschnitt (kapitelKarten)
@@ -2418,18 +2676,48 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
     let hover = klickbar && dist(mouseX, mouseY, start.x, start.y) < FOTO_MARKER_TREFFER_RADIUS;
     if (hover) kapitelHover = kapitelNr;
 
+    // Punkt und Nummer nehmen dieselbe Hitze wie die Linie (siehe
+    // kapitelHitze): voll in der Hoverfarbe, solange die eigene Route wächst,
+    // danach gemeinsam mit ihr auf die normale Farbe abkühlend. Die
+    // Punktgrösse bleibt normal, damit der echte Hover unterscheidbar bleibt.
+    let scheibe = kapitelScheiben()[i];
+    let lokalerFortschritt = scheibe
+      ? constrain(map(fortschritt, scheibe.von, scheibe.bis, 0, 1), 0, 1) : 0;
+    let hitze = (!zoomedKapitel && lokalerFortschritt > 0) ? kapitelHitze(fortschritt, scheibe) : 0;
+
     // fill(hexString, alpha) ist keine verlässliche p5-Signatur (bricht die
     // Farb-Auflösung ab) — deshalb RGB statt Hex+Alpha, wie überall sonst
     // im Sketch (z.B. ROUTE_COLOR_RGB).
+    // Verbindungsstrich vom versetzten Badge zurück zum echten Routenanfang.
+    // Ohne ihn wirkt ein Badge, dessen Versatzwinkel quer zur Route zeigt,
+    // wie ein Punkt ohne Route — genau das passierte Kapitel 7, das sich die
+    // Redaktion als Startpunkt mit 10 und 11 teilt und den Winkel 0 (nach
+    // rechts) bekam, während die Linie dort nach oben wegläuft.
+    if (dupAnker) {
+      stroke(33, 43, 46, labelAlpha * 0.55);
+      strokeWeight(1);
+      line(dupAnker.x, dupAnker.y, start.x, start.y);
+      noStroke();
+    }
+
     if (hover) fill(FWERT_COLOR_RGB.r, FWERT_COLOR_RGB.g, FWERT_COLOR_RGB.b, labelAlpha); // #C2511C
-    else fill(33, 43, 46, labelAlpha); // #212B2E
+    else fill(lerp(33, FWERT_COLOR_RGB.r, hitze), lerp(43, FWERT_COLOR_RGB.g, hitze),
+      lerp(46, FWERT_COLOR_RGB.b, hitze), labelAlpha); // #212B2E .. #C2511C
     ellipse(start.x, start.y, hover ? 11 : 8, hover ? 11 : 8);
     // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
     // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
     // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal, gleicher
     // Bug/Workaround) — direkt über den Canvas-Context gezeichnet, fillStyle
     // kommt schon vom fill()-Aufruf oben.
-    drawingContext.fillText(kapitelNr, start.x + 8, start.y);
+    if (labelLinks) {
+      textAlign(RIGHT, CENTER);
+      drawingContext.textAlign = 'right';
+      drawingContext.fillText(kapitelNr, start.x - 8, start.y);
+      textAlign(LEFT, CENTER);
+      drawingContext.textAlign = 'left';
+    } else {
+      drawingContext.fillText(kapitelNr, start.x + 8, start.y);
+    }
   });
 
   // Kapitel 1 hat keine Übersichtsroute in uebersichtsRouten (eigene, separat
@@ -2448,7 +2736,6 @@ function zeichneUebersichtsrouten(bbox, alpha, fortschritt) {
   textStyle(NORMAL);
   cursor(kapitelHover ? HAND : ARROW);
 
-  zeichneVergleichsKnoten(bbox, kapitelListe, n, fortschritt, alpha);
 
   // aktuelleAnnotationZoom: für die Annotationsbox in draw() (nur bei
   // Kapitel 02–18 relevant — Kapitel 1s eigene Annotation läuft weiterhin
