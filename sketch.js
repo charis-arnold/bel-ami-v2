@@ -1066,7 +1066,7 @@ function draw() {
   // die Karte blendet aus, die Linien schrumpfen zurück auf die echten Orte,
   // Zoom, dann wachsen die Kreise während die Kapitel durchzählen.
   if (ovFortschritt > 0 && !zoomedKapitel) {
-    zeichneOrtsveraenderung(activeBbox, ovFortschritt, 255 * (1 - skRauszoom));
+    zeichneOrtsveraenderung(activeBbox, ovFortschritt, 255 * (1 - skRauszoom), 1 - skEinblenden);
   }
 
   // Grafische Ansicht (siehe kapitelAnsichtsModus): deckt Karte/Route/Kreise
@@ -1776,8 +1776,13 @@ function zeichneKreisLabels(kandidaten) {
         drawingContext.setLineDash([]);
         noStroke();
       }
-      if (k.farbe) fill(k.farbe);
-      else fill(33, 43, 46, 255 * alpha); // #212B2E
+      // Direkt statt über fill() — siehe zeichneOrtsveraenderung: p5s
+      // Füllfarben-Zwischenspeicher wird von den direkt gesetzten
+      // fillStyle-Zuweisungen in zeichneKreiseFuerRun/zeichneFwertPunkte
+      // umgangen und liefert sonst die zuletzt dort gesetzte Farbe.
+      drawingContext.fillStyle = k.farbe
+        ? k.farbe
+        : `rgba(33, 43, 46, ${alpha})`;
       // p5s text() bleibt hier während des Scrollens (viele Frames/Sekunde,
       // wechselnde Werte) manchmal unsichtbar, obwohl der Canvas-Context
       // nachweislich korrekt gesetzt ist (siehe zeichneSpineHorizontal,
@@ -2018,17 +2023,29 @@ function zeichneRoute(punkte, upToIndex, bbox, strichstaerke = 2, offsetX = mapO
 // die Madeleine-Varianten liegen 51 m auseinander. Die beiden Walter-Adressen
 // sind 465 m getrennt — der Anker liegt in ihrer Mitte.
 const VERGLEICHS_KNOTEN = [
-  { label: 'Redaktion La Vie Française', lon: 2.34663, lat: 48.87224,
+  { label: 'Redaktion La Vie Française', textSeite: 'rechts',
+    text: 'Zwölf Kapitel führen hierher. Hier wird geschrieben, was Paris für wahr hält — und hier misst sich, wer er geworden ist. Der einzige Ort, der ihn weder hebt noch senkt.',
+    daten: ['12 Kapitel', '240 Annotationen', '19 neg / 19 pos', '37 F-Werte'], lon: 2.34663, lat: 48.87224,
     namen: ['Redaktion La Vie Française'] },
-  { label: 'Wohnung Duroy/Madeleine (17 Rue Fontaine)', lon: 2.33417, lat: 48.88147,
+  { label: 'Wohnung Duroy/Madeleine (17 Rue Fontaine)', textSeite: 'rechts',
+    text: 'Er zieht in die Räume des Toten, an seinen Schreibtisch, zu seiner Frau. Was als Erbe beginnt, wird zur Zelle — am Ende zählt dieser Ort nur noch Verletzungen.',
+    daten: ['9 Kapitel', '314 Annotationen', '+0.12 → −1.00', '72 F-Werte'], lon: 2.33417, lat: 48.88147,
     namen: ['Wohnung Forestier (17 Rue Fontaine)', 'Wohnung Duroy/Madeleine (17 Rue Fontaine)'] },
-  { label: 'Rue Constantinople 127', lon: 2.31921, lat: 48.88037,
+  { label: 'Rue Constantinople 127', textSeite: 'links-fix', versatz: { x: 0, y: 28 },
+    text: 'Die Wohnung, die niemand kennt. Erst gehört sie der Lust, dann der Berechnung — dieselben vier Wände, in denen er Clotilde empfängt und Madeleine stellt.',
+    daten: ['8 Kapitel', '166 Annotationen', '43 neg / 17 pos', '43 F-Werte'], lon: 2.31921, lat: 48.88037,
     namen: ['Rue Constantinople 127', 'Wohnung Du Roy (Rue Constantinople 127)'] },
-  { label: 'Palais Walter, Faubourg Saint-Honoré', lon: 2.31919, lat: 48.87126,
+  { label: 'Palais Walter, Faubourg Saint-Honoré', textSeite: 'links-fix', versatz: { x: -28, y: 0 },
+    text: 'Der Gipfel, auf den er zielt, zieht selbst um — vom Boulevard ins Palais. Hier wird das Vermögen gemacht, das ihn trägt, und hier bricht Frau Walter vor einem Bild zusammen, das sein Gesicht hat.',
+    daten: ['6 Kapitel', '251 Annotationen', '44 neg / 23 pos', '72 F-Werte'], lon: 2.31919, lat: 48.87126,
     namen: ['Boulevard Malesherbes (Walters Haus)', 'Palais Walter, Faubourg Saint-Honoré'] },
-  { label: 'Georges Duroys Wohnung (Rue Boursault)', lon: 2.31879, lat: 48.88519,
+  { label: 'Georges Duroys Wohnung (Rue Boursault)', textSeite: 'links-fix', versatz: { x: 0, y: -12 },
+    text: 'Ein Zimmer, das nach Armut riecht. Kein Ort des Romans wird härter empfunden — und keiner verschwindet so vollständig: Nach Kapitel 7 kehrt er nie zurück.',
+    daten: ['5 Kapitel', '227 Annotationen', '86 neg / 27 pos', '98 F-Werte'], lon: 2.31879, lat: 48.88519,
     namen: ['Georges Duroys Wohnung (Rue Boursault)'] },
-  { label: 'Place de la Madeleine', lon: 2.32439, lat: 48.86993,
+  { label: 'Place de la Madeleine', textSeite: 'oben-fix', versatz: { x: 28, y: 0 },
+    text: 'Am Anfang geht er hungrig an den Terrassen vorbei und zählt seine Münzen. Am Ende läutet dieselbe Kirche für seine Hochzeit. Kein zweiter Ort kehrt sein Vorzeichen so vollständig um.',
+    daten: ['2 Kapitel', '106 Annotationen', '−1.00 → +0.71', '52 F-Werte'], lon: 2.32439, lat: 48.86993,
     namen: ['Place de la Madeleine', 'Église de la Madeleine, Paris'] },
   // Einziger öffentlicher Ort neben der Madeleine, der über mehrere Kapitel
   // trägt — aber nur, wenn man die kapitelweise vergebenen Einzelnamen wieder
@@ -2041,7 +2058,9 @@ const VERGLEICHS_KNOTEN = [
   // des Batignolles. Das Label ist als einziges kein Kapitelname: für die
   // Gruppe gibt es keinen, "Grands Boulevards" ist der historische Name der
   // Achse.
-  { label: 'Grands Boulevards', lon: 2.33617, lat: 48.87124,
+  { label: 'Grands Boulevards', textSeite: 'oben-fix',
+    text: 'Die Bühne der Stadt. Erst steht er davor und sieht zu, wie andere sitzen; später sitzt er selbst, bestellt und wird gesehen.',
+    daten: ['7 Kapitel', '114 Annotationen', '−0.50 → +0.50', '36 F-Werte'], lon: 2.33617, lat: 48.87124,
     namen: ['Boulevard des Italiens', 'Boulevard des Capucines', 'Boulevard Poissonnière',
       'Café Riche, Boulevard des Italiens, Paris', 'Café Tortoni, Boulevard des Italiens',
       'Café am Boulevard (Näherung Boulevard Poissonière)', 'Café-Chantant am Boulevard des Capucines',
@@ -2089,6 +2108,67 @@ const OV_LINIE_SCHRITT = 64;  // zusätzliche Tiefe je weiterem Knoten
 
 const OV_LABEL_MAX_BREITE = 200; // ab dieser Breite wird zweizeilig gesetzt
 const OV_LABEL_ZEILE = 15;       // Zeilenhöhe der Ortsbeschriftung
+const OV_LABEL_ABSTAND = 34;     // Luft zwischen Kreisrand und Ortsbeschriftung
+const OV_LABEL_LUFT = 12;        // Mindestabstand zwischen Beschriftung und nächstem Kreis
+// Erläuterungstext unter jedem Kreis: dieselbe Serifenschrift wie die
+// Einstiegstexte, nur viel kleiner. Er erzählt die gefühlte Veränderung des
+// Orts und nennt die Zahlen dahinter.
+const OV_TEXT_GROESSE = 11;
+const OV_TEXT_ZEILE = 16;
+const OV_TEXT_BREITE = 220;
+const OV_TEXT_ABSTAND = 30;      // Luft zwischen Kreisrand und seitlichem Textblock
+                                 // (je Knoten über textAbstand überschreibbar)
+const OV_TEXT_ABSTAND_OBEN = 46; // mehr Luft bei den Blöcken über dem Kreis
+// textSeite legt fest, wo der Erläuterungsblock steht:
+//   'links-fix' / 'rechts-fix' — am linken bzw. rechten Fensterrand
+//   'links'     / 'rechts'     — direkt neben dem Kreis, Seite vorgegeben
+//   'oben-fix'                 — über dem Kreis, linke Textkante auf dessen Achse
+//   ohne Angabe                — seitlich neben dem Kreis, nach aussen von
+//                                der Bildmitte gewählt
+// Alle fixierten Varianten werden bei der Zoomberechnung NICHT mitgezählt:
+// sie stehen fest, und die Kreise sollen sich ihretwegen nicht verschieben.
+// Der Text ist in jedem Fall linksbündig gesetzt.
+const OV_TEXT_RAND = 24;         // Abstand vom Fensterrand bei fixierten Blöcken
+// Zuführungslinie vom Ortspunkt zur Textbox. Die Box hängt versetzt an ihrem
+// Ende, damit die Linie nicht durch den Text läuft: bei den seitlichen Blöcken
+// unterhalb der waagrechten Linie, beim oberen rechts neben der senkrechten.
+const OV_LINIE_VERSATZ = 14;     // Abstand zwischen Linie und erster Textzeile
+
+// versatz: Feinkorrektur einzelner Ortspunkte in Bildschirmpixeln. Sie fährt
+// zusammen mit dem Schlusszoom ein (OV_ZOOM) — in genau dem Moment blendet die
+// Route aus, die Punkte müssen also nicht mehr exakt auf ihr liegen. Sie
+// schafft Luft, wo die Beschriftung eines Kreises in den Nachbarkreis lief:
+// Palais Walter und Place de la Madeleine rücken waagrecht auseinander,
+// Rue Boursault und Rue Constantinople senkrecht.
+function ovVersatz(knoten, faktor) {
+  let v = knoten.versatz;
+  return v ? { x: (v.x || 0) * faktor, y: (v.y || 0) * faktor } : { x: 0, y: 0 };
+}
+const OV_TEXT_FONT = "'Source Serif 4', serif";
+// Datenzeile unter dem Fliesstext — im Stil der Kategorien in der
+// Annotationsbox (.annotation-tag): serifenlos, fett, versal, gesperrt.
+const OV_DATEN_GROESSE = 9.5;
+const OV_DATEN_ZEILE = 14;
+const OV_DATEN_ABSTAND = 12;   // Luft zwischen Fliesstext und Datenzeile
+const OV_DATEN_TRENNER = '  ·  ';
+
+// Bricht einen Fliesstext auf eine Maximalbreite um. Setzt voraus, dass
+// Schrift und Grösse gesetzt sind (textWidth misst mit dem aktuellen Zustand).
+function ovTextUmbruch(text, maxBreite) {
+  let zeilen = [];
+  let aktuell = '';
+  (text || '').split(' ').forEach(wort => {
+    let versuch = aktuell ? aktuell + ' ' + wort : wort;
+    if (aktuell && textWidth(versuch) > maxBreite) {
+      zeilen.push(aktuell);
+      aktuell = wort;
+    } else {
+      aktuell = versuch;
+    }
+  });
+  if (aktuell) zeilen.push(aktuell);
+  return zeilen;
+}
 
 // Bricht eine lange Ortsbeschriftung auf zwei Zeilen. Bevorzugte Trennstellen
 // in dieser Reihenfolge: vor einer Klammer ("GEORGES DUROYS WOHNUNG" /
@@ -2123,6 +2203,7 @@ function ovPhase(p, fenster) {
 // Einmal gebaut, danach nur noch aufaddiert.
 let ovProKapitel = null;   // [knoten][kapitelNr] -> { bandCounts, fwerte }
 let ovRohradien = null;    // Endstand-Rohradius je Knoten (ohne Deckel)
+let ovErstesKapitel = null; // erste Kapitelnummer mit Inhalt, je Knoten
 let ovLayout = null;       // { breite, hoehe, tiefen, kreisSkala, bbox }
 
 function ovLeereBandCounts() {
@@ -2170,6 +2251,15 @@ function ovBaueDaten() {
     Object.values(proKapitel).forEach(k => ovAddiere(summe, k.bandCounts));
     return ovRadiusAus(summe);
   });
+  // Erstes Kapitel, in dem der Ort überhaupt vorkommt — daran hängt das
+  // Einblenden seiner Textbox (siehe zeichneOrtsveraenderung).
+  ovErstesKapitel = ovProKapitel.map(proKapitel => {
+    let erstes = 18;
+    Object.keys(proKapitel).sort().forEach(nr => {
+      if (ovRadiusAus(proKapitel[nr].bandCounts) > 0) erstes = Math.min(erstes, parseInt(nr, 10));
+    });
+    return erstes;
+  });
   ovLayout = null;
 }
 
@@ -2212,10 +2302,35 @@ function ovBerechneLayout() {
   textSize(13);
   let labelZeilen = VERGLEICHS_KNOTEN.map(k => ovLabelZeilen(k.label.toUpperCase()));
   let labelHalb = labelZeilen.map(z => Math.max(...z.map(t => textWidth(t))) / 2);
-  // Höhe unterhalb des Kreises: Abstand zur ersten Zeile, weitere Zeilen,
-  // dann die Kapitelzeile.
-  let untenHoehe = labelZeilen.map(z => 24 + (z.length - 1) * OV_LABEL_ZEILE + 16 + 7);
   textStyle(NORMAL);
+
+  // Erläuterungstexte umbrechen — in ihrer eigenen Schrift gemessen.
+  textFont(OV_TEXT_FONT);
+  textSize(OV_TEXT_GROESSE);
+  let textZeilen = VERGLEICHS_KNOTEN.map(k => ovTextUmbruch(k.text, OV_TEXT_BREITE));
+  textFont("'Source Sans 3', sans-serif");
+  textStyle(BOLD);
+  textSize(OV_DATEN_GROESSE);
+  // Zwei feste Zeilen statt freiem Umbruch: Kapitel und Annotationen oben,
+  // die Valenz (neg/pos bzw. der Verlauf) und die F-Werte darunter. So steht
+  // die Gefühlsangabe bei jedem Ort an derselben Stelle.
+  let datenZeilen = VERGLEICHS_KNOTEN.map(k => {
+    if (!k.daten || !k.daten.length) return [];
+    let oben = k.daten.slice(0, 2).join(OV_DATEN_TRENNER).toUpperCase();
+    let unten = k.daten.slice(2).join(OV_DATEN_TRENNER).toUpperCase();
+    return ovTextUmbruch(oben, OV_TEXT_BREITE).concat(unten ? ovTextUmbruch(unten, OV_TEXT_BREITE) : []);
+  });
+  textStyle(NORMAL);
+  textFont(OV_TEXT_FONT);
+  textSize(OV_TEXT_GROESSE);
+
+  // Höhe unterhalb des Kreises: nur noch Ortsbeschriftung und Kapitelzeile.
+  // Der Erläuterungstext steht seitlich (siehe unten) und braucht hier keinen
+  // Platz mehr.
+  let untenHoehe = labelZeilen.map(z => OV_LABEL_ABSTAND + (z.length - 1) * OV_LABEL_ZEILE + 16 + 7);
+  let textBreite = textZeilen.map(z => z.length ? Math.max(...z.map(t => textWidth(t))) : 0);
+  // Halbe Texthöhe — der Block steht mittig auf der Kreishöhe.
+  let textHalbHoehe = textZeilen.map(z => z.length ? (z.length - 1) * OV_TEXT_ZEILE / 2 : 0);
 
   let lons = VERGLEICHS_KNOTEN.map(k => k.lon);
   let lats = VERGLEICHS_KNOTEN.map(k => k.lat);
@@ -2246,13 +2361,33 @@ function ovBerechneLayout() {
     return { west, east: ost, south: sued, north: nord };
   };
 
-  // Kreis-Skala: grösster Faktor, bei dem sich keine zwei Kreise berühren.
+  // Kreis-Skala: grösster Faktor, bei dem sich weder zwei Kreise berühren NOCH
+  // die Beschriftung eines Kreises in den darunterliegenden läuft.
+  //
+  // Die zweite Bedingung ist nötig, weil Ortsname und Kapitelzeile unter dem
+  // Kreis hängen und NICHT mitskalieren: je grösser die Kreise, desto eher
+  // stösst der Text des oberen an den unteren. Für ein senkrecht gestapeltes
+  // Paar (waagrecht so nah, dass der Text den unteren Kreis trifft) gilt
+  //   dy >= r_oben * s + untenHoehe_oben + r_unten * s
+  // und damit s <= (dy - untenHoehe_oben) / (r_oben + r_unten).
   let skalaFuer = (bbox, pos) => {
     let skala = 1;
     for (let i = 0; i < pos.length; i++) {
       for (let j = i + 1; j < pos.length; j++) {
         let d = dist(pos[i].x, pos[i].y, pos[j].x, pos[j].y);
         skala = Math.min(skala, d / ((ovRohradien[i] + ovRohradien[j]) * 1.06));
+
+        let oben = pos[i].y < pos[j].y ? i : j;
+        let unten = oben === i ? j : i;
+        let dy = Math.abs(pos[i].y - pos[j].y);
+        let dx = Math.abs(pos[i].x - pos[j].x);
+        // Trifft die Beschriftung des oberen den unteren überhaupt seitlich?
+        if (dx < labelHalb[oben] + ovRohradien[unten] * skala) {
+          // OV_LABEL_LUFT: sonst berühren sich Beschriftung und Kreis exakt,
+          // weil die Bedingung mit Gleichheit erfüllt wird.
+          let erlaubt = (dy - untenHoehe[oben] - OV_LABEL_LUFT) / (ovRohradien[oben] + ovRohradien[unten]);
+          if (erlaubt > 0) skala = Math.min(skala, erlaubt);
+        }
       }
     }
     return skala;
@@ -2263,15 +2398,27 @@ function ovBerechneLayout() {
   // unten zusätzlich Ortsbeschriftung und Kapitelzeile, seitlich die halbe
   // Beschriftungsbreite. Ein Rand, der nur die Anker umschliesst, reicht
   // nicht — die Kreise ragen um ihren Radius darüber hinaus.
+  // Der Erläuterungstext steht seitlich, und zwar nach AUSSEN: Kreise in der
+  // linken Bildhälfte bekommen ihn rechts, Kreise rechts bekommen ihn links.
+  // So wandert er nie über die Bildmitte, wo die meisten Nachbarkreise liegen.
+  let textRechts = pos => pos.x < width / 2;
   let ueberstand = (pos, skala) => {
     let max = 0;
     pos.forEach((p, i) => {
       let r = ovRohradien[i] * skala;
+      let eigen = Math.max(r, labelHalb[i]);
+      // Am Fensterrand fixierte Blöcke bleiben aussen vor: sie stehen fest und
+      // dürfen den Zoom nicht aufziehen.
+      let fix = !!VERGLEICHS_KNOTEN[i].textSeite;
+      let block = fix ? eigen : r + OV_TEXT_ABSTAND + textBreite[i];
+      let links = textRechts(p) ? eigen : block;
+      let rechts = textRechts(p) ? block : eigen;
       max = Math.max(max,
-        RAND - (p.y - r),                       // oben
-        (p.y + r + untenHoehe[i]) - (height - RAND), // unten (inkl. aller Textzeilen)
-        RAND - (p.x - Math.max(r, labelHalb[i])),
-        (p.x + Math.max(r, labelHalb[i])) - (width - RAND));
+        RAND - (p.y - Math.max(r, textHalbHoehe[i])),      // oben
+        (p.y + r + untenHoehe[i]) - (height - RAND),        // unten
+        (p.y + textHalbHoehe[i]) - (height - RAND),         // Textblock nach unten
+        RAND - (p.x - links),
+        (p.x + rechts) - (width - RAND));
     });
     return max;
   };
@@ -2280,13 +2427,18 @@ function ovBerechneLayout() {
   // kleinere Kreise (die Skala hängt an den Pixelabständen), das Verfahren
   // konvergiert deshalb.
   let rand = OV_ZOOM_RAND;
+  let mitVersatz = (bbox) => VERGLEICHS_KNOTEN.map(k => {
+    let p = lonLatToScreen(k.lon, k.lat, bbox, 0, 0);
+    let v = ovVersatz(k, 1); // das Layout rechnet mit dem Endzustand
+    return { x: p.x + v.x, y: p.y + v.y };
+  });
   let bbox = baueBbox(rand);
-  let pos = VERGLEICHS_KNOTEN.map(k => lonLatToScreen(k.lon, k.lat, bbox, 0, 0));
+  let pos = mitVersatz(bbox);
   let kreisSkala = skalaFuer(bbox, pos);
   for (let versuch = 0; versuch < 20 && ueberstand(pos, kreisSkala) > 0.5; versuch++) {
     rand *= 1.15;
     bbox = baueBbox(rand);
-    pos = VERGLEICHS_KNOTEN.map(k => lonLatToScreen(k.lon, k.lat, bbox, 0, 0));
+    pos = mitVersatz(bbox);
     kreisSkala = skalaFuer(bbox, pos);
   }
 
@@ -2299,7 +2451,8 @@ function ovBerechneLayout() {
   let platz = height - 90;
   if (maxTiefe > platz) tiefen = tiefen.map(t => t * platz / maxTiefe);
 
-  ovLayout = { breite: width, hoehe: height, bbox, kreisSkala, tiefen, reihenfolge, rand, labelZeilen };
+  ovLayout = { breite: width, hoehe: height, bbox, kreisSkala, tiefen, reihenfolge, rand,
+    labelZeilen, textZeilen, datenZeilen };
   return ovLayout;
 }
 
@@ -2311,11 +2464,16 @@ function ovZoomBbox() {
 
 // Zeichnet den Schlussakt. p = Fortschritt im Akt (0..1), bbox = die gerade
 // gültige (bereits Richtung ovZoomBbox geblendete) Kartenbbox.
-function zeichneOrtsveraenderung(bbox, p, alpha) {
+// textFaktor blendet NUR die Schrift aus, nicht die Kreise: sobald die
+// Schlusskarte einblendet, verschwinden Erläuterung, Ortsbeschriftung und
+// Kapitelzähler, während die Kreisgrafiken noch stehen und erst mit dem
+// Rauszoomen verblassen.
+function zeichneOrtsveraenderung(bbox, p, alpha, textFaktor = 1) {
   if (alpha <= 0 || !stationenData || !stationenData.annotationen) return;
   ovBaueDaten();
   let layout = ovBerechneLayout();
 
+  let pZoomPhase = ovPhase(p, OV_ZOOM);
   let pWachsen = ovPhase(p, OV_LINIE_WACHSEN);
   let pZurueck = ovPhase(p, OV_LINIE_ZURUECK);
   let pLabel = ovPhase(p, OV_LABEL_EIN);
@@ -2330,6 +2488,8 @@ function zeichneOrtsveraenderung(bbox, p, alpha) {
 
   VERGLEICHS_KNOTEN.forEach((k, i) => {
     let anker = lonLatToScreen(k.lon, k.lat, bbox, 0, 0);
+    let v = ovVersatz(k, pZoomPhase);
+    anker = { x: anker.x + v.x, y: anker.y + v.y };
     // Gestaffelter Start: der Knoten mit dem obersten Anker beginnt zuerst.
     let rang = layout.reihenfolge.indexOf(i);
     let start = (rang / n) * OV_STAFFEL;
@@ -2367,9 +2527,15 @@ function zeichneOrtsveraenderung(bbox, p, alpha) {
     if (pLabel > 0) {
       textStyle(BOLD);
       textSize(13);
-      fill(33, 43, 46, alpha * pLabel); // #212B2E
+      // fillStyle DIREKT setzen, nicht über p5s fill(): p5 merkt sich die
+      // zuletzt gesetzte Füllfarbe und überspringt die Zuweisung, wenn der
+      // Wert gleich bleibt. zeichneFwertPunkte oben schreibt fillStyle aber
+      // direkt (F-Wert-Rot) und umgeht diesen Zwischenspeicher — der
+      // Ortsname wurde dadurch rot gezeichnet, sobald sich seine Deckkraft
+      // von Frame zu Frame nicht änderte.
+      drawingContext.fillStyle = `rgba(33, 43, 46, ${alpha * pLabel * textFaktor / 255})`;
       zeilen.forEach((zeile, z) => {
-        drawingContext.fillText(zeile, anker.x, cy + rand + 24 + z * OV_LABEL_ZEILE);
+        drawingContext.fillText(zeile, anker.x, cy + rand + OV_LABEL_ABSTAND + z * OV_LABEL_ZEILE);
       });
     }
 
@@ -2377,9 +2543,101 @@ function zeichneOrtsveraenderung(bbox, p, alpha) {
     if (kreisAlpha > 0 && stand) {
       textStyle(NORMAL);
       textSize(11);
-      fill(90, 90, 90, alpha * kreisAlpha);
+      drawingContext.fillStyle = `rgba(90, 90, 90, ${alpha * kreisAlpha * textFaktor / 255})`;
       drawingContext.fillText(stand.letztes ? `Kapitel ${stand.letztes}` : 'Kapitel –',
-        anker.x, cy + rand + 24 + (zeilen.length - 1) * OV_LABEL_ZEILE + 16);
+        anker.x, cy + rand + OV_LABEL_ABSTAND + (zeilen.length - 1) * OV_LABEL_ZEILE + 16);
+    }
+
+    // Erläuterung SEITLICH neben dem Kreis, immer linksbündig gesetzt und
+    // mittig auf seiner Höhe. Sie steht nach aussen: Kreise links der
+    // Bildmitte bekommen sie rechts und umgekehrt. Dieselbe Serifenschrift
+    // wie die Einstiegstexte, nur viel kleiner; sie blendet mit der
+    // Ortsbeschriftung ein.
+    // Die Textbox erscheint dann, wenn dieser Ort seine ERSTE Annotation
+    // bekommt — also genau in dem Kapitelschritt, in dem seine Kreisgrafik
+    // zum ersten Mal etwas zeigt. Die Redaktion, die Madeleine und die
+    // Boulevards starten in Kapitel 1, die Rue Boursault in 3, die Rue
+    // Constantinople in 5, Rue Fontaine und Palais Walter in 6 — die Texte
+    // erscheinen dadurch nacheinander statt alle auf einmal.
+    // pKapitel * 18 ist die laufende, ungerundete Position des Kapitelzählers.
+    let erstes = ovErstesKapitel[i];
+    let pTextbox = constrain(map(pKapitel * 18, erstes - 1, erstes, 0, 1), 0, 1);
+    let erlaeuterung = layout.textZeilen[i];
+    if (pTextbox > 0 && erlaeuterung && erlaeuterung.length) {
+      textFont(OV_TEXT_FONT);
+      textStyle(NORMAL);
+      textSize(OV_TEXT_GROESSE);
+      textAlign(LEFT, CENTER);
+      drawingContext.textAlign = 'left';
+      drawingContext.fillStyle = `rgba(33, 43, 46, ${alpha * pTextbox * textFaktor * 0.85 / 255})`;
+      let breite = Math.max(...erlaeuterung.map(t => textWidth(t)));
+      // Der Textblock hängt am ENDRADIUS, nicht am laufenden: sonst schöbe
+      // ihn der wachsende Kreis Kapitel für Kapitel vor sich her. So steht er
+      // von Anfang an fest, und der Kreis wächst in seine endgültige Grösse
+      // hinein, ohne den Text zu bewegen.
+      let endRand = ovRohradien[i] * layout.kreisSkala;
+      let abstand = k.textAbstand || OV_TEXT_ABSTAND;
+      let linksBuendig, start;
+      let linie = null; // [x1, y1, x2, y2] — Zuführung vom Ortspunkt zur Box
+      if (k.textSeite === 'oben-fix') {
+        // Senkrechte Linie vom Kreis nach oben; die Box hängt rechts davon,
+        // ihr oberer Rand am Ende der Linie.
+        let datenHoehe = layout.datenZeilen[i].length
+          ? OV_DATEN_ABSTAND + layout.datenZeilen[i].length * OV_DATEN_ZEILE : 0;
+        start = cy - endRand - OV_TEXT_ABSTAND_OBEN - datenHoehe
+          - (erlaeuterung.length - 1) * OV_TEXT_ZEILE;
+        linksBuendig = anker.x + OV_LINIE_VERSATZ;
+        linie = [anker.x, cy - endRand, anker.x, start - OV_TEXT_ZEILE / 2];
+      } else {
+        // Waagrechte Linie auf Höhe des Ortspunkts; die Box hängt darunter.
+        // Links endet die Linie am linken Boxrand, rechts am rechten — so
+        // spannt sie einmal über die Boxbreite und der Text bleibt frei.
+        let rechtsDavon = k.textSeite === 'rechts' ? true
+          : k.textSeite === 'links' ? false
+          : anker.x < width / 2;
+        if (k.textSeite === 'links-fix') linksBuendig = OV_TEXT_RAND;
+        else if (k.textSeite === 'rechts-fix') linksBuendig = width - OV_TEXT_RAND - breite;
+        else linksBuendig = rechtsDavon
+          ? anker.x + endRand + abstand
+          : anker.x - endRand - abstand - breite;
+        let nachRechts = linksBuendig > anker.x;
+        linie = [anker.x + (nachRechts ? endRand : -endRand), cy,
+          nachRechts ? linksBuendig + breite : linksBuendig, cy];
+        start = cy + OV_LINIE_VERSATZ + OV_TEXT_ZEILE / 2;
+      }
+
+      if (linie) {
+        stroke(33, 43, 46, alpha * pTextbox * textFaktor * 0.5);
+        strokeWeight(1);
+        line(linie[0], linie[1], linie[2], linie[3]);
+        noStroke();
+      }
+      erlaeuterung.forEach((zeile, z) => {
+        drawingContext.fillText(zeile, linksBuendig, start + z * OV_TEXT_ZEILE);
+      });
+
+      // Datenzeile darunter — Zahlen und F-Werte im Stil der Kategorien in
+      // der Annotationsbox. letterSpacing kennt nicht jeder Browser; wo es
+      // fehlt, wird es schlicht ignoriert.
+      let daten = layout.datenZeilen[i];
+      if (daten && daten.length) {
+        textFont("'Source Sans 3', sans-serif");
+        textStyle(BOLD);
+        textSize(OV_DATEN_GROESSE);
+        drawingContext.letterSpacing = '0.06em';
+        drawingContext.fillStyle = `rgba(33, 43, 46, ${alpha * pTextbox * textFaktor * 0.7 / 255})`;
+        let dStart = start + (erlaeuterung.length - 1) * OV_TEXT_ZEILE + OV_DATEN_ABSTAND + OV_DATEN_ZEILE;
+        daten.forEach((zeile, z) => {
+          drawingContext.fillText(zeile, linksBuendig, dStart + z * OV_DATEN_ZEILE);
+        });
+        drawingContext.letterSpacing = '0px';
+        textStyle(NORMAL);
+      }
+
+      textFont("'Source Sans 3', sans-serif");
+      textSize(11);
+      textAlign(CENTER, CENTER);
+      drawingContext.textAlign = 'center';
     }
   });
 
@@ -2415,10 +2673,17 @@ function kapitelScheiben() {
   let summe = laengen.reduce((a, b) => a + b, 0) || 1;
   let grund = OV_SCHEIBE_GRUNDANTEIL / liste.length;
   let rest = 1 - OV_SCHEIBE_GRUNDANTEIL;
+  let anteile = liste.map((nr, i) => grund + rest * laengen[i] / summe);
+  // Am Ende Platz für das Nachglühen des LETZTEN Kapitels reservieren: seine
+  // Scheibe endete sonst exakt bei 1.0, und weil der Aktfortschritt dort
+  // geklemmt wird, läge sein Abkühlfenster jenseits des Erreichbaren — Punkt,
+  // Nummer und Route von Kapitel 18 blieben dauerhaft in der Hoverfarbe.
+  // Alle Scheiben werden dafür um denselben Faktor gestaucht (rund 0.2 %).
+  let stauchung = 1 / (1 + anteile[anteile.length - 1] * OV_NACHGLUEHEN);
   let scheiben = [];
   let kum = 0;
   liste.forEach((nr, i) => {
-    let anteil = grund + rest * laengen[i] / summe;
+    let anteil = anteile[i] * stauchung;
     scheiben.push({ nr, von: kum, bis: kum + anteil });
     kum += anteil;
   });
